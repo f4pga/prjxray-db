@@ -5202,6 +5202,56 @@
 		}
 	},
 	"tiles": {
+		"BRKH_B_TERM_INT_X36Y104": {
+			"grid_x": 36,
+			"grid_y": 52,
+			"type": "BRKH_B_TERM_INT"
+		},
+		"BRKH_B_TERM_INT_X37Y104": {
+			"grid_x": 37,
+			"grid_y": 52,
+			"type": "BRKH_B_TERM_INT"
+		},
+		"BRKH_B_TERM_INT_X40Y104": {
+			"grid_x": 40,
+			"grid_y": 52,
+			"type": "BRKH_B_TERM_INT"
+		},
+		"BRKH_B_TERM_INT_X41Y104": {
+			"grid_x": 41,
+			"grid_y": 52,
+			"type": "BRKH_B_TERM_INT"
+		},
+		"BRKH_B_TERM_INT_X44Y104": {
+			"grid_x": 44,
+			"grid_y": 52,
+			"type": "BRKH_B_TERM_INT"
+		},
+		"BRKH_B_TERM_INT_X45Y104": {
+			"grid_x": 45,
+			"grid_y": 52,
+			"type": "BRKH_B_TERM_INT"
+		},
+		"BRKH_CLB_X10Y99": {
+			"grid_x": 30,
+			"grid_y": 52,
+			"type": "BRKH_CLB"
+		},
+		"BRKH_CLB_X11Y99": {
+			"grid_x": 33,
+			"grid_y": 52,
+			"type": "BRKH_CLB"
+		},
+		"BRKH_INT_X10Y99": {
+			"grid_x": 31,
+			"grid_y": 52,
+			"type": "BRKH_INT"
+		},
+		"BRKH_INT_X11Y99": {
+			"grid_x": 32,
+			"grid_y": 52,
+			"type": "BRKH_INT"
+		},
 		"CLBLL_L_X12Y100": {
 			"grid_x": 35,
 			"grid_y": 51,
@@ -9282,10 +9332,20 @@
 			"grid_y": 26,
 			"type": "HCLK_R"
 		},
+		"HCLK_VBRK_X29Y130": {
+			"grid_x": 29,
+			"grid_y": 26,
+			"type": "HCLK_VBRK"
+		},
 		"HCLK_VBRK_X34Y130": {
 			"grid_x": 34,
 			"grid_y": 26,
 			"type": "HCLK_VBRK"
+		},
+		"HCLK_VFRAME_X47Y130": {
+			"grid_x": 47,
+			"grid_y": 26,
+			"type": "HCLK_VFRAME"
 		},
 		"INT_L_X10Y100": {
 			"grid_x": 31,
@@ -12887,6 +12947,396 @@
 			},
 			"type": "INT_R"
 		},
+		"NULL_X29Y104": {
+			"grid_x": 29,
+			"grid_y": 52,
+			"type": "NULL"
+		},
+		"NULL_X29Y156": {
+			"grid_x": 29,
+			"grid_y": 0,
+			"type": "NULL"
+		},
+		"NULL_X30Y156": {
+			"grid_x": 30,
+			"grid_y": 0,
+			"type": "NULL"
+		},
+		"NULL_X33Y156": {
+			"grid_x": 33,
+			"grid_y": 0,
+			"type": "NULL"
+		},
+		"NULL_X34Y104": {
+			"grid_x": 34,
+			"grid_y": 52,
+			"type": "NULL"
+		},
+		"NULL_X34Y156": {
+			"grid_x": 34,
+			"grid_y": 0,
+			"type": "NULL"
+		},
+		"NULL_X35Y104": {
+			"grid_x": 35,
+			"grid_y": 52,
+			"type": "NULL"
+		},
+		"NULL_X35Y156": {
+			"grid_x": 35,
+			"grid_y": 0,
+			"type": "NULL"
+		},
+		"NULL_X38Y104": {
+			"grid_x": 38,
+			"grid_y": 52,
+			"type": "NULL"
+		},
+		"NULL_X38Y156": {
+			"grid_x": 38,
+			"grid_y": 0,
+			"type": "NULL"
+		},
+		"NULL_X39Y104": {
+			"grid_x": 39,
+			"grid_y": 52,
+			"type": "NULL"
+		},
+		"NULL_X39Y156": {
+			"grid_x": 39,
+			"grid_y": 0,
+			"type": "NULL"
+		},
+		"NULL_X42Y104": {
+			"grid_x": 42,
+			"grid_y": 52,
+			"type": "NULL"
+		},
+		"NULL_X42Y156": {
+			"grid_x": 42,
+			"grid_y": 0,
+			"type": "NULL"
+		},
+		"NULL_X43Y104": {
+			"grid_x": 43,
+			"grid_y": 52,
+			"type": "NULL"
+		},
+		"NULL_X43Y156": {
+			"grid_x": 43,
+			"grid_y": 0,
+			"type": "NULL"
+		},
+		"NULL_X46Y104": {
+			"grid_x": 46,
+			"grid_y": 52,
+			"type": "NULL"
+		},
+		"NULL_X46Y156": {
+			"grid_x": 46,
+			"grid_y": 0,
+			"type": "NULL"
+		},
+		"NULL_X47Y104": {
+			"grid_x": 47,
+			"grid_y": 52,
+			"type": "NULL"
+		},
+		"NULL_X47Y156": {
+			"grid_x": 47,
+			"grid_y": 0,
+			"type": "NULL"
+		},
+		"T_TERM_INT_X31Y156": {
+			"grid_x": 31,
+			"grid_y": 0,
+			"type": "T_TERM_INT"
+		},
+		"T_TERM_INT_X32Y156": {
+			"grid_x": 32,
+			"grid_y": 0,
+			"type": "T_TERM_INT"
+		},
+		"T_TERM_INT_X36Y156": {
+			"grid_x": 36,
+			"grid_y": 0,
+			"type": "T_TERM_INT"
+		},
+		"T_TERM_INT_X37Y156": {
+			"grid_x": 37,
+			"grid_y": 0,
+			"type": "T_TERM_INT"
+		},
+		"T_TERM_INT_X40Y156": {
+			"grid_x": 40,
+			"grid_y": 0,
+			"type": "T_TERM_INT"
+		},
+		"T_TERM_INT_X41Y156": {
+			"grid_x": 41,
+			"grid_y": 0,
+			"type": "T_TERM_INT"
+		},
+		"T_TERM_INT_X44Y156": {
+			"grid_x": 44,
+			"grid_y": 0,
+			"type": "T_TERM_INT"
+		},
+		"T_TERM_INT_X45Y156": {
+			"grid_x": 45,
+			"grid_y": 0,
+			"type": "T_TERM_INT"
+		},
+		"VBRK_X29Y105": {
+			"grid_x": 29,
+			"grid_y": 51,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y106": {
+			"grid_x": 29,
+			"grid_y": 50,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y107": {
+			"grid_x": 29,
+			"grid_y": 49,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y108": {
+			"grid_x": 29,
+			"grid_y": 48,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y109": {
+			"grid_x": 29,
+			"grid_y": 47,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y110": {
+			"grid_x": 29,
+			"grid_y": 46,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y111": {
+			"grid_x": 29,
+			"grid_y": 45,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y112": {
+			"grid_x": 29,
+			"grid_y": 44,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y113": {
+			"grid_x": 29,
+			"grid_y": 43,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y114": {
+			"grid_x": 29,
+			"grid_y": 42,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y115": {
+			"grid_x": 29,
+			"grid_y": 41,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y116": {
+			"grid_x": 29,
+			"grid_y": 40,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y117": {
+			"grid_x": 29,
+			"grid_y": 39,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y118": {
+			"grid_x": 29,
+			"grid_y": 38,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y119": {
+			"grid_x": 29,
+			"grid_y": 37,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y120": {
+			"grid_x": 29,
+			"grid_y": 36,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y121": {
+			"grid_x": 29,
+			"grid_y": 35,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y122": {
+			"grid_x": 29,
+			"grid_y": 34,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y123": {
+			"grid_x": 29,
+			"grid_y": 33,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y124": {
+			"grid_x": 29,
+			"grid_y": 32,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y125": {
+			"grid_x": 29,
+			"grid_y": 31,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y126": {
+			"grid_x": 29,
+			"grid_y": 30,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y127": {
+			"grid_x": 29,
+			"grid_y": 29,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y128": {
+			"grid_x": 29,
+			"grid_y": 28,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y129": {
+			"grid_x": 29,
+			"grid_y": 27,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y131": {
+			"grid_x": 29,
+			"grid_y": 25,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y132": {
+			"grid_x": 29,
+			"grid_y": 24,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y133": {
+			"grid_x": 29,
+			"grid_y": 23,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y134": {
+			"grid_x": 29,
+			"grid_y": 22,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y135": {
+			"grid_x": 29,
+			"grid_y": 21,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y136": {
+			"grid_x": 29,
+			"grid_y": 20,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y137": {
+			"grid_x": 29,
+			"grid_y": 19,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y138": {
+			"grid_x": 29,
+			"grid_y": 18,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y139": {
+			"grid_x": 29,
+			"grid_y": 17,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y140": {
+			"grid_x": 29,
+			"grid_y": 16,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y141": {
+			"grid_x": 29,
+			"grid_y": 15,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y142": {
+			"grid_x": 29,
+			"grid_y": 14,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y143": {
+			"grid_x": 29,
+			"grid_y": 13,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y144": {
+			"grid_x": 29,
+			"grid_y": 12,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y145": {
+			"grid_x": 29,
+			"grid_y": 11,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y146": {
+			"grid_x": 29,
+			"grid_y": 10,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y147": {
+			"grid_x": 29,
+			"grid_y": 9,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y148": {
+			"grid_x": 29,
+			"grid_y": 8,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y149": {
+			"grid_x": 29,
+			"grid_y": 7,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y150": {
+			"grid_x": 29,
+			"grid_y": 6,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y151": {
+			"grid_x": 29,
+			"grid_y": 5,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y152": {
+			"grid_x": 29,
+			"grid_y": 4,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y153": {
+			"grid_x": 29,
+			"grid_y": 3,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y154": {
+			"grid_x": 29,
+			"grid_y": 2,
+			"type": "VBRK"
+		},
+		"VBRK_X29Y155": {
+			"grid_x": 29,
+			"grid_y": 1,
+			"type": "VBRK"
+		},
 		"VBRK_X34Y105": {
 			"grid_x": 34,
 			"grid_y": 51,
@@ -13136,6 +13586,256 @@
 			"grid_x": 34,
 			"grid_y": 1,
 			"type": "VBRK"
+		},
+		"VFRAME_X47Y105": {
+			"grid_x": 47,
+			"grid_y": 51,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y106": {
+			"grid_x": 47,
+			"grid_y": 50,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y107": {
+			"grid_x": 47,
+			"grid_y": 49,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y108": {
+			"grid_x": 47,
+			"grid_y": 48,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y109": {
+			"grid_x": 47,
+			"grid_y": 47,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y110": {
+			"grid_x": 47,
+			"grid_y": 46,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y111": {
+			"grid_x": 47,
+			"grid_y": 45,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y112": {
+			"grid_x": 47,
+			"grid_y": 44,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y113": {
+			"grid_x": 47,
+			"grid_y": 43,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y114": {
+			"grid_x": 47,
+			"grid_y": 42,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y115": {
+			"grid_x": 47,
+			"grid_y": 41,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y116": {
+			"grid_x": 47,
+			"grid_y": 40,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y117": {
+			"grid_x": 47,
+			"grid_y": 39,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y118": {
+			"grid_x": 47,
+			"grid_y": 38,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y119": {
+			"grid_x": 47,
+			"grid_y": 37,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y120": {
+			"grid_x": 47,
+			"grid_y": 36,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y121": {
+			"grid_x": 47,
+			"grid_y": 35,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y122": {
+			"grid_x": 47,
+			"grid_y": 34,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y123": {
+			"grid_x": 47,
+			"grid_y": 33,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y124": {
+			"grid_x": 47,
+			"grid_y": 32,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y125": {
+			"grid_x": 47,
+			"grid_y": 31,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y126": {
+			"grid_x": 47,
+			"grid_y": 30,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y127": {
+			"grid_x": 47,
+			"grid_y": 29,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y128": {
+			"grid_x": 47,
+			"grid_y": 28,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y129": {
+			"grid_x": 47,
+			"grid_y": 27,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y131": {
+			"grid_x": 47,
+			"grid_y": 25,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y132": {
+			"grid_x": 47,
+			"grid_y": 24,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y133": {
+			"grid_x": 47,
+			"grid_y": 23,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y134": {
+			"grid_x": 47,
+			"grid_y": 22,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y135": {
+			"grid_x": 47,
+			"grid_y": 21,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y136": {
+			"grid_x": 47,
+			"grid_y": 20,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y137": {
+			"grid_x": 47,
+			"grid_y": 19,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y138": {
+			"grid_x": 47,
+			"grid_y": 18,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y139": {
+			"grid_x": 47,
+			"grid_y": 17,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y140": {
+			"grid_x": 47,
+			"grid_y": 16,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y141": {
+			"grid_x": 47,
+			"grid_y": 15,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y142": {
+			"grid_x": 47,
+			"grid_y": 14,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y143": {
+			"grid_x": 47,
+			"grid_y": 13,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y144": {
+			"grid_x": 47,
+			"grid_y": 12,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y145": {
+			"grid_x": 47,
+			"grid_y": 11,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y146": {
+			"grid_x": 47,
+			"grid_y": 10,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y147": {
+			"grid_x": 47,
+			"grid_y": 9,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y148": {
+			"grid_x": 47,
+			"grid_y": 8,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y149": {
+			"grid_x": 47,
+			"grid_y": 7,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y150": {
+			"grid_x": 47,
+			"grid_y": 6,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y151": {
+			"grid_x": 47,
+			"grid_y": 5,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y152": {
+			"grid_x": 47,
+			"grid_y": 4,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y153": {
+			"grid_x": 47,
+			"grid_y": 3,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y154": {
+			"grid_x": 47,
+			"grid_y": 2,
+			"type": "VFRAME"
+		},
+		"VFRAME_X47Y155": {
+			"grid_x": 47,
+			"grid_y": 1,
+			"type": "VFRAME"
 		}
 	}
 }
