@@ -5199,57 +5199,163 @@
 			],
 			"type": "clblm_r",
 			"words": 2
+		},
+		"SEG_HCLK_L_X31Y130": {
+			"baseaddr": [
+				"0x00020500",
+				50
+			],
+			"frames": 36,
+			"tiles": [
+				"HCLK_L_X31Y130"
+			],
+			"type": "hclk_l",
+			"words": 1
+		},
+		"SEG_HCLK_L_X36Y130": {
+			"baseaddr": [
+				"0x00020600",
+				50
+			],
+			"frames": 36,
+			"tiles": [
+				"HCLK_L_X36Y130"
+			],
+			"type": "hclk_l",
+			"words": 1
+		},
+		"SEG_HCLK_L_X40Y130": {
+			"baseaddr": [
+				"0x00020700",
+				50
+			],
+			"frames": 36,
+			"tiles": [
+				"HCLK_L_X40Y130"
+			],
+			"type": "hclk_l",
+			"words": 1
+		},
+		"SEG_HCLK_L_X44Y130": {
+			"baseaddr": [
+				"0x00020800",
+				50
+			],
+			"frames": 36,
+			"tiles": [
+				"HCLK_L_X44Y130"
+			],
+			"type": "hclk_l",
+			"words": 1
+		},
+		"SEG_HCLK_R_X32Y130": {
+			"baseaddr": [
+				"0x00020580",
+				50
+			],
+			"frames": 36,
+			"tiles": [
+				"HCLK_R_X32Y130"
+			],
+			"type": "hclk_r",
+			"words": 1
+		},
+		"SEG_HCLK_R_X37Y130": {
+			"baseaddr": [
+				"0x00020680",
+				50
+			],
+			"frames": 36,
+			"tiles": [
+				"HCLK_R_X37Y130"
+			],
+			"type": "hclk_r",
+			"words": 1
+		},
+		"SEG_HCLK_R_X41Y130": {
+			"baseaddr": [
+				"0x00020780",
+				50
+			],
+			"frames": 36,
+			"tiles": [
+				"HCLK_R_X41Y130"
+			],
+			"type": "hclk_r",
+			"words": 1
+		},
+		"SEG_HCLK_R_X45Y130": {
+			"baseaddr": [
+				"0x00020880",
+				50
+			],
+			"frames": 36,
+			"tiles": [
+				"HCLK_R_X45Y130"
+			],
+			"type": "hclk_r",
+			"words": 1
 		}
 	},
 	"tiles": {
 		"BRKH_B_TERM_INT_X36Y104": {
 			"grid_x": 36,
 			"grid_y": 52,
+			"sites": {},
 			"type": "BRKH_B_TERM_INT"
 		},
 		"BRKH_B_TERM_INT_X37Y104": {
 			"grid_x": 37,
 			"grid_y": 52,
+			"sites": {},
 			"type": "BRKH_B_TERM_INT"
 		},
 		"BRKH_B_TERM_INT_X40Y104": {
 			"grid_x": 40,
 			"grid_y": 52,
+			"sites": {},
 			"type": "BRKH_B_TERM_INT"
 		},
 		"BRKH_B_TERM_INT_X41Y104": {
 			"grid_x": 41,
 			"grid_y": 52,
+			"sites": {},
 			"type": "BRKH_B_TERM_INT"
 		},
 		"BRKH_B_TERM_INT_X44Y104": {
 			"grid_x": 44,
 			"grid_y": 52,
+			"sites": {},
 			"type": "BRKH_B_TERM_INT"
 		},
 		"BRKH_B_TERM_INT_X45Y104": {
 			"grid_x": 45,
 			"grid_y": 52,
+			"sites": {},
 			"type": "BRKH_B_TERM_INT"
 		},
 		"BRKH_CLB_X10Y99": {
 			"grid_x": 30,
 			"grid_y": 52,
+			"sites": {},
 			"type": "BRKH_CLB"
 		},
 		"BRKH_CLB_X11Y99": {
 			"grid_x": 33,
 			"grid_y": 52,
+			"sites": {},
 			"type": "BRKH_CLB"
 		},
 		"BRKH_INT_X10Y99": {
 			"grid_x": 31,
 			"grid_y": 52,
+			"sites": {},
 			"type": "BRKH_INT"
 		},
 		"BRKH_INT_X11Y99": {
 			"grid_x": 32,
 			"grid_y": 52,
+			"sites": {},
 			"type": "BRKH_INT"
 		},
 		"CLBLL_L_X12Y100": {
@@ -9255,96 +9361,123 @@
 		"HCLK_CLB_X30Y130": {
 			"grid_x": 30,
 			"grid_y": 26,
+			"sites": {},
 			"type": "HCLK_CLB"
 		},
 		"HCLK_CLB_X33Y130": {
 			"grid_x": 33,
 			"grid_y": 26,
+			"sites": {},
 			"type": "HCLK_CLB"
 		},
 		"HCLK_CLB_X35Y130": {
 			"grid_x": 35,
 			"grid_y": 26,
+			"sites": {},
 			"type": "HCLK_CLB"
 		},
 		"HCLK_CLB_X38Y130": {
 			"grid_x": 38,
 			"grid_y": 26,
+			"sites": {},
 			"type": "HCLK_CLB"
 		},
 		"HCLK_CLB_X39Y130": {
 			"grid_x": 39,
 			"grid_y": 26,
+			"sites": {},
 			"type": "HCLK_CLB"
 		},
 		"HCLK_CLB_X42Y130": {
 			"grid_x": 42,
 			"grid_y": 26,
+			"sites": {},
 			"type": "HCLK_CLB"
 		},
 		"HCLK_CLB_X43Y130": {
 			"grid_x": 43,
 			"grid_y": 26,
+			"sites": {},
 			"type": "HCLK_CLB"
 		},
 		"HCLK_CLB_X46Y130": {
 			"grid_x": 46,
 			"grid_y": 26,
+			"sites": {},
 			"type": "HCLK_CLB"
 		},
 		"HCLK_L_X31Y130": {
 			"grid_x": 31,
 			"grid_y": 26,
+			"segment": "SEG_HCLK_L_X31Y130",
+			"sites": {},
 			"type": "HCLK_L"
 		},
 		"HCLK_L_X36Y130": {
 			"grid_x": 36,
 			"grid_y": 26,
+			"segment": "SEG_HCLK_L_X36Y130",
+			"sites": {},
 			"type": "HCLK_L"
 		},
 		"HCLK_L_X40Y130": {
 			"grid_x": 40,
 			"grid_y": 26,
+			"segment": "SEG_HCLK_L_X40Y130",
+			"sites": {},
 			"type": "HCLK_L"
 		},
 		"HCLK_L_X44Y130": {
 			"grid_x": 44,
 			"grid_y": 26,
+			"segment": "SEG_HCLK_L_X44Y130",
+			"sites": {},
 			"type": "HCLK_L"
 		},
 		"HCLK_R_X32Y130": {
 			"grid_x": 32,
 			"grid_y": 26,
+			"segment": "SEG_HCLK_R_X32Y130",
+			"sites": {},
 			"type": "HCLK_R"
 		},
 		"HCLK_R_X37Y130": {
 			"grid_x": 37,
 			"grid_y": 26,
+			"segment": "SEG_HCLK_R_X37Y130",
+			"sites": {},
 			"type": "HCLK_R"
 		},
 		"HCLK_R_X41Y130": {
 			"grid_x": 41,
 			"grid_y": 26,
+			"segment": "SEG_HCLK_R_X41Y130",
+			"sites": {},
 			"type": "HCLK_R"
 		},
 		"HCLK_R_X45Y130": {
 			"grid_x": 45,
 			"grid_y": 26,
+			"segment": "SEG_HCLK_R_X45Y130",
+			"sites": {},
 			"type": "HCLK_R"
 		},
 		"HCLK_VBRK_X29Y130": {
 			"grid_x": 29,
 			"grid_y": 26,
+			"sites": {},
 			"type": "HCLK_VBRK"
 		},
 		"HCLK_VBRK_X34Y130": {
 			"grid_x": 34,
 			"grid_y": 26,
+			"sites": {},
 			"type": "HCLK_VBRK"
 		},
 		"HCLK_VFRAME_X47Y130": {
 			"grid_x": 47,
 			"grid_y": 26,
+			"sites": {},
 			"type": "HCLK_VFRAME"
 		},
 		"INT_L_X10Y100": {
@@ -12950,891 +13083,1069 @@
 		"NULL_X29Y104": {
 			"grid_x": 29,
 			"grid_y": 52,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X29Y156": {
 			"grid_x": 29,
 			"grid_y": 0,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X30Y156": {
 			"grid_x": 30,
 			"grid_y": 0,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X33Y156": {
 			"grid_x": 33,
 			"grid_y": 0,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X34Y104": {
 			"grid_x": 34,
 			"grid_y": 52,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X34Y156": {
 			"grid_x": 34,
 			"grid_y": 0,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X35Y104": {
 			"grid_x": 35,
 			"grid_y": 52,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X35Y156": {
 			"grid_x": 35,
 			"grid_y": 0,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X38Y104": {
 			"grid_x": 38,
 			"grid_y": 52,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X38Y156": {
 			"grid_x": 38,
 			"grid_y": 0,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X39Y104": {
 			"grid_x": 39,
 			"grid_y": 52,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X39Y156": {
 			"grid_x": 39,
 			"grid_y": 0,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X42Y104": {
 			"grid_x": 42,
 			"grid_y": 52,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X42Y156": {
 			"grid_x": 42,
 			"grid_y": 0,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X43Y104": {
 			"grid_x": 43,
 			"grid_y": 52,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X43Y156": {
 			"grid_x": 43,
 			"grid_y": 0,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X46Y104": {
 			"grid_x": 46,
 			"grid_y": 52,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X46Y156": {
 			"grid_x": 46,
 			"grid_y": 0,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X47Y104": {
 			"grid_x": 47,
 			"grid_y": 52,
+			"sites": {},
 			"type": "NULL"
 		},
 		"NULL_X47Y156": {
 			"grid_x": 47,
 			"grid_y": 0,
+			"sites": {},
 			"type": "NULL"
 		},
 		"T_TERM_INT_X31Y156": {
 			"grid_x": 31,
 			"grid_y": 0,
+			"sites": {},
 			"type": "T_TERM_INT"
 		},
 		"T_TERM_INT_X32Y156": {
 			"grid_x": 32,
 			"grid_y": 0,
+			"sites": {},
 			"type": "T_TERM_INT"
 		},
 		"T_TERM_INT_X36Y156": {
 			"grid_x": 36,
 			"grid_y": 0,
+			"sites": {},
 			"type": "T_TERM_INT"
 		},
 		"T_TERM_INT_X37Y156": {
 			"grid_x": 37,
 			"grid_y": 0,
+			"sites": {},
 			"type": "T_TERM_INT"
 		},
 		"T_TERM_INT_X40Y156": {
 			"grid_x": 40,
 			"grid_y": 0,
+			"sites": {},
 			"type": "T_TERM_INT"
 		},
 		"T_TERM_INT_X41Y156": {
 			"grid_x": 41,
 			"grid_y": 0,
+			"sites": {},
 			"type": "T_TERM_INT"
 		},
 		"T_TERM_INT_X44Y156": {
 			"grid_x": 44,
 			"grid_y": 0,
+			"sites": {},
 			"type": "T_TERM_INT"
 		},
 		"T_TERM_INT_X45Y156": {
 			"grid_x": 45,
 			"grid_y": 0,
+			"sites": {},
 			"type": "T_TERM_INT"
 		},
 		"VBRK_X29Y105": {
 			"grid_x": 29,
 			"grid_y": 51,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y106": {
 			"grid_x": 29,
 			"grid_y": 50,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y107": {
 			"grid_x": 29,
 			"grid_y": 49,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y108": {
 			"grid_x": 29,
 			"grid_y": 48,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y109": {
 			"grid_x": 29,
 			"grid_y": 47,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y110": {
 			"grid_x": 29,
 			"grid_y": 46,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y111": {
 			"grid_x": 29,
 			"grid_y": 45,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y112": {
 			"grid_x": 29,
 			"grid_y": 44,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y113": {
 			"grid_x": 29,
 			"grid_y": 43,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y114": {
 			"grid_x": 29,
 			"grid_y": 42,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y115": {
 			"grid_x": 29,
 			"grid_y": 41,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y116": {
 			"grid_x": 29,
 			"grid_y": 40,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y117": {
 			"grid_x": 29,
 			"grid_y": 39,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y118": {
 			"grid_x": 29,
 			"grid_y": 38,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y119": {
 			"grid_x": 29,
 			"grid_y": 37,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y120": {
 			"grid_x": 29,
 			"grid_y": 36,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y121": {
 			"grid_x": 29,
 			"grid_y": 35,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y122": {
 			"grid_x": 29,
 			"grid_y": 34,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y123": {
 			"grid_x": 29,
 			"grid_y": 33,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y124": {
 			"grid_x": 29,
 			"grid_y": 32,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y125": {
 			"grid_x": 29,
 			"grid_y": 31,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y126": {
 			"grid_x": 29,
 			"grid_y": 30,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y127": {
 			"grid_x": 29,
 			"grid_y": 29,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y128": {
 			"grid_x": 29,
 			"grid_y": 28,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y129": {
 			"grid_x": 29,
 			"grid_y": 27,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y131": {
 			"grid_x": 29,
 			"grid_y": 25,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y132": {
 			"grid_x": 29,
 			"grid_y": 24,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y133": {
 			"grid_x": 29,
 			"grid_y": 23,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y134": {
 			"grid_x": 29,
 			"grid_y": 22,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y135": {
 			"grid_x": 29,
 			"grid_y": 21,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y136": {
 			"grid_x": 29,
 			"grid_y": 20,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y137": {
 			"grid_x": 29,
 			"grid_y": 19,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y138": {
 			"grid_x": 29,
 			"grid_y": 18,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y139": {
 			"grid_x": 29,
 			"grid_y": 17,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y140": {
 			"grid_x": 29,
 			"grid_y": 16,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y141": {
 			"grid_x": 29,
 			"grid_y": 15,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y142": {
 			"grid_x": 29,
 			"grid_y": 14,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y143": {
 			"grid_x": 29,
 			"grid_y": 13,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y144": {
 			"grid_x": 29,
 			"grid_y": 12,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y145": {
 			"grid_x": 29,
 			"grid_y": 11,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y146": {
 			"grid_x": 29,
 			"grid_y": 10,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y147": {
 			"grid_x": 29,
 			"grid_y": 9,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y148": {
 			"grid_x": 29,
 			"grid_y": 8,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y149": {
 			"grid_x": 29,
 			"grid_y": 7,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y150": {
 			"grid_x": 29,
 			"grid_y": 6,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y151": {
 			"grid_x": 29,
 			"grid_y": 5,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y152": {
 			"grid_x": 29,
 			"grid_y": 4,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y153": {
 			"grid_x": 29,
 			"grid_y": 3,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y154": {
 			"grid_x": 29,
 			"grid_y": 2,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X29Y155": {
 			"grid_x": 29,
 			"grid_y": 1,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y105": {
 			"grid_x": 34,
 			"grid_y": 51,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y106": {
 			"grid_x": 34,
 			"grid_y": 50,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y107": {
 			"grid_x": 34,
 			"grid_y": 49,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y108": {
 			"grid_x": 34,
 			"grid_y": 48,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y109": {
 			"grid_x": 34,
 			"grid_y": 47,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y110": {
 			"grid_x": 34,
 			"grid_y": 46,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y111": {
 			"grid_x": 34,
 			"grid_y": 45,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y112": {
 			"grid_x": 34,
 			"grid_y": 44,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y113": {
 			"grid_x": 34,
 			"grid_y": 43,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y114": {
 			"grid_x": 34,
 			"grid_y": 42,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y115": {
 			"grid_x": 34,
 			"grid_y": 41,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y116": {
 			"grid_x": 34,
 			"grid_y": 40,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y117": {
 			"grid_x": 34,
 			"grid_y": 39,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y118": {
 			"grid_x": 34,
 			"grid_y": 38,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y119": {
 			"grid_x": 34,
 			"grid_y": 37,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y120": {
 			"grid_x": 34,
 			"grid_y": 36,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y121": {
 			"grid_x": 34,
 			"grid_y": 35,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y122": {
 			"grid_x": 34,
 			"grid_y": 34,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y123": {
 			"grid_x": 34,
 			"grid_y": 33,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y124": {
 			"grid_x": 34,
 			"grid_y": 32,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y125": {
 			"grid_x": 34,
 			"grid_y": 31,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y126": {
 			"grid_x": 34,
 			"grid_y": 30,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y127": {
 			"grid_x": 34,
 			"grid_y": 29,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y128": {
 			"grid_x": 34,
 			"grid_y": 28,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y129": {
 			"grid_x": 34,
 			"grid_y": 27,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y131": {
 			"grid_x": 34,
 			"grid_y": 25,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y132": {
 			"grid_x": 34,
 			"grid_y": 24,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y133": {
 			"grid_x": 34,
 			"grid_y": 23,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y134": {
 			"grid_x": 34,
 			"grid_y": 22,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y135": {
 			"grid_x": 34,
 			"grid_y": 21,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y136": {
 			"grid_x": 34,
 			"grid_y": 20,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y137": {
 			"grid_x": 34,
 			"grid_y": 19,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y138": {
 			"grid_x": 34,
 			"grid_y": 18,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y139": {
 			"grid_x": 34,
 			"grid_y": 17,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y140": {
 			"grid_x": 34,
 			"grid_y": 16,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y141": {
 			"grid_x": 34,
 			"grid_y": 15,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y142": {
 			"grid_x": 34,
 			"grid_y": 14,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y143": {
 			"grid_x": 34,
 			"grid_y": 13,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y144": {
 			"grid_x": 34,
 			"grid_y": 12,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y145": {
 			"grid_x": 34,
 			"grid_y": 11,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y146": {
 			"grid_x": 34,
 			"grid_y": 10,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y147": {
 			"grid_x": 34,
 			"grid_y": 9,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y148": {
 			"grid_x": 34,
 			"grid_y": 8,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y149": {
 			"grid_x": 34,
 			"grid_y": 7,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y150": {
 			"grid_x": 34,
 			"grid_y": 6,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y151": {
 			"grid_x": 34,
 			"grid_y": 5,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y152": {
 			"grid_x": 34,
 			"grid_y": 4,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y153": {
 			"grid_x": 34,
 			"grid_y": 3,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y154": {
 			"grid_x": 34,
 			"grid_y": 2,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VBRK_X34Y155": {
 			"grid_x": 34,
 			"grid_y": 1,
+			"sites": {},
 			"type": "VBRK"
 		},
 		"VFRAME_X47Y105": {
 			"grid_x": 47,
 			"grid_y": 51,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y106": {
 			"grid_x": 47,
 			"grid_y": 50,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y107": {
 			"grid_x": 47,
 			"grid_y": 49,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y108": {
 			"grid_x": 47,
 			"grid_y": 48,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y109": {
 			"grid_x": 47,
 			"grid_y": 47,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y110": {
 			"grid_x": 47,
 			"grid_y": 46,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y111": {
 			"grid_x": 47,
 			"grid_y": 45,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y112": {
 			"grid_x": 47,
 			"grid_y": 44,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y113": {
 			"grid_x": 47,
 			"grid_y": 43,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y114": {
 			"grid_x": 47,
 			"grid_y": 42,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y115": {
 			"grid_x": 47,
 			"grid_y": 41,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y116": {
 			"grid_x": 47,
 			"grid_y": 40,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y117": {
 			"grid_x": 47,
 			"grid_y": 39,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y118": {
 			"grid_x": 47,
 			"grid_y": 38,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y119": {
 			"grid_x": 47,
 			"grid_y": 37,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y120": {
 			"grid_x": 47,
 			"grid_y": 36,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y121": {
 			"grid_x": 47,
 			"grid_y": 35,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y122": {
 			"grid_x": 47,
 			"grid_y": 34,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y123": {
 			"grid_x": 47,
 			"grid_y": 33,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y124": {
 			"grid_x": 47,
 			"grid_y": 32,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y125": {
 			"grid_x": 47,
 			"grid_y": 31,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y126": {
 			"grid_x": 47,
 			"grid_y": 30,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y127": {
 			"grid_x": 47,
 			"grid_y": 29,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y128": {
 			"grid_x": 47,
 			"grid_y": 28,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y129": {
 			"grid_x": 47,
 			"grid_y": 27,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y131": {
 			"grid_x": 47,
 			"grid_y": 25,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y132": {
 			"grid_x": 47,
 			"grid_y": 24,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y133": {
 			"grid_x": 47,
 			"grid_y": 23,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y134": {
 			"grid_x": 47,
 			"grid_y": 22,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y135": {
 			"grid_x": 47,
 			"grid_y": 21,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y136": {
 			"grid_x": 47,
 			"grid_y": 20,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y137": {
 			"grid_x": 47,
 			"grid_y": 19,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y138": {
 			"grid_x": 47,
 			"grid_y": 18,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y139": {
 			"grid_x": 47,
 			"grid_y": 17,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y140": {
 			"grid_x": 47,
 			"grid_y": 16,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y141": {
 			"grid_x": 47,
 			"grid_y": 15,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y142": {
 			"grid_x": 47,
 			"grid_y": 14,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y143": {
 			"grid_x": 47,
 			"grid_y": 13,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y144": {
 			"grid_x": 47,
 			"grid_y": 12,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y145": {
 			"grid_x": 47,
 			"grid_y": 11,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y146": {
 			"grid_x": 47,
 			"grid_y": 10,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y147": {
 			"grid_x": 47,
 			"grid_y": 9,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y148": {
 			"grid_x": 47,
 			"grid_y": 8,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y149": {
 			"grid_x": 47,
 			"grid_y": 7,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y150": {
 			"grid_x": 47,
 			"grid_y": 6,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y151": {
 			"grid_x": 47,
 			"grid_y": 5,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y152": {
 			"grid_x": 47,
 			"grid_y": 4,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y153": {
 			"grid_x": 47,
 			"grid_y": 3,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y154": {
 			"grid_x": 47,
 			"grid_y": 2,
+			"sites": {},
 			"type": "VFRAME"
 		},
 		"VFRAME_X47Y155": {
 			"grid_x": 47,
 			"grid_y": 1,
+			"sites": {},
 			"type": "VFRAME"
 		}
 	}
