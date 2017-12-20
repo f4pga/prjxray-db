@@ -1,0 +1,14 @@
+language: python
+python:
+  - "3.6"
+
+env:
+  global:
+   - GIT_COMMITTER_NAME="SymbiYosys Travis Bot"
+   - GIT_COMMITTER_EMAIL="nobody@nowhere.com"
+
+script:
+  - ./.travis/generate-html.sh
+
+after_install:
+  - if [ ! -z "$GH_KEY" ]; then ./.travis/push-html.sh; fi
