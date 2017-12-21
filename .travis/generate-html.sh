@@ -63,6 +63,8 @@ for SETTINGS in $(find -name settings.sh); do
 	echo
 done
 
+python3 -m markdown Info.md > html/index.html
+
 (
 	echo
 	echo "HTML Results"

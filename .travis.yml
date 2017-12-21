@@ -11,8 +11,11 @@ before_install:
   - ./.travis/save-key.sh
   - ./.travis/fix-git.sh
 
+install:
+  - pip install -r ./.travis/requirements.txt
+
 script:
   - ./.travis/generate-html.sh
 
-after_install:
+after_success:
   - if [ -e ~/.ssh/agent.sh ]; then source ~/.ssh/agent.sh; ./.travis/push-html.sh; fi
