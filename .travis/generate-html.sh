@@ -8,14 +8,11 @@ SRCDIR=$PWD
 TMPDIR=$(mktemp -d)
 
 echo
-echo "Project X-Ray Database Revision"
-echo "--------------------------------------------"
-git describe
+echo "Project X-Ray Database Revision $(git describe --long --tags --always)"
 echo "--------------------------------------------"
 git log -1
 echo "--------------------------------------------"
-find -type f | sort
-echo "--------------------------------------------"
+echo
 
 # Remove any pre-existing html output.
 for d in html/*; do
@@ -34,15 +31,15 @@ fi
 
 (
 	cd $TMPDIR/prjxray
+	git fetch --tags
 	echo
-	echo "Project X-Ray Revision"
-	echo "--------------------------------------------"
-	git describe
+	echo "Project X-Ray Revision $(git describe --long --tags --always)"
 	echo "--------------------------------------------"
 	git log -1
 	echo "--------------------------------------------"
 	sha256sum htmlgen/htmlgen.py
 	echo "--------------------------------------------"
+	echo
 )
 
 for SETTINGS in $(find -name settings.sh); do
@@ -56,6 +53,7 @@ for SETTINGS in $(find -name settings.sh); do
 	echo "--------------------------------------------"
 	python3 $TMPDIR/prjxray/htmlgen/htmlgen.py --settings=$SETTINGS
 	echo "--------------------------------------------"
+	echo
 done
 
 (
@@ -65,4 +63,5 @@ done
 	cd html
 	sha256sum $(find -type f html | sort)
 	echo "--------------------------------------------"
+	echo
 )

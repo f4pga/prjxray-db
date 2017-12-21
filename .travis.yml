@@ -9,6 +9,7 @@ env:
 
 before_install:
   - ./.travis/save-key.sh
+  - ./.travis/fix-git.sh
 
 script:
   - ./.travis/generate-html.sh
