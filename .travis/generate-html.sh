@@ -7,6 +7,16 @@ export CURRENT_OWNER="$(git remote get-url origin | sed -e's@/[^/]\+$@@' -e's@.*
 SRCDIR=$PWD
 TMPDIR=$(mktemp -d)
 
+echo
+echo "Project X-Ray Database Revision"
+echo "--------------------------------------------"
+git describe
+echo "--------------------------------------------"
+git log -1
+echo "--------------------------------------------"
+find -type f | sort
+echo "--------------------------------------------"
+
 # Remove any pre-existing html output.
 for d in html/*; do
 	if [ -d "$d" ]; then
@@ -22,12 +32,37 @@ if [ ! -d $TMPDIR/prjxray/.git ]; then
 	git clone https://github.com/SymbiFlow/prjxray.git $TMPDIR/prjxray
 fi
 
-for s in $(find -name settings.sh); do
+(
+	cd $TMPDIR/prjxray
+	echo
+	echo "Project X-Ray Revision"
+	echo "--------------------------------------------"
+	git describe
+	echo "--------------------------------------------"
+	git log -1
+	echo "--------------------------------------------"
+	sha256sum htmlgen/htmlgen.py
+	echo "--------------------------------------------"
+)
+
+for SETTINGS in $(find -name settings.sh); do
+	DEVICE=$(basename $(dirname $SETTINGS))
+
 	echo
 	echo "Generating for $s"
 	echo "--------------------------------------------"
-	python3 $TMPDIR/prjxray/htmlgen/htmlgen.py --settings=$s;
+	echo "settings.sh $(sha256sum $SETTINGS)"
+	cat $SETTINGS
+	echo "--------------------------------------------"
+	python3 $TMPDIR/prjxray/htmlgen/htmlgen.py --settings=$SETTINGS
 	echo "--------------------------------------------"
 done
 
-find -type f html | sort
+(
+	echo
+	echo "HTML Results"
+	echo "--------------------------------------------"
+	cd html
+	sha256sum $(find -type f html | sort)
+	echo "--------------------------------------------"
+)
