@@ -34,13 +34,21 @@ TMPDIR=$(mktemp -d)
 		git log -1
 		find -type f | sort
 	)
-	rm -rf html/*
+	echo "--------------------------------------------"
 
+	echo
+	echo "Updating html"
+	echo "--------------------------------------------"
+	rm -rf html/*
 	cp -a $SRCDIR/html/* html/
 	(
 		cd html
 		git add --all .
+	)
+	echo "--------------------------------------------"
 
+	(
+		cd html
 		echo
 		echo "Committing"
 		echo "--------------------------------------------"

@@ -1,9 +1,11 @@
 # Project X-Ray - Xilinx Series 7 Bitstream Documentation
 
+[[TOC]]
+
 This repo contains the bitstream documentation database for Xilinx Series 7
 devices.
 
-[HTML version of the Xilinx Series 7 BitStream is avaliable on https://symbiflow.github.io/prjxray-db](https://symbiflow.github.io/prjxray-db).
+[HTML version of the Xilinx Series 7 BitStream is available on https://symbiflow.github.io/prjxray-db](https://symbiflow.github.io/prjxray-db).
 
 This documentation was generated using the
 [Project X-Ray tools](https://github.com/SymbiFlow/prjxray).

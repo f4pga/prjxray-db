@@ -63,7 +63,12 @@ for SETTINGS in $(find -name settings.sh); do
 	echo
 done
 
-python3 -m markdown Info.md > html/index.html
+python3 -m markdown \
+	-x markdown.extensions.fenced_code \
+	-x markdown.extensions.tables \
+	-x markdown.extensions.codehilite \
+	-x markdown.extensions.toc \
+	Info.md > html/index.html
 
 (
 	echo
