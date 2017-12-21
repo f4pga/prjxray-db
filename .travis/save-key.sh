@@ -2,6 +2,11 @@
 set -e
 set +x
 
+if [ ! -z "$TRAVIS_BRANCH" -a "$TRAVIS_BRANCH" != "master" ]; then
+	echo "On $TRAVIS_BRANCH, not saving key."
+	exit 0
+fi
+
 if [ ! -z "$GH_KEY" ]; then
 	ssh-agent > ~/.ssh/agent.sh
 	. ~/.ssh/agent.sh
