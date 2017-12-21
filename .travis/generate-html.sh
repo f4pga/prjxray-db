@@ -53,15 +53,19 @@ for SETTINGS in $(find -name settings.sh); do
 	DEVICE=$(basename $(dirname $SETTINGS))
 
 	echo
-	echo "Generating for $s"
+	echo "Generating for $DEVICE"
 	echo "--------------------------------------------"
 	echo "settings.sh $(sha256sum $SETTINGS)"
 	cat $SETTINGS
 	echo "--------------------------------------------"
 	python3 $TMPDIR/prjxray/htmlgen/htmlgen.py --settings=$SETTINGS
 	echo "--------------------------------------------"
+	cp $DEVICE/* ./html/$DEVICE/
+	echo "--------------------------------------------"
 	echo
 done
+
+cp COPYING html/COPYING
 
 python3 -m markdown \
 	-x markdown.extensions.fenced_code \
@@ -74,7 +78,7 @@ python3 -m markdown \
 	echo
 	echo "HTML Results"
 	echo "--------------------------------------------"
-	sha256sum $(find html -type f | sort)
+	sha256sum $(find html -type f -name *.html | sort)
 	echo "--------------------------------------------"
 	echo
 )
