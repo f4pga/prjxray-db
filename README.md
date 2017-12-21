@@ -1,6 +1,6 @@
 # Project X-Ray - Xilinx Series 7 Bitstream Documentation
 
-[[TOC]]
+[TOC]
 
 This repo contains the bitstream documentation database for Xilinx Series 7
 devices.
