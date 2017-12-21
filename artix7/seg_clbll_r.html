@@ -5,6 +5,7 @@
 var grp2bits = { };
 var bit2grp = { }
 var highlight_bits = [ ];
+var highlight_cache = { };
 
 function ome(bit) {
     // console.log("ome: " + bit);
@@ -13,9 +14,12 @@ function ome(bit) {
         for (i in grp2bits[grp]) {
             b = grp2bits[grp][i];
             // console.log("  -> " + b);
-            el = document.getElementById("bit" + b);
-            el.style.fontWeight = "bold";
-            highlight_bits.push(b);
+            if (!(b in highlight_cache)) {
+                el = document.getElementById("bit" + b);
+                highlight_cache[b] = el.bgColor;
+                el.bgColor = "#ffffff";
+                highlight_bits.push(b);
+            }
         }
     }
 }
@@ -25,6 +29,8 @@ function oml() {
     for (i in highlight_bits) {
         b = highlight_bits[i];
         el = document.getElementById("bit" + b);
+        el.bgColor = highlight_cache[b];
+        delete highlight_cache[b];
         el.style.fontWeight = "normal";
     }
     highlight_bits.length = 0;
@@ -831,7 +837,6 @@ INT_R.LH0.LV9
 INT_R.LH0.NE2END3
 INT_R.LH0.SR1END3" onmousedown="location.href = '#b00_59'"><span style="font-size:10px">LH</span></td>
 <td id="bit01_59" onmouseenter="ome('01_59');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="01_59
-UNUSED ?
 CLBLL_R.SLICEL_X0.DLUT.SMALL" onmousedown="location.href = '#b01_59'"><span style="font-size:10px">DLS</span></td>
 <td id="bit02_59" onmouseenter="ome('02_59');" onmouseleave="oml();" bgcolor="#aa88ff" align="center" title="02_59
 INT_R.SE6BEG3.EE2END3
@@ -3256,10 +3261,8 @@ CLBLL_R.SLICEL_X1.CLUT.INIT[09]" onmousedown="location.href = '#b28_47'"><span s
 <td id="bit29_47" onmouseenter="ome('29_47');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="29_47
 CLBLL_R.SLICEL_X1.CLUT.INIT[08]" onmousedown="location.href = '#b29_47'"><span style="font-size:10px">C08</span></td>
 <td id="bit30_47" onmouseenter="ome('30_47');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="30_47
-UNUSED ?
 CLBLL_R.SLICEL_X0.DLUT.SRL" onmousedown="location.href = '#b30_47'"><span style="font-size:10px">DSR</span></td>
 <td id="bit31_47" onmouseenter="ome('31_47');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="31_47
-UNUSED ?
 CLBLL_R.SLICEL_X0.DLUT.RAM" onmousedown="location.href = '#b31_47'"><span style="font-size:10px">DLR</span></td>
 <td id="bit32_47" onmouseenter="ome('32_47');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="32_47
 CLBLL_R.SLICEL_X0.CLUT.INIT[00]" onmousedown="location.href = '#b32_47'"><span style="font-size:10px">C00</span></td>
@@ -3452,10 +3455,8 @@ CLBLL_R.SLICEL_X1.CLUT.INIT[11]" onmousedown="location.href = '#b28_46'"><span s
 <td id="bit29_46" onmouseenter="ome('29_46');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="29_46
 CLBLL_R.SLICEL_X1.CLUT.INIT[10]" onmousedown="location.href = '#b29_46'"><span style="font-size:10px">C10</span></td>
 <td id="bit30_46" onmouseenter="ome('30_46');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="30_46
-UNUSED ?
 CLBLL_R.SLICEL_X0.CLUT.SRL" onmousedown="location.href = '#b30_46'"><span style="font-size:10px">CSR</span></td>
 <td id="bit31_46" onmouseenter="ome('31_46');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="31_46
-UNUSED ?
 CLBLL_R.SLICEL_X0.CLUT.RAM" onmousedown="location.href = '#b31_46'"><span style="font-size:10px">CLR</span></td>
 <td id="bit32_46" onmouseenter="ome('32_46');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="32_46
 CLBLL_R.SLICEL_X0.CLUT.INIT[02]" onmousedown="location.href = '#b32_46'"><span style="font-size:10px">C02</span></td>
@@ -3851,7 +3852,6 @@ INT_R.LVB0.LH0
 INT_R.LVB0.NW2END2
 INT_R.LVB0.NW6END3" onmousedown="location.href = '#b00_43'"><span style="font-size:10px">LVB</span></td>
 <td id="bit01_43" onmouseenter="ome('01_43');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="01_43
-UNUSED ?
 CLBLL_R.SLICEL_X0.CDI1MUX.CI" onmousedown="location.href = '#b01_43'"><span style="font-size:10px">CDI1</span></td>
 <td id="bit02_43" onmouseenter="ome('02_43');" onmouseleave="oml();" bgcolor="#aa88ff" align="center" title="02_43
 INT_R.SE6BEG2.EE2END2
@@ -4432,7 +4432,6 @@ CLBLL_R.SLICEL_X0.CLUT.INIT[28]" onmousedown="location.href = '#b35_41'"><span s
 <tr>
 <th align="right"><span style="font-size:10px">40</span></th>
 <td id="bit00_40" onmouseenter="ome('00_40');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="00_40
-UNUSED ?
 CLBLL_R.SLICEL_X0.WA7USED" onmousedown="location.href = '#b00_40'"><span style="font-size:10px">WA7</span></td>
 <td id="bit01_40" onmouseenter="ome('01_40');" onmouseleave="oml();" bgcolor="#7755ff" align="center" title="01_40
 INT_R.CTRL0.GFAN1
@@ -6714,7 +6713,6 @@ CLBLL_R.SLICEL_X0.BLUT.INIT[12]" onmousedown="location.href = '#b35_29'"><span s
 <tr>
 <th align="right"><span style="font-size:10px">28</span></th>
 <td id="bit00_28" onmouseenter="ome('00_28');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="00_28
-UNUSED ?
 CLBLL_R.SLICEL_X0.CLUT.SMALL" onmousedown="location.href = '#b00_28'"><span style="font-size:10px">CLS</span></td>
 <td id="bit01_28" onmouseenter="ome('01_28');" onmouseleave="oml();" bgcolor="#4466bb" align="center" title="01_28
 INT_R.CLK0.GCLK_B3_EAST
@@ -6915,7 +6913,6 @@ INT_R.CLK1.GCLK_B8
 INT_R.CLK1.GCLK_B9
 INT_R.CLK1.WR1END1" onmousedown="location.href = '#b00_27'"><span style="font-size:10px">CLK</span></td>
 <td id="bit01_27" onmouseenter="ome('01_27');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="01_27
-UNUSED ?
 CLBLL_R.SLICEL_X0.WA8USED" onmousedown="location.href = '#b01_27'"><span style="font-size:10px">WA8</span></td>
 <td id="bit02_27" onmouseenter="ome('02_27');" onmouseleave="oml();" bgcolor="#aa88ff" align="center" title="02_27
 INT_R.SE6BEG1.EE2END1
@@ -7501,7 +7498,6 @@ CLBLL_R.SLICEL_X0.BLUT.INIT[28]" onmousedown="location.href = '#b35_25'"><span s
 <tr>
 <th align="right"><span style="font-size:10px">24</span></th>
 <td id="bit00_24" onmouseenter="ome('00_24');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="00_24
-UNUSED ?
 CLBLL_R.SLICEL_X0.BLUT.SMALL" onmousedown="location.href = '#b00_24'"><span style="font-size:10px">BLS</span></td>
 <td id="bit01_24" onmouseenter="ome('01_24');" onmouseleave="oml();" bgcolor="#4466bb" align="center" title="01_24
 INT_R.CLK0.ER1END1
@@ -7703,7 +7699,6 @@ INT_R.CLK1.GCLK_B4_EAST
 INT_R.CLK1.GCLK_B5_EAST
 INT_R.CLK1.GCLK_B6" onmousedown="location.href = '#b00_23'"><span style="font-size:10px">CLK</span></td>
 <td id="bit01_23" onmouseenter="ome('01_23');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="01_23
-UNUSED ?
 CLBLL_R.SLICEL_X0.WEMUX.CE" onmousedown="location.href = '#b01_23'"><span style="font-size:10px">WE</span></td>
 <td id="bit02_23" onmouseenter="ome('02_23');" onmouseleave="oml();" bgcolor="#aa88ff" align="center" title="02_23
 INT_R.NN6BEG1.EE2END1
@@ -8271,7 +8266,6 @@ CLBLL_R.SLICEL_X0.BLUT.INIT[44]" onmousedown="location.href = '#b35_21'"><span s
 <tr>
 <th align="right"><span style="font-size:10px">20</span></th>
 <td id="bit00_20" onmouseenter="ome('00_20');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="00_20
-UNUSED ?
 CLBLL_R.SLICEL_X0.BDI1MUX.BI" onmousedown="location.href = '#b00_20'"><span style="font-size:10px">BDI1</span></td>
 <td id="bit01_20" onmouseenter="ome('01_20');" onmouseleave="oml();" bgcolor="#4466bb" align="center" title="01_20
 INT_R.CLK0.ER1END1
@@ -9011,10 +9005,8 @@ CLBLL_R.SLICEL_X1.BLUT.INIT[61]" onmousedown="location.href = '#b28_17'"><span s
 <td id="bit29_17" onmouseenter="ome('29_17');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="29_17
 CLBLL_R.SLICEL_X1.BLUT.INIT[60]" onmousedown="location.href = '#b29_17'"><span style="font-size:10px">B60</span></td>
 <td id="bit30_17" onmouseenter="ome('30_17');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="30_17
-UNUSED ?
 CLBLL_R.SLICEL_X0.BLUT.SRL" onmousedown="location.href = '#b30_17'"><span style="font-size:10px">BSR</span></td>
 <td id="bit31_17" onmouseenter="ome('31_17');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="31_17
-UNUSED ?
 CLBLL_R.SLICEL_X0.BLUT.RAM" onmousedown="location.href = '#b31_17'"><span style="font-size:10px">BLR</span></td>
 <td id="bit32_17" onmouseenter="ome('32_17');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="32_17
 CLBLL_R.SLICEL_X0.BLUT.INIT[52]" onmousedown="location.href = '#b32_17'"><span style="font-size:10px">B52</span></td>
@@ -9199,10 +9191,8 @@ CLBLL_R.SLICEL_X1.BLUT.INIT[63]" onmousedown="location.href = '#b28_16'"><span s
 <td id="bit29_16" onmouseenter="ome('29_16');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="29_16
 CLBLL_R.SLICEL_X1.BLUT.INIT[62]" onmousedown="location.href = '#b29_16'"><span style="font-size:10px">B62</span></td>
 <td id="bit30_16" onmouseenter="ome('30_16');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="30_16
-UNUSED ?
 CLBLL_R.SLICEL_X0.ALUT.SRL" onmousedown="location.href = '#b30_16'"><span style="font-size:10px">ASR</span></td>
 <td id="bit31_16" onmouseenter="ome('31_16');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="31_16
-UNUSED ?
 CLBLL_R.SLICEL_X0.ALUT.RAM" onmousedown="location.href = '#b31_16'"><span style="font-size:10px">ALR</span></td>
 <td id="bit32_16" onmouseenter="ome('32_16');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="32_16
 CLBLL_R.SLICEL_X0.BLUT.INIT[54]" onmousedown="location.href = '#b32_16'"><span style="font-size:10px">B54</span></td>
@@ -11324,7 +11314,6 @@ CLBLL_R.SLICEL_X0.ALUT.INIT[44]" onmousedown="location.href = '#b35_05'"><span s
 <tr>
 <th align="right"><span style="font-size:10px">4</span></th>
 <td id="bit00_04" onmouseenter="ome('00_04');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="00_04
-UNUSED ?
 CLBLL_R.SLICEL_X0.ALUT.SMALL" onmousedown="location.href = '#b00_04'"><span style="font-size:10px">ALS</span></td>
 <td id="bit01_04" onmouseenter="ome('01_04');" onmouseleave="oml();" bgcolor="#88aaff" align="center" title="01_04
 INT_R.LV0.ER1END0
@@ -12080,7 +12069,6 @@ CLBLL_R.SLICEL_X0.ALUT.INIT[60]" onmousedown="location.href = '#b35_01'"><span s
 <tr>
 <th align="right"><span style="font-size:10px">0</span></th>
 <td id="bit00_00" onmouseenter="ome('00_00');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="00_00
-UNUSED ?
 CLBLL_R.SLICEL_X0.ADI1MUX.AI" onmousedown="location.href = '#b00_00'"><span style="font-size:10px">ADI1</span></td>
 <td id="bit01_00" onmouseenter="ome('01_00');" onmouseleave="oml();" bgcolor="#88aaff" align="center" title="01_00
 INT_R.LV18.LV0
@@ -24110,104 +24098,6 @@ bit2grp['05_51'] = '02_49';
 <tr bgcolor="#dddddd"><!-- 1-----1-- --><td>INT_R.WW4BEG3.NE6END3</td><td align="center">-</td><td align="center">-</td><td align="center">1</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
 <tr><!-- 1----1--- --><td>INT_R.WW4BEG3.NN6END3</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">1</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
 </table>
-<h3>Tile CLBLL_R Pseudo PIPs</h3>
-<table cellspacing=0>
-<tr><th width="500" align="left">PIP</th><th>Type</th></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_AX.CLBLL_BYP0</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_AX.CLBLL_BYP1</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_CX.CLBLL_BYP2</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_CX.CLBLL_BYP3</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_BX.CLBLL_BYP4</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_BX.CLBLL_BYP5</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_DX.CLBLL_BYP6</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_DX.CLBLL_BYP7</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_CLK.CLBLL_CLK0</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_CLK.CLBLL_CLK1</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_SR.CLBLL_CTRL0</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_SR.CLBLL_CTRL1</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_CE.CLBLL_FAN6</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_CE.CLBLL_FAN7</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_A3.CLBLL_IMUX0</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_A2.CLBLL_IMUX3</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_A6.CLBLL_IMUX5</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_A1.CLBLL_IMUX6</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_A5.CLBLL_IMUX9</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_A4.CLBLL_IMUX10</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_A3.CLBLL_IMUX1</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_A2.CLBLL_IMUX2</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_A6.CLBLL_IMUX4</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_A1.CLBLL_IMUX7</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_A5.CLBLL_IMUX8</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_A4.CLBLL_IMUX11</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_B6.CLBLL_IMUX12</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_B1.CLBLL_IMUX15</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_B3.CLBLL_IMUX17</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_B2.CLBLL_IMUX18</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_B5.CLBLL_IMUX24</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_B4.CLBLL_IMUX27</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_B6.CLBLL_IMUX13</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_B1.CLBLL_IMUX14</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_B3.CLBLL_IMUX16</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_B2.CLBLL_IMUX19</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_B5.CLBLL_IMUX25</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_B4.CLBLL_IMUX26</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_C2.CLBLL_IMUX20</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_C4.CLBLL_IMUX21</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_C3.CLBLL_IMUX23</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_C5.CLBLL_IMUX30</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_C1.CLBLL_IMUX33</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_C6.CLBLL_IMUX34</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_C3.CLBLL_IMUX22</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_C4.CLBLL_IMUX28</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_C2.CLBLL_IMUX29</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_C5.CLBLL_IMUX31</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_C1.CLBLL_IMUX32</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_C6.CLBLL_IMUX35</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_D2.CLBLL_IMUX36</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_D4.CLBLL_IMUX37</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_D3.CLBLL_IMUX39</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_D1.CLBLL_IMUX41</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_D6.CLBLL_IMUX42</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_D5.CLBLL_IMUX46</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_D3.CLBLL_IMUX38</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_D1.CLBLL_IMUX40</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_D6.CLBLL_IMUX43</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_D4.CLBLL_IMUX44</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_D2.CLBLL_IMUX45</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_D5.CLBLL_IMUX47</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS12.CLBLL_LL_A</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_AMUX.CLBLL_LL_A</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS20.CLBLL_LL_AMUX</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS4.CLBLL_LL_AQ</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS13.CLBLL_LL_B</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_BMUX.CLBLL_LL_B</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS21.CLBLL_LL_BMUX</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS5.CLBLL_LL_BQ</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS14.CLBLL_LL_C</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_CMUX.CLBLL_LL_C</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS22.CLBLL_LL_CMUX</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LL_COUT_N.CLBLL_LL_COUT</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS6.CLBLL_LL_CQ</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS15.CLBLL_LL_D</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS23.CLBLL_LL_DMUX</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS7.CLBLL_LL_DQ</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS8.CLBLL_L_A</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_AMUX.CLBLL_L_A</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS16.CLBLL_L_AMUX</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS0.CLBLL_L_AQ</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS9.CLBLL_L_B</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_BMUX.CLBLL_L_B</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS17.CLBLL_L_BMUX</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS1.CLBLL_L_BQ</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS10.CLBLL_L_C</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_CMUX.CLBLL_L_C</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS18.CLBLL_L_CMUX</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_L_COUT_N.CLBLL_L_COUT</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS2.CLBLL_L_CQ</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS11.CLBLL_L_D</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS19.CLBLL_L_DMUX</td><td>always</td></tr>
-<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS3.CLBLL_L_DQ</td><td>always</td></tr>
-</table>
 <h3>Tile INT_R Pseudo PIPs</h3>
 <table cellspacing=0>
 <tr><th width="500" align="left">PIP</th><th>Type</th></tr>
@@ -24319,6 +24209,104 @@ bit2grp['05_51'] = '02_49';
 <tr><td>INT_R.GCLK_B4_WEST.GCLK_B4</td><td>always</td></tr>
 <tr bgcolor="#dddddd"><td>INT_R.GCLK_B5_EAST.GCLK_B5</td><td>always</td></tr>
 <tr><td>INT_R.GCLK_B5_WEST.GCLK_B5</td><td>always</td></tr>
+</table>
+<h3>Tile CLBLL_R Pseudo PIPs</h3>
+<table cellspacing=0>
+<tr><th width="500" align="left">PIP</th><th>Type</th></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_AX.CLBLL_BYP0</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_AX.CLBLL_BYP1</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_CX.CLBLL_BYP2</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_CX.CLBLL_BYP3</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_BX.CLBLL_BYP4</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_BX.CLBLL_BYP5</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_DX.CLBLL_BYP6</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_DX.CLBLL_BYP7</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_CLK.CLBLL_CLK0</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_CLK.CLBLL_CLK1</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_SR.CLBLL_CTRL0</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_SR.CLBLL_CTRL1</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_CE.CLBLL_FAN6</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_CE.CLBLL_FAN7</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_A3.CLBLL_IMUX0</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_A2.CLBLL_IMUX3</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_A6.CLBLL_IMUX5</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_A1.CLBLL_IMUX6</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_A5.CLBLL_IMUX9</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_A4.CLBLL_IMUX10</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_A3.CLBLL_IMUX1</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_A2.CLBLL_IMUX2</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_A6.CLBLL_IMUX4</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_A1.CLBLL_IMUX7</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_A5.CLBLL_IMUX8</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_A4.CLBLL_IMUX11</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_B6.CLBLL_IMUX12</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_B1.CLBLL_IMUX15</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_B3.CLBLL_IMUX17</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_B2.CLBLL_IMUX18</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_B5.CLBLL_IMUX24</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_B4.CLBLL_IMUX27</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_B6.CLBLL_IMUX13</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_B1.CLBLL_IMUX14</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_B3.CLBLL_IMUX16</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_B2.CLBLL_IMUX19</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_B5.CLBLL_IMUX25</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_B4.CLBLL_IMUX26</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_C2.CLBLL_IMUX20</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_C4.CLBLL_IMUX21</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_C3.CLBLL_IMUX23</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_C5.CLBLL_IMUX30</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_C1.CLBLL_IMUX33</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_C6.CLBLL_IMUX34</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_C3.CLBLL_IMUX22</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_C4.CLBLL_IMUX28</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_C2.CLBLL_IMUX29</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_C5.CLBLL_IMUX31</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_C1.CLBLL_IMUX32</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_C6.CLBLL_IMUX35</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_D2.CLBLL_IMUX36</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_D4.CLBLL_IMUX37</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_D3.CLBLL_IMUX39</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_D1.CLBLL_IMUX41</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_L_D6.CLBLL_IMUX42</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_D5.CLBLL_IMUX46</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_D3.CLBLL_IMUX38</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_D1.CLBLL_IMUX40</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_D6.CLBLL_IMUX43</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_D4.CLBLL_IMUX44</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LL_D2.CLBLL_IMUX45</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_D5.CLBLL_IMUX47</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS12.CLBLL_LL_A</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_AMUX.CLBLL_LL_A</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS20.CLBLL_LL_AMUX</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS4.CLBLL_LL_AQ</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS13.CLBLL_LL_B</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_BMUX.CLBLL_LL_B</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS21.CLBLL_LL_BMUX</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS5.CLBLL_LL_BQ</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS14.CLBLL_LL_C</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_CMUX.CLBLL_LL_C</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS22.CLBLL_LL_CMUX</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LL_COUT_N.CLBLL_LL_COUT</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS6.CLBLL_LL_CQ</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS15.CLBLL_LL_D</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS23.CLBLL_LL_DMUX</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS7.CLBLL_LL_DQ</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS8.CLBLL_L_A</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_AMUX.CLBLL_L_A</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS16.CLBLL_L_AMUX</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS0.CLBLL_L_AQ</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS9.CLBLL_L_B</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_BMUX.CLBLL_L_B</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS17.CLBLL_L_BMUX</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS1.CLBLL_L_BQ</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS10.CLBLL_L_C</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_CMUX.CLBLL_L_C</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS18.CLBLL_L_CMUX</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_L_COUT_N.CLBLL_L_COUT</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS2.CLBLL_L_CQ</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS11.CLBLL_L_D</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLL_R.CLBLL_LOGIC_OUTS19.CLBLL_L_DMUX</td><td>always</td></tr>
+<tr><td>CLBLL_R.CLBLL_LOGIC_OUTS3.CLBLL_L_DQ</td><td>always</td></tr>
 </table>
 </div>
 </body></html>

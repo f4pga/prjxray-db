@@ -5,6 +5,7 @@
 var grp2bits = { };
 var bit2grp = { }
 var highlight_bits = [ ];
+var highlight_cache = { };
 
 function ome(bit) {
     // console.log("ome: " + bit);
@@ -13,9 +14,12 @@ function ome(bit) {
         for (i in grp2bits[grp]) {
             b = grp2bits[grp][i];
             // console.log("  -> " + b);
-            el = document.getElementById("bit" + b);
-            el.style.fontWeight = "bold";
-            highlight_bits.push(b);
+            if (!(b in highlight_cache)) {
+                el = document.getElementById("bit" + b);
+                highlight_cache[b] = el.bgColor;
+                el.bgColor = "#ffffff";
+                highlight_bits.push(b);
+            }
         }
     }
 }
@@ -25,6 +29,8 @@ function oml() {
     for (i in highlight_bits) {
         b = highlight_bits[i];
         el = document.getElementById("bit" + b);
+        el.bgColor = highlight_cache[b];
+        delete highlight_cache[b];
         el.style.fontWeight = "normal";
     }
     highlight_bits.length = 0;
@@ -3255,7 +3261,6 @@ CLBLM_L.SLICEL_X1.CLUT.INIT[09]" onmousedown="location.href = '#b28_47'"><span s
 <td id="bit29_47" onmouseenter="ome('29_47');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="29_47
 CLBLM_L.SLICEL_X1.CLUT.INIT[08]" onmousedown="location.href = '#b29_47'"><span style="font-size:10px">C08</span></td>
 <td id="bit30_47" onmouseenter="ome('30_47');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="30_47
-UNUSED ?
 CLBLM_L.SLICEM_X0.DLUT.SRL" onmousedown="location.href = '#b30_47'"><span style="font-size:10px">DSR</span></td>
 <td id="bit31_47" onmouseenter="ome('31_47');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="31_47
 CLBLM_L.SLICEM_X0.DLUT.RAM" onmousedown="location.href = '#b31_47'"><span style="font-size:10px">DLR</span></td>
@@ -3450,7 +3455,6 @@ CLBLM_L.SLICEL_X1.CLUT.INIT[11]" onmousedown="location.href = '#b28_46'"><span s
 <td id="bit29_46" onmouseenter="ome('29_46');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="29_46
 CLBLM_L.SLICEL_X1.CLUT.INIT[10]" onmousedown="location.href = '#b29_46'"><span style="font-size:10px">C10</span></td>
 <td id="bit30_46" onmouseenter="ome('30_46');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="30_46
-UNUSED ?
 CLBLM_L.SLICEM_X0.CLUT.SRL" onmousedown="location.href = '#b30_46'"><span style="font-size:10px">CSR</span></td>
 <td id="bit31_46" onmouseenter="ome('31_46');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="31_46
 CLBLM_L.SLICEM_X0.CLUT.RAM" onmousedown="location.href = '#b31_46'"><span style="font-size:10px">CLR</span></td>
@@ -4428,7 +4432,6 @@ CLBLM_L.SLICEM_X0.CLUT.INIT[21]" onmousedown="location.href = '#b35_41'"><span s
 <tr>
 <th align="right"><span style="font-size:10px">40</span></th>
 <td id="bit00_40" onmouseenter="ome('00_40');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="00_40
-UNUSED ?
 CLBLM_L.SLICEM_X0.WA7USED" onmousedown="location.href = '#b00_40'"><span style="font-size:10px">WA7</span></td>
 <td id="bit01_40" onmouseenter="ome('01_40');" onmouseleave="oml();" bgcolor="#7755ff" align="center" title="01_40
 INT_L.CTRL_L0.GFAN1
@@ -6910,7 +6913,6 @@ INT_L.CLK_L1.GCLK_L_B8_WEST
 INT_L.CLK_L1.GCLK_L_B9_WEST
 INT_L.CLK_L1.WR1END1" onmousedown="location.href = '#b00_27'"><span style="font-size:10px">CLK</span></td>
 <td id="bit01_27" onmouseenter="ome('01_27');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="01_27
-UNUSED ?
 CLBLM_L.SLICEM_X0.WA8USED" onmousedown="location.href = '#b01_27'"><span style="font-size:10px">WA8</span></td>
 <td id="bit02_27" onmouseenter="ome('02_27');" onmouseleave="oml();" bgcolor="#aa88ff" align="center" title="02_27
 INT_L.SE6BEG1.EE2END1
@@ -9003,7 +9005,6 @@ CLBLM_L.SLICEL_X1.BLUT.INIT[61]" onmousedown="location.href = '#b28_17'"><span s
 <td id="bit29_17" onmouseenter="ome('29_17');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="29_17
 CLBLM_L.SLICEL_X1.BLUT.INIT[60]" onmousedown="location.href = '#b29_17'"><span style="font-size:10px">B60</span></td>
 <td id="bit30_17" onmouseenter="ome('30_17');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="30_17
-UNUSED ?
 CLBLM_L.SLICEM_X0.BLUT.SRL" onmousedown="location.href = '#b30_17'"><span style="font-size:10px">BSR</span></td>
 <td id="bit31_17" onmouseenter="ome('31_17');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="31_17
 CLBLM_L.SLICEM_X0.BLUT.RAM" onmousedown="location.href = '#b31_17'"><span style="font-size:10px">BLR</span></td>
@@ -9190,7 +9191,6 @@ CLBLM_L.SLICEL_X1.BLUT.INIT[63]" onmousedown="location.href = '#b28_16'"><span s
 <td id="bit29_16" onmouseenter="ome('29_16');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="29_16
 CLBLM_L.SLICEL_X1.BLUT.INIT[62]" onmousedown="location.href = '#b29_16'"><span style="font-size:10px">B62</span></td>
 <td id="bit30_16" onmouseenter="ome('30_16');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="30_16
-UNUSED ?
 CLBLM_L.SLICEM_X0.ALUT.SRL" onmousedown="location.href = '#b30_16'"><span style="font-size:10px">ASR</span></td>
 <td id="bit31_16" onmouseenter="ome('31_16');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="31_16
 CLBLM_L.SLICEM_X0.ALUT.RAM" onmousedown="location.href = '#b31_16'"><span style="font-size:10px">ALR</span></td>
@@ -24098,109 +24098,6 @@ bit2grp['05_51'] = '02_49';
 <tr bgcolor="#dddddd"><!-- 1-----1-- --><td>INT_L.WW4BEG3.NE6END3</td><td align="center">-</td><td align="center">-</td><td align="center">1</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
 <tr><!-- 1----1--- --><td>INT_L.WW4BEG3.NN6END3</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">1</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">1</td></tr>
 </table>
-<h3>Tile CLBLM_L Pseudo PIPs</h3>
-<table cellspacing=0>
-<tr><th width="500" align="left">PIP</th><th>Type</th></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_AX.CLBLM_BYP0</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_AX.CLBLM_BYP1</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_CX.CLBLM_BYP2</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_CX.CLBLM_BYP3</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_BX.CLBLM_BYP4</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_BX.CLBLM_BYP5</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_DX.CLBLM_BYP6</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_DX.CLBLM_BYP7</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_CLK.CLBLM_CLK0</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_CLK.CLBLM_CLK1</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_SR.CLBLM_CTRL0</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_SR.CLBLM_CTRL1</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_AI.CLBLM_FAN0</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_BI.CLBLM_FAN2</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_DI.CLBLM_FAN3</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_WE.CLBLM_FAN4</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_CI.CLBLM_FAN5</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_CE.CLBLM_FAN6</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_CE.CLBLM_FAN7</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_A3.CLBLM_IMUX0</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_A2.CLBLM_IMUX3</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_A6.CLBLM_IMUX5</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_A1.CLBLM_IMUX6</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_A5.CLBLM_IMUX9</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_A4.CLBLM_IMUX10</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_A3.CLBLM_IMUX1</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_A2.CLBLM_IMUX2</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_A6.CLBLM_IMUX4</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_A1.CLBLM_IMUX7</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_A5.CLBLM_IMUX8</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_A4.CLBLM_IMUX11</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_B6.CLBLM_IMUX12</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_B1.CLBLM_IMUX15</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_B3.CLBLM_IMUX17</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_B2.CLBLM_IMUX18</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_B5.CLBLM_IMUX24</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_B4.CLBLM_IMUX27</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_B6.CLBLM_IMUX13</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_B1.CLBLM_IMUX14</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_B3.CLBLM_IMUX16</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_B2.CLBLM_IMUX19</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_B5.CLBLM_IMUX25</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_B4.CLBLM_IMUX26</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_C2.CLBLM_IMUX20</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_C4.CLBLM_IMUX21</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_C3.CLBLM_IMUX23</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_C5.CLBLM_IMUX30</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_C1.CLBLM_IMUX33</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_C6.CLBLM_IMUX34</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_C3.CLBLM_IMUX22</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_C4.CLBLM_IMUX28</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_C2.CLBLM_IMUX29</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_C5.CLBLM_IMUX31</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_C1.CLBLM_IMUX32</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_C6.CLBLM_IMUX35</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_D2.CLBLM_IMUX36</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_D4.CLBLM_IMUX37</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_D3.CLBLM_IMUX39</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_D1.CLBLM_IMUX41</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_L_D6.CLBLM_IMUX42</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_D5.CLBLM_IMUX46</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_D3.CLBLM_IMUX38</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_D1.CLBLM_IMUX40</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_D6.CLBLM_IMUX43</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_D4.CLBLM_IMUX44</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_M_D2.CLBLM_IMUX45</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_D5.CLBLM_IMUX47</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS8.CLBLM_L_A</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_AMUX.CLBLM_L_A</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS16.CLBLM_L_AMUX</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS0.CLBLM_L_AQ</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS9.CLBLM_L_B</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_BMUX.CLBLM_L_B</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS17.CLBLM_L_BMUX</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS1.CLBLM_L_BQ</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS10.CLBLM_L_C</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_CMUX.CLBLM_L_C</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS18.CLBLM_L_CMUX</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_COUT_N.CLBLM_L_COUT</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS2.CLBLM_L_CQ</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS11.CLBLM_L_D</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS19.CLBLM_L_DMUX</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS3.CLBLM_L_DQ</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS12.CLBLM_M_A</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_AMUX.CLBLM_M_A</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS20.CLBLM_M_AMUX</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS4.CLBLM_M_AQ</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS13.CLBLM_M_B</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_BMUX.CLBLM_M_B</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS21.CLBLM_M_BMUX</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS5.CLBLM_M_BQ</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS14.CLBLM_M_C</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_CMUX.CLBLM_M_C</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS22.CLBLM_M_CMUX</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_COUT_N.CLBLM_M_COUT</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS6.CLBLM_M_CQ</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS15.CLBLM_M_D</td><td>always</td></tr>
-<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS23.CLBLM_M_DMUX</td><td>always</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS7.CLBLM_M_DQ</td><td>always</td></tr>
-</table>
 <h3>Tile INT_L Pseudo PIPs</h3>
 <table cellspacing=0>
 <tr><th width="500" align="left">PIP</th><th>Type</th></tr>
@@ -24312,6 +24209,109 @@ bit2grp['05_51'] = '02_49';
 <tr><td>INT_L.GCLK_L_B8_EAST.GCLK_L_B8</td><td>always</td></tr>
 <tr bgcolor="#dddddd"><td>INT_L.GCLK_L_B9_WEST.GCLK_L_B9</td><td>always</td></tr>
 <tr><td>INT_L.GCLK_L_B9_EAST.GCLK_L_B9</td><td>always</td></tr>
+</table>
+<h3>Tile CLBLM_L Pseudo PIPs</h3>
+<table cellspacing=0>
+<tr><th width="500" align="left">PIP</th><th>Type</th></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_AX.CLBLM_BYP0</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_AX.CLBLM_BYP1</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_CX.CLBLM_BYP2</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_CX.CLBLM_BYP3</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_BX.CLBLM_BYP4</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_BX.CLBLM_BYP5</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_DX.CLBLM_BYP6</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_DX.CLBLM_BYP7</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_CLK.CLBLM_CLK0</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_CLK.CLBLM_CLK1</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_SR.CLBLM_CTRL0</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_SR.CLBLM_CTRL1</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_AI.CLBLM_FAN0</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_BI.CLBLM_FAN2</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_DI.CLBLM_FAN3</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_WE.CLBLM_FAN4</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_CI.CLBLM_FAN5</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_CE.CLBLM_FAN6</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_CE.CLBLM_FAN7</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_A3.CLBLM_IMUX0</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_A2.CLBLM_IMUX3</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_A6.CLBLM_IMUX5</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_A1.CLBLM_IMUX6</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_A5.CLBLM_IMUX9</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_A4.CLBLM_IMUX10</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_A3.CLBLM_IMUX1</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_A2.CLBLM_IMUX2</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_A6.CLBLM_IMUX4</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_A1.CLBLM_IMUX7</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_A5.CLBLM_IMUX8</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_A4.CLBLM_IMUX11</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_B6.CLBLM_IMUX12</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_B1.CLBLM_IMUX15</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_B3.CLBLM_IMUX17</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_B2.CLBLM_IMUX18</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_B5.CLBLM_IMUX24</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_B4.CLBLM_IMUX27</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_B6.CLBLM_IMUX13</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_B1.CLBLM_IMUX14</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_B3.CLBLM_IMUX16</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_B2.CLBLM_IMUX19</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_B5.CLBLM_IMUX25</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_B4.CLBLM_IMUX26</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_C2.CLBLM_IMUX20</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_C4.CLBLM_IMUX21</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_C3.CLBLM_IMUX23</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_C5.CLBLM_IMUX30</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_C1.CLBLM_IMUX33</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_C6.CLBLM_IMUX34</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_C3.CLBLM_IMUX22</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_C4.CLBLM_IMUX28</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_C2.CLBLM_IMUX29</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_C5.CLBLM_IMUX31</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_C1.CLBLM_IMUX32</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_C6.CLBLM_IMUX35</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_D2.CLBLM_IMUX36</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_D4.CLBLM_IMUX37</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_D3.CLBLM_IMUX39</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_D1.CLBLM_IMUX41</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_L_D6.CLBLM_IMUX42</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_D5.CLBLM_IMUX46</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_D3.CLBLM_IMUX38</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_D1.CLBLM_IMUX40</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_D6.CLBLM_IMUX43</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_D4.CLBLM_IMUX44</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_M_D2.CLBLM_IMUX45</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_D5.CLBLM_IMUX47</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS8.CLBLM_L_A</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_AMUX.CLBLM_L_A</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS16.CLBLM_L_AMUX</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS0.CLBLM_L_AQ</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS9.CLBLM_L_B</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_BMUX.CLBLM_L_B</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS17.CLBLM_L_BMUX</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS1.CLBLM_L_BQ</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS10.CLBLM_L_C</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_CMUX.CLBLM_L_C</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS18.CLBLM_L_CMUX</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_L_COUT_N.CLBLM_L_COUT</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS2.CLBLM_L_CQ</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS11.CLBLM_L_D</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS19.CLBLM_L_DMUX</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS3.CLBLM_L_DQ</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS12.CLBLM_M_A</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_AMUX.CLBLM_M_A</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS20.CLBLM_M_AMUX</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS4.CLBLM_M_AQ</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS13.CLBLM_M_B</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_BMUX.CLBLM_M_B</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS21.CLBLM_M_BMUX</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS5.CLBLM_M_BQ</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS14.CLBLM_M_C</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_CMUX.CLBLM_M_C</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS22.CLBLM_M_CMUX</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_M_COUT_N.CLBLM_M_COUT</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS6.CLBLM_M_CQ</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS15.CLBLM_M_D</td><td>always</td></tr>
+<tr><td>CLBLM_L.CLBLM_LOGIC_OUTS23.CLBLM_M_DMUX</td><td>always</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_L.CLBLM_LOGIC_OUTS7.CLBLM_M_DQ</td><td>always</td></tr>
 </table>
 </div>
 </body></html>
