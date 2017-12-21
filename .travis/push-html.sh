@@ -1,6 +1,7 @@
 #! /bin/bash
 
 set -e
+set -x
 
 if [ ! -d html ]; then
 	echo "Please generate the html files first."
@@ -21,10 +22,17 @@ TMPDIR=$(mktemp -d)
 	cd $TMPDIR
 
 	# Clone the destination
-	git clone git+ssh://github.com/$CURRENT_OWNER/prjxray-db.git --reference $SRCDIR/.git -b gh-pages html
+	echo
+	echo "Cloning GitHub pages"
+	echo "--------------------------------------------"
+	ssh-add -l
+	ssh -v github.com || true
+	git clone git+ssh://git@github.com/$CURRENT_OWNER/prjxray-db.git --reference $SRCDIR/.git -b gh-pages html
+	echo "--------------------------------------------"
 	(
 		cd html
-		git fetch
+		git log -1
+		find -type f | sort
 	)
 	rm -rf html/*
 
