@@ -11,12 +11,12 @@ This documentation was generated using the
 [Project X-Ray tools](https://github.com/SymbiFlow/prjxray).
 
 Due to the long time taken to create this database yourself, a prebuilt version
-is currently being provided by Tim 'mithro' Ansell <me@mith.ro>. The database
+is currently being provided by Tim 'mithro' Ansell <<me@mith.ro>>. The database
 is intended to kept in sync with the current prjxray output, but due to the
 manual nature required to create it, it may sometimes lag behind
 what you could create yourself using those tools.
 
-Please try contacting [mailto:me@mith.ro](Tim) if you believe the database is
+Please try contacting [Tim](mailto:me@mith.ro) if you believe the database is
 more than a week out of date.
 
 # Contributions
