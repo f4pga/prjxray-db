@@ -67,8 +67,7 @@ done
 	echo
 	echo "HTML Results"
 	echo "--------------------------------------------"
-	cd html
-	sha256sum $(find -type f html | sort)
+	sha256sum $(find html -type f | sort)
 	echo "--------------------------------------------"
 	echo
 )
