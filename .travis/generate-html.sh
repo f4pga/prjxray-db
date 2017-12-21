@@ -7,12 +7,16 @@ export CURRENT_OWNER="$(git remote get-url origin | sed -e's@/[^/]\+$@@' -e's@.*
 SRCDIR=$PWD
 TMPDIR=$(mktemp -d)
 
+PRJXRAY_INFO_REVISION=$(grep "prjxray/commit" Info.md | sed -e's-.*/prjxray/commit/--' -e's/\([0-9a-fA-F]*\).*$/\1/')
+
 echo
 echo "Project X-Ray Database Revision $(git describe --long --tags --always)"
 echo "--------------------------------------------"
 git log -1
 echo "--------------------------------------------"
 echo
+
+
 
 # Remove any pre-existing html output.
 for d in html/*; do
@@ -32,8 +36,11 @@ fi
 (
 	cd $TMPDIR/prjxray
 	git fetch --tags
+	git reset --hard $PRJXRAY_INFO_REVISION
 	echo
 	echo "Project X-Ray Revision $(git describe --long --tags --always)"
+	echo "--------------------------------------------"
+	echo "Info says version should be $(git describe --long --tags --always $PRJXRAY_INFO_REVISION) ($PRJXRAY_INFO_REVISION)"
 	echo "--------------------------------------------"
 	git log -1
 	echo "--------------------------------------------"
