@@ -1,7 +1,6 @@
 #! /bin/bash
 
 set -e
-set -x
 
 if [ ! -d html ]; then
 	echo "Please generate the html files first."
