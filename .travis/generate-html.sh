@@ -15,7 +15,12 @@ for d in html/*; do
 done
 
 # Try a users version of the repo first, then try the SymbiFlow version if that fails.
-git clone git+ssh://github.com/$CURRENT_OWNER/prjxray.git $TMPDIR/prjxray || git clone git+ssh://github.com/SymbiFlow/prjxray.git $TMPDIR/prjxray
+if [ "$CURRENT_OWNER" != "SymbiFlow" ]; then
+	git clone https://github.com/$CURRENT_OWNER/prjxray.git $TMPDIR/prjxray || true
+fi
+if [ ! -d $TMPDIR/prjxray/.git ]; then
+	git clone https://github.com/SymbiFlow/prjxray.git $TMPDIR/prjxray
+fi
 
 for s in $(find -name settings.sh); do
 	echo

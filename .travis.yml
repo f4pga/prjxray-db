@@ -7,8 +7,11 @@ env:
    - GIT_COMMITTER_NAME="SymbiYosys Travis Bot"
    - GIT_COMMITTER_EMAIL="nobody@nowhere.com"
 
+before_install:
+  - ./.travis/save-key.sh
+
 script:
   - ./.travis/generate-html.sh
 
 after_install:
-  - if [ ! -z "$GH_KEY" ]; then ./.travis/push-html.sh; fi
+  - if [ -e ~/.ssh/agent.sh ]; then source ~/.ssh/agent.sh; ./.travis/push-html.sh; fi
