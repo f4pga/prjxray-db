@@ -37,27 +37,27 @@ These files are released under the very permissive
 
 # Details
 
-Last updated on Thu Dec 21 12:51:05 UTC 2017 (2017-12-21T12:51:05+00:00).
+Last updated on Thu Dec 21 13:18:42 UTC 2017 (2017-12-21T13:18:42+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-337-g1d30d08](https://github.com/SymbiFlow/prjxray/commit/1d30d08c82418c806649c98794a609094e47a094).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-339-g187bc74](https://github.com/SymbiFlow/prjxray/commit/187bc747709c6242979fa5433db1581087dadb80).
 
 Latest commit was;
 ```
-commit 1d30d08c82418c806649c98794a609094e47a094
-Merge: 8891d7f ac53296
-Author: Clifford Wolf <clifford@clifford.at>
-Date:   Thu Dec 21 02:21:58 2017 +0100
+commit 187bc747709c6242979fa5433db1581087dadb80
+Merge: 1d30d08 e27575d
+Author: Tim Ansell <me@mith.ro>
+Date:   Thu Dec 21 14:17:36 2017 +0100
 
-    Merge pull request #4 from SymbiFlow/clifford-master
+    Merge pull request #6 from mithro/htmlgen-fix
     
-    Clifford master
+    htmlgen: Fix generation with empty tilegrid.json
 ```
 
 ## Database for artix7
 
 ### Settings
 
-Created using following [settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)](https://github.com/SymbiFlow/prjxray/blob/1d30d08c82418c806649c98794a609094e47a094/database/artix7/settings.sh)
+Created using following [settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)](https://github.com/SymbiFlow/prjxray/blob/187bc747709c6242979fa5433db1581087dadb80/database/artix7/settings.sh)
 ```shell
 export XRAY_DATABASE="artix7"
 export XRAY_PART="xc7a50tfgg484-1"
@@ -114,7 +114,7 @@ d6ef0d4cc5a9afd7a493ffa6aeaf2f5a5e71f9afdf901852858ce9d06140e3dc  ./artix7/segbi
 
 ### Settings
 
-Created using following [settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)](https://github.com/SymbiFlow/prjxray/blob/1d30d08c82418c806649c98794a609094e47a094/database/kintex7/settings.sh)
+Created using following [settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)](https://github.com/SymbiFlow/prjxray/blob/187bc747709c6242979fa5433db1581087dadb80/database/kintex7/settings.sh)
 ```shell
 export XRAY_DATABASE="kintex7"
 export XRAY_PART="xc7k70tfbg676-2"
