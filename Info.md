@@ -1,6 +1,6 @@
 # Project X-Ray - Xilinx Series 7 Bitstream Documentation
 
-[[TOC]]
+[TOC]
 
 This repo contains the bitstream documentation database for Xilinx Series 7
 devices.
@@ -39,7 +39,7 @@ These files are released under the very permissive
 
 # Details
 
-Last updated on Thu Dec 21 14:55:49 UTC 2017 (2017-12-21T14:55:49+00:00).
+Last updated on Thu Dec 21 15:08:45 UTC 2017 (2017-12-21T15:08:45+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-342-g0226727](https://github.com/SymbiFlow/prjxray/commit/022672735d0e61408dd0b7d0eaed561af6eb4516).
 
@@ -83,6 +83,7 @@ source $(dirname ${BASH_SOURCE[0]})/../../utils/environment.sh
 ### [Results](artix7/)
 
 Results have checksums;
+
  * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clbll_l.db`](./artix7/mask_clbll_l.db)
  * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clbll_r.db`](./artix7/mask_clbll_r.db)
  * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clblm_l.db`](./artix7/mask_clblm_l.db)
@@ -139,5 +140,6 @@ source $(dirname ${BASH_SOURCE[0]})/../../utils/environment.sh
 ### [Results](kintex7/)
 
 Results have checksums;
+
  * [`2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18  ./kintex7/settings.sh`](./kintex7/settings.sh)
 
