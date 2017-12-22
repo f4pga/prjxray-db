@@ -2,6 +2,7 @@
 
 set -e
 
+# Capture some information about what we are generating for.
 export CURRENT_OWNER="$(git remote get-url origin | sed -e's@/[^/]\+$@@' -e's@.*[:/]\([^:/]\+\)$@\1@')"
 
 SRCDIR=$PWD
@@ -16,8 +17,6 @@ git log -1
 echo "--------------------------------------------"
 echo
 
-
-
 # Remove any pre-existing html output.
 for d in html/*; do
 	if [ -d "$d" ]; then
@@ -25,6 +24,7 @@ for d in html/*; do
 	fi
 done
 
+# Fetch Project X-ray so we can do the generation.
 # Try a users version of the repo first, then try the SymbiFlow version if that fails.
 if [ "$CURRENT_OWNER" != "SymbiFlow" ]; then
 	git clone https://github.com/$CURRENT_OWNER/prjxray.git $TMPDIR/prjxray || true
@@ -33,6 +33,7 @@ if [ ! -d $TMPDIR/prjxray/.git ]; then
 	git clone https://github.com/SymbiFlow/prjxray.git $TMPDIR/prjxray
 fi
 
+# Output some information about the version of Project X-ray we are using.
 (
 	cd $TMPDIR/prjxray
 	git fetch --tags
@@ -49,6 +50,7 @@ fi
 	echo
 )
 
+# Generate the HTML for each device we have a settings file for.
 for SETTINGS in $(find -name settings.sh); do
 	DEVICE=$(basename $(dirname $SETTINGS))
 
@@ -67,6 +69,7 @@ done
 
 cp COPYING html/COPYING
 
+# Generate the index page from the Info.md file
 python3 -m markdown \
 	-x markdown.extensions.fenced_code \
 	-x markdown.extensions.tables \
@@ -74,6 +77,7 @@ python3 -m markdown \
 	-x markdown.extensions.toc \
 	Info.md > html/index.html
 
+# Output a summary of the generated stuff
 (
 	echo
 	echo "HTML Results"
