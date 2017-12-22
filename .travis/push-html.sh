@@ -31,7 +31,7 @@ TMPDIR=$(mktemp -d)
 	(
 		cd html
 		git log -1
-		find -type f | sort
+		find -type f | grep -v .git | sort
 	)
 	echo "--------------------------------------------"
 
