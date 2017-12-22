@@ -11,12 +11,12 @@ This documentation was generated using the
 [Project X-Ray tools](https://github.com/SymbiFlow/prjxray).
 
 Due to the long time taken to create this database yourself, a prebuilt version
-is currently being provided by Tim 'mithro' Ansell <me@mith.ro>. The database
+is currently being provided by Tim 'mithro' Ansell <<me@mith.ro>>. The database
 is intended to kept in sync with the current prjxray output, but due to the
 manual nature required to create it, it may sometimes lag behind
 what you could create yourself using those tools.
 
-Please try contacting [mailto:me@mith.ro](Tim) if you believe the database is
+Please try contacting [Tim](mailto:me@mith.ro) if you believe the database is
 more than a week out of date.
 
 # Contributions
@@ -39,27 +39,27 @@ These files are released under the very permissive
 
 # Details
 
-Last updated on Thu Dec 21 15:08:45 UTC 2017 (2017-12-21T15:08:45+00:00).
+Last updated on Fri Dec 22 16:55:46 UTC 2017 (2017-12-22T16:55:46+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-342-g0226727](https://github.com/SymbiFlow/prjxray/commit/022672735d0e61408dd0b7d0eaed561af6eb4516).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-354-gf953c3d](https://github.com/SymbiFlow/prjxray/commit/f953c3ddbe7c50401708cc6b5d805be5859080c8).
 
 Latest commit was;
 ```
-commit 022672735d0e61408dd0b7d0eaed561af6eb4516
-Merge: 187bc74 5ac76f0
+commit f953c3ddbe7c50401708cc6b5d805be5859080c8
+Merge: 5783d2e b602904
 Author: Clifford Wolf <clifford@clifford.at>
-Date:   Thu Dec 21 15:29:10 2017 +0100
+Date:   Fri Dec 22 17:46:00 2017 +0100
 
-    Merge pull request #5 from mithro/download-db-fix
+    Merge pull request #13 from SymbiFlow/next-clifford
     
-    Make download-latest-db use https by default.
+    Mostly BRAM, DSP, and Kintex stuff
 ```
 
 ## Database for [artix7](artix7/)
 
 ### Settings
 
-Created using following [settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)](https://github.com/SymbiFlow/prjxray/blob/022672735d0e61408dd0b7d0eaed561af6eb4516/database/artix7/settings.sh)
+Created using following [settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)](https://github.com/SymbiFlow/prjxray/blob/f953c3ddbe7c50401708cc6b5d805be5859080c8/database/artix7/settings.sh)
 ```shell
 export XRAY_DATABASE="artix7"
 export XRAY_PART="xc7a50tfgg484-1"
@@ -84,6 +84,7 @@ source $(dirname ${BASH_SOURCE[0]})/../../utils/environment.sh
 
 Results have checksums;
 
+ * [`6864d8edcef442cb129f83b9c5cd27be85d1b4bded8007bbeadcfc70717f8c48  ./artix7/gridinfo/grid-xc7a50tfgg484-1-db.txt`](./artix7/gridinfo/grid-xc7a50tfgg484-1-db.txt)
  * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clbll_l.db`](./artix7/mask_clbll_l.db)
  * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clbll_r.db`](./artix7/mask_clbll_r.db)
  * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clblm_l.db`](./artix7/mask_clblm_l.db)
@@ -115,7 +116,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)](https://github.com/SymbiFlow/prjxray/blob/022672735d0e61408dd0b7d0eaed561af6eb4516/database/kintex7/settings.sh)
+Created using following [settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)](https://github.com/SymbiFlow/prjxray/blob/f953c3ddbe7c50401708cc6b5d805be5859080c8/database/kintex7/settings.sh)
 ```shell
 export XRAY_DATABASE="kintex7"
 export XRAY_PART="xc7k70tfbg676-2"
