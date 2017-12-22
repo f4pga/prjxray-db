@@ -82,7 +82,7 @@ python3 -m markdown \
 	echo
 	echo "HTML Results"
 	echo "--------------------------------------------"
-	sha256sum $(find html -type f -name *.html | sort)
+	sha256sum $(find html -type f | sort)
 	echo "--------------------------------------------"
 	echo
 )
