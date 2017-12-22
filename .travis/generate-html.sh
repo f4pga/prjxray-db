@@ -24,13 +24,18 @@ for d in html/*; do
 	fi
 done
 
+REF=""
+if [ -d ../prjxray/.git ]; then
+	REF="--reference $(realpath $PWD/../prjxray/.git)"
+fi
+
 # Fetch Project X-ray so we can do the generation.
 # Try a users version of the repo first, then try the SymbiFlow version if that fails.
 if [ "$CURRENT_OWNER" != "SymbiFlow" ]; then
-	git clone https://github.com/$CURRENT_OWNER/prjxray.git $TMPDIR/prjxray || true
+	git clone $REF https://github.com/$CURRENT_OWNER/prjxray.git $TMPDIR/prjxray || true
 fi
 if [ ! -d $TMPDIR/prjxray/.git ]; then
-	git clone https://github.com/SymbiFlow/prjxray.git $TMPDIR/prjxray
+	git clone $REF https://github.com/SymbiFlow/prjxray.git $TMPDIR/prjxray
 fi
 
 # Output some information about the version of Project X-ray we are using.
