@@ -8,6 +8,8 @@ export CURRENT_OWNER="$(git remote get-url origin | sed -e's@/[^/]\+$@@' -e's@.*
 SRCDIR=$PWD
 TMPDIR=$(mktemp -d)
 
+PYTHONHASHSEED=0
+
 PRJXRAY_INFO_REVISION=$(grep "prjxray/commit" Info.md | sed -e's-.*/prjxray/commit/--' -e's/\([0-9a-fA-F]*\).*$/\1/')
 
 echo
