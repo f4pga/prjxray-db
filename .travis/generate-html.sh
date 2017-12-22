@@ -57,7 +57,7 @@ fi
 
 # Generate the HTML for each device we have a settings file for.
 for SETTINGS in $(find -name settings.sh); do
-	DEVICE=$(basename $(dirname $SETTINGS))
+	DEVICE="$(basename $(dirname $SETTINGS))"
 
 	echo
 	echo "Generating for $DEVICE"
@@ -67,20 +67,28 @@ for SETTINGS in $(find -name settings.sh); do
 	echo "--------------------------------------------"
 	python3 $TMPDIR/prjxray/htmlgen/htmlgen.py --settings=$SETTINGS
 	echo "--------------------------------------------"
-	cp $DEVICE/* ./html/$DEVICE/
+	cp -a $DEVICE/* ./html/$DEVICE/
 	echo "--------------------------------------------"
 	echo
 
-	if [ -f html/$DEVICE/gridinfo.json ]; then
+	if [ -d $DEVICE/gridinfo ]; then
 		echo
-		echo "Copying in TileGrid viewer for $DEVICE"
+		echo "Setting up tile grid viewer JSON for $DEVICE"
 		echo "--------------------------------------------"
-		mkdir -p html/$DEVICE/gridinfo
 		for F in svg-pan-zoom.js gridinfo.html; do
-			cp $TMPDIR/prjxray/gridinfo/$F html/$DEVICE/
+			cp -v $TMPDIR/prjxray/gridinfo/$F html/$DEVICE/gridinfo/
 		done
 		echo "--------------------------------------------"
+		for GRID in html/$DEVICE/gridinfo/*.txt; do
+			DEVICE_GRID="$(basename $GRID .txt)"
+			echo
+			echo "Creating tile grid viewer JSON for $DEVICE_GRID"
+			echo "--------------------------------------------"
+			python3 $TMPDIR/prjxray/gridinfo/gridinfo-txt2json.py html/$DEVICE/gridinfo/$DEVICE_GRID $DEVICE_GRID
+			echo "--------------------------------------------"
+		done
 	fi
+
 done
 
 cp COPYING html/COPYING
