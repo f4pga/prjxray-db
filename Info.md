@@ -39,7 +39,7 @@ These files are released under the very permissive
 
 # Details
 
-Last updated on Fri Dec 22 18:34:03 UTC 2017 (2017-12-22T18:34:03+00:00).
+Last updated on Fri Dec 22 21:15:22 UTC 2017 (2017-12-22T21:15:22+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-354-gf953c3d](https://github.com/SymbiFlow/prjxray/commit/f953c3ddbe7c50401708cc6b5d805be5859080c8).
 
@@ -142,6 +142,16 @@ source $(dirname ${BASH_SOURCE[0]})/../../utils/environment.sh
 
 Results have checksums;
 
+ * [`249454dbc8f00dc8f87d5c4a7adbc4c07b5fa283f1b1f184371f8970d5a1dac1  ./kintex7/mask_clbll_l.db`](./kintex7/mask_clbll_l.db)
+ * [`4b2dd9141ec0999a9a63af28bcde59e4890aff04358116087de1783eaad1268d  ./kintex7/mask_clbll_r.db`](./kintex7/mask_clbll_r.db)
+ * [`77520b1532eabdcde99b538829d073207a24ea62d6c857eff2d2305a938c8b0a  ./kintex7/mask_clblm_l.db`](./kintex7/mask_clblm_l.db)
+ * [`f1a9808f40a675bfb11d9f7d44e2426c473d664731126a1a8234c911607bbd0d  ./kintex7/mask_clblm_r.db`](./kintex7/mask_clblm_r.db)
+ * [`3e3b19a2d49a1d0f25937bc5d0b33f0269c22c5e8ae3cfe52e4ff5c65843b134  ./kintex7/segbits_clbll_l.db`](./kintex7/segbits_clbll_l.db)
+ * [`fdb5499b9e2aa9d1796332279f0b5dc881a5ad0796698e8ef3af40ddc98df26b  ./kintex7/segbits_clbll_r.db`](./kintex7/segbits_clbll_r.db)
+ * [`0b79670cc5a03b7580f73dc162a8bad048ade2f50971622138e0d0a5759899b6  ./kintex7/segbits_clblm_l.db`](./kintex7/segbits_clblm_l.db)
+ * [`e7f5d16940fde9397f69d5f52c2a6339641191dc9dba4466e8b7f9e5f6a735bf  ./kintex7/segbits_clblm_r.db`](./kintex7/segbits_clblm_r.db)
+ * [`3acf987b9e7fb81ef6834b82418cac50c50a1b8789afd46b70600dd3cda57b7a  ./kintex7/segbits_int_l.db`](./kintex7/segbits_int_l.db)
+ * [`0bf2446027e385b1336d67afa85670ca9557a8786ee70db8453c81af08e8a002  ./kintex7/segbits_int_r.db`](./kintex7/segbits_int_r.db)
  * [`2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18  ./kintex7/settings.sh`](./kintex7/settings.sh)
  * [`2de0ad914422b7fdf14f26895122cd7bcf4263c2e86286519ca4a8efafddab4a  ./kintex7/tilegrid.json`](./kintex7/tilegrid.json)
  * [`68426295ab4a35e367c9dff93e4f9b807afd43fe83418cb2da7465cd4d7177a2  ./kintex7/xc7k70tfbg676-2.yaml`](./kintex7/xc7k70tfbg676-2.yaml)
