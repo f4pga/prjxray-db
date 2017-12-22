@@ -39,7 +39,7 @@ These files are released under the very permissive
 
 # Details
 
-Last updated on Fri Dec 22 16:55:46 UTC 2017 (2017-12-22T16:55:46+00:00).
+Last updated on Fri Dec 22 17:02:26 UTC 2017 (2017-12-22T17:02:26+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-354-gf953c3d](https://github.com/SymbiFlow/prjxray/commit/f953c3ddbe7c50401708cc6b5d805be5859080c8).
 
@@ -143,4 +143,5 @@ source $(dirname ${BASH_SOURCE[0]})/../../utils/environment.sh
 Results have checksums;
 
  * [`2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18  ./kintex7/settings.sh`](./kintex7/settings.sh)
+ * [`2de0ad914422b7fdf14f26895122cd7bcf4263c2e86286519ca4a8efafddab4a  ./kintex7/tilegrid.json`](./kintex7/tilegrid.json)
 
