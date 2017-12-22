@@ -70,6 +70,17 @@ for SETTINGS in $(find -name settings.sh); do
 	cp $DEVICE/* ./html/$DEVICE/
 	echo "--------------------------------------------"
 	echo
+
+	if [ -f html/$DEVICE/gridinfo.json ]; then
+		echo
+		echo "Copying in TileGrid viewer for $DEVICE"
+		echo "--------------------------------------------"
+		mkdir -p html/$DEVICE/gridinfo
+		for F in svg-pan-zoom.js gridinfo.html; do
+			cp $TMPDIR/prjxray/gridinfo/$F html/$DEVICE/
+		done
+		echo "--------------------------------------------"
+	fi
 done
 
 cp COPYING html/COPYING
