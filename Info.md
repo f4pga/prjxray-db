@@ -39,27 +39,27 @@ These files are released under the very permissive
 
 # Details
 
-Last updated on Fri Dec 22 21:15:22 UTC 2017 (2017-12-22T21:15:22+00:00).
+Last updated on Sat Dec 23 08:37:59 UTC 2017 (2017-12-23T08:37:59+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-354-gf953c3d](https://github.com/SymbiFlow/prjxray/commit/f953c3ddbe7c50401708cc6b5d805be5859080c8).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-374-g4bb24aa](https://github.com/SymbiFlow/prjxray/commit/4bb24aa09e3fab467066a8bf53c4f3af4773b489).
 
 Latest commit was;
 ```
-commit f953c3ddbe7c50401708cc6b5d805be5859080c8
-Merge: 5783d2e b602904
-Author: Clifford Wolf <clifford@clifford.at>
-Date:   Fri Dec 22 17:46:00 2017 +0100
+commit 4bb24aa09e3fab467066a8bf53c4f3af4773b489
+Merge: 0ba8c00 21ba9cf
+Author: John McMaster <mcmaster@google.com>
+Date:   Fri Dec 22 17:53:23 2017 -0800
 
-    Merge pull request #13 from SymbiFlow/next-clifford
+    Merge pull request #19 from mcmasterg/minitest_muxf8
     
-    Mostly BRAM, DSP, and Kintex stuff
+    clb_muxf8 minitest
 ```
 
 ## Database for [artix7](artix7/)
 
 ### Settings
 
-Created using following [settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)](https://github.com/SymbiFlow/prjxray/blob/f953c3ddbe7c50401708cc6b5d805be5859080c8/database/artix7/settings.sh)
+Created using following [settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)](https://github.com/SymbiFlow/prjxray/blob/4bb24aa09e3fab467066a8bf53c4f3af4773b489/database/artix7/settings.sh)
 ```shell
 export XRAY_DATABASE="artix7"
 export XRAY_PART="xc7a50tfgg484-1"
@@ -116,7 +116,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)](https://github.com/SymbiFlow/prjxray/blob/f953c3ddbe7c50401708cc6b5d805be5859080c8/database/kintex7/settings.sh)
+Created using following [settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)](https://github.com/SymbiFlow/prjxray/blob/4bb24aa09e3fab467066a8bf53c4f3af4773b489/database/kintex7/settings.sh)
 ```shell
 export XRAY_DATABASE="kintex7"
 export XRAY_PART="xc7k70tfbg676-2"
