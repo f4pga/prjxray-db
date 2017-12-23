@@ -44,23 +44,23 @@ that file and then request Tim to rebuild the HTML output.</p>
 <p>These files are released under the very permissive
 <a href="COPYING">ISC License, see the COPYING file for the full text</a>.</p>
 <h1 id="details">Details</h1>
-<p>Last updated on Fri Dec 22 21:15:22 UTC 2017 (2017-12-22T21:15:22+00:00).</p>
-<p>Created using <a href="https://github.com/SymbiFlow/prjxray">Project X-Ray</a> version <a href="https://github.com/SymbiFlow/prjxray/commit/f953c3ddbe7c50401708cc6b5d805be5859080c8">v0.0-354-gf953c3d</a>.</p>
+<p>Last updated on Sat Dec 23 08:39:11 UTC 2017 (2017-12-23T08:39:11+00:00).</p>
+<p>Created using <a href="https://github.com/SymbiFlow/prjxray">Project X-Ray</a> version <a href="https://github.com/SymbiFlow/prjxray/commit/4bb24aa09e3fab467066a8bf53c4f3af4773b489">v0.0-374-g4bb24aa</a>.</p>
 <p>Latest commit was;</p>
-<div class="codehilite"><pre><span></span>commit f953c3ddbe7c50401708cc6b5d805be5859080c8
-Merge: 5783d2e b602904
-Author: Clifford Wolf &lt;clifford@clifford.at&gt;
-Date:   Fri Dec 22 17:46:00 2017 +0100
+<div class="codehilite"><pre><span></span>commit 4bb24aa09e3fab467066a8bf53c4f3af4773b489
+Merge: 0ba8c00 21ba9cf
+Author: John McMaster &lt;mcmaster@google.com&gt;
+Date:   Fri Dec 22 17:53:23 2017 -0800
 
-    Merge pull request #13 from SymbiFlow/next-clifford
+    Merge pull request #19 from mcmasterg/minitest_muxf8
 
-    Mostly BRAM, DSP, and Kintex stuff
+    clb_muxf8 minitest
 </pre></div>
 
 
 <h2 id="database-for-artix7">Database for <a href="artix7/">artix7</a></h2>
 <h3 id="settings">Settings</h3>
-<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/f953c3ddbe7c50401708cc6b5d805be5859080c8/database/artix7/settings.sh">settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)</a></p>
+<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/4bb24aa09e3fab467066a8bf53c4f3af4773b489/database/artix7/settings.sh">settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)</a></p>
 <div class="codehilite"><pre><span></span><span class="nb">export</span> <span class="nv">XRAY_DATABASE</span><span class="o">=</span><span class="s2">&quot;artix7&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_PART</span><span class="o">=</span><span class="s2">&quot;xc7a50tfgg484-1&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_ROI</span><span class="o">=</span><span class="s2">&quot;SLICE_X12Y100:SLICE_X27Y149&quot;</span>
@@ -114,7 +114,7 @@ Date:   Fri Dec 22 17:46:00 2017 +0100
 </ul>
 <h2 id="database-for-kintex7">Database for <a href="kintex7/">kintex7</a></h2>
 <h3 id="settings_1">Settings</h3>
-<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/f953c3ddbe7c50401708cc6b5d805be5859080c8/database/kintex7/settings.sh">settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)</a></p>
+<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/4bb24aa09e3fab467066a8bf53c4f3af4773b489/database/kintex7/settings.sh">settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)</a></p>
 <div class="codehilite"><pre><span></span><span class="nb">export</span> <span class="nv">XRAY_DATABASE</span><span class="o">=</span><span class="s2">&quot;kintex7&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_PART</span><span class="o">=</span><span class="s2">&quot;xc7k70tfbg676-2&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_ROI</span><span class="o">=</span><span class="s2">&quot;SLICE_X0Y50:SLICE_X19Y99 DSP48_X0Y20:DSP48_X0Y39 RAMB18_X0Y20:RAMB18_X0Y39 RAMB36_X0Y10:RAMB36_X0Y19&quot;</span>
@@ -139,17 +139,37 @@ Date:   Fri Dec 22 17:46:00 2017 +0100
 <h3 id="results_1"><a href="kintex7/">Results</a></h3>
 <p>Results have checksums;</p>
 <ul>
-<li><a href="./kintex7/mask_clbll_l.db"><code>249454dbc8f00dc8f87d5c4a7adbc4c07b5fa283f1b1f184371f8970d5a1dac1  ./kintex7/mask_clbll_l.db</code></a></li>
-<li><a href="./kintex7/mask_clbll_r.db"><code>4b2dd9141ec0999a9a63af28bcde59e4890aff04358116087de1783eaad1268d  ./kintex7/mask_clbll_r.db</code></a></li>
-<li><a href="./kintex7/mask_clblm_l.db"><code>77520b1532eabdcde99b538829d073207a24ea62d6c857eff2d2305a938c8b0a  ./kintex7/mask_clblm_l.db</code></a></li>
-<li><a href="./kintex7/mask_clblm_r.db"><code>f1a9808f40a675bfb11d9f7d44e2426c473d664731126a1a8234c911607bbd0d  ./kintex7/mask_clblm_r.db</code></a></li>
+<li><a href="./kintex7/mask_bram0_l.db"><code>6f6dd0ba33fdd78d87f8591adbff5aad2d3653a1b1fa03d77079ce64a7c1f175  ./kintex7/mask_bram0_l.db</code></a></li>
+<li><a href="./kintex7/mask_bram0_r.db"><code>9d12bc3be758587479874bff531ad702f429a963518d7bc5b2b3c0400ded4c6a  ./kintex7/mask_bram0_r.db</code></a></li>
+<li><a href="./kintex7/mask_bram1_l.db"><code>6f6dd0ba33fdd78d87f8591adbff5aad2d3653a1b1fa03d77079ce64a7c1f175  ./kintex7/mask_bram1_l.db</code></a></li>
+<li><a href="./kintex7/mask_bram1_r.db"><code>9d12bc3be758587479874bff531ad702f429a963518d7bc5b2b3c0400ded4c6a  ./kintex7/mask_bram1_r.db</code></a></li>
+<li><a href="./kintex7/mask_bram2_l.db"><code>6f6dd0ba33fdd78d87f8591adbff5aad2d3653a1b1fa03d77079ce64a7c1f175  ./kintex7/mask_bram2_l.db</code></a></li>
+<li><a href="./kintex7/mask_bram2_r.db"><code>9d12bc3be758587479874bff531ad702f429a963518d7bc5b2b3c0400ded4c6a  ./kintex7/mask_bram2_r.db</code></a></li>
+<li><a href="./kintex7/mask_bram3_l.db"><code>6f6dd0ba33fdd78d87f8591adbff5aad2d3653a1b1fa03d77079ce64a7c1f175  ./kintex7/mask_bram3_l.db</code></a></li>
+<li><a href="./kintex7/mask_bram3_r.db"><code>9d12bc3be758587479874bff531ad702f429a963518d7bc5b2b3c0400ded4c6a  ./kintex7/mask_bram3_r.db</code></a></li>
+<li><a href="./kintex7/mask_bram4_l.db"><code>6f6dd0ba33fdd78d87f8591adbff5aad2d3653a1b1fa03d77079ce64a7c1f175  ./kintex7/mask_bram4_l.db</code></a></li>
+<li><a href="./kintex7/mask_bram4_r.db"><code>9d12bc3be758587479874bff531ad702f429a963518d7bc5b2b3c0400ded4c6a  ./kintex7/mask_bram4_r.db</code></a></li>
+<li><a href="./kintex7/mask_clbll_l.db"><code>03fe7af3125c25f3d84bd8e874525c83275a6c3b6736d0b01134b5f982721f5b  ./kintex7/mask_clbll_l.db</code></a></li>
+<li><a href="./kintex7/mask_clbll_r.db"><code>be34841c9aa64527e5f84d1819abbac1d324047367003b6fdc1402cd695481de  ./kintex7/mask_clbll_r.db</code></a></li>
+<li><a href="./kintex7/mask_clblm_l.db"><code>fec2e4a94efd8b4e9d29d52689d406482f842e6f718ab671131b5e9ac2e0805b  ./kintex7/mask_clblm_l.db</code></a></li>
+<li><a href="./kintex7/mask_clblm_r.db"><code>7b68fbcb19382d54bdc57971dd7eb9b0cbb4318f9b6053b301f3384f7ee4bb75  ./kintex7/mask_clblm_r.db</code></a></li>
+<li><a href="./kintex7/mask_dsp0_l.db"><code>6f6dd0ba33fdd78d87f8591adbff5aad2d3653a1b1fa03d77079ce64a7c1f175  ./kintex7/mask_dsp0_l.db</code></a></li>
+<li><a href="./kintex7/mask_dsp0_r.db"><code>9d12bc3be758587479874bff531ad702f429a963518d7bc5b2b3c0400ded4c6a  ./kintex7/mask_dsp0_r.db</code></a></li>
+<li><a href="./kintex7/mask_dsp1_l.db"><code>6f6dd0ba33fdd78d87f8591adbff5aad2d3653a1b1fa03d77079ce64a7c1f175  ./kintex7/mask_dsp1_l.db</code></a></li>
+<li><a href="./kintex7/mask_dsp1_r.db"><code>9d12bc3be758587479874bff531ad702f429a963518d7bc5b2b3c0400ded4c6a  ./kintex7/mask_dsp1_r.db</code></a></li>
+<li><a href="./kintex7/mask_dsp2_l.db"><code>6f6dd0ba33fdd78d87f8591adbff5aad2d3653a1b1fa03d77079ce64a7c1f175  ./kintex7/mask_dsp2_l.db</code></a></li>
+<li><a href="./kintex7/mask_dsp2_r.db"><code>9d12bc3be758587479874bff531ad702f429a963518d7bc5b2b3c0400ded4c6a  ./kintex7/mask_dsp2_r.db</code></a></li>
+<li><a href="./kintex7/mask_dsp3_l.db"><code>6f6dd0ba33fdd78d87f8591adbff5aad2d3653a1b1fa03d77079ce64a7c1f175  ./kintex7/mask_dsp3_l.db</code></a></li>
+<li><a href="./kintex7/mask_dsp3_r.db"><code>9d12bc3be758587479874bff531ad702f429a963518d7bc5b2b3c0400ded4c6a  ./kintex7/mask_dsp3_r.db</code></a></li>
+<li><a href="./kintex7/mask_dsp4_l.db"><code>6f6dd0ba33fdd78d87f8591adbff5aad2d3653a1b1fa03d77079ce64a7c1f175  ./kintex7/mask_dsp4_l.db</code></a></li>
+<li><a href="./kintex7/mask_dsp4_r.db"><code>9d12bc3be758587479874bff531ad702f429a963518d7bc5b2b3c0400ded4c6a  ./kintex7/mask_dsp4_r.db</code></a></li>
 <li><a href="./kintex7/segbits_clbll_l.db"><code>3e3b19a2d49a1d0f25937bc5d0b33f0269c22c5e8ae3cfe52e4ff5c65843b134  ./kintex7/segbits_clbll_l.db</code></a></li>
 <li><a href="./kintex7/segbits_clbll_r.db"><code>fdb5499b9e2aa9d1796332279f0b5dc881a5ad0796698e8ef3af40ddc98df26b  ./kintex7/segbits_clbll_r.db</code></a></li>
 <li><a href="./kintex7/segbits_clblm_l.db"><code>0b79670cc5a03b7580f73dc162a8bad048ade2f50971622138e0d0a5759899b6  ./kintex7/segbits_clblm_l.db</code></a></li>
 <li><a href="./kintex7/segbits_clblm_r.db"><code>e7f5d16940fde9397f69d5f52c2a6339641191dc9dba4466e8b7f9e5f6a735bf  ./kintex7/segbits_clblm_r.db</code></a></li>
-<li><a href="./kintex7/segbits_int_l.db"><code>3acf987b9e7fb81ef6834b82418cac50c50a1b8789afd46b70600dd3cda57b7a  ./kintex7/segbits_int_l.db</code></a></li>
-<li><a href="./kintex7/segbits_int_r.db"><code>0bf2446027e385b1336d67afa85670ca9557a8786ee70db8453c81af08e8a002  ./kintex7/segbits_int_r.db</code></a></li>
+<li><a href="./kintex7/segbits_int_l.db"><code>9ed8769618df03902c73e78312467108c7b74b903ac61d1bbbba1fd9710e6d3b  ./kintex7/segbits_int_l.db</code></a></li>
+<li><a href="./kintex7/segbits_int_r.db"><code>dbf6cba5bbba95d7d78d9b51d236d8819dc776c2ebc540521e5b48d3a2c1390f  ./kintex7/segbits_int_r.db</code></a></li>
 <li><a href="./kintex7/settings.sh"><code>2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18  ./kintex7/settings.sh</code></a></li>
-<li><a href="./kintex7/tilegrid.json"><code>2de0ad914422b7fdf14f26895122cd7bcf4263c2e86286519ca4a8efafddab4a  ./kintex7/tilegrid.json</code></a></li>
+<li><a href="./kintex7/tilegrid.json"><code>8f5b7a7924adec5132208cf8e851e81bcb01a5c61f8839eb5a5de0b20b924510  ./kintex7/tilegrid.json</code></a></li>
 <li><a href="./kintex7/xc7k70tfbg676-2.yaml"><code>68426295ab4a35e367c9dff93e4f9b807afd43fe83418cb2da7465cd4d7177a2  ./kintex7/xc7k70tfbg676-2.yaml</code></a></li>
 </ul>
