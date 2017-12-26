@@ -44,23 +44,23 @@ that file and then request Tim to rebuild the HTML output.</p>
 <p>These files are released under the very permissive
 <a href="COPYING">ISC License, see the COPYING file for the full text</a>.</p>
 <h1 id="details">Details</h1>
-<p>Last updated on Sun Dec 24 12:38:07 UTC 2017 (2017-12-24T12:38:07+00:00).</p>
-<p>Created using <a href="https://github.com/SymbiFlow/prjxray">Project X-Ray</a> version <a href="https://github.com/SymbiFlow/prjxray/commit/f602ed79d86ae7d587cc8e5226c3646fe1242d1a">v0.0-380-gf602ed7</a>.</p>
+<p>Last updated on Tue Dec 26 20:21:56 UTC 2017 (2017-12-26T20:21:56+00:00).</p>
+<p>Created using <a href="https://github.com/SymbiFlow/prjxray">Project X-Ray</a> version <a href="https://github.com/SymbiFlow/prjxray/commit/21fbacdb8afb25852a5a67566ab81212ad20cd50">v0.0-389-g21fbacd</a>.</p>
 <p>Latest commit was;</p>
-<div class="codehilite"><pre><span></span>commit f602ed79d86ae7d587cc8e5226c3646fe1242d1a
-Merge: 4bb24aa 672d21e
-Author: Clifford Wolf &lt;clifford@clifford.at&gt;
-Date:   Sat Dec 23 22:31:24 2017 +0100
+<div class="codehilite"><pre><span></span>commit 21fbacdb8afb25852a5a67566ab81212ad20cd50
+Merge: 45731f7 b92e4c8
+Author: Tim Ansell &lt;me@mith.ro&gt;
+Date:   Tue Dec 26 21:19:57 2017 +0100
 
-    Merge pull request #21 from SymbiFlow/next-clifford
+    Merge pull request #24 from SymbiFlow/next-clifford
 
-    Various improvements in PIP fuzzing and htmlgen
+    Get rid of hardcoded slices in some fuzzers
 </pre></div>
 
 
 <h2 id="database-for-artix7">Database for <a href="artix7/">artix7</a></h2>
 <h3 id="settings">Settings</h3>
-<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/f602ed79d86ae7d587cc8e5226c3646fe1242d1a/database/artix7/settings.sh">settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)</a></p>
+<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/21fbacdb8afb25852a5a67566ab81212ad20cd50/database/artix7/settings.sh">settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)</a></p>
 <div class="codehilite"><pre><span></span><span class="nb">export</span> <span class="nv">XRAY_DATABASE</span><span class="o">=</span><span class="s2">&quot;artix7&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_PART</span><span class="o">=</span><span class="s2">&quot;xc7a50tfgg484-1&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_ROI</span><span class="o">=</span><span class="s2">&quot;SLICE_X12Y100:SLICE_X27Y149&quot;</span>
@@ -109,14 +109,13 @@ Date:   Sat Dec 23 22:31:24 2017 +0100
 <li><a href="./artix7/segbits_int_r.db"><code>7ee1d2714dde4b1e6f1d8c89076f67e1575b9c65f078ade0fe07c0c6bf30cbd8  ./artix7/segbits_int_r.db</code></a></li>
 <li><a href="./artix7/settings.sh"><code>994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300  ./artix7/settings.sh</code></a></li>
 <li><a href="./artix7/tileconn.json"><code>994b9487a088125f5c6488b32eb488891123690077a49b50652b85497fe86b97  ./artix7/tileconn.json</code></a></li>
+<li><a href="./artix7/.tileconn.json.swp"><code>d18cd236601a081eb1621d3555a00d56c963cc79c9759397a411254fbd89c482  ./artix7/.tileconn.json.swp</code></a></li>
 <li><a href="./artix7/tilegrid.json"><code>236dde5e55842e3944c6194b45adddbdc7b89043c64da2be3348a15c9d779443  ./artix7/tilegrid.json</code></a></li>
-<li><a href="./artix7/.to-vpr-clbll.py.swp"><code>17ae9ee297ae135c5d72a287994894e963cf9b978ed2e0c315ccabe034e356ac  ./artix7/.to-vpr-clbll.py.swp</code></a></li>
-<li><a href="./artix7/.to-vpr.py.swp"><code>028f811684cb4778b1a29b002a88a6d2518432400e0e446c5558fcfbf1bc26c7  ./artix7/.to-vpr.py.swp</code></a></li>
 <li><a href="./artix7/xc7a50tfgg484-1.yaml"><code>86376865f572d83f9c7dc0fdf8caf1184da9fb924f859eecc3357f8b5205e3d6  ./artix7/xc7a50tfgg484-1.yaml</code></a></li>
 </ul>
 <h2 id="database-for-kintex7">Database for <a href="kintex7/">kintex7</a></h2>
 <h3 id="settings_1">Settings</h3>
-<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/f602ed79d86ae7d587cc8e5226c3646fe1242d1a/database/kintex7/settings.sh">settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)</a></p>
+<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/21fbacdb8afb25852a5a67566ab81212ad20cd50/database/kintex7/settings.sh">settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)</a></p>
 <div class="codehilite"><pre><span></span><span class="nb">export</span> <span class="nv">XRAY_DATABASE</span><span class="o">=</span><span class="s2">&quot;kintex7&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_PART</span><span class="o">=</span><span class="s2">&quot;xc7k70tfbg676-2&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_ROI</span><span class="o">=</span><span class="s2">&quot;SLICE_X0Y50:SLICE_X19Y99 DSP48_X0Y20:DSP48_X0Y39 RAMB18_X0Y20:RAMB18_X0Y39 RAMB36_X0Y10:RAMB36_X0Y19&quot;</span>
