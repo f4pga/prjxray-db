@@ -39,27 +39,27 @@ These files are released under the very permissive
 
 # Details
 
-Last updated on Sun Dec 24 12:38:07 UTC 2017 (2017-12-24T12:38:07+00:00).
+Last updated on Tue Dec 26 20:21:56 UTC 2017 (2017-12-26T20:21:56+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-380-gf602ed7](https://github.com/SymbiFlow/prjxray/commit/f602ed79d86ae7d587cc8e5226c3646fe1242d1a).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-389-g21fbacd](https://github.com/SymbiFlow/prjxray/commit/21fbacdb8afb25852a5a67566ab81212ad20cd50).
 
 Latest commit was;
 ```
-commit f602ed79d86ae7d587cc8e5226c3646fe1242d1a
-Merge: 4bb24aa 672d21e
-Author: Clifford Wolf <clifford@clifford.at>
-Date:   Sat Dec 23 22:31:24 2017 +0100
+commit 21fbacdb8afb25852a5a67566ab81212ad20cd50
+Merge: 45731f7 b92e4c8
+Author: Tim Ansell <me@mith.ro>
+Date:   Tue Dec 26 21:19:57 2017 +0100
 
-    Merge pull request #21 from SymbiFlow/next-clifford
+    Merge pull request #24 from SymbiFlow/next-clifford
     
-    Various improvements in PIP fuzzing and htmlgen
+    Get rid of hardcoded slices in some fuzzers
 ```
 
 ## Database for [artix7](artix7/)
 
 ### Settings
 
-Created using following [settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)](https://github.com/SymbiFlow/prjxray/blob/f602ed79d86ae7d587cc8e5226c3646fe1242d1a/database/artix7/settings.sh)
+Created using following [settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)](https://github.com/SymbiFlow/prjxray/blob/21fbacdb8afb25852a5a67566ab81212ad20cd50/database/artix7/settings.sh)
 ```shell
 export XRAY_DATABASE="artix7"
 export XRAY_PART="xc7a50tfgg484-1"
@@ -109,16 +109,15 @@ Results have checksums;
  * [`7ee1d2714dde4b1e6f1d8c89076f67e1575b9c65f078ade0fe07c0c6bf30cbd8  ./artix7/segbits_int_r.db`](./artix7/segbits_int_r.db)
  * [`994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300  ./artix7/settings.sh`](./artix7/settings.sh)
  * [`994b9487a088125f5c6488b32eb488891123690077a49b50652b85497fe86b97  ./artix7/tileconn.json`](./artix7/tileconn.json)
+ * [`d18cd236601a081eb1621d3555a00d56c963cc79c9759397a411254fbd89c482  ./artix7/.tileconn.json.swp`](./artix7/.tileconn.json.swp)
  * [`236dde5e55842e3944c6194b45adddbdc7b89043c64da2be3348a15c9d779443  ./artix7/tilegrid.json`](./artix7/tilegrid.json)
- * [`17ae9ee297ae135c5d72a287994894e963cf9b978ed2e0c315ccabe034e356ac  ./artix7/.to-vpr-clbll.py.swp`](./artix7/.to-vpr-clbll.py.swp)
- * [`028f811684cb4778b1a29b002a88a6d2518432400e0e446c5558fcfbf1bc26c7  ./artix7/.to-vpr.py.swp`](./artix7/.to-vpr.py.swp)
  * [`86376865f572d83f9c7dc0fdf8caf1184da9fb924f859eecc3357f8b5205e3d6  ./artix7/xc7a50tfgg484-1.yaml`](./artix7/xc7a50tfgg484-1.yaml)
 
 ## Database for [kintex7](kintex7/)
 
 ### Settings
 
-Created using following [settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)](https://github.com/SymbiFlow/prjxray/blob/f602ed79d86ae7d587cc8e5226c3646fe1242d1a/database/kintex7/settings.sh)
+Created using following [settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)](https://github.com/SymbiFlow/prjxray/blob/21fbacdb8afb25852a5a67566ab81212ad20cd50/database/kintex7/settings.sh)
 ```shell
 export XRAY_DATABASE="kintex7"
 export XRAY_PART="xc7k70tfbg676-2"
