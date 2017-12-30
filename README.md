@@ -33,6 +33,4 @@ that file and then request Tim to rebuild the HTML output.
 
 # License
 
-These files are released under the very permissive
-[ISC License, see the COPYING file for the full text](COPYING).
-
+These files are released under the very permissive [CC0 1.0 Universal](COPYING).
