@@ -81,6 +81,26 @@
 	},
 	{
 		"grid_deltas": [
+			0,
+			1
+		],
+		"tile_types": [
+			"CLBLL_L",
+			"HCLK_CLB"
+		],
+		"wire_pairs": [
+			[
+				"CLBLL_LL_CIN",
+				"HCLK_CLB_COUT0_L"
+			],
+			[
+				"CLBLL_L_CIN",
+				"HCLK_CLB_COUT1_L"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
 			1,
 			0
 		],
@@ -234,10 +254,6 @@
 				"EE4END3"
 			],
 			[
-				"CLBLL_EL1BEG0",
-				"EL1END0"
-			],
-			[
 				"CLBLL_EL1BEG1",
 				"EL1END1"
 			],
@@ -260,10 +276,6 @@
 			[
 				"CLBLL_ER1BEG2",
 				"ER1END2"
-			],
-			[
-				"CLBLL_ER1BEG3",
-				"ER1END3"
 			],
 			[
 				"CLBLL_FAN0",
@@ -650,22 +662,6 @@
 				"NE2END3"
 			],
 			[
-				"CLBLL_NE4BEG0",
-				"NE6A0"
-			],
-			[
-				"CLBLL_NE4BEG1",
-				"NE6A1"
-			],
-			[
-				"CLBLL_NE4BEG2",
-				"NE6A2"
-			],
-			[
-				"CLBLL_NE4BEG3",
-				"NE6A3"
-			],
-			[
 				"CLBLL_NE4C0",
 				"NE6END0"
 			],
@@ -744,22 +740,6 @@
 			[
 				"CLBLL_SE2A3",
 				"SE2END3"
-			],
-			[
-				"CLBLL_SE4BEG0",
-				"SE6A0"
-			],
-			[
-				"CLBLL_SE4BEG1",
-				"SE6A1"
-			],
-			[
-				"CLBLL_SE4BEG2",
-				"SE6A2"
-			],
-			[
-				"CLBLL_SE4BEG3",
-				"SE6A3"
 			],
 			[
 				"CLBLL_SE4C0",
@@ -1466,7 +1446,7 @@
 	{
 		"grid_deltas": [
 			0,
-			0
+			1
 		],
 		"tile_types": [
 			"CLBLL_R",
@@ -1474,1244 +1454,32 @@
 		],
 		"wire_pairs": [
 			[
-				"CLBLL_BYP0",
-				"CLBLL_BYP0"
-			],
-			[
-				"CLBLL_BYP1",
-				"CLBLL_BYP1"
-			],
-			[
-				"CLBLL_BYP2",
-				"CLBLL_BYP2"
-			],
-			[
-				"CLBLL_BYP3",
-				"CLBLL_BYP3"
-			],
-			[
-				"CLBLL_BYP4",
-				"CLBLL_BYP4"
-			],
-			[
-				"CLBLL_BYP5",
-				"CLBLL_BYP5"
-			],
-			[
-				"CLBLL_BYP6",
-				"CLBLL_BYP6"
-			],
-			[
-				"CLBLL_BYP7",
-				"CLBLL_BYP7"
-			],
-			[
-				"CLBLL_CLK0",
-				"CLBLL_CLK0"
-			],
-			[
-				"CLBLL_CLK1",
-				"CLBLL_CLK1"
-			],
-			[
-				"CLBLL_CTRL0",
-				"CLBLL_CTRL0"
-			],
-			[
-				"CLBLL_CTRL1",
-				"CLBLL_CTRL1"
-			],
-			[
-				"CLBLL_EE2A0",
-				"CLBLL_EE2A0"
-			],
-			[
-				"CLBLL_EE2A1",
-				"CLBLL_EE2A1"
-			],
-			[
-				"CLBLL_EE2A2",
-				"CLBLL_EE2A2"
-			],
-			[
-				"CLBLL_EE2A3",
-				"CLBLL_EE2A3"
-			],
-			[
-				"CLBLL_EE2BEG0",
-				"CLBLL_EE2BEG0"
-			],
-			[
-				"CLBLL_EE2BEG1",
-				"CLBLL_EE2BEG1"
-			],
-			[
-				"CLBLL_EE2BEG2",
-				"CLBLL_EE2BEG2"
-			],
-			[
-				"CLBLL_EE2BEG3",
-				"CLBLL_EE2BEG3"
-			],
-			[
-				"CLBLL_EE4A0",
-				"CLBLL_EE4A0"
-			],
-			[
-				"CLBLL_EE4A1",
-				"CLBLL_EE4A1"
-			],
-			[
-				"CLBLL_EE4A2",
-				"CLBLL_EE4A2"
-			],
-			[
-				"CLBLL_EE4A3",
-				"CLBLL_EE4A3"
-			],
-			[
-				"CLBLL_EE4B0",
-				"CLBLL_EE4B0"
-			],
-			[
-				"CLBLL_EE4B1",
-				"CLBLL_EE4B1"
-			],
-			[
-				"CLBLL_EE4B2",
-				"CLBLL_EE4B2"
-			],
-			[
-				"CLBLL_EE4B3",
-				"CLBLL_EE4B3"
-			],
-			[
-				"CLBLL_EE4BEG0",
-				"CLBLL_EE4BEG0"
-			],
-			[
-				"CLBLL_EE4BEG1",
-				"CLBLL_EE4BEG1"
-			],
-			[
-				"CLBLL_EE4BEG2",
-				"CLBLL_EE4BEG2"
-			],
-			[
-				"CLBLL_EE4BEG3",
-				"CLBLL_EE4BEG3"
-			],
-			[
-				"CLBLL_EE4C0",
-				"CLBLL_EE4C0"
-			],
-			[
-				"CLBLL_EE4C1",
-				"CLBLL_EE4C1"
-			],
-			[
-				"CLBLL_EE4C2",
-				"CLBLL_EE4C2"
-			],
-			[
-				"CLBLL_EE4C3",
-				"CLBLL_EE4C3"
-			],
-			[
-				"CLBLL_EL1BEG0",
-				"CLBLL_EL1BEG0"
-			],
-			[
-				"CLBLL_EL1BEG1",
-				"CLBLL_EL1BEG1"
-			],
-			[
-				"CLBLL_EL1BEG2",
-				"CLBLL_EL1BEG2"
-			],
-			[
-				"CLBLL_EL1BEG3",
-				"CLBLL_EL1BEG3"
-			],
-			[
-				"CLBLL_ER1BEG0",
-				"CLBLL_ER1BEG0"
-			],
-			[
-				"CLBLL_ER1BEG1",
-				"CLBLL_ER1BEG1"
-			],
-			[
-				"CLBLL_ER1BEG2",
-				"CLBLL_ER1BEG2"
-			],
-			[
-				"CLBLL_ER1BEG3",
-				"CLBLL_ER1BEG3"
-			],
-			[
-				"CLBLL_FAN0",
-				"CLBLL_FAN0"
-			],
-			[
-				"CLBLL_FAN1",
-				"CLBLL_FAN1"
-			],
-			[
-				"CLBLL_FAN2",
-				"CLBLL_FAN2"
-			],
-			[
-				"CLBLL_FAN3",
-				"CLBLL_FAN3"
-			],
-			[
-				"CLBLL_FAN4",
-				"CLBLL_FAN4"
-			],
-			[
-				"CLBLL_FAN5",
-				"CLBLL_FAN5"
-			],
-			[
-				"CLBLL_FAN6",
-				"CLBLL_FAN6"
-			],
-			[
-				"CLBLL_FAN7",
-				"CLBLL_FAN7"
-			],
-			[
-				"CLBLL_IMUX0",
-				"CLBLL_IMUX0"
-			],
-			[
-				"CLBLL_IMUX1",
-				"CLBLL_IMUX1"
-			],
-			[
-				"CLBLL_IMUX10",
-				"CLBLL_IMUX10"
-			],
-			[
-				"CLBLL_IMUX11",
-				"CLBLL_IMUX11"
-			],
-			[
-				"CLBLL_IMUX12",
-				"CLBLL_IMUX12"
-			],
-			[
-				"CLBLL_IMUX13",
-				"CLBLL_IMUX13"
-			],
-			[
-				"CLBLL_IMUX14",
-				"CLBLL_IMUX14"
-			],
-			[
-				"CLBLL_IMUX15",
-				"CLBLL_IMUX15"
-			],
-			[
-				"CLBLL_IMUX16",
-				"CLBLL_IMUX16"
-			],
-			[
-				"CLBLL_IMUX17",
-				"CLBLL_IMUX17"
-			],
-			[
-				"CLBLL_IMUX18",
-				"CLBLL_IMUX18"
-			],
-			[
-				"CLBLL_IMUX19",
-				"CLBLL_IMUX19"
-			],
-			[
-				"CLBLL_IMUX2",
-				"CLBLL_IMUX2"
-			],
-			[
-				"CLBLL_IMUX20",
-				"CLBLL_IMUX20"
-			],
-			[
-				"CLBLL_IMUX21",
-				"CLBLL_IMUX21"
-			],
-			[
-				"CLBLL_IMUX22",
-				"CLBLL_IMUX22"
-			],
-			[
-				"CLBLL_IMUX23",
-				"CLBLL_IMUX23"
-			],
-			[
-				"CLBLL_IMUX24",
-				"CLBLL_IMUX24"
-			],
-			[
-				"CLBLL_IMUX25",
-				"CLBLL_IMUX25"
-			],
-			[
-				"CLBLL_IMUX26",
-				"CLBLL_IMUX26"
-			],
-			[
-				"CLBLL_IMUX27",
-				"CLBLL_IMUX27"
-			],
-			[
-				"CLBLL_IMUX28",
-				"CLBLL_IMUX28"
-			],
-			[
-				"CLBLL_IMUX29",
-				"CLBLL_IMUX29"
-			],
-			[
-				"CLBLL_IMUX3",
-				"CLBLL_IMUX3"
-			],
-			[
-				"CLBLL_IMUX30",
-				"CLBLL_IMUX30"
-			],
-			[
-				"CLBLL_IMUX31",
-				"CLBLL_IMUX31"
-			],
-			[
-				"CLBLL_IMUX32",
-				"CLBLL_IMUX32"
-			],
-			[
-				"CLBLL_IMUX33",
-				"CLBLL_IMUX33"
-			],
-			[
-				"CLBLL_IMUX34",
-				"CLBLL_IMUX34"
-			],
-			[
-				"CLBLL_IMUX35",
-				"CLBLL_IMUX35"
-			],
-			[
-				"CLBLL_IMUX36",
-				"CLBLL_IMUX36"
-			],
-			[
-				"CLBLL_IMUX37",
-				"CLBLL_IMUX37"
-			],
-			[
-				"CLBLL_IMUX38",
-				"CLBLL_IMUX38"
-			],
-			[
-				"CLBLL_IMUX39",
-				"CLBLL_IMUX39"
-			],
-			[
-				"CLBLL_IMUX4",
-				"CLBLL_IMUX4"
-			],
-			[
-				"CLBLL_IMUX40",
-				"CLBLL_IMUX40"
-			],
-			[
-				"CLBLL_IMUX41",
-				"CLBLL_IMUX41"
-			],
-			[
-				"CLBLL_IMUX42",
-				"CLBLL_IMUX42"
-			],
-			[
-				"CLBLL_IMUX43",
-				"CLBLL_IMUX43"
-			],
-			[
-				"CLBLL_IMUX44",
-				"CLBLL_IMUX44"
-			],
-			[
-				"CLBLL_IMUX45",
-				"CLBLL_IMUX45"
-			],
-			[
-				"CLBLL_IMUX46",
-				"CLBLL_IMUX46"
-			],
-			[
-				"CLBLL_IMUX47",
-				"CLBLL_IMUX47"
-			],
-			[
-				"CLBLL_IMUX5",
-				"CLBLL_IMUX5"
-			],
-			[
-				"CLBLL_IMUX6",
-				"CLBLL_IMUX6"
-			],
-			[
-				"CLBLL_IMUX7",
-				"CLBLL_IMUX7"
-			],
-			[
-				"CLBLL_IMUX8",
-				"CLBLL_IMUX8"
-			],
-			[
-				"CLBLL_IMUX9",
-				"CLBLL_IMUX9"
-			],
-			[
-				"CLBLL_LH1",
-				"CLBLL_LH1"
-			],
-			[
-				"CLBLL_LH10",
-				"CLBLL_LH10"
-			],
-			[
-				"CLBLL_LH11",
-				"CLBLL_LH11"
-			],
-			[
-				"CLBLL_LH12",
-				"CLBLL_LH12"
-			],
-			[
-				"CLBLL_LH2",
-				"CLBLL_LH2"
-			],
-			[
-				"CLBLL_LH3",
-				"CLBLL_LH3"
-			],
-			[
-				"CLBLL_LH4",
-				"CLBLL_LH4"
-			],
-			[
-				"CLBLL_LH5",
-				"CLBLL_LH5"
-			],
-			[
-				"CLBLL_LH6",
-				"CLBLL_LH6"
-			],
-			[
-				"CLBLL_LH7",
-				"CLBLL_LH7"
-			],
-			[
-				"CLBLL_LH8",
-				"CLBLL_LH8"
-			],
-			[
-				"CLBLL_LH9",
-				"CLBLL_LH9"
-			],
-			[
-				"CLBLL_LL_A",
-				"CLBLL_LL_A"
-			],
-			[
-				"CLBLL_LL_A1",
-				"CLBLL_LL_A1"
-			],
-			[
-				"CLBLL_LL_A2",
-				"CLBLL_LL_A2"
-			],
-			[
-				"CLBLL_LL_A3",
-				"CLBLL_LL_A3"
-			],
-			[
-				"CLBLL_LL_A4",
-				"CLBLL_LL_A4"
-			],
-			[
-				"CLBLL_LL_A5",
-				"CLBLL_LL_A5"
-			],
-			[
-				"CLBLL_LL_A6",
-				"CLBLL_LL_A6"
-			],
-			[
-				"CLBLL_LL_AMUX",
-				"CLBLL_LL_AMUX"
-			],
-			[
-				"CLBLL_LL_AQ",
-				"CLBLL_LL_AQ"
-			],
-			[
-				"CLBLL_LL_AX",
-				"CLBLL_LL_AX"
-			],
-			[
-				"CLBLL_LL_B",
-				"CLBLL_LL_B"
-			],
-			[
-				"CLBLL_LL_B1",
-				"CLBLL_LL_B1"
-			],
-			[
-				"CLBLL_LL_B2",
-				"CLBLL_LL_B2"
-			],
-			[
-				"CLBLL_LL_B3",
-				"CLBLL_LL_B3"
-			],
-			[
-				"CLBLL_LL_B4",
-				"CLBLL_LL_B4"
-			],
-			[
-				"CLBLL_LL_B5",
-				"CLBLL_LL_B5"
-			],
-			[
-				"CLBLL_LL_B6",
-				"CLBLL_LL_B6"
-			],
-			[
-				"CLBLL_LL_BMUX",
-				"CLBLL_LL_BMUX"
-			],
-			[
-				"CLBLL_LL_BQ",
-				"CLBLL_LL_BQ"
-			],
-			[
-				"CLBLL_LL_BX",
-				"CLBLL_LL_BX"
-			],
-			[
-				"CLBLL_LL_C",
-				"CLBLL_LL_C"
-			],
-			[
-				"CLBLL_LL_C1",
-				"CLBLL_LL_C1"
-			],
-			[
-				"CLBLL_LL_C2",
-				"CLBLL_LL_C2"
-			],
-			[
-				"CLBLL_LL_C3",
-				"CLBLL_LL_C3"
-			],
-			[
-				"CLBLL_LL_C4",
-				"CLBLL_LL_C4"
-			],
-			[
-				"CLBLL_LL_C5",
-				"CLBLL_LL_C5"
-			],
-			[
-				"CLBLL_LL_C6",
-				"CLBLL_LL_C6"
-			],
-			[
-				"CLBLL_LL_CE",
-				"CLBLL_LL_CE"
-			],
-			[
 				"CLBLL_LL_CIN",
-				"CLBLL_LL_CIN"
-			],
-			[
-				"CLBLL_LL_CLK",
-				"CLBLL_LL_CLK"
-			],
-			[
-				"CLBLL_LL_CMUX",
-				"CLBLL_LL_CMUX"
-			],
-			[
-				"CLBLL_LL_COUT",
-				"CLBLL_LL_COUT"
-			],
-			[
-				"CLBLL_LL_COUT_N",
 				"CLBLL_LL_COUT_N"
 			],
 			[
-				"CLBLL_LL_CQ",
-				"CLBLL_LL_CQ"
-			],
-			[
-				"CLBLL_LL_CX",
-				"CLBLL_LL_CX"
-			],
-			[
-				"CLBLL_LL_D",
-				"CLBLL_LL_D"
-			],
-			[
-				"CLBLL_LL_D1",
-				"CLBLL_LL_D1"
-			],
-			[
-				"CLBLL_LL_D2",
-				"CLBLL_LL_D2"
-			],
-			[
-				"CLBLL_LL_D3",
-				"CLBLL_LL_D3"
-			],
-			[
-				"CLBLL_LL_D4",
-				"CLBLL_LL_D4"
-			],
-			[
-				"CLBLL_LL_D5",
-				"CLBLL_LL_D5"
-			],
-			[
-				"CLBLL_LL_D6",
-				"CLBLL_LL_D6"
-			],
-			[
-				"CLBLL_LL_DMUX",
-				"CLBLL_LL_DMUX"
-			],
-			[
-				"CLBLL_LL_DQ",
-				"CLBLL_LL_DQ"
-			],
-			[
-				"CLBLL_LL_DX",
-				"CLBLL_LL_DX"
-			],
-			[
-				"CLBLL_LL_SR",
-				"CLBLL_LL_SR"
-			],
-			[
-				"CLBLL_LOGIC_OUTS0",
-				"CLBLL_LOGIC_OUTS0"
-			],
-			[
-				"CLBLL_LOGIC_OUTS1",
-				"CLBLL_LOGIC_OUTS1"
-			],
-			[
-				"CLBLL_LOGIC_OUTS10",
-				"CLBLL_LOGIC_OUTS10"
-			],
-			[
-				"CLBLL_LOGIC_OUTS11",
-				"CLBLL_LOGIC_OUTS11"
-			],
-			[
-				"CLBLL_LOGIC_OUTS12",
-				"CLBLL_LOGIC_OUTS12"
-			],
-			[
-				"CLBLL_LOGIC_OUTS13",
-				"CLBLL_LOGIC_OUTS13"
-			],
-			[
-				"CLBLL_LOGIC_OUTS14",
-				"CLBLL_LOGIC_OUTS14"
-			],
-			[
-				"CLBLL_LOGIC_OUTS15",
-				"CLBLL_LOGIC_OUTS15"
-			],
-			[
-				"CLBLL_LOGIC_OUTS16",
-				"CLBLL_LOGIC_OUTS16"
-			],
-			[
-				"CLBLL_LOGIC_OUTS17",
-				"CLBLL_LOGIC_OUTS17"
-			],
-			[
-				"CLBLL_LOGIC_OUTS18",
-				"CLBLL_LOGIC_OUTS18"
-			],
-			[
-				"CLBLL_LOGIC_OUTS19",
-				"CLBLL_LOGIC_OUTS19"
-			],
-			[
-				"CLBLL_LOGIC_OUTS2",
-				"CLBLL_LOGIC_OUTS2"
-			],
-			[
-				"CLBLL_LOGIC_OUTS20",
-				"CLBLL_LOGIC_OUTS20"
-			],
-			[
-				"CLBLL_LOGIC_OUTS21",
-				"CLBLL_LOGIC_OUTS21"
-			],
-			[
-				"CLBLL_LOGIC_OUTS22",
-				"CLBLL_LOGIC_OUTS22"
-			],
-			[
-				"CLBLL_LOGIC_OUTS23",
-				"CLBLL_LOGIC_OUTS23"
-			],
-			[
-				"CLBLL_LOGIC_OUTS3",
-				"CLBLL_LOGIC_OUTS3"
-			],
-			[
-				"CLBLL_LOGIC_OUTS4",
-				"CLBLL_LOGIC_OUTS4"
-			],
-			[
-				"CLBLL_LOGIC_OUTS5",
-				"CLBLL_LOGIC_OUTS5"
-			],
-			[
-				"CLBLL_LOGIC_OUTS6",
-				"CLBLL_LOGIC_OUTS6"
-			],
-			[
-				"CLBLL_LOGIC_OUTS7",
-				"CLBLL_LOGIC_OUTS7"
-			],
-			[
-				"CLBLL_LOGIC_OUTS8",
-				"CLBLL_LOGIC_OUTS8"
-			],
-			[
-				"CLBLL_LOGIC_OUTS9",
-				"CLBLL_LOGIC_OUTS9"
-			],
-			[
-				"CLBLL_L_A",
-				"CLBLL_L_A"
-			],
-			[
-				"CLBLL_L_A1",
-				"CLBLL_L_A1"
-			],
-			[
-				"CLBLL_L_A2",
-				"CLBLL_L_A2"
-			],
-			[
-				"CLBLL_L_A3",
-				"CLBLL_L_A3"
-			],
-			[
-				"CLBLL_L_A4",
-				"CLBLL_L_A4"
-			],
-			[
-				"CLBLL_L_A5",
-				"CLBLL_L_A5"
-			],
-			[
-				"CLBLL_L_A6",
-				"CLBLL_L_A6"
-			],
-			[
-				"CLBLL_L_AMUX",
-				"CLBLL_L_AMUX"
-			],
-			[
-				"CLBLL_L_AQ",
-				"CLBLL_L_AQ"
-			],
-			[
-				"CLBLL_L_AX",
-				"CLBLL_L_AX"
-			],
-			[
-				"CLBLL_L_B",
-				"CLBLL_L_B"
-			],
-			[
-				"CLBLL_L_B1",
-				"CLBLL_L_B1"
-			],
-			[
-				"CLBLL_L_B2",
-				"CLBLL_L_B2"
-			],
-			[
-				"CLBLL_L_B3",
-				"CLBLL_L_B3"
-			],
-			[
-				"CLBLL_L_B4",
-				"CLBLL_L_B4"
-			],
-			[
-				"CLBLL_L_B5",
-				"CLBLL_L_B5"
-			],
-			[
-				"CLBLL_L_B6",
-				"CLBLL_L_B6"
-			],
-			[
-				"CLBLL_L_BMUX",
-				"CLBLL_L_BMUX"
-			],
-			[
-				"CLBLL_L_BQ",
-				"CLBLL_L_BQ"
-			],
-			[
-				"CLBLL_L_BX",
-				"CLBLL_L_BX"
-			],
-			[
-				"CLBLL_L_C",
-				"CLBLL_L_C"
-			],
-			[
-				"CLBLL_L_C1",
-				"CLBLL_L_C1"
-			],
-			[
-				"CLBLL_L_C2",
-				"CLBLL_L_C2"
-			],
-			[
-				"CLBLL_L_C3",
-				"CLBLL_L_C3"
-			],
-			[
-				"CLBLL_L_C4",
-				"CLBLL_L_C4"
-			],
-			[
-				"CLBLL_L_C5",
-				"CLBLL_L_C5"
-			],
-			[
-				"CLBLL_L_C6",
-				"CLBLL_L_C6"
-			],
-			[
-				"CLBLL_L_CE",
-				"CLBLL_L_CE"
+				"CLBLL_L_CIN",
+				"CLBLL_L_COUT_N"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
+			0,
+			1
+		],
+		"tile_types": [
+			"CLBLL_R",
+			"HCLK_CLB"
+		],
+		"wire_pairs": [
+			[
+				"CLBLL_LL_CIN",
+				"HCLK_CLB_COUT1_R"
 			],
 			[
 				"CLBLL_L_CIN",
-				"CLBLL_L_CIN"
-			],
-			[
-				"CLBLL_L_CLK",
-				"CLBLL_L_CLK"
-			],
-			[
-				"CLBLL_L_CMUX",
-				"CLBLL_L_CMUX"
-			],
-			[
-				"CLBLL_L_COUT",
-				"CLBLL_L_COUT"
-			],
-			[
-				"CLBLL_L_COUT_N",
-				"CLBLL_L_COUT_N"
-			],
-			[
-				"CLBLL_L_CQ",
-				"CLBLL_L_CQ"
-			],
-			[
-				"CLBLL_L_CX",
-				"CLBLL_L_CX"
-			],
-			[
-				"CLBLL_L_D",
-				"CLBLL_L_D"
-			],
-			[
-				"CLBLL_L_D1",
-				"CLBLL_L_D1"
-			],
-			[
-				"CLBLL_L_D2",
-				"CLBLL_L_D2"
-			],
-			[
-				"CLBLL_L_D3",
-				"CLBLL_L_D3"
-			],
-			[
-				"CLBLL_L_D4",
-				"CLBLL_L_D4"
-			],
-			[
-				"CLBLL_L_D5",
-				"CLBLL_L_D5"
-			],
-			[
-				"CLBLL_L_D6",
-				"CLBLL_L_D6"
-			],
-			[
-				"CLBLL_L_DMUX",
-				"CLBLL_L_DMUX"
-			],
-			[
-				"CLBLL_L_DQ",
-				"CLBLL_L_DQ"
-			],
-			[
-				"CLBLL_L_DX",
-				"CLBLL_L_DX"
-			],
-			[
-				"CLBLL_L_SR",
-				"CLBLL_L_SR"
-			],
-			[
-				"CLBLL_MONITOR_N",
-				"CLBLL_MONITOR_N"
-			],
-			[
-				"CLBLL_MONITOR_P",
-				"CLBLL_MONITOR_P"
-			],
-			[
-				"CLBLL_NE2A0",
-				"CLBLL_NE2A0"
-			],
-			[
-				"CLBLL_NE2A1",
-				"CLBLL_NE2A1"
-			],
-			[
-				"CLBLL_NE2A2",
-				"CLBLL_NE2A2"
-			],
-			[
-				"CLBLL_NE2A3",
-				"CLBLL_NE2A3"
-			],
-			[
-				"CLBLL_NE4BEG0",
-				"CLBLL_NE4BEG0"
-			],
-			[
-				"CLBLL_NE4BEG1",
-				"CLBLL_NE4BEG1"
-			],
-			[
-				"CLBLL_NE4BEG2",
-				"CLBLL_NE4BEG2"
-			],
-			[
-				"CLBLL_NE4BEG3",
-				"CLBLL_NE4BEG3"
-			],
-			[
-				"CLBLL_NE4C0",
-				"CLBLL_NE4C0"
-			],
-			[
-				"CLBLL_NE4C1",
-				"CLBLL_NE4C1"
-			],
-			[
-				"CLBLL_NE4C2",
-				"CLBLL_NE4C2"
-			],
-			[
-				"CLBLL_NE4C3",
-				"CLBLL_NE4C3"
-			],
-			[
-				"CLBLL_NW2A0",
-				"CLBLL_NW2A0"
-			],
-			[
-				"CLBLL_NW2A1",
-				"CLBLL_NW2A1"
-			],
-			[
-				"CLBLL_NW2A2",
-				"CLBLL_NW2A2"
-			],
-			[
-				"CLBLL_NW2A3",
-				"CLBLL_NW2A3"
-			],
-			[
-				"CLBLL_NW4A0",
-				"CLBLL_NW4A0"
-			],
-			[
-				"CLBLL_NW4A1",
-				"CLBLL_NW4A1"
-			],
-			[
-				"CLBLL_NW4A2",
-				"CLBLL_NW4A2"
-			],
-			[
-				"CLBLL_NW4A3",
-				"CLBLL_NW4A3"
-			],
-			[
-				"CLBLL_NW4END0",
-				"CLBLL_NW4END0"
-			],
-			[
-				"CLBLL_NW4END1",
-				"CLBLL_NW4END1"
-			],
-			[
-				"CLBLL_NW4END2",
-				"CLBLL_NW4END2"
-			],
-			[
-				"CLBLL_NW4END3",
-				"CLBLL_NW4END3"
-			],
-			[
-				"CLBLL_SE2A0",
-				"CLBLL_SE2A0"
-			],
-			[
-				"CLBLL_SE2A1",
-				"CLBLL_SE2A1"
-			],
-			[
-				"CLBLL_SE2A2",
-				"CLBLL_SE2A2"
-			],
-			[
-				"CLBLL_SE2A3",
-				"CLBLL_SE2A3"
-			],
-			[
-				"CLBLL_SE4BEG0",
-				"CLBLL_SE4BEG0"
-			],
-			[
-				"CLBLL_SE4BEG1",
-				"CLBLL_SE4BEG1"
-			],
-			[
-				"CLBLL_SE4BEG2",
-				"CLBLL_SE4BEG2"
-			],
-			[
-				"CLBLL_SE4BEG3",
-				"CLBLL_SE4BEG3"
-			],
-			[
-				"CLBLL_SE4C0",
-				"CLBLL_SE4C0"
-			],
-			[
-				"CLBLL_SE4C1",
-				"CLBLL_SE4C1"
-			],
-			[
-				"CLBLL_SE4C2",
-				"CLBLL_SE4C2"
-			],
-			[
-				"CLBLL_SE4C3",
-				"CLBLL_SE4C3"
-			],
-			[
-				"CLBLL_SW2A0",
-				"CLBLL_SW2A0"
-			],
-			[
-				"CLBLL_SW2A1",
-				"CLBLL_SW2A1"
-			],
-			[
-				"CLBLL_SW2A2",
-				"CLBLL_SW2A2"
-			],
-			[
-				"CLBLL_SW2A3",
-				"CLBLL_SW2A3"
-			],
-			[
-				"CLBLL_SW4A0",
-				"CLBLL_SW4A0"
-			],
-			[
-				"CLBLL_SW4A1",
-				"CLBLL_SW4A1"
-			],
-			[
-				"CLBLL_SW4A2",
-				"CLBLL_SW4A2"
-			],
-			[
-				"CLBLL_SW4A3",
-				"CLBLL_SW4A3"
-			],
-			[
-				"CLBLL_SW4END0",
-				"CLBLL_SW4END0"
-			],
-			[
-				"CLBLL_SW4END1",
-				"CLBLL_SW4END1"
-			],
-			[
-				"CLBLL_SW4END2",
-				"CLBLL_SW4END2"
-			],
-			[
-				"CLBLL_SW4END3",
-				"CLBLL_SW4END3"
-			],
-			[
-				"CLBLL_WL1END0",
-				"CLBLL_WL1END0"
-			],
-			[
-				"CLBLL_WL1END1",
-				"CLBLL_WL1END1"
-			],
-			[
-				"CLBLL_WL1END2",
-				"CLBLL_WL1END2"
-			],
-			[
-				"CLBLL_WL1END3",
-				"CLBLL_WL1END3"
-			],
-			[
-				"CLBLL_WR1END0",
-				"CLBLL_WR1END0"
-			],
-			[
-				"CLBLL_WR1END1",
-				"CLBLL_WR1END1"
-			],
-			[
-				"CLBLL_WR1END2",
-				"CLBLL_WR1END2"
-			],
-			[
-				"CLBLL_WR1END3",
-				"CLBLL_WR1END3"
-			],
-			[
-				"CLBLL_WW2A0",
-				"CLBLL_WW2A0"
-			],
-			[
-				"CLBLL_WW2A1",
-				"CLBLL_WW2A1"
-			],
-			[
-				"CLBLL_WW2A2",
-				"CLBLL_WW2A2"
-			],
-			[
-				"CLBLL_WW2A3",
-				"CLBLL_WW2A3"
-			],
-			[
-				"CLBLL_WW2END0",
-				"CLBLL_WW2END0"
-			],
-			[
-				"CLBLL_WW2END1",
-				"CLBLL_WW2END1"
-			],
-			[
-				"CLBLL_WW2END2",
-				"CLBLL_WW2END2"
-			],
-			[
-				"CLBLL_WW2END3",
-				"CLBLL_WW2END3"
-			],
-			[
-				"CLBLL_WW4A0",
-				"CLBLL_WW4A0"
-			],
-			[
-				"CLBLL_WW4A1",
-				"CLBLL_WW4A1"
-			],
-			[
-				"CLBLL_WW4A2",
-				"CLBLL_WW4A2"
-			],
-			[
-				"CLBLL_WW4A3",
-				"CLBLL_WW4A3"
-			],
-			[
-				"CLBLL_WW4B0",
-				"CLBLL_WW4B0"
-			],
-			[
-				"CLBLL_WW4B1",
-				"CLBLL_WW4B1"
-			],
-			[
-				"CLBLL_WW4B2",
-				"CLBLL_WW4B2"
-			],
-			[
-				"CLBLL_WW4B3",
-				"CLBLL_WW4B3"
-			],
-			[
-				"CLBLL_WW4C0",
-				"CLBLL_WW4C0"
-			],
-			[
-				"CLBLL_WW4C1",
-				"CLBLL_WW4C1"
-			],
-			[
-				"CLBLL_WW4C2",
-				"CLBLL_WW4C2"
-			],
-			[
-				"CLBLL_WW4C3",
-				"CLBLL_WW4C3"
-			],
-			[
-				"CLBLL_WW4END0",
-				"CLBLL_WW4END0"
-			],
-			[
-				"CLBLL_WW4END1",
-				"CLBLL_WW4END1"
-			],
-			[
-				"CLBLL_WW4END2",
-				"CLBLL_WW4END2"
-			],
-			[
-				"CLBLL_WW4END3",
-				"CLBLL_WW4END3"
+				"HCLK_CLB_COUT0_R"
 			]
 		]
 	},
@@ -2900,14 +1668,6 @@
 			[
 				"CLBLL_LH9",
 				"VFRAME_LH9"
-			],
-			[
-				"CLBLL_MONITOR_N",
-				"VFRAME_MONITOR_N"
-			],
-			[
-				"CLBLL_MONITOR_P",
-				"VFRAME_MONITOR_P"
 			],
 			[
 				"CLBLL_NE2A0",
@@ -3273,6 +2033,26 @@
 	},
 	{
 		"grid_deltas": [
+			0,
+			1
+		],
+		"tile_types": [
+			"CLBLM_L",
+			"HCLK_CLB"
+		],
+		"wire_pairs": [
+			[
+				"CLBLM_L_CIN",
+				"HCLK_CLB_COUT1_L"
+			],
+			[
+				"CLBLM_M_CIN",
+				"HCLK_CLB_COUT0_L"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
 			1,
 			0
 		],
@@ -3452,10 +2232,6 @@
 			[
 				"CLBLM_ER1BEG2",
 				"ER1END2"
-			],
-			[
-				"CLBLM_ER1BEG3",
-				"ER1END3"
 			],
 			[
 				"CLBLM_FAN0",
@@ -3842,22 +2618,6 @@
 				"NE2END3"
 			],
 			[
-				"CLBLM_NE4BEG0",
-				"NE6A0"
-			],
-			[
-				"CLBLM_NE4BEG1",
-				"NE6A1"
-			],
-			[
-				"CLBLM_NE4BEG2",
-				"NE6A2"
-			],
-			[
-				"CLBLM_NE4BEG3",
-				"NE6A3"
-			],
-			[
 				"CLBLM_NE4C0",
 				"NE6END0"
 			],
@@ -4184,6 +2944,26 @@
 			[
 				"CLBLM_M_CIN",
 				"CLBLM_M_COUT_N"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
+			0,
+			1
+		],
+		"tile_types": [
+			"CLBLM_R",
+			"HCLK_CLB"
+		],
+		"wire_pairs": [
+			[
+				"CLBLM_L_CIN",
+				"HCLK_CLB_COUT0_R"
+			],
+			[
+				"CLBLM_M_CIN",
+				"HCLK_CLB_COUT1_R"
 			]
 		]
 	},
@@ -4692,6 +3472,218 @@
 			[
 				"CLBLM_WW4END3",
 				"VBRK_WW4END3"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
+			0,
+			1
+		],
+		"tile_types": [
+			"HCLK_CLB",
+			"CLBLL_L"
+		],
+		"wire_pairs": [
+			[
+				"HCLK_CLB_COUT0_L",
+				"CLBLL_LL_COUT_N"
+			],
+			[
+				"HCLK_CLB_COUT1_L",
+				"CLBLL_L_COUT_N"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
+			0,
+			1
+		],
+		"tile_types": [
+			"HCLK_CLB",
+			"CLBLL_R"
+		],
+		"wire_pairs": [
+			[
+				"HCLK_CLB_COUT0_R",
+				"CLBLL_L_COUT_N"
+			],
+			[
+				"HCLK_CLB_COUT1_R",
+				"CLBLL_LL_COUT_N"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
+			0,
+			1
+		],
+		"tile_types": [
+			"HCLK_CLB",
+			"CLBLM_L"
+		],
+		"wire_pairs": [
+			[
+				"HCLK_CLB_COUT0_L",
+				"CLBLM_M_COUT_N"
+			],
+			[
+				"HCLK_CLB_COUT1_L",
+				"CLBLM_L_COUT_N"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
+			0,
+			1
+		],
+		"tile_types": [
+			"HCLK_CLB",
+			"CLBLM_R"
+		],
+		"wire_pairs": [
+			[
+				"HCLK_CLB_COUT0_R",
+				"CLBLM_L_COUT_N"
+			],
+			[
+				"HCLK_CLB_COUT1_R",
+				"CLBLM_M_COUT_N"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
+			1,
+			0
+		],
+		"tile_types": [
+			"HCLK_CLB",
+			"HCLK_CLB"
+		],
+		"wire_pairs": [
+			[
+				"HCLK_CLB_CK_BUFHCLK0",
+				"HCLK_CLB_CK_BUFHCLK0"
+			],
+			[
+				"HCLK_CLB_CK_BUFHCLK1",
+				"HCLK_CLB_CK_BUFHCLK1"
+			],
+			[
+				"HCLK_CLB_CK_BUFHCLK10",
+				"HCLK_CLB_CK_BUFHCLK10"
+			],
+			[
+				"HCLK_CLB_CK_BUFHCLK11",
+				"HCLK_CLB_CK_BUFHCLK11"
+			],
+			[
+				"HCLK_CLB_CK_BUFHCLK2",
+				"HCLK_CLB_CK_BUFHCLK2"
+			],
+			[
+				"HCLK_CLB_CK_BUFHCLK3",
+				"HCLK_CLB_CK_BUFHCLK3"
+			],
+			[
+				"HCLK_CLB_CK_BUFHCLK4",
+				"HCLK_CLB_CK_BUFHCLK4"
+			],
+			[
+				"HCLK_CLB_CK_BUFHCLK5",
+				"HCLK_CLB_CK_BUFHCLK5"
+			],
+			[
+				"HCLK_CLB_CK_BUFHCLK6",
+				"HCLK_CLB_CK_BUFHCLK6"
+			],
+			[
+				"HCLK_CLB_CK_BUFHCLK7",
+				"HCLK_CLB_CK_BUFHCLK7"
+			],
+			[
+				"HCLK_CLB_CK_BUFHCLK8",
+				"HCLK_CLB_CK_BUFHCLK8"
+			],
+			[
+				"HCLK_CLB_CK_BUFHCLK9",
+				"HCLK_CLB_CK_BUFHCLK9"
+			],
+			[
+				"HCLK_CLB_CK_BUFRCLK0",
+				"HCLK_CLB_CK_BUFRCLK0"
+			],
+			[
+				"HCLK_CLB_CK_BUFRCLK1",
+				"HCLK_CLB_CK_BUFRCLK1"
+			],
+			[
+				"HCLK_CLB_CK_BUFRCLK2",
+				"HCLK_CLB_CK_BUFRCLK2"
+			],
+			[
+				"HCLK_CLB_CK_BUFRCLK3",
+				"HCLK_CLB_CK_BUFRCLK3"
+			],
+			[
+				"HCLK_CLB_CK_IN0",
+				"HCLK_CLB_CK_IN0"
+			],
+			[
+				"HCLK_CLB_CK_IN1",
+				"HCLK_CLB_CK_IN1"
+			],
+			[
+				"HCLK_CLB_CK_IN10",
+				"HCLK_CLB_CK_IN10"
+			],
+			[
+				"HCLK_CLB_CK_IN11",
+				"HCLK_CLB_CK_IN11"
+			],
+			[
+				"HCLK_CLB_CK_IN12",
+				"HCLK_CLB_CK_IN12"
+			],
+			[
+				"HCLK_CLB_CK_IN13",
+				"HCLK_CLB_CK_IN13"
+			],
+			[
+				"HCLK_CLB_CK_IN2",
+				"HCLK_CLB_CK_IN2"
+			],
+			[
+				"HCLK_CLB_CK_IN3",
+				"HCLK_CLB_CK_IN3"
+			],
+			[
+				"HCLK_CLB_CK_IN4",
+				"HCLK_CLB_CK_IN4"
+			],
+			[
+				"HCLK_CLB_CK_IN5",
+				"HCLK_CLB_CK_IN5"
+			],
+			[
+				"HCLK_CLB_CK_IN6",
+				"HCLK_CLB_CK_IN6"
+			],
+			[
+				"HCLK_CLB_CK_IN7",
+				"HCLK_CLB_CK_IN7"
+			],
+			[
+				"HCLK_CLB_CK_IN8",
+				"HCLK_CLB_CK_IN8"
+			],
+			[
+				"HCLK_CLB_CK_IN9",
+				"HCLK_CLB_CK_IN9"
 			]
 		]
 	},
@@ -5317,6 +4309,886 @@
 	},
 	{
 		"grid_deltas": [
+			0,
+			1
+		],
+		"tile_types": [
+			"HCLK_L",
+			"INT_L"
+		],
+		"wire_pairs": [
+			[
+				"HCLK_BYP_BOUNCE2",
+				"BYP_BOUNCE2"
+			],
+			[
+				"HCLK_BYP_BOUNCE3",
+				"BYP_BOUNCE3"
+			],
+			[
+				"HCLK_BYP_BOUNCE6",
+				"BYP_BOUNCE6"
+			],
+			[
+				"HCLK_BYP_BOUNCE7",
+				"BYP_BOUNCE7"
+			],
+			[
+				"HCLK_EL1BEG3",
+				"EL1BEG3"
+			],
+			[
+				"HCLK_EL1END_S3_0",
+				"EL1END_S3_0"
+			],
+			[
+				"HCLK_ER1BEG_S0",
+				"ER1BEG_S0"
+			],
+			[
+				"HCLK_ER1END3",
+				"ER1END3"
+			],
+			[
+				"HCLK_FAN_BOUNCE_S3_0",
+				"FAN_BOUNCE_S3_0"
+			],
+			[
+				"HCLK_FAN_BOUNCE_S3_2",
+				"FAN_BOUNCE_S3_2"
+			],
+			[
+				"HCLK_FAN_BOUNCE_S3_4",
+				"FAN_BOUNCE_S3_4"
+			],
+			[
+				"HCLK_FAN_BOUNCE_S3_6",
+				"FAN_BOUNCE_S3_6"
+			],
+			[
+				"HCLK_LEAF_CLK_B_BOTL0",
+				"GCLK_L_B6"
+			],
+			[
+				"HCLK_LEAF_CLK_B_BOTL1",
+				"GCLK_L_B7"
+			],
+			[
+				"HCLK_LEAF_CLK_B_BOTL2",
+				"GCLK_L_B8"
+			],
+			[
+				"HCLK_LEAF_CLK_B_BOTL3",
+				"GCLK_L_B9"
+			],
+			[
+				"HCLK_LEAF_CLK_B_BOTL4",
+				"GCLK_L_B10"
+			],
+			[
+				"HCLK_LEAF_CLK_B_BOTL5",
+				"GCLK_L_B11"
+			],
+			[
+				"HCLK_LV0",
+				"LV_L0"
+			],
+			[
+				"HCLK_LV1",
+				"LV_L1"
+			],
+			[
+				"HCLK_LV10",
+				"LV_L10"
+			],
+			[
+				"HCLK_LV11",
+				"LV_L11"
+			],
+			[
+				"HCLK_LV12",
+				"LV_L12"
+			],
+			[
+				"HCLK_LV13",
+				"LV_L13"
+			],
+			[
+				"HCLK_LV14",
+				"LV_L14"
+			],
+			[
+				"HCLK_LV15",
+				"LV_L15"
+			],
+			[
+				"HCLK_LV16",
+				"LV_L16"
+			],
+			[
+				"HCLK_LV17",
+				"LV_L17"
+			],
+			[
+				"HCLK_LV2",
+				"LV_L2"
+			],
+			[
+				"HCLK_LV3",
+				"LV_L3"
+			],
+			[
+				"HCLK_LV4",
+				"LV_L4"
+			],
+			[
+				"HCLK_LV5",
+				"LV_L5"
+			],
+			[
+				"HCLK_LV6",
+				"LV_L6"
+			],
+			[
+				"HCLK_LV7",
+				"LV_L7"
+			],
+			[
+				"HCLK_LV8",
+				"LV_L8"
+			],
+			[
+				"HCLK_LV9",
+				"LV_L9"
+			],
+			[
+				"HCLK_LVB1",
+				"LVB_L0"
+			],
+			[
+				"HCLK_LVB10",
+				"LVB_L9"
+			],
+			[
+				"HCLK_LVB11",
+				"LVB_L10"
+			],
+			[
+				"HCLK_LVB12",
+				"LVB_L11"
+			],
+			[
+				"HCLK_LVB2",
+				"LVB_L1"
+			],
+			[
+				"HCLK_LVB3",
+				"LVB_L2"
+			],
+			[
+				"HCLK_LVB4",
+				"LVB_L3"
+			],
+			[
+				"HCLK_LVB5",
+				"LVB_L4"
+			],
+			[
+				"HCLK_LVB6",
+				"LVB_L5"
+			],
+			[
+				"HCLK_LVB7",
+				"LVB_L6"
+			],
+			[
+				"HCLK_LVB8",
+				"LVB_L7"
+			],
+			[
+				"HCLK_LVB9",
+				"LVB_L8"
+			],
+			[
+				"HCLK_NE2BEG0",
+				"NE2BEG0"
+			],
+			[
+				"HCLK_NE2BEG1",
+				"NE2BEG1"
+			],
+			[
+				"HCLK_NE2BEG2",
+				"NE2BEG2"
+			],
+			[
+				"HCLK_NE2BEG3",
+				"NE2BEG3"
+			],
+			[
+				"HCLK_NE2END_S3_0",
+				"NE2END_S3_0"
+			],
+			[
+				"HCLK_NE6A0",
+				"NE6A0"
+			],
+			[
+				"HCLK_NE6A1",
+				"NE6A1"
+			],
+			[
+				"HCLK_NE6A2",
+				"NE6A2"
+			],
+			[
+				"HCLK_NE6A3",
+				"NE6A3"
+			],
+			[
+				"HCLK_NE6B0",
+				"NE6B0"
+			],
+			[
+				"HCLK_NE6B1",
+				"NE6B1"
+			],
+			[
+				"HCLK_NE6B2",
+				"NE6B2"
+			],
+			[
+				"HCLK_NE6B3",
+				"NE6B3"
+			],
+			[
+				"HCLK_NE6C0",
+				"NE6C0"
+			],
+			[
+				"HCLK_NE6C1",
+				"NE6C1"
+			],
+			[
+				"HCLK_NE6C2",
+				"NE6C2"
+			],
+			[
+				"HCLK_NE6C3",
+				"NE6C3"
+			],
+			[
+				"HCLK_NE6D0",
+				"NE6D0"
+			],
+			[
+				"HCLK_NE6D1",
+				"NE6D1"
+			],
+			[
+				"HCLK_NE6D2",
+				"NE6D2"
+			],
+			[
+				"HCLK_NE6D3",
+				"NE6D3"
+			],
+			[
+				"HCLK_NL1BEG1",
+				"NL1BEG1"
+			],
+			[
+				"HCLK_NL1BEG2",
+				"NL1BEG2"
+			],
+			[
+				"HCLK_NL1END_S3_0",
+				"NL1END_S3_0"
+			],
+			[
+				"HCLK_NN2A1",
+				"NN2A1"
+			],
+			[
+				"HCLK_NN2A2",
+				"NN2A2"
+			],
+			[
+				"HCLK_NN2A3",
+				"NN2A3"
+			],
+			[
+				"HCLK_NN2BEG0",
+				"NN2BEG0"
+			],
+			[
+				"HCLK_NN2BEG1",
+				"NN2BEG1"
+			],
+			[
+				"HCLK_NN2BEG2",
+				"NN2BEG2"
+			],
+			[
+				"HCLK_NN2BEG3",
+				"NN2BEG3"
+			],
+			[
+				"HCLK_NN2END_S2_0",
+				"NN2A0"
+			],
+			[
+				"HCLK_NN6A0",
+				"NN6A0"
+			],
+			[
+				"HCLK_NN6A1",
+				"NN6A1"
+			],
+			[
+				"HCLK_NN6A2",
+				"NN6A2"
+			],
+			[
+				"HCLK_NN6A3",
+				"NN6A3"
+			],
+			[
+				"HCLK_NN6B0",
+				"NN6B0"
+			],
+			[
+				"HCLK_NN6B1",
+				"NN6B1"
+			],
+			[
+				"HCLK_NN6B2",
+				"NN6B2"
+			],
+			[
+				"HCLK_NN6B3",
+				"NN6B3"
+			],
+			[
+				"HCLK_NN6BEG0",
+				"NN6BEG0"
+			],
+			[
+				"HCLK_NN6BEG1",
+				"NN6BEG1"
+			],
+			[
+				"HCLK_NN6BEG2",
+				"NN6BEG2"
+			],
+			[
+				"HCLK_NN6BEG3",
+				"NN6BEG3"
+			],
+			[
+				"HCLK_NN6C0",
+				"NN6C0"
+			],
+			[
+				"HCLK_NN6C1",
+				"NN6C1"
+			],
+			[
+				"HCLK_NN6C2",
+				"NN6C2"
+			],
+			[
+				"HCLK_NN6C3",
+				"NN6C3"
+			],
+			[
+				"HCLK_NN6D0",
+				"NN6D0"
+			],
+			[
+				"HCLK_NN6D1",
+				"NN6D1"
+			],
+			[
+				"HCLK_NN6D2",
+				"NN6D2"
+			],
+			[
+				"HCLK_NN6D3",
+				"NN6D3"
+			],
+			[
+				"HCLK_NN6E1",
+				"NN6E1"
+			],
+			[
+				"HCLK_NN6E2",
+				"NN6E2"
+			],
+			[
+				"HCLK_NN6E3",
+				"NN6E3"
+			],
+			[
+				"HCLK_NN6END_S1_0",
+				"NN6E0"
+			],
+			[
+				"HCLK_NR1BEG0",
+				"NR1BEG0"
+			],
+			[
+				"HCLK_NR1BEG1",
+				"NR1BEG1"
+			],
+			[
+				"HCLK_NR1BEG2",
+				"NR1BEG2"
+			],
+			[
+				"HCLK_NR1BEG3",
+				"NR1BEG3"
+			],
+			[
+				"HCLK_NW2A0",
+				"NW2BEG0"
+			],
+			[
+				"HCLK_NW2A1",
+				"NW2BEG1"
+			],
+			[
+				"HCLK_NW2A2",
+				"NW2BEG2"
+			],
+			[
+				"HCLK_NW2A3",
+				"NW2BEG3"
+			],
+			[
+				"HCLK_NW2END_S0_0",
+				"NW2END_S0_0"
+			],
+			[
+				"HCLK_NW6A0",
+				"NW6A0"
+			],
+			[
+				"HCLK_NW6A1",
+				"NW6A1"
+			],
+			[
+				"HCLK_NW6A2",
+				"NW6A2"
+			],
+			[
+				"HCLK_NW6A3",
+				"NW6A3"
+			],
+			[
+				"HCLK_NW6B0",
+				"NW6B0"
+			],
+			[
+				"HCLK_NW6B1",
+				"NW6B1"
+			],
+			[
+				"HCLK_NW6B2",
+				"NW6B2"
+			],
+			[
+				"HCLK_NW6B3",
+				"NW6B3"
+			],
+			[
+				"HCLK_NW6C0",
+				"NW6C0"
+			],
+			[
+				"HCLK_NW6C1",
+				"NW6C1"
+			],
+			[
+				"HCLK_NW6C2",
+				"NW6C2"
+			],
+			[
+				"HCLK_NW6C3",
+				"NW6C3"
+			],
+			[
+				"HCLK_NW6D0",
+				"NW6D0"
+			],
+			[
+				"HCLK_NW6D1",
+				"NW6D1"
+			],
+			[
+				"HCLK_NW6D2",
+				"NW6D2"
+			],
+			[
+				"HCLK_NW6D3",
+				"NW6D3"
+			],
+			[
+				"HCLK_NW6END_S0_0",
+				"NW6END_S0_0"
+			],
+			[
+				"HCLK_SE2A0",
+				"SE2A0"
+			],
+			[
+				"HCLK_SE2A1",
+				"SE2A1"
+			],
+			[
+				"HCLK_SE2A2",
+				"SE2A2"
+			],
+			[
+				"HCLK_SE2A3",
+				"SE2A3"
+			],
+			[
+				"HCLK_SE6B0",
+				"SE6B0"
+			],
+			[
+				"HCLK_SE6B1",
+				"SE6B1"
+			],
+			[
+				"HCLK_SE6B2",
+				"SE6B2"
+			],
+			[
+				"HCLK_SE6B3",
+				"SE6B3"
+			],
+			[
+				"HCLK_SE6C0",
+				"SE6C0"
+			],
+			[
+				"HCLK_SE6C1",
+				"SE6C1"
+			],
+			[
+				"HCLK_SE6C2",
+				"SE6C2"
+			],
+			[
+				"HCLK_SE6C3",
+				"SE6C3"
+			],
+			[
+				"HCLK_SE6D0",
+				"SE6D0"
+			],
+			[
+				"HCLK_SE6D1",
+				"SE6D1"
+			],
+			[
+				"HCLK_SE6D2",
+				"SE6D2"
+			],
+			[
+				"HCLK_SE6D3",
+				"SE6D3"
+			],
+			[
+				"HCLK_SE6E0",
+				"SE6E0"
+			],
+			[
+				"HCLK_SE6E1",
+				"SE6E1"
+			],
+			[
+				"HCLK_SE6E2",
+				"SE6E2"
+			],
+			[
+				"HCLK_SE6E3",
+				"SE6E3"
+			],
+			[
+				"HCLK_SL1END0",
+				"SL1END0"
+			],
+			[
+				"HCLK_SL1END1",
+				"SL1END1"
+			],
+			[
+				"HCLK_SL1END2",
+				"SL1END2"
+			],
+			[
+				"HCLK_SL1END3",
+				"SL1END3"
+			],
+			[
+				"HCLK_SR1END1",
+				"SR1END1"
+			],
+			[
+				"HCLK_SR1END2",
+				"SR1END2"
+			],
+			[
+				"HCLK_SR1END_N3_3",
+				"SR1END3"
+			],
+			[
+				"HCLK_SS2A0",
+				"SS2A0"
+			],
+			[
+				"HCLK_SS2A1",
+				"SS2A1"
+			],
+			[
+				"HCLK_SS2A2",
+				"SS2A2"
+			],
+			[
+				"HCLK_SS2BEG3",
+				"SS2A3"
+			],
+			[
+				"HCLK_SS2END0",
+				"SS2END0"
+			],
+			[
+				"HCLK_SS2END1",
+				"SS2END1"
+			],
+			[
+				"HCLK_SS2END2",
+				"SS2END2"
+			],
+			[
+				"HCLK_SS2END_N0_3",
+				"SS2END3"
+			],
+			[
+				"HCLK_SS6A0",
+				"SS6A0"
+			],
+			[
+				"HCLK_SS6A1",
+				"SS6A1"
+			],
+			[
+				"HCLK_SS6A2",
+				"SS6A2"
+			],
+			[
+				"HCLK_SS6A3",
+				"SS6A3"
+			],
+			[
+				"HCLK_SS6B0",
+				"SS6B0"
+			],
+			[
+				"HCLK_SS6B1",
+				"SS6B1"
+			],
+			[
+				"HCLK_SS6B2",
+				"SS6B2"
+			],
+			[
+				"HCLK_SS6B3",
+				"SS6B3"
+			],
+			[
+				"HCLK_SS6C0",
+				"SS6C0"
+			],
+			[
+				"HCLK_SS6C1",
+				"SS6C1"
+			],
+			[
+				"HCLK_SS6C2",
+				"SS6C2"
+			],
+			[
+				"HCLK_SS6C3",
+				"SS6C3"
+			],
+			[
+				"HCLK_SS6D0",
+				"SS6D0"
+			],
+			[
+				"HCLK_SS6D1",
+				"SS6D1"
+			],
+			[
+				"HCLK_SS6D2",
+				"SS6D2"
+			],
+			[
+				"HCLK_SS6D3",
+				"SS6D3"
+			],
+			[
+				"HCLK_SS6E0",
+				"SS6E0"
+			],
+			[
+				"HCLK_SS6E1",
+				"SS6E1"
+			],
+			[
+				"HCLK_SS6E2",
+				"SS6E2"
+			],
+			[
+				"HCLK_SS6E3",
+				"SS6E3"
+			],
+			[
+				"HCLK_SS6END0",
+				"SS6END0"
+			],
+			[
+				"HCLK_SS6END1",
+				"SS6END1"
+			],
+			[
+				"HCLK_SS6END2",
+				"SS6END2"
+			],
+			[
+				"HCLK_SS6END_N0_3",
+				"SS6END3"
+			],
+			[
+				"HCLK_SW2A3",
+				"SW2A3"
+			],
+			[
+				"HCLK_SW2END0",
+				"SW2A0"
+			],
+			[
+				"HCLK_SW2END1",
+				"SW2A1"
+			],
+			[
+				"HCLK_SW2END2",
+				"SW2A2"
+			],
+			[
+				"HCLK_SW2END_N0_3",
+				"SW2END3"
+			],
+			[
+				"HCLK_SW6B0",
+				"SW6B0"
+			],
+			[
+				"HCLK_SW6B1",
+				"SW6B1"
+			],
+			[
+				"HCLK_SW6B2",
+				"SW6B2"
+			],
+			[
+				"HCLK_SW6B3",
+				"SW6B3"
+			],
+			[
+				"HCLK_SW6C0",
+				"SW6C0"
+			],
+			[
+				"HCLK_SW6C1",
+				"SW6C1"
+			],
+			[
+				"HCLK_SW6C2",
+				"SW6C2"
+			],
+			[
+				"HCLK_SW6C3",
+				"SW6C3"
+			],
+			[
+				"HCLK_SW6D0",
+				"SW6D0"
+			],
+			[
+				"HCLK_SW6D1",
+				"SW6D1"
+			],
+			[
+				"HCLK_SW6D2",
+				"SW6D2"
+			],
+			[
+				"HCLK_SW6D3",
+				"SW6D3"
+			],
+			[
+				"HCLK_SW6E0",
+				"SW6E0"
+			],
+			[
+				"HCLK_SW6E1",
+				"SW6E1"
+			],
+			[
+				"HCLK_SW6E2",
+				"SW6E2"
+			],
+			[
+				"HCLK_SW6E3",
+				"SW6E3"
+			],
+			[
+				"HCLK_SW6END3",
+				"SW6END3"
+			],
+			[
+				"HCLK_WL1BEG3",
+				"WL1BEG3"
+			],
+			[
+				"HCLK_WL1END3",
+				"WL1END3"
+			],
+			[
+				"HCLK_WR1BEG_S0",
+				"WR1BEG_S0"
+			],
+			[
+				"HCLK_WR1END_S1_0",
+				"WR1END_S1_0"
+			],
+			[
+				"HCLK_WW2END3",
+				"WW2END3"
+			],
+			[
+				"HCLK_WW4END_S0_0",
+				"WW4END_S0_0"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
 			1,
 			0
 		],
@@ -5444,6 +5316,886 @@
 			[
 				"HCLK_CK_IN9",
 				"HCLK_CLB_CK_IN9"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
+			0,
+			1
+		],
+		"tile_types": [
+			"HCLK_R",
+			"INT_R"
+		],
+		"wire_pairs": [
+			[
+				"HCLK_BYP_BOUNCE2",
+				"BYP_BOUNCE2"
+			],
+			[
+				"HCLK_BYP_BOUNCE3",
+				"BYP_BOUNCE3"
+			],
+			[
+				"HCLK_BYP_BOUNCE6",
+				"BYP_BOUNCE6"
+			],
+			[
+				"HCLK_BYP_BOUNCE7",
+				"BYP_BOUNCE7"
+			],
+			[
+				"HCLK_EL1BEG3",
+				"EL1BEG3"
+			],
+			[
+				"HCLK_EL1END_S3_0",
+				"EL1END_S3_0"
+			],
+			[
+				"HCLK_ER1BEG_S0",
+				"ER1BEG_S0"
+			],
+			[
+				"HCLK_ER1END3",
+				"ER1END3"
+			],
+			[
+				"HCLK_FAN_BOUNCE_S3_0",
+				"FAN_BOUNCE_S3_0"
+			],
+			[
+				"HCLK_FAN_BOUNCE_S3_2",
+				"FAN_BOUNCE_S3_2"
+			],
+			[
+				"HCLK_FAN_BOUNCE_S3_4",
+				"FAN_BOUNCE_S3_4"
+			],
+			[
+				"HCLK_FAN_BOUNCE_S3_6",
+				"FAN_BOUNCE_S3_6"
+			],
+			[
+				"HCLK_LEAF_CLK_B_BOT0",
+				"GCLK_B0"
+			],
+			[
+				"HCLK_LEAF_CLK_B_BOT1",
+				"GCLK_B1"
+			],
+			[
+				"HCLK_LEAF_CLK_B_BOT2",
+				"GCLK_B2"
+			],
+			[
+				"HCLK_LEAF_CLK_B_BOT3",
+				"GCLK_B3"
+			],
+			[
+				"HCLK_LEAF_CLK_B_BOT4",
+				"GCLK_B4"
+			],
+			[
+				"HCLK_LEAF_CLK_B_BOT5",
+				"GCLK_B5"
+			],
+			[
+				"HCLK_LV0",
+				"LV0"
+			],
+			[
+				"HCLK_LV1",
+				"LV1"
+			],
+			[
+				"HCLK_LV10",
+				"LV10"
+			],
+			[
+				"HCLK_LV11",
+				"LV11"
+			],
+			[
+				"HCLK_LV12",
+				"LV12"
+			],
+			[
+				"HCLK_LV13",
+				"LV13"
+			],
+			[
+				"HCLK_LV14",
+				"LV14"
+			],
+			[
+				"HCLK_LV15",
+				"LV15"
+			],
+			[
+				"HCLK_LV16",
+				"LV16"
+			],
+			[
+				"HCLK_LV17",
+				"LV17"
+			],
+			[
+				"HCLK_LV2",
+				"LV2"
+			],
+			[
+				"HCLK_LV3",
+				"LV3"
+			],
+			[
+				"HCLK_LV4",
+				"LV4"
+			],
+			[
+				"HCLK_LV5",
+				"LV5"
+			],
+			[
+				"HCLK_LV6",
+				"LV6"
+			],
+			[
+				"HCLK_LV7",
+				"LV7"
+			],
+			[
+				"HCLK_LV8",
+				"LV8"
+			],
+			[
+				"HCLK_LV9",
+				"LV9"
+			],
+			[
+				"HCLK_LVB1",
+				"LVB0"
+			],
+			[
+				"HCLK_LVB10",
+				"LVB9"
+			],
+			[
+				"HCLK_LVB11",
+				"LVB10"
+			],
+			[
+				"HCLK_LVB12",
+				"LVB11"
+			],
+			[
+				"HCLK_LVB2",
+				"LVB1"
+			],
+			[
+				"HCLK_LVB3",
+				"LVB2"
+			],
+			[
+				"HCLK_LVB4",
+				"LVB3"
+			],
+			[
+				"HCLK_LVB5",
+				"LVB4"
+			],
+			[
+				"HCLK_LVB6",
+				"LVB5"
+			],
+			[
+				"HCLK_LVB7",
+				"LVB6"
+			],
+			[
+				"HCLK_LVB8",
+				"LVB7"
+			],
+			[
+				"HCLK_LVB9",
+				"LVB8"
+			],
+			[
+				"HCLK_NE2BEG0",
+				"NE2BEG0"
+			],
+			[
+				"HCLK_NE2BEG1",
+				"NE2BEG1"
+			],
+			[
+				"HCLK_NE2BEG2",
+				"NE2BEG2"
+			],
+			[
+				"HCLK_NE2BEG3",
+				"NE2BEG3"
+			],
+			[
+				"HCLK_NE2END_S3_0",
+				"NE2END_S3_0"
+			],
+			[
+				"HCLK_NE6A0",
+				"NE6A0"
+			],
+			[
+				"HCLK_NE6A1",
+				"NE6A1"
+			],
+			[
+				"HCLK_NE6A2",
+				"NE6A2"
+			],
+			[
+				"HCLK_NE6A3",
+				"NE6A3"
+			],
+			[
+				"HCLK_NE6B0",
+				"NE6B0"
+			],
+			[
+				"HCLK_NE6B1",
+				"NE6B1"
+			],
+			[
+				"HCLK_NE6B2",
+				"NE6B2"
+			],
+			[
+				"HCLK_NE6B3",
+				"NE6B3"
+			],
+			[
+				"HCLK_NE6C0",
+				"NE6C0"
+			],
+			[
+				"HCLK_NE6C1",
+				"NE6C1"
+			],
+			[
+				"HCLK_NE6C2",
+				"NE6C2"
+			],
+			[
+				"HCLK_NE6C3",
+				"NE6C3"
+			],
+			[
+				"HCLK_NE6D0",
+				"NE6D0"
+			],
+			[
+				"HCLK_NE6D1",
+				"NE6D1"
+			],
+			[
+				"HCLK_NE6D2",
+				"NE6D2"
+			],
+			[
+				"HCLK_NE6D3",
+				"NE6D3"
+			],
+			[
+				"HCLK_NL1BEG1",
+				"NL1BEG1"
+			],
+			[
+				"HCLK_NL1BEG2",
+				"NL1BEG2"
+			],
+			[
+				"HCLK_NL1END_S3_0",
+				"NL1END_S3_0"
+			],
+			[
+				"HCLK_NN2A1",
+				"NN2A1"
+			],
+			[
+				"HCLK_NN2A2",
+				"NN2A2"
+			],
+			[
+				"HCLK_NN2A3",
+				"NN2A3"
+			],
+			[
+				"HCLK_NN2BEG0",
+				"NN2BEG0"
+			],
+			[
+				"HCLK_NN2BEG1",
+				"NN2BEG1"
+			],
+			[
+				"HCLK_NN2BEG2",
+				"NN2BEG2"
+			],
+			[
+				"HCLK_NN2BEG3",
+				"NN2BEG3"
+			],
+			[
+				"HCLK_NN2END_S2_0",
+				"NN2A0"
+			],
+			[
+				"HCLK_NN6A0",
+				"NN6A0"
+			],
+			[
+				"HCLK_NN6A1",
+				"NN6A1"
+			],
+			[
+				"HCLK_NN6A2",
+				"NN6A2"
+			],
+			[
+				"HCLK_NN6A3",
+				"NN6A3"
+			],
+			[
+				"HCLK_NN6B0",
+				"NN6B0"
+			],
+			[
+				"HCLK_NN6B1",
+				"NN6B1"
+			],
+			[
+				"HCLK_NN6B2",
+				"NN6B2"
+			],
+			[
+				"HCLK_NN6B3",
+				"NN6B3"
+			],
+			[
+				"HCLK_NN6BEG0",
+				"NN6BEG0"
+			],
+			[
+				"HCLK_NN6BEG1",
+				"NN6BEG1"
+			],
+			[
+				"HCLK_NN6BEG2",
+				"NN6BEG2"
+			],
+			[
+				"HCLK_NN6BEG3",
+				"NN6BEG3"
+			],
+			[
+				"HCLK_NN6C0",
+				"NN6C0"
+			],
+			[
+				"HCLK_NN6C1",
+				"NN6C1"
+			],
+			[
+				"HCLK_NN6C2",
+				"NN6C2"
+			],
+			[
+				"HCLK_NN6C3",
+				"NN6C3"
+			],
+			[
+				"HCLK_NN6D0",
+				"NN6D0"
+			],
+			[
+				"HCLK_NN6D1",
+				"NN6D1"
+			],
+			[
+				"HCLK_NN6D2",
+				"NN6D2"
+			],
+			[
+				"HCLK_NN6D3",
+				"NN6D3"
+			],
+			[
+				"HCLK_NN6E1",
+				"NN6E1"
+			],
+			[
+				"HCLK_NN6E2",
+				"NN6E2"
+			],
+			[
+				"HCLK_NN6E3",
+				"NN6E3"
+			],
+			[
+				"HCLK_NN6END_S1_0",
+				"NN6E0"
+			],
+			[
+				"HCLK_NR1BEG0",
+				"NR1BEG0"
+			],
+			[
+				"HCLK_NR1BEG1",
+				"NR1BEG1"
+			],
+			[
+				"HCLK_NR1BEG2",
+				"NR1BEG2"
+			],
+			[
+				"HCLK_NR1BEG3",
+				"NR1BEG3"
+			],
+			[
+				"HCLK_NW2A0",
+				"NW2BEG0"
+			],
+			[
+				"HCLK_NW2A1",
+				"NW2BEG1"
+			],
+			[
+				"HCLK_NW2A2",
+				"NW2BEG2"
+			],
+			[
+				"HCLK_NW2A3",
+				"NW2BEG3"
+			],
+			[
+				"HCLK_NW2END_S0_0",
+				"NW2END_S0_0"
+			],
+			[
+				"HCLK_NW6A0",
+				"NW6A0"
+			],
+			[
+				"HCLK_NW6A1",
+				"NW6A1"
+			],
+			[
+				"HCLK_NW6A2",
+				"NW6A2"
+			],
+			[
+				"HCLK_NW6A3",
+				"NW6A3"
+			],
+			[
+				"HCLK_NW6B0",
+				"NW6B0"
+			],
+			[
+				"HCLK_NW6B1",
+				"NW6B1"
+			],
+			[
+				"HCLK_NW6B2",
+				"NW6B2"
+			],
+			[
+				"HCLK_NW6B3",
+				"NW6B3"
+			],
+			[
+				"HCLK_NW6C0",
+				"NW6C0"
+			],
+			[
+				"HCLK_NW6C1",
+				"NW6C1"
+			],
+			[
+				"HCLK_NW6C2",
+				"NW6C2"
+			],
+			[
+				"HCLK_NW6C3",
+				"NW6C3"
+			],
+			[
+				"HCLK_NW6D0",
+				"NW6D0"
+			],
+			[
+				"HCLK_NW6D1",
+				"NW6D1"
+			],
+			[
+				"HCLK_NW6D2",
+				"NW6D2"
+			],
+			[
+				"HCLK_NW6D3",
+				"NW6D3"
+			],
+			[
+				"HCLK_NW6END_S0_0",
+				"NW6END_S0_0"
+			],
+			[
+				"HCLK_SE2A0",
+				"SE2A0"
+			],
+			[
+				"HCLK_SE2A1",
+				"SE2A1"
+			],
+			[
+				"HCLK_SE2A2",
+				"SE2A2"
+			],
+			[
+				"HCLK_SE2A3",
+				"SE2A3"
+			],
+			[
+				"HCLK_SE6B0",
+				"SE6B0"
+			],
+			[
+				"HCLK_SE6B1",
+				"SE6B1"
+			],
+			[
+				"HCLK_SE6B2",
+				"SE6B2"
+			],
+			[
+				"HCLK_SE6B3",
+				"SE6B3"
+			],
+			[
+				"HCLK_SE6C0",
+				"SE6C0"
+			],
+			[
+				"HCLK_SE6C1",
+				"SE6C1"
+			],
+			[
+				"HCLK_SE6C2",
+				"SE6C2"
+			],
+			[
+				"HCLK_SE6C3",
+				"SE6C3"
+			],
+			[
+				"HCLK_SE6D0",
+				"SE6D0"
+			],
+			[
+				"HCLK_SE6D1",
+				"SE6D1"
+			],
+			[
+				"HCLK_SE6D2",
+				"SE6D2"
+			],
+			[
+				"HCLK_SE6D3",
+				"SE6D3"
+			],
+			[
+				"HCLK_SE6E0",
+				"SE6E0"
+			],
+			[
+				"HCLK_SE6E1",
+				"SE6E1"
+			],
+			[
+				"HCLK_SE6E2",
+				"SE6E2"
+			],
+			[
+				"HCLK_SE6E3",
+				"SE6E3"
+			],
+			[
+				"HCLK_SL1END0",
+				"SL1END0"
+			],
+			[
+				"HCLK_SL1END1",
+				"SL1END1"
+			],
+			[
+				"HCLK_SL1END2",
+				"SL1END2"
+			],
+			[
+				"HCLK_SL1END3",
+				"SL1END3"
+			],
+			[
+				"HCLK_SR1END1",
+				"SR1END1"
+			],
+			[
+				"HCLK_SR1END2",
+				"SR1END2"
+			],
+			[
+				"HCLK_SR1END_N3_3",
+				"SR1END3"
+			],
+			[
+				"HCLK_SS2A0",
+				"SS2A0"
+			],
+			[
+				"HCLK_SS2A1",
+				"SS2A1"
+			],
+			[
+				"HCLK_SS2A2",
+				"SS2A2"
+			],
+			[
+				"HCLK_SS2BEG3",
+				"SS2A3"
+			],
+			[
+				"HCLK_SS2END0",
+				"SS2END0"
+			],
+			[
+				"HCLK_SS2END1",
+				"SS2END1"
+			],
+			[
+				"HCLK_SS2END2",
+				"SS2END2"
+			],
+			[
+				"HCLK_SS2END_N0_3",
+				"SS2END3"
+			],
+			[
+				"HCLK_SS6A0",
+				"SS6A0"
+			],
+			[
+				"HCLK_SS6A1",
+				"SS6A1"
+			],
+			[
+				"HCLK_SS6A2",
+				"SS6A2"
+			],
+			[
+				"HCLK_SS6A3",
+				"SS6A3"
+			],
+			[
+				"HCLK_SS6B0",
+				"SS6B0"
+			],
+			[
+				"HCLK_SS6B1",
+				"SS6B1"
+			],
+			[
+				"HCLK_SS6B2",
+				"SS6B2"
+			],
+			[
+				"HCLK_SS6B3",
+				"SS6B3"
+			],
+			[
+				"HCLK_SS6C0",
+				"SS6C0"
+			],
+			[
+				"HCLK_SS6C1",
+				"SS6C1"
+			],
+			[
+				"HCLK_SS6C2",
+				"SS6C2"
+			],
+			[
+				"HCLK_SS6C3",
+				"SS6C3"
+			],
+			[
+				"HCLK_SS6D0",
+				"SS6D0"
+			],
+			[
+				"HCLK_SS6D1",
+				"SS6D1"
+			],
+			[
+				"HCLK_SS6D2",
+				"SS6D2"
+			],
+			[
+				"HCLK_SS6D3",
+				"SS6D3"
+			],
+			[
+				"HCLK_SS6E0",
+				"SS6E0"
+			],
+			[
+				"HCLK_SS6E1",
+				"SS6E1"
+			],
+			[
+				"HCLK_SS6E2",
+				"SS6E2"
+			],
+			[
+				"HCLK_SS6E3",
+				"SS6E3"
+			],
+			[
+				"HCLK_SS6END0",
+				"SS6END0"
+			],
+			[
+				"HCLK_SS6END1",
+				"SS6END1"
+			],
+			[
+				"HCLK_SS6END2",
+				"SS6END2"
+			],
+			[
+				"HCLK_SS6END_N0_3",
+				"SS6END3"
+			],
+			[
+				"HCLK_SW2A3",
+				"SW2A3"
+			],
+			[
+				"HCLK_SW2END0",
+				"SW2A0"
+			],
+			[
+				"HCLK_SW2END1",
+				"SW2A1"
+			],
+			[
+				"HCLK_SW2END2",
+				"SW2A2"
+			],
+			[
+				"HCLK_SW2END_N0_3",
+				"SW2END3"
+			],
+			[
+				"HCLK_SW6B0",
+				"SW6B0"
+			],
+			[
+				"HCLK_SW6B1",
+				"SW6B1"
+			],
+			[
+				"HCLK_SW6B2",
+				"SW6B2"
+			],
+			[
+				"HCLK_SW6B3",
+				"SW6B3"
+			],
+			[
+				"HCLK_SW6C0",
+				"SW6C0"
+			],
+			[
+				"HCLK_SW6C1",
+				"SW6C1"
+			],
+			[
+				"HCLK_SW6C2",
+				"SW6C2"
+			],
+			[
+				"HCLK_SW6C3",
+				"SW6C3"
+			],
+			[
+				"HCLK_SW6D0",
+				"SW6D0"
+			],
+			[
+				"HCLK_SW6D1",
+				"SW6D1"
+			],
+			[
+				"HCLK_SW6D2",
+				"SW6D2"
+			],
+			[
+				"HCLK_SW6D3",
+				"SW6D3"
+			],
+			[
+				"HCLK_SW6E0",
+				"SW6E0"
+			],
+			[
+				"HCLK_SW6E1",
+				"SW6E1"
+			],
+			[
+				"HCLK_SW6E2",
+				"SW6E2"
+			],
+			[
+				"HCLK_SW6E3",
+				"SW6E3"
+			],
+			[
+				"HCLK_SW6END3",
+				"SW6END3"
+			],
+			[
+				"HCLK_WL1BEG3",
+				"WL1BEG3"
+			],
+			[
+				"HCLK_WL1END3",
+				"WL1END3"
+			],
+			[
+				"HCLK_WR1BEG_S0",
+				"WR1BEG_S0"
+			],
+			[
+				"HCLK_WR1END_S1_0",
+				"WR1END_S1_0"
+			],
+			[
+				"HCLK_WW2END3",
+				"WW2END3"
+			],
+			[
+				"HCLK_WW4END_S0_0",
+				"WW4END_S0_0"
 			]
 		]
 	},
@@ -5606,36 +6358,12 @@
 				"B_TERM_UTURN_INT_FAN_BOUNCE0"
 			],
 			[
-				"EL1BEG_N3",
-				"B_TERM_UTURN_INT_ER1BEG0"
-			],
-			[
-				"EL1END0",
-				"B_TERM_UTURN_INT_ER1END_N3_3"
-			],
-			[
 				"ER1BEG0",
 				"B_TERM_UTURN_INT_ER1BEG0"
 			],
 			[
 				"ER1END_N3_3",
 				"B_TERM_UTURN_INT_ER1END_N3_3"
-			],
-			[
-				"FAN_BOUNCE0",
-				"B_TERM_UTURN_INT_FAN_BOUNCE0"
-			],
-			[
-				"FAN_BOUNCE2",
-				"B_TERM_UTURN_INT_FAN_BOUNCE2"
-			],
-			[
-				"FAN_BOUNCE4",
-				"B_TERM_UTURN_INT_FAN_BOUNCE4"
-			],
-			[
-				"FAN_BOUNCE6",
-				"B_TERM_UTURN_INT_FAN_BOUNCE6"
 			],
 			[
 				"LVB_L1",
@@ -5648,30 +6376,6 @@
 			[
 				"LVB_L11",
 				"B_TERM_UTURN_INT_LVB_L1"
-			],
-			[
-				"LVB_L12",
-				"B_TERM_UTURN_INT_LVB_L0"
-			],
-			[
-				"LVB_L2",
-				"B_TERM_UTURN_INT_LVB_L1"
-			],
-			[
-				"LVB_L3",
-				"B_TERM_UTURN_INT_LVB_L2"
-			],
-			[
-				"LVB_L4",
-				"B_TERM_UTURN_INT_LVB_L3"
-			],
-			[
-				"LVB_L5",
-				"B_TERM_UTURN_INT_LVB_L4"
-			],
-			[
-				"LVB_L6",
-				"B_TERM_UTURN_INT_LVB_L5"
 			],
 			[
 				"LVB_L7",
@@ -5720,42 +6424,6 @@
 			[
 				"LV_L17",
 				"B_TERM_UTURN_INT_LV_L2"
-			],
-			[
-				"LV_L18",
-				"B_TERM_UTURN_INT_LV_L18"
-			],
-			[
-				"LV_L2",
-				"B_TERM_UTURN_INT_LV_L2"
-			],
-			[
-				"LV_L3",
-				"B_TERM_UTURN_INT_LV_L3"
-			],
-			[
-				"LV_L4",
-				"B_TERM_UTURN_INT_LV_L4"
-			],
-			[
-				"LV_L5",
-				"B_TERM_UTURN_INT_LV_L5"
-			],
-			[
-				"LV_L6",
-				"B_TERM_UTURN_INT_LV_L6"
-			],
-			[
-				"LV_L7",
-				"B_TERM_UTURN_INT_LV_L7"
-			],
-			[
-				"LV_L8",
-				"B_TERM_UTURN_INT_LV_L8"
-			],
-			[
-				"LV_L9",
-				"B_TERM_UTURN_INT_LV_L9"
 			],
 			[
 				"NE2A0",
@@ -5866,26 +6534,6 @@
 				"B_TERM_UTURN_INT_SS2BEG0"
 			],
 			[
-				"NN2END0",
-				"B_TERM_UTURN_INT_SS2A3"
-			],
-			[
-				"NN2END1",
-				"B_TERM_UTURN_INT_SS2A2"
-			],
-			[
-				"NN2END2",
-				"B_TERM_UTURN_INT_SS2A1"
-			],
-			[
-				"NN2END3",
-				"B_TERM_UTURN_INT_SS2A0"
-			],
-			[
-				"NN2END_S2_0",
-				"B_TERM_UTURN_INT_SS2BEG3"
-			],
-			[
 				"NN6A0",
 				"B_TERM_UTURN_INT_SS6BEG3"
 			],
@@ -5964,26 +6612,6 @@
 			[
 				"NN6E3",
 				"B_TERM_UTURN_INT_SS6D0"
-			],
-			[
-				"NN6END0",
-				"B_TERM_UTURN_INT_SS6E3"
-			],
-			[
-				"NN6END1",
-				"B_TERM_UTURN_INT_SS6E2"
-			],
-			[
-				"NN6END2",
-				"B_TERM_UTURN_INT_SS6E1"
-			],
-			[
-				"NN6END3",
-				"B_TERM_UTURN_INT_SS6E0"
-			],
-			[
-				"NN6END_S1_0",
-				"B_TERM_UTURN_INT_SS6D3"
 			],
 			[
 				"NR1END0",
@@ -6082,118 +6710,6 @@
 				"B_TERM_UTURN_INT_SW6D0"
 			],
 			[
-				"NW6END0",
-				"B_TERM_UTURN_INT_SW6END_N0_3"
-			],
-			[
-				"SE2BEG0",
-				"B_TERM_UTURN_INT_SE2BEG0"
-			],
-			[
-				"SE2BEG1",
-				"B_TERM_UTURN_INT_SE2BEG1"
-			],
-			[
-				"SE2BEG2",
-				"B_TERM_UTURN_INT_SE2BEG2"
-			],
-			[
-				"SE2BEG3",
-				"B_TERM_UTURN_INT_SE2BEG3"
-			],
-			[
-				"SE6A0",
-				"B_TERM_UTURN_INT_SE6A0"
-			],
-			[
-				"SE6A1",
-				"B_TERM_UTURN_INT_SE6A1"
-			],
-			[
-				"SE6A2",
-				"B_TERM_UTURN_INT_SE6A2"
-			],
-			[
-				"SE6A3",
-				"B_TERM_UTURN_INT_SE6A3"
-			],
-			[
-				"SE6B0",
-				"B_TERM_UTURN_INT_SE6B0"
-			],
-			[
-				"SE6B1",
-				"B_TERM_UTURN_INT_SE6B1"
-			],
-			[
-				"SE6B2",
-				"B_TERM_UTURN_INT_SE6B2"
-			],
-			[
-				"SE6B3",
-				"B_TERM_UTURN_INT_SE6B3"
-			],
-			[
-				"SE6C0",
-				"B_TERM_UTURN_INT_SE6C0"
-			],
-			[
-				"SE6C1",
-				"B_TERM_UTURN_INT_SE6C1"
-			],
-			[
-				"SE6C2",
-				"B_TERM_UTURN_INT_SE6C2"
-			],
-			[
-				"SE6C3",
-				"B_TERM_UTURN_INT_SE6C3"
-			],
-			[
-				"SE6D0",
-				"B_TERM_UTURN_INT_SE6D0"
-			],
-			[
-				"SE6D1",
-				"B_TERM_UTURN_INT_SE6D1"
-			],
-			[
-				"SE6D2",
-				"B_TERM_UTURN_INT_SE6D2"
-			],
-			[
-				"SE6D3",
-				"B_TERM_UTURN_INT_SE6D3"
-			],
-			[
-				"SL1BEG0",
-				"B_TERM_UTURN_INT_SL1BEG0"
-			],
-			[
-				"SL1BEG1",
-				"B_TERM_UTURN_INT_SL1BEG1"
-			],
-			[
-				"SL1BEG2",
-				"B_TERM_UTURN_INT_SL1BEG2"
-			],
-			[
-				"SL1BEG3",
-				"B_TERM_UTURN_INT_SL1BEG3"
-			],
-			[
-				"SR1BEG1",
-				"B_TERM_UTURN_INT_SR1BEG1"
-			],
-			[
-				"SR1BEG2",
-				"B_TERM_UTURN_INT_SR1BEG2"
-			],
-			[
-				"SR1BEG3",
-				"B_TERM_UTURN_INT_SR1BEG3"
-			],
-			[
 				"SS2A0",
 				"B_TERM_UTURN_INT_SS2A0"
 			],
@@ -6208,102 +6724,6 @@
 			[
 				"SS2A3",
 				"B_TERM_UTURN_INT_SS2A3"
-			],
-			[
-				"SS2BEG0",
-				"B_TERM_UTURN_INT_SS2BEG0"
-			],
-			[
-				"SS2BEG1",
-				"B_TERM_UTURN_INT_SS2BEG1"
-			],
-			[
-				"SS2BEG2",
-				"B_TERM_UTURN_INT_SS2BEG2"
-			],
-			[
-				"SS2BEG3",
-				"B_TERM_UTURN_INT_SS2BEG3"
-			],
-			[
-				"SS6A0",
-				"B_TERM_UTURN_INT_SS6A0"
-			],
-			[
-				"SS6A1",
-				"B_TERM_UTURN_INT_SS6A1"
-			],
-			[
-				"SS6A2",
-				"B_TERM_UTURN_INT_SS6A2"
-			],
-			[
-				"SS6A3",
-				"B_TERM_UTURN_INT_SS6A3"
-			],
-			[
-				"SS6B0",
-				"B_TERM_UTURN_INT_SS6B0"
-			],
-			[
-				"SS6B1",
-				"B_TERM_UTURN_INT_SS6B1"
-			],
-			[
-				"SS6B2",
-				"B_TERM_UTURN_INT_SS6B2"
-			],
-			[
-				"SS6B3",
-				"B_TERM_UTURN_INT_SS6B3"
-			],
-			[
-				"SS6BEG0",
-				"B_TERM_UTURN_INT_SS6BEG0"
-			],
-			[
-				"SS6BEG1",
-				"B_TERM_UTURN_INT_SS6BEG1"
-			],
-			[
-				"SS6BEG2",
-				"B_TERM_UTURN_INT_SS6BEG2"
-			],
-			[
-				"SS6BEG3",
-				"B_TERM_UTURN_INT_SS6BEG3"
-			],
-			[
-				"SS6C0",
-				"B_TERM_UTURN_INT_SS6C0"
-			],
-			[
-				"SS6C1",
-				"B_TERM_UTURN_INT_SS6C1"
-			],
-			[
-				"SS6C2",
-				"B_TERM_UTURN_INT_SS6C2"
-			],
-			[
-				"SS6C3",
-				"B_TERM_UTURN_INT_SS6C3"
-			],
-			[
-				"SS6D0",
-				"B_TERM_UTURN_INT_SS6D0"
-			],
-			[
-				"SS6D1",
-				"B_TERM_UTURN_INT_SS6D1"
-			],
-			[
-				"SS6D2",
-				"B_TERM_UTURN_INT_SS6D2"
-			],
-			[
-				"SS6D3",
-				"B_TERM_UTURN_INT_SS6D3"
 			],
 			[
 				"SS6E0",
@@ -6322,92 +6742,8 @@
 				"B_TERM_UTURN_INT_SS6E3"
 			],
 			[
-				"SW2BEG0",
-				"B_TERM_UTURN_INT_SW2BEG0"
-			],
-			[
-				"SW2BEG1",
-				"B_TERM_UTURN_INT_SW2BEG1"
-			],
-			[
-				"SW2BEG2",
-				"B_TERM_UTURN_INT_SW2BEG2"
-			],
-			[
-				"SW2BEG3",
-				"B_TERM_UTURN_INT_SW2BEG3"
-			],
-			[
-				"SW6A0",
-				"B_TERM_UTURN_INT_SW6A0"
-			],
-			[
-				"SW6A1",
-				"B_TERM_UTURN_INT_SW6A1"
-			],
-			[
-				"SW6A2",
-				"B_TERM_UTURN_INT_SW6A2"
-			],
-			[
-				"SW6A3",
-				"B_TERM_UTURN_INT_SW6A3"
-			],
-			[
-				"SW6B0",
-				"B_TERM_UTURN_INT_SW6B0"
-			],
-			[
-				"SW6B1",
-				"B_TERM_UTURN_INT_SW6B1"
-			],
-			[
-				"SW6B2",
-				"B_TERM_UTURN_INT_SW6B2"
-			],
-			[
-				"SW6B3",
-				"B_TERM_UTURN_INT_SW6B3"
-			],
-			[
-				"SW6C0",
-				"B_TERM_UTURN_INT_SW6C0"
-			],
-			[
-				"SW6C1",
-				"B_TERM_UTURN_INT_SW6C1"
-			],
-			[
-				"SW6C2",
-				"B_TERM_UTURN_INT_SW6C2"
-			],
-			[
-				"SW6C3",
-				"B_TERM_UTURN_INT_SW6C3"
-			],
-			[
-				"SW6D0",
-				"B_TERM_UTURN_INT_SW6D0"
-			],
-			[
-				"SW6D1",
-				"B_TERM_UTURN_INT_SW6D1"
-			],
-			[
-				"SW6D2",
-				"B_TERM_UTURN_INT_SW6D2"
-			],
-			[
-				"SW6D3",
-				"B_TERM_UTURN_INT_SW6D3"
-			],
-			[
 				"SW6END_N0_3",
 				"B_TERM_UTURN_INT_SW6END_N0_3"
-			],
-			[
-				"WL1BEG_N3",
-				"B_TERM_UTURN_INT_WR1BEG0"
 			],
 			[
 				"WL1END_N1_3",
@@ -6416,10 +6752,6 @@
 			[
 				"WR1BEG0",
 				"B_TERM_UTURN_INT_WR1BEG0"
-			],
-			[
-				"WR1END0",
-				"B_TERM_UTURN_INT_WR1END0"
 			]
 		]
 	},
@@ -6687,10 +7019,6 @@
 			],
 			[
 				"NL1END0",
-				"BRKH_INT_NL1BEG0_SLOW"
-			],
-			[
-				"NL1END0",
 				"BRKH_INT_NL1END_S3_0"
 			],
 			[
@@ -6719,10 +7047,6 @@
 			],
 			[
 				"NN2END0",
-				"BRKH_INT_NN2A0"
-			],
-			[
-				"NN2END0",
 				"BRKH_INT_NN2END_S2_0"
 			],
 			[
@@ -6736,10 +7060,6 @@
 			[
 				"NN2END3",
 				"BRKH_INT_NN2A3"
-			],
-			[
-				"NN2END_S2_0",
-				"BRKH_INT_NN2BEG0"
 			],
 			[
 				"NN6A0",
@@ -6823,10 +7143,6 @@
 			],
 			[
 				"NN6END0",
-				"BRKH_INT_NN6E0"
-			],
-			[
-				"NN6END0",
 				"BRKH_INT_NN6END_S1_0"
 			],
 			[
@@ -6840,10 +7156,6 @@
 			[
 				"NN6END3",
 				"BRKH_INT_NN6E3"
-			],
-			[
-				"NN6END_S1_0",
-				"BRKH_INT_NN6D0"
 			],
 			[
 				"NR1END0",
@@ -7059,10 +7371,6 @@
 			],
 			[
 				"SR1END_N3_3",
-				"BRKH_INT_SR1END3"
-			],
-			[
-				"SR1END_N3_3",
 				"BRKH_INT_SR1END_N3_3"
 			],
 			[
@@ -7076,10 +7384,6 @@
 			[
 				"SS2A2",
 				"BRKH_INT_SS2END2"
-			],
-			[
-				"SS2A3",
-				"BRKH_INT_SS2END3"
 			],
 			[
 				"SS2A3",
@@ -7100,14 +7404,6 @@
 			[
 				"SS2BEG3",
 				"BRKH_INT_SS2A3"
-			],
-			[
-				"SS2END_N0_3",
-				"BRKH_INT_SS2END3"
-			],
-			[
-				"SS2END_N0_3",
-				"BRKH_INT_SS2END_N0_3"
 			],
 			[
 				"SS6A0",
@@ -7203,18 +7499,6 @@
 			],
 			[
 				"SS6E3",
-				"BRKH_INT_SS6END3"
-			],
-			[
-				"SS6E3",
-				"BRKH_INT_SS6END_N0_3"
-			],
-			[
-				"SS6END_N0_3",
-				"BRKH_INT_SS6END3"
-			],
-			[
-				"SS6END_N0_3",
 				"BRKH_INT_SS6END_N0_3"
 			],
 			[
@@ -7338,6 +7622,886 @@
 		],
 		"tile_types": [
 			"INT_L",
+			"HCLK_L"
+		],
+		"wire_pairs": [
+			[
+				"BYP_BOUNCE_N3_2",
+				"HCLK_BYP_BOUNCE2"
+			],
+			[
+				"BYP_BOUNCE_N3_3",
+				"HCLK_BYP_BOUNCE3"
+			],
+			[
+				"BYP_BOUNCE_N3_6",
+				"HCLK_BYP_BOUNCE6"
+			],
+			[
+				"BYP_BOUNCE_N3_7",
+				"HCLK_BYP_BOUNCE7"
+			],
+			[
+				"EL1BEG_N3",
+				"HCLK_EL1BEG3"
+			],
+			[
+				"EL1END0",
+				"HCLK_EL1END_S3_0"
+			],
+			[
+				"ER1BEG0",
+				"HCLK_ER1BEG_S0"
+			],
+			[
+				"ER1END_N3_3",
+				"HCLK_ER1END3"
+			],
+			[
+				"FAN_BOUNCE0",
+				"HCLK_FAN_BOUNCE_S3_0"
+			],
+			[
+				"FAN_BOUNCE2",
+				"HCLK_FAN_BOUNCE_S3_2"
+			],
+			[
+				"FAN_BOUNCE4",
+				"HCLK_FAN_BOUNCE_S3_4"
+			],
+			[
+				"FAN_BOUNCE6",
+				"HCLK_FAN_BOUNCE_S3_6"
+			],
+			[
+				"GCLK_L_B10",
+				"HCLK_LEAF_CLK_B_TOPL4"
+			],
+			[
+				"GCLK_L_B11",
+				"HCLK_LEAF_CLK_B_TOPL5"
+			],
+			[
+				"GCLK_L_B6",
+				"HCLK_LEAF_CLK_B_TOPL0"
+			],
+			[
+				"GCLK_L_B7",
+				"HCLK_LEAF_CLK_B_TOPL1"
+			],
+			[
+				"GCLK_L_B8",
+				"HCLK_LEAF_CLK_B_TOPL2"
+			],
+			[
+				"GCLK_L_B9",
+				"HCLK_LEAF_CLK_B_TOPL3"
+			],
+			[
+				"LVB_L1",
+				"HCLK_LVB1"
+			],
+			[
+				"LVB_L10",
+				"HCLK_LVB10"
+			],
+			[
+				"LVB_L11",
+				"HCLK_LVB11"
+			],
+			[
+				"LVB_L12",
+				"HCLK_LVB12"
+			],
+			[
+				"LVB_L2",
+				"HCLK_LVB2"
+			],
+			[
+				"LVB_L3",
+				"HCLK_LVB3"
+			],
+			[
+				"LVB_L4",
+				"HCLK_LVB4"
+			],
+			[
+				"LVB_L5",
+				"HCLK_LVB5"
+			],
+			[
+				"LVB_L6",
+				"HCLK_LVB6"
+			],
+			[
+				"LVB_L7",
+				"HCLK_LVB7"
+			],
+			[
+				"LVB_L8",
+				"HCLK_LVB8"
+			],
+			[
+				"LVB_L9",
+				"HCLK_LVB9"
+			],
+			[
+				"LV_L1",
+				"HCLK_LV0"
+			],
+			[
+				"LV_L10",
+				"HCLK_LV9"
+			],
+			[
+				"LV_L11",
+				"HCLK_LV10"
+			],
+			[
+				"LV_L12",
+				"HCLK_LV11"
+			],
+			[
+				"LV_L13",
+				"HCLK_LV12"
+			],
+			[
+				"LV_L14",
+				"HCLK_LV13"
+			],
+			[
+				"LV_L15",
+				"HCLK_LV14"
+			],
+			[
+				"LV_L16",
+				"HCLK_LV15"
+			],
+			[
+				"LV_L17",
+				"HCLK_LV16"
+			],
+			[
+				"LV_L18",
+				"HCLK_LV17"
+			],
+			[
+				"LV_L2",
+				"HCLK_LV1"
+			],
+			[
+				"LV_L3",
+				"HCLK_LV2"
+			],
+			[
+				"LV_L4",
+				"HCLK_LV3"
+			],
+			[
+				"LV_L5",
+				"HCLK_LV4"
+			],
+			[
+				"LV_L6",
+				"HCLK_LV5"
+			],
+			[
+				"LV_L7",
+				"HCLK_LV6"
+			],
+			[
+				"LV_L8",
+				"HCLK_LV7"
+			],
+			[
+				"LV_L9",
+				"HCLK_LV8"
+			],
+			[
+				"NE2A0",
+				"HCLK_NE2BEG0"
+			],
+			[
+				"NE2A1",
+				"HCLK_NE2BEG1"
+			],
+			[
+				"NE2A2",
+				"HCLK_NE2BEG2"
+			],
+			[
+				"NE2A3",
+				"HCLK_NE2BEG3"
+			],
+			[
+				"NE2END0",
+				"HCLK_NE2END_S3_0"
+			],
+			[
+				"NE6B0",
+				"HCLK_NE6A0"
+			],
+			[
+				"NE6B1",
+				"HCLK_NE6A1"
+			],
+			[
+				"NE6B2",
+				"HCLK_NE6A2"
+			],
+			[
+				"NE6B3",
+				"HCLK_NE6A3"
+			],
+			[
+				"NE6C0",
+				"HCLK_NE6B0"
+			],
+			[
+				"NE6C1",
+				"HCLK_NE6B1"
+			],
+			[
+				"NE6C2",
+				"HCLK_NE6B2"
+			],
+			[
+				"NE6C3",
+				"HCLK_NE6B3"
+			],
+			[
+				"NE6D0",
+				"HCLK_NE6C0"
+			],
+			[
+				"NE6D1",
+				"HCLK_NE6C1"
+			],
+			[
+				"NE6D2",
+				"HCLK_NE6C2"
+			],
+			[
+				"NE6D3",
+				"HCLK_NE6C3"
+			],
+			[
+				"NE6E0",
+				"HCLK_NE6D0"
+			],
+			[
+				"NE6E1",
+				"HCLK_NE6D1"
+			],
+			[
+				"NE6E2",
+				"HCLK_NE6D2"
+			],
+			[
+				"NE6E3",
+				"HCLK_NE6D3"
+			],
+			[
+				"NL1END0",
+				"HCLK_NL1END_S3_0"
+			],
+			[
+				"NL1END1",
+				"HCLK_NL1BEG1"
+			],
+			[
+				"NL1END2",
+				"HCLK_NL1BEG2"
+			],
+			[
+				"NN2A0",
+				"HCLK_NN2BEG0"
+			],
+			[
+				"NN2A1",
+				"HCLK_NN2BEG1"
+			],
+			[
+				"NN2A2",
+				"HCLK_NN2BEG2"
+			],
+			[
+				"NN2A3",
+				"HCLK_NN2BEG3"
+			],
+			[
+				"NN2END0",
+				"HCLK_NN2END_S2_0"
+			],
+			[
+				"NN2END1",
+				"HCLK_NN2A1"
+			],
+			[
+				"NN2END2",
+				"HCLK_NN2A2"
+			],
+			[
+				"NN2END3",
+				"HCLK_NN2A3"
+			],
+			[
+				"NN6A0",
+				"HCLK_NN6BEG0"
+			],
+			[
+				"NN6A1",
+				"HCLK_NN6BEG1"
+			],
+			[
+				"NN6A2",
+				"HCLK_NN6BEG2"
+			],
+			[
+				"NN6A3",
+				"HCLK_NN6BEG3"
+			],
+			[
+				"NN6B0",
+				"HCLK_NN6A0"
+			],
+			[
+				"NN6B1",
+				"HCLK_NN6A1"
+			],
+			[
+				"NN6B2",
+				"HCLK_NN6A2"
+			],
+			[
+				"NN6B3",
+				"HCLK_NN6A3"
+			],
+			[
+				"NN6C0",
+				"HCLK_NN6B0"
+			],
+			[
+				"NN6C1",
+				"HCLK_NN6B1"
+			],
+			[
+				"NN6C2",
+				"HCLK_NN6B2"
+			],
+			[
+				"NN6C3",
+				"HCLK_NN6B3"
+			],
+			[
+				"NN6D0",
+				"HCLK_NN6C0"
+			],
+			[
+				"NN6D1",
+				"HCLK_NN6C1"
+			],
+			[
+				"NN6D2",
+				"HCLK_NN6C2"
+			],
+			[
+				"NN6D3",
+				"HCLK_NN6C3"
+			],
+			[
+				"NN6E0",
+				"HCLK_NN6D0"
+			],
+			[
+				"NN6E1",
+				"HCLK_NN6D1"
+			],
+			[
+				"NN6E2",
+				"HCLK_NN6D2"
+			],
+			[
+				"NN6E3",
+				"HCLK_NN6D3"
+			],
+			[
+				"NN6END0",
+				"HCLK_NN6END_S1_0"
+			],
+			[
+				"NN6END1",
+				"HCLK_NN6E1"
+			],
+			[
+				"NN6END2",
+				"HCLK_NN6E2"
+			],
+			[
+				"NN6END3",
+				"HCLK_NN6E3"
+			],
+			[
+				"NR1END0",
+				"HCLK_NR1BEG0"
+			],
+			[
+				"NR1END1",
+				"HCLK_NR1BEG1"
+			],
+			[
+				"NR1END2",
+				"HCLK_NR1BEG2"
+			],
+			[
+				"NR1END3",
+				"HCLK_NR1BEG3"
+			],
+			[
+				"NW2A0",
+				"HCLK_NW2A0"
+			],
+			[
+				"NW2A1",
+				"HCLK_NW2A1"
+			],
+			[
+				"NW2A2",
+				"HCLK_NW2A2"
+			],
+			[
+				"NW2A3",
+				"HCLK_NW2A3"
+			],
+			[
+				"NW2END0",
+				"HCLK_NW2END_S0_0"
+			],
+			[
+				"NW6B0",
+				"HCLK_NW6A0"
+			],
+			[
+				"NW6B1",
+				"HCLK_NW6A1"
+			],
+			[
+				"NW6B2",
+				"HCLK_NW6A2"
+			],
+			[
+				"NW6B3",
+				"HCLK_NW6A3"
+			],
+			[
+				"NW6C0",
+				"HCLK_NW6B0"
+			],
+			[
+				"NW6C1",
+				"HCLK_NW6B1"
+			],
+			[
+				"NW6C2",
+				"HCLK_NW6B2"
+			],
+			[
+				"NW6C3",
+				"HCLK_NW6B3"
+			],
+			[
+				"NW6D0",
+				"HCLK_NW6C0"
+			],
+			[
+				"NW6D1",
+				"HCLK_NW6C1"
+			],
+			[
+				"NW6D2",
+				"HCLK_NW6C2"
+			],
+			[
+				"NW6D3",
+				"HCLK_NW6C3"
+			],
+			[
+				"NW6E0",
+				"HCLK_NW6D0"
+			],
+			[
+				"NW6E1",
+				"HCLK_NW6D1"
+			],
+			[
+				"NW6E2",
+				"HCLK_NW6D2"
+			],
+			[
+				"NW6E3",
+				"HCLK_NW6D3"
+			],
+			[
+				"NW6END0",
+				"HCLK_NW6END_S0_0"
+			],
+			[
+				"SE2BEG0",
+				"HCLK_SE2A0"
+			],
+			[
+				"SE2BEG1",
+				"HCLK_SE2A1"
+			],
+			[
+				"SE2BEG2",
+				"HCLK_SE2A2"
+			],
+			[
+				"SE2BEG3",
+				"HCLK_SE2A3"
+			],
+			[
+				"SE6A0",
+				"HCLK_SE6B0"
+			],
+			[
+				"SE6A1",
+				"HCLK_SE6B1"
+			],
+			[
+				"SE6A2",
+				"HCLK_SE6B2"
+			],
+			[
+				"SE6A3",
+				"HCLK_SE6B3"
+			],
+			[
+				"SE6B0",
+				"HCLK_SE6C0"
+			],
+			[
+				"SE6B1",
+				"HCLK_SE6C1"
+			],
+			[
+				"SE6B2",
+				"HCLK_SE6C2"
+			],
+			[
+				"SE6B3",
+				"HCLK_SE6C3"
+			],
+			[
+				"SE6C0",
+				"HCLK_SE6D0"
+			],
+			[
+				"SE6C1",
+				"HCLK_SE6D1"
+			],
+			[
+				"SE6C2",
+				"HCLK_SE6D2"
+			],
+			[
+				"SE6C3",
+				"HCLK_SE6D3"
+			],
+			[
+				"SE6D0",
+				"HCLK_SE6E0"
+			],
+			[
+				"SE6D1",
+				"HCLK_SE6E1"
+			],
+			[
+				"SE6D2",
+				"HCLK_SE6E2"
+			],
+			[
+				"SE6D3",
+				"HCLK_SE6E3"
+			],
+			[
+				"SL1BEG0",
+				"HCLK_SL1END0"
+			],
+			[
+				"SL1BEG1",
+				"HCLK_SL1END1"
+			],
+			[
+				"SL1BEG2",
+				"HCLK_SL1END2"
+			],
+			[
+				"SL1BEG3",
+				"HCLK_SL1END3"
+			],
+			[
+				"SR1BEG1",
+				"HCLK_SR1END1"
+			],
+			[
+				"SR1BEG2",
+				"HCLK_SR1END2"
+			],
+			[
+				"SR1END_N3_3",
+				"HCLK_SR1END_N3_3"
+			],
+			[
+				"SS2A0",
+				"HCLK_SS2END0"
+			],
+			[
+				"SS2A1",
+				"HCLK_SS2END1"
+			],
+			[
+				"SS2A2",
+				"HCLK_SS2END2"
+			],
+			[
+				"SS2A3",
+				"HCLK_SS2END_N0_3"
+			],
+			[
+				"SS2BEG0",
+				"HCLK_SS2A0"
+			],
+			[
+				"SS2BEG1",
+				"HCLK_SS2A1"
+			],
+			[
+				"SS2BEG2",
+				"HCLK_SS2A2"
+			],
+			[
+				"SS2BEG3",
+				"HCLK_SS2BEG3"
+			],
+			[
+				"SS6A0",
+				"HCLK_SS6B0"
+			],
+			[
+				"SS6A1",
+				"HCLK_SS6B1"
+			],
+			[
+				"SS6A2",
+				"HCLK_SS6B2"
+			],
+			[
+				"SS6A3",
+				"HCLK_SS6B3"
+			],
+			[
+				"SS6B0",
+				"HCLK_SS6C0"
+			],
+			[
+				"SS6B1",
+				"HCLK_SS6C1"
+			],
+			[
+				"SS6B2",
+				"HCLK_SS6C2"
+			],
+			[
+				"SS6B3",
+				"HCLK_SS6C3"
+			],
+			[
+				"SS6BEG0",
+				"HCLK_SS6A0"
+			],
+			[
+				"SS6BEG1",
+				"HCLK_SS6A1"
+			],
+			[
+				"SS6BEG2",
+				"HCLK_SS6A2"
+			],
+			[
+				"SS6BEG3",
+				"HCLK_SS6A3"
+			],
+			[
+				"SS6C0",
+				"HCLK_SS6D0"
+			],
+			[
+				"SS6C1",
+				"HCLK_SS6D1"
+			],
+			[
+				"SS6C2",
+				"HCLK_SS6D2"
+			],
+			[
+				"SS6C3",
+				"HCLK_SS6D3"
+			],
+			[
+				"SS6D0",
+				"HCLK_SS6E0"
+			],
+			[
+				"SS6D1",
+				"HCLK_SS6E1"
+			],
+			[
+				"SS6D2",
+				"HCLK_SS6E2"
+			],
+			[
+				"SS6D3",
+				"HCLK_SS6E3"
+			],
+			[
+				"SS6E0",
+				"HCLK_SS6END0"
+			],
+			[
+				"SS6E1",
+				"HCLK_SS6END1"
+			],
+			[
+				"SS6E2",
+				"HCLK_SS6END2"
+			],
+			[
+				"SS6E3",
+				"HCLK_SS6END_N0_3"
+			],
+			[
+				"SW2BEG0",
+				"HCLK_SW2END0"
+			],
+			[
+				"SW2BEG1",
+				"HCLK_SW2END1"
+			],
+			[
+				"SW2BEG2",
+				"HCLK_SW2END2"
+			],
+			[
+				"SW2BEG3",
+				"HCLK_SW2A3"
+			],
+			[
+				"SW2END_N0_3",
+				"HCLK_SW2END_N0_3"
+			],
+			[
+				"SW6A0",
+				"HCLK_SW6B0"
+			],
+			[
+				"SW6A1",
+				"HCLK_SW6B1"
+			],
+			[
+				"SW6A2",
+				"HCLK_SW6B2"
+			],
+			[
+				"SW6A3",
+				"HCLK_SW6B3"
+			],
+			[
+				"SW6B0",
+				"HCLK_SW6C0"
+			],
+			[
+				"SW6B1",
+				"HCLK_SW6C1"
+			],
+			[
+				"SW6B2",
+				"HCLK_SW6C2"
+			],
+			[
+				"SW6B3",
+				"HCLK_SW6C3"
+			],
+			[
+				"SW6C0",
+				"HCLK_SW6D0"
+			],
+			[
+				"SW6C1",
+				"HCLK_SW6D1"
+			],
+			[
+				"SW6C2",
+				"HCLK_SW6D2"
+			],
+			[
+				"SW6C3",
+				"HCLK_SW6D3"
+			],
+			[
+				"SW6D0",
+				"HCLK_SW6E0"
+			],
+			[
+				"SW6D1",
+				"HCLK_SW6E1"
+			],
+			[
+				"SW6D2",
+				"HCLK_SW6E2"
+			],
+			[
+				"SW6D3",
+				"HCLK_SW6E3"
+			],
+			[
+				"SW6END_N0_3",
+				"HCLK_SW6END3"
+			],
+			[
+				"WL1BEG_N3",
+				"HCLK_WL1BEG3"
+			],
+			[
+				"WL1END_N1_3",
+				"HCLK_WL1END3"
+			],
+			[
+				"WR1BEG0",
+				"HCLK_WR1BEG_S0"
+			],
+			[
+				"WR1END0",
+				"HCLK_WR1END_S1_0"
+			],
+			[
+				"WW2END_N0_3",
+				"HCLK_WW2END3"
+			],
+			[
+				"WW4END0",
+				"HCLK_WW4END_S0_0"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
+			0,
+			1
+		],
+		"tile_types": [
+			"INT_L",
 			"INT_L"
 		],
 		"wire_pairs": [
@@ -7414,126 +8578,6 @@
 				"GCLK_L_B9"
 			],
 			[
-				"LVB_L1",
-				"LVB_L0"
-			],
-			[
-				"LVB_L10",
-				"LVB_L9"
-			],
-			[
-				"LVB_L11",
-				"LVB_L10"
-			],
-			[
-				"LVB_L12",
-				"LVB_L11"
-			],
-			[
-				"LVB_L2",
-				"LVB_L1"
-			],
-			[
-				"LVB_L3",
-				"LVB_L2"
-			],
-			[
-				"LVB_L4",
-				"LVB_L3"
-			],
-			[
-				"LVB_L5",
-				"LVB_L4"
-			],
-			[
-				"LVB_L6",
-				"LVB_L5"
-			],
-			[
-				"LVB_L7",
-				"LVB_L6"
-			],
-			[
-				"LVB_L8",
-				"LVB_L7"
-			],
-			[
-				"LVB_L9",
-				"LVB_L8"
-			],
-			[
-				"LV_L1",
-				"LV_L0"
-			],
-			[
-				"LV_L10",
-				"LV_L9"
-			],
-			[
-				"LV_L11",
-				"LV_L10"
-			],
-			[
-				"LV_L12",
-				"LV_L11"
-			],
-			[
-				"LV_L13",
-				"LV_L12"
-			],
-			[
-				"LV_L14",
-				"LV_L13"
-			],
-			[
-				"LV_L15",
-				"LV_L14"
-			],
-			[
-				"LV_L16",
-				"LV_L15"
-			],
-			[
-				"LV_L17",
-				"LV_L16"
-			],
-			[
-				"LV_L18",
-				"LV_L17"
-			],
-			[
-				"LV_L2",
-				"LV_L1"
-			],
-			[
-				"LV_L3",
-				"LV_L2"
-			],
-			[
-				"LV_L4",
-				"LV_L3"
-			],
-			[
-				"LV_L5",
-				"LV_L4"
-			],
-			[
-				"LV_L6",
-				"LV_L5"
-			],
-			[
-				"LV_L7",
-				"LV_L6"
-			],
-			[
-				"LV_L8",
-				"LV_L7"
-			],
-			[
-				"LV_L9",
-				"LV_L8"
-			],
-			[
 				"NE2A0",
 				"NE2BEG0"
 			],
@@ -7554,54 +8598,6 @@
 				"NE2END_S3_0"
 			],
 			[
-				"NE6B0",
-				"NE6A0"
-			],
-			[
-				"NE6B1",
-				"NE6A1"
-			],
-			[
-				"NE6B2",
-				"NE6A2"
-			],
-			[
-				"NE6B3",
-				"NE6A3"
-			],
-			[
-				"NE6C0",
-				"NE6B0"
-			],
-			[
-				"NE6C1",
-				"NE6B1"
-			],
-			[
-				"NE6C2",
-				"NE6B2"
-			],
-			[
-				"NE6C3",
-				"NE6B3"
-			],
-			[
-				"NE6D0",
-				"NE6C0"
-			],
-			[
-				"NE6D1",
-				"NE6C1"
-			],
-			[
-				"NE6D2",
-				"NE6C2"
-			],
-			[
-				"NE6D3",
-				"NE6C3"
-			],
-			[
 				"NE6E0",
 				"NE6D0"
 			],
@@ -7616,10 +8612,6 @@
 			[
 				"NE6E3",
 				"NE6D3"
-			],
-			[
-				"NL1END0",
-				"NL1BEG0"
 			],
 			[
 				"NL1END0",
@@ -7654,10 +8646,6 @@
 				"NN2A0"
 			],
 			[
-				"NN2END0",
-				"NN2END_S2_0"
-			],
-			[
 				"NN2END1",
 				"NN2A1"
 			],
@@ -7668,74 +8656,6 @@
 			[
 				"NN2END3",
 				"NN2A3"
-			],
-			[
-				"NN2END_S2_0",
-				"NN2BEG0"
-			],
-			[
-				"NN6A0",
-				"NN6BEG0"
-			],
-			[
-				"NN6A1",
-				"NN6BEG1"
-			],
-			[
-				"NN6A2",
-				"NN6BEG2"
-			],
-			[
-				"NN6A3",
-				"NN6BEG3"
-			],
-			[
-				"NN6B0",
-				"NN6A0"
-			],
-			[
-				"NN6B1",
-				"NN6A1"
-			],
-			[
-				"NN6B2",
-				"NN6A2"
-			],
-			[
-				"NN6B3",
-				"NN6A3"
-			],
-			[
-				"NN6C0",
-				"NN6B0"
-			],
-			[
-				"NN6C1",
-				"NN6B1"
-			],
-			[
-				"NN6C2",
-				"NN6B2"
-			],
-			[
-				"NN6C3",
-				"NN6B3"
-			],
-			[
-				"NN6D0",
-				"NN6C0"
-			],
-			[
-				"NN6D1",
-				"NN6C1"
-			],
-			[
-				"NN6D2",
-				"NN6C2"
-			],
-			[
-				"NN6D3",
-				"NN6C3"
 			],
 			[
 				"NN6E0",
@@ -7752,30 +8672,6 @@
 			[
 				"NN6E3",
 				"NN6D3"
-			],
-			[
-				"NN6END0",
-				"NN6E0"
-			],
-			[
-				"NN6END0",
-				"NN6END_S1_0"
-			],
-			[
-				"NN6END1",
-				"NN6E1"
-			],
-			[
-				"NN6END2",
-				"NN6E2"
-			],
-			[
-				"NN6END3",
-				"NN6E3"
-			],
-			[
-				"NN6END_S1_0",
-				"NN6D0"
 			],
 			[
 				"NR1END0",
@@ -7814,54 +8710,6 @@
 				"NW2END_S0_0"
 			],
 			[
-				"NW6B0",
-				"NW6A0"
-			],
-			[
-				"NW6B1",
-				"NW6A1"
-			],
-			[
-				"NW6B2",
-				"NW6A2"
-			],
-			[
-				"NW6B3",
-				"NW6A3"
-			],
-			[
-				"NW6C0",
-				"NW6B0"
-			],
-			[
-				"NW6C1",
-				"NW6B1"
-			],
-			[
-				"NW6C2",
-				"NW6B2"
-			],
-			[
-				"NW6C3",
-				"NW6B3"
-			],
-			[
-				"NW6D0",
-				"NW6C0"
-			],
-			[
-				"NW6D1",
-				"NW6C1"
-			],
-			[
-				"NW6D2",
-				"NW6C2"
-			],
-			[
-				"NW6D3",
-				"NW6C3"
-			],
-			[
 				"NW6E0",
 				"NW6D0"
 			],
@@ -7896,54 +8744,6 @@
 			[
 				"SE2BEG3",
 				"SE2A3"
-			],
-			[
-				"SE6A0",
-				"SE6B0"
-			],
-			[
-				"SE6A1",
-				"SE6B1"
-			],
-			[
-				"SE6A2",
-				"SE6B2"
-			],
-			[
-				"SE6A3",
-				"SE6B3"
-			],
-			[
-				"SE6B0",
-				"SE6C0"
-			],
-			[
-				"SE6B1",
-				"SE6C1"
-			],
-			[
-				"SE6B2",
-				"SE6C2"
-			],
-			[
-				"SE6B3",
-				"SE6C3"
-			],
-			[
-				"SE6C0",
-				"SE6D0"
-			],
-			[
-				"SE6C1",
-				"SE6D1"
-			],
-			[
-				"SE6C2",
-				"SE6D2"
-			],
-			[
-				"SE6C3",
-				"SE6D3"
 			],
 			[
 				"SE6D0",
@@ -7986,10 +8786,6 @@
 				"SR1END2"
 			],
 			[
-				"SR1BEG3",
-				"SR1END3"
-			],
-			[
 				"SR1END_N3_3",
 				"SR1END3"
 			],
@@ -8026,78 +8822,6 @@
 				"SS2A3"
 			],
 			[
-				"SS2BEG3",
-				"SS2END_N0_3"
-			],
-			[
-				"SS2END_N0_3",
-				"SS2END3"
-			],
-			[
-				"SS6A0",
-				"SS6B0"
-			],
-			[
-				"SS6A1",
-				"SS6B1"
-			],
-			[
-				"SS6A2",
-				"SS6B2"
-			],
-			[
-				"SS6A3",
-				"SS6B3"
-			],
-			[
-				"SS6B0",
-				"SS6C0"
-			],
-			[
-				"SS6B1",
-				"SS6C1"
-			],
-			[
-				"SS6B2",
-				"SS6C2"
-			],
-			[
-				"SS6B3",
-				"SS6C3"
-			],
-			[
-				"SS6BEG0",
-				"SS6A0"
-			],
-			[
-				"SS6BEG1",
-				"SS6A1"
-			],
-			[
-				"SS6BEG2",
-				"SS6A2"
-			],
-			[
-				"SS6BEG3",
-				"SS6A3"
-			],
-			[
-				"SS6C0",
-				"SS6D0"
-			],
-			[
-				"SS6C1",
-				"SS6D1"
-			],
-			[
-				"SS6C2",
-				"SS6D2"
-			],
-			[
-				"SS6C3",
-				"SS6D3"
-			],
-			[
 				"SS6D0",
 				"SS6E0"
 			],
@@ -8112,30 +8836,6 @@
 			[
 				"SS6D3",
 				"SS6E3"
-			],
-			[
-				"SS6D3",
-				"SS6END_N0_3"
-			],
-			[
-				"SS6E0",
-				"SS6END0"
-			],
-			[
-				"SS6E1",
-				"SS6END1"
-			],
-			[
-				"SS6E2",
-				"SS6END2"
-			],
-			[
-				"SS6E3",
-				"SS6END3"
-			],
-			[
-				"SS6END_N0_3",
-				"SS6END3"
 			],
 			[
 				"SW2BEG0",
@@ -8156,54 +8856,6 @@
 			[
 				"SW2END_N0_3",
 				"SW2END3"
-			],
-			[
-				"SW6A0",
-				"SW6B0"
-			],
-			[
-				"SW6A1",
-				"SW6B1"
-			],
-			[
-				"SW6A2",
-				"SW6B2"
-			],
-			[
-				"SW6A3",
-				"SW6B3"
-			],
-			[
-				"SW6B0",
-				"SW6C0"
-			],
-			[
-				"SW6B1",
-				"SW6C1"
-			],
-			[
-				"SW6B2",
-				"SW6C2"
-			],
-			[
-				"SW6B3",
-				"SW6C3"
-			],
-			[
-				"SW6C0",
-				"SW6D0"
-			],
-			[
-				"SW6C1",
-				"SW6D1"
-			],
-			[
-				"SW6C2",
-				"SW6D2"
-			],
-			[
-				"SW6C3",
-				"SW6D3"
 			],
 			[
 				"SW6D0",
@@ -8358,10 +9010,6 @@
 				"EE4END3"
 			],
 			[
-				"EL1BEG0",
-				"EL1END0"
-			],
-			[
 				"EL1BEG1",
 				"EL1END1"
 			],
@@ -8384,10 +9032,6 @@
 			[
 				"ER1BEG2",
 				"ER1END2"
-			],
-			[
-				"ER1BEG3",
-				"ER1END3"
 			],
 			[
 				"GCLK_L_B0",
@@ -8502,26 +9146,6 @@
 				"NE2END3"
 			],
 			[
-				"NE2BEG0",
-				"NE2END_S3_0"
-			],
-			[
-				"NE6BEG0",
-				"NE6A0"
-			],
-			[
-				"NE6BEG1",
-				"NE6A1"
-			],
-			[
-				"NE6BEG2",
-				"NE6A2"
-			],
-			[
-				"NE6BEG3",
-				"NE6A3"
-			],
-			[
 				"NE6E0",
 				"NE6END0"
 			],
@@ -8554,30 +9178,6 @@
 				"NW2A3"
 			],
 			[
-				"NW2END_S0_0",
-				"NW2BEG0"
-			],
-			[
-				"NW6A0",
-				"NW6BEG0"
-			],
-			[
-				"NW6A1",
-				"NW6BEG1"
-			],
-			[
-				"NW6A2",
-				"NW6BEG2"
-			],
-			[
-				"NW6A3",
-				"NW6BEG3"
-			],
-			[
-				"NW6END0",
-				"NW6E0"
-			],
-			[
 				"NW6END1",
 				"NW6E1"
 			],
@@ -8588,10 +9188,6 @@
 			[
 				"NW6END3",
 				"NW6E3"
-			],
-			[
-				"NW6END_S0_0",
-				"NW6D0"
 			],
 			[
 				"SE2A0",
@@ -8608,22 +9204,6 @@
 			[
 				"SE2A3",
 				"SE2END3"
-			],
-			[
-				"SE6BEG0",
-				"SE6A0"
-			],
-			[
-				"SE6BEG1",
-				"SE6A1"
-			],
-			[
-				"SE6BEG2",
-				"SE6A2"
-			],
-			[
-				"SE6BEG3",
-				"SE6A3"
 			],
 			[
 				"SE6E0",
@@ -8658,26 +9238,6 @@
 				"SW2A3"
 			],
 			[
-				"SW2END_N0_3",
-				"SW2BEG3"
-			],
-			[
-				"SW6A0",
-				"SW6BEG0"
-			],
-			[
-				"SW6A1",
-				"SW6BEG1"
-			],
-			[
-				"SW6A2",
-				"SW6BEG2"
-			],
-			[
-				"SW6A3",
-				"SW6BEG3"
-			],
-			[
 				"SW6END0",
 				"SW6E0"
 			],
@@ -8694,10 +9254,6 @@
 				"SW6E3"
 			],
 			[
-				"SW6END_N0_3",
-				"SW6D3"
-			],
-			[
 				"WL1END0",
 				"WL1BEG0"
 			],
@@ -8710,18 +9266,6 @@
 				"WL1BEG2"
 			],
 			[
-				"WL1END3",
-				"WL1BEG3"
-			],
-			[
-				"WL1END_N1_3",
-				"WL1BEG_N3"
-			],
-			[
-				"WR1END0",
-				"WR1BEG0"
-			],
-			[
 				"WR1END1",
 				"WR1BEG1"
 			],
@@ -8732,10 +9276,6 @@
 			[
 				"WR1END3",
 				"WR1BEG3"
-			],
-			[
-				"WR1END_S1_0",
-				"WR1BEG_S0"
 			],
 			[
 				"WW2A0",
@@ -8862,36 +9402,12 @@
 				"B_TERM_UTURN_INT_FAN_BOUNCE0"
 			],
 			[
-				"EL1BEG_N3",
-				"B_TERM_UTURN_INT_ER1BEG0"
-			],
-			[
-				"EL1END0",
-				"B_TERM_UTURN_INT_ER1END_N3_3"
-			],
-			[
 				"ER1BEG0",
 				"B_TERM_UTURN_INT_ER1BEG0"
 			],
 			[
 				"ER1END_N3_3",
 				"B_TERM_UTURN_INT_ER1END_N3_3"
-			],
-			[
-				"FAN_BOUNCE0",
-				"B_TERM_UTURN_INT_FAN_BOUNCE0"
-			],
-			[
-				"FAN_BOUNCE2",
-				"B_TERM_UTURN_INT_FAN_BOUNCE2"
-			],
-			[
-				"FAN_BOUNCE4",
-				"B_TERM_UTURN_INT_FAN_BOUNCE4"
-			],
-			[
-				"FAN_BOUNCE6",
-				"B_TERM_UTURN_INT_FAN_BOUNCE6"
 			],
 			[
 				"LV1",
@@ -8930,42 +9446,6 @@
 				"B_TERM_UTURN_INT_LV2"
 			],
 			[
-				"LV18",
-				"B_TERM_UTURN_INT_LV18"
-			],
-			[
-				"LV2",
-				"B_TERM_UTURN_INT_LV2"
-			],
-			[
-				"LV3",
-				"B_TERM_UTURN_INT_LV3"
-			],
-			[
-				"LV4",
-				"B_TERM_UTURN_INT_LV4"
-			],
-			[
-				"LV5",
-				"B_TERM_UTURN_INT_LV5"
-			],
-			[
-				"LV6",
-				"B_TERM_UTURN_INT_LV6"
-			],
-			[
-				"LV7",
-				"B_TERM_UTURN_INT_LV7"
-			],
-			[
-				"LV8",
-				"B_TERM_UTURN_INT_LV8"
-			],
-			[
-				"LV9",
-				"B_TERM_UTURN_INT_LV9"
-			],
-			[
 				"LVB1",
 				"B_TERM_UTURN_INT_LVB0"
 			],
@@ -8976,30 +9456,6 @@
 			[
 				"LVB11",
 				"B_TERM_UTURN_INT_LVB1"
-			],
-			[
-				"LVB12",
-				"B_TERM_UTURN_INT_LVB0"
-			],
-			[
-				"LVB2",
-				"B_TERM_UTURN_INT_LVB1"
-			],
-			[
-				"LVB3",
-				"B_TERM_UTURN_INT_LVB2"
-			],
-			[
-				"LVB4",
-				"B_TERM_UTURN_INT_LVB3"
-			],
-			[
-				"LVB5",
-				"B_TERM_UTURN_INT_LVB4"
-			],
-			[
-				"LVB6",
-				"B_TERM_UTURN_INT_LVB5"
 			],
 			[
 				"LVB7",
@@ -9122,26 +9578,6 @@
 				"B_TERM_UTURN_INT_SS2BEG0"
 			],
 			[
-				"NN2END0",
-				"B_TERM_UTURN_INT_SS2A3"
-			],
-			[
-				"NN2END1",
-				"B_TERM_UTURN_INT_SS2A2"
-			],
-			[
-				"NN2END2",
-				"B_TERM_UTURN_INT_SS2A1"
-			],
-			[
-				"NN2END3",
-				"B_TERM_UTURN_INT_SS2A0"
-			],
-			[
-				"NN2END_S2_0",
-				"B_TERM_UTURN_INT_SS2BEG3"
-			],
-			[
 				"NN6A0",
 				"B_TERM_UTURN_INT_SS6BEG3"
 			],
@@ -9220,26 +9656,6 @@
 			[
 				"NN6E3",
 				"B_TERM_UTURN_INT_SS6D0"
-			],
-			[
-				"NN6END0",
-				"B_TERM_UTURN_INT_SS6E3"
-			],
-			[
-				"NN6END1",
-				"B_TERM_UTURN_INT_SS6E2"
-			],
-			[
-				"NN6END2",
-				"B_TERM_UTURN_INT_SS6E1"
-			],
-			[
-				"NN6END3",
-				"B_TERM_UTURN_INT_SS6E0"
-			],
-			[
-				"NN6END_S1_0",
-				"B_TERM_UTURN_INT_SS6D3"
 			],
 			[
 				"NR1END0",
@@ -9338,118 +9754,6 @@
 				"B_TERM_UTURN_INT_SW6D0"
 			],
 			[
-				"NW6END0",
-				"B_TERM_UTURN_INT_SW6END_N0_3"
-			],
-			[
-				"SE2BEG0",
-				"B_TERM_UTURN_INT_SE2BEG0"
-			],
-			[
-				"SE2BEG1",
-				"B_TERM_UTURN_INT_SE2BEG1"
-			],
-			[
-				"SE2BEG2",
-				"B_TERM_UTURN_INT_SE2BEG2"
-			],
-			[
-				"SE2BEG3",
-				"B_TERM_UTURN_INT_SE2BEG3"
-			],
-			[
-				"SE6A0",
-				"B_TERM_UTURN_INT_SE6A0"
-			],
-			[
-				"SE6A1",
-				"B_TERM_UTURN_INT_SE6A1"
-			],
-			[
-				"SE6A2",
-				"B_TERM_UTURN_INT_SE6A2"
-			],
-			[
-				"SE6A3",
-				"B_TERM_UTURN_INT_SE6A3"
-			],
-			[
-				"SE6B0",
-				"B_TERM_UTURN_INT_SE6B0"
-			],
-			[
-				"SE6B1",
-				"B_TERM_UTURN_INT_SE6B1"
-			],
-			[
-				"SE6B2",
-				"B_TERM_UTURN_INT_SE6B2"
-			],
-			[
-				"SE6B3",
-				"B_TERM_UTURN_INT_SE6B3"
-			],
-			[
-				"SE6C0",
-				"B_TERM_UTURN_INT_SE6C0"
-			],
-			[
-				"SE6C1",
-				"B_TERM_UTURN_INT_SE6C1"
-			],
-			[
-				"SE6C2",
-				"B_TERM_UTURN_INT_SE6C2"
-			],
-			[
-				"SE6C3",
-				"B_TERM_UTURN_INT_SE6C3"
-			],
-			[
-				"SE6D0",
-				"B_TERM_UTURN_INT_SE6D0"
-			],
-			[
-				"SE6D1",
-				"B_TERM_UTURN_INT_SE6D1"
-			],
-			[
-				"SE6D2",
-				"B_TERM_UTURN_INT_SE6D2"
-			],
-			[
-				"SE6D3",
-				"B_TERM_UTURN_INT_SE6D3"
-			],
-			[
-				"SL1BEG0",
-				"B_TERM_UTURN_INT_SL1BEG0"
-			],
-			[
-				"SL1BEG1",
-				"B_TERM_UTURN_INT_SL1BEG1"
-			],
-			[
-				"SL1BEG2",
-				"B_TERM_UTURN_INT_SL1BEG2"
-			],
-			[
-				"SL1BEG3",
-				"B_TERM_UTURN_INT_SL1BEG3"
-			],
-			[
-				"SR1BEG1",
-				"B_TERM_UTURN_INT_SR1BEG1"
-			],
-			[
-				"SR1BEG2",
-				"B_TERM_UTURN_INT_SR1BEG2"
-			],
-			[
-				"SR1BEG3",
-				"B_TERM_UTURN_INT_SR1BEG3"
-			],
-			[
 				"SS2A0",
 				"B_TERM_UTURN_INT_SS2A0"
 			],
@@ -9464,102 +9768,6 @@
 			[
 				"SS2A3",
 				"B_TERM_UTURN_INT_SS2A3"
-			],
-			[
-				"SS2BEG0",
-				"B_TERM_UTURN_INT_SS2BEG0"
-			],
-			[
-				"SS2BEG1",
-				"B_TERM_UTURN_INT_SS2BEG1"
-			],
-			[
-				"SS2BEG2",
-				"B_TERM_UTURN_INT_SS2BEG2"
-			],
-			[
-				"SS2BEG3",
-				"B_TERM_UTURN_INT_SS2BEG3"
-			],
-			[
-				"SS6A0",
-				"B_TERM_UTURN_INT_SS6A0"
-			],
-			[
-				"SS6A1",
-				"B_TERM_UTURN_INT_SS6A1"
-			],
-			[
-				"SS6A2",
-				"B_TERM_UTURN_INT_SS6A2"
-			],
-			[
-				"SS6A3",
-				"B_TERM_UTURN_INT_SS6A3"
-			],
-			[
-				"SS6B0",
-				"B_TERM_UTURN_INT_SS6B0"
-			],
-			[
-				"SS6B1",
-				"B_TERM_UTURN_INT_SS6B1"
-			],
-			[
-				"SS6B2",
-				"B_TERM_UTURN_INT_SS6B2"
-			],
-			[
-				"SS6B3",
-				"B_TERM_UTURN_INT_SS6B3"
-			],
-			[
-				"SS6BEG0",
-				"B_TERM_UTURN_INT_SS6BEG0"
-			],
-			[
-				"SS6BEG1",
-				"B_TERM_UTURN_INT_SS6BEG1"
-			],
-			[
-				"SS6BEG2",
-				"B_TERM_UTURN_INT_SS6BEG2"
-			],
-			[
-				"SS6BEG3",
-				"B_TERM_UTURN_INT_SS6BEG3"
-			],
-			[
-				"SS6C0",
-				"B_TERM_UTURN_INT_SS6C0"
-			],
-			[
-				"SS6C1",
-				"B_TERM_UTURN_INT_SS6C1"
-			],
-			[
-				"SS6C2",
-				"B_TERM_UTURN_INT_SS6C2"
-			],
-			[
-				"SS6C3",
-				"B_TERM_UTURN_INT_SS6C3"
-			],
-			[
-				"SS6D0",
-				"B_TERM_UTURN_INT_SS6D0"
-			],
-			[
-				"SS6D1",
-				"B_TERM_UTURN_INT_SS6D1"
-			],
-			[
-				"SS6D2",
-				"B_TERM_UTURN_INT_SS6D2"
-			],
-			[
-				"SS6D3",
-				"B_TERM_UTURN_INT_SS6D3"
 			],
 			[
 				"SS6E0",
@@ -9578,92 +9786,8 @@
 				"B_TERM_UTURN_INT_SS6E3"
 			],
 			[
-				"SW2BEG0",
-				"B_TERM_UTURN_INT_SW2BEG0"
-			],
-			[
-				"SW2BEG1",
-				"B_TERM_UTURN_INT_SW2BEG1"
-			],
-			[
-				"SW2BEG2",
-				"B_TERM_UTURN_INT_SW2BEG2"
-			],
-			[
-				"SW2BEG3",
-				"B_TERM_UTURN_INT_SW2BEG3"
-			],
-			[
-				"SW6A0",
-				"B_TERM_UTURN_INT_SW6A0"
-			],
-			[
-				"SW6A1",
-				"B_TERM_UTURN_INT_SW6A1"
-			],
-			[
-				"SW6A2",
-				"B_TERM_UTURN_INT_SW6A2"
-			],
-			[
-				"SW6A3",
-				"B_TERM_UTURN_INT_SW6A3"
-			],
-			[
-				"SW6B0",
-				"B_TERM_UTURN_INT_SW6B0"
-			],
-			[
-				"SW6B1",
-				"B_TERM_UTURN_INT_SW6B1"
-			],
-			[
-				"SW6B2",
-				"B_TERM_UTURN_INT_SW6B2"
-			],
-			[
-				"SW6B3",
-				"B_TERM_UTURN_INT_SW6B3"
-			],
-			[
-				"SW6C0",
-				"B_TERM_UTURN_INT_SW6C0"
-			],
-			[
-				"SW6C1",
-				"B_TERM_UTURN_INT_SW6C1"
-			],
-			[
-				"SW6C2",
-				"B_TERM_UTURN_INT_SW6C2"
-			],
-			[
-				"SW6C3",
-				"B_TERM_UTURN_INT_SW6C3"
-			],
-			[
-				"SW6D0",
-				"B_TERM_UTURN_INT_SW6D0"
-			],
-			[
-				"SW6D1",
-				"B_TERM_UTURN_INT_SW6D1"
-			],
-			[
-				"SW6D2",
-				"B_TERM_UTURN_INT_SW6D2"
-			],
-			[
-				"SW6D3",
-				"B_TERM_UTURN_INT_SW6D3"
-			],
-			[
 				"SW6END_N0_3",
 				"B_TERM_UTURN_INT_SW6END_N0_3"
-			],
-			[
-				"WL1BEG_N3",
-				"B_TERM_UTURN_INT_WR1BEG0"
 			],
 			[
 				"WL1END_N1_3",
@@ -9672,10 +9796,6 @@
 			[
 				"WR1BEG0",
 				"B_TERM_UTURN_INT_WR1BEG0"
-			],
-			[
-				"WR1END0",
-				"B_TERM_UTURN_INT_WR1END0"
 			]
 		]
 	},
@@ -9943,10 +10063,6 @@
 			],
 			[
 				"NL1END0",
-				"BRKH_INT_NL1BEG0_SLOW"
-			],
-			[
-				"NL1END0",
 				"BRKH_INT_NL1END_S3_0"
 			],
 			[
@@ -9975,10 +10091,6 @@
 			],
 			[
 				"NN2END0",
-				"BRKH_INT_NN2A0"
-			],
-			[
-				"NN2END0",
 				"BRKH_INT_NN2END_S2_0"
 			],
 			[
@@ -9992,10 +10104,6 @@
 			[
 				"NN2END3",
 				"BRKH_INT_NN2A3"
-			],
-			[
-				"NN2END_S2_0",
-				"BRKH_INT_NN2BEG0"
 			],
 			[
 				"NN6A0",
@@ -10079,10 +10187,6 @@
 			],
 			[
 				"NN6END0",
-				"BRKH_INT_NN6E0"
-			],
-			[
-				"NN6END0",
 				"BRKH_INT_NN6END_S1_0"
 			],
 			[
@@ -10096,10 +10200,6 @@
 			[
 				"NN6END3",
 				"BRKH_INT_NN6E3"
-			],
-			[
-				"NN6END_S1_0",
-				"BRKH_INT_NN6D0"
 			],
 			[
 				"NR1END0",
@@ -10315,10 +10415,6 @@
 			],
 			[
 				"SR1END_N3_3",
-				"BRKH_INT_SR1END3"
-			],
-			[
-				"SR1END_N3_3",
 				"BRKH_INT_SR1END_N3_3"
 			],
 			[
@@ -10332,10 +10428,6 @@
 			[
 				"SS2A2",
 				"BRKH_INT_SS2END2"
-			],
-			[
-				"SS2A3",
-				"BRKH_INT_SS2END3"
 			],
 			[
 				"SS2A3",
@@ -10356,14 +10448,6 @@
 			[
 				"SS2BEG3",
 				"BRKH_INT_SS2A3"
-			],
-			[
-				"SS2END_N0_3",
-				"BRKH_INT_SS2END3"
-			],
-			[
-				"SS2END_N0_3",
-				"BRKH_INT_SS2END_N0_3"
 			],
 			[
 				"SS6A0",
@@ -10459,18 +10543,6 @@
 			],
 			[
 				"SS6E3",
-				"BRKH_INT_SS6END3"
-			],
-			[
-				"SS6E3",
-				"BRKH_INT_SS6END_N0_3"
-			],
-			[
-				"SS6END_N0_3",
-				"BRKH_INT_SS6END3"
-			],
-			[
-				"SS6END_N0_3",
 				"BRKH_INT_SS6END_N0_3"
 			],
 			[
@@ -11206,26 +11278,6 @@
 				"CLBLL_NW2A3"
 			],
 			[
-				"NW6A0",
-				"CLBLL_NW4A0"
-			],
-			[
-				"NW6A1",
-				"CLBLL_NW4A1"
-			],
-			[
-				"NW6A2",
-				"CLBLL_NW4A2"
-			],
-			[
-				"NW6A3",
-				"CLBLL_NW4A3"
-			],
-			[
-				"NW6END0",
-				"CLBLL_NW4END0"
-			],
-			[
 				"NW6END1",
 				"CLBLL_NW4END1"
 			],
@@ -11302,22 +11354,6 @@
 				"CLBLL_SW2A3"
 			],
 			[
-				"SW6A0",
-				"CLBLL_SW4A0"
-			],
-			[
-				"SW6A1",
-				"CLBLL_SW4A1"
-			],
-			[
-				"SW6A2",
-				"CLBLL_SW4A2"
-			],
-			[
-				"SW6A3",
-				"CLBLL_SW4A3"
-			],
-			[
 				"SW6END0",
 				"CLBLL_SW4END0"
 			],
@@ -11344,14 +11380,6 @@
 			[
 				"WL1END2",
 				"CLBLL_WL1END2"
-			],
-			[
-				"WL1END3",
-				"CLBLL_WL1END3"
-			],
-			[
-				"WR1END0",
-				"CLBLL_WR1END0"
 			],
 			[
 				"WR1END1",
@@ -12082,22 +12110,6 @@
 				"CLBLM_NW2A3"
 			],
 			[
-				"NW6A0",
-				"CLBLM_NW4A0"
-			],
-			[
-				"NW6A1",
-				"CLBLM_NW4A1"
-			],
-			[
-				"NW6A2",
-				"CLBLM_NW4A2"
-			],
-			[
-				"NW6A3",
-				"CLBLM_NW4A3"
-			],
-			[
 				"NW6END0",
 				"CLBLM_NW4END0"
 			],
@@ -12222,10 +12234,6 @@
 				"CLBLM_WL1END2"
 			],
 			[
-				"WL1END3",
-				"CLBLM_WL1END3"
-			],
-			[
 				"WR1END0",
 				"CLBLM_WR1END0"
 			],
@@ -12346,6 +12354,886 @@
 		],
 		"tile_types": [
 			"INT_R",
+			"HCLK_R"
+		],
+		"wire_pairs": [
+			[
+				"BYP_BOUNCE_N3_2",
+				"HCLK_BYP_BOUNCE2"
+			],
+			[
+				"BYP_BOUNCE_N3_3",
+				"HCLK_BYP_BOUNCE3"
+			],
+			[
+				"BYP_BOUNCE_N3_6",
+				"HCLK_BYP_BOUNCE6"
+			],
+			[
+				"BYP_BOUNCE_N3_7",
+				"HCLK_BYP_BOUNCE7"
+			],
+			[
+				"EL1BEG_N3",
+				"HCLK_EL1BEG3"
+			],
+			[
+				"EL1END0",
+				"HCLK_EL1END_S3_0"
+			],
+			[
+				"ER1BEG0",
+				"HCLK_ER1BEG_S0"
+			],
+			[
+				"ER1END_N3_3",
+				"HCLK_ER1END3"
+			],
+			[
+				"FAN_BOUNCE0",
+				"HCLK_FAN_BOUNCE_S3_0"
+			],
+			[
+				"FAN_BOUNCE2",
+				"HCLK_FAN_BOUNCE_S3_2"
+			],
+			[
+				"FAN_BOUNCE4",
+				"HCLK_FAN_BOUNCE_S3_4"
+			],
+			[
+				"FAN_BOUNCE6",
+				"HCLK_FAN_BOUNCE_S3_6"
+			],
+			[
+				"GCLK_B0",
+				"HCLK_LEAF_CLK_B_TOP0"
+			],
+			[
+				"GCLK_B1",
+				"HCLK_LEAF_CLK_B_TOP1"
+			],
+			[
+				"GCLK_B2",
+				"HCLK_LEAF_CLK_B_TOP2"
+			],
+			[
+				"GCLK_B3",
+				"HCLK_LEAF_CLK_B_TOP3"
+			],
+			[
+				"GCLK_B4",
+				"HCLK_LEAF_CLK_B_TOP4"
+			],
+			[
+				"GCLK_B5",
+				"HCLK_LEAF_CLK_B_TOP5"
+			],
+			[
+				"LV1",
+				"HCLK_LV0"
+			],
+			[
+				"LV10",
+				"HCLK_LV9"
+			],
+			[
+				"LV11",
+				"HCLK_LV10"
+			],
+			[
+				"LV12",
+				"HCLK_LV11"
+			],
+			[
+				"LV13",
+				"HCLK_LV12"
+			],
+			[
+				"LV14",
+				"HCLK_LV13"
+			],
+			[
+				"LV15",
+				"HCLK_LV14"
+			],
+			[
+				"LV16",
+				"HCLK_LV15"
+			],
+			[
+				"LV17",
+				"HCLK_LV16"
+			],
+			[
+				"LV18",
+				"HCLK_LV17"
+			],
+			[
+				"LV2",
+				"HCLK_LV1"
+			],
+			[
+				"LV3",
+				"HCLK_LV2"
+			],
+			[
+				"LV4",
+				"HCLK_LV3"
+			],
+			[
+				"LV5",
+				"HCLK_LV4"
+			],
+			[
+				"LV6",
+				"HCLK_LV5"
+			],
+			[
+				"LV7",
+				"HCLK_LV6"
+			],
+			[
+				"LV8",
+				"HCLK_LV7"
+			],
+			[
+				"LV9",
+				"HCLK_LV8"
+			],
+			[
+				"LVB1",
+				"HCLK_LVB1"
+			],
+			[
+				"LVB10",
+				"HCLK_LVB10"
+			],
+			[
+				"LVB11",
+				"HCLK_LVB11"
+			],
+			[
+				"LVB12",
+				"HCLK_LVB12"
+			],
+			[
+				"LVB2",
+				"HCLK_LVB2"
+			],
+			[
+				"LVB3",
+				"HCLK_LVB3"
+			],
+			[
+				"LVB4",
+				"HCLK_LVB4"
+			],
+			[
+				"LVB5",
+				"HCLK_LVB5"
+			],
+			[
+				"LVB6",
+				"HCLK_LVB6"
+			],
+			[
+				"LVB7",
+				"HCLK_LVB7"
+			],
+			[
+				"LVB8",
+				"HCLK_LVB8"
+			],
+			[
+				"LVB9",
+				"HCLK_LVB9"
+			],
+			[
+				"NE2A0",
+				"HCLK_NE2BEG0"
+			],
+			[
+				"NE2A1",
+				"HCLK_NE2BEG1"
+			],
+			[
+				"NE2A2",
+				"HCLK_NE2BEG2"
+			],
+			[
+				"NE2A3",
+				"HCLK_NE2BEG3"
+			],
+			[
+				"NE2END0",
+				"HCLK_NE2END_S3_0"
+			],
+			[
+				"NE6B0",
+				"HCLK_NE6A0"
+			],
+			[
+				"NE6B1",
+				"HCLK_NE6A1"
+			],
+			[
+				"NE6B2",
+				"HCLK_NE6A2"
+			],
+			[
+				"NE6B3",
+				"HCLK_NE6A3"
+			],
+			[
+				"NE6C0",
+				"HCLK_NE6B0"
+			],
+			[
+				"NE6C1",
+				"HCLK_NE6B1"
+			],
+			[
+				"NE6C2",
+				"HCLK_NE6B2"
+			],
+			[
+				"NE6C3",
+				"HCLK_NE6B3"
+			],
+			[
+				"NE6D0",
+				"HCLK_NE6C0"
+			],
+			[
+				"NE6D1",
+				"HCLK_NE6C1"
+			],
+			[
+				"NE6D2",
+				"HCLK_NE6C2"
+			],
+			[
+				"NE6D3",
+				"HCLK_NE6C3"
+			],
+			[
+				"NE6E0",
+				"HCLK_NE6D0"
+			],
+			[
+				"NE6E1",
+				"HCLK_NE6D1"
+			],
+			[
+				"NE6E2",
+				"HCLK_NE6D2"
+			],
+			[
+				"NE6E3",
+				"HCLK_NE6D3"
+			],
+			[
+				"NL1END0",
+				"HCLK_NL1END_S3_0"
+			],
+			[
+				"NL1END1",
+				"HCLK_NL1BEG1"
+			],
+			[
+				"NL1END2",
+				"HCLK_NL1BEG2"
+			],
+			[
+				"NN2A0",
+				"HCLK_NN2BEG0"
+			],
+			[
+				"NN2A1",
+				"HCLK_NN2BEG1"
+			],
+			[
+				"NN2A2",
+				"HCLK_NN2BEG2"
+			],
+			[
+				"NN2A3",
+				"HCLK_NN2BEG3"
+			],
+			[
+				"NN2END0",
+				"HCLK_NN2END_S2_0"
+			],
+			[
+				"NN2END1",
+				"HCLK_NN2A1"
+			],
+			[
+				"NN2END2",
+				"HCLK_NN2A2"
+			],
+			[
+				"NN2END3",
+				"HCLK_NN2A3"
+			],
+			[
+				"NN6A0",
+				"HCLK_NN6BEG0"
+			],
+			[
+				"NN6A1",
+				"HCLK_NN6BEG1"
+			],
+			[
+				"NN6A2",
+				"HCLK_NN6BEG2"
+			],
+			[
+				"NN6A3",
+				"HCLK_NN6BEG3"
+			],
+			[
+				"NN6B0",
+				"HCLK_NN6A0"
+			],
+			[
+				"NN6B1",
+				"HCLK_NN6A1"
+			],
+			[
+				"NN6B2",
+				"HCLK_NN6A2"
+			],
+			[
+				"NN6B3",
+				"HCLK_NN6A3"
+			],
+			[
+				"NN6C0",
+				"HCLK_NN6B0"
+			],
+			[
+				"NN6C1",
+				"HCLK_NN6B1"
+			],
+			[
+				"NN6C2",
+				"HCLK_NN6B2"
+			],
+			[
+				"NN6C3",
+				"HCLK_NN6B3"
+			],
+			[
+				"NN6D0",
+				"HCLK_NN6C0"
+			],
+			[
+				"NN6D1",
+				"HCLK_NN6C1"
+			],
+			[
+				"NN6D2",
+				"HCLK_NN6C2"
+			],
+			[
+				"NN6D3",
+				"HCLK_NN6C3"
+			],
+			[
+				"NN6E0",
+				"HCLK_NN6D0"
+			],
+			[
+				"NN6E1",
+				"HCLK_NN6D1"
+			],
+			[
+				"NN6E2",
+				"HCLK_NN6D2"
+			],
+			[
+				"NN6E3",
+				"HCLK_NN6D3"
+			],
+			[
+				"NN6END0",
+				"HCLK_NN6END_S1_0"
+			],
+			[
+				"NN6END1",
+				"HCLK_NN6E1"
+			],
+			[
+				"NN6END2",
+				"HCLK_NN6E2"
+			],
+			[
+				"NN6END3",
+				"HCLK_NN6E3"
+			],
+			[
+				"NR1END0",
+				"HCLK_NR1BEG0"
+			],
+			[
+				"NR1END1",
+				"HCLK_NR1BEG1"
+			],
+			[
+				"NR1END2",
+				"HCLK_NR1BEG2"
+			],
+			[
+				"NR1END3",
+				"HCLK_NR1BEG3"
+			],
+			[
+				"NW2A0",
+				"HCLK_NW2A0"
+			],
+			[
+				"NW2A1",
+				"HCLK_NW2A1"
+			],
+			[
+				"NW2A2",
+				"HCLK_NW2A2"
+			],
+			[
+				"NW2A3",
+				"HCLK_NW2A3"
+			],
+			[
+				"NW2END0",
+				"HCLK_NW2END_S0_0"
+			],
+			[
+				"NW6B0",
+				"HCLK_NW6A0"
+			],
+			[
+				"NW6B1",
+				"HCLK_NW6A1"
+			],
+			[
+				"NW6B2",
+				"HCLK_NW6A2"
+			],
+			[
+				"NW6B3",
+				"HCLK_NW6A3"
+			],
+			[
+				"NW6C0",
+				"HCLK_NW6B0"
+			],
+			[
+				"NW6C1",
+				"HCLK_NW6B1"
+			],
+			[
+				"NW6C2",
+				"HCLK_NW6B2"
+			],
+			[
+				"NW6C3",
+				"HCLK_NW6B3"
+			],
+			[
+				"NW6D0",
+				"HCLK_NW6C0"
+			],
+			[
+				"NW6D1",
+				"HCLK_NW6C1"
+			],
+			[
+				"NW6D2",
+				"HCLK_NW6C2"
+			],
+			[
+				"NW6D3",
+				"HCLK_NW6C3"
+			],
+			[
+				"NW6E0",
+				"HCLK_NW6D0"
+			],
+			[
+				"NW6E1",
+				"HCLK_NW6D1"
+			],
+			[
+				"NW6E2",
+				"HCLK_NW6D2"
+			],
+			[
+				"NW6E3",
+				"HCLK_NW6D3"
+			],
+			[
+				"NW6END0",
+				"HCLK_NW6END_S0_0"
+			],
+			[
+				"SE2BEG0",
+				"HCLK_SE2A0"
+			],
+			[
+				"SE2BEG1",
+				"HCLK_SE2A1"
+			],
+			[
+				"SE2BEG2",
+				"HCLK_SE2A2"
+			],
+			[
+				"SE2BEG3",
+				"HCLK_SE2A3"
+			],
+			[
+				"SE6A0",
+				"HCLK_SE6B0"
+			],
+			[
+				"SE6A1",
+				"HCLK_SE6B1"
+			],
+			[
+				"SE6A2",
+				"HCLK_SE6B2"
+			],
+			[
+				"SE6A3",
+				"HCLK_SE6B3"
+			],
+			[
+				"SE6B0",
+				"HCLK_SE6C0"
+			],
+			[
+				"SE6B1",
+				"HCLK_SE6C1"
+			],
+			[
+				"SE6B2",
+				"HCLK_SE6C2"
+			],
+			[
+				"SE6B3",
+				"HCLK_SE6C3"
+			],
+			[
+				"SE6C0",
+				"HCLK_SE6D0"
+			],
+			[
+				"SE6C1",
+				"HCLK_SE6D1"
+			],
+			[
+				"SE6C2",
+				"HCLK_SE6D2"
+			],
+			[
+				"SE6C3",
+				"HCLK_SE6D3"
+			],
+			[
+				"SE6D0",
+				"HCLK_SE6E0"
+			],
+			[
+				"SE6D1",
+				"HCLK_SE6E1"
+			],
+			[
+				"SE6D2",
+				"HCLK_SE6E2"
+			],
+			[
+				"SE6D3",
+				"HCLK_SE6E3"
+			],
+			[
+				"SL1BEG0",
+				"HCLK_SL1END0"
+			],
+			[
+				"SL1BEG1",
+				"HCLK_SL1END1"
+			],
+			[
+				"SL1BEG2",
+				"HCLK_SL1END2"
+			],
+			[
+				"SL1BEG3",
+				"HCLK_SL1END3"
+			],
+			[
+				"SR1BEG1",
+				"HCLK_SR1END1"
+			],
+			[
+				"SR1BEG2",
+				"HCLK_SR1END2"
+			],
+			[
+				"SR1END_N3_3",
+				"HCLK_SR1END_N3_3"
+			],
+			[
+				"SS2A0",
+				"HCLK_SS2END0"
+			],
+			[
+				"SS2A1",
+				"HCLK_SS2END1"
+			],
+			[
+				"SS2A2",
+				"HCLK_SS2END2"
+			],
+			[
+				"SS2A3",
+				"HCLK_SS2END_N0_3"
+			],
+			[
+				"SS2BEG0",
+				"HCLK_SS2A0"
+			],
+			[
+				"SS2BEG1",
+				"HCLK_SS2A1"
+			],
+			[
+				"SS2BEG2",
+				"HCLK_SS2A2"
+			],
+			[
+				"SS2BEG3",
+				"HCLK_SS2BEG3"
+			],
+			[
+				"SS6A0",
+				"HCLK_SS6B0"
+			],
+			[
+				"SS6A1",
+				"HCLK_SS6B1"
+			],
+			[
+				"SS6A2",
+				"HCLK_SS6B2"
+			],
+			[
+				"SS6A3",
+				"HCLK_SS6B3"
+			],
+			[
+				"SS6B0",
+				"HCLK_SS6C0"
+			],
+			[
+				"SS6B1",
+				"HCLK_SS6C1"
+			],
+			[
+				"SS6B2",
+				"HCLK_SS6C2"
+			],
+			[
+				"SS6B3",
+				"HCLK_SS6C3"
+			],
+			[
+				"SS6BEG0",
+				"HCLK_SS6A0"
+			],
+			[
+				"SS6BEG1",
+				"HCLK_SS6A1"
+			],
+			[
+				"SS6BEG2",
+				"HCLK_SS6A2"
+			],
+			[
+				"SS6BEG3",
+				"HCLK_SS6A3"
+			],
+			[
+				"SS6C0",
+				"HCLK_SS6D0"
+			],
+			[
+				"SS6C1",
+				"HCLK_SS6D1"
+			],
+			[
+				"SS6C2",
+				"HCLK_SS6D2"
+			],
+			[
+				"SS6C3",
+				"HCLK_SS6D3"
+			],
+			[
+				"SS6D0",
+				"HCLK_SS6E0"
+			],
+			[
+				"SS6D1",
+				"HCLK_SS6E1"
+			],
+			[
+				"SS6D2",
+				"HCLK_SS6E2"
+			],
+			[
+				"SS6D3",
+				"HCLK_SS6E3"
+			],
+			[
+				"SS6E0",
+				"HCLK_SS6END0"
+			],
+			[
+				"SS6E1",
+				"HCLK_SS6END1"
+			],
+			[
+				"SS6E2",
+				"HCLK_SS6END2"
+			],
+			[
+				"SS6E3",
+				"HCLK_SS6END_N0_3"
+			],
+			[
+				"SW2BEG0",
+				"HCLK_SW2END0"
+			],
+			[
+				"SW2BEG1",
+				"HCLK_SW2END1"
+			],
+			[
+				"SW2BEG2",
+				"HCLK_SW2END2"
+			],
+			[
+				"SW2BEG3",
+				"HCLK_SW2A3"
+			],
+			[
+				"SW2END_N0_3",
+				"HCLK_SW2END_N0_3"
+			],
+			[
+				"SW6A0",
+				"HCLK_SW6B0"
+			],
+			[
+				"SW6A1",
+				"HCLK_SW6B1"
+			],
+			[
+				"SW6A2",
+				"HCLK_SW6B2"
+			],
+			[
+				"SW6A3",
+				"HCLK_SW6B3"
+			],
+			[
+				"SW6B0",
+				"HCLK_SW6C0"
+			],
+			[
+				"SW6B1",
+				"HCLK_SW6C1"
+			],
+			[
+				"SW6B2",
+				"HCLK_SW6C2"
+			],
+			[
+				"SW6B3",
+				"HCLK_SW6C3"
+			],
+			[
+				"SW6C0",
+				"HCLK_SW6D0"
+			],
+			[
+				"SW6C1",
+				"HCLK_SW6D1"
+			],
+			[
+				"SW6C2",
+				"HCLK_SW6D2"
+			],
+			[
+				"SW6C3",
+				"HCLK_SW6D3"
+			],
+			[
+				"SW6D0",
+				"HCLK_SW6E0"
+			],
+			[
+				"SW6D1",
+				"HCLK_SW6E1"
+			],
+			[
+				"SW6D2",
+				"HCLK_SW6E2"
+			],
+			[
+				"SW6D3",
+				"HCLK_SW6E3"
+			],
+			[
+				"SW6END_N0_3",
+				"HCLK_SW6END3"
+			],
+			[
+				"WL1BEG_N3",
+				"HCLK_WL1BEG3"
+			],
+			[
+				"WL1END_N1_3",
+				"HCLK_WL1END3"
+			],
+			[
+				"WR1BEG0",
+				"HCLK_WR1BEG_S0"
+			],
+			[
+				"WR1END0",
+				"HCLK_WR1END_S1_0"
+			],
+			[
+				"WW2END_N0_3",
+				"HCLK_WW2END3"
+			],
+			[
+				"WW4END0",
+				"HCLK_WW4END_S0_0"
+			]
+		]
+	},
+	{
+		"grid_deltas": [
+			0,
+			1
+		],
+		"tile_types": [
+			"INT_R",
 			"INT_R"
 		],
 		"wire_pairs": [
@@ -12422,126 +13310,6 @@
 				"GCLK_B5"
 			],
 			[
-				"LV1",
-				"LV0"
-			],
-			[
-				"LV10",
-				"LV9"
-			],
-			[
-				"LV11",
-				"LV10"
-			],
-			[
-				"LV12",
-				"LV11"
-			],
-			[
-				"LV13",
-				"LV12"
-			],
-			[
-				"LV14",
-				"LV13"
-			],
-			[
-				"LV15",
-				"LV14"
-			],
-			[
-				"LV16",
-				"LV15"
-			],
-			[
-				"LV17",
-				"LV16"
-			],
-			[
-				"LV18",
-				"LV17"
-			],
-			[
-				"LV2",
-				"LV1"
-			],
-			[
-				"LV3",
-				"LV2"
-			],
-			[
-				"LV4",
-				"LV3"
-			],
-			[
-				"LV5",
-				"LV4"
-			],
-			[
-				"LV6",
-				"LV5"
-			],
-			[
-				"LV7",
-				"LV6"
-			],
-			[
-				"LV8",
-				"LV7"
-			],
-			[
-				"LV9",
-				"LV8"
-			],
-			[
-				"LVB1",
-				"LVB0"
-			],
-			[
-				"LVB10",
-				"LVB9"
-			],
-			[
-				"LVB11",
-				"LVB10"
-			],
-			[
-				"LVB12",
-				"LVB11"
-			],
-			[
-				"LVB2",
-				"LVB1"
-			],
-			[
-				"LVB3",
-				"LVB2"
-			],
-			[
-				"LVB4",
-				"LVB3"
-			],
-			[
-				"LVB5",
-				"LVB4"
-			],
-			[
-				"LVB6",
-				"LVB5"
-			],
-			[
-				"LVB7",
-				"LVB6"
-			],
-			[
-				"LVB8",
-				"LVB7"
-			],
-			[
-				"LVB9",
-				"LVB8"
-			],
-			[
 				"NE2A0",
 				"NE2BEG0"
 			],
@@ -12562,54 +13330,6 @@
 				"NE2END_S3_0"
 			],
 			[
-				"NE6B0",
-				"NE6A0"
-			],
-			[
-				"NE6B1",
-				"NE6A1"
-			],
-			[
-				"NE6B2",
-				"NE6A2"
-			],
-			[
-				"NE6B3",
-				"NE6A3"
-			],
-			[
-				"NE6C0",
-				"NE6B0"
-			],
-			[
-				"NE6C1",
-				"NE6B1"
-			],
-			[
-				"NE6C2",
-				"NE6B2"
-			],
-			[
-				"NE6C3",
-				"NE6B3"
-			],
-			[
-				"NE6D0",
-				"NE6C0"
-			],
-			[
-				"NE6D1",
-				"NE6C1"
-			],
-			[
-				"NE6D2",
-				"NE6C2"
-			],
-			[
-				"NE6D3",
-				"NE6C3"
-			],
-			[
 				"NE6E0",
 				"NE6D0"
 			],
@@ -12624,10 +13344,6 @@
 			[
 				"NE6E3",
 				"NE6D3"
-			],
-			[
-				"NL1END0",
-				"NL1BEG0"
 			],
 			[
 				"NL1END0",
@@ -12662,10 +13378,6 @@
 				"NN2A0"
 			],
 			[
-				"NN2END0",
-				"NN2END_S2_0"
-			],
-			[
 				"NN2END1",
 				"NN2A1"
 			],
@@ -12676,74 +13388,6 @@
 			[
 				"NN2END3",
 				"NN2A3"
-			],
-			[
-				"NN2END_S2_0",
-				"NN2BEG0"
-			],
-			[
-				"NN6A0",
-				"NN6BEG0"
-			],
-			[
-				"NN6A1",
-				"NN6BEG1"
-			],
-			[
-				"NN6A2",
-				"NN6BEG2"
-			],
-			[
-				"NN6A3",
-				"NN6BEG3"
-			],
-			[
-				"NN6B0",
-				"NN6A0"
-			],
-			[
-				"NN6B1",
-				"NN6A1"
-			],
-			[
-				"NN6B2",
-				"NN6A2"
-			],
-			[
-				"NN6B3",
-				"NN6A3"
-			],
-			[
-				"NN6C0",
-				"NN6B0"
-			],
-			[
-				"NN6C1",
-				"NN6B1"
-			],
-			[
-				"NN6C2",
-				"NN6B2"
-			],
-			[
-				"NN6C3",
-				"NN6B3"
-			],
-			[
-				"NN6D0",
-				"NN6C0"
-			],
-			[
-				"NN6D1",
-				"NN6C1"
-			],
-			[
-				"NN6D2",
-				"NN6C2"
-			],
-			[
-				"NN6D3",
-				"NN6C3"
 			],
 			[
 				"NN6E0",
@@ -12760,30 +13404,6 @@
 			[
 				"NN6E3",
 				"NN6D3"
-			],
-			[
-				"NN6END0",
-				"NN6E0"
-			],
-			[
-				"NN6END0",
-				"NN6END_S1_0"
-			],
-			[
-				"NN6END1",
-				"NN6E1"
-			],
-			[
-				"NN6END2",
-				"NN6E2"
-			],
-			[
-				"NN6END3",
-				"NN6E3"
-			],
-			[
-				"NN6END_S1_0",
-				"NN6D0"
 			],
 			[
 				"NR1END0",
@@ -12822,54 +13442,6 @@
 				"NW2END_S0_0"
 			],
 			[
-				"NW6B0",
-				"NW6A0"
-			],
-			[
-				"NW6B1",
-				"NW6A1"
-			],
-			[
-				"NW6B2",
-				"NW6A2"
-			],
-			[
-				"NW6B3",
-				"NW6A3"
-			],
-			[
-				"NW6C0",
-				"NW6B0"
-			],
-			[
-				"NW6C1",
-				"NW6B1"
-			],
-			[
-				"NW6C2",
-				"NW6B2"
-			],
-			[
-				"NW6C3",
-				"NW6B3"
-			],
-			[
-				"NW6D0",
-				"NW6C0"
-			],
-			[
-				"NW6D1",
-				"NW6C1"
-			],
-			[
-				"NW6D2",
-				"NW6C2"
-			],
-			[
-				"NW6D3",
-				"NW6C3"
-			],
-			[
 				"NW6E0",
 				"NW6D0"
 			],
@@ -12904,54 +13476,6 @@
 			[
 				"SE2BEG3",
 				"SE2A3"
-			],
-			[
-				"SE6A0",
-				"SE6B0"
-			],
-			[
-				"SE6A1",
-				"SE6B1"
-			],
-			[
-				"SE6A2",
-				"SE6B2"
-			],
-			[
-				"SE6A3",
-				"SE6B3"
-			],
-			[
-				"SE6B0",
-				"SE6C0"
-			],
-			[
-				"SE6B1",
-				"SE6C1"
-			],
-			[
-				"SE6B2",
-				"SE6C2"
-			],
-			[
-				"SE6B3",
-				"SE6C3"
-			],
-			[
-				"SE6C0",
-				"SE6D0"
-			],
-			[
-				"SE6C1",
-				"SE6D1"
-			],
-			[
-				"SE6C2",
-				"SE6D2"
-			],
-			[
-				"SE6C3",
-				"SE6D3"
 			],
 			[
 				"SE6D0",
@@ -12994,10 +13518,6 @@
 				"SR1END2"
 			],
 			[
-				"SR1BEG3",
-				"SR1END3"
-			],
-			[
 				"SR1END_N3_3",
 				"SR1END3"
 			],
@@ -13034,78 +13554,6 @@
 				"SS2A3"
 			],
 			[
-				"SS2BEG3",
-				"SS2END_N0_3"
-			],
-			[
-				"SS2END_N0_3",
-				"SS2END3"
-			],
-			[
-				"SS6A0",
-				"SS6B0"
-			],
-			[
-				"SS6A1",
-				"SS6B1"
-			],
-			[
-				"SS6A2",
-				"SS6B2"
-			],
-			[
-				"SS6A3",
-				"SS6B3"
-			],
-			[
-				"SS6B0",
-				"SS6C0"
-			],
-			[
-				"SS6B1",
-				"SS6C1"
-			],
-			[
-				"SS6B2",
-				"SS6C2"
-			],
-			[
-				"SS6B3",
-				"SS6C3"
-			],
-			[
-				"SS6BEG0",
-				"SS6A0"
-			],
-			[
-				"SS6BEG1",
-				"SS6A1"
-			],
-			[
-				"SS6BEG2",
-				"SS6A2"
-			],
-			[
-				"SS6BEG3",
-				"SS6A3"
-			],
-			[
-				"SS6C0",
-				"SS6D0"
-			],
-			[
-				"SS6C1",
-				"SS6D1"
-			],
-			[
-				"SS6C2",
-				"SS6D2"
-			],
-			[
-				"SS6C3",
-				"SS6D3"
-			],
-			[
 				"SS6D0",
 				"SS6E0"
 			],
@@ -13120,30 +13568,6 @@
 			[
 				"SS6D3",
 				"SS6E3"
-			],
-			[
-				"SS6D3",
-				"SS6END_N0_3"
-			],
-			[
-				"SS6E0",
-				"SS6END0"
-			],
-			[
-				"SS6E1",
-				"SS6END1"
-			],
-			[
-				"SS6E2",
-				"SS6END2"
-			],
-			[
-				"SS6E3",
-				"SS6END3"
-			],
-			[
-				"SS6END_N0_3",
-				"SS6END3"
 			],
 			[
 				"SW2BEG0",
@@ -13164,54 +13588,6 @@
 			[
 				"SW2END_N0_3",
 				"SW2END3"
-			],
-			[
-				"SW6A0",
-				"SW6B0"
-			],
-			[
-				"SW6A1",
-				"SW6B1"
-			],
-			[
-				"SW6A2",
-				"SW6B2"
-			],
-			[
-				"SW6A3",
-				"SW6B3"
-			],
-			[
-				"SW6B0",
-				"SW6C0"
-			],
-			[
-				"SW6B1",
-				"SW6C1"
-			],
-			[
-				"SW6B2",
-				"SW6C2"
-			],
-			[
-				"SW6B3",
-				"SW6C3"
-			],
-			[
-				"SW6C0",
-				"SW6D0"
-			],
-			[
-				"SW6C1",
-				"SW6D1"
-			],
-			[
-				"SW6C2",
-				"SW6D2"
-			],
-			[
-				"SW6C3",
-				"SW6D3"
 			],
 			[
 				"SW6D0",
@@ -13274,20 +13650,8 @@
 				"EL1BEG3"
 			],
 			[
-				"T_TERM_UTURN_INT_ER1BEG_S0",
-				"ER1BEG_S0"
-			],
-			[
 				"T_TERM_UTURN_INT_ER1END3",
 				"EL1END_S3_0"
-			],
-			[
-				"T_TERM_UTURN_INT_ER1END3",
-				"ER1END3"
-			],
-			[
-				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_0",
-				"BYP_BOUNCE7"
 			],
 			[
 				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_0",
@@ -13295,15 +13659,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_2",
-				"BYP_BOUNCE3"
-			],
-			[
-				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_2",
 				"FAN_BOUNCE_S3_2"
-			],
-			[
-				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_4",
-				"BYP_BOUNCE6"
 			],
 			[
 				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_4",
@@ -13311,15 +13667,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_6",
-				"BYP_BOUNCE2"
-			],
-			[
-				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_6",
 				"FAN_BOUNCE_S3_6"
-			],
-			[
-				"T_TERM_UTURN_INT_LVB_L0",
-				"LVB_L0"
 			],
 			[
 				"T_TERM_UTURN_INT_LVB_L0",
@@ -13327,15 +13675,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_LVB_L1",
-				"LVB_L1"
-			],
-			[
-				"T_TERM_UTURN_INT_LVB_L1",
 				"LVB_L10"
-			],
-			[
-				"T_TERM_UTURN_INT_LVB_L2",
-				"LVB_L2"
 			],
 			[
 				"T_TERM_UTURN_INT_LVB_L2",
@@ -13343,15 +13683,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_LVB_L3",
-				"LVB_L3"
-			],
-			[
-				"T_TERM_UTURN_INT_LVB_L3",
 				"LVB_L8"
-			],
-			[
-				"T_TERM_UTURN_INT_LVB_L4",
-				"LVB_L4"
 			],
 			[
 				"T_TERM_UTURN_INT_LVB_L4",
@@ -13359,23 +13691,11 @@
 			],
 			[
 				"T_TERM_UTURN_INT_LVB_L5",
-				"LVB_L5"
-			],
-			[
-				"T_TERM_UTURN_INT_LVB_L5",
 				"LVB_L6"
 			],
 			[
 				"T_TERM_UTURN_INT_LV_L16",
-				"LV_L1"
-			],
-			[
-				"T_TERM_UTURN_INT_LV_L16",
 				"LV_L16"
-			],
-			[
-				"T_TERM_UTURN_INT_LV_L17",
-				"LV_L0"
 			],
 			[
 				"T_TERM_UTURN_INT_LV_L17",
@@ -13386,60 +13706,28 @@
 				"LV_L15"
 			],
 			[
-				"T_TERM_UTURN_INT_LV_L2",
-				"LV_L2"
-			],
-			[
 				"T_TERM_UTURN_INT_LV_L3",
 				"LV_L14"
-			],
-			[
-				"T_TERM_UTURN_INT_LV_L3",
-				"LV_L3"
 			],
 			[
 				"T_TERM_UTURN_INT_LV_L4",
 				"LV_L13"
 			],
 			[
-				"T_TERM_UTURN_INT_LV_L4",
-				"LV_L4"
-			],
-			[
 				"T_TERM_UTURN_INT_LV_L5",
 				"LV_L12"
-			],
-			[
-				"T_TERM_UTURN_INT_LV_L5",
-				"LV_L5"
 			],
 			[
 				"T_TERM_UTURN_INT_LV_L6",
 				"LV_L11"
 			],
 			[
-				"T_TERM_UTURN_INT_LV_L6",
-				"LV_L6"
-			],
-			[
 				"T_TERM_UTURN_INT_LV_L7",
 				"LV_L10"
 			],
 			[
-				"T_TERM_UTURN_INT_LV_L7",
-				"LV_L7"
-			],
-			[
 				"T_TERM_UTURN_INT_LV_L9",
 				"LV_L8"
-			],
-			[
-				"T_TERM_UTURN_INT_LV_L9",
-				"LV_L9"
-			],
-			[
-				"T_TERM_UTURN_INT_SE2A0",
-				"NE2BEG3"
 			],
 			[
 				"T_TERM_UTURN_INT_SE2A0",
@@ -13447,15 +13735,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE2A1",
-				"NE2BEG2"
-			],
-			[
-				"T_TERM_UTURN_INT_SE2A1",
 				"SE2A1"
-			],
-			[
-				"T_TERM_UTURN_INT_SE2A2",
-				"NE2BEG1"
 			],
 			[
 				"T_TERM_UTURN_INT_SE2A2",
@@ -13463,15 +13743,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE2A3",
-				"NE2BEG0"
-			],
-			[
-				"T_TERM_UTURN_INT_SE2A3",
 				"SE2A3"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6B0",
-				"NE6A3"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6B0",
@@ -13479,15 +13751,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6B1",
-				"NE6A2"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6B1",
 				"SE6B1"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6B2",
-				"NE6A1"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6B2",
@@ -13495,15 +13759,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6B3",
-				"NE6A0"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6B3",
 				"SE6B3"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6C0",
-				"NE6B3"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6C0",
@@ -13511,15 +13767,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6C1",
-				"NE6B2"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6C1",
 				"SE6C1"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6C2",
-				"NE6B1"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6C2",
@@ -13527,15 +13775,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6C3",
-				"NE6B0"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6C3",
 				"SE6C3"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6D0",
-				"NE6C3"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6D0",
@@ -13543,15 +13783,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6D1",
-				"NE6C2"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6D1",
 				"SE6D1"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6D2",
-				"NE6C1"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6D2",
@@ -13559,15 +13791,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6D3",
-				"NE6C0"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6D3",
 				"SE6D3"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6E0",
-				"NE6D3"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6E0",
@@ -13575,15 +13799,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6E1",
-				"NE6D2"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6E1",
 				"SE6E1"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6E2",
-				"NE6D1"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6E2",
@@ -13591,15 +13807,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6E3",
-				"NE6D0"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6E3",
 				"SE6E3"
-			],
-			[
-				"T_TERM_UTURN_INT_SL1END0",
-				"NR1BEG3"
 			],
 			[
 				"T_TERM_UTURN_INT_SL1END0",
@@ -13607,15 +13815,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SL1END1",
-				"NR1BEG2"
-			],
-			[
-				"T_TERM_UTURN_INT_SL1END1",
 				"SL1END1"
-			],
-			[
-				"T_TERM_UTURN_INT_SL1END2",
-				"NR1BEG1"
 			],
 			[
 				"T_TERM_UTURN_INT_SL1END2",
@@ -13623,15 +13823,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SL1END3",
-				"NR1BEG0"
-			],
-			[
-				"T_TERM_UTURN_INT_SL1END3",
 				"SL1END3"
-			],
-			[
-				"T_TERM_UTURN_INT_SR1END1",
-				"NL1BEG2"
 			],
 			[
 				"T_TERM_UTURN_INT_SR1END1",
@@ -13639,15 +13831,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SR1END2",
-				"NL1BEG1"
-			],
-			[
-				"T_TERM_UTURN_INT_SR1END2",
 				"SR1END2"
-			],
-			[
-				"T_TERM_UTURN_INT_SR1END3",
-				"NL1BEG0"
 			],
 			[
 				"T_TERM_UTURN_INT_SR1END3",
@@ -13655,15 +13839,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS2A0",
-				"NN2BEG3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS2A0",
 				"SS2A0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS2A1",
-				"NN2BEG2"
 			],
 			[
 				"T_TERM_UTURN_INT_SS2A1",
@@ -13671,59 +13847,27 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS2A2",
-				"NN2BEG1"
-			],
-			[
-				"T_TERM_UTURN_INT_SS2A2",
 				"SS2A2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS2A3",
-				"NN2BEG0"
 			],
 			[
 				"T_TERM_UTURN_INT_SS2A3",
 				"SS2A3"
 			],
 			[
-				"T_TERM_UTURN_INT_SS2A3",
-				"SS2END_N0_3"
-			],
-			[
 				"T_TERM_UTURN_INT_SS2END0",
 				"NN2A3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS2END0",
-				"SS2END0"
 			],
 			[
 				"T_TERM_UTURN_INT_SS2END1",
 				"NN2A2"
 			],
 			[
-				"T_TERM_UTURN_INT_SS2END1",
-				"SS2END1"
-			],
-			[
 				"T_TERM_UTURN_INT_SS2END2",
 				"NN2A1"
 			],
 			[
-				"T_TERM_UTURN_INT_SS2END2",
-				"SS2END2"
-			],
-			[
 				"T_TERM_UTURN_INT_SS2END3",
 				"NN2A0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS2END3",
-				"SS2END3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6A0",
-				"NN6BEG3"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6A0",
@@ -13731,15 +13875,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6A1",
-				"NN6BEG2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6A1",
 				"SS6A1"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6A2",
-				"NN6BEG1"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6A2",
@@ -13747,15 +13883,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6A3",
-				"NN6BEG0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6A3",
 				"SS6A3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6B0",
-				"NN6A3"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6B0",
@@ -13763,15 +13891,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6B1",
-				"NN6A2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6B1",
 				"SS6B1"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6B2",
-				"NN6A1"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6B2",
@@ -13779,15 +13899,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6B3",
-				"NN6A0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6B3",
 				"SS6B3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6C0",
-				"NN6B3"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6C0",
@@ -13795,15 +13907,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6C1",
-				"NN6B2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6C1",
 				"SS6C1"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6C2",
-				"NN6B1"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6C2",
@@ -13811,15 +13915,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6C3",
-				"NN6B0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6C3",
 				"SS6C3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6D0",
-				"NN6C3"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6D0",
@@ -13827,15 +13923,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6D1",
-				"NN6C2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6D1",
 				"SS6D1"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6D2",
-				"NN6C1"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6D2",
@@ -13843,15 +13931,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6D3",
-				"NN6C0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6D3",
 				"SS6D3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6E0",
-				"NN6D3"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6E0",
@@ -13859,15 +13939,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6E1",
-				"NN6D2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6E1",
 				"SS6E1"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6E2",
-				"NN6D1"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6E2",
@@ -13875,51 +13947,23 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6E3",
-				"NN6D0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6E3",
 				"SS6E3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6E3",
-				"SS6END_N0_3"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6END0",
 				"NN6E3"
 			],
 			[
-				"T_TERM_UTURN_INT_SS6END0",
-				"SS6END0"
-			],
-			[
 				"T_TERM_UTURN_INT_SS6END1",
 				"NN6E2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6END1",
-				"SS6END1"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6END2",
 				"NN6E1"
 			],
 			[
-				"T_TERM_UTURN_INT_SS6END2",
-				"SS6END2"
-			],
-			[
 				"T_TERM_UTURN_INT_SS6END3",
 				"NN6E0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6END3",
-				"SS6END3"
-			],
-			[
-				"T_TERM_UTURN_INT_SW2A0",
-				"NW2BEG3"
 			],
 			[
 				"T_TERM_UTURN_INT_SW2A0",
@@ -13927,15 +13971,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW2A1",
-				"NW2BEG2"
-			],
-			[
-				"T_TERM_UTURN_INT_SW2A1",
 				"SW2A1"
-			],
-			[
-				"T_TERM_UTURN_INT_SW2A2",
-				"NW2BEG1"
 			],
 			[
 				"T_TERM_UTURN_INT_SW2A2",
@@ -13943,15 +13979,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW2A3",
-				"NW2BEG0"
-			],
-			[
-				"T_TERM_UTURN_INT_SW2A3",
 				"SW2A3"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6B0",
-				"NW6A3"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6B0",
@@ -13959,15 +13987,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6B1",
-				"NW6A2"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6B1",
 				"SW6B1"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6B2",
-				"NW6A1"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6B2",
@@ -13975,15 +13995,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6B3",
-				"NW6A0"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6B3",
 				"SW6B3"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6C0",
-				"NW6B3"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6C0",
@@ -13991,15 +14003,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6C1",
-				"NW6B2"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6C1",
 				"SW6C1"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6C2",
-				"NW6B1"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6C2",
@@ -14007,15 +14011,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6C3",
-				"NW6B0"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6C3",
 				"SW6C3"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6D0",
-				"NW6C3"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6D0",
@@ -14023,15 +14019,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6D1",
-				"NW6C2"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6D1",
 				"SW6D1"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6D2",
-				"NW6C1"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6D2",
@@ -14039,15 +14027,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6D3",
-				"NW6C0"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6D3",
 				"SW6D3"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6E0",
-				"NW6D3"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6E0",
@@ -14055,23 +14035,11 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6E1",
-				"NW6D2"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6E1",
 				"SW6E1"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6E2",
-				"NW6D1"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6E2",
 				"SW6E2"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6E3",
-				"NW6D0"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6E3",
@@ -14080,14 +14048,6 @@
 			[
 				"T_TERM_UTURN_INT_WR1BEG_S0",
 				"WL1BEG3"
-			],
-			[
-				"T_TERM_UTURN_INT_WR1BEG_S0",
-				"WR1BEG_S0"
-			],
-			[
-				"T_TERM_UTURN_INT_WR1END_S1_0",
-				"WL1END3"
 			],
 			[
 				"T_TERM_UTURN_INT_WR1END_S1_0",
@@ -14107,15 +14067,7 @@
 		"wire_pairs": [
 			[
 				"T_TERM_INT_UTURN_LV_R16",
-				"LV1"
-			],
-			[
-				"T_TERM_INT_UTURN_LV_R16",
 				"LV16"
-			],
-			[
-				"T_TERM_INT_UTURN_LV_R17",
-				"LV0"
 			],
 			[
 				"T_TERM_INT_UTURN_LV_R17",
@@ -14126,76 +14078,36 @@
 				"LV15"
 			],
 			[
-				"T_TERM_INT_UTURN_LV_R2",
-				"LV2"
-			],
-			[
 				"T_TERM_INT_UTURN_LV_R3",
 				"LV14"
-			],
-			[
-				"T_TERM_INT_UTURN_LV_R3",
-				"LV3"
 			],
 			[
 				"T_TERM_INT_UTURN_LV_R4",
 				"LV13"
 			],
 			[
-				"T_TERM_INT_UTURN_LV_R4",
-				"LV4"
-			],
-			[
 				"T_TERM_INT_UTURN_LV_R5",
 				"LV12"
-			],
-			[
-				"T_TERM_INT_UTURN_LV_R5",
-				"LV5"
 			],
 			[
 				"T_TERM_INT_UTURN_LV_R6",
 				"LV11"
 			],
 			[
-				"T_TERM_INT_UTURN_LV_R6",
-				"LV6"
-			],
-			[
 				"T_TERM_INT_UTURN_LV_R7",
 				"LV10"
-			],
-			[
-				"T_TERM_INT_UTURN_LV_R7",
-				"LV7"
 			],
 			[
 				"T_TERM_INT_UTURN_LV_R9",
 				"LV8"
 			],
 			[
-				"T_TERM_INT_UTURN_LV_R9",
-				"LV9"
-			],
-			[
 				"T_TERM_UTURN_INT_ER1BEG_S0",
 				"EL1BEG3"
 			],
 			[
-				"T_TERM_UTURN_INT_ER1BEG_S0",
-				"ER1BEG_S0"
-			],
-			[
 				"T_TERM_UTURN_INT_ER1END3",
 				"EL1END_S3_0"
-			],
-			[
-				"T_TERM_UTURN_INT_ER1END3",
-				"ER1END3"
-			],
-			[
-				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_0",
-				"BYP_BOUNCE7"
 			],
 			[
 				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_0",
@@ -14203,15 +14115,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_2",
-				"BYP_BOUNCE3"
-			],
-			[
-				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_2",
 				"FAN_BOUNCE_S3_2"
-			],
-			[
-				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_4",
-				"BYP_BOUNCE6"
 			],
 			[
 				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_4",
@@ -14219,15 +14123,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_6",
-				"BYP_BOUNCE2"
-			],
-			[
-				"T_TERM_UTURN_INT_FAN_BOUNCE_S3_6",
 				"FAN_BOUNCE_S3_6"
-			],
-			[
-				"T_TERM_UTURN_INT_LVB0",
-				"LVB0"
 			],
 			[
 				"T_TERM_UTURN_INT_LVB0",
@@ -14235,15 +14131,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_LVB1",
-				"LVB1"
-			],
-			[
-				"T_TERM_UTURN_INT_LVB1",
 				"LVB10"
-			],
-			[
-				"T_TERM_UTURN_INT_LVB2",
-				"LVB2"
 			],
 			[
 				"T_TERM_UTURN_INT_LVB2",
@@ -14251,15 +14139,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_LVB3",
-				"LVB3"
-			],
-			[
-				"T_TERM_UTURN_INT_LVB3",
 				"LVB8"
-			],
-			[
-				"T_TERM_UTURN_INT_LVB4",
-				"LVB4"
 			],
 			[
 				"T_TERM_UTURN_INT_LVB4",
@@ -14267,15 +14147,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_LVB5",
-				"LVB5"
-			],
-			[
-				"T_TERM_UTURN_INT_LVB5",
 				"LVB6"
-			],
-			[
-				"T_TERM_UTURN_INT_SE2A0",
-				"NE2BEG3"
 			],
 			[
 				"T_TERM_UTURN_INT_SE2A0",
@@ -14283,15 +14155,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE2A1",
-				"NE2BEG2"
-			],
-			[
-				"T_TERM_UTURN_INT_SE2A1",
 				"SE2A1"
-			],
-			[
-				"T_TERM_UTURN_INT_SE2A2",
-				"NE2BEG1"
 			],
 			[
 				"T_TERM_UTURN_INT_SE2A2",
@@ -14299,15 +14163,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE2A3",
-				"NE2BEG0"
-			],
-			[
-				"T_TERM_UTURN_INT_SE2A3",
 				"SE2A3"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6B0",
-				"NE6A3"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6B0",
@@ -14315,15 +14171,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6B1",
-				"NE6A2"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6B1",
 				"SE6B1"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6B2",
-				"NE6A1"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6B2",
@@ -14331,15 +14179,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6B3",
-				"NE6A0"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6B3",
 				"SE6B3"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6C0",
-				"NE6B3"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6C0",
@@ -14347,15 +14187,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6C1",
-				"NE6B2"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6C1",
 				"SE6C1"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6C2",
-				"NE6B1"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6C2",
@@ -14363,15 +14195,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6C3",
-				"NE6B0"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6C3",
 				"SE6C3"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6D0",
-				"NE6C3"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6D0",
@@ -14379,15 +14203,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6D1",
-				"NE6C2"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6D1",
 				"SE6D1"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6D2",
-				"NE6C1"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6D2",
@@ -14395,15 +14211,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6D3",
-				"NE6C0"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6D3",
 				"SE6D3"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6E0",
-				"NE6D3"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6E0",
@@ -14411,15 +14219,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6E1",
-				"NE6D2"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6E1",
 				"SE6E1"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6E2",
-				"NE6D1"
 			],
 			[
 				"T_TERM_UTURN_INT_SE6E2",
@@ -14427,15 +14227,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SE6E3",
-				"NE6D0"
-			],
-			[
-				"T_TERM_UTURN_INT_SE6E3",
 				"SE6E3"
-			],
-			[
-				"T_TERM_UTURN_INT_SL1END0",
-				"NR1BEG3"
 			],
 			[
 				"T_TERM_UTURN_INT_SL1END0",
@@ -14443,15 +14235,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SL1END1",
-				"NR1BEG2"
-			],
-			[
-				"T_TERM_UTURN_INT_SL1END1",
 				"SL1END1"
-			],
-			[
-				"T_TERM_UTURN_INT_SL1END2",
-				"NR1BEG1"
 			],
 			[
 				"T_TERM_UTURN_INT_SL1END2",
@@ -14459,15 +14243,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SL1END3",
-				"NR1BEG0"
-			],
-			[
-				"T_TERM_UTURN_INT_SL1END3",
 				"SL1END3"
-			],
-			[
-				"T_TERM_UTURN_INT_SR1END1",
-				"NL1BEG2"
 			],
 			[
 				"T_TERM_UTURN_INT_SR1END1",
@@ -14475,15 +14251,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SR1END2",
-				"NL1BEG1"
-			],
-			[
-				"T_TERM_UTURN_INT_SR1END2",
 				"SR1END2"
-			],
-			[
-				"T_TERM_UTURN_INT_SR1END3",
-				"NL1BEG0"
 			],
 			[
 				"T_TERM_UTURN_INT_SR1END3",
@@ -14491,15 +14259,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS2A0",
-				"NN2BEG3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS2A0",
 				"SS2A0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS2A1",
-				"NN2BEG2"
 			],
 			[
 				"T_TERM_UTURN_INT_SS2A1",
@@ -14507,59 +14267,27 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS2A2",
-				"NN2BEG1"
-			],
-			[
-				"T_TERM_UTURN_INT_SS2A2",
 				"SS2A2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS2A3",
-				"NN2BEG0"
 			],
 			[
 				"T_TERM_UTURN_INT_SS2A3",
 				"SS2A3"
 			],
 			[
-				"T_TERM_UTURN_INT_SS2A3",
-				"SS2END_N0_3"
-			],
-			[
 				"T_TERM_UTURN_INT_SS2END0",
 				"NN2A3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS2END0",
-				"SS2END0"
 			],
 			[
 				"T_TERM_UTURN_INT_SS2END1",
 				"NN2A2"
 			],
 			[
-				"T_TERM_UTURN_INT_SS2END1",
-				"SS2END1"
-			],
-			[
 				"T_TERM_UTURN_INT_SS2END2",
 				"NN2A1"
 			],
 			[
-				"T_TERM_UTURN_INT_SS2END2",
-				"SS2END2"
-			],
-			[
 				"T_TERM_UTURN_INT_SS2END3",
 				"NN2A0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS2END3",
-				"SS2END3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6A0",
-				"NN6BEG3"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6A0",
@@ -14567,15 +14295,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6A1",
-				"NN6BEG2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6A1",
 				"SS6A1"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6A2",
-				"NN6BEG1"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6A2",
@@ -14583,15 +14303,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6A3",
-				"NN6BEG0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6A3",
 				"SS6A3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6B0",
-				"NN6A3"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6B0",
@@ -14599,15 +14311,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6B1",
-				"NN6A2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6B1",
 				"SS6B1"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6B2",
-				"NN6A1"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6B2",
@@ -14615,15 +14319,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6B3",
-				"NN6A0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6B3",
 				"SS6B3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6C0",
-				"NN6B3"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6C0",
@@ -14631,15 +14327,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6C1",
-				"NN6B2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6C1",
 				"SS6C1"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6C2",
-				"NN6B1"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6C2",
@@ -14647,15 +14335,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6C3",
-				"NN6B0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6C3",
 				"SS6C3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6D0",
-				"NN6C3"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6D0",
@@ -14663,15 +14343,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6D1",
-				"NN6C2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6D1",
 				"SS6D1"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6D2",
-				"NN6C1"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6D2",
@@ -14679,15 +14351,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6D3",
-				"NN6C0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6D3",
 				"SS6D3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6E0",
-				"NN6D3"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6E0",
@@ -14695,15 +14359,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6E1",
-				"NN6D2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6E1",
 				"SS6E1"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6E2",
-				"NN6D1"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6E2",
@@ -14711,51 +14367,23 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SS6E3",
-				"NN6D0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6E3",
 				"SS6E3"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6E3",
-				"SS6END_N0_3"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6END0",
 				"NN6E3"
 			],
 			[
-				"T_TERM_UTURN_INT_SS6END0",
-				"SS6END0"
-			],
-			[
 				"T_TERM_UTURN_INT_SS6END1",
 				"NN6E2"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6END1",
-				"SS6END1"
 			],
 			[
 				"T_TERM_UTURN_INT_SS6END2",
 				"NN6E1"
 			],
 			[
-				"T_TERM_UTURN_INT_SS6END2",
-				"SS6END2"
-			],
-			[
 				"T_TERM_UTURN_INT_SS6END3",
 				"NN6E0"
-			],
-			[
-				"T_TERM_UTURN_INT_SS6END3",
-				"SS6END3"
-			],
-			[
-				"T_TERM_UTURN_INT_SW2A0",
-				"NW2BEG3"
 			],
 			[
 				"T_TERM_UTURN_INT_SW2A0",
@@ -14763,15 +14391,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW2A1",
-				"NW2BEG2"
-			],
-			[
-				"T_TERM_UTURN_INT_SW2A1",
 				"SW2A1"
-			],
-			[
-				"T_TERM_UTURN_INT_SW2A2",
-				"NW2BEG1"
 			],
 			[
 				"T_TERM_UTURN_INT_SW2A2",
@@ -14779,15 +14399,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW2A3",
-				"NW2BEG0"
-			],
-			[
-				"T_TERM_UTURN_INT_SW2A3",
 				"SW2A3"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6B0",
-				"NW6A3"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6B0",
@@ -14795,15 +14407,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6B1",
-				"NW6A2"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6B1",
 				"SW6B1"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6B2",
-				"NW6A1"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6B2",
@@ -14811,15 +14415,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6B3",
-				"NW6A0"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6B3",
 				"SW6B3"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6C0",
-				"NW6B3"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6C0",
@@ -14827,15 +14423,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6C1",
-				"NW6B2"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6C1",
 				"SW6C1"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6C2",
-				"NW6B1"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6C2",
@@ -14843,15 +14431,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6C3",
-				"NW6B0"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6C3",
 				"SW6C3"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6D0",
-				"NW6C3"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6D0",
@@ -14859,15 +14439,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6D1",
-				"NW6C2"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6D1",
 				"SW6D1"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6D2",
-				"NW6C1"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6D2",
@@ -14875,15 +14447,7 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6D3",
-				"NW6C0"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6D3",
 				"SW6D3"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6E0",
-				"NW6D3"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6E0",
@@ -14891,23 +14455,11 @@
 			],
 			[
 				"T_TERM_UTURN_INT_SW6E1",
-				"NW6D2"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6E1",
 				"SW6E1"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6E2",
-				"NW6D1"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6E2",
 				"SW6E2"
-			],
-			[
-				"T_TERM_UTURN_INT_SW6E3",
-				"NW6D0"
 			],
 			[
 				"T_TERM_UTURN_INT_SW6E3",
@@ -14916,14 +14468,6 @@
 			[
 				"T_TERM_UTURN_INT_WR1BEG_S0",
 				"WL1BEG3"
-			],
-			[
-				"T_TERM_UTURN_INT_WR1BEG_S0",
-				"WR1BEG_S0"
-			],
-			[
-				"T_TERM_UTURN_INT_WR1END_S1_0",
-				"WL1END3"
 			],
 			[
 				"T_TERM_UTURN_INT_WR1END_S1_0",
