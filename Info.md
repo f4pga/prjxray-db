@@ -37,7 +37,7 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Wed Jan  3 16:08:08 UTC 2018 (2018-01-03T16:08:08+00:00).
+Last updated on Wed Jan  3 16:21:55 UTC 2018 (2018-01-03T16:21:55+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-391-g2500500](https://github.com/SymbiFlow/prjxray/commit/250050024f7878ed6697f79fad80b6e0e6e8f8c3).
 
@@ -106,7 +106,7 @@ Results have checksums;
  * [`d6ef0d4cc5a9afd7a493ffa6aeaf2f5a5e71f9afdf901852858ce9d06140e3dc  ./artix7/segbits_int_l.db`](./artix7/segbits_int_l.db)
  * [`7ee1d2714dde4b1e6f1d8c89076f67e1575b9c65f078ade0fe07c0c6bf30cbd8  ./artix7/segbits_int_r.db`](./artix7/segbits_int_r.db)
  * [`994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300  ./artix7/settings.sh`](./artix7/settings.sh)
- * [`994b9487a088125f5c6488b32eb488891123690077a49b50652b85497fe86b97  ./artix7/tileconn.json`](./artix7/tileconn.json)
+ * [`5a3b3d6a121e85235f1c8a306a4d35fccfa363088503649955b4b72fee33a173  ./artix7/tileconn.json`](./artix7/tileconn.json)
  * [`236dde5e55842e3944c6194b45adddbdc7b89043c64da2be3348a15c9d779443  ./artix7/tilegrid.json`](./artix7/tilegrid.json)
  * [`86376865f572d83f9c7dc0fdf8caf1184da9fb924f859eecc3357f8b5205e3d6  ./artix7/xc7a50tfgg484-1.yaml`](./artix7/xc7a50tfgg484-1.yaml)
 
