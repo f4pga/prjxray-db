@@ -37,26 +37,27 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Sun Oct 14 20:44:37 UTC 2018 (2018-10-14T20:44:37+00:00).
+Last updated on Tue Oct 16 20:52:38 UTC 2018 (2018-10-16T20:52:38+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-767-g0a9e24](https://github.com/SymbiFlow/prjxray/commit/0a9e24373eccb22dfe41073f8a3a0fa72627e5c0).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-770-g6db8bd6](https://github.com/SymbiFlow/prjxray/commit/6db8bd65748e1a09e3c7a1433dd9e8693d977da0).
 
 Latest commit was;
 ```
-commit 0a9e24373eccb22dfe41073f8a3a0fa72627e5c0
-Author: Tim 'mithro' Ansell <me@mith.ro>
-Date:   Fri Oct 12 13:45:42 2018 +0000
+commit 6db8bd65748e1a09e3c7a1433dd9e8693d977da0
+Merge: b117448 310101c
+Author: Tim Ansell <me@mith.ro>
+Date:   Mon Oct 15 17:42:13 2018 -0700
 
-    Missing closing of if.
-
-    Signed-off-by: Tim 'mithro' Ansell <me@mith.ro>
+    Merge pull request #153 from SymbiFlow/mithro-patch-1
+    
+    Adding timing fuzzer needs to requirements.txt
 ```
 
 ## Database for [artix7](artix7/)
 
 ### Settings
 
-Created using following [settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)](https://github.com/SymbiFlow/prjxray/blob/0a9e24373eccb22dfe41073f8a3a0fa72627e5c0/database/artix7/settings.sh)
+Created using following [settings.sh (sha256: 994008cff37affae1b334cba5908a1b8fe51ec69c47c553943f3d246763fb300)](https://github.com/SymbiFlow/prjxray/blob/6db8bd65748e1a09e3c7a1433dd9e8693d977da0/database/artix7/settings.sh)
 ```shell
 export XRAY_DATABASE="artix7"
 export XRAY_PART="xc7a50tfgg484-1"
@@ -268,13 +269,14 @@ Results have checksums;
  * [`5f641bc2117a4a45d6db58dff650df2c876f9f2ce6b60ca89a8813b2b32f627a  ./artix7/tile_type_VBRK_EXT.json`](./artix7/tile_type_VBRK_EXT.json)
  * [`301ae67062447199afc4626fffe2e935d96b58002b133c285ade08e179392642  ./artix7/tile_type_VBRK.json`](./artix7/tile_type_VBRK.json)
  * [`5e105635aa264b9a73d178102ee2950519964cbe6e3d18a48070edfbe5c26e98  ./artix7/tile_type_VFRAME.json`](./artix7/tile_type_VFRAME.json)
+ * [`ef0724733da87455426a0f833642d96e9d206d047f4eb97072c3093f80c40d7d  ./artix7/xc7a35tcpg236-1.yaml`](./artix7/xc7a35tcpg236-1.yaml)
  * [`41c360b1e2f7e08b9051f1160a34954ce4c05a445a07f226f1f4059caf1fa1d3  ./artix7/xc7a50tfgg484-1.yaml`](./artix7/xc7a50tfgg484-1.yaml)
 
 ## Database for [kintex7](kintex7/)
 
 ### Settings
 
-Created using following [settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)](https://github.com/SymbiFlow/prjxray/blob/0a9e24373eccb22dfe41073f8a3a0fa72627e5c0/database/kintex7/settings.sh)
+Created using following [settings.sh (sha256: 2daf6a69dd6d20df7b1273ff43c5c340abe36f8229d297646865edcfd91eff18)](https://github.com/SymbiFlow/prjxray/blob/6db8bd65748e1a09e3c7a1433dd9e8693d977da0/database/kintex7/settings.sh)
 ```shell
 export XRAY_DATABASE="kintex7"
 export XRAY_PART="xc7k70tfbg676-2"
