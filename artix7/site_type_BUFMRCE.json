@@ -1,13 +1,14 @@
 {
+  "type": "BUFMRCE",
   "site_pins": {
-    "O": {
-      "direction": "OUT"
+    "CE": {
+      "direction": "IN"
     },
     "I": {
       "direction": "IN"
     },
-    "CE": {
-      "direction": "IN"
+    "O": {
+      "direction": "OUT"
     }
   },
   "site_pips": {
@@ -19,6 +20,5 @@
       "from_pin": "CE_B",
       "to_pin": "OUT"
     }
-  },
-  "type": "BUFMRCE"
+  }
 }

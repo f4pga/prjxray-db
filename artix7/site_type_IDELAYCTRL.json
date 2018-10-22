@@ -1,15 +1,13 @@
 {
+  "type": "IDELAYCTRL",
   "site_pins": {
-    "OUTN65": {
-      "direction": "OUT"
-    },
     "OUTN1": {
       "direction": "OUT"
     },
-    "DNPULSEOUT": {
+    "OUTN65": {
       "direction": "OUT"
     },
-    "UPPULSEOUT": {
+    "RDY": {
       "direction": "OUT"
     },
     "RST": {
@@ -18,10 +16,12 @@
     "REFCLK": {
       "direction": "IN"
     },
-    "RDY": {
+    "UPPULSEOUT": {
+      "direction": "OUT"
+    },
+    "DNPULSEOUT": {
       "direction": "OUT"
     }
   },
-  "site_pips": {},
-  "type": "IDELAYCTRL"
+  "site_pips": {}
 }

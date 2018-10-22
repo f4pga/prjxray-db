@@ -1,18 +1,31 @@
 {
+  "type": "OLOGICE3",
   "site_pins": {
-    "OCE": {
-      "direction": "IN"
-    },
-    "CLKDIVF": {
-      "direction": "IN"
-    },
-    "D2": {
-      "direction": "IN"
-    },
-    "TQ": {
+    "TFB": {
       "direction": "OUT"
     },
+    "T1": {
+      "direction": "IN"
+    },
+    "D7": {
+      "direction": "IN"
+    },
+    "OFB": {
+      "direction": "OUT"
+    },
+    "CLKDIVB": {
+      "direction": "IN"
+    },
     "SHIFTIN1": {
+      "direction": "IN"
+    },
+    "D6": {
+      "direction": "IN"
+    },
+    "T3": {
+      "direction": "IN"
+    },
+    "CLKDIVFB": {
       "direction": "IN"
     },
     "T2": {
@@ -21,178 +34,74 @@
     "TBYTEOUT": {
       "direction": "OUT"
     },
-    "CLKDIV": {
-      "direction": "IN"
-    },
-    "SR": {
-      "direction": "IN"
-    },
-    "D5": {
-      "direction": "IN"
-    },
-    "OFB": {
-      "direction": "OUT"
-    },
-    "CLKDIVFB": {
-      "direction": "IN"
-    },
-    "CLKB": {
-      "direction": "IN"
-    },
-    "T4": {
-      "direction": "IN"
-    },
-    "D1": {
-      "direction": "IN"
-    },
-    "TFB": {
-      "direction": "OUT"
-    },
-    "D4": {
-      "direction": "IN"
-    },
-    "D3": {
-      "direction": "IN"
-    },
-    "T1": {
-      "direction": "IN"
-    },
     "CLK": {
       "direction": "IN"
     },
-    "D6": {
-      "direction": "IN"
-    },
-    "OQ": {
+    "TQ": {
       "direction": "OUT"
     },
-    "CLKDIVB": {
-      "direction": "IN"
-    },
-    "REV": {
-      "direction": "IN"
-    },
-    "SHIFTOUT2": {
-      "direction": "OUT"
-    },
-    "TBYTEIN": {
+    "SR": {
       "direction": "IN"
     },
     "SHIFTOUT1": {
       "direction": "OUT"
     },
-    "IOCLKGLITCH": {
+    "OQ": {
+      "direction": "OUT"
+    },
+    "D5": {
+      "direction": "IN"
+    },
+    "D1": {
+      "direction": "IN"
+    },
+    "SHIFTOUT2": {
       "direction": "OUT"
     },
     "D8": {
       "direction": "IN"
     },
-    "T3": {
+    "D4": {
       "direction": "IN"
     },
-    "TCE": {
+    "CLKB": {
+      "direction": "IN"
+    },
+    "IOCLKGLITCH": {
+      "direction": "OUT"
+    },
+    "REV": {
+      "direction": "IN"
+    },
+    "TBYTEIN": {
       "direction": "IN"
     },
     "SHIFTIN2": {
       "direction": "IN"
     },
-    "D7": {
+    "D2": {
+      "direction": "IN"
+    },
+    "OCE": {
+      "direction": "IN"
+    },
+    "CLKDIVF": {
+      "direction": "IN"
+    },
+    "TCE": {
+      "direction": "IN"
+    },
+    "T4": {
+      "direction": "IN"
+    },
+    "D3": {
+      "direction": "IN"
+    },
+    "CLKDIV": {
       "direction": "IN"
     }
   },
   "site_pips": {
-    "T2INV:T2_B": {
-      "from_pin": "T2_B",
-      "to_pin": "OUT"
-    },
-    "T1USED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "TQUSED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "D2INV:D2": {
-      "from_pin": "D2",
-      "to_pin": "OUT"
-    },
-    "T1INV:T1_B": {
-      "from_pin": "T1_B",
-      "to_pin": "OUT"
-    },
-    "OMUX:OUTFF": {
-      "from_pin": "OUTFF",
-      "to_pin": "OUT"
-    },
-    "OMUX:D1": {
-      "from_pin": "D1",
-      "to_pin": "OUT"
-    },
-    "D1INV:D1_B": {
-      "from_pin": "D1_B",
-      "to_pin": "OUT"
-    },
-    "OCEUSED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "T2INV:T2": {
-      "from_pin": "T2",
-      "to_pin": "OUT"
-    },
-    "CLKINV:CLK": {
-      "from_pin": "CLK",
-      "to_pin": "OUT"
-    },
-    "OREVUSED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "TMUX:TFF": {
-      "from_pin": "TFF",
-      "to_pin": "OUT"
-    },
-    "CLKINV:CLK_B": {
-      "from_pin": "CLK_B",
-      "to_pin": "OUT"
-    },
-    "D2INV:D2_B": {
-      "from_pin": "D2_B",
-      "to_pin": "OUT"
-    },
-    "TSRUSED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "TREVUSED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "TCEUSED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "OQUSED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "TFBUSED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "O1USED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "T1INV:T1": {
-      "from_pin": "T1",
-      "to_pin": "OUT"
-    },
-    "D1INV:D1": {
-      "from_pin": "D1",
-      "to_pin": "OUT"
-    },
     "TMUX:T1": {
       "from_pin": "T1",
       "to_pin": "OUT"
@@ -201,10 +110,101 @@
       "from_pin": "0",
       "to_pin": "OUT"
     },
+    "T1INV:T1": {
+      "from_pin": "T1",
+      "to_pin": "OUT"
+    },
+    "TMUX:TFF": {
+      "from_pin": "TFF",
+      "to_pin": "OUT"
+    },
+    "T2INV:T2_B": {
+      "from_pin": "T2_B",
+      "to_pin": "OUT"
+    },
+    "OCEUSED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "D1INV:D1": {
+      "from_pin": "D1",
+      "to_pin": "OUT"
+    },
+    "CLKINV:CLK_B": {
+      "from_pin": "CLK_B",
+      "to_pin": "OUT"
+    },
+    "T1INV:T1_B": {
+      "from_pin": "T1_B",
+      "to_pin": "OUT"
+    },
+    "T2INV:T2": {
+      "from_pin": "T2",
+      "to_pin": "OUT"
+    },
     "OFBUSED:0": {
       "from_pin": "0",
       "to_pin": "OUT"
+    },
+    "O1USED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "TFBUSED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "OREVUSED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "D2INV:D2_B": {
+      "from_pin": "D2_B",
+      "to_pin": "OUT"
+    },
+    "TCEUSED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "OMUX:D1": {
+      "from_pin": "D1",
+      "to_pin": "OUT"
+    },
+    "D2INV:D2": {
+      "from_pin": "D2",
+      "to_pin": "OUT"
+    },
+    "T1USED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "D1INV:D1_B": {
+      "from_pin": "D1_B",
+      "to_pin": "OUT"
+    },
+    "TREVUSED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "CLKINV:CLK": {
+      "from_pin": "CLK",
+      "to_pin": "OUT"
+    },
+    "TQUSED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "TSRUSED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "OQUSED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "OMUX:OUTFF": {
+      "from_pin": "OUTFF",
+      "to_pin": "OUT"
     }
-  },
-  "type": "OLOGICE3"
+  }
 }

@@ -1,18 +1,18 @@
 {
+  "type": "BUFR",
   "site_pins": {
-    "I": {
-      "direction": "IN"
-    },
     "CLR": {
       "direction": "IN"
     },
     "CE": {
       "direction": "IN"
     },
+    "I": {
+      "direction": "IN"
+    },
     "O": {
       "direction": "OUT"
     }
   },
-  "site_pips": {},
-  "type": "BUFR"
+  "site_pips": {}
 }
