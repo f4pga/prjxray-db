@@ -1,520 +1,24 @@
 {
   "type": "FIFO18E1",
-  "site_pins": {
-    "ADDRBWRADDR0": {
-      "direction": "IN"
-    },
-    "DO12": {
-      "direction": "OUT"
-    },
-    "WRCOUNT5": {
-      "direction": "OUT"
-    },
-    "WEBWE7": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDR9": {
-      "direction": "IN"
-    },
-    "DIBDI3": {
-      "direction": "IN"
-    },
-    "DIBDI11": {
-      "direction": "IN"
-    },
-    "WEBWE0": {
-      "direction": "IN"
-    },
-    "DIADI14": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDR10": {
-      "direction": "IN"
-    },
-    "DOP1": {
-      "direction": "OUT"
-    },
-    "DIADI15": {
-      "direction": "IN"
-    },
-    "REGCEB": {
-      "direction": "IN"
-    },
-    "DOP3": {
-      "direction": "OUT"
-    },
-    "DO6": {
-      "direction": "OUT"
-    },
-    "DIBDI7": {
-      "direction": "IN"
-    },
-    "DO13": {
-      "direction": "OUT"
-    },
-    "WRCOUNT1": {
-      "direction": "OUT"
-    },
-    "RDCOUNT0": {
-      "direction": "OUT"
-    },
-    "RDRCLK": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDR11": {
-      "direction": "IN"
-    },
-    "FULL": {
-      "direction": "OUT"
-    },
-    "DIBDI14": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDR5": {
-      "direction": "IN"
-    },
-    "DOP0": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDR3": {
-      "direction": "IN"
-    },
-    "DIADI1": {
-      "direction": "IN"
-    },
-    "WRCOUNT9": {
-      "direction": "OUT"
-    },
-    "DIADI12": {
-      "direction": "IN"
-    },
-    "RDCOUNT6": {
-      "direction": "OUT"
-    },
-    "DO7": {
-      "direction": "OUT"
-    },
-    "DO31": {
-      "direction": "OUT"
-    },
-    "WEBWE5": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDR4": {
-      "direction": "IN"
-    },
-    "DO17": {
-      "direction": "OUT"
-    },
-    "DO19": {
-      "direction": "OUT"
-    },
-    "WEA0": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDR8": {
-      "direction": "IN"
-    },
-    "DIADI11": {
-      "direction": "IN"
-    },
-    "ADDRARDADDR1": {
-      "direction": "IN"
-    },
-    "DIPBDIP0": {
-      "direction": "IN"
-    },
-    "DIADI5": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDR6": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDR12": {
-      "direction": "IN"
-    },
-    "WEA2": {
-      "direction": "IN"
-    },
-    "DO14": {
-      "direction": "OUT"
-    },
-    "DO26": {
-      "direction": "OUT"
-    },
-    "WEBWE3": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDR7": {
-      "direction": "IN"
-    },
-    "WEA1": {
-      "direction": "IN"
-    },
-    "DO30": {
-      "direction": "OUT"
-    },
-    "DO28": {
-      "direction": "OUT"
-    },
-    "WRCOUNT7": {
-      "direction": "OUT"
-    },
-    "DIADI2": {
-      "direction": "IN"
-    },
-    "ADDRARDADDR3": {
-      "direction": "IN"
-    },
-    "DO18": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDR1": {
-      "direction": "IN"
-    },
-    "WRCOUNT0": {
-      "direction": "OUT"
-    },
-    "ALMOSTEMPTY": {
-      "direction": "OUT"
-    },
-    "RSTRAMB": {
-      "direction": "IN"
-    },
-    "DIBDI5": {
-      "direction": "IN"
-    },
-    "DIADI6": {
-      "direction": "IN"
-    },
-    "WRCOUNT10": {
-      "direction": "OUT"
-    },
-    "DO9": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDR5": {
-      "direction": "IN"
-    },
-    "DIADI9": {
-      "direction": "IN"
-    },
-    "DO4": {
-      "direction": "OUT"
-    },
-    "DIADI3": {
-      "direction": "IN"
-    },
-    "ALMOSTFULL": {
-      "direction": "OUT"
-    },
-    "DIPADIP0": {
-      "direction": "IN"
-    },
-    "DIBDI4": {
-      "direction": "IN"
-    },
-    "DIADI0": {
-      "direction": "IN"
-    },
-    "DIBDI0": {
-      "direction": "IN"
-    },
-    "WRCOUNT2": {
-      "direction": "OUT"
-    },
-    "WRERR": {
-      "direction": "OUT"
-    },
-    "DIADI13": {
-      "direction": "IN"
-    },
-    "ADDRBTIEHIGH1": {
-      "direction": "IN"
-    },
-    "DO21": {
-      "direction": "OUT"
-    },
-    "DO11": {
-      "direction": "OUT"
-    },
-    "DIBDI10": {
-      "direction": "IN"
-    },
-    "RDERR": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDR6": {
-      "direction": "IN"
-    },
-    "DO2": {
-      "direction": "OUT"
-    },
-    "DO25": {
-      "direction": "OUT"
-    },
-    "DO10": {
-      "direction": "OUT"
-    },
-    "RDCOUNT1": {
-      "direction": "OUT"
-    },
-    "RDEN": {
-      "direction": "IN"
-    },
-    "DOP2": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDR11": {
-      "direction": "IN"
-    },
-    "DIBDI1": {
-      "direction": "IN"
-    },
-    "RDCOUNT9": {
-      "direction": "OUT"
-    },
-    "DO27": {
-      "direction": "OUT"
-    },
-    "DIADI4": {
-      "direction": "IN"
-    },
-    "WRCOUNT4": {
-      "direction": "OUT"
-    },
-    "ADDRATIEHIGH0": {
-      "direction": "IN"
-    },
-    "WRCOUNT11": {
-      "direction": "OUT"
-    },
-    "EMPTY": {
-      "direction": "OUT"
-    },
-    "RDCOUNT3": {
-      "direction": "OUT"
-    },
-    "DIADI8": {
-      "direction": "IN"
-    },
-    "RDCOUNT10": {
-      "direction": "OUT"
-    },
-    "DIBDI6": {
-      "direction": "IN"
-    },
-    "DO5": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDR2": {
-      "direction": "IN"
-    },
-    "RSTREGB": {
-      "direction": "IN"
-    },
-    "DIBDI15": {
-      "direction": "IN"
-    },
-    "ADDRARDADDR4": {
-      "direction": "IN"
-    },
-    "DO29": {
-      "direction": "OUT"
-    },
-    "WRCOUNT3": {
-      "direction": "OUT"
-    },
-    "WRCOUNT8": {
-      "direction": "OUT"
-    },
-    "DO0": {
-      "direction": "OUT"
-    },
-    "DIBDI8": {
-      "direction": "IN"
-    },
-    "WREN": {
-      "direction": "IN"
-    },
-    "ADDRBTIEHIGH0": {
-      "direction": "IN"
-    },
-    "RDCOUNT4": {
-      "direction": "OUT"
-    },
-    "DO15": {
-      "direction": "OUT"
-    },
-    "RST": {
-      "direction": "IN"
-    },
-    "RDCOUNT5": {
-      "direction": "OUT"
-    },
-    "WEBWE1": {
-      "direction": "IN"
-    },
-    "DO16": {
-      "direction": "OUT"
-    },
-    "DO8": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDR12": {
-      "direction": "IN"
-    },
-    "RDCOUNT11": {
-      "direction": "OUT"
-    },
-    "DO22": {
-      "direction": "OUT"
-    },
-    "DO24": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDR0": {
-      "direction": "IN"
-    },
-    "DO20": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDR7": {
-      "direction": "IN"
-    },
-    "ADDRARDADDR9": {
-      "direction": "IN"
-    },
-    "DIPADIP1": {
-      "direction": "IN"
-    },
-    "DO3": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDR13": {
-      "direction": "IN"
-    },
-    "DIBDI12": {
-      "direction": "IN"
-    },
-    "DIPBDIP1": {
-      "direction": "IN"
-    },
-    "DO1": {
-      "direction": "OUT"
-    },
-    "WEBWE4": {
-      "direction": "IN"
-    },
-    "REGCLKB": {
-      "direction": "IN"
-    },
-    "RSTREG": {
-      "direction": "IN"
-    },
-    "ADDRARDADDR10": {
-      "direction": "IN"
-    },
-    "REGCE": {
-      "direction": "IN"
-    },
-    "DIBDI13": {
-      "direction": "IN"
-    },
-    "ADDRATIEHIGH1": {
-      "direction": "IN"
-    },
-    "WRCOUNT6": {
-      "direction": "OUT"
-    },
-    "DIBDI9": {
-      "direction": "IN"
-    },
-    "RDCOUNT8": {
-      "direction": "OUT"
-    },
-    "WEBWE6": {
-      "direction": "IN"
-    },
-    "DIBDI2": {
-      "direction": "IN"
-    },
-    "RDCLK": {
-      "direction": "IN"
-    },
-    "DIADI10": {
-      "direction": "IN"
-    },
-    "WRCLK": {
-      "direction": "IN"
-    },
-    "ADDRARDADDR13": {
-      "direction": "IN"
-    },
-    "DO23": {
-      "direction": "OUT"
-    },
-    "WEBWE2": {
-      "direction": "IN"
-    },
-    "RDCOUNT7": {
-      "direction": "OUT"
-    },
-    "WEA3": {
-      "direction": "IN"
-    },
-    "ADDRARDADDR8": {
-      "direction": "IN"
-    },
-    "ADDRARDADDR2": {
-      "direction": "IN"
-    },
-    "RDCOUNT2": {
-      "direction": "OUT"
-    },
-    "DIADI7": {
-      "direction": "IN"
-    }
-  },
   "site_pips": {
-    "RDENINV:RDEN_B": {
-      "from_pin": "RDEN_B",
+    "RSTREGINV:RSTREG_B": {
+      "from_pin": "RSTREG_B",
       "to_pin": "OUT"
     },
-    "RDCLKINV:RDCLK_B": {
-      "from_pin": "RDCLK_B",
-      "to_pin": "OUT"
-    },
-    "WRENINV:WREN_B": {
-      "from_pin": "WREN_B",
-      "to_pin": "OUT"
-    },
-    "WRCLKINV:WRCLK": {
-      "from_pin": "WRCLK",
-      "to_pin": "OUT"
-    },
-    "RDCLKINV:RDCLK": {
-      "from_pin": "RDCLK",
+    "WRCLKINV:WRCLK_B": {
+      "from_pin": "WRCLK_B",
       "to_pin": "OUT"
     },
     "RDENINV:RDEN": {
       "from_pin": "RDEN",
       "to_pin": "OUT"
     },
-    "RSTREGINV:RSTREG": {
-      "from_pin": "RSTREG",
-      "to_pin": "OUT"
-    },
-    "RSTREGINV:RSTREG_B": {
-      "from_pin": "RSTREG_B",
-      "to_pin": "OUT"
-    },
-    "RSTINV:RST_B": {
-      "from_pin": "RST_B",
-      "to_pin": "OUT"
-    },
     "RDRCLKINV:RDRCLK": {
       "from_pin": "RDRCLK",
+      "to_pin": "OUT"
+    },
+    "RSTINV:RST": {
+      "from_pin": "RST",
       "to_pin": "OUT"
     },
     "RDRCLKINV:RDRCLK_B": {
@@ -525,13 +29,509 @@
       "from_pin": "WREN",
       "to_pin": "OUT"
     },
-    "WRCLKINV:WRCLK_B": {
-      "from_pin": "WRCLK_B",
+    "RDCLKINV:RDCLK_B": {
+      "from_pin": "RDCLK_B",
       "to_pin": "OUT"
     },
-    "RSTINV:RST": {
-      "from_pin": "RST",
+    "RDCLKINV:RDCLK": {
+      "from_pin": "RDCLK",
       "to_pin": "OUT"
+    },
+    "RDENINV:RDEN_B": {
+      "from_pin": "RDEN_B",
+      "to_pin": "OUT"
+    },
+    "WRENINV:WREN_B": {
+      "from_pin": "WREN_B",
+      "to_pin": "OUT"
+    },
+    "RSTINV:RST_B": {
+      "from_pin": "RST_B",
+      "to_pin": "OUT"
+    },
+    "WRCLKINV:WRCLK": {
+      "from_pin": "WRCLK",
+      "to_pin": "OUT"
+    },
+    "RSTREGINV:RSTREG": {
+      "from_pin": "RSTREG",
+      "to_pin": "OUT"
+    }
+  },
+  "site_pins": {
+    "DO14": {
+      "direction": "OUT"
+    },
+    "DO0": {
+      "direction": "OUT"
+    },
+    "WRERR": {
+      "direction": "OUT"
+    },
+    "RDERR": {
+      "direction": "OUT"
+    },
+    "WRCOUNT9": {
+      "direction": "OUT"
+    },
+    "WRCOUNT3": {
+      "direction": "OUT"
+    },
+    "DO23": {
+      "direction": "OUT"
+    },
+    "DIBDI5": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDR5": {
+      "direction": "IN"
+    },
+    "WEA1": {
+      "direction": "IN"
+    },
+    "DIPADIP0": {
+      "direction": "IN"
+    },
+    "DO21": {
+      "direction": "OUT"
+    },
+    "DIBDI3": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDR13": {
+      "direction": "IN"
+    },
+    "WRCOUNT2": {
+      "direction": "OUT"
+    },
+    "WRCOUNT8": {
+      "direction": "OUT"
+    },
+    "RDCOUNT8": {
+      "direction": "OUT"
+    },
+    "DO29": {
+      "direction": "OUT"
+    },
+    "DIBDI7": {
+      "direction": "IN"
+    },
+    "DIBDI11": {
+      "direction": "IN"
+    },
+    "WRCOUNT5": {
+      "direction": "OUT"
+    },
+    "DOP1": {
+      "direction": "OUT"
+    },
+    "RSTREGB": {
+      "direction": "IN"
+    },
+    "REGCEB": {
+      "direction": "IN"
+    },
+    "ADDRBTIEHIGH0": {
+      "direction": "IN"
+    },
+    "DO26": {
+      "direction": "OUT"
+    },
+    "RDCOUNT7": {
+      "direction": "OUT"
+    },
+    "RDCOUNT1": {
+      "direction": "OUT"
+    },
+    "DO8": {
+      "direction": "OUT"
+    },
+    "DOP2": {
+      "direction": "OUT"
+    },
+    "WEBWE7": {
+      "direction": "IN"
+    },
+    "DO28": {
+      "direction": "OUT"
+    },
+    "DIADI0": {
+      "direction": "IN"
+    },
+    "DIBDI2": {
+      "direction": "IN"
+    },
+    "RDCOUNT0": {
+      "direction": "OUT"
+    },
+    "DO19": {
+      "direction": "OUT"
+    },
+    "FULL": {
+      "direction": "OUT"
+    },
+    "RDCOUNT4": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDR6": {
+      "direction": "IN"
+    },
+    "DIBDI12": {
+      "direction": "IN"
+    },
+    "DIBDI4": {
+      "direction": "IN"
+    },
+    "RDCOUNT10": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDR13": {
+      "direction": "IN"
+    },
+    "WRCOUNT10": {
+      "direction": "OUT"
+    },
+    "DIBDI8": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDR1": {
+      "direction": "IN"
+    },
+    "DIPBDIP0": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDR12": {
+      "direction": "IN"
+    },
+    "ADDRATIEHIGH0": {
+      "direction": "IN"
+    },
+    "WREN": {
+      "direction": "IN"
+    },
+    "RDRCLK": {
+      "direction": "IN"
+    },
+    "REGCE": {
+      "direction": "IN"
+    },
+    "DIADI5": {
+      "direction": "IN"
+    },
+    "DO24": {
+      "direction": "OUT"
+    },
+    "DO11": {
+      "direction": "OUT"
+    },
+    "DO25": {
+      "direction": "OUT"
+    },
+    "DO6": {
+      "direction": "OUT"
+    },
+    "ADDRBTIEHIGH1": {
+      "direction": "IN"
+    },
+    "DIPBDIP1": {
+      "direction": "IN"
+    },
+    "DO4": {
+      "direction": "OUT"
+    },
+    "WRCOUNT4": {
+      "direction": "OUT"
+    },
+    "DIADI13": {
+      "direction": "IN"
+    },
+    "DIADI11": {
+      "direction": "IN"
+    },
+    "DIADI15": {
+      "direction": "IN"
+    },
+    "WRCOUNT7": {
+      "direction": "OUT"
+    },
+    "RDCOUNT2": {
+      "direction": "OUT"
+    },
+    "DO18": {
+      "direction": "OUT"
+    },
+    "DO5": {
+      "direction": "OUT"
+    },
+    "DO7": {
+      "direction": "OUT"
+    },
+    "WEA0": {
+      "direction": "IN"
+    },
+    "ADDRARDADDR5": {
+      "direction": "IN"
+    },
+    "WRCOUNT1": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDR0": {
+      "direction": "IN"
+    },
+    "DIADI1": {
+      "direction": "IN"
+    },
+    "DIADI14": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDR4": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDR2": {
+      "direction": "IN"
+    },
+    "WRCOUNT0": {
+      "direction": "OUT"
+    },
+    "DIBDI6": {
+      "direction": "IN"
+    },
+    "DO2": {
+      "direction": "OUT"
+    },
+    "WEBWE6": {
+      "direction": "IN"
+    },
+    "ALMOSTFULL": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDR4": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDR6": {
+      "direction": "IN"
+    },
+    "ADDRARDADDR2": {
+      "direction": "IN"
+    },
+    "DIADI7": {
+      "direction": "IN"
+    },
+    "DIADI12": {
+      "direction": "IN"
+    },
+    "ADDRARDADDR7": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDR9": {
+      "direction": "IN"
+    },
+    "WRCOUNT11": {
+      "direction": "OUT"
+    },
+    "WEBWE3": {
+      "direction": "IN"
+    },
+    "DO16": {
+      "direction": "OUT"
+    },
+    "DOP0": {
+      "direction": "OUT"
+    },
+    "RDCOUNT6": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDR11": {
+      "direction": "IN"
+    },
+    "DO17": {
+      "direction": "OUT"
+    },
+    "DIBDI10": {
+      "direction": "IN"
+    },
+    "DO30": {
+      "direction": "OUT"
+    },
+    "RSTREG": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDR8": {
+      "direction": "IN"
+    },
+    "WEBWE5": {
+      "direction": "IN"
+    },
+    "RDEN": {
+      "direction": "IN"
+    },
+    "DIADI6": {
+      "direction": "IN"
+    },
+    "DIBDI14": {
+      "direction": "IN"
+    },
+    "DO31": {
+      "direction": "OUT"
+    },
+    "DIBDI9": {
+      "direction": "IN"
+    },
+    "WRCOUNT6": {
+      "direction": "OUT"
+    },
+    "DO13": {
+      "direction": "OUT"
+    },
+    "DIBDI13": {
+      "direction": "IN"
+    },
+    "ALMOSTEMPTY": {
+      "direction": "OUT"
+    },
+    "DO27": {
+      "direction": "OUT"
+    },
+    "WEA2": {
+      "direction": "IN"
+    },
+    "ADDRARDADDR10": {
+      "direction": "IN"
+    },
+    "WRCLK": {
+      "direction": "IN"
+    },
+    "DIPADIP1": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDR11": {
+      "direction": "IN"
+    },
+    "DOP3": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDR9": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDR10": {
+      "direction": "IN"
+    },
+    "WEA3": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDR3": {
+      "direction": "IN"
+    },
+    "EMPTY": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDR8": {
+      "direction": "IN"
+    },
+    "DIADI3": {
+      "direction": "IN"
+    },
+    "DO10": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDR7": {
+      "direction": "IN"
+    },
+    "WEBWE4": {
+      "direction": "IN"
+    },
+    "RDCOUNT11": {
+      "direction": "OUT"
+    },
+    "WEBWE1": {
+      "direction": "IN"
+    },
+    "RDCOUNT5": {
+      "direction": "OUT"
+    },
+    "DO12": {
+      "direction": "OUT"
+    },
+    "DO1": {
+      "direction": "OUT"
+    },
+    "RDCOUNT3": {
+      "direction": "OUT"
+    },
+    "RDCLK": {
+      "direction": "IN"
+    },
+    "DIADI2": {
+      "direction": "IN"
+    },
+    "ADDRARDADDR1": {
+      "direction": "IN"
+    },
+    "DIADI10": {
+      "direction": "IN"
+    },
+    "RST": {
+      "direction": "IN"
+    },
+    "DO15": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDR3": {
+      "direction": "IN"
+    },
+    "DO22": {
+      "direction": "OUT"
+    },
+    "DIBDI0": {
+      "direction": "IN"
+    },
+    "DIBDI15": {
+      "direction": "IN"
+    },
+    "RSTRAMB": {
+      "direction": "IN"
+    },
+    "DO20": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDR12": {
+      "direction": "IN"
+    },
+    "DIADI9": {
+      "direction": "IN"
+    },
+    "RDCOUNT9": {
+      "direction": "OUT"
+    },
+    "DIADI4": {
+      "direction": "IN"
+    },
+    "ADDRATIEHIGH1": {
+      "direction": "IN"
+    },
+    "WEBWE0": {
+      "direction": "IN"
+    },
+    "DIBDI1": {
+      "direction": "IN"
+    },
+    "DO9": {
+      "direction": "OUT"
+    },
+    "REGCLKB": {
+      "direction": "IN"
+    },
+    "WEBWE2": {
+      "direction": "IN"
+    },
+    "ADDRARDADDR0": {
+      "direction": "IN"
+    },
+    "DIADI8": {
+      "direction": "IN"
+    },
+    "DO3": {
+      "direction": "OUT"
     }
   }
 }

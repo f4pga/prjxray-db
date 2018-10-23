@@ -1,1865 +1,40 @@
 {
   "type": "GTPE2_CHANNEL",
-  "site_pins": {
-    "LOOPBACK2": {
-      "direction": "IN"
-    },
-    "PCSRSVDIN15": {
-      "direction": "IN"
-    },
-    "TXELECIDLE": {
-      "direction": "IN"
-    },
-    "RXLPMOSINTNTRLEN": {
-      "direction": "IN"
-    },
-    "TXDATA10": {
-      "direction": "IN"
-    },
-    "RXOSINTDONE": {
-      "direction": "OUT"
-    },
-    "RXSYSCLKSEL0": {
-      "direction": "IN"
-    },
-    "TXDATA1": {
-      "direction": "IN"
-    },
-    "DRPWE": {
-      "direction": "IN"
-    },
-    "TXSYNCDONE": {
-      "direction": "OUT"
-    },
-    "TSTIN1": {
-      "direction": "IN"
-    },
-    "DRPDI10": {
-      "direction": "IN"
-    },
-    "TSTPDOVRDB": {
-      "direction": "IN"
-    },
-    "RXPRBSSEL2": {
-      "direction": "IN"
-    },
-    "SETERRSTATUS": {
-      "direction": "IN"
-    },
-    "DRPADDR4": {
-      "direction": "IN"
-    },
-    "RXDDIEN": {
-      "direction": "IN"
-    },
-    "GTRSVD8": {
-      "direction": "IN"
-    },
-    "TSTPD2": {
-      "direction": "IN"
-    },
-    "RXPCOMMAALIGNEN": {
-      "direction": "IN"
-    },
-    "PCSRSVDOUT1": {
-      "direction": "OUT"
-    },
-    "DRPDO1": {
-      "direction": "OUT"
-    },
-    "RXHEADERVALID": {
-      "direction": "OUT"
-    },
-    "DRPDO7": {
-      "direction": "OUT"
-    },
-    "RXSYNCMODE": {
-      "direction": "IN"
-    },
-    "DRPDO5": {
-      "direction": "OUT"
-    },
-    "PMASCANOUT3": {
-      "direction": "OUT"
-    },
-    "RXSTATUS2": {
-      "direction": "OUT"
-    },
-    "TXMAINCURSOR0": {
-      "direction": "IN"
-    },
-    "TXPDELECIDLEMODE": {
-      "direction": "IN"
-    },
-    "TXPRBSFORCEERR": {
-      "direction": "IN"
-    },
-    "TXDEEMPH": {
-      "direction": "IN"
-    },
-    "RXDATA13": {
-      "direction": "OUT"
-    },
-    "TSTPD1": {
-      "direction": "IN"
-    },
-    "RXDATA4": {
-      "direction": "OUT"
-    },
-    "GTPTXN": {
-      "direction": "OUT"
-    },
-    "TXPOSTCURSOR3": {
-      "direction": "IN"
-    },
-    "GTRSVD3": {
-      "direction": "IN"
-    },
-    "PCSRSVDIN13": {
-      "direction": "IN"
-    },
-    "TXGEARBOXREADY": {
-      "direction": "OUT"
-    },
-    "RXDLYOVRDEN": {
-      "direction": "IN"
-    },
-    "TXDATA30": {
-      "direction": "IN"
-    },
-    "TXMAINCURSOR4": {
-      "direction": "IN"
-    },
-    "TXMARGIN1": {
-      "direction": "IN"
-    },
-    "RXCHBONDI0": {
-      "direction": "IN"
-    },
-    "TXDATA9": {
-      "direction": "IN"
-    },
-    "RXDATAVALID1": {
-      "direction": "OUT"
-    },
-    "RXUSRCLK2": {
-      "direction": "IN"
-    },
-    "RXNOTINTABLE0": {
-      "direction": "OUT"
-    },
-    "TXMARGIN0": {
-      "direction": "IN"
-    },
-    "TXSYNCALLIN": {
-      "direction": "IN"
-    },
-    "TXPOSTCURSOR0": {
-      "direction": "IN"
-    },
-    "TXDATA5": {
-      "direction": "IN"
-    },
-    "RXLPMLFHOLD": {
-      "direction": "IN"
-    },
-    "RXADAPTSELTEST8": {
-      "direction": "IN"
-    },
-    "RXCHBONDO0": {
-      "direction": "OUT"
-    },
-    "TXMAINCURSOR5": {
-      "direction": "IN"
-    },
-    "PLL0REFCLK": {
-      "direction": "IN"
-    },
-    "DRPDO13": {
-      "direction": "OUT"
-    },
-    "RXPHSLIPMONITOR0": {
-      "direction": "OUT"
-    },
-    "RXDLYSRESET": {
-      "direction": "IN"
-    },
-    "TXCOMINIT": {
-      "direction": "IN"
-    },
-    "RXDATA22": {
-      "direction": "OUT"
-    },
-    "PMASCANIN6": {
-      "direction": "IN"
-    },
-    "RXOSINTSTROBESTARTED": {
-      "direction": "OUT"
-    },
-    "RXOUTCLK": {
-      "direction": "OUT"
-    },
-    "SCANIN3": {
-      "direction": "IN"
-    },
-    "RXCHARISCOMMA0": {
-      "direction": "OUT"
-    },
-    "RXCHARISCOMMA3": {
-      "direction": "OUT"
-    },
-    "PCSRSVDIN12": {
-      "direction": "IN"
-    },
-    "PCSRSVDIN14": {
-      "direction": "IN"
-    },
-    "TSTCLK0": {
-      "direction": "IN"
-    },
-    "EYESCANRESET": {
-      "direction": "IN"
-    },
-    "DRPCLK": {
-      "direction": "IN"
-    },
-    "RXPRBSERR": {
-      "direction": "OUT"
-    },
-    "PCSRSVDOUT6": {
-      "direction": "OUT"
-    },
-    "DRPDI9": {
-      "direction": "IN"
-    },
-    "PMASCANOUT1": {
-      "direction": "OUT"
-    },
-    "RXDATA24": {
-      "direction": "OUT"
-    },
-    "TXSEQUENCE2": {
-      "direction": "IN"
-    },
-    "TXOUTCLKPCS": {
-      "direction": "OUT"
-    },
-    "RXDATA3": {
-      "direction": "OUT"
-    },
-    "RXOUTCLKSEL1": {
-      "direction": "IN"
-    },
-    "RXCHARISCOMMA2": {
-      "direction": "OUT"
-    },
-    "RXDLYEN": {
-      "direction": "IN"
-    },
-    "TXPRECURSOR2": {
-      "direction": "IN"
-    },
-    "GTRSVD9": {
-      "direction": "IN"
-    },
-    "TXPRBSSEL2": {
-      "direction": "IN"
-    },
-    "TXDATA2": {
-      "direction": "IN"
-    },
-    "RXOSINTSTROBE": {
-      "direction": "IN"
-    },
-    "PLL1CLK": {
-      "direction": "IN"
-    },
-    "TXPRECURSOR3": {
-      "direction": "IN"
-    },
-    "TXMAINCURSOR2": {
-      "direction": "IN"
-    },
-    "EYESCANMODE": {
-      "direction": "IN"
-    },
-    "GTRSVD6": {
-      "direction": "IN"
-    },
-    "TSTIN12": {
-      "direction": "IN"
-    },
-    "TXDATA6": {
-      "direction": "IN"
-    },
-    "TXRESETDONE": {
-      "direction": "OUT"
-    },
-    "SCANIN2": {
-      "direction": "IN"
-    },
-    "TSTIN5": {
-      "direction": "IN"
-    },
-    "RXPMARESET": {
-      "direction": "IN"
-    },
-    "RXDATA0": {
-      "direction": "OUT"
-    },
-    "PCSRSVDIN0": {
-      "direction": "IN"
-    },
-    "RXDLYBYPASS": {
-      "direction": "IN"
-    },
-    "TXDIFFCTRL2": {
-      "direction": "IN"
-    },
-    "TXDATA28": {
-      "direction": "IN"
-    },
-    "TXCOMFINISH": {
-      "direction": "OUT"
-    },
-    "RXDATA7": {
-      "direction": "OUT"
-    },
-    "RXOUTCLKSEL2": {
-      "direction": "IN"
-    },
-    "TXPHALIGNDONE": {
-      "direction": "OUT"
-    },
-    "DRPDO2": {
-      "direction": "OUT"
-    },
-    "TXDATA17": {
-      "direction": "IN"
-    },
-    "TXPHDLYPD": {
-      "direction": "IN"
-    },
-    "TXCHARDISPVAL1": {
-      "direction": "IN"
-    },
-    "TXSYNCIN": {
-      "direction": "IN"
-    },
-    "RXOOBRESET": {
-      "direction": "IN"
-    },
-    "RXPHALIGN": {
-      "direction": "IN"
-    },
-    "RXRATE0": {
-      "direction": "IN"
-    },
-    "LOOPBACK1": {
-      "direction": "IN"
-    },
-    "PCSRSVDIN6": {
-      "direction": "IN"
-    },
-    "RXCHBONDI2": {
-      "direction": "IN"
-    },
-    "RXBYTEREALIGN": {
-      "direction": "OUT"
-    },
-    "PMASCANCLK1": {
-      "direction": "IN"
-    },
-    "RXHEADER2": {
-      "direction": "OUT"
-    },
-    "RXCHBONDLEVEL2": {
-      "direction": "IN"
-    },
-    "PMASCANIN4": {
-      "direction": "IN"
-    },
-    "RXSTATUS1": {
-      "direction": "OUT"
-    },
-    "TXCHARDISPMODE0": {
-      "direction": "IN"
-    },
-    "RXDATA31": {
-      "direction": "OUT"
-    },
-    "RXDATA10": {
-      "direction": "OUT"
-    },
-    "DRPDO9": {
-      "direction": "OUT"
-    },
-    "RXPHSLIPMONITOR2": {
-      "direction": "OUT"
-    },
-    "PCSRSVDOUT9": {
-      "direction": "OUT"
-    },
-    "TXCHARISK1": {
-      "direction": "IN"
-    },
-    "DRPDI2": {
-      "direction": "IN"
-    },
-    "TXRUNDISP3": {
-      "direction": "OUT"
-    },
-    "GTTXRESET": {
-      "direction": "IN"
-    },
-    "RXPHMONITOR1": {
-      "direction": "OUT"
-    },
-    "RXCDRRESETRSV": {
-      "direction": "IN"
-    },
-    "PMARSVDIN1": {
-      "direction": "IN"
-    },
-    "DMONITOROUT11": {
-      "direction": "OUT"
-    },
-    "RXNOTINTABLE3": {
-      "direction": "OUT"
-    },
-    "RXPHMONITOR2": {
-      "direction": "OUT"
-    },
-    "TXRUNDISP2": {
-      "direction": "OUT"
-    },
-    "PMARSVDOUT0": {
-      "direction": "OUT"
-    },
-    "TXDATA0": {
-      "direction": "IN"
-    },
-    "SCANCLK": {
-      "direction": "IN"
-    },
-    "RXCHBONDSLAVE": {
-      "direction": "IN"
-    },
-    "DRPDI15": {
-      "direction": "IN"
-    },
-    "RXCOMMADET": {
-      "direction": "OUT"
-    },
-    "RXCDRRESET": {
-      "direction": "IN"
-    },
-    "TXDIFFCTRL3": {
-      "direction": "IN"
-    },
-    "RXCHBONDO1": {
-      "direction": "OUT"
-    },
-    "DRPDI3": {
-      "direction": "IN"
-    },
-    "DRPDO3": {
-      "direction": "OUT"
-    },
-    "GTRSVD1": {
-      "direction": "IN"
-    },
-    "TXDATA20": {
-      "direction": "IN"
-    },
-    "TXDLYTESTENB": {
-      "direction": "IN"
-    },
-    "RXMCOMMAALIGNEN": {
-      "direction": "IN"
-    },
-    "GTRESETSEL": {
-      "direction": "IN"
-    },
-    "PCSRSVDOUT11": {
-      "direction": "OUT"
-    },
-    "DRPADDR7": {
-      "direction": "IN"
-    },
-    "LOOPBACK0": {
-      "direction": "IN"
-    },
-    "TXPRECURSOR4": {
-      "direction": "IN"
-    },
-    "TSTIN13": {
-      "direction": "IN"
-    },
-    "RXBUFSTATUS1": {
-      "direction": "OUT"
-    },
-    "TXDATA13": {
-      "direction": "IN"
-    },
-    "TXPOSTCURSORINV": {
-      "direction": "IN"
-    },
-    "DRPDO4": {
-      "direction": "OUT"
-    },
-    "PMARSVDOUT1": {
-      "direction": "OUT"
-    },
-    "PMASCANOUT0": {
-      "direction": "OUT"
-    },
-    "RXPD0": {
-      "direction": "IN"
-    },
-    "TXSEQUENCE3": {
-      "direction": "IN"
-    },
-    "RXCHANREALIGN": {
-      "direction": "OUT"
-    },
-    "RXRATE1": {
-      "direction": "IN"
-    },
-    "TXDETECTRX": {
-      "direction": "IN"
-    },
-    "DRPDI13": {
-      "direction": "IN"
-    },
-    "RXOSINTCFG0": {
-      "direction": "IN"
-    },
-    "SCANOUT3": {
-      "direction": "OUT"
-    },
-    "RXOSINTID03": {
-      "direction": "IN"
-    },
-    "TSTIN16": {
-      "direction": "IN"
-    },
-    "RXOSINTSTROBEDONE": {
-      "direction": "OUT"
-    },
-    "TXDLYSRESETDONE": {
-      "direction": "OUT"
-    },
-    "SCANIN1": {
-      "direction": "IN"
-    },
-    "RXDATA1": {
-      "direction": "OUT"
-    },
-    "TXSWING": {
-      "direction": "IN"
-    },
-    "PMASCANRSTEN": {
-      "direction": "IN"
-    },
-    "DRPADDR1": {
-      "direction": "IN"
-    },
-    "RXCHBONDMASTER": {
-      "direction": "IN"
-    },
-    "DRPDI5": {
-      "direction": "IN"
-    },
-    "PMASCANOUT6": {
-      "direction": "OUT"
-    },
-    "DRPDO10": {
-      "direction": "OUT"
-    },
-    "RXOSINTOVRDEN": {
-      "direction": "IN"
-    },
-    "TXPCSRESET": {
-      "direction": "IN"
-    },
-    "DRPDO0": {
-      "direction": "OUT"
-    },
-    "TXPIPPMSTEPSIZE1": {
-      "direction": "IN"
-    },
-    "PCSRSVDIN9": {
-      "direction": "IN"
-    },
-    "TSTIN0": {
-      "direction": "IN"
-    },
-    "TXRATEMODE": {
-      "direction": "IN"
-    },
-    "TXCOMSAS": {
-      "direction": "IN"
-    },
-    "RXRATE2": {
-      "direction": "IN"
-    },
-    "PCSRSVDOUT2": {
-      "direction": "OUT"
-    },
-    "RXPHDLYPD": {
-      "direction": "IN"
-    },
-    "TXDLYHOLD": {
-      "direction": "IN"
-    },
-    "TXPRECURSORINV": {
-      "direction": "IN"
-    },
-    "PCSRSVDOUT5": {
-      "direction": "OUT"
-    },
-    "RXOUTCLKPCS": {
-      "direction": "OUT"
-    },
-    "TXOUTCLKFABRIC": {
-      "direction": "OUT"
-    },
-    "RXELECIDLEMODE0": {
-      "direction": "IN"
-    },
-    "DRPDO12": {
-      "direction": "OUT"
-    },
-    "RXCHBONDO2": {
-      "direction": "OUT"
-    },
-    "RXDATA8": {
-      "direction": "OUT"
-    },
-    "RXCHBONDI3": {
-      "direction": "IN"
-    },
-    "PCSRSVDOUT13": {
-      "direction": "OUT"
-    },
-    "PCSRSVDIN3": {
-      "direction": "IN"
-    },
-    "TXPMARESETDONE": {
-      "direction": "OUT"
-    },
-    "TXDATA15": {
-      "direction": "IN"
-    },
-    "TXCHARDISPMODE3": {
-      "direction": "IN"
-    },
-    "TXPIPPMSEL": {
-      "direction": "IN"
-    },
-    "RXBUFRESET": {
-      "direction": "IN"
-    },
-    "TXCHARDISPVAL2": {
-      "direction": "IN"
-    },
-    "TXPHINITDONE": {
-      "direction": "OUT"
-    },
-    "TXRATE2": {
-      "direction": "IN"
-    },
-    "TSTIN4": {
-      "direction": "IN"
-    },
-    "TXDATA25": {
-      "direction": "IN"
-    },
-    "RXDATA5": {
-      "direction": "OUT"
-    },
-    "RX8B10BEN": {
-      "direction": "IN"
-    },
-    "TXDLYEN": {
-      "direction": "IN"
-    },
-    "RXCOMMADETEN": {
-      "direction": "IN"
-    },
-    "RXADAPTSELTEST7": {
-      "direction": "IN"
-    },
-    "TXDATA18": {
-      "direction": "IN"
-    },
-    "EYESCANTRIGGER": {
-      "direction": "IN"
-    },
-    "TXRATE1": {
-      "direction": "IN"
-    },
-    "DRPDO14": {
-      "direction": "OUT"
-    },
-    "RXDATA12": {
-      "direction": "OUT"
-    },
-    "RXDISPERR2": {
-      "direction": "OUT"
-    },
-    "RXADAPTSELTEST1": {
-      "direction": "IN"
-    },
-    "TSTPD0": {
-      "direction": "IN"
-    },
-    "RXOSINTID02": {
-      "direction": "IN"
-    },
-    "RXPHALIGNEN": {
-      "direction": "IN"
-    },
-    "RXADAPTSELTEST5": {
-      "direction": "IN"
-    },
-    "DRPDO8": {
-      "direction": "OUT"
-    },
-    "DMONITOROUT1": {
-      "direction": "OUT"
-    },
-    "TSTIN15": {
-      "direction": "IN"
-    },
-    "RXSTARTOFSEQ0": {
-      "direction": "OUT"
-    },
-    "PCSRSVDOUT4": {
-      "direction": "OUT"
-    },
-    "DRPDI11": {
-      "direction": "IN"
-    },
-    "TXPHOVRDEN": {
-      "direction": "IN"
-    },
-    "RXCHBONDO3": {
-      "direction": "OUT"
-    },
-    "TXUSRCLK": {
-      "direction": "IN"
-    },
-    "PMASCANOUT4": {
-      "direction": "OUT"
-    },
-    "RXDATA15": {
-      "direction": "OUT"
-    },
-    "DRPADDR5": {
-      "direction": "IN"
-    },
-    "DMONITOROUT0": {
-      "direction": "OUT"
-    },
-    "TXHEADER2": {
-      "direction": "IN"
-    },
-    "TXBUFSTATUS1": {
-      "direction": "OUT"
-    },
-    "PMASCANOUT2": {
-      "direction": "OUT"
-    },
-    "TXDATA23": {
-      "direction": "IN"
-    },
-    "RXOSOVRDEN": {
-      "direction": "IN"
-    },
-    "RXCHBONDI1": {
-      "direction": "IN"
-    },
-    "TXDLYUPDOWN": {
-      "direction": "IN"
-    },
-    "TXPIPPMPD": {
-      "direction": "IN"
-    },
-    "TXDLYOVRDEN": {
-      "direction": "IN"
-    },
-    "TXCHARDISPMODE2": {
-      "direction": "IN"
-    },
-    "RXPRBSCNTRESET": {
-      "direction": "IN"
-    },
-    "TXSYSCLKSEL0": {
-      "direction": "IN"
-    },
-    "TXDATA19": {
-      "direction": "IN"
-    },
-    "DRPDI1": {
-      "direction": "IN"
-    },
-    "RXOSINTPD": {
-      "direction": "IN"
-    },
-    "PMASCANCLK0": {
-      "direction": "IN"
-    },
-    "GTRSVD0": {
-      "direction": "IN"
-    },
-    "DRPDI12": {
-      "direction": "IN"
-    },
-    "PCSRSVDIN7": {
-      "direction": "IN"
-    },
-    "RXSYNCIN": {
-      "direction": "IN"
-    },
-    "TSTIN7": {
-      "direction": "IN"
-    },
-    "TXCHARISK3": {
-      "direction": "IN"
-    },
-    "RXOUTCLKSEL0": {
-      "direction": "IN"
-    },
-    "RXCHBONDLEVEL0": {
-      "direction": "IN"
-    },
-    "RXDLYTESTENB": {
-      "direction": "IN"
-    },
-    "TSTIN3": {
-      "direction": "IN"
-    },
-    "DRPDO15": {
-      "direction": "OUT"
-    },
-    "TX8B10BBYPASS1": {
-      "direction": "IN"
-    },
-    "RXPHMONITOR4": {
-      "direction": "OUT"
-    },
-    "RXPMARESETDONE": {
-      "direction": "OUT"
-    },
-    "RXSYSCLKSEL1": {
-      "direction": "IN"
-    },
-    "TXPMARESET": {
-      "direction": "IN"
-    },
-    "RXSLIDE": {
-      "direction": "IN"
-    },
-    "TXPD0": {
-      "direction": "IN"
-    },
-    "TXPIPPMEN": {
-      "direction": "IN"
-    },
-    "RXPHSLIPMONITOR1": {
-      "direction": "OUT"
-    },
-    "RXADAPTSELTEST4": {
-      "direction": "IN"
-    },
-    "RXADAPTSELTEST6": {
-      "direction": "IN"
-    },
-    "RXDATA28": {
-      "direction": "OUT"
-    },
-    "TXPIPPMSTEPSIZE4": {
-      "direction": "IN"
-    },
-    "TXDATA22": {
-      "direction": "IN"
-    },
-    "RXCDROVRDEN": {
-      "direction": "IN"
-    },
-    "TXDIFFPD": {
-      "direction": "IN"
-    },
-    "PMASCANIN5": {
-      "direction": "IN"
-    },
-    "RXPD1": {
-      "direction": "IN"
-    },
-    "TXDATA7": {
-      "direction": "IN"
-    },
-    "PCSRSVDIN10": {
-      "direction": "IN"
-    },
-    "PMASCANENB": {
-      "direction": "IN"
-    },
-    "RXDATA30": {
-      "direction": "OUT"
-    },
-    "DRPDI6": {
-      "direction": "IN"
-    },
-    "GTPRXP": {
-      "direction": "IN"
-    },
-    "SCANOUT0": {
-      "direction": "OUT"
-    },
-    "DMONITORCLK": {
-      "direction": "IN"
-    },
-    "GTPTXP": {
-      "direction": "OUT"
-    },
-    "TXBUFDIFFCTRL1": {
-      "direction": "IN"
-    },
-    "RXPHOVRDEN": {
-      "direction": "IN"
-    },
-    "RXDFEXYDEN": {
-      "direction": "IN"
-    },
-    "RXDATA17": {
-      "direction": "OUT"
-    },
-    "TX8B10BBYPASS3": {
-      "direction": "IN"
-    },
-    "RXCHARISK1": {
-      "direction": "OUT"
-    },
-    "TXOUTCLKSEL2": {
-      "direction": "IN"
-    },
-    "PMASCANCLK2": {
-      "direction": "IN"
-    },
-    "PCSRSVDOUT14": {
-      "direction": "OUT"
-    },
-    "RXCOMWAKEDET": {
-      "direction": "OUT"
-    },
-    "RXDATA11": {
-      "direction": "OUT"
-    },
-    "RXSYNCOUT": {
-      "direction": "OUT"
-    },
-    "DMONITOROUT3": {
-      "direction": "OUT"
-    },
-    "TXPRECURSOR1": {
-      "direction": "IN"
-    },
-    "PCSRSVDIN11": {
-      "direction": "IN"
-    },
-    "TXPHINIT": {
-      "direction": "IN"
-    },
-    "RXHEADER0": {
-      "direction": "OUT"
-    },
-    "RXADAPTSELTEST0": {
-      "direction": "IN"
-    },
-    "TXDATA3": {
-      "direction": "IN"
-    },
-    "RXSYNCDONE": {
-      "direction": "OUT"
-    },
-    "TXDLYSRESET": {
-      "direction": "IN"
-    },
-    "TXPRBSSEL1": {
-      "direction": "IN"
-    },
-    "GTRSVD5": {
-      "direction": "IN"
-    },
-    "RXCLKCORCNT1": {
-      "direction": "OUT"
-    },
-    "TSTIN14": {
-      "direction": "IN"
-    },
-    "RXOSINTHOLD": {
-      "direction": "IN"
-    },
-    "RXPHSLIPMONITOR4": {
-      "direction": "OUT"
-    },
-    "RXDEBUGPULSE": {
-      "direction": "IN"
-    },
-    "TXSTARTSEQ": {
-      "direction": "IN"
-    },
-    "TXDATA11": {
-      "direction": "IN"
-    },
-    "TSTIN10": {
-      "direction": "IN"
-    },
-    "TXCHARISK0": {
-      "direction": "IN"
-    },
-    "RXBUFSTATUS2": {
-      "direction": "OUT"
-    },
-    "TXCHARDISPMODE1": {
-      "direction": "IN"
-    },
-    "GTRSVD2": {
-      "direction": "IN"
-    },
-    "TXSEQUENCE0": {
-      "direction": "IN"
-    },
-    "TSTIN17": {
-      "direction": "IN"
-    },
-    "TXDATA26": {
-      "direction": "IN"
-    },
-    "RXLPMLFOVRDEN": {
-      "direction": "IN"
-    },
-    "PMARSVDIN4": {
-      "direction": "IN"
-    },
-    "DMONITOROUT4": {
-      "direction": "OUT"
-    },
-    "RXOSINTCFG1": {
-      "direction": "IN"
-    },
-    "RXBUFSTATUS0": {
-      "direction": "OUT"
-    },
-    "TXDATA24": {
-      "direction": "IN"
-    },
-    "RXDATA19": {
-      "direction": "OUT"
-    },
-    "TXCHARDISPVAL3": {
-      "direction": "IN"
-    },
-    "TXRUNDISP1": {
-      "direction": "OUT"
-    },
-    "TXDATA8": {
-      "direction": "IN"
-    },
-    "TXDIFFCTRL1": {
-      "direction": "IN"
-    },
-    "RXCOMINITDET": {
-      "direction": "OUT"
-    },
-    "DMONITOROUT5": {
-      "direction": "OUT"
-    },
-    "RXPHALIGNDONE": {
-      "direction": "OUT"
-    },
-    "TXPOSTCURSOR1": {
-      "direction": "IN"
-    },
-    "TXPISOPD": {
-      "direction": "IN"
-    },
-    "TXDATA21": {
-      "direction": "IN"
-    },
-    "PLL0CLK": {
-      "direction": "IN"
-    },
-    "DRPDI14": {
-      "direction": "IN"
-    },
-    "TXDATA31": {
-      "direction": "IN"
-    },
-    "PLL1REFCLK": {
-      "direction": "IN"
-    },
-    "TSTPD3": {
-      "direction": "IN"
-    },
-    "RXOSINTID01": {
-      "direction": "IN"
-    },
-    "RESETOVRD": {
-      "direction": "IN"
-    },
-    "TXPRBSSEL0": {
-      "direction": "IN"
-    },
-    "TXDATA27": {
-      "direction": "IN"
-    },
-    "RXADAPTSELTEST12": {
-      "direction": "IN"
-    },
-    "TXDATA4": {
-      "direction": "IN"
-    },
-    "CLKRSVD0": {
-      "direction": "IN"
-    },
-    "TXDATA14": {
-      "direction": "IN"
-    },
-    "RXPHMONITOR3": {
-      "direction": "OUT"
-    },
-    "SCANOUT1": {
-      "direction": "OUT"
-    },
-    "RXDATA23": {
-      "direction": "OUT"
-    },
-    "SCANIN5": {
-      "direction": "IN"
-    },
-    "TXMARGIN2": {
-      "direction": "IN"
-    },
-    "TXUSERRDY": {
-      "direction": "IN"
-    },
-    "TXOUTCLKSEL1": {
-      "direction": "IN"
-    },
-    "DMONITOROUT7": {
-      "direction": "OUT"
-    },
-    "PMARSVDIN0": {
-      "direction": "IN"
-    },
-    "DMONITOROUT13": {
-      "direction": "OUT"
-    },
-    "RXSYNCALLIN": {
-      "direction": "IN"
-    },
-    "DMONITOROUT8": {
-      "direction": "OUT"
-    },
-    "RXDATA21": {
-      "direction": "OUT"
-    },
-    "RXSTARTOFSEQ1": {
-      "direction": "OUT"
-    },
-    "TXOUTCLK": {
-      "direction": "OUT"
-    },
-    "TXPHALIGNEN": {
-      "direction": "IN"
-    },
-    "DMONITOROUT9": {
-      "direction": "OUT"
-    },
-    "TXPHALIGN": {
-      "direction": "IN"
-    },
-    "EYESCANDATAERROR": {
-      "direction": "OUT"
-    },
-    "RXDATA16": {
-      "direction": "OUT"
-    },
-    "DRPADDR2": {
-      "direction": "IN"
-    },
-    "TXDLYBYPASS": {
-      "direction": "IN"
-    },
-    "TXPOSTCURSOR4": {
-      "direction": "IN"
-    },
-    "CFGRESET": {
-      "direction": "IN"
-    },
-    "RXCHARISK3": {
-      "direction": "OUT"
-    },
-    "DRPADDR8": {
-      "direction": "IN"
-    },
-    "RXELECIDLEMODE1": {
-      "direction": "IN"
-    },
-    "PCSRSVDIN8": {
-      "direction": "IN"
-    },
-    "TXBUFDIFFCTRL2": {
-      "direction": "IN"
-    },
-    "DRPEN": {
-      "direction": "IN"
-    },
-    "RXADAPTSELTEST2": {
-      "direction": "IN"
-    },
-    "TXSEQUENCE5": {
-      "direction": "IN"
-    },
-    "TXBUFDIFFCTRL0": {
-      "direction": "IN"
-    },
-    "RXDATA27": {
-      "direction": "OUT"
-    },
-    "SCANOUT2": {
-      "direction": "OUT"
-    },
-    "TXDATA16": {
-      "direction": "IN"
-    },
-    "RXCHANISALIGNED": {
-      "direction": "OUT"
-    },
-    "PMASCANCLK3": {
-      "direction": "IN"
-    },
-    "TSTIN8": {
-      "direction": "IN"
-    },
-    "RXDATA2": {
-      "direction": "OUT"
-    },
-    "PCSRSVDIN2": {
-      "direction": "IN"
-    },
-    "RXRATEMODE": {
-      "direction": "IN"
-    },
-    "RXPOLARITY": {
-      "direction": "IN"
-    },
-    "TXBUFSTATUS0": {
-      "direction": "OUT"
-    },
-    "DRPDI7": {
-      "direction": "IN"
-    },
-    "TXDATA29": {
-      "direction": "IN"
-    },
-    "CLKRSVD1": {
-      "direction": "IN"
-    },
-    "RXCLKCORCNT0": {
-      "direction": "OUT"
-    },
-    "RXADAPTSELTEST10": {
-      "direction": "IN"
-    },
-    "GTRSVD13": {
-      "direction": "IN"
-    },
-    "TXMAINCURSOR3": {
-      "direction": "IN"
-    },
-    "GTRSVD11": {
-      "direction": "IN"
-    },
-    "TXSYNCMODE": {
-      "direction": "IN"
-    },
-    "RXCHBONDLEVEL1": {
-      "direction": "IN"
-    },
-    "PCSRSVDOUT3": {
-      "direction": "OUT"
-    },
-    "RXPHMONITOR0": {
-      "direction": "OUT"
-    },
-    "RXDLYSRESETDONE": {
-      "direction": "OUT"
-    },
-    "TXHEADER0": {
-      "direction": "IN"
-    },
-    "RXNOTINTABLE1": {
-      "direction": "OUT"
-    },
-    "DMONITOROUT14": {
-      "direction": "OUT"
-    },
-    "TSTIN2": {
-      "direction": "IN"
-    },
-    "DMONFIFORESET": {
-      "direction": "IN"
-    },
-    "RXADAPTSELTEST13": {
-      "direction": "IN"
-    },
-    "RXDATA9": {
-      "direction": "OUT"
-    },
-    "RXRATEDONE": {
-      "direction": "OUT"
-    },
-    "RXGEARBOXSLIP": {
-      "direction": "IN"
-    },
-    "DRPRDY": {
-      "direction": "OUT"
-    },
-    "TSTCLK1": {
-      "direction": "IN"
-    },
-    "RXPCSRESET": {
-      "direction": "IN"
-    },
-    "RXLPMHFHOLD": {
-      "direction": "IN"
-    },
-    "GTRSVD10": {
-      "direction": "IN"
-    },
-    "SCANOUT4": {
-      "direction": "OUT"
-    },
-    "RXSTATUS0": {
-      "direction": "OUT"
-    },
-    "RXDATA25": {
-      "direction": "OUT"
-    },
-    "TXPHDLYRESET": {
-      "direction": "IN"
-    },
-    "RXDATA14": {
-      "direction": "OUT"
-    },
-    "TSTIN19": {
-      "direction": "IN"
-    },
-    "RXCHARISK2": {
-      "direction": "OUT"
-    },
-    "RXLPMHFOVRDEN": {
-      "direction": "IN"
-    },
-    "RXDATA18": {
-      "direction": "OUT"
-    },
-    "PCSRSVDOUT8": {
-      "direction": "OUT"
-    },
-    "RXRESETDONE": {
-      "direction": "OUT"
-    },
-    "TXPOSTCURSOR2": {
-      "direction": "IN"
-    },
-    "RXVALID": {
-      "direction": "OUT"
-    },
-    "PMASCANIN3": {
-      "direction": "IN"
-    },
-    "TXRATEDONE": {
-      "direction": "OUT"
-    },
-    "RXDISPERR1": {
-      "direction": "OUT"
-    },
-    "TSTIN18": {
-      "direction": "IN"
-    },
-    "RXADAPTSELTEST11": {
-      "direction": "IN"
-    },
-    "TXCOMWAKE": {
-      "direction": "IN"
-    },
-    "RXDISPERR3": {
-      "direction": "OUT"
-    },
-    "RXCHARISK0": {
-      "direction": "OUT"
-    },
-    "TXPIPPMSTEPSIZE2": {
-      "direction": "IN"
-    },
-    "GTRSVD12": {
-      "direction": "IN"
-    },
-    "PMARSVDIN3": {
-      "direction": "IN"
-    },
-    "RXLPMRESET": {
-      "direction": "IN"
-    },
-    "SIGVALIDCLK": {
-      "direction": "IN"
-    },
-    "PCSRSVDOUT15": {
-      "direction": "OUT"
-    },
-    "PCSRSVDIN1": {
-      "direction": "IN"
-    },
-    "SCANENB": {
-      "direction": "IN"
-    },
-    "RXCDRHOLD": {
-      "direction": "IN"
-    },
-    "RXPRBSSEL1": {
-      "direction": "IN"
-    },
-    "RXOSINTNTRLEN": {
-      "direction": "IN"
-    },
-    "PCSRSVDIN4": {
-      "direction": "IN"
-    },
-    "TSTPD4": {
-      "direction": "IN"
-    },
-    "RXPRBSSEL0": {
-      "direction": "IN"
-    },
-    "SCANOUT5": {
-      "direction": "OUT"
-    },
-    "DRPDI0": {
-      "direction": "IN"
-    },
-    "RXADAPTSELTEST3": {
-      "direction": "IN"
-    },
-    "RXCHANBONDSEQ": {
-      "direction": "OUT"
-    },
-    "PHYSTATUS": {
-      "direction": "OUT"
-    },
-    "TXDIFFCTRL0": {
-      "direction": "IN"
-    },
-    "TSTIN9": {
-      "direction": "IN"
-    },
-    "PMASCANMODEB": {
-      "direction": "IN"
-    },
-    "RXOSINTID00": {
-      "direction": "IN"
-    },
-    "TSTIN6": {
-      "direction": "IN"
-    },
-    "TXPD1": {
-      "direction": "IN"
-    },
-    "TXOUTCLKSEL0": {
-      "direction": "IN"
-    },
-    "RXOSINTCFG3": {
-      "direction": "IN"
-    },
-    "PCSRSVDOUT0": {
-      "direction": "OUT"
-    },
-    "RXCHBONDEN": {
-      "direction": "IN"
-    },
-    "PMASCANIN0": {
-      "direction": "IN"
-    },
-    "PCSRSVDOUT7": {
-      "direction": "OUT"
-    },
-    "SCANIN4": {
-      "direction": "IN"
-    },
-    "GTPRXN": {
-      "direction": "IN"
-    },
-    "RXPHDLYRESET": {
-      "direction": "IN"
-    },
-    "RXDATA6": {
-      "direction": "OUT"
-    },
-    "DRPDO6": {
-      "direction": "OUT"
-    },
-    "RXDATA26": {
-      "direction": "OUT"
-    },
-    "TXSEQUENCE6": {
-      "direction": "IN"
-    },
-    "RXELECIDLE": {
-      "direction": "OUT"
-    },
-    "DMONITOROUT2": {
-      "direction": "OUT"
-    },
-    "TXRATE0": {
-      "direction": "IN"
-    },
-    "TXMAINCURSOR1": {
-      "direction": "IN"
-    },
-    "RXOSCALRESET": {
-      "direction": "IN"
-    },
-    "RXDISPERR0": {
-      "direction": "OUT"
-    },
-    "RXOSINTCFG2": {
-      "direction": "IN"
-    },
-    "RXOSINTEN": {
-      "direction": "IN"
-    },
-    "TXHEADER1": {
-      "direction": "IN"
-    },
-    "TXSYNCOUT": {
-      "direction": "OUT"
-    },
-    "RXOSINTSTARTED": {
-      "direction": "OUT"
-    },
-    "TXSEQUENCE1": {
-      "direction": "IN"
-    },
-    "TXPIPPMSTEPSIZE3": {
-      "direction": "IN"
-    },
-    "GTRSVD14": {
-      "direction": "IN"
-    },
-    "TXINHIBIT": {
-      "direction": "IN"
-    },
-    "DRPADDR6": {
-      "direction": "IN"
-    },
-    "DMONITOROUT10": {
-      "direction": "OUT"
-    },
-    "DRPDI4": {
-      "direction": "IN"
-    },
-    "DMONITOROUT12": {
-      "direction": "OUT"
-    },
-    "DRPDO11": {
-      "direction": "OUT"
-    },
-    "TX8B10BBYPASS2": {
-      "direction": "IN"
-    },
-    "PMASCANIN2": {
-      "direction": "IN"
-    },
-    "DRPADDR0": {
-      "direction": "IN"
-    },
-    "RXHEADER1": {
-      "direction": "OUT"
-    },
-    "RXCDRFREQRESET": {
-      "direction": "IN"
-    },
-    "TX8B10BBYPASS0": {
-      "direction": "IN"
-    },
-    "PCSRSVDOUT12": {
-      "direction": "OUT"
-    },
-    "GTRSVD15": {
-      "direction": "IN"
-    },
-    "RXUSERRDY": {
-      "direction": "IN"
-    },
-    "RXADAPTSELTEST9": {
-      "direction": "IN"
-    },
-    "DMONITOROUT6": {
-      "direction": "OUT"
-    },
-    "RXBYTEISALIGNED": {
-      "direction": "OUT"
-    },
-    "GTRSVD7": {
-      "direction": "IN"
-    },
-    "RXPHSLIPMONITOR3": {
-      "direction": "OUT"
-    },
-    "SCANMODEB": {
-      "direction": "IN"
-    },
-    "TXPIPPMOVRDEN": {
-      "direction": "IN"
-    },
-    "TXDATA12": {
-      "direction": "IN"
-    },
-    "TXCHARISK2": {
-      "direction": "IN"
-    },
-    "TXPOLARITY": {
-      "direction": "IN"
-    },
-    "RXDATA20": {
-      "direction": "OUT"
-    },
-    "GTRSVD4": {
-      "direction": "IN"
-    },
-    "TXPRECURSOR0": {
-      "direction": "IN"
-    },
-    "RXUSRCLK": {
-      "direction": "IN"
-    },
-    "TXPHDLYTSTCLK": {
-      "direction": "IN"
-    },
-    "DRPADDR3": {
-      "direction": "IN"
-    },
-    "PCSRSVDIN5": {
-      "direction": "IN"
-    },
-    "PMASCANOUT5": {
-      "direction": "OUT"
-    },
-    "RXCOMSASDET": {
-      "direction": "OUT"
-    },
-    "TSTIN11": {
-      "direction": "IN"
-    },
-    "GTRXRESET": {
-      "direction": "IN"
-    },
-    "RXDATAVALID0": {
-      "direction": "OUT"
-    },
-    "TXCHARDISPVAL0": {
-      "direction": "IN"
-    },
-    "RXOUTCLKFABRIC": {
-      "direction": "OUT"
-    },
-    "TXRUNDISP0": {
-      "direction": "OUT"
-    },
-    "TXSEQUENCE4": {
-      "direction": "IN"
-    },
-    "TXPIPPMSTEPSIZE0": {
-      "direction": "IN"
-    },
-    "PMARSVDIN2": {
-      "direction": "IN"
-    },
-    "TX8B10BEN": {
-      "direction": "IN"
-    },
-    "TXMAINCURSOR6": {
-      "direction": "IN"
-    },
-    "TXSYSCLKSEL1": {
-      "direction": "IN"
-    },
-    "DRPDI8": {
-      "direction": "IN"
-    },
-    "PCSRSVDOUT10": {
-      "direction": "OUT"
-    },
-    "SCANIN0": {
-      "direction": "IN"
-    },
-    "RXOSINTTESTOVRDEN": {
-      "direction": "IN"
-    },
-    "RXNOTINTABLE2": {
-      "direction": "OUT"
-    },
-    "RXCDRLOCK": {
-      "direction": "OUT"
-    },
-    "TXUSRCLK2": {
-      "direction": "IN"
-    },
-    "PMASCANIN1": {
-      "direction": "IN"
-    },
-    "RXOSHOLD": {
-      "direction": "IN"
-    },
-    "RXCHARISCOMMA1": {
-      "direction": "OUT"
-    },
-    "RXDATA29": {
-      "direction": "OUT"
-    }
-  },
   "site_pips": {
-    "DMONITORCLKINV:DMONITORCLK_B": {
-      "from_pin": "DMONITORCLK_B",
-      "to_pin": "OUT"
-    },
-    "PMASCANCLK0INV:PMASCANCLK0": {
-      "from_pin": "PMASCANCLK0",
-      "to_pin": "OUT"
-    },
-    "RXUSRCLKINV:RXUSRCLK": {
-      "from_pin": "RXUSRCLK",
-      "to_pin": "OUT"
-    },
-    "SCANCLKINV:SCANCLK": {
-      "from_pin": "SCANCLK",
-      "to_pin": "OUT"
-    },
-    "CLKRSVD0INV:CLKRSVD0": {
-      "from_pin": "CLKRSVD0",
-      "to_pin": "OUT"
-    },
-    "PMASCANCLK0INV:PMASCANCLK0_B": {
-      "from_pin": "PMASCANCLK0_B",
-      "to_pin": "OUT"
-    },
-    "TSTCLK0INV:TSTCLK0": {
-      "from_pin": "TSTCLK0",
-      "to_pin": "OUT"
-    },
-    "PMASCANCLK2INV:PMASCANCLK2": {
-      "from_pin": "PMASCANCLK2",
-      "to_pin": "OUT"
-    },
-    "PMASCANCLK1INV:PMASCANCLK1_B": {
-      "from_pin": "PMASCANCLK1_B",
-      "to_pin": "OUT"
-    },
-    "RXUSRCLK2INV:RXUSRCLK2_B": {
-      "from_pin": "RXUSRCLK2_B",
-      "to_pin": "OUT"
-    },
-    "TXUSRCLKINV:TXUSRCLK_B": {
-      "from_pin": "TXUSRCLK_B",
-      "to_pin": "OUT"
-    },
-    "DMONITORCLKINV:DMONITORCLK": {
-      "from_pin": "DMONITORCLK",
-      "to_pin": "OUT"
-    },
-    "SCANCLKINV:SCANCLK_B": {
-      "from_pin": "SCANCLK_B",
-      "to_pin": "OUT"
-    },
-    "SIGVALIDCLKINV:SIGVALIDCLK_B": {
-      "from_pin": "SIGVALIDCLK_B",
-      "to_pin": "OUT"
-    },
-    "PMASCANCLK3INV:PMASCANCLK3_B": {
-      "from_pin": "PMASCANCLK3_B",
-      "to_pin": "OUT"
-    },
-    "TXUSRCLK2INV:TXUSRCLK2_B": {
-      "from_pin": "TXUSRCLK2_B",
-      "to_pin": "OUT"
-    },
-    "PMASCANCLK2INV:PMASCANCLK2_B": {
-      "from_pin": "PMASCANCLK2_B",
-      "to_pin": "OUT"
-    },
-    "SIGVALIDCLKINV:SIGVALIDCLK": {
-      "from_pin": "SIGVALIDCLK",
-      "to_pin": "OUT"
-    },
     "TSTCLK1INV:TSTCLK1_B": {
       "from_pin": "TSTCLK1_B",
-      "to_pin": "OUT"
-    },
-    "RXUSRCLKINV:RXUSRCLK_B": {
-      "from_pin": "RXUSRCLK_B",
-      "to_pin": "OUT"
-    },
-    "CLKRSVD0INV:CLKRSVD0_B": {
-      "from_pin": "CLKRSVD0_B",
-      "to_pin": "OUT"
-    },
-    "TXUSRCLK2INV:TXUSRCLK2": {
-      "from_pin": "TXUSRCLK2",
-      "to_pin": "OUT"
-    },
-    "CLKRSVD1INV:CLKRSVD1_B": {
-      "from_pin": "CLKRSVD1_B",
-      "to_pin": "OUT"
-    },
-    "DRPCLKINV:DRPCLK": {
-      "from_pin": "DRPCLK",
-      "to_pin": "OUT"
-    },
-    "TXPHDLYTSTCLKINV:TXPHDLYTSTCLK_B": {
-      "from_pin": "TXPHDLYTSTCLK_B",
       "to_pin": "OUT"
     },
     "TSTCLK0INV:TSTCLK0_B": {
       "from_pin": "TSTCLK0_B",
       "to_pin": "OUT"
     },
-    "TXUSRCLKINV:TXUSRCLK": {
-      "from_pin": "TXUSRCLK",
+    "PMASCANCLK0INV:PMASCANCLK0_B": {
+      "from_pin": "PMASCANCLK0_B",
       "to_pin": "OUT"
     },
-    "RXUSRCLK2INV:RXUSRCLK2": {
-      "from_pin": "RXUSRCLK2",
+    "PMASCANCLK0INV:PMASCANCLK0": {
+      "from_pin": "PMASCANCLK0",
       "to_pin": "OUT"
     },
-    "PMASCANCLK3INV:PMASCANCLK3": {
-      "from_pin": "PMASCANCLK3",
+    "DMONITORCLKINV:DMONITORCLK_B": {
+      "from_pin": "DMONITORCLK_B",
       "to_pin": "OUT"
     },
-    "TXPHDLYTSTCLKINV:TXPHDLYTSTCLK": {
-      "from_pin": "TXPHDLYTSTCLK",
+    "CLKRSVD0INV:CLKRSVD0_B": {
+      "from_pin": "CLKRSVD0_B",
       "to_pin": "OUT"
     },
-    "TSTCLK1INV:TSTCLK1": {
-      "from_pin": "TSTCLK1",
+    "SCANCLKINV:SCANCLK": {
+      "from_pin": "SCANCLK",
       "to_pin": "OUT"
     },
-    "DRPCLKINV:DRPCLK_B": {
-      "from_pin": "DRPCLK_B",
+    "SCANCLKINV:SCANCLK_B": {
+      "from_pin": "SCANCLK_B",
+      "to_pin": "OUT"
+    },
+    "SIGVALIDCLKINV:SIGVALIDCLK": {
+      "from_pin": "SIGVALIDCLK",
       "to_pin": "OUT"
     },
     "PMASCANCLK1INV:PMASCANCLK1": {
@@ -1869,6 +44,1831 @@
     "CLKRSVD1INV:CLKRSVD1": {
       "from_pin": "CLKRSVD1",
       "to_pin": "OUT"
+    },
+    "PMASCANCLK1INV:PMASCANCLK1_B": {
+      "from_pin": "PMASCANCLK1_B",
+      "to_pin": "OUT"
+    },
+    "RXUSRCLKINV:RXUSRCLK_B": {
+      "from_pin": "RXUSRCLK_B",
+      "to_pin": "OUT"
+    },
+    "TXUSRCLKINV:TXUSRCLK_B": {
+      "from_pin": "TXUSRCLK_B",
+      "to_pin": "OUT"
+    },
+    "TSTCLK0INV:TSTCLK0": {
+      "from_pin": "TSTCLK0",
+      "to_pin": "OUT"
+    },
+    "TXUSRCLKINV:TXUSRCLK": {
+      "from_pin": "TXUSRCLK",
+      "to_pin": "OUT"
+    },
+    "DRPCLKINV:DRPCLK_B": {
+      "from_pin": "DRPCLK_B",
+      "to_pin": "OUT"
+    },
+    "CLKRSVD0INV:CLKRSVD0": {
+      "from_pin": "CLKRSVD0",
+      "to_pin": "OUT"
+    },
+    "CLKRSVD1INV:CLKRSVD1_B": {
+      "from_pin": "CLKRSVD1_B",
+      "to_pin": "OUT"
+    },
+    "RXUSRCLK2INV:RXUSRCLK2_B": {
+      "from_pin": "RXUSRCLK2_B",
+      "to_pin": "OUT"
+    },
+    "TXUSRCLK2INV:TXUSRCLK2": {
+      "from_pin": "TXUSRCLK2",
+      "to_pin": "OUT"
+    },
+    "SIGVALIDCLKINV:SIGVALIDCLK_B": {
+      "from_pin": "SIGVALIDCLK_B",
+      "to_pin": "OUT"
+    },
+    "TXUSRCLK2INV:TXUSRCLK2_B": {
+      "from_pin": "TXUSRCLK2_B",
+      "to_pin": "OUT"
+    },
+    "RXUSRCLK2INV:RXUSRCLK2": {
+      "from_pin": "RXUSRCLK2",
+      "to_pin": "OUT"
+    },
+    "PMASCANCLK3INV:PMASCANCLK3_B": {
+      "from_pin": "PMASCANCLK3_B",
+      "to_pin": "OUT"
+    },
+    "PMASCANCLK2INV:PMASCANCLK2_B": {
+      "from_pin": "PMASCANCLK2_B",
+      "to_pin": "OUT"
+    },
+    "PMASCANCLK2INV:PMASCANCLK2": {
+      "from_pin": "PMASCANCLK2",
+      "to_pin": "OUT"
+    },
+    "RXUSRCLKINV:RXUSRCLK": {
+      "from_pin": "RXUSRCLK",
+      "to_pin": "OUT"
+    },
+    "TXPHDLYTSTCLKINV:TXPHDLYTSTCLK": {
+      "from_pin": "TXPHDLYTSTCLK",
+      "to_pin": "OUT"
+    },
+    "DRPCLKINV:DRPCLK": {
+      "from_pin": "DRPCLK",
+      "to_pin": "OUT"
+    },
+    "DMONITORCLKINV:DMONITORCLK": {
+      "from_pin": "DMONITORCLK",
+      "to_pin": "OUT"
+    },
+    "PMASCANCLK3INV:PMASCANCLK3": {
+      "from_pin": "PMASCANCLK3",
+      "to_pin": "OUT"
+    },
+    "TSTCLK1INV:TSTCLK1": {
+      "from_pin": "TSTCLK1",
+      "to_pin": "OUT"
+    },
+    "TXPHDLYTSTCLKINV:TXPHDLYTSTCLK_B": {
+      "from_pin": "TXPHDLYTSTCLK_B",
+      "to_pin": "OUT"
+    }
+  },
+  "site_pins": {
+    "RXADAPTSELTEST1": {
+      "direction": "IN"
+    },
+    "TXSEQUENCE1": {
+      "direction": "IN"
+    },
+    "TXPRECURSOR0": {
+      "direction": "IN"
+    },
+    "RXPHMONITOR1": {
+      "direction": "OUT"
+    },
+    "RXOSINTID01": {
+      "direction": "IN"
+    },
+    "RXLPMHFHOLD": {
+      "direction": "IN"
+    },
+    "TXDATA20": {
+      "direction": "IN"
+    },
+    "RXRATE0": {
+      "direction": "IN"
+    },
+    "RXCHARISK1": {
+      "direction": "OUT"
+    },
+    "RXDLYSRESETDONE": {
+      "direction": "OUT"
+    },
+    "RXCHBONDI0": {
+      "direction": "IN"
+    },
+    "RXBUFRESET": {
+      "direction": "IN"
+    },
+    "RXPHALIGNDONE": {
+      "direction": "OUT"
+    },
+    "RXCHANISALIGNED": {
+      "direction": "OUT"
+    },
+    "TXRATEMODE": {
+      "direction": "IN"
+    },
+    "RXPD0": {
+      "direction": "IN"
+    },
+    "TXRUNDISP0": {
+      "direction": "OUT"
+    },
+    "TXRESETDONE": {
+      "direction": "OUT"
+    },
+    "TSTIN0": {
+      "direction": "IN"
+    },
+    "RXSYNCIN": {
+      "direction": "IN"
+    },
+    "GTRSVD10": {
+      "direction": "IN"
+    },
+    "RXHEADER2": {
+      "direction": "OUT"
+    },
+    "TXPD1": {
+      "direction": "IN"
+    },
+    "TSTIN19": {
+      "direction": "IN"
+    },
+    "RXLPMRESET": {
+      "direction": "IN"
+    },
+    "TXPOSTCURSOR1": {
+      "direction": "IN"
+    },
+    "RXADAPTSELTEST8": {
+      "direction": "IN"
+    },
+    "PCSRSVDOUT6": {
+      "direction": "OUT"
+    },
+    "DRPADDR7": {
+      "direction": "IN"
+    },
+    "TSTPD0": {
+      "direction": "IN"
+    },
+    "DRPWE": {
+      "direction": "IN"
+    },
+    "TXPHDLYPD": {
+      "direction": "IN"
+    },
+    "TSTIN2": {
+      "direction": "IN"
+    },
+    "TXBUFDIFFCTRL1": {
+      "direction": "IN"
+    },
+    "RXPHMONITOR2": {
+      "direction": "OUT"
+    },
+    "RXDATA20": {
+      "direction": "OUT"
+    },
+    "GTRSVD12": {
+      "direction": "IN"
+    },
+    "TSTIN6": {
+      "direction": "IN"
+    },
+    "PCSRSVDIN6": {
+      "direction": "IN"
+    },
+    "RX8B10BEN": {
+      "direction": "IN"
+    },
+    "TXCHARDISPVAL2": {
+      "direction": "IN"
+    },
+    "SCANIN0": {
+      "direction": "IN"
+    },
+    "RXDATA24": {
+      "direction": "OUT"
+    },
+    "PMASCANMODEB": {
+      "direction": "IN"
+    },
+    "TXRUNDISP2": {
+      "direction": "OUT"
+    },
+    "TXRUNDISP3": {
+      "direction": "OUT"
+    },
+    "RXCOMINITDET": {
+      "direction": "OUT"
+    },
+    "TXMARGIN2": {
+      "direction": "IN"
+    },
+    "RXADAPTSELTEST4": {
+      "direction": "IN"
+    },
+    "TXSEQUENCE0": {
+      "direction": "IN"
+    },
+    "TXDATA0": {
+      "direction": "IN"
+    },
+    "RXDATA18": {
+      "direction": "OUT"
+    },
+    "RXDATAVALID0": {
+      "direction": "OUT"
+    },
+    "RXCOMMADETEN": {
+      "direction": "IN"
+    },
+    "TXOUTCLKSEL1": {
+      "direction": "IN"
+    },
+    "TXPHDLYRESET": {
+      "direction": "IN"
+    },
+    "DRPDO7": {
+      "direction": "OUT"
+    },
+    "PMASCANIN6": {
+      "direction": "IN"
+    },
+    "PMASCANRSTEN": {
+      "direction": "IN"
+    },
+    "DRPDO12": {
+      "direction": "OUT"
+    },
+    "RXOSINTPD": {
+      "direction": "IN"
+    },
+    "RXPHSLIPMONITOR1": {
+      "direction": "OUT"
+    },
+    "TXDATA7": {
+      "direction": "IN"
+    },
+    "RXCDRFREQRESET": {
+      "direction": "IN"
+    },
+    "CFGRESET": {
+      "direction": "IN"
+    },
+    "RXDATA25": {
+      "direction": "OUT"
+    },
+    "TXPD0": {
+      "direction": "IN"
+    },
+    "DMONITOROUT5": {
+      "direction": "OUT"
+    },
+    "RXCHANREALIGN": {
+      "direction": "OUT"
+    },
+    "SETERRSTATUS": {
+      "direction": "IN"
+    },
+    "RXDATA4": {
+      "direction": "OUT"
+    },
+    "TXDLYSRESET": {
+      "direction": "IN"
+    },
+    "DMONITOROUT10": {
+      "direction": "OUT"
+    },
+    "PMARSVDIN4": {
+      "direction": "IN"
+    },
+    "RXOUTCLKSEL2": {
+      "direction": "IN"
+    },
+    "PCSRSVDIN15": {
+      "direction": "IN"
+    },
+    "RXCHANBONDSEQ": {
+      "direction": "OUT"
+    },
+    "RXBYTEREALIGN": {
+      "direction": "OUT"
+    },
+    "DMONITORCLK": {
+      "direction": "IN"
+    },
+    "TXELECIDLE": {
+      "direction": "IN"
+    },
+    "RXDLYEN": {
+      "direction": "IN"
+    },
+    "RXNOTINTABLE1": {
+      "direction": "OUT"
+    },
+    "RXDLYOVRDEN": {
+      "direction": "IN"
+    },
+    "RXSTATUS0": {
+      "direction": "OUT"
+    },
+    "RXDISPERR3": {
+      "direction": "OUT"
+    },
+    "RXBUFSTATUS1": {
+      "direction": "OUT"
+    },
+    "RXPRBSSEL0": {
+      "direction": "IN"
+    },
+    "DRPEN": {
+      "direction": "IN"
+    },
+    "DRPDO14": {
+      "direction": "OUT"
+    },
+    "SIGVALIDCLK": {
+      "direction": "IN"
+    },
+    "TSTIN12": {
+      "direction": "IN"
+    },
+    "TSTPD2": {
+      "direction": "IN"
+    },
+    "TSTIN8": {
+      "direction": "IN"
+    },
+    "GTRSVD3": {
+      "direction": "IN"
+    },
+    "RXOSINTNTRLEN": {
+      "direction": "IN"
+    },
+    "RXDATA7": {
+      "direction": "OUT"
+    },
+    "RXOSHOLD": {
+      "direction": "IN"
+    },
+    "TXDATA3": {
+      "direction": "IN"
+    },
+    "PMARSVDIN1": {
+      "direction": "IN"
+    },
+    "RXOSINTSTROBESTARTED": {
+      "direction": "OUT"
+    },
+    "RXPHALIGNEN": {
+      "direction": "IN"
+    },
+    "TXPIPPMSTEPSIZE0": {
+      "direction": "IN"
+    },
+    "RXPOLARITY": {
+      "direction": "IN"
+    },
+    "TXCHARDISPMODE0": {
+      "direction": "IN"
+    },
+    "TSTIN7": {
+      "direction": "IN"
+    },
+    "GTRXRESET": {
+      "direction": "IN"
+    },
+    "RXDATA3": {
+      "direction": "OUT"
+    },
+    "RXPHMONITOR4": {
+      "direction": "OUT"
+    },
+    "RXBUFSTATUS2": {
+      "direction": "OUT"
+    },
+    "DRPDI7": {
+      "direction": "IN"
+    },
+    "RXCHARISK0": {
+      "direction": "OUT"
+    },
+    "TSTIN10": {
+      "direction": "IN"
+    },
+    "TXPOSTCURSORINV": {
+      "direction": "IN"
+    },
+    "PCSRSVDOUT8": {
+      "direction": "OUT"
+    },
+    "GTRSVD7": {
+      "direction": "IN"
+    },
+    "RXPMARESETDONE": {
+      "direction": "OUT"
+    },
+    "TXPHALIGNDONE": {
+      "direction": "OUT"
+    },
+    "TXSYSCLKSEL0": {
+      "direction": "IN"
+    },
+    "PCSRSVDIN8": {
+      "direction": "IN"
+    },
+    "RXCHBONDMASTER": {
+      "direction": "IN"
+    },
+    "RXCDRLOCK": {
+      "direction": "OUT"
+    },
+    "PCSRSVDIN0": {
+      "direction": "IN"
+    },
+    "RXDATA6": {
+      "direction": "OUT"
+    },
+    "TXDATA19": {
+      "direction": "IN"
+    },
+    "TXDATA15": {
+      "direction": "IN"
+    },
+    "RXCHBONDI3": {
+      "direction": "IN"
+    },
+    "SCANOUT0": {
+      "direction": "OUT"
+    },
+    "DRPADDR8": {
+      "direction": "IN"
+    },
+    "DRPDI9": {
+      "direction": "IN"
+    },
+    "DRPDO1": {
+      "direction": "OUT"
+    },
+    "TXCHARISK0": {
+      "direction": "IN"
+    },
+    "GTRSVD5": {
+      "direction": "IN"
+    },
+    "RXDATA30": {
+      "direction": "OUT"
+    },
+    "RXCHBONDLEVEL2": {
+      "direction": "IN"
+    },
+    "TXUSRCLK": {
+      "direction": "IN"
+    },
+    "RXDLYBYPASS": {
+      "direction": "IN"
+    },
+    "TX8B10BBYPASS0": {
+      "direction": "IN"
+    },
+    "PCSRSVDOUT15": {
+      "direction": "OUT"
+    },
+    "RXOSINTCFG3": {
+      "direction": "IN"
+    },
+    "RXDATA9": {
+      "direction": "OUT"
+    },
+    "DRPDI13": {
+      "direction": "IN"
+    },
+    "RXCHARISCOMMA2": {
+      "direction": "OUT"
+    },
+    "GTRSVD8": {
+      "direction": "IN"
+    },
+    "RXADAPTSELTEST6": {
+      "direction": "IN"
+    },
+    "TXMAINCURSOR0": {
+      "direction": "IN"
+    },
+    "DRPDO8": {
+      "direction": "OUT"
+    },
+    "TXPISOPD": {
+      "direction": "IN"
+    },
+    "TXDATA2": {
+      "direction": "IN"
+    },
+    "RXPD1": {
+      "direction": "IN"
+    },
+    "SCANOUT5": {
+      "direction": "OUT"
+    },
+    "GTRSVD6": {
+      "direction": "IN"
+    },
+    "RXOSINTSTARTED": {
+      "direction": "OUT"
+    },
+    "TXHEADER1": {
+      "direction": "IN"
+    },
+    "RXSTATUS1": {
+      "direction": "OUT"
+    },
+    "PMARSVDOUT0": {
+      "direction": "OUT"
+    },
+    "TXDETECTRX": {
+      "direction": "IN"
+    },
+    "DMONITOROUT8": {
+      "direction": "OUT"
+    },
+    "SCANOUT2": {
+      "direction": "OUT"
+    },
+    "TXBUFSTATUS0": {
+      "direction": "OUT"
+    },
+    "TSTIN1": {
+      "direction": "IN"
+    },
+    "PCSRSVDOUT14": {
+      "direction": "OUT"
+    },
+    "TXDATA26": {
+      "direction": "IN"
+    },
+    "TXCHARISK3": {
+      "direction": "IN"
+    },
+    "TSTIN13": {
+      "direction": "IN"
+    },
+    "PLL0CLK": {
+      "direction": "IN"
+    },
+    "DMONITOROUT9": {
+      "direction": "OUT"
+    },
+    "TXDATA6": {
+      "direction": "IN"
+    },
+    "TXBUFSTATUS1": {
+      "direction": "OUT"
+    },
+    "RXVALID": {
+      "direction": "OUT"
+    },
+    "RXDATA29": {
+      "direction": "OUT"
+    },
+    "TXDATA14": {
+      "direction": "IN"
+    },
+    "DRPDO15": {
+      "direction": "OUT"
+    },
+    "LOOPBACK0": {
+      "direction": "IN"
+    },
+    "TXSWING": {
+      "direction": "IN"
+    },
+    "TXDLYOVRDEN": {
+      "direction": "IN"
+    },
+    "DRPADDR0": {
+      "direction": "IN"
+    },
+    "TXDATA1": {
+      "direction": "IN"
+    },
+    "RXCHARISK2": {
+      "direction": "OUT"
+    },
+    "TXUSERRDY": {
+      "direction": "IN"
+    },
+    "RXHEADER1": {
+      "direction": "OUT"
+    },
+    "RXNOTINTABLE2": {
+      "direction": "OUT"
+    },
+    "TSTPD4": {
+      "direction": "IN"
+    },
+    "TXDATA24": {
+      "direction": "IN"
+    },
+    "RXSTARTOFSEQ1": {
+      "direction": "OUT"
+    },
+    "RXCDRHOLD": {
+      "direction": "IN"
+    },
+    "DMONITOROUT3": {
+      "direction": "OUT"
+    },
+    "TXCOMFINISH": {
+      "direction": "OUT"
+    },
+    "TXCHARISK2": {
+      "direction": "IN"
+    },
+    "RXCOMWAKEDET": {
+      "direction": "OUT"
+    },
+    "RXSTATUS2": {
+      "direction": "OUT"
+    },
+    "TXSYNCDONE": {
+      "direction": "OUT"
+    },
+    "TXDATA17": {
+      "direction": "IN"
+    },
+    "TXDIFFPD": {
+      "direction": "IN"
+    },
+    "DRPDI15": {
+      "direction": "IN"
+    },
+    "GTRESETSEL": {
+      "direction": "IN"
+    },
+    "RXCHBONDSLAVE": {
+      "direction": "IN"
+    },
+    "DMONITOROUT14": {
+      "direction": "OUT"
+    },
+    "TX8B10BBYPASS2": {
+      "direction": "IN"
+    },
+    "RXADAPTSELTEST10": {
+      "direction": "IN"
+    },
+    "RXSYNCDONE": {
+      "direction": "OUT"
+    },
+    "DRPDO0": {
+      "direction": "OUT"
+    },
+    "RXCDROVRDEN": {
+      "direction": "IN"
+    },
+    "RXSYNCALLIN": {
+      "direction": "IN"
+    },
+    "PMASCANIN2": {
+      "direction": "IN"
+    },
+    "DRPDI6": {
+      "direction": "IN"
+    },
+    "PMASCANENB": {
+      "direction": "IN"
+    },
+    "TXDIFFCTRL2": {
+      "direction": "IN"
+    },
+    "PLL1REFCLK": {
+      "direction": "IN"
+    },
+    "GTRSVD0": {
+      "direction": "IN"
+    },
+    "RXPHSLIPMONITOR4": {
+      "direction": "OUT"
+    },
+    "RXDLYTESTENB": {
+      "direction": "IN"
+    },
+    "PLL0REFCLK": {
+      "direction": "IN"
+    },
+    "PMASCANCLK0": {
+      "direction": "IN"
+    },
+    "TXSEQUENCE3": {
+      "direction": "IN"
+    },
+    "RXELECIDLEMODE1": {
+      "direction": "IN"
+    },
+    "RXPRBSSEL1": {
+      "direction": "IN"
+    },
+    "TXSEQUENCE2": {
+      "direction": "IN"
+    },
+    "PLL1CLK": {
+      "direction": "IN"
+    },
+    "RXADAPTSELTEST12": {
+      "direction": "IN"
+    },
+    "TSTCLK0": {
+      "direction": "IN"
+    },
+    "RXPRBSCNTRESET": {
+      "direction": "IN"
+    },
+    "DMONITOROUT11": {
+      "direction": "OUT"
+    },
+    "TXDATA18": {
+      "direction": "IN"
+    },
+    "PMASCANIN3": {
+      "direction": "IN"
+    },
+    "SCANIN5": {
+      "direction": "IN"
+    },
+    "DRPDI3": {
+      "direction": "IN"
+    },
+    "TXMARGIN0": {
+      "direction": "IN"
+    },
+    "RXHEADER0": {
+      "direction": "OUT"
+    },
+    "RXOSINTID02": {
+      "direction": "IN"
+    },
+    "LOOPBACK1": {
+      "direction": "IN"
+    },
+    "RXDATA10": {
+      "direction": "OUT"
+    },
+    "RXDATA2": {
+      "direction": "OUT"
+    },
+    "TXPHALIGNEN": {
+      "direction": "IN"
+    },
+    "DMONITOROUT7": {
+      "direction": "OUT"
+    },
+    "PCSRSVDIN5": {
+      "direction": "IN"
+    },
+    "TXPRECURSORINV": {
+      "direction": "IN"
+    },
+    "GTPTXN": {
+      "direction": "OUT"
+    },
+    "RXOSOVRDEN": {
+      "direction": "IN"
+    },
+    "DRPDI12": {
+      "direction": "IN"
+    },
+    "TSTIN15": {
+      "direction": "IN"
+    },
+    "RXPHMONITOR3": {
+      "direction": "OUT"
+    },
+    "TXCHARDISPMODE3": {
+      "direction": "IN"
+    },
+    "SCANMODEB": {
+      "direction": "IN"
+    },
+    "TXCHARDISPVAL0": {
+      "direction": "IN"
+    },
+    "DMONITOROUT4": {
+      "direction": "OUT"
+    },
+    "RXPHDLYPD": {
+      "direction": "IN"
+    },
+    "TXDLYEN": {
+      "direction": "IN"
+    },
+    "TXDATA4": {
+      "direction": "IN"
+    },
+    "TX8B10BBYPASS3": {
+      "direction": "IN"
+    },
+    "RXDATA26": {
+      "direction": "OUT"
+    },
+    "RXDISPERR2": {
+      "direction": "OUT"
+    },
+    "LOOPBACK2": {
+      "direction": "IN"
+    },
+    "DRPDI14": {
+      "direction": "IN"
+    },
+    "DRPDO9": {
+      "direction": "OUT"
+    },
+    "DRPDI0": {
+      "direction": "IN"
+    },
+    "RXRESETDONE": {
+      "direction": "OUT"
+    },
+    "RXELECIDLE": {
+      "direction": "OUT"
+    },
+    "PCSRSVDOUT5": {
+      "direction": "OUT"
+    },
+    "RXSYNCMODE": {
+      "direction": "IN"
+    },
+    "PCSRSVDIN10": {
+      "direction": "IN"
+    },
+    "PMARSVDIN3": {
+      "direction": "IN"
+    },
+    "RXCDRRESET": {
+      "direction": "IN"
+    },
+    "RXPHSLIPMONITOR3": {
+      "direction": "OUT"
+    },
+    "GTRSVD14": {
+      "direction": "IN"
+    },
+    "RXCHBONDI1": {
+      "direction": "IN"
+    },
+    "DRPDO10": {
+      "direction": "OUT"
+    },
+    "TXRATE2": {
+      "direction": "IN"
+    },
+    "TXCOMINIT": {
+      "direction": "IN"
+    },
+    "RXBUFSTATUS0": {
+      "direction": "OUT"
+    },
+    "TXPCSRESET": {
+      "direction": "IN"
+    },
+    "RXSYNCOUT": {
+      "direction": "OUT"
+    },
+    "TXDATA9": {
+      "direction": "IN"
+    },
+    "RXCHBONDI2": {
+      "direction": "IN"
+    },
+    "SCANIN1": {
+      "direction": "IN"
+    },
+    "TXDATA16": {
+      "direction": "IN"
+    },
+    "RXOSINTID00": {
+      "direction": "IN"
+    },
+    "TXMAINCURSOR2": {
+      "direction": "IN"
+    },
+    "RXRATE1": {
+      "direction": "IN"
+    },
+    "RXDATAVALID1": {
+      "direction": "OUT"
+    },
+    "RXDATA1": {
+      "direction": "OUT"
+    },
+    "CLKRSVD0": {
+      "direction": "IN"
+    },
+    "PCSRSVDIN1": {
+      "direction": "IN"
+    },
+    "TSTIN4": {
+      "direction": "IN"
+    },
+    "TXSEQUENCE5": {
+      "direction": "IN"
+    },
+    "RXBYTEISALIGNED": {
+      "direction": "OUT"
+    },
+    "TXPRBSFORCEERR": {
+      "direction": "IN"
+    },
+    "PCSRSVDIN2": {
+      "direction": "IN"
+    },
+    "RXDATA17": {
+      "direction": "OUT"
+    },
+    "RXADAPTSELTEST13": {
+      "direction": "IN"
+    },
+    "TXPIPPMSEL": {
+      "direction": "IN"
+    },
+    "RXDISPERR1": {
+      "direction": "OUT"
+    },
+    "PCSRSVDOUT10": {
+      "direction": "OUT"
+    },
+    "RXDATA16": {
+      "direction": "OUT"
+    },
+    "RXCLKCORCNT0": {
+      "direction": "OUT"
+    },
+    "TXCHARDISPMODE2": {
+      "direction": "IN"
+    },
+    "TXPIPPMOVRDEN": {
+      "direction": "IN"
+    },
+    "PCSRSVDIN13": {
+      "direction": "IN"
+    },
+    "RXPRBSERR": {
+      "direction": "OUT"
+    },
+    "TSTIN14": {
+      "direction": "IN"
+    },
+    "RXOUTCLKPCS": {
+      "direction": "OUT"
+    },
+    "RXOUTCLK": {
+      "direction": "OUT"
+    },
+    "DRPADDR4": {
+      "direction": "IN"
+    },
+    "DRPDO4": {
+      "direction": "OUT"
+    },
+    "GTRSVD9": {
+      "direction": "IN"
+    },
+    "CLKRSVD1": {
+      "direction": "IN"
+    },
+    "TXSYNCOUT": {
+      "direction": "OUT"
+    },
+    "TSTPDOVRDB": {
+      "direction": "IN"
+    },
+    "DMONITOROUT13": {
+      "direction": "OUT"
+    },
+    "TXSYNCALLIN": {
+      "direction": "IN"
+    },
+    "RXDATA5": {
+      "direction": "OUT"
+    },
+    "TXSYNCMODE": {
+      "direction": "IN"
+    },
+    "RXCHBONDLEVEL1": {
+      "direction": "IN"
+    },
+    "SCANCLK": {
+      "direction": "IN"
+    },
+    "RXCHARISK3": {
+      "direction": "OUT"
+    },
+    "RXCLKCORCNT1": {
+      "direction": "OUT"
+    },
+    "SCANENB": {
+      "direction": "IN"
+    },
+    "TXMAINCURSOR4": {
+      "direction": "IN"
+    },
+    "TSTIN11": {
+      "direction": "IN"
+    },
+    "RXSYSCLKSEL1": {
+      "direction": "IN"
+    },
+    "TXPOLARITY": {
+      "direction": "IN"
+    },
+    "PMARSVDIN0": {
+      "direction": "IN"
+    },
+    "DRPDI4": {
+      "direction": "IN"
+    },
+    "GTRSVD1": {
+      "direction": "IN"
+    },
+    "TXOUTCLKFABRIC": {
+      "direction": "OUT"
+    },
+    "RXOSINTOVRDEN": {
+      "direction": "IN"
+    },
+    "DRPDI10": {
+      "direction": "IN"
+    },
+    "RXDATA11": {
+      "direction": "OUT"
+    },
+    "RXPCOMMAALIGNEN": {
+      "direction": "IN"
+    },
+    "GTRSVD11": {
+      "direction": "IN"
+    },
+    "RXMCOMMAALIGNEN": {
+      "direction": "IN"
+    },
+    "PCSRSVDIN7": {
+      "direction": "IN"
+    },
+    "TXCHARDISPVAL3": {
+      "direction": "IN"
+    },
+    "TXPOSTCURSOR0": {
+      "direction": "IN"
+    },
+    "RXNOTINTABLE3": {
+      "direction": "OUT"
+    },
+    "PCSRSVDIN9": {
+      "direction": "IN"
+    },
+    "GTPRXN": {
+      "direction": "IN"
+    },
+    "RXADAPTSELTEST11": {
+      "direction": "IN"
+    },
+    "RXLPMLFHOLD": {
+      "direction": "IN"
+    },
+    "TXPMARESETDONE": {
+      "direction": "OUT"
+    },
+    "TX8B10BBYPASS1": {
+      "direction": "IN"
+    },
+    "TXBUFDIFFCTRL0": {
+      "direction": "IN"
+    },
+    "TXPOSTCURSOR3": {
+      "direction": "IN"
+    },
+    "TXPRECURSOR1": {
+      "direction": "IN"
+    },
+    "GTRSVD4": {
+      "direction": "IN"
+    },
+    "TSTCLK1": {
+      "direction": "IN"
+    },
+    "RXADAPTSELTEST5": {
+      "direction": "IN"
+    },
+    "RXDATA23": {
+      "direction": "OUT"
+    },
+    "RXDEBUGPULSE": {
+      "direction": "IN"
+    },
+    "TXPHOVRDEN": {
+      "direction": "IN"
+    },
+    "TXDATA10": {
+      "direction": "IN"
+    },
+    "DRPDO11": {
+      "direction": "OUT"
+    },
+    "RXDATA12": {
+      "direction": "OUT"
+    },
+    "RXOSINTID03": {
+      "direction": "IN"
+    },
+    "TXDIFFCTRL0": {
+      "direction": "IN"
+    },
+    "DRPDI2": {
+      "direction": "IN"
+    },
+    "DRPDI11": {
+      "direction": "IN"
+    },
+    "RXCHARISCOMMA3": {
+      "direction": "OUT"
+    },
+    "TXPRBSSEL0": {
+      "direction": "IN"
+    },
+    "RXPRBSSEL2": {
+      "direction": "IN"
+    },
+    "PMASCANOUT3": {
+      "direction": "OUT"
+    },
+    "RXRATEMODE": {
+      "direction": "IN"
+    },
+    "TXHEADER0": {
+      "direction": "IN"
+    },
+    "TXDATA27": {
+      "direction": "IN"
+    },
+    "TXPRECURSOR2": {
+      "direction": "IN"
+    },
+    "TXOUTCLKSEL0": {
+      "direction": "IN"
+    },
+    "PCSRSVDIN12": {
+      "direction": "IN"
+    },
+    "RXCOMMADET": {
+      "direction": "OUT"
+    },
+    "PMASCANIN0": {
+      "direction": "IN"
+    },
+    "TXOUTCLKSEL2": {
+      "direction": "IN"
+    },
+    "RXELECIDLEMODE0": {
+      "direction": "IN"
+    },
+    "TXDATA8": {
+      "direction": "IN"
+    },
+    "DRPDO3": {
+      "direction": "OUT"
+    },
+    "PCSRSVDOUT2": {
+      "direction": "OUT"
+    },
+    "RXOSINTCFG2": {
+      "direction": "IN"
+    },
+    "RXOSINTHOLD": {
+      "direction": "IN"
+    },
+    "TXMARGIN1": {
+      "direction": "IN"
+    },
+    "RXPHDLYRESET": {
+      "direction": "IN"
+    },
+    "PMASCANCLK1": {
+      "direction": "IN"
+    },
+    "TXDATA28": {
+      "direction": "IN"
+    },
+    "PMASCANIN4": {
+      "direction": "IN"
+    },
+    "TXSEQUENCE4": {
+      "direction": "IN"
+    },
+    "RXDLYSRESET": {
+      "direction": "IN"
+    },
+    "PMASCANOUT4": {
+      "direction": "OUT"
+    },
+    "TXBUFDIFFCTRL2": {
+      "direction": "IN"
+    },
+    "TXGEARBOXREADY": {
+      "direction": "OUT"
+    },
+    "PCSRSVDOUT12": {
+      "direction": "OUT"
+    },
+    "GTRSVD13": {
+      "direction": "IN"
+    },
+    "RXOSINTCFG0": {
+      "direction": "IN"
+    },
+    "TX8B10BEN": {
+      "direction": "IN"
+    },
+    "RXOSINTCFG1": {
+      "direction": "IN"
+    },
+    "DMONITOROUT0": {
+      "direction": "OUT"
+    },
+    "EYESCANRESET": {
+      "direction": "IN"
+    },
+    "RXPHMONITOR0": {
+      "direction": "OUT"
+    },
+    "DMONITOROUT2": {
+      "direction": "OUT"
+    },
+    "PMARSVDOUT1": {
+      "direction": "OUT"
+    },
+    "DRPRDY": {
+      "direction": "OUT"
+    },
+    "RXUSERRDY": {
+      "direction": "IN"
+    },
+    "SCANOUT4": {
+      "direction": "OUT"
+    },
+    "DRPDO13": {
+      "direction": "OUT"
+    },
+    "RXPMARESET": {
+      "direction": "IN"
+    },
+    "RXGEARBOXSLIP": {
+      "direction": "IN"
+    },
+    "TXDATA22": {
+      "direction": "IN"
+    },
+    "TXDLYBYPASS": {
+      "direction": "IN"
+    },
+    "RXADAPTSELTEST3": {
+      "direction": "IN"
+    },
+    "RXCHBONDLEVEL0": {
+      "direction": "IN"
+    },
+    "RXLPMLFOVRDEN": {
+      "direction": "IN"
+    },
+    "RXCOMSASDET": {
+      "direction": "OUT"
+    },
+    "RXCHBONDO0": {
+      "direction": "OUT"
+    },
+    "RXCHARISCOMMA0": {
+      "direction": "OUT"
+    },
+    "PCSRSVDIN14": {
+      "direction": "IN"
+    },
+    "RXCHBONDEN": {
+      "direction": "IN"
+    },
+    "DRPDI1": {
+      "direction": "IN"
+    },
+    "RESETOVRD": {
+      "direction": "IN"
+    },
+    "PCSRSVDOUT4": {
+      "direction": "OUT"
+    },
+    "RXADAPTSELTEST2": {
+      "direction": "IN"
+    },
+    "RXDATA0": {
+      "direction": "OUT"
+    },
+    "RXPHSLIPMONITOR2": {
+      "direction": "OUT"
+    },
+    "RXOUTCLKFABRIC": {
+      "direction": "OUT"
+    },
+    "RXHEADERVALID": {
+      "direction": "OUT"
+    },
+    "SCANIN3": {
+      "direction": "IN"
+    },
+    "PHYSTATUS": {
+      "direction": "OUT"
+    },
+    "RXADAPTSELTEST9": {
+      "direction": "IN"
+    },
+    "PMASCANIN1": {
+      "direction": "IN"
+    },
+    "TXPIPPMSTEPSIZE3": {
+      "direction": "IN"
+    },
+    "TSTIN17": {
+      "direction": "IN"
+    },
+    "DRPADDR2": {
+      "direction": "IN"
+    },
+    "TXPRBSSEL1": {
+      "direction": "IN"
+    },
+    "RXLPMHFOVRDEN": {
+      "direction": "IN"
+    },
+    "PCSRSVDOUT13": {
+      "direction": "OUT"
+    },
+    "RXDATA22": {
+      "direction": "OUT"
+    },
+    "TSTPD1": {
+      "direction": "IN"
+    },
+    "RXRATE2": {
+      "direction": "IN"
+    },
+    "RXRATEDONE": {
+      "direction": "OUT"
+    },
+    "DMONITOROUT12": {
+      "direction": "OUT"
+    },
+    "TXDATA29": {
+      "direction": "IN"
+    },
+    "RXUSRCLK": {
+      "direction": "IN"
+    },
+    "RXCHBONDO2": {
+      "direction": "OUT"
+    },
+    "RXOSINTDONE": {
+      "direction": "OUT"
+    },
+    "DRPDO2": {
+      "direction": "OUT"
+    },
+    "RXSTARTOFSEQ0": {
+      "direction": "OUT"
+    },
+    "TSTIN9": {
+      "direction": "IN"
+    },
+    "RXOSCALRESET": {
+      "direction": "IN"
+    },
+    "TXPOSTCURSOR4": {
+      "direction": "IN"
+    },
+    "EYESCANTRIGGER": {
+      "direction": "IN"
+    },
+    "RXSYSCLKSEL0": {
+      "direction": "IN"
+    },
+    "DRPDI5": {
+      "direction": "IN"
+    },
+    "DRPADDR6": {
+      "direction": "IN"
+    },
+    "TSTIN3": {
+      "direction": "IN"
+    },
+    "DRPADDR1": {
+      "direction": "IN"
+    },
+    "RXOSINTTESTOVRDEN": {
+      "direction": "IN"
+    },
+    "TXOUTCLKPCS": {
+      "direction": "OUT"
+    },
+    "RXDATA8": {
+      "direction": "OUT"
+    },
+    "RXOSINTSTROBE": {
+      "direction": "IN"
+    },
+    "TXDATA25": {
+      "direction": "IN"
+    },
+    "TSTIN18": {
+      "direction": "IN"
+    },
+    "RXCHARISCOMMA1": {
+      "direction": "OUT"
+    },
+    "TXPHDLYTSTCLK": {
+      "direction": "IN"
+    },
+    "RXLPMOSINTNTRLEN": {
+      "direction": "IN"
+    },
+    "PCSRSVDIN11": {
+      "direction": "IN"
+    },
+    "TXMAINCURSOR1": {
+      "direction": "IN"
+    },
+    "TXSEQUENCE6": {
+      "direction": "IN"
+    },
+    "DRPADDR5": {
+      "direction": "IN"
+    },
+    "TXPIPPMPD": {
+      "direction": "IN"
+    },
+    "RXDATA13": {
+      "direction": "OUT"
+    },
+    "TXPIPPMEN": {
+      "direction": "IN"
+    },
+    "TXRATE1": {
+      "direction": "IN"
+    },
+    "TSTIN16": {
+      "direction": "IN"
+    },
+    "DRPCLK": {
+      "direction": "IN"
+    },
+    "TXPRBSSEL2": {
+      "direction": "IN"
+    },
+    "EYESCANMODE": {
+      "direction": "IN"
+    },
+    "TXDATA5": {
+      "direction": "IN"
+    },
+    "RXOSINTSTROBEDONE": {
+      "direction": "OUT"
+    },
+    "TXPIPPMSTEPSIZE1": {
+      "direction": "IN"
+    },
+    "RXDATA21": {
+      "direction": "OUT"
+    },
+    "TXPRECURSOR4": {
+      "direction": "IN"
+    },
+    "TXPMARESET": {
+      "direction": "IN"
+    },
+    "RXPCSRESET": {
+      "direction": "IN"
+    },
+    "TXDLYHOLD": {
+      "direction": "IN"
+    },
+    "TXCHARDISPMODE1": {
+      "direction": "IN"
+    },
+    "RXPHSLIPMONITOR0": {
+      "direction": "OUT"
+    },
+    "PMASCANCLK3": {
+      "direction": "IN"
+    },
+    "DMONITOROUT1": {
+      "direction": "OUT"
+    },
+    "SCANOUT1": {
+      "direction": "OUT"
+    },
+    "TXPHALIGN": {
+      "direction": "IN"
+    },
+    "TXDATA11": {
+      "direction": "IN"
+    },
+    "TXPIPPMSTEPSIZE2": {
+      "direction": "IN"
+    },
+    "PMASCANOUT0": {
+      "direction": "OUT"
+    },
+    "TSTPD3": {
+      "direction": "IN"
+    },
+    "TXRUNDISP1": {
+      "direction": "OUT"
+    },
+    "RXADAPTSELTEST7": {
+      "direction": "IN"
+    },
+    "TXSTARTSEQ": {
+      "direction": "IN"
+    },
+    "PMASCANIN5": {
+      "direction": "IN"
+    },
+    "RXPHOVRDEN": {
+      "direction": "IN"
+    },
+    "PMASCANOUT5": {
+      "direction": "OUT"
+    },
+    "RXDFEXYDEN": {
+      "direction": "IN"
+    },
+    "PMASCANOUT2": {
+      "direction": "OUT"
+    },
+    "TXPOSTCURSOR2": {
+      "direction": "IN"
+    },
+    "TXDEEMPH": {
+      "direction": "IN"
+    },
+    "PMASCANOUT6": {
+      "direction": "OUT"
+    },
+    "RXCHBONDO1": {
+      "direction": "OUT"
+    },
+    "TXDLYSRESETDONE": {
+      "direction": "OUT"
+    },
+    "TXHEADER2": {
+      "direction": "IN"
+    },
+    "PCSRSVDIN3": {
+      "direction": "IN"
+    },
+    "TXDIFFCTRL1": {
+      "direction": "IN"
+    },
+    "DRPADDR3": {
+      "direction": "IN"
+    },
+    "GTPTXP": {
+      "direction": "OUT"
+    },
+    "TXPIPPMSTEPSIZE4": {
+      "direction": "IN"
+    },
+    "RXCDRRESETRSV": {
+      "direction": "IN"
+    },
+    "RXDATA31": {
+      "direction": "OUT"
+    },
+    "RXDATA19": {
+      "direction": "OUT"
+    },
+    "TXUSRCLK2": {
+      "direction": "IN"
+    },
+    "TXCOMSAS": {
+      "direction": "IN"
+    },
+    "SCANIN2": {
+      "direction": "IN"
+    },
+    "RXOOBRESET": {
+      "direction": "IN"
+    },
+    "TXDATA12": {
+      "direction": "IN"
+    },
+    "RXOSINTEN": {
+      "direction": "IN"
+    },
+    "GTTXRESET": {
+      "direction": "IN"
+    },
+    "SCANOUT3": {
+      "direction": "OUT"
+    },
+    "RXUSRCLK2": {
+      "direction": "IN"
+    },
+    "EYESCANDATAERROR": {
+      "direction": "OUT"
+    },
+    "PCSRSVDIN4": {
+      "direction": "IN"
+    },
+    "TSTIN5": {
+      "direction": "IN"
+    },
+    "TXSYSCLKSEL1": {
+      "direction": "IN"
+    },
+    "GTRSVD2": {
+      "direction": "IN"
+    },
+    "TXINHIBIT": {
+      "direction": "IN"
+    },
+    "RXDISPERR0": {
+      "direction": "OUT"
+    },
+    "GTPRXP": {
+      "direction": "IN"
+    },
+    "TXDATA21": {
+      "direction": "IN"
+    },
+    "TXDATA13": {
+      "direction": "IN"
+    },
+    "TXDATA31": {
+      "direction": "IN"
+    },
+    "TXPHINITDONE": {
+      "direction": "OUT"
+    },
+    "SCANIN4": {
+      "direction": "IN"
+    },
+    "PCSRSVDOUT3": {
+      "direction": "OUT"
+    },
+    "RXDATA28": {
+      "direction": "OUT"
+    },
+    "RXSLIDE": {
+      "direction": "IN"
+    },
+    "PMASCANCLK2": {
+      "direction": "IN"
+    },
+    "TXMAINCURSOR6": {
+      "direction": "IN"
+    },
+    "TXCHARDISPVAL1": {
+      "direction": "IN"
+    },
+    "PCSRSVDOUT0": {
+      "direction": "OUT"
+    },
+    "DMONITOROUT6": {
+      "direction": "OUT"
+    },
+    "TXDIFFCTRL3": {
+      "direction": "IN"
+    },
+    "DRPDO5": {
+      "direction": "OUT"
+    },
+    "TXSYNCIN": {
+      "direction": "IN"
+    },
+    "RXDATA15": {
+      "direction": "OUT"
+    },
+    "TXDLYUPDOWN": {
+      "direction": "IN"
+    },
+    "PCSRSVDOUT11": {
+      "direction": "OUT"
+    },
+    "GTRSVD15": {
+      "direction": "IN"
+    },
+    "TXOUTCLK": {
+      "direction": "OUT"
+    },
+    "PMARSVDIN2": {
+      "direction": "IN"
+    },
+    "RXOUTCLKSEL0": {
+      "direction": "IN"
+    },
+    "TXCOMWAKE": {
+      "direction": "IN"
+    },
+    "TXPHINIT": {
+      "direction": "IN"
+    },
+    "RXADAPTSELTEST0": {
+      "direction": "IN"
+    },
+    "RXCHBONDO3": {
+      "direction": "OUT"
+    },
+    "RXDATA27": {
+      "direction": "OUT"
+    },
+    "RXNOTINTABLE0": {
+      "direction": "OUT"
+    },
+    "TXRATE0": {
+      "direction": "IN"
+    },
+    "DRPDI8": {
+      "direction": "IN"
+    },
+    "DMONFIFORESET": {
+      "direction": "IN"
+    },
+    "TXDATA30": {
+      "direction": "IN"
+    },
+    "DRPDO6": {
+      "direction": "OUT"
+    },
+    "PCSRSVDOUT9": {
+      "direction": "OUT"
+    },
+    "RXDDIEN": {
+      "direction": "IN"
+    },
+    "PMASCANOUT1": {
+      "direction": "OUT"
+    },
+    "TXPDELECIDLEMODE": {
+      "direction": "IN"
+    },
+    "TXDLYTESTENB": {
+      "direction": "IN"
+    },
+    "PCSRSVDOUT1": {
+      "direction": "OUT"
+    },
+    "TXPRECURSOR3": {
+      "direction": "IN"
+    },
+    "TXDATA23": {
+      "direction": "IN"
+    },
+    "PCSRSVDOUT7": {
+      "direction": "OUT"
+    },
+    "TXMAINCURSOR3": {
+      "direction": "IN"
+    },
+    "TXRATEDONE": {
+      "direction": "OUT"
+    },
+    "RXOUTCLKSEL1": {
+      "direction": "IN"
+    },
+    "RXPHALIGN": {
+      "direction": "IN"
+    },
+    "TXMAINCURSOR5": {
+      "direction": "IN"
+    },
+    "TXCHARISK1": {
+      "direction": "IN"
+    },
+    "RXDATA14": {
+      "direction": "OUT"
     }
   }
 }

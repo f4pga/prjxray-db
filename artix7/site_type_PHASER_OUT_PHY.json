@@ -1,28 +1,101 @@
 {
   "type": "PHASER_OUT_PHY",
+  "site_pips": {
+    "RSTINV:RST_B": {
+      "from_pin": "RST_B",
+      "to_pin": "OUT"
+    },
+    "RSTINV:RST": {
+      "from_pin": "RST",
+      "to_pin": "OUT"
+    }
+  },
   "site_pins": {
+    "COUNTERREADVAL5": {
+      "direction": "OUT"
+    },
+    "COUNTERREADVAL4": {
+      "direction": "OUT"
+    },
+    "TESTIN7": {
+      "direction": "IN"
+    },
+    "DIVIDERST": {
+      "direction": "IN"
+    },
+    "TESTIN5": {
+      "direction": "IN"
+    },
+    "TESTIN6": {
+      "direction": "IN"
+    },
+    "COUNTERLOADVAL3": {
+      "direction": "IN"
+    },
     "COUNTERLOADEN": {
+      "direction": "IN"
+    },
+    "FINEINC": {
       "direction": "IN"
     },
     "TESTIN12": {
       "direction": "IN"
     },
+    "EDGEADV": {
+      "direction": "IN"
+    },
+    "RDENABLE": {
+      "direction": "OUT"
+    },
+    "COUNTERREADVAL1": {
+      "direction": "OUT"
+    },
+    "COUNTERREADVAL8": {
+      "direction": "OUT"
+    },
+    "FINEENABLE": {
+      "direction": "IN"
+    },
+    "SELFINEOCLKDELAY": {
+      "direction": "IN"
+    },
+    "COUNTERREADEN": {
+      "direction": "IN"
+    },
+    "COUNTERLOADVAL4": {
+      "direction": "IN"
+    },
+    "PHASEREFCLK": {
+      "direction": "IN"
+    },
+    "ENCALIB1": {
+      "direction": "IN"
+    },
+    "COUNTERREADVAL3": {
+      "direction": "OUT"
+    },
+    "DQSBUS1": {
+      "direction": "OUT"
+    },
     "DTSBUS1": {
       "direction": "OUT"
     },
-    "TESTIN2": {
+    "SCANMODEB": {
       "direction": "IN"
     },
-    "ENCALIBPHY1": {
+    "COUNTERREADVAL2": {
+      "direction": "OUT"
+    },
+    "COARSEENABLE": {
       "direction": "IN"
     },
-    "TESTOUT1": {
-      "direction": "OUT"
+    "ENCALIBPHY0": {
+      "direction": "IN"
     },
-    "FINEOVERFLOW": {
-      "direction": "OUT"
+    "COUNTERLOADVAL5": {
+      "direction": "IN"
     },
-    "TESTIN7": {
+    "SCANENB": {
       "direction": "IN"
     },
     "SCANCLK": {
@@ -31,216 +104,143 @@
     "TESTIN15": {
       "direction": "IN"
     },
-    "SCANMODEB": {
-      "direction": "IN"
-    },
     "COARSEOVERFLOW": {
       "direction": "OUT"
     },
-    "COUNTERREADVAL6": {
+    "FINEOVERFLOW": {
       "direction": "OUT"
     },
-    "TESTIN5": {
-      "direction": "IN"
-    },
-    "SYNCIN": {
-      "direction": "IN"
-    },
-    "BURSTPENDINGPHY": {
-      "direction": "IN"
-    },
-    "TESTIN6": {
-      "direction": "IN"
-    },
-    "FINEENABLE": {
-      "direction": "IN"
-    },
-    "COUNTERLOADVAL1": {
-      "direction": "IN"
-    },
-    "SELFINEOCLKDELAY": {
-      "direction": "IN"
-    },
-    "SCANOUT": {
+    "TESTOUT3": {
       "direction": "OUT"
-    },
-    "COUNTERLOADVAL0": {
-      "direction": "IN"
-    },
-    "COUNTERREADVAL1": {
-      "direction": "OUT"
-    },
-    "CTSBUS1": {
-      "direction": "OUT"
-    },
-    "COUNTERLOADVAL3": {
-      "direction": "IN"
-    },
-    "DTSBUS0": {
-      "direction": "OUT"
-    },
-    "SYSCLK": {
-      "direction": "IN"
-    },
-    "OCLK": {
-      "direction": "OUT"
-    },
-    "OCLKDIV": {
-      "direction": "OUT"
-    },
-    "ENCALIB1": {
-      "direction": "IN"
-    },
-    "COUNTERLOADVAL8": {
-      "direction": "IN"
-    },
-    "SCANIN": {
-      "direction": "IN"
-    },
-    "FREQREFCLK": {
-      "direction": "IN"
-    },
-    "COUNTERREADVAL8": {
-      "direction": "OUT"
-    },
-    "RST": {
-      "direction": "IN"
-    },
-    "FINEINC": {
-      "direction": "IN"
-    },
-    "COUNTERLOADVAL5": {
-      "direction": "IN"
-    },
-    "DQSBUS0": {
-      "direction": "OUT"
-    },
-    "OSERDESRST": {
-      "direction": "OUT"
-    },
-    "COUNTERLOADVAL2": {
-      "direction": "IN"
-    },
-    "TESTIN3": {
-      "direction": "IN"
     },
     "COUNTERREADVAL7": {
       "direction": "OUT"
     },
-    "DQSBUS1": {
-      "direction": "OUT"
-    },
-    "TESTIN14": {
-      "direction": "IN"
-    },
-    "SCANENB": {
-      "direction": "IN"
-    },
-    "TESTIN1": {
+    "FREQREFCLK": {
       "direction": "IN"
     },
     "BURSTPENDING": {
       "direction": "IN"
     },
-    "COARSEINC": {
-      "direction": "IN"
-    },
-    "COARSEENABLE": {
-      "direction": "IN"
-    },
-    "TESTIN0": {
-      "direction": "IN"
-    },
-    "COUNTERLOADVAL6": {
-      "direction": "IN"
+    "TESTOUT2": {
+      "direction": "OUT"
     },
     "CTSBUS0": {
       "direction": "OUT"
     },
-    "TESTIN11": {
-      "direction": "IN"
-    },
-    "COUNTERREADEN": {
-      "direction": "IN"
-    },
-    "COUNTERREADVAL5": {
-      "direction": "OUT"
-    },
-    "DIVIDERST": {
-      "direction": "IN"
-    },
-    "COUNTERREADVAL2": {
-      "direction": "OUT"
-    },
-    "COUNTERREADVAL3": {
-      "direction": "OUT"
-    },
-    "TESTOUT0": {
-      "direction": "OUT"
-    },
-    "OCLKDELAYED": {
-      "direction": "OUT"
-    },
-    "ENCALIBPHY0": {
-      "direction": "IN"
-    },
-    "TESTIN13": {
-      "direction": "IN"
-    },
-    "ENCALIB0": {
-      "direction": "IN"
-    },
-    "TESTIN10": {
-      "direction": "IN"
-    },
-    "EDGEADV": {
-      "direction": "IN"
-    },
-    "TESTIN9": {
-      "direction": "IN"
-    },
-    "TESTIN8": {
-      "direction": "IN"
-    },
-    "RDENABLE": {
-      "direction": "OUT"
-    },
-    "COUNTERREADVAL4": {
-      "direction": "OUT"
-    },
-    "COUNTERLOADVAL7": {
-      "direction": "IN"
-    },
-    "TESTOUT2": {
-      "direction": "OUT"
-    },
-    "COUNTERLOADVAL4": {
-      "direction": "IN"
-    },
-    "MEMREFCLK": {
+    "SYNCIN": {
       "direction": "IN"
     },
     "COUNTERREADVAL0": {
       "direction": "OUT"
     },
+    "TESTIN10": {
+      "direction": "IN"
+    },
+    "COUNTERLOADVAL1": {
+      "direction": "IN"
+    },
+    "TESTIN1": {
+      "direction": "IN"
+    },
+    "SCANIN": {
+      "direction": "IN"
+    },
+    "OCLK": {
+      "direction": "OUT"
+    },
+    "OSERDESRST": {
+      "direction": "OUT"
+    },
+    "COUNTERLOADVAL8": {
+      "direction": "IN"
+    },
+    "TESTIN9": {
+      "direction": "IN"
+    },
+    "TESTIN2": {
+      "direction": "IN"
+    },
+    "OCLKDIV": {
+      "direction": "OUT"
+    },
+    "SCANOUT": {
+      "direction": "OUT"
+    },
+    "TESTIN13": {
+      "direction": "IN"
+    },
+    "DQSBUS0": {
+      "direction": "OUT"
+    },
+    "TESTIN11": {
+      "direction": "IN"
+    },
+    "BURSTPENDINGPHY": {
+      "direction": "IN"
+    },
+    "COUNTERLOADVAL6": {
+      "direction": "IN"
+    },
+    "RST": {
+      "direction": "IN"
+    },
+    "TESTIN0": {
+      "direction": "IN"
+    },
+    "TESTIN3": {
+      "direction": "IN"
+    },
+    "TESTIN14": {
+      "direction": "IN"
+    },
+    "COUNTERLOADVAL0": {
+      "direction": "IN"
+    },
+    "TESTOUT1": {
+      "direction": "OUT"
+    },
+    "TESTOUT0": {
+      "direction": "OUT"
+    },
+    "CTSBUS1": {
+      "direction": "OUT"
+    },
+    "OCLKDELAYED": {
+      "direction": "OUT"
+    },
+    "SYSCLK": {
+      "direction": "IN"
+    },
+    "COUNTERLOADVAL2": {
+      "direction": "IN"
+    },
+    "COUNTERLOADVAL7": {
+      "direction": "IN"
+    },
+    "MEMREFCLK": {
+      "direction": "IN"
+    },
+    "ENCALIB0": {
+      "direction": "IN"
+    },
     "TESTIN4": {
       "direction": "IN"
     },
-    "PHASEREFCLK": {
+    "COARSEINC": {
       "direction": "IN"
     },
-    "TESTOUT3": {
-      "direction": "OUT"
-    }
-  },
-  "site_pips": {
-    "RSTINV:RST": {
-      "from_pin": "RST",
-      "to_pin": "OUT"
+    "ENCALIBPHY1": {
+      "direction": "IN"
     },
-    "RSTINV:RST_B": {
-      "from_pin": "RST_B",
-      "to_pin": "OUT"
+    "DTSBUS0": {
+      "direction": "OUT"
+    },
+    "TESTIN8": {
+      "direction": "IN"
+    },
+    "COUNTERREADVAL6": {
+      "direction": "OUT"
     }
   }
 }

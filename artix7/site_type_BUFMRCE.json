@@ -1,16 +1,5 @@
 {
   "type": "BUFMRCE",
-  "site_pins": {
-    "CE": {
-      "direction": "IN"
-    },
-    "I": {
-      "direction": "IN"
-    },
-    "O": {
-      "direction": "OUT"
-    }
-  },
   "site_pips": {
     "CEINV:CE": {
       "from_pin": "CE",
@@ -19,6 +8,17 @@
     "CEINV:CE_B": {
       "from_pin": "CE_B",
       "to_pin": "OUT"
+    }
+  },
+  "site_pins": {
+    "I": {
+      "direction": "IN"
+    },
+    "O": {
+      "direction": "OUT"
+    },
+    "CE": {
+      "direction": "IN"
     }
   }
 }

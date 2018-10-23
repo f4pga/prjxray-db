@@ -1,670 +1,12 @@
 {
   "type": "XADC",
-  "site_pins": {
-    "TESTADCIN27": {
-      "direction": "IN"
-    },
-    "DADDR0": {
-      "direction": "IN"
-    },
-    "VAUXP0": {
-      "direction": "IN"
-    },
-    "TESTADCIN9": {
-      "direction": "IN"
-    },
-    "VAUXN15": {
-      "direction": "IN"
-    },
-    "TESTSEL": {
-      "direction": "IN"
-    },
-    "TESTADCIN5": {
-      "direction": "IN"
-    },
-    "CHANNEL3": {
-      "direction": "OUT"
-    },
-    "TESTADCIN8": {
-      "direction": "IN"
-    },
-    "VAUXN1": {
-      "direction": "IN"
-    },
-    "CONVSTCLK": {
-      "direction": "IN"
-    },
-    "TESTDB2": {
-      "direction": "OUT"
-    },
-    "TESTADCIN11": {
-      "direction": "IN"
-    },
-    "TESTADCCLK0": {
-      "direction": "IN"
-    },
-    "TESTADCOUT19": {
-      "direction": "OUT"
-    },
-    "VAUXP9": {
-      "direction": "IN"
-    },
-    "ALM0": {
-      "direction": "OUT"
-    },
-    "VAUXP10": {
-      "direction": "IN"
-    },
-    "TESTSCANCLK0": {
-      "direction": "IN"
-    },
-    "DADDR5": {
-      "direction": "IN"
-    },
-    "MUXADDR2": {
-      "direction": "OUT"
-    },
-    "VAUXP15": {
-      "direction": "IN"
-    },
-    "VAUXP13": {
-      "direction": "IN"
-    },
-    "TESTSI4": {
-      "direction": "IN"
-    },
-    "ALM4": {
-      "direction": "OUT"
-    },
-    "OT": {
-      "direction": "OUT"
-    },
-    "TESTADCIN219": {
-      "direction": "IN"
-    },
-    "VAUXP5": {
-      "direction": "IN"
-    },
-    "DO7": {
-      "direction": "OUT"
-    },
-    "DI13": {
-      "direction": "IN"
-    },
-    "DADDR6": {
-      "direction": "IN"
-    },
-    "TESTSCANCLK1": {
-      "direction": "IN"
-    },
-    "DWE": {
-      "direction": "IN"
-    },
-    "VAUXN3": {
-      "direction": "IN"
-    },
-    "TESTDB7": {
-      "direction": "OUT"
-    },
-    "VP": {
-      "direction": "IN"
-    },
-    "DI10": {
-      "direction": "IN"
-    },
-    "DO3": {
-      "direction": "OUT"
-    },
-    "TESTADCIN19": {
-      "direction": "IN"
-    },
-    "TESTSCANMODE1": {
-      "direction": "IN"
-    },
-    "VAUXN9": {
-      "direction": "IN"
-    },
-    "TESTSCANRESET": {
-      "direction": "IN"
-    },
-    "TESTSO4": {
-      "direction": "OUT"
-    },
-    "TESTDB9": {
-      "direction": "OUT"
-    },
-    "TESTSCANMODE4": {
-      "direction": "IN"
-    },
-    "TESTADCIN4": {
-      "direction": "IN"
-    },
-    "TESTSHIFT": {
-      "direction": "IN"
-    },
-    "DO9": {
-      "direction": "OUT"
-    },
-    "CHANNEL2": {
-      "direction": "OUT"
-    },
-    "EOS": {
-      "direction": "OUT"
-    },
-    "DO4": {
-      "direction": "OUT"
-    },
-    "TESTADCIN23": {
-      "direction": "IN"
-    },
-    "ALM3": {
-      "direction": "OUT"
-    },
-    "TESTADCOUT6": {
-      "direction": "OUT"
-    },
-    "DI12": {
-      "direction": "IN"
-    },
-    "TESTADCIN14": {
-      "direction": "IN"
-    },
-    "DO1": {
-      "direction": "OUT"
-    },
-    "TESTSCANMODE2": {
-      "direction": "IN"
-    },
-    "DO12": {
-      "direction": "OUT"
-    },
-    "TESTADCIN10": {
-      "direction": "IN"
-    },
-    "VAUXN10": {
-      "direction": "IN"
-    },
-    "TESTDB6": {
-      "direction": "OUT"
-    },
-    "TESTENJTAG": {
-      "direction": "IN"
-    },
-    "DO2": {
-      "direction": "OUT"
-    },
-    "TESTSO3": {
-      "direction": "OUT"
-    },
-    "TESTDB3": {
-      "direction": "OUT"
-    },
-    "TESTADCIN213": {
-      "direction": "IN"
-    },
-    "TESTSI0": {
-      "direction": "IN"
-    },
-    "VAUXP1": {
-      "direction": "IN"
-    },
-    "VAUXN11": {
-      "direction": "IN"
-    },
-    "DO10": {
-      "direction": "OUT"
-    },
-    "CONVST": {
-      "direction": "IN"
-    },
-    "DADDR1": {
-      "direction": "IN"
-    },
-    "ALM1": {
-      "direction": "OUT"
-    },
-    "TESTADCIN26": {
-      "direction": "IN"
-    },
-    "TESTADCIN217": {
-      "direction": "IN"
-    },
-    "VAUXP14": {
-      "direction": "IN"
-    },
-    "DI11": {
-      "direction": "IN"
-    },
-    "DI0": {
-      "direction": "IN"
-    },
-    "DO5": {
-      "direction": "OUT"
-    },
-    "CHANNEL1": {
-      "direction": "OUT"
-    },
-    "TESTADCOUT7": {
-      "direction": "OUT"
-    },
-    "DI1": {
-      "direction": "IN"
-    },
-    "TESTSCANCLK3": {
-      "direction": "IN"
-    },
-    "TESTSE4": {
-      "direction": "IN"
-    },
-    "DO6": {
-      "direction": "OUT"
-    },
-    "TESTADCOUT1": {
-      "direction": "OUT"
-    },
-    "ALM6": {
-      "direction": "OUT"
-    },
-    "TESTADCIN2": {
-      "direction": "IN"
-    },
-    "DEN": {
-      "direction": "IN"
-    },
-    "TESTADCOUT13": {
-      "direction": "OUT"
-    },
-    "TESTSCANCLK4": {
-      "direction": "IN"
-    },
-    "TESTSCANMODE3": {
-      "direction": "IN"
-    },
-    "DADDR3": {
-      "direction": "IN"
-    },
-    "VAUXP6": {
-      "direction": "IN"
-    },
-    "TESTSO2": {
-      "direction": "OUT"
-    },
-    "TESTSE2": {
-      "direction": "IN"
-    },
-    "TESTSE3": {
-      "direction": "IN"
-    },
-    "JTAGBUSY": {
-      "direction": "OUT"
-    },
-    "TESTADCIN1": {
-      "direction": "IN"
-    },
-    "TESTADCIN218": {
-      "direction": "IN"
-    },
-    "TESTADCIN18": {
-      "direction": "IN"
-    },
-    "TESTADCOUT14": {
-      "direction": "OUT"
-    },
-    "ALM5": {
-      "direction": "OUT"
-    },
-    "VAUXP12": {
-      "direction": "IN"
-    },
-    "TESTDB1": {
-      "direction": "OUT"
-    },
-    "DI15": {
-      "direction": "IN"
-    },
-    "CHANNEL4": {
-      "direction": "OUT"
-    },
-    "VAUXN12": {
-      "direction": "IN"
-    },
-    "VAUXN8": {
-      "direction": "IN"
-    },
-    "TESTADCOUT11": {
-      "direction": "OUT"
-    },
-    "TESTADCOUT16": {
-      "direction": "OUT"
-    },
-    "DI3": {
-      "direction": "IN"
-    },
-    "TESTDB0": {
-      "direction": "OUT"
-    },
-    "DI6": {
-      "direction": "IN"
-    },
-    "TESTADCOUT9": {
-      "direction": "OUT"
-    },
-    "TESTADCIN21": {
-      "direction": "IN"
-    },
-    "JTAGLOCKED": {
-      "direction": "OUT"
-    },
-    "BUSY": {
-      "direction": "OUT"
-    },
-    "TESTADCIN12": {
-      "direction": "IN"
-    },
-    "TESTADCOUT17": {
-      "direction": "OUT"
-    },
-    "TESTDB8": {
-      "direction": "OUT"
-    },
-    "TESTADCOUT15": {
-      "direction": "OUT"
-    },
-    "DI5": {
-      "direction": "IN"
-    },
-    "TESTADCIN13": {
-      "direction": "IN"
-    },
-    "VAUXP11": {
-      "direction": "IN"
-    },
-    "TESTADCOUT3": {
-      "direction": "OUT"
-    },
-    "TESTDB12": {
-      "direction": "OUT"
-    },
-    "DO13": {
-      "direction": "OUT"
-    },
-    "TESTRST": {
-      "direction": "IN"
-    },
-    "TESTSI1": {
-      "direction": "IN"
-    },
-    "TESTADCIN29": {
-      "direction": "IN"
-    },
-    "TESTADCIN211": {
-      "direction": "IN"
-    },
-    "TESTADCIN24": {
-      "direction": "IN"
-    },
-    "TESTADCOUT12": {
-      "direction": "OUT"
-    },
-    "TESTUPDATE": {
-      "direction": "IN"
-    },
-    "VAUXN4": {
-      "direction": "IN"
-    },
-    "TESTDB15": {
-      "direction": "OUT"
-    },
-    "MUXADDR0": {
-      "direction": "OUT"
-    },
-    "TESTADCIN214": {
-      "direction": "IN"
-    },
-    "TESTADCCLK3": {
-      "direction": "IN"
-    },
-    "TESTADCIN210": {
-      "direction": "IN"
-    },
-    "TESTSI2": {
-      "direction": "IN"
-    },
-    "TESTADCIN215": {
-      "direction": "IN"
-    },
-    "CHANNEL0": {
-      "direction": "OUT"
-    },
-    "DCLK": {
-      "direction": "IN"
-    },
-    "DO14": {
-      "direction": "OUT"
-    },
-    "TESTADCOUT4": {
-      "direction": "OUT"
-    },
-    "TESTCAPTURE": {
-      "direction": "IN"
-    },
-    "MUXADDR3": {
-      "direction": "OUT"
-    },
-    "DI9": {
-      "direction": "IN"
-    },
-    "TESTDB4": {
-      "direction": "OUT"
-    },
-    "DADDR2": {
-      "direction": "IN"
-    },
-    "TESTDB10": {
-      "direction": "OUT"
-    },
-    "DI14": {
-      "direction": "IN"
-    },
-    "VAUXN2": {
-      "direction": "IN"
-    },
-    "TESTADCIN22": {
-      "direction": "IN"
-    },
-    "TESTADCIN25": {
-      "direction": "IN"
-    },
-    "JTAGMODIFIED": {
-      "direction": "OUT"
-    },
-    "DO0": {
-      "direction": "OUT"
-    },
-    "TESTADCOUT5": {
-      "direction": "OUT"
-    },
-    "TESTSE0": {
-      "direction": "IN"
-    },
-    "TESTSO0": {
-      "direction": "OUT"
-    },
-    "VAUXN13": {
-      "direction": "IN"
-    },
-    "DI2": {
-      "direction": "IN"
-    },
-    "TESTADCIN16": {
-      "direction": "IN"
-    },
-    "VAUXN5": {
-      "direction": "IN"
-    },
-    "RESET": {
-      "direction": "IN"
-    },
-    "DO11": {
-      "direction": "OUT"
-    },
-    "DADDR4": {
-      "direction": "IN"
-    },
-    "TESTADCIN3": {
-      "direction": "IN"
-    },
-    "TESTSE1": {
-      "direction": "IN"
-    },
-    "VAUXN7": {
-      "direction": "IN"
-    },
-    "TESTADCIN0": {
-      "direction": "IN"
-    },
-    "TESTADCOUT8": {
-      "direction": "OUT"
-    },
-    "DI4": {
-      "direction": "IN"
-    },
-    "TESTADCOUT2": {
-      "direction": "OUT"
-    },
-    "TESTADCIN216": {
-      "direction": "IN"
-    },
-    "TESTDRCK": {
-      "direction": "IN"
-    },
-    "VAUXN14": {
-      "direction": "IN"
-    },
-    "TESTSO1": {
-      "direction": "OUT"
-    },
-    "TESTADCIN7": {
-      "direction": "IN"
-    },
-    "TESTDB14": {
-      "direction": "OUT"
-    },
-    "MUXADDR1": {
-      "direction": "OUT"
-    },
-    "DI7": {
-      "direction": "IN"
-    },
-    "TESTADCIN15": {
-      "direction": "IN"
-    },
-    "TESTADCOUT18": {
-      "direction": "OUT"
-    },
-    "DO15": {
-      "direction": "OUT"
-    },
-    "VAUXN6": {
-      "direction": "IN"
-    },
-    "VAUXP4": {
-      "direction": "IN"
-    },
-    "DO8": {
-      "direction": "OUT"
-    },
-    "DRDY": {
-      "direction": "OUT"
-    },
-    "TESTSCANCLK2": {
-      "direction": "IN"
-    },
-    "DI8": {
-      "direction": "IN"
-    },
-    "TESTADCCLK1": {
-      "direction": "IN"
-    },
-    "TESTDB5": {
-      "direction": "OUT"
-    },
-    "VAUXP8": {
-      "direction": "IN"
-    },
-    "ALM7": {
-      "direction": "OUT"
-    },
-    "VN": {
-      "direction": "IN"
-    },
-    "TESTTDI": {
-      "direction": "IN"
-    },
-    "EOC": {
-      "direction": "OUT"
-    },
-    "TESTDB11": {
-      "direction": "OUT"
-    },
-    "TESTADCIN212": {
-      "direction": "IN"
-    },
-    "TESTADCOUT0": {
-      "direction": "OUT"
-    },
-    "VAUXN0": {
-      "direction": "IN"
-    },
-    "ALM2": {
-      "direction": "OUT"
-    },
-    "TESTADCIN6": {
-      "direction": "IN"
-    },
-    "TESTTDO": {
-      "direction": "OUT"
-    },
-    "TESTADCOUT10": {
-      "direction": "OUT"
-    },
-    "MUXADDR4": {
-      "direction": "OUT"
-    },
-    "VAUXP7": {
-      "direction": "IN"
-    },
-    "VAUXP2": {
-      "direction": "IN"
-    },
-    "TESTADCCLK2": {
-      "direction": "IN"
-    },
-    "TESTADCIN28": {
-      "direction": "IN"
-    },
-    "TESTSI3": {
-      "direction": "IN"
-    },
-    "TESTADCIN17": {
-      "direction": "IN"
-    },
-    "TESTDB13": {
-      "direction": "OUT"
-    },
-    "VAUXP3": {
-      "direction": "IN"
-    },
-    "TESTSCANMODE0": {
-      "direction": "IN"
-    },
-    "TESTADCIN20": {
-      "direction": "IN"
-    }
-  },
   "site_pips": {
     "CONVSTCLKINV:CONVSTCLK": {
       "from_pin": "CONVSTCLK",
+      "to_pin": "OUT"
+    },
+    "DCLKINV:DCLK_B": {
+      "from_pin": "DCLK_B",
       "to_pin": "OUT"
     },
     "DCLKINV:DCLK": {
@@ -674,10 +16,668 @@
     "CONVSTCLKINV:CONVSTCLK_B": {
       "from_pin": "CONVSTCLK_B",
       "to_pin": "OUT"
+    }
+  },
+  "site_pins": {
+    "DO14": {
+      "direction": "OUT"
     },
-    "DCLKINV:DCLK_B": {
-      "from_pin": "DCLK_B",
-      "to_pin": "OUT"
+    "TESTDB4": {
+      "direction": "OUT"
+    },
+    "VAUXP1": {
+      "direction": "IN"
+    },
+    "TESTTDO": {
+      "direction": "OUT"
+    },
+    "TESTDB12": {
+      "direction": "OUT"
+    },
+    "DADDR3": {
+      "direction": "IN"
+    },
+    "TESTADCIN14": {
+      "direction": "IN"
+    },
+    "TESTADCOUT8": {
+      "direction": "OUT"
+    },
+    "VAUXN7": {
+      "direction": "IN"
+    },
+    "TESTADCIN11": {
+      "direction": "IN"
+    },
+    "TESTSCANMODE0": {
+      "direction": "IN"
+    },
+    "TESTADCIN12": {
+      "direction": "IN"
+    },
+    "TESTADCOUT14": {
+      "direction": "OUT"
+    },
+    "TESTADCOUT18": {
+      "direction": "OUT"
+    },
+    "VAUXN2": {
+      "direction": "IN"
+    },
+    "DO13": {
+      "direction": "OUT"
+    },
+    "TESTADCOUT6": {
+      "direction": "OUT"
+    },
+    "TESTADCIN3": {
+      "direction": "IN"
+    },
+    "DRDY": {
+      "direction": "OUT"
+    },
+    "DI3": {
+      "direction": "IN"
+    },
+    "DO9": {
+      "direction": "OUT"
+    },
+    "TESTADCOUT15": {
+      "direction": "OUT"
+    },
+    "TESTADCIN6": {
+      "direction": "IN"
+    },
+    "TESTSCANCLK4": {
+      "direction": "IN"
+    },
+    "VAUXN0": {
+      "direction": "IN"
+    },
+    "TESTADCOUT16": {
+      "direction": "OUT"
+    },
+    "TESTADCOUT19": {
+      "direction": "OUT"
+    },
+    "DO11": {
+      "direction": "OUT"
+    },
+    "JTAGBUSY": {
+      "direction": "OUT"
+    },
+    "DO7": {
+      "direction": "OUT"
+    },
+    "VAUXP14": {
+      "direction": "IN"
+    },
+    "TESTADCIN213": {
+      "direction": "IN"
+    },
+    "TESTENJTAG": {
+      "direction": "IN"
+    },
+    "VAUXN1": {
+      "direction": "IN"
+    },
+    "TESTADCIN29": {
+      "direction": "IN"
+    },
+    "TESTADCOUT2": {
+      "direction": "OUT"
+    },
+    "TESTSCANRESET": {
+      "direction": "IN"
+    },
+    "TESTSCANCLK3": {
+      "direction": "IN"
+    },
+    "VAUXN10": {
+      "direction": "IN"
+    },
+    "TESTADCIN214": {
+      "direction": "IN"
+    },
+    "TESTSO2": {
+      "direction": "OUT"
+    },
+    "VAUXN11": {
+      "direction": "IN"
+    },
+    "TESTADCOUT7": {
+      "direction": "OUT"
+    },
+    "TESTADCIN25": {
+      "direction": "IN"
+    },
+    "DADDR2": {
+      "direction": "IN"
+    },
+    "TESTADCIN22": {
+      "direction": "IN"
+    },
+    "TESTSE3": {
+      "direction": "IN"
+    },
+    "TESTADCIN24": {
+      "direction": "IN"
+    },
+    "TESTTDI": {
+      "direction": "IN"
+    },
+    "MUXADDR3": {
+      "direction": "OUT"
+    },
+    "TESTADCOUT4": {
+      "direction": "OUT"
+    },
+    "TESTADCOUT17": {
+      "direction": "OUT"
+    },
+    "ALM6": {
+      "direction": "OUT"
+    },
+    "DI14": {
+      "direction": "IN"
+    },
+    "DI6": {
+      "direction": "IN"
+    },
+    "TESTADCIN20": {
+      "direction": "IN"
+    },
+    "TESTRST": {
+      "direction": "IN"
+    },
+    "DO12": {
+      "direction": "OUT"
+    },
+    "TESTSCANCLK1": {
+      "direction": "IN"
+    },
+    "DADDR0": {
+      "direction": "IN"
+    },
+    "CHANNEL2": {
+      "direction": "OUT"
+    },
+    "TESTDB8": {
+      "direction": "OUT"
+    },
+    "BUSY": {
+      "direction": "OUT"
+    },
+    "DADDR5": {
+      "direction": "IN"
+    },
+    "VAUXP3": {
+      "direction": "IN"
+    },
+    "TESTADCCLK2": {
+      "direction": "IN"
+    },
+    "TESTADCIN8": {
+      "direction": "IN"
+    },
+    "DI8": {
+      "direction": "IN"
+    },
+    "TESTDRCK": {
+      "direction": "IN"
+    },
+    "CHANNEL1": {
+      "direction": "OUT"
+    },
+    "MUXADDR1": {
+      "direction": "OUT"
+    },
+    "TESTADCOUT12": {
+      "direction": "OUT"
+    },
+    "CONVSTCLK": {
+      "direction": "IN"
+    },
+    "TESTSE4": {
+      "direction": "IN"
+    },
+    "TESTADCIN2": {
+      "direction": "IN"
+    },
+    "TESTADCIN16": {
+      "direction": "IN"
+    },
+    "TESTADCOUT13": {
+      "direction": "OUT"
+    },
+    "TESTSI2": {
+      "direction": "IN"
+    },
+    "VAUXN4": {
+      "direction": "IN"
+    },
+    "TESTADCIN217": {
+      "direction": "IN"
+    },
+    "TESTADCIN218": {
+      "direction": "IN"
+    },
+    "TESTDB14": {
+      "direction": "OUT"
+    },
+    "TESTDB2": {
+      "direction": "OUT"
+    },
+    "VAUXP13": {
+      "direction": "IN"
+    },
+    "DI5": {
+      "direction": "IN"
+    },
+    "TESTDB1": {
+      "direction": "OUT"
+    },
+    "VAUXN6": {
+      "direction": "IN"
+    },
+    "TESTADCOUT3": {
+      "direction": "OUT"
+    },
+    "TESTADCIN4": {
+      "direction": "IN"
+    },
+    "ALM3": {
+      "direction": "OUT"
+    },
+    "DI7": {
+      "direction": "IN"
+    },
+    "DO15": {
+      "direction": "OUT"
+    },
+    "TESTSI1": {
+      "direction": "IN"
+    },
+    "ALM4": {
+      "direction": "OUT"
+    },
+    "TESTADCIN215": {
+      "direction": "IN"
+    },
+    "TESTSCANMODE3": {
+      "direction": "IN"
+    },
+    "ALM5": {
+      "direction": "OUT"
+    },
+    "MUXADDR2": {
+      "direction": "OUT"
+    },
+    "TESTADCOUT10": {
+      "direction": "OUT"
+    },
+    "CHANNEL0": {
+      "direction": "OUT"
+    },
+    "TESTUPDATE": {
+      "direction": "IN"
+    },
+    "DI2": {
+      "direction": "IN"
+    },
+    "DO3": {
+      "direction": "OUT"
+    },
+    "DO0": {
+      "direction": "OUT"
+    },
+    "VAUXP5": {
+      "direction": "IN"
+    },
+    "TESTSI3": {
+      "direction": "IN"
+    },
+    "DI12": {
+      "direction": "IN"
+    },
+    "TESTDB11": {
+      "direction": "OUT"
+    },
+    "TESTSCANMODE1": {
+      "direction": "IN"
+    },
+    "TESTDB10": {
+      "direction": "OUT"
+    },
+    "DCLK": {
+      "direction": "IN"
+    },
+    "TESTSI4": {
+      "direction": "IN"
+    },
+    "TESTSE1": {
+      "direction": "IN"
+    },
+    "TESTDB0": {
+      "direction": "OUT"
+    },
+    "VAUXP12": {
+      "direction": "IN"
+    },
+    "DADDR6": {
+      "direction": "IN"
+    },
+    "TESTDB3": {
+      "direction": "OUT"
+    },
+    "TESTADCOUT0": {
+      "direction": "OUT"
+    },
+    "VAUXN5": {
+      "direction": "IN"
+    },
+    "VAUXN9": {
+      "direction": "IN"
+    },
+    "TESTCAPTURE": {
+      "direction": "IN"
+    },
+    "RESET": {
+      "direction": "IN"
+    },
+    "TESTADCIN19": {
+      "direction": "IN"
+    },
+    "TESTADCOUT9": {
+      "direction": "OUT"
+    },
+    "VAUXP11": {
+      "direction": "IN"
+    },
+    "TESTADCCLK1": {
+      "direction": "IN"
+    },
+    "CHANNEL4": {
+      "direction": "OUT"
+    },
+    "TESTSCANMODE2": {
+      "direction": "IN"
+    },
+    "TESTSO3": {
+      "direction": "OUT"
+    },
+    "CONVST": {
+      "direction": "IN"
+    },
+    "TESTSCANCLK0": {
+      "direction": "IN"
+    },
+    "TESTADCIN216": {
+      "direction": "IN"
+    },
+    "VAUXP6": {
+      "direction": "IN"
+    },
+    "DI0": {
+      "direction": "IN"
+    },
+    "VAUXP9": {
+      "direction": "IN"
+    },
+    "TESTADCIN10": {
+      "direction": "IN"
+    },
+    "DI1": {
+      "direction": "IN"
+    },
+    "TESTSHIFT": {
+      "direction": "IN"
+    },
+    "VAUXP2": {
+      "direction": "IN"
+    },
+    "ALM2": {
+      "direction": "OUT"
+    },
+    "DO6": {
+      "direction": "OUT"
+    },
+    "VAUXN8": {
+      "direction": "IN"
+    },
+    "JTAGMODIFIED": {
+      "direction": "OUT"
+    },
+    "DO4": {
+      "direction": "OUT"
+    },
+    "DI4": {
+      "direction": "IN"
+    },
+    "TESTADCIN5": {
+      "direction": "IN"
+    },
+    "TESTADCIN27": {
+      "direction": "IN"
+    },
+    "TESTADCIN1": {
+      "direction": "IN"
+    },
+    "TESTADCOUT5": {
+      "direction": "OUT"
+    },
+    "VAUXN13": {
+      "direction": "IN"
+    },
+    "OT": {
+      "direction": "OUT"
+    },
+    "DADDR1": {
+      "direction": "IN"
+    },
+    "DO8": {
+      "direction": "OUT"
+    },
+    "TESTADCCLK3": {
+      "direction": "IN"
+    },
+    "DEN": {
+      "direction": "IN"
+    },
+    "DI10": {
+      "direction": "IN"
+    },
+    "CHANNEL3": {
+      "direction": "OUT"
+    },
+    "DADDR4": {
+      "direction": "IN"
+    },
+    "TESTDB6": {
+      "direction": "OUT"
+    },
+    "TESTSO4": {
+      "direction": "OUT"
+    },
+    "TESTADCIN26": {
+      "direction": "IN"
+    },
+    "TESTADCIN18": {
+      "direction": "IN"
+    },
+    "DO2": {
+      "direction": "OUT"
+    },
+    "TESTADCIN13": {
+      "direction": "IN"
+    },
+    "VAUXP8": {
+      "direction": "IN"
+    },
+    "DWE": {
+      "direction": "IN"
+    },
+    "TESTADCIN17": {
+      "direction": "IN"
+    },
+    "TESTSO1": {
+      "direction": "OUT"
+    },
+    "VAUXN15": {
+      "direction": "IN"
+    },
+    "DI11": {
+      "direction": "IN"
+    },
+    "TESTADCIN23": {
+      "direction": "IN"
+    },
+    "TESTADCIN219": {
+      "direction": "IN"
+    },
+    "VAUXP0": {
+      "direction": "IN"
+    },
+    "TESTADCIN15": {
+      "direction": "IN"
+    },
+    "VAUXN3": {
+      "direction": "IN"
+    },
+    "VAUXP15": {
+      "direction": "IN"
+    },
+    "TESTADCIN212": {
+      "direction": "IN"
+    },
+    "TESTADCIN21": {
+      "direction": "IN"
+    },
+    "JTAGLOCKED": {
+      "direction": "OUT"
+    },
+    "TESTSE0": {
+      "direction": "IN"
+    },
+    "TESTDB9": {
+      "direction": "OUT"
+    },
+    "DI9": {
+      "direction": "IN"
+    },
+    "DO5": {
+      "direction": "OUT"
+    },
+    "DI13": {
+      "direction": "IN"
+    },
+    "TESTSCANCLK2": {
+      "direction": "IN"
+    },
+    "VP": {
+      "direction": "IN"
+    },
+    "TESTADCIN210": {
+      "direction": "IN"
+    },
+    "TESTADCOUT11": {
+      "direction": "OUT"
+    },
+    "DO10": {
+      "direction": "OUT"
+    },
+    "TESTDB15": {
+      "direction": "OUT"
+    },
+    "ALM1": {
+      "direction": "OUT"
+    },
+    "EOC": {
+      "direction": "OUT"
+    },
+    "DI15": {
+      "direction": "IN"
+    },
+    "TESTSI0": {
+      "direction": "IN"
+    },
+    "ALM7": {
+      "direction": "OUT"
+    },
+    "TESTDB5": {
+      "direction": "OUT"
+    },
+    "VAUXP4": {
+      "direction": "IN"
+    },
+    "VAUXN14": {
+      "direction": "IN"
+    },
+    "ALM0": {
+      "direction": "OUT"
+    },
+    "DO1": {
+      "direction": "OUT"
+    },
+    "TESTADCOUT1": {
+      "direction": "OUT"
+    },
+    "TESTDB7": {
+      "direction": "OUT"
+    },
+    "VAUXN12": {
+      "direction": "IN"
+    },
+    "TESTADCIN0": {
+      "direction": "IN"
+    },
+    "TESTSO0": {
+      "direction": "OUT"
+    },
+    "VAUXP7": {
+      "direction": "IN"
+    },
+    "TESTSCANMODE4": {
+      "direction": "IN"
+    },
+    "TESTADCIN9": {
+      "direction": "IN"
+    },
+    "TESTSEL": {
+      "direction": "IN"
+    },
+    "TESTSE2": {
+      "direction": "IN"
+    },
+    "VAUXP10": {
+      "direction": "IN"
+    },
+    "TESTADCIN7": {
+      "direction": "IN"
+    },
+    "EOS": {
+      "direction": "OUT"
+    },
+    "TESTADCIN211": {
+      "direction": "IN"
+    },
+    "TESTADCIN28": {
+      "direction": "IN"
+    },
+    "VN": {
+      "direction": "IN"
+    },
+    "TESTDB13": {
+      "direction": "OUT"
+    },
+    "TESTADCCLK0": {
+      "direction": "IN"
+    },
+    "MUXADDR0": {
+      "direction": "OUT"
+    },
+    "MUXADDR4": {
+      "direction": "OUT"
     }
   }
 }

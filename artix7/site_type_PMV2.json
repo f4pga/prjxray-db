@@ -1,27 +1,27 @@
 {
   "type": "PMV2",
+  "site_pips": {},
   "site_pins": {
     "ODIV2": {
       "direction": "OUT"
     },
-    "ODIV4": {
-      "direction": "OUT"
+    "A1": {
+      "direction": "IN"
     },
     "A2": {
       "direction": "IN"
+    },
+    "O": {
+      "direction": "OUT"
+    },
+    "ODIV4": {
+      "direction": "OUT"
     },
     "EN": {
       "direction": "IN"
     },
     "A0": {
       "direction": "IN"
-    },
-    "A1": {
-      "direction": "IN"
-    },
-    "O": {
-      "direction": "OUT"
     }
-  },
-  "site_pips": {}
+  }
 }

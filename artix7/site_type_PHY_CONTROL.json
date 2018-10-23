@@ -1,172 +1,53 @@
 {
   "type": "PHY_CONTROL",
+  "site_pips": {},
   "site_pins": {
-    "PHYCTLWD4": {
-      "direction": "IN"
-    },
-    "PHYCTLWD0": {
-      "direction": "IN"
-    },
-    "PHYCTLWD8": {
-      "direction": "IN"
-    },
-    "TESTOUTPUT8": {
+    "INBURSTPENDING2": {
       "direction": "OUT"
     },
-    "PHYCTLWD6": {
+    "TESTINPUT9": {
       "direction": "IN"
     },
-    "PHYCTLWD24": {
+    "PHYCTLWD9": {
       "direction": "IN"
     },
-    "OUTBURSTPENDING1": {
-      "direction": "OUT"
-    },
-    "TESTOUTPUT3": {
-      "direction": "OUT"
-    },
-    "PHYCTLEMPTY": {
-      "direction": "OUT"
-    },
-    "PHYCTLWD13": {
-      "direction": "IN"
-    },
-    "PHYCTLMSTREMPTY": {
-      "direction": "IN"
-    },
-    "PHYCTLWD30": {
-      "direction": "IN"
-    },
-    "PHYCTLWRENABLE": {
-      "direction": "IN"
-    },
-    "TESTINPUT4": {
+    "REFDLLLOCK": {
       "direction": "IN"
     },
     "PHYCTLWD20": {
       "direction": "IN"
     },
-    "SCANENABLEN": {
-      "direction": "IN"
-    },
-    "TESTINPUT13": {
-      "direction": "IN"
-    },
-    "TESTOUTPUT2": {
-      "direction": "OUT"
-    },
-    "INRANKC0": {
-      "direction": "OUT"
-    },
-    "READCALIBENABLE": {
-      "direction": "IN"
-    },
-    "PHYCTLWD10": {
-      "direction": "IN"
-    },
-    "PHYCTLWD31": {
-      "direction": "IN"
-    },
-    "TESTOUTPUT5": {
-      "direction": "OUT"
-    },
-    "PHYCTLWD3": {
-      "direction": "IN"
-    },
-    "PHYCTLFULL": {
-      "direction": "OUT"
-    },
-    "AUXOUTPUT2": {
-      "direction": "OUT"
-    },
-    "TESTINPUT6": {
-      "direction": "IN"
-    },
-    "TESTOUTPUT14": {
-      "direction": "OUT"
-    },
-    "PCENABLECALIB0": {
-      "direction": "OUT"
-    },
-    "TESTOUTPUT0": {
-      "direction": "OUT"
-    },
-    "TESTOUTPUT13": {
-      "direction": "OUT"
-    },
-    "PHYCTLWD7": {
-      "direction": "IN"
-    },
-    "INRANKB1": {
-      "direction": "OUT"
-    },
-    "PHYCTLWD9": {
-      "direction": "IN"
-    },
-    "TESTOUTPUT15": {
-      "direction": "OUT"
-    },
-    "PHYCTLWD15": {
-      "direction": "IN"
-    },
     "PHYCTLWD18": {
       "direction": "IN"
     },
-    "PHYCTLWD1": {
-      "direction": "IN"
-    },
-    "INRANKC1": {
+    "TESTOUTPUT4": {
       "direction": "OUT"
     },
-    "TESTINPUT10": {
+    "INRANKD1": {
+      "direction": "OUT"
+    },
+    "TESTINPUT0": {
       "direction": "IN"
     },
-    "INRANKA1": {
+    "TESTINPUT12": {
+      "direction": "IN"
+    },
+    "AUXOUTPUT3": {
       "direction": "OUT"
     },
     "TESTINPUT8": {
       "direction": "IN"
     },
-    "TESTINPUT11": {
-      "direction": "IN"
-    },
-    "PHYCLK": {
-      "direction": "IN"
-    },
-    "TESTINPUT5": {
-      "direction": "IN"
-    },
-    "PHYCTLWD29": {
-      "direction": "IN"
-    },
-    "MEMREFCLK": {
-      "direction": "IN"
-    },
-    "PHYCTLWD23": {
-      "direction": "IN"
-    },
-    "TESTINPUT0": {
-      "direction": "IN"
-    },
-    "TESTINPUT15": {
-      "direction": "IN"
-    },
-    "SYNCIN": {
-      "direction": "IN"
-    },
-    "TESTINPUT1": {
-      "direction": "IN"
-    },
-    "TESTOUTPUT10": {
+    "PCENABLECALIB0": {
       "direction": "OUT"
     },
-    "INRANKA0": {
-      "direction": "OUT"
-    },
-    "PHYCTLWD21": {
+    "TESTSELECT1": {
       "direction": "IN"
     },
-    "PHYCTLWD14": {
+    "TESTOUTPUT1": {
+      "direction": "OUT"
+    },
+    "RESET": {
       "direction": "IN"
     },
     "PHYCTLWD11": {
@@ -175,144 +56,263 @@
     "PHYCTLREADY": {
       "direction": "OUT"
     },
-    "RESET": {
+    "INRANKB0": {
+      "direction": "OUT"
+    },
+    "TESTINPUT5": {
       "direction": "IN"
     },
-    "TESTINPUT14": {
-      "direction": "IN"
-    },
-    "INBURSTPENDING0": {
-      "direction": "OUT"
-    },
-    "PHYCTLALMOSTFULL": {
-      "direction": "OUT"
-    },
-    "PHYCTLWD2": {
-      "direction": "IN"
-    },
-    "PHYCTLWD25": {
-      "direction": "IN"
-    },
-    "PHYCTLWD22": {
-      "direction": "IN"
-    },
-    "INBURSTPENDING1": {
-      "direction": "OUT"
-    },
-    "PCENABLECALIB1": {
-      "direction": "OUT"
-    },
-    "INRANKD0": {
-      "direction": "OUT"
-    },
-    "TESTSELECT0": {
-      "direction": "IN"
-    },
-    "PHYCTLWD26": {
-      "direction": "IN"
-    },
-    "AUXOUTPUT3": {
-      "direction": "OUT"
-    },
-    "INBURSTPENDING2": {
-      "direction": "OUT"
-    },
-    "PHYCTLWD12": {
-      "direction": "IN"
-    },
-    "INBURSTPENDING3": {
-      "direction": "OUT"
-    },
-    "TESTOUTPUT9": {
-      "direction": "OUT"
-    },
-    "AUXOUTPUT1": {
-      "direction": "OUT"
-    },
-    "TESTOUTPUT12": {
-      "direction": "OUT"
-    },
-    "TESTOUTPUT11": {
+    "INRANKB1": {
       "direction": "OUT"
     },
     "TESTSELECT2": {
       "direction": "IN"
     },
-    "TESTOUTPUT6": {
+    "SCANENABLEN": {
+      "direction": "IN"
+    },
+    "TESTINPUT11": {
+      "direction": "IN"
+    },
+    "PHYCTLMSTREMPTY": {
+      "direction": "IN"
+    },
+    "INRANKD0": {
       "direction": "OUT"
     },
-    "OUTBURSTPENDING0": {
+    "PHYCTLWD16": {
+      "direction": "IN"
+    },
+    "TESTINPUT13": {
+      "direction": "IN"
+    },
+    "PHYCTLWD4": {
+      "direction": "IN"
+    },
+    "PHYCTLWD8": {
+      "direction": "IN"
+    },
+    "PHYCTLWD26": {
+      "direction": "IN"
+    },
+    "PHYCTLWD1": {
+      "direction": "IN"
+    },
+    "PHYCTLFULL": {
+      "direction": "OUT"
+    },
+    "TESTOUTPUT5": {
+      "direction": "OUT"
+    },
+    "AUXOUTPUT0": {
       "direction": "OUT"
     },
     "PHYCTLWD27": {
       "direction": "IN"
     },
-    "WRITECALIBENABLE": {
-      "direction": "IN"
-    },
-    "PHYCTLWD16": {
-      "direction": "IN"
-    },
-    "TESTINPUT12": {
-      "direction": "IN"
-    },
-    "TESTOUTPUT1": {
+    "TESTOUTPUT0": {
       "direction": "OUT"
     },
     "PHYCTLWD19": {
       "direction": "IN"
     },
-    "TESTINPUT7": {
+    "PHYCTLWD23": {
       "direction": "IN"
-    },
-    "REFDLLLOCK": {
-      "direction": "IN"
-    },
-    "OUTBURSTPENDING2": {
-      "direction": "OUT"
     },
     "OUTBURSTPENDING3": {
       "direction": "OUT"
     },
-    "INRANKB0": {
+    "OUTBURSTPENDING0": {
+      "direction": "OUT"
+    },
+    "PHYCTLALMOSTFULL": {
+      "direction": "OUT"
+    },
+    "PHYCTLEMPTY": {
+      "direction": "OUT"
+    },
+    "PHYCTLWD30": {
+      "direction": "IN"
+    },
+    "PHYCTLWD12": {
+      "direction": "IN"
+    },
+    "TESTOUTPUT3": {
+      "direction": "OUT"
+    },
+    "MEMREFCLK": {
+      "direction": "IN"
+    },
+    "PHYCTLWD17": {
+      "direction": "IN"
+    },
+    "AUXOUTPUT2": {
+      "direction": "OUT"
+    },
+    "PHYCTLWD29": {
+      "direction": "IN"
+    },
+    "PCENABLECALIB1": {
+      "direction": "OUT"
+    },
+    "TESTOUTPUT6": {
+      "direction": "OUT"
+    },
+    "TESTINPUT2": {
+      "direction": "IN"
+    },
+    "INBURSTPENDING1": {
+      "direction": "OUT"
+    },
+    "TESTINPUT1": {
+      "direction": "IN"
+    },
+    "TESTOUTPUT11": {
+      "direction": "OUT"
+    },
+    "INBURSTPENDING3": {
+      "direction": "OUT"
+    },
+    "TESTOUTPUT8": {
+      "direction": "OUT"
+    },
+    "TESTINPUT6": {
+      "direction": "IN"
+    },
+    "TESTINPUT7": {
+      "direction": "IN"
+    },
+    "PHYCTLWD0": {
+      "direction": "IN"
+    },
+    "INBURSTPENDING0": {
+      "direction": "OUT"
+    },
+    "TESTINPUT14": {
+      "direction": "IN"
+    },
+    "PHYCTLWD21": {
+      "direction": "IN"
+    },
+    "PHYCTLWD25": {
+      "direction": "IN"
+    },
+    "TESTOUTPUT2": {
+      "direction": "OUT"
+    },
+    "PHYCTLWD6": {
+      "direction": "IN"
+    },
+    "INRANKA1": {
+      "direction": "OUT"
+    },
+    "TESTINPUT4": {
+      "direction": "IN"
+    },
+    "PHYCTLWD14": {
+      "direction": "IN"
+    },
+    "TESTOUTPUT15": {
       "direction": "OUT"
     },
     "TESTINPUT3": {
       "direction": "IN"
     },
-    "TESTSELECT1": {
+    "PHYCTLWD31": {
       "direction": "IN"
     },
-    "TESTINPUT9": {
-      "direction": "IN"
-    },
-    "TESTINPUT2": {
-      "direction": "IN"
-    },
-    "PHYCTLWD28": {
+    "TESTINPUT10": {
       "direction": "IN"
     },
     "TESTOUTPUT7": {
       "direction": "OUT"
     },
-    "INRANKD1": {
-      "direction": "OUT"
-    },
-    "TESTOUTPUT4": {
-      "direction": "OUT"
-    },
-    "PHYCTLWD17": {
+    "PHYCTLWD22": {
       "direction": "IN"
+    },
+    "PHYCTLWD28": {
+      "direction": "IN"
+    },
+    "TESTOUTPUT12": {
+      "direction": "OUT"
+    },
+    "TESTOUTPUT14": {
+      "direction": "OUT"
+    },
+    "WRITECALIBENABLE": {
+      "direction": "IN"
+    },
+    "PHYCTLWD3": {
+      "direction": "IN"
+    },
+    "PHYCTLWD10": {
+      "direction": "IN"
+    },
+    "OUTBURSTPENDING2": {
+      "direction": "OUT"
+    },
+    "TESTOUTPUT10": {
+      "direction": "OUT"
+    },
+    "AUXOUTPUT1": {
+      "direction": "OUT"
+    },
+    "INRANKA0": {
+      "direction": "OUT"
+    },
+    "TESTSELECT0": {
+      "direction": "IN"
+    },
+    "READCALIBENABLE": {
+      "direction": "IN"
+    },
+    "INRANKC1": {
+      "direction": "OUT"
+    },
+    "TESTINPUT15": {
+      "direction": "IN"
+    },
+    "PHYCTLWD15": {
+      "direction": "IN"
+    },
+    "PHYCTLWD2": {
+      "direction": "IN"
+    },
+    "SYNCIN": {
+      "direction": "IN"
+    },
+    "TESTOUTPUT13": {
+      "direction": "OUT"
+    },
+    "PHYCTLWRENABLE": {
+      "direction": "IN"
+    },
+    "PLLLOCK": {
+      "direction": "IN"
+    },
+    "PHYCTLWD7": {
+      "direction": "IN"
+    },
+    "INRANKC0": {
+      "direction": "OUT"
     },
     "PHYCTLWD5": {
       "direction": "IN"
     },
-    "AUXOUTPUT0": {
+    "PHYCLK": {
+      "direction": "IN"
+    },
+    "PHYCTLWD13": {
+      "direction": "IN"
+    },
+    "TESTOUTPUT9": {
       "direction": "OUT"
     },
-    "PLLLOCK": {
+    "PHYCTLWD24": {
       "direction": "IN"
+    },
+    "OUTBURSTPENDING1": {
+      "direction": "OUT"
     }
-  },
-  "site_pips": {}
+  }
 }

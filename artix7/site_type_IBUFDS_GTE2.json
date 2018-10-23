@@ -1,25 +1,5 @@
 {
   "type": "IBUFDS_GTE2",
-  "site_pins": {
-    "IB": {
-      "direction": "IN"
-    },
-    "ODIV2": {
-      "direction": "OUT"
-    },
-    "CEB": {
-      "direction": "IN"
-    },
-    "I": {
-      "direction": "IN"
-    },
-    "CLKTESTSIG": {
-      "direction": "IN"
-    },
-    "O": {
-      "direction": "OUT"
-    }
-  },
   "site_pips": {
     "CLKTESTSIGINV:CLKTESTSIG_B": {
       "from_pin": "CLKTESTSIG_B",
@@ -28,6 +8,26 @@
     "CLKTESTSIGINV:CLKTESTSIG": {
       "from_pin": "CLKTESTSIG",
       "to_pin": "OUT"
+    }
+  },
+  "site_pins": {
+    "I": {
+      "direction": "IN"
+    },
+    "ODIV2": {
+      "direction": "OUT"
+    },
+    "CLKTESTSIG": {
+      "direction": "IN"
+    },
+    "CEB": {
+      "direction": "IN"
+    },
+    "IB": {
+      "direction": "IN"
+    },
+    "O": {
+      "direction": "OUT"
     }
   }
 }

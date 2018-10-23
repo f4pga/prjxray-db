@@ -1,7 +1,123 @@
 {
   "type": "ILOGICE3",
+  "site_pips": {
+    "IDELMUXE3:1": {
+      "from_pin": "1",
+      "to_pin": "OUT"
+    },
+    "D2OBYP_SEL:GND": {
+      "from_pin": "GND",
+      "to_pin": "OUT"
+    },
+    "D2OBYP_SEL:T": {
+      "from_pin": "T",
+      "to_pin": "OUT"
+    },
+    "ZHOLD_FABRIC_INV:D_B": {
+      "from_pin": "D_B",
+      "to_pin": "OUT"
+    },
+    "ZHOLD_IFF_INV:D": {
+      "from_pin": "D",
+      "to_pin": "OUT"
+    },
+    "CLKBINV:CLKB_B": {
+      "from_pin": "CLKB_B",
+      "to_pin": "OUT"
+    },
+    "IMUX:1": {
+      "from_pin": "1",
+      "to_pin": "OUT"
+    },
+    "D2OFFBYP_SEL:T": {
+      "from_pin": "T",
+      "to_pin": "OUT"
+    },
+    "CLKINV:CLK_B": {
+      "from_pin": "CLK_B",
+      "to_pin": "OUT"
+    },
+    "IDELMUXE3:2": {
+      "from_pin": "2",
+      "to_pin": "OUT"
+    },
+    "REVUSED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "IFFMUX:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "IFFDELMUXE3:2": {
+      "from_pin": "2",
+      "to_pin": "OUT"
+    },
+    "ZHOLD_IFF_INV:D_B": {
+      "from_pin": "D_B",
+      "to_pin": "OUT"
+    },
+    "ZHOLD_FABRIC_INV:D": {
+      "from_pin": "D",
+      "to_pin": "OUT"
+    },
+    "DINV:D": {
+      "from_pin": "D",
+      "to_pin": "OUT"
+    },
+    "IFFDELMUXE3:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "IDELMUXE3:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "CE1USED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "DINV:D_B": {
+      "from_pin": "D_B",
+      "to_pin": "OUT"
+    },
+    "CLKINV:CLK": {
+      "from_pin": "CLK",
+      "to_pin": "OUT"
+    },
+    "SRUSED:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "IFFMUX:1": {
+      "from_pin": "1",
+      "to_pin": "OUT"
+    },
+    "CLKBINV:CLKB": {
+      "from_pin": "CLKB",
+      "to_pin": "OUT"
+    },
+    "D2OFFBYP_SEL:GND": {
+      "from_pin": "GND",
+      "to_pin": "OUT"
+    },
+    "IMUX:0": {
+      "from_pin": "0",
+      "to_pin": "OUT"
+    },
+    "IFFDELMUXE3:1": {
+      "from_pin": "1",
+      "to_pin": "OUT"
+    }
+  },
   "site_pins": {
-    "TFB": {
+    "SR": {
+      "direction": "IN"
+    },
+    "Q8": {
+      "direction": "OUT"
+    },
+    "DYNCLKSEL": {
       "direction": "IN"
     },
     "DYNCLKDIVSEL": {
@@ -10,61 +126,25 @@
     "CE2": {
       "direction": "IN"
     },
-    "OFB": {
-      "direction": "IN"
-    },
-    "BITSLIP": {
-      "direction": "IN"
-    },
-    "SHIFTIN1": {
-      "direction": "IN"
-    },
-    "CE1": {
-      "direction": "IN"
-    },
-    "D": {
-      "direction": "IN"
-    },
-    "Q6": {
-      "direction": "OUT"
-    },
-    "DYNCLKSEL": {
-      "direction": "IN"
-    },
-    "OCLKB": {
-      "direction": "IN"
-    },
-    "CLKB": {
+    "DYNCLKDIVPSEL": {
       "direction": "IN"
     },
     "Q2": {
       "direction": "OUT"
     },
-    "CLK": {
+    "SHIFTIN1": {
       "direction": "IN"
     },
-    "OCLK": {
-      "direction": "IN"
-    },
-    "SR": {
+    "TFB": {
       "direction": "IN"
     },
     "SHIFTOUT1": {
       "direction": "OUT"
     },
-    "Q8": {
-      "direction": "OUT"
+    "OCLK": {
+      "direction": "IN"
     },
-    "O": {
-      "direction": "OUT"
-    },
-    "Q5": {
-      "direction": "OUT"
-    },
-    "SHIFTOUT2": {
-      "direction": "OUT"
-    },
-    "DDLY": {
+    "CE1": {
       "direction": "IN"
     },
     "Q7": {
@@ -73,136 +153,56 @@
     "Q1": {
       "direction": "OUT"
     },
+    "Q4": {
+      "direction": "OUT"
+    },
+    "OFB": {
+      "direction": "IN"
+    },
+    "CLKDIV": {
+      "direction": "IN"
+    },
+    "DDLY": {
+      "direction": "IN"
+    },
     "Q3": {
+      "direction": "OUT"
+    },
+    "SHIFTOUT2": {
       "direction": "OUT"
     },
     "CLKDIVP": {
       "direction": "IN"
     },
+    "CLK": {
+      "direction": "IN"
+    },
     "SHIFTIN2": {
       "direction": "IN"
     },
-    "Q4": {
-      "direction": "OUT"
+    "CLKB": {
+      "direction": "IN"
     },
-    "DYNCLKDIVPSEL": {
+    "OCLKB": {
       "direction": "IN"
     },
     "REV": {
       "direction": "IN"
     },
-    "CLKDIV": {
+    "Q5": {
+      "direction": "OUT"
+    },
+    "BITSLIP": {
       "direction": "IN"
-    }
-  },
-  "site_pips": {
-    "IDELMUXE3:2": {
-      "from_pin": "2",
-      "to_pin": "OUT"
     },
-    "SRUSED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
+    "Q6": {
+      "direction": "OUT"
     },
-    "CE1USED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
+    "O": {
+      "direction": "OUT"
     },
-    "IDELMUXE3:1": {
-      "from_pin": "1",
-      "to_pin": "OUT"
-    },
-    "ZHOLD_FABRIC_INV:D": {
-      "from_pin": "D",
-      "to_pin": "OUT"
-    },
-    "D2OBYP_SEL:T": {
-      "from_pin": "T",
-      "to_pin": "OUT"
-    },
-    "CLKBINV:CLKB": {
-      "from_pin": "CLKB",
-      "to_pin": "OUT"
-    },
-    "D2OFFBYP_SEL:T": {
-      "from_pin": "T",
-      "to_pin": "OUT"
-    },
-    "CLKBINV:CLKB_B": {
-      "from_pin": "CLKB_B",
-      "to_pin": "OUT"
-    },
-    "CLKINV:CLK_B": {
-      "from_pin": "CLK_B",
-      "to_pin": "OUT"
-    },
-    "ZHOLD_IFF_INV:D_B": {
-      "from_pin": "D_B",
-      "to_pin": "OUT"
-    },
-    "DINV:D": {
-      "from_pin": "D",
-      "to_pin": "OUT"
-    },
-    "DINV:D_B": {
-      "from_pin": "D_B",
-      "to_pin": "OUT"
-    },
-    "D2OBYP_SEL:GND": {
-      "from_pin": "GND",
-      "to_pin": "OUT"
-    },
-    "REVUSED:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "IFFDELMUXE3:1": {
-      "from_pin": "1",
-      "to_pin": "OUT"
-    },
-    "IMUX:1": {
-      "from_pin": "1",
-      "to_pin": "OUT"
-    },
-    "D2OFFBYP_SEL:GND": {
-      "from_pin": "GND",
-      "to_pin": "OUT"
-    },
-    "ZHOLD_FABRIC_INV:D_B": {
-      "from_pin": "D_B",
-      "to_pin": "OUT"
-    },
-    "IFFDELMUXE3:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "IFFMUX:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "CLKINV:CLK": {
-      "from_pin": "CLK",
-      "to_pin": "OUT"
-    },
-    "ZHOLD_IFF_INV:D": {
-      "from_pin": "D",
-      "to_pin": "OUT"
-    },
-    "IFFMUX:1": {
-      "from_pin": "1",
-      "to_pin": "OUT"
-    },
-    "IMUX:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
-    },
-    "IFFDELMUXE3:2": {
-      "from_pin": "2",
-      "to_pin": "OUT"
-    },
-    "IDELMUXE3:0": {
-      "from_pin": "0",
-      "to_pin": "OUT"
+    "D": {
+      "direction": "IN"
     }
   }
 }
