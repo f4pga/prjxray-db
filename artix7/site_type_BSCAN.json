@@ -1,8 +1,6 @@
 {
-  "type": "BSCAN",
-  "site_pips": {},
   "site_pins": {
-    "RUNTEST": {
+    "RESET": {
       "direction": "OUT"
     },
     "TMS": {
@@ -11,29 +9,31 @@
     "TDO": {
       "direction": "IN"
     },
-    "CAPTURE": {
-      "direction": "OUT"
-    },
-    "RESET": {
+    "SEL": {
       "direction": "OUT"
     },
     "TDI": {
       "direction": "OUT"
     },
+    "RUNTEST": {
+      "direction": "OUT"
+    },
+    "CAPTURE": {
+      "direction": "OUT"
+    },
     "DRCK": {
       "direction": "OUT"
     },
-    "UPDATE": {
+    "TCK": {
       "direction": "OUT"
     },
     "SHIFT": {
       "direction": "OUT"
     },
-    "SEL": {
-      "direction": "OUT"
-    },
-    "TCK": {
+    "UPDATE": {
       "direction": "OUT"
     }
-  }
+  },
+  "type": "BSCAN",
+  "site_pips": {}
 }

@@ -1,48 +1,1110 @@
 {
+  "site_pins": {
+    "DOBDO20": {
+      "direction": "OUT"
+    },
+    "DIADI0": {
+      "direction": "IN"
+    },
+    "DIADI1": {
+      "direction": "IN"
+    },
+    "RDCOUNT3": {
+      "direction": "OUT"
+    },
+    "TSTOUT0": {
+      "direction": "OUT"
+    },
+    "WRCOUNT10": {
+      "direction": "OUT"
+    },
+    "TSTRDOS8": {
+      "direction": "IN"
+    },
+    "TSTRDOS10": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRL1": {
+      "direction": "IN"
+    },
+    "TSTWROS5": {
+      "direction": "IN"
+    },
+    "SBITERR": {
+      "direction": "OUT"
+    },
+    "TSTCNT10": {
+      "direction": "IN"
+    },
+    "DIADI10": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL15": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL10": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL14": {
+      "direction": "IN"
+    },
+    "DOBDO19": {
+      "direction": "OUT"
+    },
+    "DOPBDOP2": {
+      "direction": "OUT"
+    },
+    "RSTREGARSTREGU": {
+      "direction": "IN"
+    },
+    "TSTCNT3": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL4": {
+      "direction": "IN"
+    },
+    "WEAU2": {
+      "direction": "IN"
+    },
+    "DIBDI0": {
+      "direction": "IN"
+    },
+    "TSTWROS3": {
+      "direction": "IN"
+    },
+    "DOADO14": {
+      "direction": "OUT"
+    },
+    "REGCLKBL": {
+      "direction": "IN"
+    },
+    "RSTRAMBU": {
+      "direction": "IN"
+    },
+    "DOBDO30": {
+      "direction": "OUT"
+    },
+    "RDERR": {
+      "direction": "OUT"
+    },
+    "DIBDI21": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL6": {
+      "direction": "IN"
+    },
+    "CASCADEINA": {
+      "direction": "IN"
+    },
+    "DIADI23": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRL9": {
+      "direction": "IN"
+    },
+    "DBITERR": {
+      "direction": "OUT"
+    },
+    "DOADO3": {
+      "direction": "OUT"
+    },
+    "DOBDO22": {
+      "direction": "OUT"
+    },
+    "WRCOUNT3": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRL15": {
+      "direction": "IN"
+    },
+    "DOBDO18": {
+      "direction": "OUT"
+    },
+    "WEBWEU7": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRL12": {
+      "direction": "IN"
+    },
+    "CASCADEOUTB": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRU2": {
+      "direction": "IN"
+    },
+    "REGCEAREGCEU": {
+      "direction": "IN"
+    },
+    "WEBWEL3": {
+      "direction": "IN"
+    },
+    "DIBDI26": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL0": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL2": {
+      "direction": "IN"
+    },
+    "WEAU3": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRU9": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRU5": {
+      "direction": "IN"
+    },
+    "RDCOUNT8": {
+      "direction": "OUT"
+    },
+    "REGCEBU": {
+      "direction": "IN"
+    },
+    "TSTWROS11": {
+      "direction": "IN"
+    },
+    "EMPTY": {
+      "direction": "OUT"
+    },
+    "DOADO2": {
+      "direction": "OUT"
+    },
+    "WEBWEU5": {
+      "direction": "IN"
+    },
+    "DOPADOP0": {
+      "direction": "OUT"
+    },
+    "DIADI20": {
+      "direction": "IN"
+    },
+    "DIADI29": {
+      "direction": "IN"
+    },
+    "DIADI28": {
+      "direction": "IN"
+    },
+    "DIADI30": {
+      "direction": "IN"
+    },
+    "DIADI5": {
+      "direction": "IN"
+    },
+    "DOBDO0": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDRU2": {
+      "direction": "IN"
+    },
+    "TSTRDOS2": {
+      "direction": "IN"
+    },
+    "WEBWEU4": {
+      "direction": "IN"
+    },
+    "DOADO25": {
+      "direction": "OUT"
+    },
+    "ECCPARITY5": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRL5": {
+      "direction": "IN"
+    },
+    "CASCADEINB": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRU1": {
+      "direction": "IN"
+    },
+    "WEBWEL2": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRU1": {
+      "direction": "IN"
+    },
+    "DIBDI18": {
+      "direction": "IN"
+    },
+    "WRCOUNT4": {
+      "direction": "OUT"
+    },
+    "DIBDI13": {
+      "direction": "IN"
+    },
+    "WEAL0": {
+      "direction": "IN"
+    },
+    "DIBDI17": {
+      "direction": "IN"
+    },
+    "TSTOUT2": {
+      "direction": "OUT"
+    },
+    "DOADO10": {
+      "direction": "OUT"
+    },
+    "TSTFLAGIN": {
+      "direction": "IN"
+    },
+    "DIBDI15": {
+      "direction": "IN"
+    },
+    "RSTREGBL": {
+      "direction": "IN"
+    },
+    "WEBWEL5": {
+      "direction": "IN"
+    },
+    "TSTRDOS6": {
+      "direction": "IN"
+    },
+    "DOPADOP2": {
+      "direction": "OUT"
+    },
+    "WEAL3": {
+      "direction": "IN"
+    },
+    "DOADO13": {
+      "direction": "OUT"
+    },
+    "DOBDO11": {
+      "direction": "OUT"
+    },
+    "DIBDI27": {
+      "direction": "IN"
+    },
+    "DOPBDOP3": {
+      "direction": "OUT"
+    },
+    "DIBDI14": {
+      "direction": "IN"
+    },
+    "DIBDI28": {
+      "direction": "IN"
+    },
+    "RSTREGARSTREGL": {
+      "direction": "IN"
+    },
+    "DOBDO4": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRU4": {
+      "direction": "IN"
+    },
+    "DIPADIP0": {
+      "direction": "IN"
+    },
+    "DIBDI30": {
+      "direction": "IN"
+    },
+    "DIADI7": {
+      "direction": "IN"
+    },
+    "DIADI12": {
+      "direction": "IN"
+    },
+    "DOADO31": {
+      "direction": "OUT"
+    },
+    "DOADO29": {
+      "direction": "OUT"
+    },
+    "DIBDI1": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRL0": {
+      "direction": "IN"
+    },
+    "DOBDO10": {
+      "direction": "OUT"
+    },
+    "DOPBDOP0": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRL2": {
+      "direction": "IN"
+    },
+    "DOBDO14": {
+      "direction": "OUT"
+    },
+    "FULL": {
+      "direction": "OUT"
+    },
+    "DOBDO27": {
+      "direction": "OUT"
+    },
+    "DOBDO1": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRU14": {
+      "direction": "IN"
+    },
+    "DIPBDIP1": {
+      "direction": "IN"
+    },
+    "DIADI27": {
+      "direction": "IN"
+    },
+    "WEBWEL4": {
+      "direction": "IN"
+    },
+    "TSTCNT11": {
+      "direction": "IN"
+    },
+    "DOBDO3": {
+      "direction": "OUT"
+    },
+    "ECCPARITY4": {
+      "direction": "OUT"
+    },
+    "DOBDO15": {
+      "direction": "OUT"
+    },
+    "ENARDENL": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRU7": {
+      "direction": "IN"
+    },
+    "WEBWEL6": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL8": {
+      "direction": "IN"
+    },
+    "TSTCNT4": {
+      "direction": "IN"
+    },
+    "DOADO19": {
+      "direction": "OUT"
+    },
+    "RSTRAMBL": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRU6": {
+      "direction": "IN"
+    },
+    "DOBDO2": {
+      "direction": "OUT"
+    },
+    "DIBDI11": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRU6": {
+      "direction": "IN"
+    },
+    "ALMOSTFULL": {
+      "direction": "OUT"
+    },
+    "WEBWEL7": {
+      "direction": "IN"
+    },
+    "TSTWROS1": {
+      "direction": "IN"
+    },
+    "TSTBRAMRST": {
+      "direction": "IN"
+    },
+    "RSTRAMARSTRAMU": {
+      "direction": "IN"
+    },
+    "DOADO0": {
+      "direction": "OUT"
+    },
+    "DIPADIP3": {
+      "direction": "IN"
+    },
+    "ECCPARITY6": {
+      "direction": "OUT"
+    },
+    "DOBDO21": {
+      "direction": "OUT"
+    },
+    "TSTOFF": {
+      "direction": "IN"
+    },
+    "DIADI15": {
+      "direction": "IN"
+    },
+    "WEAU0": {
+      "direction": "IN"
+    },
+    "TSTOUT4": {
+      "direction": "OUT"
+    },
+    "RDCOUNT10": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDRL12": {
+      "direction": "IN"
+    },
+    "DIBDI9": {
+      "direction": "IN"
+    },
+    "DIADI13": {
+      "direction": "IN"
+    },
+    "DIADI22": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRU11": {
+      "direction": "IN"
+    },
+    "DOADO11": {
+      "direction": "OUT"
+    },
+    "ECCPARITY7": {
+      "direction": "OUT"
+    },
+    "DIADI26": {
+      "direction": "IN"
+    },
+    "TSTRDOS12": {
+      "direction": "IN"
+    },
+    "TSTWROS12": {
+      "direction": "IN"
+    },
+    "DOPADOP3": {
+      "direction": "OUT"
+    },
+    "DOADO18": {
+      "direction": "OUT"
+    },
+    "DIPADIP2": {
+      "direction": "IN"
+    },
+    "CLKBWRCLKU": {
+      "direction": "IN"
+    },
+    "DOADO4": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDRL7": {
+      "direction": "IN"
+    },
+    "RDCOUNT12": {
+      "direction": "OUT"
+    },
+    "WEBWEU6": {
+      "direction": "IN"
+    },
+    "RDCOUNT7": {
+      "direction": "OUT"
+    },
+    "WRCOUNT11": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRL6": {
+      "direction": "IN"
+    },
+    "DIBDI6": {
+      "direction": "IN"
+    },
+    "TSTOUT3": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDRL9": {
+      "direction": "IN"
+    },
+    "DIBDI19": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRU12": {
+      "direction": "IN"
+    },
+    "TSTCNT8": {
+      "direction": "IN"
+    },
+    "WRCOUNT12": {
+      "direction": "OUT"
+    },
+    "TSTRDOS4": {
+      "direction": "IN"
+    },
+    "RDCOUNT5": {
+      "direction": "OUT"
+    },
+    "WRCOUNT8": {
+      "direction": "OUT"
+    },
+    "DIBDI5": {
+      "direction": "IN"
+    },
+    "DOBDO24": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRL7": {
+      "direction": "IN"
+    },
+    "TSTWROS7": {
+      "direction": "IN"
+    },
+    "DIADI18": {
+      "direction": "IN"
+    },
+    "TSTWROS9": {
+      "direction": "IN"
+    },
+    "WEAU1": {
+      "direction": "IN"
+    },
+    "DOADO21": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRL11": {
+      "direction": "IN"
+    },
+    "ECCPARITY3": {
+      "direction": "OUT"
+    },
+    "TSTCNT6": {
+      "direction": "IN"
+    },
+    "DIADI6": {
+      "direction": "IN"
+    },
+    "DOADO28": {
+      "direction": "OUT"
+    },
+    "DIPBDIP0": {
+      "direction": "IN"
+    },
+    "DOADO27": {
+      "direction": "OUT"
+    },
+    "DOBDO26": {
+      "direction": "OUT"
+    },
+    "DIBDI10": {
+      "direction": "IN"
+    },
+    "DOBDO12": {
+      "direction": "OUT"
+    },
+    "DIBDI20": {
+      "direction": "IN"
+    },
+    "DOADO22": {
+      "direction": "OUT"
+    },
+    "DIBDI31": {
+      "direction": "IN"
+    },
+    "DOADO1": {
+      "direction": "OUT"
+    },
+    "TSTRDOS5": {
+      "direction": "IN"
+    },
+    "ECCPARITY1": {
+      "direction": "OUT"
+    },
+    "TSTCNT1": {
+      "direction": "IN"
+    },
+    "TSTWROS10": {
+      "direction": "IN"
+    },
+    "DOBDO16": {
+      "direction": "OUT"
+    },
+    "DOBDO25": {
+      "direction": "OUT"
+    },
+    "CLKARDCLKL": {
+      "direction": "IN"
+    },
+    "RDCOUNT9": {
+      "direction": "OUT"
+    },
+    "TSTRDOS7": {
+      "direction": "IN"
+    },
+    "TSTIN4": {
+      "direction": "IN"
+    },
+    "TSTRDOS9": {
+      "direction": "IN"
+    },
+    "DOBDO5": {
+      "direction": "OUT"
+    },
+    "WEBWEU3": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL5": {
+      "direction": "IN"
+    },
+    "INJECTSBITERR": {
+      "direction": "IN"
+    },
+    "DOADO17": {
+      "direction": "OUT"
+    },
+    "TSTWROS4": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRL14": {
+      "direction": "IN"
+    },
+    "ECCPARITY0": {
+      "direction": "OUT"
+    },
+    "DIADI3": {
+      "direction": "IN"
+    },
+    "DIBDI2": {
+      "direction": "IN"
+    },
+    "DOADO5": {
+      "direction": "OUT"
+    },
+    "WRERR": {
+      "direction": "OUT"
+    },
+    "RDCOUNT6": {
+      "direction": "OUT"
+    },
+    "DIBDI29": {
+      "direction": "IN"
+    },
+    "CLKARDCLKU": {
+      "direction": "IN"
+    },
+    "DIADI8": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRU7": {
+      "direction": "IN"
+    },
+    "ECCPARITY2": {
+      "direction": "OUT"
+    },
+    "INJECTDBITERR": {
+      "direction": "IN"
+    },
+    "WRCOUNT6": {
+      "direction": "OUT"
+    },
+    "RDCOUNT11": {
+      "direction": "OUT"
+    },
+    "WEBWEU2": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL11": {
+      "direction": "IN"
+    },
+    "DIBDI23": {
+      "direction": "IN"
+    },
+    "DOADO30": {
+      "direction": "OUT"
+    },
+    "DIADI2": {
+      "direction": "IN"
+    },
+    "WEBWEL0": {
+      "direction": "IN"
+    },
+    "WEBWEU0": {
+      "direction": "IN"
+    },
+    "WEBWEU1": {
+      "direction": "IN"
+    },
+    "DIPBDIP3": {
+      "direction": "IN"
+    },
+    "ALMOSTEMPTY": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDRU4": {
+      "direction": "IN"
+    },
+    "DOBDO29": {
+      "direction": "OUT"
+    },
+    "TSTRDOS0": {
+      "direction": "IN"
+    },
+    "DOBDO23": {
+      "direction": "OUT"
+    },
+    "REGCEAREGCEL": {
+      "direction": "IN"
+    },
+    "DIBDI22": {
+      "direction": "IN"
+    },
+    "REGCLKBU": {
+      "direction": "IN"
+    },
+    "DOADO8": {
+      "direction": "OUT"
+    },
+    "DOADO26": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRU9": {
+      "direction": "IN"
+    },
+    "TSTRDOS1": {
+      "direction": "IN"
+    },
+    "RSTREGBU": {
+      "direction": "IN"
+    },
+    "DIPBDIP2": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRU14": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRU0": {
+      "direction": "IN"
+    },
+    "TSTIN1": {
+      "direction": "IN"
+    },
+    "WRCOUNT9": {
+      "direction": "OUT"
+    },
+    "DOBDO6": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDRU11": {
+      "direction": "IN"
+    },
+    "DOADO24": {
+      "direction": "OUT"
+    },
+    "TSTCNT12": {
+      "direction": "IN"
+    },
+    "DIADI9": {
+      "direction": "IN"
+    },
+    "ENBWRENL": {
+      "direction": "IN"
+    },
+    "TSTCNT2": {
+      "direction": "IN"
+    },
+    "DOADO15": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRL4": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL1": {
+      "direction": "IN"
+    },
+    "TSTRDOS11": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL3": {
+      "direction": "IN"
+    },
+    "RDCOUNT2": {
+      "direction": "OUT"
+    },
+    "TSTWROS8": {
+      "direction": "IN"
+    },
+    "RDCOUNT4": {
+      "direction": "OUT"
+    },
+    "TSTRDOS3": {
+      "direction": "IN"
+    },
+    "DIADI25": {
+      "direction": "IN"
+    },
+    "DIBDI24": {
+      "direction": "IN"
+    },
+    "DOBDO28": {
+      "direction": "OUT"
+    },
+    "DIADI19": {
+      "direction": "IN"
+    },
+    "REGCLKARDRCLKL": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRU3": {
+      "direction": "IN"
+    },
+    "DIADI24": {
+      "direction": "IN"
+    },
+    "DOADO23": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRL13": {
+      "direction": "IN"
+    },
+    "DOADO20": {
+      "direction": "OUT"
+    },
+    "WEBWEL1": {
+      "direction": "IN"
+    },
+    "DIBDI25": {
+      "direction": "IN"
+    },
+    "DIADI31": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRL13": {
+      "direction": "IN"
+    },
+    "ENBWRENU": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRL8": {
+      "direction": "IN"
+    },
+    "REGCLKARDRCLKU": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRU13": {
+      "direction": "IN"
+    },
+    "RDCOUNT1": {
+      "direction": "OUT"
+    },
+    "DOADO16": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRL3": {
+      "direction": "IN"
+    },
+    "WEAL1": {
+      "direction": "IN"
+    },
+    "WRCOUNT5": {
+      "direction": "OUT"
+    },
+    "TSTWROS0": {
+      "direction": "IN"
+    },
+    "RDCOUNT0": {
+      "direction": "OUT"
+    },
+    "TSTRDCNTOFF": {
+      "direction": "IN"
+    },
+    "DOBDO9": {
+      "direction": "OUT"
+    },
+    "DIBDI16": {
+      "direction": "IN"
+    },
+    "ENARDENU": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRU12": {
+      "direction": "IN"
+    },
+    "DIADI16": {
+      "direction": "IN"
+    },
+    "TSTCNT9": {
+      "direction": "IN"
+    },
+    "TSTCNT0": {
+      "direction": "IN"
+    },
+    "DOPADOP1": {
+      "direction": "OUT"
+    },
+    "DIADI14": {
+      "direction": "IN"
+    },
+    "DIADI11": {
+      "direction": "IN"
+    },
+    "DIADI21": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRU3": {
+      "direction": "IN"
+    },
+    "DIBDI8": {
+      "direction": "IN"
+    },
+    "DOADO7": {
+      "direction": "OUT"
+    },
+    "WRCOUNT1": {
+      "direction": "OUT"
+    },
+    "TSTIN0": {
+      "direction": "IN"
+    },
+    "CLKBWRCLKL": {
+      "direction": "IN"
+    },
+    "TSTWROS2": {
+      "direction": "IN"
+    },
+    "DOPBDOP1": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRL10": {
+      "direction": "IN"
+    },
+    "TSTIN2": {
+      "direction": "IN"
+    },
+    "TSTWROS6": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRU5": {
+      "direction": "IN"
+    },
+    "RSTRAMARSTRAMLRST": {
+      "direction": "IN"
+    },
+    "DOBDO31": {
+      "direction": "OUT"
+    },
+    "DIPADIP1": {
+      "direction": "IN"
+    },
+    "DOADO6": {
+      "direction": "OUT"
+    },
+    "WRCOUNT0": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRU10": {
+      "direction": "IN"
+    },
+    "REGCEBL": {
+      "direction": "IN"
+    },
+    "WRCOUNT2": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDRU10": {
+      "direction": "IN"
+    },
+    "DIADI17": {
+      "direction": "IN"
+    },
+    "DOBDO8": {
+      "direction": "OUT"
+    },
+    "ADDRBWRADDRU8": {
+      "direction": "IN"
+    },
+    "DIBDI12": {
+      "direction": "IN"
+    },
+    "DIBDI4": {
+      "direction": "IN"
+    },
+    "TSTCNT5": {
+      "direction": "IN"
+    },
+    "DOBDO17": {
+      "direction": "OUT"
+    },
+    "TSTOUT1": {
+      "direction": "OUT"
+    },
+    "WRCOUNT7": {
+      "direction": "OUT"
+    },
+    "TSTWRCNTOFF": {
+      "direction": "IN"
+    },
+    "ADDRBWRADDRU13": {
+      "direction": "IN"
+    },
+    "DIBDI7": {
+      "direction": "IN"
+    },
+    "DOADO12": {
+      "direction": "OUT"
+    },
+    "ADDRARDADDRU8": {
+      "direction": "IN"
+    },
+    "ADDRARDADDRU0": {
+      "direction": "IN"
+    },
+    "WEAL2": {
+      "direction": "IN"
+    },
+    "CASCADEOUTA": {
+      "direction": "OUT"
+    },
+    "DOBDO7": {
+      "direction": "OUT"
+    },
+    "DIBDI3": {
+      "direction": "IN"
+    },
+    "DOADO9": {
+      "direction": "OUT"
+    },
+    "TSTIN3": {
+      "direction": "IN"
+    },
+    "TSTCNT7": {
+      "direction": "IN"
+    },
+    "DOBDO13": {
+      "direction": "OUT"
+    },
+    "DIADI4": {
+      "direction": "IN"
+    }
+  },
   "type": "RAMBFIFO36E1",
   "site_pips": {
-    "REGCLKARDRCLKLINV:REGCLKARDRCLKL_B": {
-      "from_pin": "REGCLKARDRCLKL_B",
+    "RSTREGARSTREGUINV:RSTREGARSTREGU_B": {
+      "from_pin": "RSTREGARSTREGU_B",
       "to_pin": "OUT"
     },
-    "ENARDENUINV:ENARDENU_B": {
-      "from_pin": "ENARDENU_B",
+    "RSTRAMBUINV:RSTRAMBU": {
+      "from_pin": "RSTRAMBU",
       "to_pin": "OUT"
     },
-    "ENARDENLINV:ENARDENL_B": {
-      "from_pin": "ENARDENL_B",
+    "REGCLKBUINV:REGCLKBU_B": {
+      "from_pin": "REGCLKBU_B",
       "to_pin": "OUT"
     },
-    "RSTREGBUINV:RSTREGBU": {
-      "from_pin": "RSTREGBU",
+    "RSTREGARSTREGLINV:RSTREGARSTREGL_B": {
+      "from_pin": "RSTREGARSTREGL_B",
       "to_pin": "OUT"
     },
-    "CLKARDCLKUINV:CLKARDCLKU": {
-      "from_pin": "CLKARDCLKU",
-      "to_pin": "OUT"
-    },
-    "RSTRAMARSTRAMLRSTINV:RSTRAMARSTRAMLRST": {
-      "from_pin": "RSTRAMARSTRAMLRST",
+    "REGCLKBLINV:REGCLKBL_B": {
+      "from_pin": "REGCLKBL_B",
       "to_pin": "OUT"
     },
     "CLKBWRCLKLINV:CLKBWRCLKL": {
       "from_pin": "CLKBWRCLKL",
       "to_pin": "OUT"
     },
-    "RSTREGARSTREGUINV:RSTREGARSTREGU_B": {
-      "from_pin": "RSTREGARSTREGU_B",
+    "RSTREGBUINV:RSTREGBU": {
+      "from_pin": "RSTREGBU",
       "to_pin": "OUT"
     },
-    "ENARDENUINV:ENARDENU": {
-      "from_pin": "ENARDENU",
+    "ENARDENLINV:ENARDENL_B": {
+      "from_pin": "ENARDENL_B",
       "to_pin": "OUT"
     },
-    "RSTREGBLINV:RSTREGBL_B": {
-      "from_pin": "RSTREGBL_B",
-      "to_pin": "OUT"
-    },
-    "ENARDENLINV:ENARDENL": {
-      "from_pin": "ENARDENL",
+    "RSTRAMARSTRAMLRSTINV:RSTRAMARSTRAMLRST": {
+      "from_pin": "RSTRAMARSTRAMLRST",
       "to_pin": "OUT"
     },
     "ENBWRENUINV:ENBWRENU_B": {
@@ -53,80 +1115,20 @@
       "from_pin": "REGCLKBU",
       "to_pin": "OUT"
     },
-    "REGCLKBLINV:REGCLKBL_B": {
-      "from_pin": "REGCLKBL_B",
-      "to_pin": "OUT"
-    },
-    "RSTRAMBLINV:RSTRAMBL_B": {
-      "from_pin": "RSTRAMBL_B",
-      "to_pin": "OUT"
-    },
     "CLKARDCLKUINV:CLKARDCLKU_B": {
       "from_pin": "CLKARDCLKU_B",
       "to_pin": "OUT"
     },
-    "CLKBWRCLKLINV:CLKBWRCLKL_B": {
-      "from_pin": "CLKBWRCLKL_B",
-      "to_pin": "OUT"
-    },
-    "RSTRAMARSTRAMUINV:RSTRAMARSTRAMU_B": {
-      "from_pin": "RSTRAMARSTRAMU_B",
+    "ENARDENUINV:ENARDENU": {
+      "from_pin": "ENARDENU",
       "to_pin": "OUT"
     },
     "ENBWRENLINV:ENBWRENL_B": {
       "from_pin": "ENBWRENL_B",
       "to_pin": "OUT"
     },
-    "REGCLKBUINV:REGCLKBU_B": {
-      "from_pin": "REGCLKBU_B",
-      "to_pin": "OUT"
-    },
-    "RSTRAMARSTRAMUINV:RSTRAMARSTRAMU": {
-      "from_pin": "RSTRAMARSTRAMU",
-      "to_pin": "OUT"
-    },
-    "REGCLKARDRCLKUINV:REGCLKARDRCLKU": {
-      "from_pin": "REGCLKARDRCLKU",
-      "to_pin": "OUT"
-    },
-    "RSTREGBLINV:RSTREGBL": {
-      "from_pin": "RSTREGBL",
-      "to_pin": "OUT"
-    },
-    "CLKARDCLKLINV:CLKARDCLKL": {
-      "from_pin": "CLKARDCLKL",
-      "to_pin": "OUT"
-    },
-    "REGCLKBLINV:REGCLKBL": {
-      "from_pin": "REGCLKBL",
-      "to_pin": "OUT"
-    },
-    "ENBWRENUINV:ENBWRENU": {
-      "from_pin": "ENBWRENU",
-      "to_pin": "OUT"
-    },
-    "RSTREGBUINV:RSTREGBU_B": {
-      "from_pin": "RSTREGBU_B",
-      "to_pin": "OUT"
-    },
-    "RSTRAMBUINV:RSTRAMBU_B": {
-      "from_pin": "RSTRAMBU_B",
-      "to_pin": "OUT"
-    },
-    "RSTREGARSTREGLINV:RSTREGARSTREGL": {
-      "from_pin": "RSTREGARSTREGL",
-      "to_pin": "OUT"
-    },
-    "REGCLKARDRCLKLINV:REGCLKARDRCLKL": {
-      "from_pin": "REGCLKARDRCLKL",
-      "to_pin": "OUT"
-    },
-    "ENBWRENLINV:ENBWRENL": {
-      "from_pin": "ENBWRENL",
-      "to_pin": "OUT"
-    },
-    "RSTRAMBUINV:RSTRAMBU": {
-      "from_pin": "RSTRAMBU",
+    "RSTRAMARSTRAMUINV:RSTRAMARSTRAMU_B": {
+      "from_pin": "RSTRAMARSTRAMU_B",
       "to_pin": "OUT"
     },
     "CLKBWRCLKUINV:CLKBWRCLKU_B": {
@@ -137,1099 +1139,97 @@
       "from_pin": "REGCLKARDRCLKU_B",
       "to_pin": "OUT"
     },
+    "RSTRAMBUINV:RSTRAMBU_B": {
+      "from_pin": "RSTRAMBU_B",
+      "to_pin": "OUT"
+    },
+    "RSTREGBUINV:RSTREGBU_B": {
+      "from_pin": "RSTREGBU_B",
+      "to_pin": "OUT"
+    },
+    "CLKARDCLKLINV:CLKARDCLKL": {
+      "from_pin": "CLKARDCLKL",
+      "to_pin": "OUT"
+    },
     "RSTRAMBLINV:RSTRAMBL": {
       "from_pin": "RSTRAMBL",
+      "to_pin": "OUT"
+    },
+    "REGCLKARDRCLKUINV:REGCLKARDRCLKU": {
+      "from_pin": "REGCLKARDRCLKU",
+      "to_pin": "OUT"
+    },
+    "RSTRAMBLINV:RSTRAMBL_B": {
+      "from_pin": "RSTRAMBL_B",
+      "to_pin": "OUT"
+    },
+    "ENBWRENUINV:ENBWRENU": {
+      "from_pin": "ENBWRENU",
+      "to_pin": "OUT"
+    },
+    "RSTRAMARSTRAMUINV:RSTRAMARSTRAMU": {
+      "from_pin": "RSTRAMARSTRAMU",
+      "to_pin": "OUT"
+    },
+    "REGCLKARDRCLKLINV:REGCLKARDRCLKL_B": {
+      "from_pin": "REGCLKARDRCLKL_B",
+      "to_pin": "OUT"
+    },
+    "CLKBWRCLKLINV:CLKBWRCLKL_B": {
+      "from_pin": "CLKBWRCLKL_B",
+      "to_pin": "OUT"
+    },
+    "CLKARDCLKUINV:CLKARDCLKU": {
+      "from_pin": "CLKARDCLKU",
+      "to_pin": "OUT"
+    },
+    "RSTREGBLINV:RSTREGBL_B": {
+      "from_pin": "RSTREGBL_B",
+      "to_pin": "OUT"
+    },
+    "RSTREGBLINV:RSTREGBL": {
+      "from_pin": "RSTREGBL",
       "to_pin": "OUT"
     },
     "RSTRAMARSTRAMLRSTINV:RSTRAMARSTRAMLRST_B": {
       "from_pin": "RSTRAMARSTRAMLRST_B",
       "to_pin": "OUT"
     },
-    "CLKARDCLKLINV:CLKARDCLKL_B": {
-      "from_pin": "CLKARDCLKL_B",
+    "REGCLKBLINV:REGCLKBL": {
+      "from_pin": "REGCLKBL",
       "to_pin": "OUT"
     },
-    "RSTREGARSTREGLINV:RSTREGARSTREGL_B": {
-      "from_pin": "RSTREGARSTREGL_B",
+    "CLKBWRCLKUINV:CLKBWRCLKU": {
+      "from_pin": "CLKBWRCLKU",
+      "to_pin": "OUT"
+    },
+    "ENARDENUINV:ENARDENU_B": {
+      "from_pin": "ENARDENU_B",
+      "to_pin": "OUT"
+    },
+    "ENARDENLINV:ENARDENL": {
+      "from_pin": "ENARDENL",
+      "to_pin": "OUT"
+    },
+    "ENBWRENLINV:ENBWRENL": {
+      "from_pin": "ENBWRENL",
       "to_pin": "OUT"
     },
     "RSTREGARSTREGUINV:RSTREGARSTREGU": {
       "from_pin": "RSTREGARSTREGU",
       "to_pin": "OUT"
     },
-    "CLKBWRCLKUINV:CLKBWRCLKU": {
-      "from_pin": "CLKBWRCLKU",
+    "CLKARDCLKLINV:CLKARDCLKL_B": {
+      "from_pin": "CLKARDCLKL_B",
       "to_pin": "OUT"
-    }
-  },
-  "site_pins": {
-    "TSTOUT4": {
-      "direction": "OUT"
     },
-    "DIBDI5": {
-      "direction": "IN"
+    "REGCLKARDRCLKLINV:REGCLKARDRCLKL": {
+      "from_pin": "REGCLKARDRCLKL",
+      "to_pin": "OUT"
     },
-    "DIPADIP0": {
-      "direction": "IN"
-    },
-    "TSTIN4": {
-      "direction": "IN"
-    },
-    "TSTWROS0": {
-      "direction": "IN"
-    },
-    "SBITERR": {
-      "direction": "OUT"
-    },
-    "DIBDI16": {
-      "direction": "IN"
-    },
-    "RDCOUNT8": {
-      "direction": "OUT"
-    },
-    "DIBDI28": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRL6": {
-      "direction": "IN"
-    },
-    "DOBDO3": {
-      "direction": "OUT"
-    },
-    "DOADO1": {
-      "direction": "OUT"
-    },
-    "TSTIN1": {
-      "direction": "IN"
-    },
-    "RDCOUNT1": {
-      "direction": "OUT"
-    },
-    "TSTCNT11": {
-      "direction": "IN"
-    },
-    "TSTRDOS12": {
-      "direction": "IN"
-    },
-    "CLKBWRCLKL": {
-      "direction": "IN"
-    },
-    "TSTOUT1": {
-      "direction": "OUT"
-    },
-    "DIPADIP3": {
-      "direction": "IN"
-    },
-    "TSTRDOS5": {
-      "direction": "IN"
-    },
-    "WEBWEU0": {
-      "direction": "IN"
-    },
-    "DOADO6": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRU0": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRU3": {
-      "direction": "IN"
-    },
-    "DOADO10": {
-      "direction": "OUT"
-    },
-    "REGCEAREGCEL": {
-      "direction": "IN"
-    },
-    "DOADO24": {
-      "direction": "OUT"
-    },
-    "DIADI5": {
-      "direction": "IN"
-    },
-    "WEBWEL6": {
-      "direction": "IN"
-    },
-    "TSTWROS2": {
-      "direction": "IN"
-    },
-    "DIADI30": {
-      "direction": "IN"
-    },
-    "DOBDO10": {
-      "direction": "OUT"
-    },
-    "RSTREGARSTREGL": {
-      "direction": "IN"
-    },
-    "WRCOUNT1": {
-      "direction": "OUT"
-    },
-    "DIADI23": {
-      "direction": "IN"
-    },
-    "WEAU3": {
-      "direction": "IN"
-    },
-    "DIBDI27": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRL7": {
-      "direction": "IN"
-    },
-    "DOADO28": {
-      "direction": "OUT"
-    },
-    "TSTCNT9": {
-      "direction": "IN"
-    },
-    "TSTRDOS10": {
-      "direction": "IN"
-    },
-    "DIADI29": {
-      "direction": "IN"
-    },
-    "WEBWEU4": {
-      "direction": "IN"
-    },
-    "CASCADEINA": {
-      "direction": "IN"
-    },
-    "RSTRAMBU": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRL13": {
-      "direction": "IN"
-    },
-    "TSTWROS4": {
-      "direction": "IN"
-    },
-    "DOBDO5": {
-      "direction": "OUT"
-    },
-    "DOBDO22": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRL2": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRL7": {
-      "direction": "IN"
-    },
-    "TSTCNT2": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRU7": {
-      "direction": "IN"
-    },
-    "WEAL2": {
-      "direction": "IN"
-    },
-    "ECCPARITY1": {
-      "direction": "OUT"
-    },
-    "DOADO9": {
-      "direction": "OUT"
-    },
-    "DOBDO9": {
-      "direction": "OUT"
-    },
-    "DIBDI24": {
-      "direction": "IN"
-    },
-    "DOADO12": {
-      "direction": "OUT"
-    },
-    "DIADI16": {
-      "direction": "IN"
-    },
-    "DIADI1": {
-      "direction": "IN"
-    },
-    "DOADO22": {
-      "direction": "OUT"
-    },
-    "DIADI28": {
-      "direction": "IN"
-    },
-    "WRERR": {
-      "direction": "OUT"
-    },
-    "RDCOUNT5": {
-      "direction": "OUT"
-    },
-    "DIADI14": {
-      "direction": "IN"
-    },
-    "RDCOUNT3": {
-      "direction": "OUT"
-    },
-    "ECCPARITY7": {
-      "direction": "OUT"
-    },
-    "TSTRDCNTOFF": {
-      "direction": "IN"
-    },
-    "DOADO16": {
-      "direction": "OUT"
-    },
-    "DBITERR": {
-      "direction": "OUT"
-    },
-    "TSTCNT6": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRL13": {
-      "direction": "IN"
-    },
-    "DOADO0": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRL6": {
-      "direction": "IN"
-    },
-    "TSTWROS7": {
-      "direction": "IN"
-    },
-    "DOBDO1": {
-      "direction": "OUT"
-    },
-    "REGCLKBU": {
-      "direction": "IN"
-    },
-    "DIBDI29": {
-      "direction": "IN"
-    },
-    "TSTBRAMRST": {
-      "direction": "IN"
-    },
-    "DOBDO20": {
-      "direction": "OUT"
-    },
-    "ECCPARITY6": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRL12": {
-      "direction": "IN"
-    },
-    "TSTCNT5": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRL9": {
-      "direction": "IN"
-    },
-    "WEBWEL7": {
-      "direction": "IN"
-    },
-    "DOBDO27": {
-      "direction": "OUT"
-    },
-    "DOADO8": {
-      "direction": "OUT"
-    },
-    "DIADI18": {
-      "direction": "IN"
-    },
-    "DIBDI11": {
-      "direction": "IN"
-    },
-    "DOADO27": {
-      "direction": "OUT"
-    },
-    "DIBDI1": {
-      "direction": "IN"
-    },
-    "REGCEAREGCEU": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRL14": {
-      "direction": "IN"
-    },
-    "TSTRDOS1": {
-      "direction": "IN"
-    },
-    "WEAL3": {
-      "direction": "IN"
-    },
-    "DIADI2": {
-      "direction": "IN"
-    },
-    "RDCOUNT0": {
-      "direction": "OUT"
-    },
-    "TSTWROS8": {
-      "direction": "IN"
-    },
-    "CLKBWRCLKU": {
-      "direction": "IN"
-    },
-    "DOBDO29": {
-      "direction": "OUT"
-    },
-    "ALMOSTEMPTY": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDRL11": {
-      "direction": "IN"
-    },
-    "RDCOUNT4": {
-      "direction": "OUT"
-    },
-    "DOADO17": {
-      "direction": "OUT"
-    },
-    "ECCPARITY3": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDRU14": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRL8": {
-      "direction": "IN"
-    },
-    "TSTCNT3": {
-      "direction": "IN"
-    },
-    "DOBDO25": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDRU5": {
-      "direction": "IN"
-    },
-    "WEBWEL4": {
-      "direction": "IN"
-    },
-    "DIADI20": {
-      "direction": "IN"
-    },
-    "DOBDO0": {
-      "direction": "OUT"
-    },
-    "DOBDO7": {
-      "direction": "OUT"
-    },
-    "CLKARDCLKL": {
-      "direction": "IN"
-    },
-    "TSTWROS6": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRU1": {
-      "direction": "IN"
-    },
-    "DIPBDIP2": {
-      "direction": "IN"
-    },
-    "WEAL1": {
-      "direction": "IN"
-    },
-    "DIADI13": {
-      "direction": "IN"
-    },
-    "DIADI11": {
-      "direction": "IN"
-    },
-    "RSTREGARSTREGU": {
-      "direction": "IN"
-    },
-    "DOADO18": {
-      "direction": "OUT"
-    },
-    "DIBDI30": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRL12": {
-      "direction": "IN"
-    },
-    "TSTCNT8": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRU14": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRL0": {
-      "direction": "IN"
-    },
-    "DIBDI17": {
-      "direction": "IN"
-    },
-    "DOADO14": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDRL15": {
-      "direction": "IN"
-    },
-    "WEBWEL5": {
-      "direction": "IN"
-    },
-    "CLKARDCLKU": {
-      "direction": "IN"
-    },
-    "RDCOUNT6": {
-      "direction": "OUT"
-    },
-    "DIBDI10": {
-      "direction": "IN"
-    },
-    "TSTOFF": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRL9": {
-      "direction": "IN"
-    },
-    "DIBDI13": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRU2": {
-      "direction": "IN"
-    },
-    "DIBDI18": {
-      "direction": "IN"
-    },
-    "DIADI6": {
-      "direction": "IN"
-    },
-    "WRCOUNT11": {
-      "direction": "OUT"
-    },
-    "DIADI21": {
-      "direction": "IN"
-    },
-    "DIADI19": {
-      "direction": "IN"
-    },
-    "DOBDO21": {
-      "direction": "OUT"
-    },
-    "DOADO2": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRL1": {
-      "direction": "IN"
-    },
-    "CASCADEOUTA": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRU1": {
-      "direction": "IN"
-    },
-    "DOBDO4": {
-      "direction": "OUT"
-    },
-    "TSTCNT4": {
-      "direction": "IN"
-    },
-    "RDCOUNT11": {
-      "direction": "OUT"
-    },
-    "TSTRDOS11": {
-      "direction": "IN"
-    },
-    "DIPADIP2": {
-      "direction": "IN"
-    },
-    "DIBDI14": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRU3": {
-      "direction": "IN"
-    },
-    "TSTFLAGIN": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRL14": {
-      "direction": "IN"
-    },
-    "DIADI25": {
-      "direction": "IN"
-    },
-    "DOBDO13": {
-      "direction": "OUT"
-    },
-    "WRCOUNT6": {
-      "direction": "OUT"
-    },
-    "DOBDO15": {
-      "direction": "OUT"
-    },
-    "RDCOUNT9": {
-      "direction": "OUT"
-    },
-    "INJECTDBITERR": {
-      "direction": "IN"
-    },
-    "DOADO19": {
-      "direction": "OUT"
-    },
-    "DOPADOP2": {
-      "direction": "OUT"
-    },
-    "DIADI8": {
-      "direction": "IN"
-    },
-    "TSTIN0": {
-      "direction": "IN"
-    },
-    "WRCOUNT9": {
-      "direction": "OUT"
-    },
-    "DOADO25": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRU8": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRL0": {
-      "direction": "IN"
-    },
-    "TSTRDOS4": {
-      "direction": "IN"
-    },
-    "DOADO30": {
-      "direction": "OUT"
-    },
-    "DOADO26": {
-      "direction": "OUT"
-    },
-    "WRCOUNT8": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRU11": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRU11": {
-      "direction": "IN"
-    },
-    "DIBDI21": {
-      "direction": "IN"
-    },
-    "TSTCNT12": {
-      "direction": "IN"
-    },
-    "RDCOUNT7": {
-      "direction": "OUT"
-    },
-    "DIADI22": {
-      "direction": "IN"
-    },
-    "WEAL0": {
-      "direction": "IN"
-    },
-    "WEBWEU6": {
-      "direction": "IN"
-    },
-    "DIBDI12": {
-      "direction": "IN"
-    },
-    "DIBDI4": {
-      "direction": "IN"
-    },
-    "WRCOUNT10": {
-      "direction": "OUT"
-    },
-    "DIBDI8": {
-      "direction": "IN"
-    },
-    "DOADO31": {
-      "direction": "OUT"
-    },
-    "DOBDO19": {
-      "direction": "OUT"
-    },
-    "DOADO4": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDRL5": {
-      "direction": "IN"
-    },
-    "RSTRAMBL": {
-      "direction": "IN"
-    },
-    "TSTWROS9": {
-      "direction": "IN"
-    },
-    "TSTRDOS8": {
-      "direction": "IN"
-    },
-    "DIPBDIP1": {
-      "direction": "IN"
-    },
-    "DIADI15": {
-      "direction": "IN"
-    },
-    "WRCOUNT7": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDRL4": {
-      "direction": "IN"
-    },
-    "DOPBDOP1": {
-      "direction": "OUT"
-    },
-    "TSTWROS3": {
-      "direction": "IN"
-    },
-    "DOADO21": {
-      "direction": "OUT"
-    },
-    "DOBDO28": {
-      "direction": "OUT"
-    },
-    "TSTRDOS9": {
-      "direction": "IN"
-    },
-    "DOADO23": {
-      "direction": "OUT"
-    },
-    "WRCOUNT0": {
-      "direction": "OUT"
-    },
-    "DIBDI6": {
-      "direction": "IN"
-    },
-    "WEBWEL1": {
-      "direction": "IN"
-    },
-    "WEAU2": {
-      "direction": "IN"
-    },
-    "WEBWEL2": {
-      "direction": "IN"
-    },
-    "DOBDO11": {
-      "direction": "OUT"
-    },
-    "ECCPARITY2": {
-      "direction": "OUT"
-    },
-    "DOPADOP0": {
-      "direction": "OUT"
-    },
-    "WRCOUNT4": {
-      "direction": "OUT"
-    },
-    "TSTCNT10": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRU4": {
-      "direction": "IN"
-    },
-    "DOBDO26": {
-      "direction": "OUT"
-    },
-    "TSTOUT3": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRL11": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRU6": {
-      "direction": "IN"
-    },
-    "DOBDO24": {
-      "direction": "OUT"
-    },
-    "DOADO13": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDRU9": {
-      "direction": "IN"
-    },
-    "INJECTSBITERR": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRU0": {
-      "direction": "IN"
-    },
-    "WEAU1": {
-      "direction": "IN"
-    },
-    "DIBDI23": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRU12": {
-      "direction": "IN"
-    },
-    "WEAU0": {
-      "direction": "IN"
-    },
-    "DOADO15": {
-      "direction": "OUT"
-    },
-    "DIADI27": {
-      "direction": "IN"
-    },
-    "TSTWROS12": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRU8": {
-      "direction": "IN"
-    },
-    "DIBDI20": {
-      "direction": "IN"
-    },
-    "DOBDO2": {
-      "direction": "OUT"
-    },
-    "RSTRAMARSTRAMU": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRL15": {
-      "direction": "IN"
-    },
-    "DOADO20": {
-      "direction": "OUT"
-    },
-    "DIBDI26": {
-      "direction": "IN"
-    },
-    "DIBDI15": {
-      "direction": "IN"
-    },
-    "DOPBDOP0": {
-      "direction": "OUT"
-    },
-    "DIADI4": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRU7": {
-      "direction": "IN"
-    },
-    "TSTWROS10": {
-      "direction": "IN"
-    },
-    "DIBDI19": {
-      "direction": "IN"
-    },
-    "ECCPARITY4": {
-      "direction": "OUT"
-    },
-    "WRCOUNT2": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRU13": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRL8": {
-      "direction": "IN"
-    },
-    "WRCOUNT3": {
-      "direction": "OUT"
-    },
-    "REGCEBL": {
-      "direction": "IN"
-    },
-    "REGCLKARDRCLKL": {
-      "direction": "IN"
-    },
-    "DOPBDOP2": {
-      "direction": "OUT"
-    },
-    "FULL": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRU6": {
-      "direction": "IN"
-    },
-    "WEBWEL0": {
-      "direction": "IN"
-    },
-    "DIBDI9": {
-      "direction": "IN"
-    },
-    "DIBDI3": {
-      "direction": "IN"
-    },
-    "DIADI26": {
-      "direction": "IN"
-    },
-    "TSTCNT0": {
-      "direction": "IN"
-    },
-    "TSTIN3": {
-      "direction": "IN"
-    },
-    "DOBDO30": {
-      "direction": "OUT"
-    },
-    "ENBWRENU": {
-      "direction": "IN"
-    },
-    "DIBDI7": {
-      "direction": "IN"
-    },
-    "WRCOUNT5": {
-      "direction": "OUT"
-    },
-    "WRCOUNT12": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRL4": {
-      "direction": "IN"
-    },
-    "DIADI0": {
-      "direction": "IN"
-    },
-    "TSTOUT2": {
-      "direction": "OUT"
-    },
-    "DOBDO18": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDRU2": {
-      "direction": "IN"
-    },
-    "DOADO11": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDRU13": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRU5": {
-      "direction": "IN"
-    },
-    "DOBDO31": {
-      "direction": "OUT"
-    },
-    "ADDRBWRADDRL5": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRU4": {
-      "direction": "IN"
-    },
-    "RDCOUNT10": {
-      "direction": "OUT"
-    },
-    "TSTRDOS6": {
-      "direction": "IN"
-    },
-    "REGCLKARDRCLKU": {
-      "direction": "IN"
-    },
-    "DOADO5": {
-      "direction": "OUT"
-    },
-    "EMPTY": {
-      "direction": "OUT"
-    },
-    "DIPBDIP0": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRL3": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRU10": {
-      "direction": "IN"
-    },
-    "REGCLKBL": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRL10": {
-      "direction": "IN"
-    },
-    "DOBDO12": {
-      "direction": "OUT"
-    },
-    "WEBWEL3": {
-      "direction": "IN"
-    },
-    "RSTREGBU": {
-      "direction": "IN"
-    },
-    "TSTRDOS2": {
-      "direction": "IN"
-    },
-    "REGCEBU": {
-      "direction": "IN"
-    },
-    "DIADI7": {
-      "direction": "IN"
-    },
-    "DOBDO6": {
-      "direction": "OUT"
-    },
-    "DIBDI2": {
-      "direction": "IN"
-    },
-    "DOBDO16": {
-      "direction": "OUT"
-    },
-    "DIPADIP1": {
-      "direction": "IN"
-    },
-    "DIADI24": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRU12": {
-      "direction": "IN"
-    },
-    "DOBDO14": {
-      "direction": "OUT"
-    },
-    "RDCOUNT12": {
-      "direction": "OUT"
-    },
-    "DOBDO8": {
-      "direction": "OUT"
-    },
-    "RSTREGBL": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRU9": {
-      "direction": "IN"
-    },
-    "TSTCNT1": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRL3": {
-      "direction": "IN"
-    },
-    "RDERR": {
-      "direction": "OUT"
-    },
-    "WEBWEU5": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRL1": {
-      "direction": "IN"
-    },
-    "DIADI12": {
-      "direction": "IN"
-    },
-    "RDCOUNT2": {
-      "direction": "OUT"
-    },
-    "WEBWEU3": {
-      "direction": "IN"
-    },
-    "ECCPARITY0": {
-      "direction": "OUT"
-    },
-    "DOADO3": {
-      "direction": "OUT"
-    },
-    "DOBDO23": {
-      "direction": "OUT"
-    },
-    "CASCADEINB": {
-      "direction": "IN"
-    },
-    "TSTRDOS7": {
-      "direction": "IN"
-    },
-    "DOBDO17": {
-      "direction": "OUT"
-    },
-    "ADDRARDADDRL2": {
-      "direction": "IN"
-    },
-    "ADDRARDADDRL10": {
-      "direction": "IN"
-    },
-    "DOPBDOP3": {
-      "direction": "OUT"
-    },
-    "ENBWRENL": {
-      "direction": "IN"
-    },
-    "DOPADOP1": {
-      "direction": "OUT"
-    },
-    "DIBDI31": {
-      "direction": "IN"
-    },
-    "RSTRAMARSTRAMLRST": {
-      "direction": "IN"
-    },
-    "TSTCNT7": {
-      "direction": "IN"
-    },
-    "ALMOSTFULL": {
-      "direction": "OUT"
-    },
-    "WEBWEU1": {
-      "direction": "IN"
-    },
-    "TSTRDOS0": {
-      "direction": "IN"
-    },
-    "DIADI3": {
-      "direction": "IN"
-    },
-    "WEBWEU2": {
-      "direction": "IN"
-    },
-    "DIBDI25": {
-      "direction": "IN"
-    },
-    "TSTIN2": {
-      "direction": "IN"
-    },
-    "DOADO29": {
-      "direction": "OUT"
-    },
-    "TSTWROS1": {
-      "direction": "IN"
-    },
-    "ECCPARITY5": {
-      "direction": "OUT"
-    },
-    "DOPADOP3": {
-      "direction": "OUT"
-    },
-    "WEBWEU7": {
-      "direction": "IN"
-    },
-    "ENARDENU": {
-      "direction": "IN"
-    },
-    "DIADI31": {
-      "direction": "IN"
-    },
-    "DIADI10": {
-      "direction": "IN"
-    },
-    "TSTRDOS3": {
-      "direction": "IN"
-    },
-    "DIBDI0": {
-      "direction": "IN"
-    },
-    "DIBDI22": {
-      "direction": "IN"
-    },
-    "ENARDENL": {
-      "direction": "IN"
-    },
-    "CASCADEOUTB": {
-      "direction": "OUT"
-    },
-    "TSTWROS5": {
-      "direction": "IN"
-    },
-    "DIPBDIP3": {
-      "direction": "IN"
-    },
-    "TSTWRCNTOFF": {
-      "direction": "IN"
-    },
-    "DIADI9": {
-      "direction": "IN"
-    },
-    "TSTWROS11": {
-      "direction": "IN"
-    },
-    "DOADO7": {
-      "direction": "OUT"
-    },
-    "DIADI17": {
-      "direction": "IN"
-    },
-    "ADDRBWRADDRU10": {
-      "direction": "IN"
-    },
-    "TSTOUT0": {
-      "direction": "OUT"
+    "RSTREGARSTREGLINV:RSTREGARSTREGL": {
+      "from_pin": "RSTREGARSTREGL",
+      "to_pin": "OUT"
     }
   }
 }
