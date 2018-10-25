@@ -1,33 +1,33 @@
 {
+  "type": "IBUFDS_GTE2",
+  "site_pips": {
+    "CLKTESTSIGINV:CLKTESTSIG_B": {
+      "to_pin": "OUT",
+      "from_pin": "CLKTESTSIG_B"
+    },
+    "CLKTESTSIGINV:CLKTESTSIG": {
+      "to_pin": "OUT",
+      "from_pin": "CLKTESTSIG"
+    }
+  },
   "site_pins": {
     "O": {
       "direction": "OUT"
     },
-    "CEB": {
-      "direction": "IN"
-    },
-    "I": {
+    "IB": {
       "direction": "IN"
     },
     "CLKTESTSIG": {
       "direction": "IN"
     },
-    "IB": {
+    "I": {
+      "direction": "IN"
+    },
+    "CEB": {
       "direction": "IN"
     },
     "ODIV2": {
       "direction": "OUT"
-    }
-  },
-  "type": "IBUFDS_GTE2",
-  "site_pips": {
-    "CLKTESTSIGINV:CLKTESTSIG": {
-      "from_pin": "CLKTESTSIG",
-      "to_pin": "OUT"
-    },
-    "CLKTESTSIGINV:CLKTESTSIG_B": {
-      "from_pin": "CLKTESTSIG_B",
-      "to_pin": "OUT"
     }
   }
 }

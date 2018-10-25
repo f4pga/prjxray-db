@@ -1,12 +1,12 @@
 {
+  "type": "DCIRESET",
+  "site_pips": {},
   "site_pins": {
-    "LOCKED": {
-      "direction": "OUT"
-    },
     "RST": {
       "direction": "IN"
+    },
+    "LOCKED": {
+      "direction": "OUT"
     }
-  },
-  "type": "DCIRESET",
-  "site_pips": {}
+  }
 }

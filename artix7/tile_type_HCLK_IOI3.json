@@ -1,1954 +1,1954 @@
 {
+  "pips": {
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_TOP1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1"
+    },
+    "HCLK_IOI3.HCLK_RCLK_DIV_CE0->HCLK_IOI_BUFR0_CE": {
+      "can_invert": "0",
+      "src_wire": "HCLK_RCLK_DIV_CE0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_BUFR0_CE"
+    },
+    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK0_DMUX->>HCLK_IOI_IO_PLL_CLK0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_IO_PLL_CLK0_DMUX",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IO_PLL_CLK0"
+    },
+    "HCLK_IOI3.HCLK_IOI_BUFIO_O2->>HCLK_IOI_IOCLK2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_BUFIO_O2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IOCLK2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_BOT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1"
+    },
+    "HCLK_IOI3.HCLK_RCLK_DIV_CLR2->HCLK_IOI_BUFR2_CLR": {
+      "can_invert": "0",
+      "src_wire": "HCLK_RCLK_DIV_CLR2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_BUFR2_CLR"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_TOP3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_BOT5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_TOP0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX0->>HCLK_IOI_RCLK_BEFORE_DIV3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_BOT4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX0->>HCLK_IOI_RCLK_BEFORE_DIV2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2"
+    },
+    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_BOT2->>HCLK_IOI_IDELAYCTRL_REFCLK": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_BOT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK1_DMUX->>HCLK_IOI_RCLK1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_IO_PLL_CLK1_DMUX",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_BOT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_BOT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_TOP2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_BOT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_TOP3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_TOP1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_TOP0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_TOP5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_BOT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1"
+    },
+    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_TOP2->>HCLK_IOI_IDELAYCTRL_REFCLK": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_TOP2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_TOP5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_BOT5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX1->>HCLK_IOI_RCLK_BEFORE_DIV0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_TOP2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2"
+    },
+    "HCLK_IOI3.HCLK_IOI_I2IOCLK_BOT0->>HCLK_IOI_IO_PLL_CLK2_DMUX": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_I2IOCLK_BOT0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IO_PLL_CLK2_DMUX"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK1->>HCLK_IOI_RCLK_BEFORE_DIV2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK0->>HCLK_IOI_RCLK_BEFORE_DIV3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_TOP0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_TOP5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_TOP3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_BOT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_BEFORE_DIV3->>HCLK_IOI_RCLK_OUT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_BEFORE_DIV3",
+      "is_directional": "1",
+      "is_pseudo": "1",
+      "dst_wire": "HCLK_IOI_RCLK_OUT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_BOT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_TOP4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4"
+    },
+    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_TOP3->>HCLK_IOI_IDELAYCTRL_REFCLK": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_BOT4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK9->>HCLK_IOI_CK_IGCLK9": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFHCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_IGCLK9"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_TOP2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK4->>HCLK_IOI_CK_IGCLK4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFHCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_IGCLK4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFRCLK0->>HCLK_IOI_RCLK2IO0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFRCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK2IO0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_TOP0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_BOT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_TOP2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2"
+    },
+    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK2_DMUX->>HCLK_IOI_RCLK2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_IO_PLL_CLK2_DMUX",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_TOP4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_BEFORE_DIV0->>HCLK_IOI_RCLK_OUT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_BEFORE_DIV0",
+      "is_directional": "1",
+      "is_pseudo": "1",
+      "dst_wire": "HCLK_IOI_RCLK_OUT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK6->>HCLK_IOI_CK_IGCLK6": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFHCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_IGCLK6"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_BOT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_BOT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_TOP2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_BOT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_BOT4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK2RCLK0->>HCLK_IOI_CK_BUFRCLK0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK2RCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_BUFRCLK0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_TOP3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_TOP2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_BOT5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5"
+    },
+    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK3_DMUX->>HCLK_IOI_RCLK3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_IO_PLL_CLK3_DMUX",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK3"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX3->>HCLK_IOI_RCLK_BEFORE_DIV1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK2RCLK2->>HCLK_IOI_CK_BUFRCLK2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK2RCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_BUFRCLK2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_TOP2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_TOP1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK3->>HCLK_IOI_RCLK_BEFORE_DIV0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_TOP4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_TOP5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_TOP5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_BOT5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_BOT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_BOT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_TOP2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_BOT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_IOCLK_PLL0->>HCLK_IOI_IO_PLL_CLK0_DMUX": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_IOCLK_PLL0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IO_PLL_CLK0_DMUX"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_BOT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_IOCLK_PLL1->>HCLK_IOI_IO_PLL_CLK1_DMUX": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_IOCLK_PLL1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IO_PLL_CLK1_DMUX"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_BOT5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_TOP3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX3->>HCLK_IOI_RCLK_BEFORE_DIV0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0"
+    },
+    "HCLK_IOI3.HCLK_IOI_IOCLK_PLL2->>HCLK_IOI_IO_PLL_CLK2_DMUX": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_IOCLK_PLL2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IO_PLL_CLK2_DMUX"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_TOP1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_BOT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK1->>HCLK_IOI_CK_IGCLK1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFHCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_IGCLK1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_TOP0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_BOT4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_TOP4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFRCLK3->>HCLK_IOI_RCLK2IO3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFRCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK2IO3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_BOT4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_BOT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK1->>HCLK_IOI_RCLK_BEFORE_DIV3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_TOP2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_TOP4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK0->>HCLK_IOI_RCLK_BEFORE_DIV0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_TOP1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK2->>HCLK_IOI_RCLK_BEFORE_DIV2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX1->>HCLK_IOI_RCLK_BEFORE_DIV1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1"
+    },
+    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK1_DMUX->>HCLK_IOI_IO_PLL_CLK1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_IO_PLL_CLK1_DMUX",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IO_PLL_CLK1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_TOP0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_TOP4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_TOP1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1"
+    },
+    "HCLK_IOI3.HCLK_RCLK_DIV_CE1->HCLK_IOI_BUFR1_CE": {
+      "can_invert": "0",
+      "src_wire": "HCLK_RCLK_DIV_CE1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_BUFR1_CE"
+    },
+    "HCLK_IOI3.HCLK_IOI_I2IOCLK_TOP1->>HCLK_IOI_IO_PLL_CLK1_DMUX": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_I2IOCLK_TOP1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IO_PLL_CLK1_DMUX"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK0->>HCLK_IOI_RCLK_BEFORE_DIV2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_BOT4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_TOP4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_TOP5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK0->>HCLK_IOI_RCLK_BEFORE_DIV1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_BOT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_TOP4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_BOT5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_TOP1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1"
+    },
+    "HCLK_IOI3.HCLK_IOI_IOCLK_PLL3->>HCLK_IOI_IO_PLL_CLK3_DMUX": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_IOCLK_PLL3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IO_PLL_CLK3_DMUX"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFRCLK1->>HCLK_IOI_RCLK2IO1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFRCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK2IO1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_TOP4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_BEFORE_DIV1->>HCLK_IOI_RCLK_OUT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_BEFORE_DIV1",
+      "is_directional": "1",
+      "is_pseudo": "1",
+      "dst_wire": "HCLK_IOI_RCLK_OUT1"
+    },
+    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_BOT4->>HCLK_IOI_IDELAYCTRL_REFCLK": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_TOP1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK7->>HCLK_IOI_CK_IGCLK7": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFHCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_IGCLK7"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_BOT5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5"
+    },
+    "HCLK_IOI3.HCLK_IOI_BUFIO_O3->>HCLK_IOI_IOCLK3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_BUFIO_O3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IOCLK3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_BOT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX3->>HCLK_IOI_RCLK_BEFORE_DIV3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_BOT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_BOT5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_TOP3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_OUT1->>HCLK_IOI_RCLK2RCLK1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_OUT1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK2RCLK1"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK2RCLK1->>HCLK_IOI_CK_BUFRCLK1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK2RCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_BUFRCLK1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_BOT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_BOT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1"
+    },
+    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_BOT1->>HCLK_IOI_IDELAYCTRL_REFCLK": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK3->>HCLK_IOI_CK_IGCLK3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFHCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_IGCLK3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_TOP0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_TOP3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK3->>HCLK_IOI_RCLK_BEFORE_DIV2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK0->>HCLK_IOI_CK_IGCLK0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFHCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_IGCLK0"
+    },
+    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_TOP1->>HCLK_IOI_IDELAYCTRL_REFCLK": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK10->>HCLK_IOI_CK_IGCLK10": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFHCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_IGCLK10"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_BOT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK8->>HCLK_IOI_CK_IGCLK8": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFHCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_IGCLK8"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_BOT5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX1->>HCLK_IOI_RCLK_BEFORE_DIV2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_BOT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_BUFIO_O0->>HCLK_IOI_IOCLK0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_BUFIO_O0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IOCLK0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK11->>HCLK_IOI_CK_IGCLK11": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFHCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_IGCLK11"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_BOT4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK5->>HCLK_IOI_CK_IGCLK5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFHCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_IGCLK5"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX0->>HCLK_IOI_RCLK_BEFORE_DIV0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0"
+    },
+    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_TOP5->>HCLK_IOI_IDELAYCTRL_REFCLK": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFRCLK2->>HCLK_IOI_RCLK2IO2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFRCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK2IO2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_TOP4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_BOT4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_TOP4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_BOT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_BOT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_TOP5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK3->>HCLK_IOI_RCLK_BEFORE_DIV1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK2->>HCLK_IOI_CK_IGCLK2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_BUFHCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_IGCLK2"
+    },
+    "HCLK_IOI3.HCLK_RCLK_DIV_CLR3->HCLK_IOI_BUFR3_CLR": {
+      "can_invert": "0",
+      "src_wire": "HCLK_RCLK_DIV_CLR3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_BUFR3_CLR"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_TOP5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX2->>HCLK_IOI_RCLK_BEFORE_DIV2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2"
+    },
+    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK3_DMUX->>HCLK_IOI_IO_PLL_CLK3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_IO_PLL_CLK3_DMUX",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IO_PLL_CLK3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_BOT4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_BEFORE_DIV2->>HCLK_IOI_RCLK_OUT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_BEFORE_DIV2",
+      "is_directional": "1",
+      "is_pseudo": "1",
+      "dst_wire": "HCLK_IOI_RCLK_OUT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_BOT4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX2->>HCLK_IOI_RCLK_BEFORE_DIV1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_BOT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_BOT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK2->>HCLK_IOI_RCLK_BEFORE_DIV1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_TOP3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_TOP0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_BOT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_BOT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_TOP0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0"
+    },
+    "HCLK_IOI3.HCLK_IOI_I2IOCLK_BOT1->>HCLK_IOI_IO_PLL_CLK3_DMUX": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_I2IOCLK_BOT1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IO_PLL_CLK3_DMUX"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK2->>HCLK_IOI_RCLK_BEFORE_DIV3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3"
+    },
+    "HCLK_IOI3.HCLK_RCLK_DIV_CLR0->HCLK_IOI_BUFR0_CLR": {
+      "can_invert": "0",
+      "src_wire": "HCLK_RCLK_DIV_CLR0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_BUFR0_CLR"
+    },
+    "HCLK_IOI3.HCLK_RCLK_DIV_CE2->HCLK_IOI_BUFR2_CE": {
+      "can_invert": "0",
+      "src_wire": "HCLK_RCLK_DIV_CE2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_BUFR2_CE"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX3->>HCLK_IOI_RCLK_BEFORE_DIV2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2"
+    },
+    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_BOT5->>HCLK_IOI_IDELAYCTRL_REFCLK": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_BOT5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK8",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5"
+    },
+    "HCLK_IOI3.HCLK_IOI_BUFIO_O1->>HCLK_IOI_IOCLK1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_BUFIO_O1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IOCLK1"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_OUT2->>HCLK_IOI_RCLK2RCLK2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_OUT2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK2RCLK2"
+    },
+    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_BOT3->>HCLK_IOI_IDELAYCTRL_REFCLK": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_BOT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_TOP5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_TOP1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_BOT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_BOT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_I2IOCLK_TOP0->>HCLK_IOI_IO_PLL_CLK0_DMUX": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_I2IOCLK_TOP0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IO_PLL_CLK0_DMUX"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_TOP0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX2->>HCLK_IOI_RCLK_BEFORE_DIV3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3"
+    },
+    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK2_DMUX->>HCLK_IOI_IO_PLL_CLK2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_IO_PLL_CLK2_DMUX",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IO_PLL_CLK2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_BOT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_BOT4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_TOP0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_TOP1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_BOT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_TOP3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_TOP3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3"
+    },
+    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_TOP0->>HCLK_IOI_IDELAYCTRL_REFCLK": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_BOT4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4"
+    },
+    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_BOT0->>HCLK_IOI_IDELAYCTRL_REFCLK": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_BOT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_BOT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_TOP2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_TOP3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_OUT0->>HCLK_IOI_RCLK2RCLK0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_OUT0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK2RCLK0"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK1->>HCLK_IOI_RCLK_BEFORE_DIV1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX0->>HCLK_IOI_RCLK_BEFORE_DIV1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_BOT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_BOT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_TOP5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_BOT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_TOP5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_BOT2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2"
+    },
+    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK0_DMUX->>HCLK_IOI_RCLK0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_IO_PLL_CLK0_DMUX",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_BOT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK1->>HCLK_IOI_RCLK_BEFORE_DIV0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_BOT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_BOT0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK9",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_BOT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_TOP1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_TOP3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_TOP0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK5",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0"
+    },
+    "HCLK_IOI3.HCLK_RCLK_DIV_CE3->HCLK_IOI_BUFR3_CE": {
+      "can_invert": "0",
+      "src_wire": "HCLK_RCLK_DIV_CE3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_BUFR3_CE"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_BOT1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK0",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1"
+    },
+    "HCLK_IOI3.HCLK_RCLK_DIV_CLR1->HCLK_IOI_BUFR1_CLR": {
+      "can_invert": "0",
+      "src_wire": "HCLK_RCLK_DIV_CLR1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_BUFR1_CLR"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_BOT5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5"
+    },
+    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_TOP4->>HCLK_IOI_IDELAYCTRL_REFCLK": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK2RCLK3->>HCLK_IOI_CK_BUFRCLK3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK2RCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_CK_BUFRCLK3"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK3->>HCLK_IOI_RCLK_BEFORE_DIV3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_BOT3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX1->>HCLK_IOI_RCLK_BEFORE_DIV3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX1",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_TOP2": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_TOP5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK7",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_OUT3->>HCLK_IOI_RCLK2RCLK3": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_OUT3",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK2RCLK3"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_BOT5": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK6",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_TOP1": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK10",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1"
+    },
+    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_TOP4": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_CK_IGCLK11",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX2->>HCLK_IOI_RCLK_BEFORE_DIV0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK_IMUX2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0"
+    },
+    "HCLK_IOI3.HCLK_IOI_RCLK2->>HCLK_IOI_RCLK_BEFORE_DIV0": {
+      "can_invert": "0",
+      "src_wire": "HCLK_IOI_RCLK2",
+      "is_directional": "1",
+      "is_pseudo": "0",
+      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0"
+    }
+  },
   "wires": [
-    "HCLK_IOI_BUFR1_CLR",
-    "HCLK_IOI_BUFIO_O0",
-    "HCLK_IOI_IO_PLL_CLK3_DMUX",
-    "HCLK_IOI_RCLK_OUT0",
-    "HCLK_IOI_CK_BUFHCLK6",
-    "HCLK_IOI_LEAF_GCLK_BOT1",
-    "HCLK_IOI_BUFR1_CE",
-    "HCLK_IOI_LEAF_GCLK_BOT3",
-    "HCLK_IOI_IO_PLL_CLK0",
-    "HCLK_IOI_IOCLK2",
-    "HCLK_IOI_CK_IN5",
-    "HCLK_IOI_LEAF_GCLK_BOT0",
-    "HCLK_IOI_LEAF_GCLK_TOP4",
-    "HCLK_IOI_CK_IN1",
-    "HCLK_IOI_CK_BUFRCLK3",
-    "HCLK_IOI_CK_BUFHCLK9",
-    "HCLK_IOI_BUFIO_O2",
-    "HCLK_IOI_RCLK_IMUX0",
-    "HCLK_IOI_RCLK2IO0",
-    "HCLK_IOI_BUFR2_CLR",
-    "HCLK_IOI_IDELAYCTRL_REFCLK",
-    "HCLK_IOI_IO_PLL_CLK3",
-    "HCLK_RCLK_DIV_CE1",
-    "HCLK_IOI_LEAF_GCLK_TOP0",
-    "HCLK_RCLK_DIV_CLR3",
-    "HCLK_IOI_CK_BUFHCLK11",
-    "HCLK_IOI_CK_BUFHCLK0",
-    "HCLK_IOI_IO_PLL_CLK1",
-    "HCLK_IOI_IOCLK3",
-    "HCLK_IOI_LEAF_GCLK_TOP3",
-    "HCLK_IOI_CK_IN0",
-    "HCLK_IOI_CK_IN10",
-    "HCLK_IOI_CK_IGCLK2",
-    "HCLK_IOI_IDELAYCTRL_UPPULSEOUT",
-    "HCLK_IOI_CK_IGCLK9",
-    "HCLK_IOI_IOCLK0",
-    "HCLK_IOI_RCLK_BEFORE_DIV2",
-    "HCLK_IOI_RCLK2",
-    "HCLK_IOI_LEAF_GCLK_BOT2",
-    "HCLK_IOI_IDELAYCTRL_DNPULSEOUT",
-    "HCLK_IOI_I2IOCLK_TOP1",
-    "HCLK_RCLK_DIV_CLR0",
-    "HCLK_IOI_BUFR2_CE",
-    "HCLK_IOI_IDELAYCTRL_OUTN1",
-    "HCLK_IOI_CK_IGCLK3",
-    "HCLK_IOI_CK_BUFHCLK2",
-    "HCLK_IOI_RCLK_OUT1",
-    "HCLK_IOI_CK_IN7",
-    "HCLK_IOI_CK_IN12",
-    "HCLK_IOI_CK_BUFHCLK1",
-    "HCLK_IOI_LEAF_GCLK_TOP5",
     "HCLK_IOI_CK_IGCLK11",
-    "HCLK_IOI_IOCLK1",
-    "HCLK_IOI_LEAF_GCLK_TOP2",
-    "HCLK_IOI_RCLK_IMUX2",
-    "HCLK_IOI_BUFR3_CLR",
-    "HCLK_IOI_RCLK_BEFORE_DIV0",
-    "HCLK_IOI_I2IOCLK_BOT0",
-    "HCLK_IOI_BUFIO_O3",
-    "HCLK_IOI_CK_IGCLK6",
-    "HCLK_IOI_I2IOCLK_TOP0",
-    "HCLK_IOI_RCLK2RCLK3",
-    "HCLK_IOI_IO_PLL_CLK2_DMUX",
     "HCLK_IOI_IO_PLL_CLK1_DMUX",
-    "HCLK_IOI_CK_IGCLK7",
-    "HCLK_RCLK_DIV_CLR2",
-    "HCLK_RCLK_DIV_CLR1",
-    "HCLK_IOI_CK_IN9",
-    "HCLK_IOI_RCLK2IO2",
-    "HCLK_IOI_RCLK_OUT3",
-    "HCLK_IOI_CK_BUFHCLK7",
-    "HCLK_IOI_CK_IGCLK5",
-    "HCLK_IOI_CK_BUFHCLK8",
-    "HCLK_IOI_CK_BUFRCLK1",
-    "HCLK_IOI_RCLK_BEFORE_DIV1",
-    "HCLK_IOI_BUFR0_CE",
-    "HCLK_IOI_BUFR3_CE",
-    "HCLK_IOI_IOCLK_PLL0",
-    "HCLK_IOI_IOCLK_PLL2",
-    "HCLK_IOI_I2IOCLK_BOT1",
-    "HCLK_IOI_CK_IN3",
-    "HCLK_IOI_RCLK0",
-    "HCLK_IOI_IDELAYCTRL_RST",
-    "HCLK_IOI_BUFIO_O1",
-    "HCLK_IOI_IOCLK_PLL3",
-    "HCLK_IOI_CK_IGCLK8",
-    "HCLK_IOI_CK_IGCLK0",
-    "HCLK_IOI_RCLK_IMUX3",
-    "HCLK_IOI_LEAF_GCLK_TOP1",
-    "HCLK_IOI_RCLK2RCLK1",
-    "HCLK_IOI_CK_BUFHCLK4",
-    "HCLK_IOI_LEAF_GCLK_BOT4",
-    "HCLK_IOI_CK_BUFHCLK3",
-    "HCLK_IOI_CK_IGCLK4",
-    "HCLK_IOI_IDELAYCTRL_RDY",
-    "HCLK_IOI_RCLK_OUT2",
-    "HCLK_IOI_CK_BUFHCLK10",
-    "HCLK_IOI_RCLK_BEFORE_DIV3",
-    "HCLK_IOI_CK_IN6",
-    "HCLK_IOI_LEAF_GCLK_BOT5",
-    "HCLK_IOI_IO_PLL_CLK2",
-    "HCLK_IOI_IO_PLL_CLK0_DMUX",
-    "HCLK_IOI_BUFR0_CLR",
-    "HCLK_IOI_IDELAYCTRL_OUTN65",
-    "HCLK_IOI_CK_IN11",
-    "HCLK_IOI_CK_IN4",
-    "HCLK_IOI_RCLK1",
-    "HCLK_IOI_CK_IGCLK10",
-    "HCLK_IOI_CK_IN13",
-    "HCLK_IOI_CK_IN8",
-    "HCLK_IOI_RCLK2IO1",
-    "HCLK_IOI_CK_BUFRCLK2",
-    "HCLK_IOI_CK_BUFHCLK5",
-    "HCLK_IOI_CK_IGCLK1",
-    "HCLK_IOI_RCLK2RCLK2",
-    "HCLK_IOI_CK_IN2",
-    "HCLK_RCLK_DIV_CE2",
-    "HCLK_RCLK_DIV_CE3",
-    "HCLK_IOI_RCLK3",
-    "HCLK_IOI_RCLK2IO3",
-    "HCLK_RCLK_DIV_CE0",
-    "HCLK_IOI_CK_BUFRCLK0",
+    "HCLK_RCLK_DIV_CLR3",
     "HCLK_IOI_IOCLK_PLL1",
+    "HCLK_IOI_CK_IGCLK7",
+    "HCLK_IOI_IO_PLL_CLK3_DMUX",
+    "HCLK_IOI_LEAF_GCLK_BOT4",
+    "HCLK_IOI_RCLK_BEFORE_DIV2",
+    "HCLK_IOI_RCLK_BEFORE_DIV0",
+    "HCLK_IOI_RCLK2RCLK3",
+    "HCLK_IOI_BUFR3_CLR",
+    "HCLK_RCLK_DIV_CLR2",
+    "HCLK_IOI_CK_BUFHCLK10",
+    "HCLK_IOI_LEAF_GCLK_TOP2",
+    "HCLK_IOI_BUFIO_O0",
+    "HCLK_IOI_IDELAYCTRL_RDY",
+    "HCLK_RCLK_DIV_CE0",
+    "HCLK_IOI_RCLK2RCLK1",
+    "HCLK_IOI_BUFR2_CE",
+    "HCLK_IOI_IOCLK_PLL3",
+    "HCLK_IOI_CK_IGCLK10",
+    "HCLK_IOI_LEAF_GCLK_TOP3",
+    "HCLK_IOI_RCLK2",
+    "HCLK_IOI_RCLK2IO3",
+    "HCLK_IOI_CK_BUFRCLK2",
+    "HCLK_IOI_LEAF_GCLK_TOP0",
+    "HCLK_IOI_IO_PLL_CLK0",
+    "HCLK_RCLK_DIV_CLR0",
+    "HCLK_IOI_CK_IN1",
+    "HCLK_IOI_CK_IN12",
+    "HCLK_IOI_CK_IN9",
+    "HCLK_IOI_CK_BUFHCLK5",
+    "HCLK_IOI_IDELAYCTRL_OUTN65",
+    "HCLK_IOI_CK_IGCLK1",
+    "HCLK_IOI_IOCLK_PLL2",
+    "HCLK_IOI_RCLK_OUT0",
+    "HCLK_IOI_IOCLK_PLL0",
+    "HCLK_IOI_CK_BUFHCLK1",
+    "HCLK_IOI_BUFR3_CE",
+    "HCLK_IOI_CK_IN6",
+    "HCLK_IOI_CK_IN3",
+    "HCLK_IOI_IDELAYCTRL_OUTN1",
+    "HCLK_IOI_I2IOCLK_TOP1",
+    "HCLK_IOI_IOCLK0",
+    "HCLK_IOI_CK_IN7",
+    "HCLK_IOI_CK_BUFHCLK6",
+    "HCLK_IOI_BUFR1_CE",
     "HCLK_IOI_RCLK2RCLK0",
-    "HCLK_IOI_RCLK_IMUX1"
+    "HCLK_IOI_BUFR1_CLR",
+    "HCLK_IOI_CK_BUFHCLK0",
+    "HCLK_IOI_BUFR0_CE",
+    "HCLK_IOI_RCLK3",
+    "HCLK_IOI_RCLK_OUT2",
+    "HCLK_IOI_CK_IGCLK6",
+    "HCLK_IOI_LEAF_GCLK_TOP1",
+    "HCLK_IOI_CK_BUFHCLK7",
+    "HCLK_IOI_IOCLK3",
+    "HCLK_IOI_BUFIO_O2",
+    "HCLK_RCLK_DIV_CE1",
+    "HCLK_IOI_I2IOCLK_BOT0",
+    "HCLK_IOI_RCLK_IMUX2",
+    "HCLK_IOI_BUFR2_CLR",
+    "HCLK_IOI_CK_BUFHCLK11",
+    "HCLK_IOI_IOCLK1",
+    "HCLK_IOI_CK_IGCLK3",
+    "HCLK_IOI_IO_PLL_CLK0_DMUX",
+    "HCLK_IOI_IDELAYCTRL_DNPULSEOUT",
+    "HCLK_IOI_CK_IGCLK0",
+    "HCLK_IOI_IO_PLL_CLK3",
+    "HCLK_IOI_CK_BUFRCLK3",
+    "HCLK_IOI_RCLK_IMUX3",
+    "HCLK_IOI_LEAF_GCLK_BOT2",
+    "HCLK_IOI_IDELAYCTRL_UPPULSEOUT",
+    "HCLK_IOI_IO_PLL_CLK2_DMUX",
+    "HCLK_IOI_RCLK2IO1",
+    "HCLK_IOI_I2IOCLK_TOP0",
+    "HCLK_IOI_CK_BUFHCLK4",
+    "HCLK_IOI_IO_PLL_CLK2",
+    "HCLK_IOI_CK_IN4",
+    "HCLK_IOI_RCLK_BEFORE_DIV1",
+    "HCLK_IOI_CK_IGCLK4",
+    "HCLK_IOI_LEAF_GCLK_TOP5",
+    "HCLK_RCLK_DIV_CLR1",
+    "HCLK_IOI_CK_IN0",
+    "HCLK_IOI_IDELAYCTRL_RST",
+    "HCLK_IOI_LEAF_GCLK_BOT5",
+    "HCLK_IOI_RCLK2RCLK2",
+    "HCLK_IOI_BUFIO_O3",
+    "HCLK_IOI_LEAF_GCLK_BOT1",
+    "HCLK_IOI_I2IOCLK_BOT1",
+    "HCLK_IOI_RCLK0",
+    "HCLK_IOI_CK_IGCLK8",
+    "HCLK_IOI_CK_IN5",
+    "HCLK_IOI_CK_IN2",
+    "HCLK_RCLK_DIV_CE3",
+    "HCLK_IOI_CK_IGCLK9",
+    "HCLK_IOI_CK_BUFHCLK2",
+    "HCLK_IOI_LEAF_GCLK_BOT3",
+    "HCLK_IOI_RCLK_IMUX1",
+    "HCLK_IOI_LEAF_GCLK_TOP4",
+    "HCLK_IOI_CK_IN11",
+    "HCLK_IOI_CK_IN8",
+    "HCLK_IOI_RCLK_OUT3",
+    "HCLK_IOI_LEAF_GCLK_BOT0",
+    "HCLK_IOI_RCLK_BEFORE_DIV3",
+    "HCLK_IOI_RCLK2IO2",
+    "HCLK_IOI_RCLK2IO0",
+    "HCLK_RCLK_DIV_CE2",
+    "HCLK_IOI_CK_IGCLK5",
+    "HCLK_IOI_BUFR0_CLR",
+    "HCLK_IOI_CK_IN10",
+    "HCLK_IOI_CK_BUFHCLK3",
+    "HCLK_IOI_CK_BUFRCLK1",
+    "HCLK_IOI_CK_BUFHCLK8",
+    "HCLK_IOI_RCLK1",
+    "HCLK_IOI_RCLK_OUT1",
+    "HCLK_IOI_CK_IGCLK2",
+    "HCLK_IOI_CK_BUFRCLK0",
+    "HCLK_IOI_IDELAYCTRL_REFCLK",
+    "HCLK_IOI_BUFIO_O1",
+    "HCLK_IOI_IO_PLL_CLK1",
+    "HCLK_IOI_IOCLK2",
+    "HCLK_IOI_CK_IN13",
+    "HCLK_IOI_RCLK_IMUX0",
+    "HCLK_IOI_CK_BUFHCLK9"
   ],
+  "tile_type": "HCLK_IOI3",
   "sites": [
     {
-      "prefix": "BUFIO",
-      "y_coord": 7,
-      "type": "BUFIO",
       "site_pins": {
         "I": "HCLK_IOI_IO_PLL_CLK3",
         "O": "HCLK_IOI_BUFIO_O3"
       },
+      "type": "BUFIO",
+      "prefix": "BUFIO",
+      "name": "X0Y7",
       "x_coord": 0,
-      "name": "X0Y7"
+      "y_coord": 7
     },
     {
-      "prefix": "BUFIO",
-      "y_coord": 6,
-      "type": "BUFIO",
       "site_pins": {
         "I": "HCLK_IOI_IO_PLL_CLK2",
         "O": "HCLK_IOI_BUFIO_O2"
       },
+      "type": "BUFIO",
+      "prefix": "BUFIO",
+      "name": "X0Y6",
       "x_coord": 0,
-      "name": "X0Y6"
+      "y_coord": 6
     },
     {
-      "prefix": "BUFIO",
-      "y_coord": 9,
-      "type": "BUFIO",
       "site_pins": {
         "I": "HCLK_IOI_IO_PLL_CLK1",
         "O": "HCLK_IOI_BUFIO_O1"
       },
+      "type": "BUFIO",
+      "prefix": "BUFIO",
+      "name": "X0Y9",
       "x_coord": 0,
-      "name": "X0Y9"
+      "y_coord": 9
     },
     {
-      "prefix": "BUFIO",
-      "y_coord": 8,
-      "type": "BUFIO",
       "site_pins": {
         "I": "HCLK_IOI_IO_PLL_CLK0",
         "O": "HCLK_IOI_BUFIO_O0"
       },
+      "type": "BUFIO",
+      "prefix": "BUFIO",
+      "name": "X0Y8",
       "x_coord": 0,
-      "name": "X0Y8"
+      "y_coord": 8
     },
     {
-      "prefix": "BUFR",
-      "y_coord": 7,
-      "type": "BUFR",
       "site_pins": {
+        "CLR": "HCLK_IOI_BUFR3_CLR",
         "I": "HCLK_IOI_RCLK_BEFORE_DIV3",
-        "O": "HCLK_IOI_RCLK_OUT3",
         "CE": "HCLK_IOI_BUFR3_CE",
-        "CLR": "HCLK_IOI_BUFR3_CLR"
+        "O": "HCLK_IOI_RCLK_OUT3"
       },
+      "type": "BUFR",
+      "prefix": "BUFR",
+      "name": "X0Y7",
       "x_coord": 0,
-      "name": "X0Y7"
+      "y_coord": 7
     },
     {
-      "prefix": "BUFR",
-      "y_coord": 6,
-      "type": "BUFR",
       "site_pins": {
+        "CLR": "HCLK_IOI_BUFR2_CLR",
         "I": "HCLK_IOI_RCLK_BEFORE_DIV2",
-        "O": "HCLK_IOI_RCLK_OUT2",
         "CE": "HCLK_IOI_BUFR2_CE",
-        "CLR": "HCLK_IOI_BUFR2_CLR"
+        "O": "HCLK_IOI_RCLK_OUT2"
       },
+      "type": "BUFR",
+      "prefix": "BUFR",
+      "name": "X0Y6",
       "x_coord": 0,
-      "name": "X0Y6"
+      "y_coord": 6
     },
     {
-      "prefix": "BUFR",
-      "y_coord": 9,
-      "type": "BUFR",
       "site_pins": {
+        "CLR": "HCLK_IOI_BUFR1_CLR",
         "I": "HCLK_IOI_RCLK_BEFORE_DIV1",
-        "O": "HCLK_IOI_RCLK_OUT1",
         "CE": "HCLK_IOI_BUFR1_CE",
-        "CLR": "HCLK_IOI_BUFR1_CLR"
+        "O": "HCLK_IOI_RCLK_OUT1"
       },
-      "x_coord": 0,
-      "name": "X0Y9"
-    },
-    {
-      "prefix": "BUFR",
-      "y_coord": 8,
       "type": "BUFR",
-      "site_pins": {
-        "I": "HCLK_IOI_RCLK_BEFORE_DIV0",
-        "O": "HCLK_IOI_RCLK_OUT0",
-        "CE": "HCLK_IOI_BUFR0_CE",
-        "CLR": "HCLK_IOI_BUFR0_CLR"
-      },
+      "prefix": "BUFR",
+      "name": "X0Y9",
       "x_coord": 0,
-      "name": "X0Y8"
+      "y_coord": 9
     },
     {
-      "prefix": "IDELAYCTRL",
-      "y_coord": 0,
-      "type": "IDELAYCTRL",
       "site_pins": {
-        "UPPULSEOUT": "HCLK_IOI_IDELAYCTRL_UPPULSEOUT",
-        "RDY": "HCLK_IOI_IDELAYCTRL_RDY",
-        "OUTN1": "HCLK_IOI_IDELAYCTRL_OUTN1",
-        "REFCLK": "HCLK_IOI_IDELAYCTRL_REFCLK",
-        "DNPULSEOUT": "HCLK_IOI_IDELAYCTRL_DNPULSEOUT",
-        "OUTN65": "HCLK_IOI_IDELAYCTRL_OUTN65",
-        "RST": "HCLK_IOI_IDELAYCTRL_RST"
+        "CLR": "HCLK_IOI_BUFR0_CLR",
+        "I": "HCLK_IOI_RCLK_BEFORE_DIV0",
+        "CE": "HCLK_IOI_BUFR0_CE",
+        "O": "HCLK_IOI_RCLK_OUT0"
       },
+      "type": "BUFR",
+      "prefix": "BUFR",
+      "name": "X0Y8",
       "x_coord": 0,
-      "name": "X0Y0"
+      "y_coord": 8
+    },
+    {
+      "site_pins": {
+        "OUTN1": "HCLK_IOI_IDELAYCTRL_OUTN1",
+        "RST": "HCLK_IOI_IDELAYCTRL_RST",
+        "DNPULSEOUT": "HCLK_IOI_IDELAYCTRL_DNPULSEOUT",
+        "REFCLK": "HCLK_IOI_IDELAYCTRL_REFCLK",
+        "RDY": "HCLK_IOI_IDELAYCTRL_RDY",
+        "OUTN65": "HCLK_IOI_IDELAYCTRL_OUTN65",
+        "UPPULSEOUT": "HCLK_IOI_IDELAYCTRL_UPPULSEOUT"
+      },
+      "type": "IDELAYCTRL",
+      "prefix": "IDELAYCTRL",
+      "name": "X0Y0",
+      "x_coord": 0,
+      "y_coord": 0
     }
-  ],
-  "pips": {
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_TOP2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_TOP1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_TOP0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK0->>HCLK_IOI_RCLK_BEFORE_DIV3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_TOP5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_BEFORE_DIV0->>HCLK_IOI_RCLK_OUT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_OUT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_BEFORE_DIV0",
-      "is_pseudo": "1"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_BOT5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_IOCLK_PLL0->>HCLK_IOI_IO_PLL_CLK0_DMUX": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IO_PLL_CLK0_DMUX",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_IOCLK_PLL0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_TOP1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_TOP0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_TOP2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK2->>HCLK_IOI_RCLK_BEFORE_DIV0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_BOT4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_TOP2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_TOP0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX3->>HCLK_IOI_RCLK_BEFORE_DIV3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_BOT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_TOP5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_TOP1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_TOP3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_BOT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK2->>HCLK_IOI_RCLK_BEFORE_DIV2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX1->>HCLK_IOI_RCLK_BEFORE_DIV1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_BOT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_TOP3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_TOP4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_TOP1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFRCLK1->>HCLK_IOI_RCLK2IO1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK2IO1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFRCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_BOT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_TOP0->>HCLK_IOI_IDELAYCTRL_REFCLK": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_TOP5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_BOT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_BOT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_BOT5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK6->>HCLK_IOI_CK_IGCLK6": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFHCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_BOT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_I2IOCLK_BOT1->>HCLK_IOI_IO_PLL_CLK3_DMUX": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IO_PLL_CLK3_DMUX",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_I2IOCLK_BOT1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_BOT4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX2->>HCLK_IOI_RCLK_BEFORE_DIV3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_BOT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_BOT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFRCLK3->>HCLK_IOI_RCLK2IO3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK2IO3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFRCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK1_DMUX->>HCLK_IOI_IO_PLL_CLK1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IO_PLL_CLK1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_IO_PLL_CLK1_DMUX",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_BOT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_BOT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_TOP1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_TOP4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK3_DMUX->>HCLK_IOI_RCLK3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_IO_PLL_CLK3_DMUX",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_TOP5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_TOP4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX2->>HCLK_IOI_RCLK_BEFORE_DIV1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_BOT3->>HCLK_IOI_IDELAYCTRL_REFCLK": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_TOP4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_BUFIO_O3->>HCLK_IOI_IOCLK3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IOCLK3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_BUFIO_O3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX0->>HCLK_IOI_RCLK_BEFORE_DIV3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_TOP3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_TOP3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_TOP2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_BOT4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_TOP5->>HCLK_IOI_IDELAYCTRL_REFCLK": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_RCLK_DIV_CE3->HCLK_IOI_BUFR3_CE": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_BUFR3_CE",
-      "is_directional": "1",
-      "src_wire": "HCLK_RCLK_DIV_CE3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_BOT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_TOP5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_BOT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_TOP1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK0->>HCLK_IOI_RCLK_BEFORE_DIV0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK2RCLK0->>HCLK_IOI_CK_BUFRCLK0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_BUFRCLK0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK2RCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK2_DMUX->>HCLK_IOI_IO_PLL_CLK2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IO_PLL_CLK2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_IO_PLL_CLK2_DMUX",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFRCLK2->>HCLK_IOI_RCLK2IO2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK2IO2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFRCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_TOP5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_OUT0->>HCLK_IOI_RCLK2RCLK0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK2RCLK0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_OUT0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_TOP0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK2->>HCLK_IOI_RCLK_BEFORE_DIV3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_BOT5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_BOT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_BOT5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_TOP1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_BOT4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_BEFORE_DIV1->>HCLK_IOI_RCLK_OUT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_OUT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_BEFORE_DIV1",
-      "is_pseudo": "1"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_BOT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_TOP3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX2->>HCLK_IOI_RCLK_BEFORE_DIV2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_OUT1->>HCLK_IOI_RCLK2RCLK1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK2RCLK1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_OUT1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_BOT0->>HCLK_IOI_IDELAYCTRL_REFCLK": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_BUFIO_O0->>HCLK_IOI_IOCLK0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IOCLK0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_BUFIO_O0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_TOP0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_BOT4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_BOT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_TOP1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_TOP5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_TOP4->>HCLK_IOI_IDELAYCTRL_REFCLK": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_TOP1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_BOT4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_BOT5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_TOP4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_BOT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_BOT5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_TOP2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_TOP2->>HCLK_IOI_IDELAYCTRL_REFCLK": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_TOP4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_BOT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK7->>HCLK_IOI_CK_IGCLK7": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFHCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_BOT1->>HCLK_IOI_IDELAYCTRL_REFCLK": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_BOT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_TOP2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_TOP1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_TOP3->>HCLK_IOI_IDELAYCTRL_REFCLK": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK1->>HCLK_IOI_RCLK_BEFORE_DIV3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_BOT4->>HCLK_IOI_IDELAYCTRL_REFCLK": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_TOP4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_BOT5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_TOP4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_BOT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_TOP3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_BOT5->>HCLK_IOI_IDELAYCTRL_REFCLK": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_BOT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_BEFORE_DIV2->>HCLK_IOI_RCLK_OUT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_OUT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_BEFORE_DIV2",
-      "is_pseudo": "1"
-    },
-    "HCLK_IOI3.HCLK_IOI_BUFIO_O1->>HCLK_IOI_IOCLK1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IOCLK1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_BUFIO_O1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_RCLK_DIV_CLR2->HCLK_IOI_BUFR2_CLR": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_BUFR2_CLR",
-      "is_directional": "1",
-      "src_wire": "HCLK_RCLK_DIV_CLR2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_BOT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_BOT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_TOP0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_BOT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_TOP1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX3->>HCLK_IOI_RCLK_BEFORE_DIV2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK2RCLK2->>HCLK_IOI_CK_BUFRCLK2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_BUFRCLK2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK2RCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_OUT3->>HCLK_IOI_RCLK2RCLK3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK2RCLK3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_OUT3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_TOP2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK8->>HCLK_IOI_CK_IGCLK8": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFHCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_BOT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_TOP5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK1->>HCLK_IOI_RCLK_BEFORE_DIV0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_BOT5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_BOT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_OUT2->>HCLK_IOI_RCLK2RCLK2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK2RCLK2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_OUT2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_TOP3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK0->>HCLK_IOI_RCLK_BEFORE_DIV1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_RCLK_DIV_CE1->HCLK_IOI_BUFR1_CE": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_BUFR1_CE",
-      "is_directional": "1",
-      "src_wire": "HCLK_RCLK_DIV_CE1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK3_DMUX->>HCLK_IOI_IO_PLL_CLK3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IO_PLL_CLK3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_IO_PLL_CLK3_DMUX",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK1->>HCLK_IOI_RCLK_BEFORE_DIV2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_TOP3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_TOP3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_BOT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_BOT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK11->>HCLK_IOI_CK_IGCLK11": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFHCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_RCLK_DIV_CLR0->HCLK_IOI_BUFR0_CLR": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_BUFR0_CLR",
-      "is_directional": "1",
-      "src_wire": "HCLK_RCLK_DIV_CLR0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK2RCLK1->>HCLK_IOI_CK_BUFRCLK1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_BUFRCLK1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK2RCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_BOT5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_BOT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_TOP0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK3->>HCLK_IOI_CK_IGCLK3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFHCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_RCLK_DIV_CE0->HCLK_IOI_BUFR0_CE": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_BUFR0_CE",
-      "is_directional": "1",
-      "src_wire": "HCLK_RCLK_DIV_CE0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_TOP2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_TOP5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_IOCLK_PLL3->>HCLK_IOI_IO_PLL_CLK3_DMUX": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IO_PLL_CLK3_DMUX",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_IOCLK_PLL3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX1->>HCLK_IOI_RCLK_BEFORE_DIV2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_BOT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK0_DMUX->>HCLK_IOI_RCLK0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_IO_PLL_CLK0_DMUX",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_TOP0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK0_DMUX->>HCLK_IOI_IO_PLL_CLK0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IO_PLL_CLK0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_IO_PLL_CLK0_DMUX",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_BOT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_BOT4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK2->>HCLK_IOI_RCLK_BEFORE_DIV1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_TOP0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_TOP5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK0->>HCLK_IOI_CK_IGCLK0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFHCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_BEFORE_DIV3->>HCLK_IOI_RCLK_OUT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_OUT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_BEFORE_DIV3",
-      "is_pseudo": "1"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX3->>HCLK_IOI_RCLK_BEFORE_DIV1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX0->>HCLK_IOI_RCLK_BEFORE_DIV1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_BOT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK1->>HCLK_IOI_RCLK_BEFORE_DIV1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_I2IOCLK_BOT0->>HCLK_IOI_IO_PLL_CLK2_DMUX": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IO_PLL_CLK2_DMUX",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_I2IOCLK_BOT0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_BOT2->>HCLK_IOI_IDELAYCTRL_REFCLK": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_TOP0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK1->>HCLK_IOI_CK_IGCLK1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFHCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_BOT4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX2->>HCLK_IOI_RCLK_BEFORE_DIV0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_BOT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK1_DMUX->>HCLK_IOI_RCLK1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_IO_PLL_CLK1_DMUX",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK8->>HCLK_IOI_LEAF_GCLK_BOT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK8",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_BOT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_TOP4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_BOT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_BOT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_TOP3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK0->>HCLK_IOI_RCLK_BEFORE_DIV2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_BOT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_BUFIO_O2->>HCLK_IOI_IOCLK2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IOCLK2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_BUFIO_O2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_BOT5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_TOP4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX0->>HCLK_IOI_RCLK_BEFORE_DIV0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK5->>HCLK_IOI_LEAF_GCLK_BOT4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_BOT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_TOP0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_TOP0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK3->>HCLK_IOI_RCLK_BEFORE_DIV3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK4->>HCLK_IOI_CK_IGCLK4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFHCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK2RCLK3->>HCLK_IOI_CK_BUFRCLK3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_BUFRCLK3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK2RCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_BOT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_BOT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_RCLK_DIV_CLR1->HCLK_IOI_BUFR1_CLR": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_BUFR1_CLR",
-      "is_directional": "1",
-      "src_wire": "HCLK_RCLK_DIV_CLR1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_I2IOCLK_TOP1->>HCLK_IOI_IO_PLL_CLK1_DMUX": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IO_PLL_CLK1_DMUX",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_I2IOCLK_TOP1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK3->>HCLK_IOI_RCLK_BEFORE_DIV0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_LEAF_GCLK_TOP1->>HCLK_IOI_IDELAYCTRL_REFCLK": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IDELAYCTRL_REFCLK",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_TOP4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_TOP2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_TOP4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_TOP1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_I2IOCLK_TOP0->>HCLK_IOI_IO_PLL_CLK0_DMUX": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IO_PLL_CLK0_DMUX",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_I2IOCLK_TOP0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_BOT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_TOP5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_BOT5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_BOT1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK3->>HCLK_IOI_RCLK_BEFORE_DIV1": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV1",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK10->>HCLK_IOI_CK_IGCLK10": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFHCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK0->>HCLK_IOI_LEAF_GCLK_BOT4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_TOP2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK9->>HCLK_IOI_CK_IGCLK9": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFHCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_IO_PLL_CLK2_DMUX->>HCLK_IOI_RCLK2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_IO_PLL_CLK2_DMUX",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK2->>HCLK_IOI_LEAF_GCLK_BOT4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX1->>HCLK_IOI_RCLK_BEFORE_DIV3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK10->>HCLK_IOI_LEAF_GCLK_BOT3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK10",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_RCLK_DIV_CE2->HCLK_IOI_BUFR2_CE": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_BUFR2_CE",
-      "is_directional": "1",
-      "src_wire": "HCLK_RCLK_DIV_CE2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_TOP2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK5->>HCLK_IOI_CK_IGCLK5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_IGCLK5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFHCLK5",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK4->>HCLK_IOI_LEAF_GCLK_BOT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK4",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFHCLK2->>HCLK_IOI_CK_IGCLK2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_CK_IGCLK2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFHCLK2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_TOP3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_BOT2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK11->>HCLK_IOI_LEAF_GCLK_BOT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK11",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_IOCLK_PLL2->>HCLK_IOI_IO_PLL_CLK2_DMUX": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IO_PLL_CLK2_DMUX",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_IOCLK_PLL2",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX1->>HCLK_IOI_RCLK_BEFORE_DIV0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_BUFRCLK0->>HCLK_IOI_RCLK2IO0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK2IO0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_BUFRCLK0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK3->>HCLK_IOI_RCLK_BEFORE_DIV2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_IOCLK_PLL1->>HCLK_IOI_IO_PLL_CLK1_DMUX": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_IO_PLL_CLK1_DMUX",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_IOCLK_PLL1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK3->>HCLK_IOI_LEAF_GCLK_TOP5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK6->>HCLK_IOI_LEAF_GCLK_TOP3": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP3",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK6",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX0->>HCLK_IOI_RCLK_BEFORE_DIV2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX0",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_TOP2": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_TOP2",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK7->>HCLK_IOI_LEAF_GCLK_BOT0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK7",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_RCLK_DIV_CLR3->HCLK_IOI_BUFR3_CLR": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_BUFR3_CLR",
-      "is_directional": "1",
-      "src_wire": "HCLK_RCLK_DIV_CLR3",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK9->>HCLK_IOI_LEAF_GCLK_BOT4": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT4",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK9",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_CK_IGCLK1->>HCLK_IOI_LEAF_GCLK_BOT5": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_LEAF_GCLK_BOT5",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_CK_IGCLK1",
-      "is_pseudo": "0"
-    },
-    "HCLK_IOI3.HCLK_IOI_RCLK_IMUX3->>HCLK_IOI_RCLK_BEFORE_DIV0": {
-      "can_invert": "0",
-      "dst_wire": "HCLK_IOI_RCLK_BEFORE_DIV0",
-      "is_directional": "1",
-      "src_wire": "HCLK_IOI_RCLK_IMUX3",
-      "is_pseudo": "0"
-    }
-  },
-  "tile_type": "HCLK_IOI3"
+  ]
 }

@@ -1,21 +1,21 @@
 {
+  "type": "DNA_PORT",
+  "site_pips": {},
   "site_pins": {
-    "CLK": {
+    "SHIFT": {
       "direction": "IN"
     },
     "READ": {
       "direction": "IN"
     },
-    "DOUT": {
-      "direction": "OUT"
+    "CLK": {
+      "direction": "IN"
     },
     "DIN": {
       "direction": "IN"
     },
-    "SHIFT": {
-      "direction": "IN"
+    "DOUT": {
+      "direction": "OUT"
     }
-  },
-  "type": "DNA_PORT",
-  "site_pips": {}
+  }
 }
