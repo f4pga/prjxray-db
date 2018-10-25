@@ -1,0 +1,112 @@
+{
+  "info": {
+    "GRID_X_MAX": 47,
+    "GRID_X_MIN": 18,
+    "GRID_Y_MAX": 52,
+    "GRID_Y_MIN": 0
+  },
+  "ports": [
+    {
+      "name": "clk",
+      "node": "CLK_HROW_TOP_R_X60Y130/CLK_HROW_CK_BUFHCLK_L0",
+      "pin": "E3",
+      "wire": "HCLK_VBRK_X34Y130/HCLK_VBRK_CK_BUFHCLK0"
+    },
+    {
+      "name": "din[0]",
+      "node": "INT_R_X9Y102/NE2BEG3",
+      "pin": "A8",
+      "wire": "VBRK_X29Y108/VBRK_NE2A3"
+    },
+    {
+      "name": "din[1]",
+      "node": "INT_R_X9Y105/NE2BEG3",
+      "pin": "C11",
+      "wire": "VBRK_X29Y111/VBRK_NE2A3"
+    },
+    {
+      "name": "din[2]",
+      "node": "INT_R_X9Y108/NE2BEG3",
+      "pin": "C10",
+      "wire": "VBRK_X29Y114/VBRK_NE2A3"
+    },
+    {
+      "name": "din[3]",
+      "node": "INT_R_X9Y111/NE2BEG3",
+      "pin": "A10",
+      "wire": "VBRK_X29Y117/VBRK_NE2A3"
+    },
+    {
+      "name": "din[4]",
+      "node": "INT_R_X9Y114/NE2BEG3",
+      "pin": "D9",
+      "wire": "VBRK_X29Y120/VBRK_NE2A3"
+    },
+    {
+      "name": "din[5]",
+      "node": "INT_R_X9Y117/NE2BEG3",
+      "pin": "C9",
+      "wire": "VBRK_X29Y123/VBRK_NE2A3"
+    },
+    {
+      "name": "din[6]",
+      "node": "INT_R_X9Y120/NE2BEG3",
+      "pin": "B9",
+      "wire": "VBRK_X29Y126/VBRK_NE2A3"
+    },
+    {
+      "name": "din[7]",
+      "node": "INT_R_X9Y123/NE2BEG3",
+      "pin": "B8",
+      "wire": "VBRK_X29Y129/VBRK_NE2A3"
+    },
+    {
+      "name": "dout[0]",
+      "node": "INT_R_X17Y125/SE6BEG0",
+      "pin": "H5",
+      "wire": ""
+    },
+    {
+      "name": "dout[1]",
+      "node": "INT_R_X17Y128/SE6BEG0",
+      "pin": "J5",
+      "wire": ""
+    },
+    {
+      "name": "dout[2]",
+      "node": "INT_L_X10Y131/SW6BEG0",
+      "pin": "T9",
+      "wire": "VBRK_X29Y137/VBRK_SW4A0"
+    },
+    {
+      "name": "dout[3]",
+      "node": "INT_L_X10Y134/SW6BEG0",
+      "pin": "T10",
+      "wire": "VBRK_X29Y140/VBRK_SW4A0"
+    },
+    {
+      "name": "dout[4]",
+      "node": "INT_R_X17Y137/SE6BEG0",
+      "pin": "F6",
+      "wire": ""
+    },
+    {
+      "name": "dout[5]",
+      "node": "INT_R_X17Y140/SE6BEG0",
+      "pin": "J4",
+      "wire": ""
+    },
+    {
+      "name": "dout[6]",
+      "node": "INT_R_X17Y143/SE6BEG0",
+      "pin": "J2",
+      "wire": ""
+    },
+    {
+      "name": "dout[7]",
+      "node": "INT_R_X17Y146/SE6BEG0",
+      "pin": "H6",
+      "wire": ""
+    }
+  ]
+}
