@@ -26,7 +26,7 @@ TMPDIR=$(mktemp -d)
 	echo "--------------------------------------------"
 	ssh-add -l
 	ssh -v github.com || true
-	git clone --tags git+ssh://git@github.com/$CURRENT_OWNER/prjxray-db.git --reference $SRCDIR/.git -b gh-pages html
+	git clone git+ssh://git@github.com/$CURRENT_OWNER/prjxray-db.git --reference $SRCDIR/.git -b gh-pages html
 	echo "--------------------------------------------"
 	(
 		cd html
@@ -42,8 +42,6 @@ TMPDIR=$(mktemp -d)
 	cp -a $SRCDIR/html/* html/
 	(
 		cd html
-		# FIXME: Remove once kintex7 is working again
-		git checkout tags/kintex7 kintex7
 		git add --all .
 	)
 	echo "--------------------------------------------"

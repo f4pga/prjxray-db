@@ -58,7 +58,7 @@ fi
 )
 
 # Generate the HTML for each device we have a settings file for.
-for SETTINGS in $(find -name settings.sh | grep -v kintex); do
+for SETTINGS in $(find -name settings.sh); do
 	DEVICE="$(basename $(dirname $SETTINGS))"
 
 	echo
