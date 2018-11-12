@@ -1,89 +1,89 @@
 {
-  "type": "PHASER_REF",
-  "site_pips": {
-    "PWRDWNINV:PWRDWN_B": {
-      "to_pin": "OUT",
-      "from_pin": "PWRDWN_B"
+    "site_pins": {
+        "TESTIN5": {
+            "direction": "IN"
+        },
+        "TESTOUT7": {
+            "direction": "OUT"
+        },
+        "TESTIN0": {
+            "direction": "IN"
+        },
+        "TESTIN3": {
+            "direction": "IN"
+        },
+        "TESTOUT1": {
+            "direction": "OUT"
+        },
+        "TESTOUT3": {
+            "direction": "OUT"
+        },
+        "RST": {
+            "direction": "IN"
+        },
+        "TESTOUT0": {
+            "direction": "OUT"
+        },
+        "CLKOUT": {
+            "direction": "OUT"
+        },
+        "TESTIN1": {
+            "direction": "IN"
+        },
+        "TESTIN2": {
+            "direction": "IN"
+        },
+        "PWRDWN": {
+            "direction": "IN"
+        },
+        "TMUXOUT": {
+            "direction": "OUT"
+        },
+        "TESTIN6": {
+            "direction": "IN"
+        },
+        "TESTOUT2": {
+            "direction": "OUT"
+        },
+        "LOCKED": {
+            "direction": "OUT"
+        },
+        "TESTIN4": {
+            "direction": "IN"
+        },
+        "TESTIN7": {
+            "direction": "IN"
+        },
+        "TESTOUT5": {
+            "direction": "OUT"
+        },
+        "CLKIN": {
+            "direction": "IN"
+        },
+        "TESTOUT6": {
+            "direction": "OUT"
+        },
+        "TESTOUT4": {
+            "direction": "OUT"
+        }
     },
-    "RSTINV:RST": {
-      "to_pin": "OUT",
-      "from_pin": "RST"
+    "site_pips": {
+        "RSTINV:RST_B": {
+            "from_pin": "RST_B",
+            "to_pin": "OUT"
+        },
+        "PWRDWNINV:PWRDWN": {
+            "from_pin": "PWRDWN",
+            "to_pin": "OUT"
+        },
+        "RSTINV:RST": {
+            "from_pin": "RST",
+            "to_pin": "OUT"
+        },
+        "PWRDWNINV:PWRDWN_B": {
+            "from_pin": "PWRDWN_B",
+            "to_pin": "OUT"
+        }
     },
-    "RSTINV:RST_B": {
-      "to_pin": "OUT",
-      "from_pin": "RST_B"
-    },
-    "PWRDWNINV:PWRDWN": {
-      "to_pin": "OUT",
-      "from_pin": "PWRDWN"
-    }
-  },
-  "site_pins": {
-    "TESTOUT3": {
-      "direction": "OUT"
-    },
-    "TMUXOUT": {
-      "direction": "OUT"
-    },
-    "TESTIN4": {
-      "direction": "IN"
-    },
-    "TESTIN0": {
-      "direction": "IN"
-    },
-    "TESTOUT0": {
-      "direction": "OUT"
-    },
-    "TESTOUT1": {
-      "direction": "OUT"
-    },
-    "CLKOUT": {
-      "direction": "OUT"
-    },
-    "TESTOUT2": {
-      "direction": "OUT"
-    },
-    "LOCKED": {
-      "direction": "OUT"
-    },
-    "RST": {
-      "direction": "IN"
-    },
-    "TESTOUT7": {
-      "direction": "OUT"
-    },
-    "TESTOUT4": {
-      "direction": "OUT"
-    },
-    "TESTIN5": {
-      "direction": "IN"
-    },
-    "TESTIN6": {
-      "direction": "IN"
-    },
-    "PWRDWN": {
-      "direction": "IN"
-    },
-    "TESTOUT5": {
-      "direction": "OUT"
-    },
-    "TESTOUT6": {
-      "direction": "OUT"
-    },
-    "TESTIN7": {
-      "direction": "IN"
-    },
-    "TESTIN3": {
-      "direction": "IN"
-    },
-    "TESTIN2": {
-      "direction": "IN"
-    },
-    "CLKIN": {
-      "direction": "IN"
-    },
-    "TESTIN1": {
-      "direction": "IN"
-    }
-  }
+    "type": "PHASER_REF"
 }

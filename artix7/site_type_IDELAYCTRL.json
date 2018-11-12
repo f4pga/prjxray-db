@@ -1,27 +1,27 @@
 {
-  "type": "IDELAYCTRL",
-  "site_pips": {},
-  "site_pins": {
-    "UPPULSEOUT": {
-      "direction": "OUT"
+    "site_pins": {
+        "OUTN1": {
+            "direction": "OUT"
+        },
+        "RST": {
+            "direction": "IN"
+        },
+        "UPPULSEOUT": {
+            "direction": "OUT"
+        },
+        "DNPULSEOUT": {
+            "direction": "OUT"
+        },
+        "OUTN65": {
+            "direction": "OUT"
+        },
+        "REFCLK": {
+            "direction": "IN"
+        },
+        "RDY": {
+            "direction": "OUT"
+        }
     },
-    "RST": {
-      "direction": "IN"
-    },
-    "REFCLK": {
-      "direction": "IN"
-    },
-    "DNPULSEOUT": {
-      "direction": "OUT"
-    },
-    "RDY": {
-      "direction": "OUT"
-    },
-    "OUTN1": {
-      "direction": "OUT"
-    },
-    "OUTN65": {
-      "direction": "OUT"
-    }
-  }
+    "site_pips": {},
+    "type": "IDELAYCTRL"
 }

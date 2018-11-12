@@ -1,45 +1,45 @@
 {
-  "type": "STARTUP",
-  "site_pips": {},
-  "site_pins": {
-    "GTS": {
-      "direction": "IN"
+    "site_pins": {
+        "USRDONEO": {
+            "direction": "IN"
+        },
+        "CFGCLK": {
+            "direction": "OUT"
+        },
+        "GTS": {
+            "direction": "IN"
+        },
+        "PREQ": {
+            "direction": "OUT"
+        },
+        "CFGMCLK": {
+            "direction": "OUT"
+        },
+        "CLK": {
+            "direction": "IN"
+        },
+        "PACK": {
+            "direction": "IN"
+        },
+        "GSR": {
+            "direction": "IN"
+        },
+        "KEYCLEARB": {
+            "direction": "IN"
+        },
+        "USRCCLKO": {
+            "direction": "IN"
+        },
+        "USRDONETS": {
+            "direction": "IN"
+        },
+        "USRCCLKTS": {
+            "direction": "IN"
+        },
+        "EOS": {
+            "direction": "OUT"
+        }
     },
-    "USRCCLKO": {
-      "direction": "IN"
-    },
-    "CFGCLK": {
-      "direction": "OUT"
-    },
-    "USRCCLKTS": {
-      "direction": "IN"
-    },
-    "USRDONETS": {
-      "direction": "IN"
-    },
-    "PREQ": {
-      "direction": "OUT"
-    },
-    "CLK": {
-      "direction": "IN"
-    },
-    "PACK": {
-      "direction": "IN"
-    },
-    "EOS": {
-      "direction": "OUT"
-    },
-    "CFGMCLK": {
-      "direction": "OUT"
-    },
-    "GSR": {
-      "direction": "IN"
-    },
-    "KEYCLEARB": {
-      "direction": "IN"
-    },
-    "USRDONEO": {
-      "direction": "IN"
-    }
-  }
+    "site_pips": {},
+    "type": "STARTUP"
 }

@@ -1,908 +1,908 @@
 {
-  "pips": {
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R0->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R7->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R5->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R2->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R7->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R1->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R4->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R7->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R2->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R0->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R2->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R4->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R1->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R4->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R0->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R6->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R4->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R2->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_CK_INOUT_R3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_CK_INOUT_R3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R4->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R6->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R3->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R1->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R1->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_CK_INOUT_R1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_CK_INOUT_R1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R5->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_CK_INOUT_R4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_CK_INOUT_R4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R5->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R0->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_CK_INOUT_R2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_CK_INOUT_R2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R3->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R5->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R0->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R3->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R2->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R5->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_CK_INOUT_R7": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_CK_INOUT_R7"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R6->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R6->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R5->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R1->>HCLK_LEAF_CLK_B_TOP3": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R1->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_CK_INOUT_R5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_CK_INOUT_R5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R7->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R7->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R3->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R2->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_CK_INOUT_R6": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_CK_INOUT_R6"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R0->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_CK_INOUT_R0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_CK_INOUT_R0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R3->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R4->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R4",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R6->>HCLK_LEAF_CLK_B_TOP4": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R7->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R6->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R6",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK5",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_LEAF_CLK_B_TOP5": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK2",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK7",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_LEAF_CLK_B_TOP1": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK1",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_LEAF_CLK_B_TOP0": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R3->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_OUTIN_R3",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    },
-    "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_LEAF_CLK_B_TOP2": {
-      "can_invert": "0",
-      "src_wire": "HCLK_CK_BUFHCLK0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
-    }
-  },
-  "wires": [
-    "B_TERM_UTURN_INT_SW6C0",
-    "B_TERM_UTURN_INT_LVB5",
-    "B_TERM_UTURN_INT_SE6D3",
-    "B_TERM_UTURN_INT_LV4",
-    "B_TERM_UTURN_INT_SS2BEG3",
-    "HCLK_INT_PERFCLK1",
-    "HCLK_CK_INOUT_R2",
-    "B_TERM_UTURN_INT_SE2BEG0",
-    "B_TERM_UTURN_INT_SS6B1",
-    "B_TERM_UTURN_INT_LV_L5",
-    "B_TERM_UTURN_INT_SE6D1",
-    "HCLK_CK_IN3",
-    "HCLK_CK_OUTIN_R6",
-    "B_TERM_UTURN_INT_LV2",
-    "B_TERM_UTURN_INT_LVB1",
-    "B_TERM_UTURN_INT_SS6BEG3",
-    "B_TERM_UTURN_INT_SL1BEG1",
-    "B_TERM_UTURN_INT_SL1BEG2",
-    "HCLK_CCIO0",
-    "B_TERM_UTURN_INT_SS6BEG1",
-    "HCLK_CK_INOUT_R4",
-    "B_TERM_UTURN_INT_LVB2",
-    "HCLK_INT_PERFCLK0",
-    "B_TERM_UTURN_INT_SE6A2",
-    "B_TERM_UTURN_INT_SS6D3",
-    "HCLK_CK_BUFHCLK3",
-    "HCLK_CK_BUFHCLK9",
-    "HCLK_CCIO3",
-    "B_TERM_UTURN_INT_SS6BEG0",
-    "B_TERM_UTURN_INT_LV9",
-    "HCLK_LEAF_CLK_B_TOP0",
-    "HCLK_LEAF_CLK_B_TOP2",
-    "B_TERM_UTURN_INT_SE2BEG2",
-    "B_TERM_UTURN_INT_LV_L2",
-    "B_TERM_UTURN_INT_SE6B2",
-    "B_TERM_UTURN_INT_LV7",
-    "HCLK_CK_INOUT_R7",
-    "HCLK_LEAF_CLK_B_TOP4",
-    "B_TERM_UTURN_INT_SS6D2",
-    "B_TERM_UTURN_INT_SW6C2",
-    "HCLK_CK_IN13",
-    "B_TERM_UTURN_INT_SS6B3",
-    "B_TERM_UTURN_INT_SS2A1",
-    "B_TERM_UTURN_INT_SE2BEG1",
-    "HCLK_CK_OUTIN_R4",
-    "HCLK_CK_IN6",
-    "HCLK_CK_BUFHCLK4",
-    "HCLK_CK_BUFHCLK8",
-    "B_TERM_UTURN_INT_SS6A2",
-    "HCLK_CK_IN5",
-    "HCLK_CK_IN0",
-    "B_TERM_UTURN_INT_SE6A0",
-    "HCLK_CK_INOUT_R5",
-    "HCLK_INT_PERFCLK3",
-    "HCLK_CK_BUFHCLK1",
-    "B_TERM_UTURN_INT_LV6",
-    "B_TERM_UTURN_INT_LV_L6",
-    "HCLK_CK_BUFHCLK10",
-    "B_TERM_UTURN_INT_SS2A2",
-    "B_TERM_UTURN_INT_WR1BEG0",
-    "B_TERM_UTURN_INT_SE6B0",
-    "HCLK_CK_OUTIN_R7",
-    "B_TERM_UTURN_INT_SL1BEG0",
-    "B_TERM_UTURN_INT_SW6A3",
-    "HCLK_CK_BUFHCLK11",
-    "B_TERM_UTURN_INT_LVB0",
-    "B_TERM_UTURN_INT_SE6C0",
-    "HCLK_INT_PERFCLK2",
-    "B_TERM_UTURN_INT_LV_L9",
-    "B_TERM_UTURN_INT_SW6B2",
-    "HCLK_CK_OUTIN_R3",
-    "B_TERM_UTURN_INT_LVB3",
-    "B_TERM_UTURN_INT_SW2BEG0",
-    "B_TERM_UTURN_INT_SW6A1",
-    "B_TERM_UTURN_INT_SE6D2",
-    "B_TERM_UTURN_INT_LV_L3",
-    "B_TERM_UTURN_INT_SR1BEG3",
-    "HCLK_CCIO1",
-    "B_TERM_UTURN_INT_FAN_BOUNCE6",
-    "B_TERM_UTURN_INT_SW6END_N0_3",
-    "B_TERM_UTURN_INT_SE6B1",
-    "B_TERM_UTURN_INT_LV5",
-    "B_TERM_UTURN_INT_SE2BEG3",
-    "B_TERM_UTURN_INT_SR1BEG2",
-    "B_TERM_UTURN_INT_FAN_BOUNCE2",
-    "HCLK_CK_INOUT_R1",
-    "B_TERM_UTURN_INT_SW6A2",
-    "HCLK_CK_BUFRCLK2",
-    "B_TERM_UTURN_INT_SS2BEG2",
-    "HCLK_LEAF_CLK_B_TOP3",
-    "HCLK_CK_BUFHCLK0",
-    "HCLK_CK_IN2",
-    "B_TERM_UTURN_INT_SS6D0",
-    "HCLK_CK_OUTIN_R0",
-    "HCLK_LEAF_CLK_B_TOP1",
-    "HCLK_CK_IN4",
-    "B_TERM_UTURN_INT_SE6A1",
-    "B_TERM_UTURN_INT_SS6A0",
-    "B_TERM_UTURN_INT_SS2BEG1",
-    "B_TERM_UTURN_INT_SE6C3",
-    "HCLK_CK_BUFHCLK5",
-    "B_TERM_UTURN_INT_SS6C2",
-    "B_TERM_UTURN_INT_FAN_BOUNCE4",
-    "B_TERM_UTURN_INT_SS6A3",
-    "B_TERM_UTURN_INT_SW6D2",
-    "HCLK_CK_IN8",
-    "B_TERM_UTURN_INT_SS6E3",
-    "HCLK_CK_BUFHCLK7",
-    "B_TERM_UTURN_INT_SW2BEG2",
-    "HCLK_CK_IN1",
-    "B_TERM_UTURN_INT_LV_L8",
-    "B_TERM_UTURN_INT_SW2BEG1",
-    "B_TERM_UTURN_INT_SW6B1",
-    "B_TERM_UTURN_INT_SW6B3",
-    "B_TERM_UTURN_INT_LVB4",
-    "B_TERM_UTURN_INT_SR1BEG1",
-    "B_TERM_UTURN_INT_SE6C2",
-    "B_TERM_UTURN_INT_SS2BEG0",
-    "B_TERM_UTURN_INT_SW2BEG3",
-    "HCLK_CK_BUFRCLK0",
-    "B_TERM_UTURN_INT_WR1END0",
-    "B_TERM_UTURN_INT_LV_L7",
-    "B_TERM_UTURN_INT_SW6D1",
-    "HCLK_CK_BUFRCLK1",
-    "B_TERM_UTURN_INT_SE6C1",
-    "B_TERM_UTURN_INT_LV18",
-    "B_TERM_UTURN_INT_SW6D3",
-    "B_TERM_UTURN_INT_SL1BEG3",
-    "HCLK_CK_OUTIN_R1",
-    "B_TERM_UTURN_INT_SS6E1",
-    "B_TERM_UTURN_INT_SW6C3",
-    "HCLK_CK_BUFHCLK6",
-    "HCLK_CK_INOUT_R3",
-    "B_TERM_UTURN_INT_SS6E0",
-    "B_TERM_UTURN_INT_SS2A3",
-    "HCLK_LEAF_CLK_B_TOP5",
-    "B_TERM_UTURN_INT_ER1BEG0",
-    "HCLK_CK_IN11",
-    "B_TERM_UTURN_INT_ER1END_N3_3",
-    "HCLK_CK_IN10",
-    "HCLK_CCIO2",
-    "B_TERM_UTURN_INT_SE6B3",
-    "B_TERM_UTURN_INT_SS6B2",
-    "HCLK_CK_IN7",
-    "B_TERM_UTURN_INT_SW6B0",
-    "HCLK_CK_INOUT_R6",
-    "B_TERM_UTURN_INT_SW6A0",
-    "B_TERM_UTURN_INT_LV3",
-    "B_TERM_UTURN_INT_SS6C3",
-    "B_TERM_UTURN_INT_SE6A3",
-    "B_TERM_UTURN_INT_LV8",
-    "HCLK_CK_IN9",
-    "HCLK_CK_OUTIN_R2",
-    "HCLK_CK_BUFHCLK2",
-    "B_TERM_UTURN_INT_SS6C1",
-    "B_TERM_UTURN_INT_SS6B0",
-    "B_TERM_UTURN_INT_SS6C0",
-    "HCLK_CK_BUFRCLK3",
-    "B_TERM_UTURN_INT_SW6C1",
-    "B_TERM_UTURN_INT_SS6D1",
-    "B_TERM_UTURN_INT_LV_L4",
-    "B_TERM_UTURN_INT_SS2A0",
-    "B_TERM_UTURN_INT_SS6A1",
-    "HCLK_CK_INOUT_R0",
-    "B_TERM_UTURN_INT_SS6E2",
-    "B_TERM_UTURN_INT_SW6D0",
-    "B_TERM_UTURN_INT_SS6BEG2",
-    "B_TERM_UTURN_INT_LV_L18",
-    "B_TERM_UTURN_INT_SE6D0",
-    "B_TERM_UTURN_INT_FAN_BOUNCE0",
-    "HCLK_CK_OUTIN_R5",
-    "HCLK_CK_IN12"
-  ],
-  "tile_type": "HCLK_R_BOT_UTURN",
-  "sites": []
+    "wires": [
+        "HCLK_CK_IN5",
+        "B_TERM_UTURN_INT_SW6C0",
+        "B_TERM_UTURN_INT_SS2A1",
+        "B_TERM_UTURN_INT_LV3",
+        "HCLK_CK_IN2",
+        "HCLK_INT_PERFCLK0",
+        "B_TERM_UTURN_INT_SE6A1",
+        "HCLK_CK_BUFRCLK1",
+        "HCLK_CK_IN1",
+        "HCLK_CK_BUFHCLK10",
+        "HCLK_LEAF_CLK_B_TOP2",
+        "HCLK_LEAF_CLK_B_TOP0",
+        "B_TERM_UTURN_INT_SS6D0",
+        "HCLK_CK_OUTIN_R7",
+        "B_TERM_UTURN_INT_SS6B3",
+        "HCLK_CK_OUTIN_R1",
+        "B_TERM_UTURN_INT_LVB3",
+        "HCLK_CCIO0",
+        "B_TERM_UTURN_INT_SS6BEG1",
+        "B_TERM_UTURN_INT_SS6E2",
+        "B_TERM_UTURN_INT_LV_L5",
+        "B_TERM_UTURN_INT_SE6D3",
+        "HCLK_CK_BUFHCLK4",
+        "HCLK_CK_OUTIN_R4",
+        "B_TERM_UTURN_INT_LV_L2",
+        "HCLK_CK_BUFRCLK0",
+        "B_TERM_UTURN_INT_SE6C0",
+        "HCLK_INT_PERFCLK2",
+        "B_TERM_UTURN_INT_LV5",
+        "HCLK_CK_BUFHCLK11",
+        "B_TERM_UTURN_INT_LV9",
+        "B_TERM_UTURN_INT_SE6B3",
+        "HCLK_CK_IN8",
+        "HCLK_CK_INOUT_R0",
+        "HCLK_CK_BUFHCLK9",
+        "B_TERM_UTURN_INT_LV2",
+        "B_TERM_UTURN_INT_LVB1",
+        "B_TERM_UTURN_INT_ER1BEG0",
+        "B_TERM_UTURN_INT_SS2BEG1",
+        "B_TERM_UTURN_INT_SW2BEG2",
+        "B_TERM_UTURN_INT_SS6BEG2",
+        "HCLK_CK_IN3",
+        "HCLK_LEAF_CLK_B_TOP5",
+        "HCLK_CK_OUTIN_R0",
+        "B_TERM_UTURN_INT_SW6END_N0_3",
+        "B_TERM_UTURN_INT_FAN_BOUNCE0",
+        "B_TERM_UTURN_INT_LV7",
+        "HCLK_CK_BUFHCLK0",
+        "HCLK_CCIO3",
+        "B_TERM_UTURN_INT_SS6B2",
+        "B_TERM_UTURN_INT_SS6E3",
+        "B_TERM_UTURN_INT_SW6C1",
+        "B_TERM_UTURN_INT_LVB4",
+        "B_TERM_UTURN_INT_SE6C2",
+        "B_TERM_UTURN_INT_SS2BEG3",
+        "B_TERM_UTURN_INT_SS6A2",
+        "HCLK_CK_IN11",
+        "B_TERM_UTURN_INT_SW6D2",
+        "B_TERM_UTURN_INT_SL1BEG1",
+        "HCLK_CK_IN12",
+        "HCLK_CK_OUTIN_R6",
+        "B_TERM_UTURN_INT_LV_L3",
+        "HCLK_CK_INOUT_R4",
+        "B_TERM_UTURN_INT_SS2BEG2",
+        "B_TERM_UTURN_INT_LVB2",
+        "B_TERM_UTURN_INT_SR1BEG1",
+        "B_TERM_UTURN_INT_ER1END_N3_3",
+        "B_TERM_UTURN_INT_SW6A1",
+        "B_TERM_UTURN_INT_SS6A3",
+        "B_TERM_UTURN_INT_SL1BEG0",
+        "B_TERM_UTURN_INT_SS6B1",
+        "HCLK_CK_IN0",
+        "B_TERM_UTURN_INT_SE2BEG2",
+        "HCLK_CK_BUFHCLK5",
+        "B_TERM_UTURN_INT_LV_L9",
+        "B_TERM_UTURN_INT_LV_L6",
+        "B_TERM_UTURN_INT_SS6BEG3",
+        "B_TERM_UTURN_INT_SL1BEG3",
+        "HCLK_LEAF_CLK_B_TOP1",
+        "B_TERM_UTURN_INT_LVB5",
+        "B_TERM_UTURN_INT_SR1BEG2",
+        "HCLK_INT_PERFCLK3",
+        "HCLK_LEAF_CLK_B_TOP4",
+        "HCLK_CK_BUFHCLK8",
+        "B_TERM_UTURN_INT_SS6D1",
+        "B_TERM_UTURN_INT_SS2A3",
+        "B_TERM_UTURN_INT_LVB0",
+        "B_TERM_UTURN_INT_LV_L4",
+        "HCLK_CK_BUFHCLK3",
+        "B_TERM_UTURN_INT_FAN_BOUNCE4",
+        "B_TERM_UTURN_INT_SW6C3",
+        "HCLK_CK_INOUT_R2",
+        "B_TERM_UTURN_INT_SS6C3",
+        "B_TERM_UTURN_INT_LV6",
+        "B_TERM_UTURN_INT_SS6BEG0",
+        "HCLK_CK_INOUT_R5",
+        "B_TERM_UTURN_INT_LV_L7",
+        "B_TERM_UTURN_INT_SW6B0",
+        "HCLK_CK_INOUT_R7",
+        "B_TERM_UTURN_INT_SS6D3",
+        "HCLK_CK_BUFRCLK2",
+        "B_TERM_UTURN_INT_FAN_BOUNCE2",
+        "B_TERM_UTURN_INT_SS6D2",
+        "HCLK_CCIO1",
+        "B_TERM_UTURN_INT_SW6D3",
+        "B_TERM_UTURN_INT_SL1BEG2",
+        "B_TERM_UTURN_INT_SW6D1",
+        "B_TERM_UTURN_INT_SS6C1",
+        "HCLK_LEAF_CLK_B_TOP3",
+        "HCLK_CK_IN7",
+        "B_TERM_UTURN_INT_SS6E0",
+        "HCLK_CK_BUFHCLK7",
+        "B_TERM_UTURN_INT_SW2BEG1",
+        "B_TERM_UTURN_INT_SS2A2",
+        "HCLK_CK_BUFHCLK2",
+        "B_TERM_UTURN_INT_SW6A0",
+        "HCLK_CK_IN6",
+        "B_TERM_UTURN_INT_SE2BEG0",
+        "B_TERM_UTURN_INT_LV4",
+        "B_TERM_UTURN_INT_SW6A2",
+        "B_TERM_UTURN_INT_SS6A0",
+        "B_TERM_UTURN_INT_SE6C3",
+        "HCLK_CK_OUTIN_R3",
+        "B_TERM_UTURN_INT_SE6D2",
+        "B_TERM_UTURN_INT_FAN_BOUNCE6",
+        "HCLK_CK_IN10",
+        "B_TERM_UTURN_INT_LV_L18",
+        "B_TERM_UTURN_INT_LV18",
+        "B_TERM_UTURN_INT_SR1BEG3",
+        "B_TERM_UTURN_INT_SS6C0",
+        "B_TERM_UTURN_INT_SE6D1",
+        "HCLK_CK_BUFHCLK6",
+        "B_TERM_UTURN_INT_SE6B1",
+        "HCLK_CK_OUTIN_R5",
+        "B_TERM_UTURN_INT_SE6A2",
+        "B_TERM_UTURN_INT_SS2BEG0",
+        "B_TERM_UTURN_INT_SW6B1",
+        "HCLK_CK_IN9",
+        "B_TERM_UTURN_INT_SE6B2",
+        "B_TERM_UTURN_INT_SE2BEG3",
+        "B_TERM_UTURN_INT_WR1END0",
+        "B_TERM_UTURN_INT_SW6B2",
+        "B_TERM_UTURN_INT_SE6B0",
+        "HCLK_CCIO2",
+        "B_TERM_UTURN_INT_SS6C2",
+        "B_TERM_UTURN_INT_SW2BEG3",
+        "HCLK_CK_BUFHCLK1",
+        "B_TERM_UTURN_INT_SE2BEG1",
+        "B_TERM_UTURN_INT_SE6A3",
+        "B_TERM_UTURN_INT_SE6D0",
+        "B_TERM_UTURN_INT_SS6A1",
+        "HCLK_CK_INOUT_R1",
+        "HCLK_CK_IN13",
+        "HCLK_CK_INOUT_R6",
+        "HCLK_CK_OUTIN_R2",
+        "B_TERM_UTURN_INT_LV8",
+        "B_TERM_UTURN_INT_WR1BEG0",
+        "B_TERM_UTURN_INT_SW2BEG0",
+        "B_TERM_UTURN_INT_SW6A3",
+        "HCLK_CK_BUFRCLK3",
+        "HCLK_CK_INOUT_R3",
+        "B_TERM_UTURN_INT_SE6C1",
+        "B_TERM_UTURN_INT_LV_L8",
+        "B_TERM_UTURN_INT_SS6B0",
+        "B_TERM_UTURN_INT_SW6B3",
+        "HCLK_CK_IN4",
+        "HCLK_INT_PERFCLK1",
+        "B_TERM_UTURN_INT_SW6C2",
+        "B_TERM_UTURN_INT_SW6D0",
+        "B_TERM_UTURN_INT_SS2A0",
+        "B_TERM_UTURN_INT_SS6E1",
+        "B_TERM_UTURN_INT_SE6A0"
+    ],
+    "pips": {
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R0->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_OUTIN_R0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_BUFHCLK7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_BUFHCLK3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_CK_INOUT_R3": {
+            "src_wire": "HCLK_CK_BUFHCLK3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_CK_INOUT_R3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_CK_INOUT_R7": {
+            "src_wire": "HCLK_CK_BUFHCLK7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_CK_INOUT_R7"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R4->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_OUTIN_R4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R1->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_OUTIN_R1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R5->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_OUTIN_R5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_BUFHCLK4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_BUFHCLK6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R2->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_OUTIN_R2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_BUFHCLK7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R2->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_OUTIN_R2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_CK_INOUT_R6": {
+            "src_wire": "HCLK_CK_BUFHCLK6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_CK_INOUT_R6"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R6->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_OUTIN_R6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R4->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_OUTIN_R4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_BUFHCLK7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_BUFHCLK1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R4->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_OUTIN_R4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R5->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_OUTIN_R5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R3->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_OUTIN_R3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_CK_INOUT_R2": {
+            "src_wire": "HCLK_CK_BUFHCLK2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_CK_INOUT_R2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_BUFHCLK5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R3->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_OUTIN_R3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_BUFHCLK0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_BUFHCLK4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R0->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_OUTIN_R0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R6->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_OUTIN_R6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R0->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_OUTIN_R0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R6->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_OUTIN_R6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_BUFHCLK3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_BUFHCLK2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_BUFHCLK5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R1->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_OUTIN_R1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_BUFHCLK1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_BUFHCLK4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R2->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_OUTIN_R2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R5->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_OUTIN_R5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R5->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_OUTIN_R5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R2->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_OUTIN_R2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R1->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_OUTIN_R1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_BUFHCLK1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R1->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_OUTIN_R1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_BUFHCLK6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R0->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_OUTIN_R0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_BUFHCLK1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_BUFHCLK0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_CK_INOUT_R1": {
+            "src_wire": "HCLK_CK_BUFHCLK1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_CK_INOUT_R1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R3->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_OUTIN_R3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_BUFHCLK0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_BUFHCLK0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_BUFHCLK3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R2->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_OUTIN_R2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_BUFHCLK2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_BUFHCLK4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R3->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_OUTIN_R3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_BUFHCLK6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R1->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_OUTIN_R1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R5->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_OUTIN_R5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_BUFHCLK7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_BUFHCLK5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R7->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_OUTIN_R7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R5->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_OUTIN_R5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_BUFHCLK7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R6->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_OUTIN_R6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_BUFHCLK2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R4->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_OUTIN_R4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R4->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_OUTIN_R4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_BUFHCLK6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_BUFHCLK3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_BUFHCLK2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_BUFHCLK2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK2->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_BUFHCLK2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R7->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_OUTIN_R7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_BUFHCLK3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R1->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_OUTIN_R1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_BUFHCLK0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R7->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_OUTIN_R7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_BUFHCLK5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R3->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_OUTIN_R3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_BUFHCLK1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_BUFHCLK6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_BUFHCLK4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R3->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_OUTIN_R3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_BUFHCLK0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R7->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_OUTIN_R7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_CK_INOUT_R4": {
+            "src_wire": "HCLK_CK_BUFHCLK4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_CK_INOUT_R4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R7->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_OUTIN_R7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R2->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_OUTIN_R2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R6->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_OUTIN_R6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK0->>HCLK_CK_INOUT_R0": {
+            "src_wire": "HCLK_CK_BUFHCLK0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_CK_INOUT_R0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK7->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_BUFHCLK7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_BUFHCLK5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R4->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_OUTIN_R4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R0->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_OUTIN_R0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R0->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_OUTIN_R0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK1->>HCLK_LEAF_CLK_B_TOP0": {
+            "src_wire": "HCLK_CK_BUFHCLK1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP0"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK3->>HCLK_LEAF_CLK_B_TOP4": {
+            "src_wire": "HCLK_CK_BUFHCLK3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP4"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R6->>HCLK_LEAF_CLK_B_TOP1": {
+            "src_wire": "HCLK_CK_OUTIN_R6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP1"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK4->>HCLK_LEAF_CLK_B_TOP2": {
+            "src_wire": "HCLK_CK_BUFHCLK4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP2"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_LEAF_CLK_B_TOP5": {
+            "src_wire": "HCLK_CK_BUFHCLK5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP5"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_OUTIN_R7->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_OUTIN_R7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK6->>HCLK_LEAF_CLK_B_TOP3": {
+            "src_wire": "HCLK_CK_BUFHCLK6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_LEAF_CLK_B_TOP3"
+        },
+        "HCLK_R_BOT_UTURN.HCLK_CK_BUFHCLK5->>HCLK_CK_INOUT_R5": {
+            "src_wire": "HCLK_CK_BUFHCLK5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "HCLK_CK_INOUT_R5"
+        }
+    },
+    "tile_type": "HCLK_R_BOT_UTURN",
+    "sites": []
 }

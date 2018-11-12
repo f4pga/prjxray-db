@@ -1,1526 +1,1526 @@
 {
-  "pips": {
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX12->>GTPE2_INT_INTERFACE_IMUX_DELAY12": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX12",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY12"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX41->>GTPE2_INT_INTERFACE_IMUX_DELAY41": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX41",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY41"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX11->>GTPE2_INT_INTERFACE_IMUX_DELAY11": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX11",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY11"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX33->>GTPE2_INT_INTERFACE_IMUX_OUT33": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX33",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT33"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX13->>GTPE2_INT_INTERFACE_IMUX_OUT13": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX13",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT13"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX37->>GTPE2_INT_INTERFACE_IMUX_DELAY37": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX37",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY37"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX5->>GTPE2_INT_INTERFACE_IMUX_DELAY5": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX5",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY5"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX2->>GTPE2_INT_INTERFACE_IMUX_OUT2": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX2",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT2"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX33->>GTPE2_INT_INTERFACE_IMUX_DELAY33": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX33",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY33"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX36->>GTPE2_INT_INTERFACE_IMUX_DELAY36": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX36",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY36"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B16->>INT_INTERFACE_LOGIC_OUTS16": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B16",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS16"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX15->>GTPE2_INT_INTERFACE_IMUX_DELAY15": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX15",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY15"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX7->>GTPE2_INT_INTERFACE_IMUX_DELAY7": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX7",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY7"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX17->>GTPE2_INT_INTERFACE_IMUX_DELAY17": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX17",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY17"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX14->>GTPE2_INT_INTERFACE_IMUX_OUT14": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX14",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT14"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY17->>GTPE2_INT_INTERFACE_IMUX_OUT17": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY17",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT17"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX37->>GTPE2_INT_INTERFACE_IMUX_OUT37": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX37",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT37"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY30->>GTPE2_INT_INTERFACE_IMUX_OUT30": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY30",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT30"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX46->>GTPE2_INT_INTERFACE_IMUX_DELAY46": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX46",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY46"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX32->>GTPE2_INT_INTERFACE_IMUX_DELAY32": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX32",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY32"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX4->>GTPE2_INT_INTERFACE_IMUX_OUT4": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX4",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT4"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY34->>GTPE2_INT_INTERFACE_IMUX_OUT34": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY34",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT34"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY4->>GTPE2_INT_INTERFACE_IMUX_OUT4": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY4",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT4"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX26->>GTPE2_INT_INTERFACE_IMUX_OUT26": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX26",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT26"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY35->>GTPE2_INT_INTERFACE_IMUX_OUT35": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY35",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT35"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX19->>GTPE2_INT_INTERFACE_IMUX_OUT19": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX19",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT19"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX32->>GTPE2_INT_INTERFACE_IMUX_OUT32": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX32",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT32"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX30->>GTPE2_INT_INTERFACE_IMUX_DELAY30": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX30",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY30"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX25->>GTPE2_INT_INTERFACE_IMUX_OUT25": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX25",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT25"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX36->>GTPE2_INT_INTERFACE_IMUX_OUT36": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX36",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT36"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX44->>GTPE2_INT_INTERFACE_IMUX_DELAY44": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX44",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY44"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX41->>GTPE2_INT_INTERFACE_IMUX_OUT41": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX41",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT41"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY36->>GTPE2_INT_INTERFACE_IMUX_OUT36": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY36",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT36"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY32->>GTPE2_INT_INTERFACE_IMUX_OUT32": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY32",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT32"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX42->>GTPE2_INT_INTERFACE_IMUX_DELAY42": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX42",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY42"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B14->>INT_INTERFACE_LOGIC_OUTS14": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B14",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS14"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX43->>GTPE2_INT_INTERFACE_IMUX_DELAY43": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX43",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY43"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY19->>GTPE2_INT_INTERFACE_IMUX_OUT19": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY19",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT19"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX13->>GTPE2_INT_INTERFACE_IMUX_DELAY13": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX13",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY13"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX1->>GTPE2_INT_INTERFACE_IMUX_OUT1": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX1",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT1"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B23->>INT_INTERFACE_LOGIC_OUTS23": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B23",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS23"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B12->>INT_INTERFACE_LOGIC_OUTS12": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B12",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS12"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX16->>GTPE2_INT_INTERFACE_IMUX_DELAY16": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX16",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY16"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B5->>INT_INTERFACE_LOGIC_OUTS5": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B5",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS5"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX28->>GTPE2_INT_INTERFACE_IMUX_DELAY28": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX28",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY28"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX39->>GTPE2_INT_INTERFACE_IMUX_OUT39": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX39",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT39"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX38->>GTPE2_INT_INTERFACE_IMUX_OUT38": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX38",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT38"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B20->>INT_INTERFACE_LOGIC_OUTS20": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B20",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS20"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX6->>GTPE2_INT_INTERFACE_IMUX_OUT6": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX6",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT6"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX0->>GTPE2_INT_INTERFACE_IMUX_OUT0": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX0",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT0"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY10->>GTPE2_INT_INTERFACE_IMUX_OUT10": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY10",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT10"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX44->>GTPE2_INT_INTERFACE_IMUX_OUT44": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX44",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT44"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX40->>GTPE2_INT_INTERFACE_IMUX_OUT40": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX40",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT40"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX42->>GTPE2_INT_INTERFACE_IMUX_OUT42": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX42",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT42"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B11->>INT_INTERFACE_LOGIC_OUTS11": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B11",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS11"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX34->>GTPE2_INT_INTERFACE_IMUX_OUT34": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX34",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT34"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY11->>GTPE2_INT_INTERFACE_IMUX_OUT11": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY11",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT11"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX4->>GTPE2_INT_INTERFACE_IMUX_DELAY4": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX4",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY4"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX26->>GTPE2_INT_INTERFACE_IMUX_DELAY26": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX26",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY26"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY6->>GTPE2_INT_INTERFACE_IMUX_OUT6": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY6",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT6"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY14->>GTPE2_INT_INTERFACE_IMUX_OUT14": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY14",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT14"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B10->>INT_INTERFACE_LOGIC_OUTS10": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B10",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS10"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX43->>GTPE2_INT_INTERFACE_IMUX_OUT43": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX43",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT43"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B4->>INT_INTERFACE_LOGIC_OUTS4": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B4",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS4"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX24->>GTPE2_INT_INTERFACE_IMUX_DELAY24": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX24",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY24"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX40->>GTPE2_INT_INTERFACE_IMUX_DELAY40": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX40",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY40"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX6->>GTPE2_INT_INTERFACE_IMUX_DELAY6": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX6",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY6"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX45->>GTPE2_INT_INTERFACE_IMUX_DELAY45": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX45",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY45"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY18->>GTPE2_INT_INTERFACE_IMUX_OUT18": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY18",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT18"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY20->>GTPE2_INT_INTERFACE_IMUX_OUT20": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY20",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT20"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX0->>GTPE2_INT_INTERFACE_IMUX_DELAY0": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX0",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY0"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY38->>GTPE2_INT_INTERFACE_IMUX_OUT38": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY38",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT38"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX21->>GTPE2_INT_INTERFACE_IMUX_DELAY21": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX21",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY21"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX12->>GTPE2_INT_INTERFACE_IMUX_OUT12": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX12",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT12"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX17->>GTPE2_INT_INTERFACE_IMUX_OUT17": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX17",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT17"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX11->>GTPE2_INT_INTERFACE_IMUX_OUT11": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX11",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT11"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX28->>GTPE2_INT_INTERFACE_IMUX_OUT28": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX28",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT28"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY0->>GTPE2_INT_INTERFACE_IMUX_OUT0": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY0",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT0"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B21->>INT_INTERFACE_LOGIC_OUTS21": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B21",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS21"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY28->>GTPE2_INT_INTERFACE_IMUX_OUT28": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY28",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT28"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY5->>GTPE2_INT_INTERFACE_IMUX_OUT5": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY5",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT5"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX3->>GTPE2_INT_INTERFACE_IMUX_DELAY3": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX3",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY3"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX47->>GTPE2_INT_INTERFACE_IMUX_OUT47": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX47",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT47"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY24->>GTPE2_INT_INTERFACE_IMUX_OUT24": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY24",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT24"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY23->>GTPE2_INT_INTERFACE_IMUX_OUT23": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY23",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT23"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX23->>GTPE2_INT_INTERFACE_IMUX_DELAY23": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX23",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY23"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX30->>GTPE2_INT_INTERFACE_IMUX_OUT30": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX30",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT30"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX25->>GTPE2_INT_INTERFACE_IMUX_DELAY25": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX25",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY25"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B8->>INT_INTERFACE_LOGIC_OUTS8": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B8",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS8"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B1->>INT_INTERFACE_LOGIC_OUTS1": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B1",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS1"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B13->>INT_INTERFACE_LOGIC_OUTS13": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B13",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS13"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B9->>INT_INTERFACE_LOGIC_OUTS9": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B9",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS9"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX10->>GTPE2_INT_INTERFACE_IMUX_DELAY10": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX10",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY10"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY45->>GTPE2_INT_INTERFACE_IMUX_OUT45": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY45",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT45"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B7->>INT_INTERFACE_LOGIC_OUTS7": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B7",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS7"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX24->>GTPE2_INT_INTERFACE_IMUX_OUT24": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX24",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT24"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY29->>GTPE2_INT_INTERFACE_IMUX_OUT29": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY29",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT29"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX9->>GTPE2_INT_INTERFACE_IMUX_DELAY9": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX9",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY9"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY37->>GTPE2_INT_INTERFACE_IMUX_OUT37": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY37",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT37"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY15->>GTPE2_INT_INTERFACE_IMUX_OUT15": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY15",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT15"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY31->>GTPE2_INT_INTERFACE_IMUX_OUT31": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY31",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT31"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX2->>GTPE2_INT_INTERFACE_IMUX_DELAY2": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX2",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY2"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B2->>INT_INTERFACE_LOGIC_OUTS2": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B2",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS2"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B3->>INT_INTERFACE_LOGIC_OUTS3": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B3",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS3"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX29->>GTPE2_INT_INTERFACE_IMUX_DELAY29": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX29",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY29"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX35->>GTPE2_INT_INTERFACE_IMUX_OUT35": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX35",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT35"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX7->>GTPE2_INT_INTERFACE_IMUX_OUT7": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX7",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT7"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX29->>GTPE2_INT_INTERFACE_IMUX_OUT29": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX29",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT29"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX8->>GTPE2_INT_INTERFACE_IMUX_OUT8": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX8",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT8"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY2->>GTPE2_INT_INTERFACE_IMUX_OUT2": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY2",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT2"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX23->>GTPE2_INT_INTERFACE_IMUX_OUT23": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX23",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT23"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX27->>GTPE2_INT_INTERFACE_IMUX_DELAY27": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX27",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY27"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY3->>GTPE2_INT_INTERFACE_IMUX_OUT3": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY3",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT3"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX15->>GTPE2_INT_INTERFACE_IMUX_OUT15": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX15",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT15"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B22->>INT_INTERFACE_LOGIC_OUTS22": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B22",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS22"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX18->>GTPE2_INT_INTERFACE_IMUX_DELAY18": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX18",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY18"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY46->>GTPE2_INT_INTERFACE_IMUX_OUT46": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY46",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT46"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY39->>GTPE2_INT_INTERFACE_IMUX_OUT39": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY39",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT39"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY1->>GTPE2_INT_INTERFACE_IMUX_OUT1": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY1",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT1"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B18->>INT_INTERFACE_LOGIC_OUTS18": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B18",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS18"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX3->>GTPE2_INT_INTERFACE_IMUX_OUT3": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX3",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT3"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B19->>INT_INTERFACE_LOGIC_OUTS19": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B19",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS19"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B0->>INT_INTERFACE_LOGIC_OUTS0": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B0",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS0"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX5->>GTPE2_INT_INTERFACE_IMUX_OUT5": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX5",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT5"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY12->>GTPE2_INT_INTERFACE_IMUX_OUT12": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY12",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT12"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX10->>GTPE2_INT_INTERFACE_IMUX_OUT10": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX10",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT10"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY27->>GTPE2_INT_INTERFACE_IMUX_OUT27": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY27",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT27"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B6->>INT_INTERFACE_LOGIC_OUTS6": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B6",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS6"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX16->>GTPE2_INT_INTERFACE_IMUX_OUT16": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX16",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT16"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY21->>GTPE2_INT_INTERFACE_IMUX_OUT21": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY21",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT21"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX22->>GTPE2_INT_INTERFACE_IMUX_OUT22": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX22",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT22"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX9->>GTPE2_INT_INTERFACE_IMUX_OUT9": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX9",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT9"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX46->>GTPE2_INT_INTERFACE_IMUX_OUT46": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX46",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT46"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY7->>GTPE2_INT_INTERFACE_IMUX_OUT7": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY7",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT7"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX31->>GTPE2_INT_INTERFACE_IMUX_DELAY31": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX31",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY31"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX20->>GTPE2_INT_INTERFACE_IMUX_DELAY20": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX20",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY20"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY9->>GTPE2_INT_INTERFACE_IMUX_OUT9": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY9",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT9"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX34->>GTPE2_INT_INTERFACE_IMUX_DELAY34": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX34",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY34"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY8->>GTPE2_INT_INTERFACE_IMUX_OUT8": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY8",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT8"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX45->>GTPE2_INT_INTERFACE_IMUX_OUT45": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX45",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT45"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX18->>GTPE2_INT_INTERFACE_IMUX_OUT18": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX18",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT18"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX1->>GTPE2_INT_INTERFACE_IMUX_DELAY1": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX1",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY1"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX8->>GTPE2_INT_INTERFACE_IMUX_DELAY8": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX8",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY8"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY42->>GTPE2_INT_INTERFACE_IMUX_OUT42": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY42",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT42"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX20->>GTPE2_INT_INTERFACE_IMUX_OUT20": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX20",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT20"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY44->>GTPE2_INT_INTERFACE_IMUX_OUT44": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY44",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT44"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY33->>GTPE2_INT_INTERFACE_IMUX_OUT33": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY33",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT33"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY22->>GTPE2_INT_INTERFACE_IMUX_OUT22": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY22",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT22"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX22->>GTPE2_INT_INTERFACE_IMUX_DELAY22": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX22",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY22"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX31->>GTPE2_INT_INTERFACE_IMUX_OUT31": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX31",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT31"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX27->>GTPE2_INT_INTERFACE_IMUX_OUT27": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX27",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT27"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX21->>GTPE2_INT_INTERFACE_IMUX_OUT21": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX21",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT21"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX47->>GTPE2_INT_INTERFACE_IMUX_DELAY47": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX47",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY47"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY41->>GTPE2_INT_INTERFACE_IMUX_OUT41": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY41",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT41"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY26->>GTPE2_INT_INTERFACE_IMUX_OUT26": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY26",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT26"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX19->>GTPE2_INT_INTERFACE_IMUX_DELAY19": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX19",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY19"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX14->>GTPE2_INT_INTERFACE_IMUX_DELAY14": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX14",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY14"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX38->>GTPE2_INT_INTERFACE_IMUX_DELAY38": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX38",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY38"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B17->>INT_INTERFACE_LOGIC_OUTS17": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B17",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS17"
-    },
-    "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B15->>INT_INTERFACE_LOGIC_OUTS15": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B15",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS15"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX39->>GTPE2_INT_INTERFACE_IMUX_DELAY39": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX39",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY39"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY16->>GTPE2_INT_INTERFACE_IMUX_OUT16": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY16",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT16"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY40->>GTPE2_INT_INTERFACE_IMUX_OUT40": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY40",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT40"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY13->>GTPE2_INT_INTERFACE_IMUX_OUT13": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY13",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT13"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY25->>GTPE2_INT_INTERFACE_IMUX_OUT25": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY25",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT25"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX35->>GTPE2_INT_INTERFACE_IMUX_DELAY35": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX35",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY35"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY43->>GTPE2_INT_INTERFACE_IMUX_OUT43": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY43",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT43"
-    },
-    "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY47->>GTPE2_INT_INTERFACE_IMUX_OUT47": {
-      "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY47",
-      "can_invert": "0",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT47"
-    }
-  },
-  "wires": [
-    "INT_INTERFACE_SE4BEG1",
-    "GTPE2_INT_INTERFACE_IMUX_OUT27",
-    "INT_INTERFACE_WL1END2",
-    "GTPE2_INT_INTERFACE_IMUX21",
-    "INT_INTERFACE_LOGIC_OUTS_B12",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY22",
-    "INT_INTERFACE_EE4A1",
-    "INT_INTERFACE_LOGIC_OUTS_B10",
-    "GTPE2_INT_INTERFACE_IMUX1",
-    "INT_INTERFACE_SW2A3",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY46",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY42",
-    "INT_INTERFACE_LOGIC_OUTS_B22",
-    "INT_INTERFACE_LOGIC_OUTS4",
-    "INT_INTERFACE_WW2A2",
-    "GTPE2_INT_INTERFACE_IMUX_OUT17",
-    "INT_INTERFACE_LOGIC_OUTS_B11",
-    "INT_INTERFACE_WW2END0",
-    "INT_INTERFACE_EE4C1",
-    "INT_INTERFACE_LOGIC_OUTS18",
-    "GTPE2_INT_INTERFACE_IMUX43",
-    "INT_INTERFACE_SW4A3",
-    "INT_INTERFACE_EE2BEG3",
-    "GTPE2_INT_INTERFACE_IMUX_OUT19",
-    "INT_INTERFACE_SE4C3",
-    "INT_INTERFACE_WW2END1",
-    "INT_INTERFACE_LH11",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY3",
-    "INT_INTERFACE_SE4C0",
-    "INT_INTERFACE_EE4BEG2",
-    "INT_INTERFACE_BYP7",
-    "GTPE2_INT_INTERFACE_IMUX_OUT14",
-    "INT_INTERFACE_ER1BEG2",
-    "INT_INTERFACE_EE4BEG3",
-    "INT_INTERFACE_SE4BEG0",
-    "INT_INTERFACE_WL1END1",
-    "GTPE2_INT_INTERFACE_IMUX2",
-    "INT_INTERFACE_NE2A0",
-    "GTPE2_INT_INTERFACE_IMUX6",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY32",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY15",
-    "INT_INTERFACE_LOGIC_OUTS_B7",
-    "INT_INTERFACE_EL1BEG0",
-    "GTPE2_INT_INTERFACE_IMUX38",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY33",
-    "GTPE2_INT_INTERFACE_IMUX35",
-    "INT_INTERFACE_CLK0",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY18",
-    "INT_INTERFACE_EE2A2",
-    "INT_INTERFACE_BYP0",
-    "GTPE2_INT_INTERFACE_IMUX_OUT29",
-    "INT_INTERFACE_LOGIC_OUTS17",
-    "INT_INTERFACE_FAN6",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY39",
-    "INT_INTERFACE_EE4B0",
-    "INT_INTERFACE_SW4END0",
-    "GTPE2_INT_INTERFACE_IMUX_OUT34",
-    "INT_INTERFACE_WW4C2",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY45",
-    "INT_INTERFACE_EE4C2",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY29",
-    "GTPE2_INT_INTERFACE_IMUX4",
-    "INT_INTERFACE_WW4C1",
-    "INT_INTERFACE_SE4C2",
-    "INT_INTERFACE_EL1BEG1",
-    "GTPE2_INT_INTERFACE_IMUX8",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY8",
-    "INT_INTERFACE_LH6",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY9",
-    "INT_INTERFACE_SW4A0",
-    "INT_INTERFACE_CTRL0",
-    "INT_INTERFACE_WW2END3",
-    "INT_INTERFACE_LOGIC_OUTS14",
-    "INT_INTERFACE_NE4BEG3",
-    "INT_INTERFACE_LOGIC_OUTS11",
-    "GTPE2_INT_INTERFACE_IMUX_OUT20",
-    "INT_INTERFACE_EE4B2",
-    "INT_INTERFACE_NE2A2",
-    "INT_INTERFACE_LOGIC_OUTS5",
-    "INT_INTERFACE_LOGIC_OUTS10",
-    "INT_INTERFACE_FAN7",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY40",
-    "INT_INTERFACE_LH4",
-    "INT_INTERFACE_LH12",
-    "GTPE2_INT_INTERFACE_IMUX_OUT11",
-    "GTPE2_INT_INTERFACE_IMUX_OUT30",
-    "INT_INTERFACE_LOGIC_OUTS23",
-    "GTPE2_INT_INTERFACE_IMUX_OUT37",
-    "INT_INTERFACE_WW4END1",
-    "GTPE2_INT_INTERFACE_IMUX11",
-    "GTPE2_INT_INTERFACE_IMUX_OUT16",
-    "GTPE2_INT_INTERFACE_IMUX27",
-    "INT_INTERFACE_WW2A3",
-    "INT_INTERFACE_EE4A0",
-    "INT_INTERFACE_FAN4",
-    "GTPE2_INT_INTERFACE_IMUX_OUT47",
-    "INT_INTERFACE_BYP3",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY12",
-    "INT_INTERFACE_NW4A3",
-    "INT_INTERFACE_BYP5",
-    "GTPE2_INT_INTERFACE_IMUX_OUT40",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY5",
-    "GTPE2_INT_INTERFACE_IMUX_OUT9",
-    "GTPE2_INT_INTERFACE_IMUX_OUT45",
-    "GTPE2_INT_INTERFACE_IMUX_OUT44",
-    "GTPE2_INT_INTERFACE_IMUX29",
-    "GTPE2_INT_INTERFACE_IMUX19",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY23",
-    "INT_INTERFACE_NW2A0",
-    "INT_INTERFACE_NE2A3",
-    "GTPE2_INT_INTERFACE_IMUX9",
-    "GTPE2_INT_INTERFACE_IMUX_OUT46",
-    "INT_INTERFACE_SE2A2",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY43",
-    "INT_INTERFACE_BYP4",
-    "INT_INTERFACE_LOGIC_OUTS_B4",
-    "INT_INTERFACE_WW4A2",
-    "INT_INTERFACE_LOGIC_OUTS_B17",
-    "INT_INTERFACE_SE2A3",
-    "INT_INTERFACE_LOGIC_OUTS7",
-    "GTPE2_INT_INTERFACE_IMUX_OUT15",
-    "INT_INTERFACE_EL1BEG2",
-    "INT_INTERFACE_FAN5",
-    "GTPE2_INT_INTERFACE_IMUX_OUT2",
-    "GTPE2_INT_INTERFACE_IMUX20",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY14",
-    "GTPE2_INT_INTERFACE_IMUX32",
-    "INT_INTERFACE_EE4B1",
-    "INT_INTERFACE_EE4BEG0",
-    "INT_INTERFACE_WW4C3",
-    "INT_INTERFACE_LH9",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY6",
-    "GTPE2_INT_INTERFACE_IMUX24",
-    "INT_INTERFACE_LH3",
-    "INT_INTERFACE_NW4END1",
-    "GTPE2_INT_INTERFACE_IMUX_OUT24",
-    "INT_INTERFACE_WR1END3",
-    "INT_INTERFACE_LOGIC_OUTS22",
-    "INT_INTERFACE_WW2A0",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY34",
-    "INT_INTERFACE_NE4C3",
-    "GTPE2_INT_INTERFACE_IMUX31",
-    "GTPE2_INT_INTERFACE_IMUX39",
-    "INT_INTERFACE_EE4BEG1",
-    "INT_INTERFACE_LH10",
-    "INT_INTERFACE_LOGIC_OUTS_B15",
-    "GTPE2_INT_INTERFACE_IMUX34",
-    "INT_INTERFACE_LOGIC_OUTS13",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY1",
-    "INT_INTERFACE_WR1END1",
-    "GTPE2_INT_INTERFACE_IMUX_OUT33",
-    "INT_INTERFACE_LOGIC_OUTS_B9",
-    "INT_INTERFACE_BLOCK_OUTS_B3",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY7",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY47",
-    "GTPE2_INT_INTERFACE_IMUX41",
-    "INT_INTERFACE_WW4A1",
-    "GTPE2_INT_INTERFACE_IMUX10",
-    "INT_INTERFACE_SW2A2",
-    "GTPE2_INT_INTERFACE_IMUX_OUT41",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY2",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY30",
-    "INT_INTERFACE_SE4BEG2",
-    "INT_INTERFACE_WW4A3",
-    "INT_INTERFACE_CLK1",
-    "INT_INTERFACE_LH8",
-    "INT_INTERFACE_WW4C0",
-    "INT_INTERFACE_WW4B1",
-    "GTPE2_INT_INTERFACE_IMUX7",
-    "INT_INTERFACE_LOGIC_OUTS1",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY38",
-    "INT_INTERFACE_LOGIC_OUTS0",
-    "GTPE2_INT_INTERFACE_IMUX33",
-    "INT_INTERFACE_EE4A2",
-    "INT_INTERFACE_LOGIC_OUTS20",
-    "INT_INTERFACE_LOGIC_OUTS_B20",
-    "INT_INTERFACE_NE4BEG2",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY37",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY26",
-    "INT_INTERFACE_LOGIC_OUTS3",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY24",
-    "INT_INTERFACE_LOGIC_OUTS_B14",
-    "INT_INTERFACE_BLOCK_OUTS_B2",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY35",
-    "INT_INTERFACE_LOGIC_OUTS_B1",
-    "INT_INTERFACE_WW2END2",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY16",
-    "INT_INTERFACE_LOGIC_OUTS2",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY13",
-    "INT_INTERFACE_FAN0",
-    "GTPE2_INT_INTERFACE_IMUX26",
-    "INT_INTERFACE_EE2BEG1",
-    "GTPE2_INT_INTERFACE_IMUX47",
-    "GTPE2_INT_INTERFACE_IMUX22",
-    "GTPE2_INT_INTERFACE_IMUX_OUT10",
-    "INT_INTERFACE_MONITOR_P",
-    "GTPE2_INT_INTERFACE_IMUX_OUT6",
-    "INT_INTERFACE_LOGIC_OUTS16",
-    "INT_INTERFACE_NW4A1",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY17",
-    "GTPE2_INT_INTERFACE_IMUX45",
-    "INT_INTERFACE_NW4END0",
-    "INT_INTERFACE_WR1END0",
-    "INT_INTERFACE_LOGIC_OUTS8",
-    "GTPE2_INT_INTERFACE_IMUX_OUT4",
-    "INT_INTERFACE_LOGIC_OUTS9",
-    "INT_INTERFACE_SW2A0",
-    "INT_INTERFACE_NW4END3",
-    "INT_INTERFACE_LOGIC_OUTS_B21",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY10",
-    "INT_INTERFACE_NE4C0",
-    "INT_INTERFACE_EE4A3",
-    "INT_INTERFACE_WW4B3",
-    "INT_INTERFACE_EE2BEG2",
-    "INT_INTERFACE_EE4C3",
-    "GTPE2_INT_INTERFACE_IMUX_OUT7",
-    "GTPE2_INT_INTERFACE_IMUX13",
-    "GTPE2_INT_INTERFACE_IMUX5",
-    "GTPE2_INT_INTERFACE_IMUX_OUT8",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY27",
-    "INT_INTERFACE_WL1END3",
-    "GTPE2_INT_INTERFACE_IMUX_OUT32",
-    "INT_INTERFACE_SW4A2",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY41",
-    "INT_INTERFACE_ER1BEG3",
-    "INT_INTERFACE_SW4A1",
-    "INT_INTERFACE_BYP2",
-    "INT_INTERFACE_NE2A1",
-    "INT_INTERFACE_WL1END0",
-    "INT_INTERFACE_WW4B0",
-    "INT_INTERFACE_LOGIC_OUTS_B18",
-    "GTPE2_INT_INTERFACE_IMUX37",
-    "GTPE2_INT_INTERFACE_IMUX_OUT18",
-    "INT_INTERFACE_SE2A0",
-    "GTPE2_INT_INTERFACE_IMUX_OUT42",
-    "INT_INTERFACE_NW2A1",
-    "GTPE2_INT_INTERFACE_IMUX_OUT31",
-    "INT_INTERFACE_EE2BEG0",
-    "INT_INTERFACE_LH1",
-    "INT_INTERFACE_LOGIC_OUTS_B0",
-    "INT_INTERFACE_LH5",
-    "INT_INTERFACE_LOGIC_OUTS_B3",
-    "GTPE2_INT_INTERFACE_IMUX30",
-    "INT_INTERFACE_SW4END2",
-    "INT_INTERFACE_NW2A3",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY4",
-    "INT_INTERFACE_LOGIC_OUTS19",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY31",
-    "INT_INTERFACE_LOGIC_OUTS_B5",
-    "GTPE2_INT_INTERFACE_IMUX_OUT25",
-    "GTPE2_INT_INTERFACE_IMUX_OUT28",
-    "GTPE2_INT_INTERFACE_IMUX_OUT22",
-    "INT_INTERFACE_EL1BEG3",
-    "GTPE2_INT_INTERFACE_IMUX15",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY0",
-    "INT_INTERFACE_LOGIC_OUTS_B8",
-    "INT_INTERFACE_LOGIC_OUTS_B6",
-    "INT_INTERFACE_LOGIC_OUTS_B2",
-    "GTPE2_INT_INTERFACE_IMUX23",
-    "INT_INTERFACE_LOGIC_OUTS_B19",
-    "INT_INTERFACE_SE4BEG3",
-    "GTPE2_INT_INTERFACE_IMUX_OUT13",
-    "GTPE2_INT_INTERFACE_IMUX_OUT5",
-    "GTPE2_INT_INTERFACE_IMUX_OUT39",
-    "GTPE2_INT_INTERFACE_IMUX16",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY36",
-    "INT_INTERFACE_NE4C2",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY44",
-    "INT_INTERFACE_SE4C1",
-    "INT_INTERFACE_LOGIC_OUTS_B13",
-    "GTPE2_INT_INTERFACE_IMUX14",
-    "GTPE2_INT_INTERFACE_IMUX18",
-    "INT_INTERFACE_WW4END2",
-    "INT_INTERFACE_EE2A3",
-    "GTPE2_INT_INTERFACE_IMUX3",
-    "GTPE2_INT_INTERFACE_IMUX_OUT1",
-    "INT_INTERFACE_WW4A0",
-    "GTPE2_INT_INTERFACE_IMUX12",
-    "INT_INTERFACE_BYP1",
-    "INT_INTERFACE_FAN3",
-    "INT_INTERFACE_CTRL1",
-    "INT_INTERFACE_MONITOR_N",
-    "GTPE2_INT_INTERFACE_IMUX_OUT35",
-    "GTPE2_INT_INTERFACE_IMUX44",
-    "INT_INTERFACE_LH7",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY19",
-    "GTPE2_INT_INTERFACE_IMUX_OUT0",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY11",
-    "INT_INTERFACE_LOGIC_OUTS_B23",
-    "INT_INTERFACE_NW2A2",
-    "INT_INTERFACE_SE2A1",
-    "INT_INTERFACE_WW2A1",
-    "GTPE2_INT_INTERFACE_IMUX25",
-    "INT_INTERFACE_LOGIC_OUTS21",
-    "INT_INTERFACE_BYP6",
-    "INT_INTERFACE_NW4END2",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY21",
-    "GTPE2_INT_INTERFACE_IMUX_OUT38",
-    "INT_INTERFACE_LOGIC_OUTS12",
-    "INT_INTERFACE_EE4B3",
-    "GTPE2_INT_INTERFACE_IMUX46",
-    "INT_INTERFACE_SW4END3",
-    "INT_INTERFACE_NE4C1",
-    "INT_INTERFACE_NW4A2",
-    "INT_INTERFACE_NW4A0",
-    "INT_INTERFACE_WW4END3",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY20",
-    "GTPE2_INT_INTERFACE_IMUX_OUT23",
-    "INT_INTERFACE_WR1END2",
-    "INT_INTERFACE_LH2",
-    "INT_INTERFACE_SW2A1",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY28",
-    "GTPE2_INT_INTERFACE_IMUX_DELAY25",
-    "GTPE2_INT_INTERFACE_IMUX28",
-    "INT_INTERFACE_WW4B2",
-    "GTPE2_INT_INTERFACE_IMUX0",
-    "INT_INTERFACE_EE4C0",
-    "GTPE2_INT_INTERFACE_IMUX_OUT3",
-    "GTPE2_INT_INTERFACE_IMUX_OUT36",
-    "GTPE2_INT_INTERFACE_IMUX36",
-    "INT_INTERFACE_ER1BEG0",
-    "INT_INTERFACE_WW4END0",
-    "GTPE2_INT_INTERFACE_IMUX_OUT21",
-    "INT_INTERFACE_FAN1",
-    "INT_INTERFACE_LOGIC_OUTS15",
-    "GTPE2_INT_INTERFACE_IMUX40",
-    "INT_INTERFACE_LOGIC_OUTS6",
-    "GTPE2_INT_INTERFACE_IMUX_OUT12",
-    "INT_INTERFACE_NE4BEG0",
-    "INT_INTERFACE_EE2A0",
-    "GTPE2_INT_INTERFACE_IMUX42",
-    "INT_INTERFACE_SW4END1",
-    "INT_INTERFACE_FAN2",
-    "INT_INTERFACE_LOGIC_OUTS_B16",
-    "GTPE2_INT_INTERFACE_IMUX_OUT43",
-    "INT_INTERFACE_EE2A1",
-    "INT_INTERFACE_BLOCK_OUTS_B0",
-    "GTPE2_INT_INTERFACE_IMUX_OUT26",
-    "INT_INTERFACE_BLOCK_OUTS_B1",
-    "INT_INTERFACE_NE4BEG1",
-    "INT_INTERFACE_ER1BEG1",
-    "GTPE2_INT_INTERFACE_IMUX17"
-  ],
-  "tile_type": "GTP_INT_INTERFACE",
-  "sites": []
+    "wires": [
+        "GTPE2_INT_INTERFACE_IMUX15",
+        "INT_INTERFACE_BYP1",
+        "GTPE2_INT_INTERFACE_IMUX7",
+        "INT_INTERFACE_SE4C2",
+        "INT_INTERFACE_NW2A1",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY18",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY41",
+        "INT_INTERFACE_FAN1",
+        "INT_INTERFACE_NE4BEG3",
+        "GTPE2_INT_INTERFACE_IMUX42",
+        "GTPE2_INT_INTERFACE_IMUX_OUT26",
+        "GTPE2_INT_INTERFACE_IMUX2",
+        "INT_INTERFACE_NW4END0",
+        "INT_INTERFACE_EE4C1",
+        "GTPE2_INT_INTERFACE_IMUX37",
+        "GTPE2_INT_INTERFACE_IMUX22",
+        "GTPE2_INT_INTERFACE_IMUX_OUT2",
+        "INT_INTERFACE_WW4END2",
+        "INT_INTERFACE_NW4A2",
+        "GTPE2_INT_INTERFACE_IMUX_OUT33",
+        "INT_INTERFACE_LOGIC_OUTS_B23",
+        "INT_INTERFACE_EL1BEG3",
+        "GTPE2_INT_INTERFACE_IMUX38",
+        "GTPE2_INT_INTERFACE_IMUX36",
+        "INT_INTERFACE_SW4A2",
+        "INT_INTERFACE_BLOCK_OUTS_B3",
+        "INT_INTERFACE_LOGIC_OUTS_B11",
+        "INT_INTERFACE_BLOCK_OUTS_B2",
+        "INT_INTERFACE_LOGIC_OUTS_B8",
+        "INT_INTERFACE_NE4C3",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY26",
+        "INT_INTERFACE_LOGIC_OUTS0",
+        "GTPE2_INT_INTERFACE_IMUX39",
+        "INT_INTERFACE_EE2BEG3",
+        "GTPE2_INT_INTERFACE_IMUX_OUT38",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY38",
+        "INT_INTERFACE_EE4C0",
+        "GTPE2_INT_INTERFACE_IMUX_OUT23",
+        "INT_INTERFACE_WL1END2",
+        "INT_INTERFACE_NW4END2",
+        "INT_INTERFACE_NW2A2",
+        "GTPE2_INT_INTERFACE_IMUX28",
+        "INT_INTERFACE_WW4END3",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY29",
+        "GTPE2_INT_INTERFACE_IMUX_OUT18",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY20",
+        "INT_INTERFACE_LOGIC_OUTS_B20",
+        "INT_INTERFACE_EE4BEG1",
+        "INT_INTERFACE_WW4END0",
+        "INT_INTERFACE_CLK0",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY13",
+        "INT_INTERFACE_LOGIC_OUTS_B9",
+        "INT_INTERFACE_LOGIC_OUTS4",
+        "GTPE2_INT_INTERFACE_IMUX_OUT9",
+        "GTPE2_INT_INTERFACE_IMUX_OUT31",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY43",
+        "GTPE2_INT_INTERFACE_IMUX_OUT40",
+        "INT_INTERFACE_LOGIC_OUTS_B13",
+        "GTPE2_INT_INTERFACE_IMUX3",
+        "INT_INTERFACE_BYP5",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY4",
+        "INT_INTERFACE_LOGIC_OUTS_B6",
+        "INT_INTERFACE_WW4B1",
+        "INT_INTERFACE_NE4C2",
+        "GTPE2_INT_INTERFACE_IMUX_OUT11",
+        "GTPE2_INT_INTERFACE_IMUX_OUT29",
+        "GTPE2_INT_INTERFACE_IMUX_OUT21",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY10",
+        "INT_INTERFACE_LOGIC_OUTS1",
+        "GTPE2_INT_INTERFACE_IMUX27",
+        "INT_INTERFACE_LH12",
+        "INT_INTERFACE_SE4BEG3",
+        "INT_INTERFACE_WW4C0",
+        "INT_INTERFACE_WL1END1",
+        "INT_INTERFACE_NW2A0",
+        "INT_INTERFACE_EE2A2",
+        "INT_INTERFACE_EE4B2",
+        "INT_INTERFACE_LOGIC_OUTS_B3",
+        "INT_INTERFACE_LH2",
+        "INT_INTERFACE_NW4A0",
+        "GTPE2_INT_INTERFACE_IMUX_OUT25",
+        "GTPE2_INT_INTERFACE_IMUX12",
+        "GTPE2_INT_INTERFACE_IMUX16",
+        "GTPE2_INT_INTERFACE_IMUX19",
+        "INT_INTERFACE_EE4C2",
+        "INT_INTERFACE_LOGIC_OUTS_B14",
+        "INT_INTERFACE_LOGIC_OUTS11",
+        "GTPE2_INT_INTERFACE_IMUX43",
+        "INT_INTERFACE_LOGIC_OUTS_B2",
+        "INT_INTERFACE_ER1BEG3",
+        "INT_INTERFACE_WW4A2",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY32",
+        "GTPE2_INT_INTERFACE_IMUX_OUT13",
+        "INT_INTERFACE_LOGIC_OUTS_B22",
+        "INT_INTERFACE_NW4END3",
+        "INT_INTERFACE_EE2A1",
+        "INT_INTERFACE_WL1END0",
+        "INT_INTERFACE_BYP4",
+        "INT_INTERFACE_WW2A1",
+        "INT_INTERFACE_EE4B0",
+        "INT_INTERFACE_EE4B3",
+        "INT_INTERFACE_FAN3",
+        "INT_INTERFACE_SW4A0",
+        "INT_INTERFACE_SE2A1",
+        "GTPE2_INT_INTERFACE_IMUX_OUT47",
+        "INT_INTERFACE_LOGIC_OUTS_B5",
+        "INT_INTERFACE_EE2A3",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY23",
+        "INT_INTERFACE_EE2BEG2",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY25",
+        "GTPE2_INT_INTERFACE_IMUX_OUT1",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY19",
+        "INT_INTERFACE_SW2A1",
+        "INT_INTERFACE_EE4A2",
+        "INT_INTERFACE_WW2A0",
+        "INT_INTERFACE_LOGIC_OUTS20",
+        "INT_INTERFACE_EE4BEG0",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY9",
+        "INT_INTERFACE_LOGIC_OUTS_B18",
+        "INT_INTERFACE_LOGIC_OUTS_B10",
+        "GTPE2_INT_INTERFACE_IMUX34",
+        "INT_INTERFACE_LOGIC_OUTS_B21",
+        "INT_INTERFACE_FAN2",
+        "INT_INTERFACE_SE2A0",
+        "INT_INTERFACE_BYP3",
+        "GTPE2_INT_INTERFACE_IMUX_OUT19",
+        "GTPE2_INT_INTERFACE_IMUX14",
+        "INT_INTERFACE_LOGIC_OUTS_B7",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY2",
+        "GTPE2_INT_INTERFACE_IMUX1",
+        "INT_INTERFACE_LH1",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY31",
+        "INT_INTERFACE_LOGIC_OUTS_B15",
+        "INT_INTERFACE_FAN7",
+        "GTPE2_INT_INTERFACE_IMUX45",
+        "INT_INTERFACE_WW4A0",
+        "GTPE2_INT_INTERFACE_IMUX_OUT30",
+        "INT_INTERFACE_LH4",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY44",
+        "GTPE2_INT_INTERFACE_IMUX9",
+        "GTPE2_INT_INTERFACE_IMUX46",
+        "INT_INTERFACE_WW4A1",
+        "INT_INTERFACE_FAN4",
+        "GTPE2_INT_INTERFACE_IMUX_OUT45",
+        "GTPE2_INT_INTERFACE_IMUX25",
+        "GTPE2_INT_INTERFACE_IMUX24",
+        "GTPE2_INT_INTERFACE_IMUX_OUT27",
+        "INT_INTERFACE_WR1END1",
+        "INT_INTERFACE_LOGIC_OUTS22",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY47",
+        "INT_INTERFACE_SW4END3",
+        "INT_INTERFACE_SE4C0",
+        "INT_INTERFACE_EE2A0",
+        "INT_INTERFACE_LH10",
+        "INT_INTERFACE_LH11",
+        "INT_INTERFACE_NE2A0",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY7",
+        "INT_INTERFACE_SW4A1",
+        "INT_INTERFACE_BLOCK_OUTS_B0",
+        "INT_INTERFACE_LOGIC_OUTS9",
+        "INT_INTERFACE_BYP6",
+        "GTPE2_INT_INTERFACE_IMUX29",
+        "GTPE2_INT_INTERFACE_IMUX18",
+        "INT_INTERFACE_LOGIC_OUTS2",
+        "INT_INTERFACE_LOGIC_OUTS_B16",
+        "INT_INTERFACE_ER1BEG2",
+        "GTPE2_INT_INTERFACE_IMUX41",
+        "INT_INTERFACE_EE4A0",
+        "GTPE2_INT_INTERFACE_IMUX_OUT24",
+        "GTPE2_INT_INTERFACE_IMUX5",
+        "INT_INTERFACE_LOGIC_OUTS6",
+        "INT_INTERFACE_SW4A3",
+        "INT_INTERFACE_WL1END3",
+        "INT_INTERFACE_WW4END1",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY35",
+        "INT_INTERFACE_NE4BEG2",
+        "GTPE2_INT_INTERFACE_IMUX_OUT8",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY6",
+        "INT_INTERFACE_WW4B3",
+        "INT_INTERFACE_LH6",
+        "INT_INTERFACE_LOGIC_OUTS10",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY30",
+        "INT_INTERFACE_LOGIC_OUTS3",
+        "INT_INTERFACE_WW4C3",
+        "INT_INTERFACE_LOGIC_OUTS_B12",
+        "INT_INTERFACE_WW2END2",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY39",
+        "GTPE2_INT_INTERFACE_IMUX31",
+        "GTPE2_INT_INTERFACE_IMUX_OUT36",
+        "INT_INTERFACE_LH3",
+        "INT_INTERFACE_WW4A3",
+        "GTPE2_INT_INTERFACE_IMUX_OUT12",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY42",
+        "INT_INTERFACE_LOGIC_OUTS15",
+        "INT_INTERFACE_MONITOR_N",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY12",
+        "INT_INTERFACE_NE2A3",
+        "GTPE2_INT_INTERFACE_IMUX35",
+        "INT_INTERFACE_LOGIC_OUTS7",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY24",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY15",
+        "INT_INTERFACE_SE2A2",
+        "INT_INTERFACE_LH7",
+        "INT_INTERFACE_EL1BEG0",
+        "INT_INTERFACE_LOGIC_OUTS21",
+        "GTPE2_INT_INTERFACE_IMUX_OUT41",
+        "INT_INTERFACE_SE4BEG0",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY8",
+        "INT_INTERFACE_CLK1",
+        "INT_INTERFACE_EE4BEG2",
+        "GTPE2_INT_INTERFACE_IMUX11",
+        "INT_INTERFACE_LOGIC_OUTS19",
+        "INT_INTERFACE_LOGIC_OUTS12",
+        "INT_INTERFACE_NW4END1",
+        "INT_INTERFACE_EL1BEG2",
+        "GTPE2_INT_INTERFACE_IMUX_OUT7",
+        "INT_INTERFACE_WW2A2",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY3",
+        "INT_INTERFACE_LOGIC_OUTS_B0",
+        "GTPE2_INT_INTERFACE_IMUX20",
+        "INT_INTERFACE_LH8",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY1",
+        "INT_INTERFACE_NW4A1",
+        "GTPE2_INT_INTERFACE_IMUX8",
+        "GTPE2_INT_INTERFACE_IMUX_OUT44",
+        "INT_INTERFACE_FAN0",
+        "INT_INTERFACE_MONITOR_P",
+        "GTPE2_INT_INTERFACE_IMUX33",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY40",
+        "GTPE2_INT_INTERFACE_IMUX26",
+        "INT_INTERFACE_SE4BEG2",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY17",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY16",
+        "INT_INTERFACE_BLOCK_OUTS_B1",
+        "GTPE2_INT_INTERFACE_IMUX_OUT3",
+        "INT_INTERFACE_BYP2",
+        "INT_INTERFACE_SE2A3",
+        "INT_INTERFACE_WW2END3",
+        "INT_INTERFACE_SW4END2",
+        "GTPE2_INT_INTERFACE_IMUX44",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY0",
+        "GTPE2_INT_INTERFACE_IMUX_OUT16",
+        "GTPE2_INT_INTERFACE_IMUX40",
+        "INT_INTERFACE_NE2A1",
+        "GTPE2_INT_INTERFACE_IMUX_OUT17",
+        "INT_INTERFACE_NE4BEG1",
+        "INT_INTERFACE_LOGIC_OUTS18",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY28",
+        "GTPE2_INT_INTERFACE_IMUX_OUT0",
+        "GTPE2_INT_INTERFACE_IMUX_OUT37",
+        "INT_INTERFACE_LOGIC_OUTS_B1",
+        "GTPE2_INT_INTERFACE_IMUX_OUT35",
+        "INT_INTERFACE_NE4BEG0",
+        "INT_INTERFACE_LOGIC_OUTS8",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY34",
+        "GTPE2_INT_INTERFACE_IMUX17",
+        "INT_INTERFACE_WR1END2",
+        "INT_INTERFACE_EE2BEG0",
+        "GTPE2_INT_INTERFACE_IMUX_OUT34",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY5",
+        "GTPE2_INT_INTERFACE_IMUX30",
+        "INT_INTERFACE_ER1BEG0",
+        "INT_INTERFACE_LOGIC_OUTS13",
+        "INT_INTERFACE_NW2A3",
+        "INT_INTERFACE_WR1END3",
+        "INT_INTERFACE_LOGIC_OUTS5",
+        "INT_INTERFACE_NE4C0",
+        "INT_INTERFACE_LOGIC_OUTS_B4",
+        "INT_INTERFACE_WW2END0",
+        "GTPE2_INT_INTERFACE_IMUX_OUT20",
+        "INT_INTERFACE_FAN6",
+        "INT_INTERFACE_WW2END1",
+        "GTPE2_INT_INTERFACE_IMUX_OUT15",
+        "GTPE2_INT_INTERFACE_IMUX4",
+        "INT_INTERFACE_SW2A2",
+        "INT_INTERFACE_EE4B1",
+        "INT_INTERFACE_WW4B2",
+        "INT_INTERFACE_SW4END1",
+        "GTPE2_INT_INTERFACE_IMUX_OUT42",
+        "INT_INTERFACE_SW2A0",
+        "INT_INTERFACE_LOGIC_OUTS_B19",
+        "GTPE2_INT_INTERFACE_IMUX_OUT14",
+        "INT_INTERFACE_SW2A3",
+        "GTPE2_INT_INTERFACE_IMUX_OUT6",
+        "GTPE2_INT_INTERFACE_IMUX_OUT4",
+        "INT_INTERFACE_EE4A3",
+        "INT_INTERFACE_NE4C1",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY14",
+        "INT_INTERFACE_WW2A3",
+        "INT_INTERFACE_LOGIC_OUTS_B17",
+        "INT_INTERFACE_WW4C1",
+        "INT_INTERFACE_FAN5",
+        "INT_INTERFACE_EE4BEG3",
+        "INT_INTERFACE_WR1END0",
+        "GTPE2_INT_INTERFACE_IMUX_OUT32",
+        "INT_INTERFACE_LOGIC_OUTS23",
+        "INT_INTERFACE_WW4B0",
+        "GTPE2_INT_INTERFACE_IMUX0",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY46",
+        "GTPE2_INT_INTERFACE_IMUX21",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY27",
+        "INT_INTERFACE_NW4A3",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY36",
+        "INT_INTERFACE_LOGIC_OUTS14",
+        "INT_INTERFACE_EE4C3",
+        "GTPE2_INT_INTERFACE_IMUX_OUT22",
+        "GTPE2_INT_INTERFACE_IMUX_OUT39",
+        "INT_INTERFACE_BYP7",
+        "GTPE2_INT_INTERFACE_IMUX32",
+        "INT_INTERFACE_SE4BEG1",
+        "GTPE2_INT_INTERFACE_IMUX6",
+        "INT_INTERFACE_SE4C3",
+        "GTPE2_INT_INTERFACE_IMUX23",
+        "INT_INTERFACE_NE2A2",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY37",
+        "INT_INTERFACE_EE2BEG1",
+        "GTPE2_INT_INTERFACE_IMUX_OUT43",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY45",
+        "INT_INTERFACE_LOGIC_OUTS17",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY22",
+        "INT_INTERFACE_SE4C1",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY11",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY21",
+        "GTPE2_INT_INTERFACE_IMUX13",
+        "INT_INTERFACE_LOGIC_OUTS16",
+        "GTPE2_INT_INTERFACE_IMUX_OUT5",
+        "GTPE2_INT_INTERFACE_IMUX_OUT10",
+        "INT_INTERFACE_CTRL0",
+        "INT_INTERFACE_WW4C2",
+        "GTPE2_INT_INTERFACE_IMUX_OUT46",
+        "INT_INTERFACE_LH9",
+        "INT_INTERFACE_ER1BEG1",
+        "INT_INTERFACE_LH5",
+        "INT_INTERFACE_BYP0",
+        "INT_INTERFACE_EL1BEG1",
+        "GTPE2_INT_INTERFACE_IMUX_DELAY33",
+        "GTPE2_INT_INTERFACE_IMUX_OUT28",
+        "GTPE2_INT_INTERFACE_IMUX47",
+        "INT_INTERFACE_CTRL1",
+        "INT_INTERFACE_EE4A1",
+        "INT_INTERFACE_SW4END0",
+        "GTPE2_INT_INTERFACE_IMUX10"
+    ],
+    "pips": {
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX39->>GTPE2_INT_INTERFACE_IMUX_OUT39": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX39",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT39",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX23->>GTPE2_INT_INTERFACE_IMUX_DELAY23": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX23",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY23",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX35->>GTPE2_INT_INTERFACE_IMUX_OUT35": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX35",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT35",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX10->>GTPE2_INT_INTERFACE_IMUX_DELAY10": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX10",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY10",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX2->>GTPE2_INT_INTERFACE_IMUX_OUT2": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT2",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B3->>INT_INTERFACE_LOGIC_OUTS3": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS3",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX46->>GTPE2_INT_INTERFACE_IMUX_OUT46": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX46",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT46",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX15->>GTPE2_INT_INTERFACE_IMUX_OUT15": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX15",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT15",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY39->>GTPE2_INT_INTERFACE_IMUX_OUT39": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY39",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT39",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX40->>GTPE2_INT_INTERFACE_IMUX_DELAY40": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX40",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY40",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX5->>GTPE2_INT_INTERFACE_IMUX_DELAY5": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY5",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B0->>INT_INTERFACE_LOGIC_OUTS0": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS0",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX27->>GTPE2_INT_INTERFACE_IMUX_DELAY27": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX27",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY27",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY8->>GTPE2_INT_INTERFACE_IMUX_OUT8": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY8",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT8",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX20->>GTPE2_INT_INTERFACE_IMUX_OUT20": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX20",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT20",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX12->>GTPE2_INT_INTERFACE_IMUX_DELAY12": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX12",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY12",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX9->>GTPE2_INT_INTERFACE_IMUX_DELAY9": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX9",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY9",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY5->>GTPE2_INT_INTERFACE_IMUX_OUT5": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT5",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY26->>GTPE2_INT_INTERFACE_IMUX_OUT26": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY26",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT26",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX42->>GTPE2_INT_INTERFACE_IMUX_DELAY42": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX42",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY42",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX23->>GTPE2_INT_INTERFACE_IMUX_OUT23": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX23",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT23",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX13->>GTPE2_INT_INTERFACE_IMUX_OUT13": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX13",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT13",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX25->>GTPE2_INT_INTERFACE_IMUX_OUT25": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX25",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT25",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY13->>GTPE2_INT_INTERFACE_IMUX_OUT13": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY13",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT13",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B16->>INT_INTERFACE_LOGIC_OUTS16": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B16",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS16",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX32->>GTPE2_INT_INTERFACE_IMUX_DELAY32": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX32",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY32",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B5->>INT_INTERFACE_LOGIC_OUTS5": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS5",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX20->>GTPE2_INT_INTERFACE_IMUX_DELAY20": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX20",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY20",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX29->>GTPE2_INT_INTERFACE_IMUX_OUT29": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX29",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT29",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX14->>GTPE2_INT_INTERFACE_IMUX_DELAY14": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX14",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY14",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX36->>GTPE2_INT_INTERFACE_IMUX_OUT36": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX36",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT36",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX26->>GTPE2_INT_INTERFACE_IMUX_OUT26": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX26",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT26",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX26->>GTPE2_INT_INTERFACE_IMUX_DELAY26": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX26",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY26",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX45->>GTPE2_INT_INTERFACE_IMUX_DELAY45": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX45",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY45",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY10->>GTPE2_INT_INTERFACE_IMUX_OUT10": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY10",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT10",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX22->>GTPE2_INT_INTERFACE_IMUX_OUT22": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX22",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT22",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX14->>GTPE2_INT_INTERFACE_IMUX_OUT14": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX14",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT14",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX27->>GTPE2_INT_INTERFACE_IMUX_OUT27": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX27",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT27",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX30->>GTPE2_INT_INTERFACE_IMUX_OUT30": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX30",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT30",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX22->>GTPE2_INT_INTERFACE_IMUX_DELAY22": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX22",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY22",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX8->>GTPE2_INT_INTERFACE_IMUX_DELAY8": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX8",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY8",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B1->>INT_INTERFACE_LOGIC_OUTS1": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS1",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX32->>GTPE2_INT_INTERFACE_IMUX_OUT32": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX32",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT32",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX42->>GTPE2_INT_INTERFACE_IMUX_OUT42": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX42",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT42",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX3->>GTPE2_INT_INTERFACE_IMUX_OUT3": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT3",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY44->>GTPE2_INT_INTERFACE_IMUX_OUT44": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY44",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT44",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX10->>GTPE2_INT_INTERFACE_IMUX_OUT10": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX10",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT10",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX11->>GTPE2_INT_INTERFACE_IMUX_DELAY11": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX11",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY11",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX19->>GTPE2_INT_INTERFACE_IMUX_OUT19": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX19",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT19",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY29->>GTPE2_INT_INTERFACE_IMUX_OUT29": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY29",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT29",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX37->>GTPE2_INT_INTERFACE_IMUX_DELAY37": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX37",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY37",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX17->>GTPE2_INT_INTERFACE_IMUX_OUT17": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX17",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT17",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY15->>GTPE2_INT_INTERFACE_IMUX_OUT15": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY15",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT15",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY25->>GTPE2_INT_INTERFACE_IMUX_OUT25": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY25",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT25",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY14->>GTPE2_INT_INTERFACE_IMUX_OUT14": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY14",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT14",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY17->>GTPE2_INT_INTERFACE_IMUX_OUT17": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY17",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT17",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX3->>GTPE2_INT_INTERFACE_IMUX_DELAY3": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY3",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX28->>GTPE2_INT_INTERFACE_IMUX_OUT28": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX28",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT28",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B7->>INT_INTERFACE_LOGIC_OUTS7": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS7",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX36->>GTPE2_INT_INTERFACE_IMUX_DELAY36": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX36",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY36",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B17->>INT_INTERFACE_LOGIC_OUTS17": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B17",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS17",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B11->>INT_INTERFACE_LOGIC_OUTS11": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B11",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS11",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B21->>INT_INTERFACE_LOGIC_OUTS21": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B21",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS21",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX6->>GTPE2_INT_INTERFACE_IMUX_DELAY6": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY6",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B19->>INT_INTERFACE_LOGIC_OUTS19": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B19",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS19",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX19->>GTPE2_INT_INTERFACE_IMUX_DELAY19": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX19",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY19",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX0->>GTPE2_INT_INTERFACE_IMUX_OUT0": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT0",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX18->>GTPE2_INT_INTERFACE_IMUX_OUT18": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX18",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT18",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX15->>GTPE2_INT_INTERFACE_IMUX_DELAY15": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX15",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY15",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX40->>GTPE2_INT_INTERFACE_IMUX_OUT40": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX40",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT40",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY27->>GTPE2_INT_INTERFACE_IMUX_OUT27": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY27",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT27",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY16->>GTPE2_INT_INTERFACE_IMUX_OUT16": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY16",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT16",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY30->>GTPE2_INT_INTERFACE_IMUX_OUT30": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY30",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT30",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY41->>GTPE2_INT_INTERFACE_IMUX_OUT41": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY41",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT41",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX8->>GTPE2_INT_INTERFACE_IMUX_OUT8": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX8",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT8",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX46->>GTPE2_INT_INTERFACE_IMUX_DELAY46": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX46",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY46",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY20->>GTPE2_INT_INTERFACE_IMUX_OUT20": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY20",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT20",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY36->>GTPE2_INT_INTERFACE_IMUX_OUT36": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY36",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT36",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY37->>GTPE2_INT_INTERFACE_IMUX_OUT37": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY37",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT37",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY19->>GTPE2_INT_INTERFACE_IMUX_OUT19": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY19",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT19",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX4->>GTPE2_INT_INTERFACE_IMUX_OUT4": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT4",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX16->>GTPE2_INT_INTERFACE_IMUX_OUT16": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX16",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT16",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY31->>GTPE2_INT_INTERFACE_IMUX_OUT31": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY31",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT31",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX17->>GTPE2_INT_INTERFACE_IMUX_DELAY17": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX17",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY17",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY4->>GTPE2_INT_INTERFACE_IMUX_OUT4": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT4",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY18->>GTPE2_INT_INTERFACE_IMUX_OUT18": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY18",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT18",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX5->>GTPE2_INT_INTERFACE_IMUX_OUT5": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT5",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B18->>INT_INTERFACE_LOGIC_OUTS18": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B18",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS18",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY7->>GTPE2_INT_INTERFACE_IMUX_OUT7": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT7",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX38->>GTPE2_INT_INTERFACE_IMUX_DELAY38": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX38",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY38",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX7->>GTPE2_INT_INTERFACE_IMUX_DELAY7": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY7",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B2->>INT_INTERFACE_LOGIC_OUTS2": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS2",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX1->>GTPE2_INT_INTERFACE_IMUX_DELAY1": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY1",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX30->>GTPE2_INT_INTERFACE_IMUX_DELAY30": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX30",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY30",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY45->>GTPE2_INT_INTERFACE_IMUX_OUT45": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY45",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT45",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B6->>INT_INTERFACE_LOGIC_OUTS6": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS6",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY9->>GTPE2_INT_INTERFACE_IMUX_OUT9": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY9",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT9",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX11->>GTPE2_INT_INTERFACE_IMUX_OUT11": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX11",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT11",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX43->>GTPE2_INT_INTERFACE_IMUX_DELAY43": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX43",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY43",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B13->>INT_INTERFACE_LOGIC_OUTS13": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B13",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS13",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY6->>GTPE2_INT_INTERFACE_IMUX_OUT6": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT6",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY46->>GTPE2_INT_INTERFACE_IMUX_OUT46": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY46",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT46",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY42->>GTPE2_INT_INTERFACE_IMUX_OUT42": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY42",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT42",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX21->>GTPE2_INT_INTERFACE_IMUX_OUT21": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX21",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT21",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B12->>INT_INTERFACE_LOGIC_OUTS12": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B12",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS12",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX31->>GTPE2_INT_INTERFACE_IMUX_OUT31": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX31",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT31",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX41->>GTPE2_INT_INTERFACE_IMUX_OUT41": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX41",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT41",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY28->>GTPE2_INT_INTERFACE_IMUX_OUT28": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY28",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT28",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX47->>GTPE2_INT_INTERFACE_IMUX_DELAY47": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX47",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY47",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY22->>GTPE2_INT_INTERFACE_IMUX_OUT22": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY22",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT22",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY12->>GTPE2_INT_INTERFACE_IMUX_OUT12": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY12",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT12",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX25->>GTPE2_INT_INTERFACE_IMUX_DELAY25": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX25",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY25",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX47->>GTPE2_INT_INTERFACE_IMUX_OUT47": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX47",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT47",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY3->>GTPE2_INT_INTERFACE_IMUX_OUT3": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT3",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY11->>GTPE2_INT_INTERFACE_IMUX_OUT11": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY11",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT11",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B23->>INT_INTERFACE_LOGIC_OUTS23": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B23",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS23",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX44->>GTPE2_INT_INTERFACE_IMUX_DELAY44": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX44",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY44",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX29->>GTPE2_INT_INTERFACE_IMUX_DELAY29": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX29",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY29",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX28->>GTPE2_INT_INTERFACE_IMUX_DELAY28": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX28",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY28",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX34->>GTPE2_INT_INTERFACE_IMUX_OUT34": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX34",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT34",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY0->>GTPE2_INT_INTERFACE_IMUX_OUT0": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT0",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY2->>GTPE2_INT_INTERFACE_IMUX_OUT2": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT2",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY21->>GTPE2_INT_INTERFACE_IMUX_OUT21": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY21",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT21",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY33->>GTPE2_INT_INTERFACE_IMUX_OUT33": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY33",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT33",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B20->>INT_INTERFACE_LOGIC_OUTS20": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B20",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS20",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX2->>GTPE2_INT_INTERFACE_IMUX_DELAY2": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY2",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY24->>GTPE2_INT_INTERFACE_IMUX_OUT24": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY24",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT24",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B22->>INT_INTERFACE_LOGIC_OUTS22": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B22",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS22",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX12->>GTPE2_INT_INTERFACE_IMUX_OUT12": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX12",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT12",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX7->>GTPE2_INT_INTERFACE_IMUX_OUT7": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT7",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY38->>GTPE2_INT_INTERFACE_IMUX_OUT38": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY38",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT38",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY47->>GTPE2_INT_INTERFACE_IMUX_OUT47": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY47",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT47",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX38->>GTPE2_INT_INTERFACE_IMUX_OUT38": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX38",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT38",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX13->>GTPE2_INT_INTERFACE_IMUX_DELAY13": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX13",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY13",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX1->>GTPE2_INT_INTERFACE_IMUX_OUT1": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT1",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY23->>GTPE2_INT_INTERFACE_IMUX_OUT23": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY23",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT23",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX0->>GTPE2_INT_INTERFACE_IMUX_DELAY0": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY0",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX16->>GTPE2_INT_INTERFACE_IMUX_DELAY16": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX16",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY16",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B14->>INT_INTERFACE_LOGIC_OUTS14": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B14",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS14",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX24->>GTPE2_INT_INTERFACE_IMUX_DELAY24": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX24",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY24",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY43->>GTPE2_INT_INTERFACE_IMUX_OUT43": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY43",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT43",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX24->>GTPE2_INT_INTERFACE_IMUX_OUT24": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX24",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT24",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX4->>GTPE2_INT_INTERFACE_IMUX_DELAY4": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY4",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B15->>INT_INTERFACE_LOGIC_OUTS15": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B15",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS15",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX18->>GTPE2_INT_INTERFACE_IMUX_DELAY18": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX18",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY18",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX41->>GTPE2_INT_INTERFACE_IMUX_DELAY41": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX41",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY41",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX35->>GTPE2_INT_INTERFACE_IMUX_DELAY35": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX35",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY35",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX45->>GTPE2_INT_INTERFACE_IMUX_OUT45": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX45",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT45",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY40->>GTPE2_INT_INTERFACE_IMUX_OUT40": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY40",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT40",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX34->>GTPE2_INT_INTERFACE_IMUX_DELAY34": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX34",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY34",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX43->>GTPE2_INT_INTERFACE_IMUX_OUT43": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX43",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT43",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX9->>GTPE2_INT_INTERFACE_IMUX_OUT9": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX9",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT9",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX31->>GTPE2_INT_INTERFACE_IMUX_DELAY31": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX31",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY31",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX33->>GTPE2_INT_INTERFACE_IMUX_OUT33": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX33",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT33",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B9->>INT_INTERFACE_LOGIC_OUTS9": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B9",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS9",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX44->>GTPE2_INT_INTERFACE_IMUX_OUT44": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX44",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT44",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B4->>INT_INTERFACE_LOGIC_OUTS4": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS4",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B8->>INT_INTERFACE_LOGIC_OUTS8": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B8",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS8",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX39->>GTPE2_INT_INTERFACE_IMUX_DELAY39": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX39",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY39",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX6->>GTPE2_INT_INTERFACE_IMUX_OUT6": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT6",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY34->>GTPE2_INT_INTERFACE_IMUX_OUT34": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY34",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT34",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX21->>GTPE2_INT_INTERFACE_IMUX_DELAY21": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX21",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY21",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY1->>GTPE2_INT_INTERFACE_IMUX_OUT1": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT1",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B10->>INT_INTERFACE_LOGIC_OUTS10": {
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B10",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS10",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY32->>GTPE2_INT_INTERFACE_IMUX_OUT32": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY32",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT32",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX37->>GTPE2_INT_INTERFACE_IMUX_OUT37": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX37",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT37",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX_DELAY35->>GTPE2_INT_INTERFACE_IMUX_OUT35": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY35",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_OUT35",
+            "can_invert": "0"
+        },
+        "GTP_INT_INTERFACE.GTPE2_INT_INTERFACE_IMUX33->>GTPE2_INT_INTERFACE_IMUX_DELAY33": {
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX33",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY33",
+            "can_invert": "0"
+        }
+    },
+    "tile_type": "GTP_INT_INTERFACE",
+    "sites": []
 }

@@ -1,210 +1,210 @@
 {
-  "type": "OLOGICE3",
-  "site_pips": {
-    "T2INV:T2": {
-      "to_pin": "OUT",
-      "from_pin": "T2"
+    "site_pins": {
+        "TFB": {
+            "direction": "OUT"
+        },
+        "TBYTEOUT": {
+            "direction": "OUT"
+        },
+        "OFB": {
+            "direction": "OUT"
+        },
+        "OQ": {
+            "direction": "OUT"
+        },
+        "CLKDIV": {
+            "direction": "IN"
+        },
+        "TCE": {
+            "direction": "IN"
+        },
+        "D6": {
+            "direction": "IN"
+        },
+        "D4": {
+            "direction": "IN"
+        },
+        "D8": {
+            "direction": "IN"
+        },
+        "TBYTEIN": {
+            "direction": "IN"
+        },
+        "TQ": {
+            "direction": "OUT"
+        },
+        "SHIFTOUT1": {
+            "direction": "OUT"
+        },
+        "T2": {
+            "direction": "IN"
+        },
+        "CLKDIVFB": {
+            "direction": "IN"
+        },
+        "CLKDIVF": {
+            "direction": "IN"
+        },
+        "IOCLKGLITCH": {
+            "direction": "OUT"
+        },
+        "SHIFTIN1": {
+            "direction": "IN"
+        },
+        "SHIFTOUT2": {
+            "direction": "OUT"
+        },
+        "D7": {
+            "direction": "IN"
+        },
+        "CLKDIVB": {
+            "direction": "IN"
+        },
+        "CLKB": {
+            "direction": "IN"
+        },
+        "D5": {
+            "direction": "IN"
+        },
+        "CLK": {
+            "direction": "IN"
+        },
+        "D2": {
+            "direction": "IN"
+        },
+        "D3": {
+            "direction": "IN"
+        },
+        "T1": {
+            "direction": "IN"
+        },
+        "SHIFTIN2": {
+            "direction": "IN"
+        },
+        "OCE": {
+            "direction": "IN"
+        },
+        "REV": {
+            "direction": "IN"
+        },
+        "SR": {
+            "direction": "IN"
+        },
+        "T3": {
+            "direction": "IN"
+        },
+        "T4": {
+            "direction": "IN"
+        },
+        "D1": {
+            "direction": "IN"
+        }
     },
-    "T1INV:T1_B": {
-      "to_pin": "OUT",
-      "from_pin": "T1_B"
+    "site_pips": {
+        "T1USED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "OREVUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "CLKINV:CLK": {
+            "from_pin": "CLK",
+            "to_pin": "OUT"
+        },
+        "TMUX:T1": {
+            "from_pin": "T1",
+            "to_pin": "OUT"
+        },
+        "CLKINV:CLK_B": {
+            "from_pin": "CLK_B",
+            "to_pin": "OUT"
+        },
+        "D2INV:D2": {
+            "from_pin": "D2",
+            "to_pin": "OUT"
+        },
+        "OMUX:D1": {
+            "from_pin": "D1",
+            "to_pin": "OUT"
+        },
+        "D1INV:D1_B": {
+            "from_pin": "D1_B",
+            "to_pin": "OUT"
+        },
+        "OMUX:OUTFF": {
+            "from_pin": "OUTFF",
+            "to_pin": "OUT"
+        },
+        "TQUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "OFBUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "TFBUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "TCEUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "TMUX:TFF": {
+            "from_pin": "TFF",
+            "to_pin": "OUT"
+        },
+        "O1USED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "T2INV:T2_B": {
+            "from_pin": "T2_B",
+            "to_pin": "OUT"
+        },
+        "T1INV:T1_B": {
+            "from_pin": "T1_B",
+            "to_pin": "OUT"
+        },
+        "T2INV:T2": {
+            "from_pin": "T2",
+            "to_pin": "OUT"
+        },
+        "OQUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "TSRUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "D1INV:D1": {
+            "from_pin": "D1",
+            "to_pin": "OUT"
+        },
+        "OCEUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "TREVUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "T1INV:T1": {
+            "from_pin": "T1",
+            "to_pin": "OUT"
+        },
+        "D2INV:D2_B": {
+            "from_pin": "D2_B",
+            "to_pin": "OUT"
+        },
+        "OSRUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        }
     },
-    "OQUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "OFBUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "T1USED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "D1INV:D1_B": {
-      "to_pin": "OUT",
-      "from_pin": "D1_B"
-    },
-    "TFBUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "CLKINV:CLK_B": {
-      "to_pin": "OUT",
-      "from_pin": "CLK_B"
-    },
-    "OCEUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "D1INV:D1": {
-      "to_pin": "OUT",
-      "from_pin": "D1"
-    },
-    "OREVUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "OSRUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "TQUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "D2INV:D2": {
-      "to_pin": "OUT",
-      "from_pin": "D2"
-    },
-    "O1USED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "CLKINV:CLK": {
-      "to_pin": "OUT",
-      "from_pin": "CLK"
-    },
-    "TMUX:T1": {
-      "to_pin": "OUT",
-      "from_pin": "T1"
-    },
-    "TSRUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "TREVUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "TCEUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "TMUX:TFF": {
-      "to_pin": "OUT",
-      "from_pin": "TFF"
-    },
-    "OMUX:D1": {
-      "to_pin": "OUT",
-      "from_pin": "D1"
-    },
-    "OMUX:OUTFF": {
-      "to_pin": "OUT",
-      "from_pin": "OUTFF"
-    },
-    "T1INV:T1": {
-      "to_pin": "OUT",
-      "from_pin": "T1"
-    },
-    "D2INV:D2_B": {
-      "to_pin": "OUT",
-      "from_pin": "D2_B"
-    },
-    "T2INV:T2_B": {
-      "to_pin": "OUT",
-      "from_pin": "T2_B"
-    }
-  },
-  "site_pins": {
-    "T2": {
-      "direction": "IN"
-    },
-    "D1": {
-      "direction": "IN"
-    },
-    "TBYTEOUT": {
-      "direction": "OUT"
-    },
-    "D6": {
-      "direction": "IN"
-    },
-    "D3": {
-      "direction": "IN"
-    },
-    "D8": {
-      "direction": "IN"
-    },
-    "CLKDIVB": {
-      "direction": "IN"
-    },
-    "CLKB": {
-      "direction": "IN"
-    },
-    "REV": {
-      "direction": "IN"
-    },
-    "T1": {
-      "direction": "IN"
-    },
-    "D5": {
-      "direction": "IN"
-    },
-    "TFB": {
-      "direction": "OUT"
-    },
-    "SHIFTIN1": {
-      "direction": "IN"
-    },
-    "SHIFTOUT1": {
-      "direction": "OUT"
-    },
-    "T4": {
-      "direction": "IN"
-    },
-    "D4": {
-      "direction": "IN"
-    },
-    "TQ": {
-      "direction": "OUT"
-    },
-    "D2": {
-      "direction": "IN"
-    },
-    "T3": {
-      "direction": "IN"
-    },
-    "OCE": {
-      "direction": "IN"
-    },
-    "SHIFTOUT2": {
-      "direction": "OUT"
-    },
-    "OFB": {
-      "direction": "OUT"
-    },
-    "CLKDIVF": {
-      "direction": "IN"
-    },
-    "OQ": {
-      "direction": "OUT"
-    },
-    "SHIFTIN2": {
-      "direction": "IN"
-    },
-    "SR": {
-      "direction": "IN"
-    },
-    "IOCLKGLITCH": {
-      "direction": "OUT"
-    },
-    "CLKDIVFB": {
-      "direction": "IN"
-    },
-    "TCE": {
-      "direction": "IN"
-    },
-    "TBYTEIN": {
-      "direction": "IN"
-    },
-    "D7": {
-      "direction": "IN"
-    },
-    "CLK": {
-      "direction": "IN"
-    },
-    "CLKDIV": {
-      "direction": "IN"
-    }
-  }
+    "type": "OLOGICE3"
 }

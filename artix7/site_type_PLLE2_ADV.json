@@ -1,493 +1,493 @@
 {
-  "type": "PLLE2_ADV",
-  "site_pips": {
-    "CLKINSELINV:CLKINSEL": {
-      "to_pin": "OUT",
-      "from_pin": "CLKINSEL"
-    },
-    "RSTINV:RST": {
-      "to_pin": "OUT",
-      "from_pin": "RST"
-    },
-    "RSTINV:RST_B": {
-      "to_pin": "OUT",
-      "from_pin": "RST_B"
-    },
-    "PWRDWNINV:PWRDWN_B": {
-      "to_pin": "OUT",
-      "from_pin": "PWRDWN_B"
-    },
-    "CLKINSELINV:CLKINSEL_B": {
-      "to_pin": "OUT",
-      "from_pin": "CLKINSEL_B"
-    },
-    "PWRDWNINV:PWRDWN": {
-      "to_pin": "OUT",
-      "from_pin": "PWRDWN"
-    }
-  },
-  "site_pins": {
-    "TESTIN15": {
-      "direction": "IN"
-    },
-    "DO9": {
-      "direction": "OUT"
-    },
-    "DI0": {
-      "direction": "IN"
-    },
-    "TESTOUT57": {
-      "direction": "OUT"
-    },
-    "TMUXOUT": {
-      "direction": "OUT"
-    },
-    "CLKIN1": {
-      "direction": "IN"
-    },
-    "DI15": {
-      "direction": "IN"
-    },
-    "TESTIN5": {
-      "direction": "IN"
-    },
-    "TESTOUT0": {
-      "direction": "OUT"
-    },
-    "DADDR0": {
-      "direction": "IN"
-    },
-    "TESTOUT21": {
-      "direction": "OUT"
-    },
-    "TESTOUT22": {
-      "direction": "OUT"
-    },
-    "TESTOUT31": {
-      "direction": "OUT"
-    },
-    "TESTOUT14": {
-      "direction": "OUT"
-    },
-    "TESTOUT62": {
-      "direction": "OUT"
-    },
-    "TESTIN17": {
-      "direction": "IN"
-    },
-    "TESTIN20": {
-      "direction": "IN"
-    },
-    "DO14": {
-      "direction": "OUT"
-    },
-    "TESTIN27": {
-      "direction": "IN"
-    },
-    "CLKOUT5": {
-      "direction": "OUT"
-    },
-    "TESTOUT7": {
-      "direction": "OUT"
-    },
-    "TESTOUT43": {
-      "direction": "OUT"
-    },
-    "TESTIN14": {
-      "direction": "IN"
-    },
-    "DRDY": {
-      "direction": "OUT"
-    },
-    "TESTOUT36": {
-      "direction": "OUT"
-    },
-    "DO5": {
-      "direction": "OUT"
-    },
-    "TESTIN25": {
-      "direction": "IN"
-    },
-    "TESTOUT27": {
-      "direction": "OUT"
-    },
-    "TESTOUT8": {
-      "direction": "OUT"
-    },
-    "DADDR6": {
-      "direction": "IN"
-    },
-    "TESTIN7": {
-      "direction": "IN"
-    },
-    "TESTIN3": {
-      "direction": "IN"
-    },
-    "TESTOUT26": {
-      "direction": "OUT"
-    },
-    "TESTOUT40": {
-      "direction": "OUT"
-    },
-    "TESTOUT1": {
-      "direction": "OUT"
-    },
-    "DI3": {
-      "direction": "IN"
-    },
-    "TESTOUT11": {
-      "direction": "OUT"
-    },
-    "TESTOUT51": {
-      "direction": "OUT"
-    },
-    "TESTIN16": {
-      "direction": "IN"
-    },
-    "TESTOUT45": {
-      "direction": "OUT"
-    },
-    "TESTIN8": {
-      "direction": "IN"
-    },
-    "DEN": {
-      "direction": "IN"
-    },
-    "TESTIN22": {
-      "direction": "IN"
-    },
-    "TESTOUT23": {
-      "direction": "OUT"
-    },
-    "TESTOUT48": {
-      "direction": "OUT"
-    },
-    "DADDR1": {
-      "direction": "IN"
-    },
-    "DO3": {
-      "direction": "OUT"
-    },
-    "TESTOUT50": {
-      "direction": "OUT"
-    },
-    "TESTOUT32": {
-      "direction": "OUT"
-    },
-    "CLKFBIN": {
-      "direction": "IN"
-    },
-    "DO8": {
-      "direction": "OUT"
-    },
-    "TESTIN2": {
-      "direction": "IN"
-    },
-    "DO1": {
-      "direction": "OUT"
-    },
-    "TESTIN21": {
-      "direction": "IN"
-    },
-    "DI13": {
-      "direction": "IN"
-    },
-    "DO12": {
-      "direction": "OUT"
-    },
-    "TESTOUT33": {
-      "direction": "OUT"
-    },
-    "DI6": {
-      "direction": "IN"
-    },
-    "TESTIN26": {
-      "direction": "IN"
-    },
-    "CLKINSEL": {
-      "direction": "IN"
-    },
-    "DI8": {
-      "direction": "IN"
-    },
-    "TESTOUT55": {
-      "direction": "OUT"
-    },
-    "TESTOUT60": {
-      "direction": "OUT"
-    },
-    "DADDR4": {
-      "direction": "IN"
-    },
-    "DADDR2": {
-      "direction": "IN"
-    },
-    "TESTOUT4": {
-      "direction": "OUT"
-    },
-    "TESTOUT38": {
-      "direction": "OUT"
-    },
-    "DO10": {
-      "direction": "OUT"
-    },
-    "CLKOUT0": {
-      "direction": "OUT"
-    },
-    "TESTIN30": {
-      "direction": "IN"
-    },
-    "TESTIN18": {
-      "direction": "IN"
-    },
-    "TESTOUT6": {
-      "direction": "OUT"
-    },
-    "TESTOUT58": {
-      "direction": "OUT"
-    },
-    "TESTOUT53": {
-      "direction": "OUT"
-    },
-    "CLKFBOUT": {
-      "direction": "OUT"
-    },
-    "TESTIN28": {
-      "direction": "IN"
-    },
-    "TESTIN9": {
-      "direction": "IN"
-    },
-    "TESTOUT20": {
-      "direction": "OUT"
-    },
-    "TESTIN12": {
-      "direction": "IN"
-    },
-    "DO13": {
-      "direction": "OUT"
-    },
-    "DI2": {
-      "direction": "IN"
-    },
-    "DO0": {
-      "direction": "OUT"
-    },
-    "DO11": {
-      "direction": "OUT"
-    },
-    "TESTIN19": {
-      "direction": "IN"
-    },
-    "DI12": {
-      "direction": "IN"
-    },
-    "LOCKED": {
-      "direction": "OUT"
-    },
-    "TESTIN4": {
-      "direction": "IN"
-    },
-    "TESTOUT15": {
-      "direction": "OUT"
-    },
-    "DO6": {
-      "direction": "OUT"
-    },
-    "TESTOUT19": {
-      "direction": "OUT"
-    },
-    "TESTOUT24": {
-      "direction": "OUT"
-    },
-    "TESTOUT61": {
-      "direction": "OUT"
-    },
-    "TESTOUT59": {
-      "direction": "OUT"
-    },
-    "DI1": {
-      "direction": "IN"
-    },
-    "DI14": {
-      "direction": "IN"
-    },
-    "TESTOUT37": {
-      "direction": "OUT"
-    },
-    "TESTOUT46": {
-      "direction": "OUT"
-    },
-    "CLKOUT1": {
-      "direction": "OUT"
-    },
-    "TESTOUT54": {
-      "direction": "OUT"
-    },
-    "TESTOUT44": {
-      "direction": "OUT"
-    },
-    "TESTOUT29": {
-      "direction": "OUT"
-    },
-    "TESTOUT9": {
-      "direction": "OUT"
-    },
-    "TESTOUT3": {
-      "direction": "OUT"
-    },
-    "TESTIN23": {
-      "direction": "IN"
-    },
-    "DO15": {
-      "direction": "OUT"
-    },
-    "CLKIN2": {
-      "direction": "IN"
-    },
-    "DI10": {
-      "direction": "IN"
-    },
-    "TESTOUT13": {
-      "direction": "OUT"
-    },
-    "DO7": {
-      "direction": "OUT"
-    },
-    "TESTIN6": {
-      "direction": "IN"
-    },
-    "TESTOUT49": {
-      "direction": "OUT"
-    },
-    "TESTOUT5": {
-      "direction": "OUT"
-    },
-    "DI4": {
-      "direction": "IN"
-    },
-    "TESTIN13": {
-      "direction": "IN"
-    },
-    "TESTOUT28": {
-      "direction": "OUT"
-    },
-    "TESTIN1": {
-      "direction": "IN"
-    },
-    "DI5": {
-      "direction": "IN"
-    },
-    "CLKOUT3": {
-      "direction": "OUT"
-    },
-    "TESTOUT34": {
-      "direction": "OUT"
-    },
-    "TESTOUT56": {
-      "direction": "OUT"
-    },
-    "DI11": {
-      "direction": "IN"
-    },
-    "TESTOUT10": {
-      "direction": "OUT"
-    },
-    "TESTOUT47": {
-      "direction": "OUT"
-    },
-    "TESTIN29": {
-      "direction": "IN"
-    },
-    "DWE": {
-      "direction": "IN"
-    },
-    "TESTOUT16": {
-      "direction": "OUT"
-    },
-    "TESTOUT35": {
-      "direction": "OUT"
-    },
-    "TESTIN10": {
-      "direction": "IN"
-    },
-    "TESTIN11": {
-      "direction": "IN"
-    },
-    "TESTOUT63": {
-      "direction": "OUT"
-    },
-    "CLKOUT2": {
-      "direction": "OUT"
-    },
-    "DI7": {
-      "direction": "IN"
-    },
-    "DO4": {
-      "direction": "OUT"
-    },
-    "DCLK": {
-      "direction": "IN"
-    },
-    "TESTOUT25": {
-      "direction": "OUT"
-    },
-    "DADDR3": {
-      "direction": "IN"
-    },
-    "TESTOUT41": {
-      "direction": "OUT"
-    },
-    "RST": {
-      "direction": "IN"
-    },
-    "TESTOUT42": {
-      "direction": "OUT"
-    },
-    "TESTOUT52": {
-      "direction": "OUT"
-    },
-    "TESTOUT39": {
-      "direction": "OUT"
-    },
-    "DADDR5": {
-      "direction": "IN"
-    },
-    "TESTOUT17": {
-      "direction": "OUT"
-    },
-    "DO2": {
-      "direction": "OUT"
-    },
-    "TESTIN0": {
-      "direction": "IN"
-    },
-    "TESTOUT12": {
-      "direction": "OUT"
-    },
-    "TESTOUT30": {
-      "direction": "OUT"
-    },
-    "TESTIN24": {
-      "direction": "IN"
-    },
-    "PWRDWN": {
-      "direction": "IN"
-    },
-    "TESTIN31": {
-      "direction": "IN"
-    },
-    "TESTOUT2": {
-      "direction": "OUT"
-    },
-    "DI9": {
-      "direction": "IN"
-    },
-    "TESTOUT18": {
-      "direction": "OUT"
-    },
-    "CLKOUT4": {
-      "direction": "OUT"
-    }
-  }
+    "site_pins": {
+        "TESTOUT13": {
+            "direction": "OUT"
+        },
+        "DO1": {
+            "direction": "OUT"
+        },
+        "TESTOUT10": {
+            "direction": "OUT"
+        },
+        "CLKOUT1": {
+            "direction": "OUT"
+        },
+        "TESTOUT41": {
+            "direction": "OUT"
+        },
+        "DI5": {
+            "direction": "IN"
+        },
+        "DO13": {
+            "direction": "OUT"
+        },
+        "TESTOUT56": {
+            "direction": "OUT"
+        },
+        "DO4": {
+            "direction": "OUT"
+        },
+        "TESTOUT23": {
+            "direction": "OUT"
+        },
+        "DO11": {
+            "direction": "OUT"
+        },
+        "TESTIN1": {
+            "direction": "IN"
+        },
+        "TESTOUT17": {
+            "direction": "OUT"
+        },
+        "DO9": {
+            "direction": "OUT"
+        },
+        "TESTIN24": {
+            "direction": "IN"
+        },
+        "TESTIN18": {
+            "direction": "IN"
+        },
+        "TESTOUT54": {
+            "direction": "OUT"
+        },
+        "TESTIN20": {
+            "direction": "IN"
+        },
+        "TESTOUT11": {
+            "direction": "OUT"
+        },
+        "TESTIN6": {
+            "direction": "IN"
+        },
+        "TESTOUT62": {
+            "direction": "OUT"
+        },
+        "DWE": {
+            "direction": "IN"
+        },
+        "TESTOUT22": {
+            "direction": "OUT"
+        },
+        "TESTIN19": {
+            "direction": "IN"
+        },
+        "DI4": {
+            "direction": "IN"
+        },
+        "TESTIN13": {
+            "direction": "IN"
+        },
+        "DI0": {
+            "direction": "IN"
+        },
+        "DRDY": {
+            "direction": "OUT"
+        },
+        "TESTOUT28": {
+            "direction": "OUT"
+        },
+        "DI3": {
+            "direction": "IN"
+        },
+        "DI13": {
+            "direction": "IN"
+        },
+        "DADDR5": {
+            "direction": "IN"
+        },
+        "TESTOUT9": {
+            "direction": "OUT"
+        },
+        "TESTIN3": {
+            "direction": "IN"
+        },
+        "TESTOUT4": {
+            "direction": "OUT"
+        },
+        "TESTOUT15": {
+            "direction": "OUT"
+        },
+        "DI6": {
+            "direction": "IN"
+        },
+        "TESTIN14": {
+            "direction": "IN"
+        },
+        "DI11": {
+            "direction": "IN"
+        },
+        "TESTOUT33": {
+            "direction": "OUT"
+        },
+        "TESTIN27": {
+            "direction": "IN"
+        },
+        "TESTOUT0": {
+            "direction": "OUT"
+        },
+        "TESTOUT49": {
+            "direction": "OUT"
+        },
+        "TESTOUT16": {
+            "direction": "OUT"
+        },
+        "TESTOUT7": {
+            "direction": "OUT"
+        },
+        "DADDR4": {
+            "direction": "IN"
+        },
+        "TESTOUT50": {
+            "direction": "OUT"
+        },
+        "TESTOUT5": {
+            "direction": "OUT"
+        },
+        "DO12": {
+            "direction": "OUT"
+        },
+        "TESTOUT57": {
+            "direction": "OUT"
+        },
+        "TESTOUT31": {
+            "direction": "OUT"
+        },
+        "TESTIN17": {
+            "direction": "IN"
+        },
+        "DI2": {
+            "direction": "IN"
+        },
+        "TESTOUT32": {
+            "direction": "OUT"
+        },
+        "CLKOUT0": {
+            "direction": "OUT"
+        },
+        "TESTIN9": {
+            "direction": "IN"
+        },
+        "DI9": {
+            "direction": "IN"
+        },
+        "PWRDWN": {
+            "direction": "IN"
+        },
+        "TESTOUT59": {
+            "direction": "OUT"
+        },
+        "CLKOUT4": {
+            "direction": "OUT"
+        },
+        "TMUXOUT": {
+            "direction": "OUT"
+        },
+        "TESTOUT24": {
+            "direction": "OUT"
+        },
+        "CLKFBOUT": {
+            "direction": "OUT"
+        },
+        "TESTIN4": {
+            "direction": "IN"
+        },
+        "TESTOUT63": {
+            "direction": "OUT"
+        },
+        "DADDR0": {
+            "direction": "IN"
+        },
+        "DCLK": {
+            "direction": "IN"
+        },
+        "TESTOUT21": {
+            "direction": "OUT"
+        },
+        "DI15": {
+            "direction": "IN"
+        },
+        "CLKOUT5": {
+            "direction": "OUT"
+        },
+        "TESTIN11": {
+            "direction": "IN"
+        },
+        "TESTIN7": {
+            "direction": "IN"
+        },
+        "TESTOUT12": {
+            "direction": "OUT"
+        },
+        "TESTIN30": {
+            "direction": "IN"
+        },
+        "TESTOUT36": {
+            "direction": "OUT"
+        },
+        "DI7": {
+            "direction": "IN"
+        },
+        "TESTOUT6": {
+            "direction": "OUT"
+        },
+        "TESTIN25": {
+            "direction": "IN"
+        },
+        "CLKOUT3": {
+            "direction": "OUT"
+        },
+        "DO14": {
+            "direction": "OUT"
+        },
+        "TESTOUT14": {
+            "direction": "OUT"
+        },
+        "TESTIN0": {
+            "direction": "IN"
+        },
+        "CLKIN1": {
+            "direction": "IN"
+        },
+        "TESTOUT38": {
+            "direction": "OUT"
+        },
+        "DADDR1": {
+            "direction": "IN"
+        },
+        "TESTOUT1": {
+            "direction": "OUT"
+        },
+        "TESTOUT3": {
+            "direction": "OUT"
+        },
+        "TESTOUT45": {
+            "direction": "OUT"
+        },
+        "TESTIN26": {
+            "direction": "IN"
+        },
+        "TESTOUT60": {
+            "direction": "OUT"
+        },
+        "LOCKED": {
+            "direction": "OUT"
+        },
+        "TESTOUT55": {
+            "direction": "OUT"
+        },
+        "DO0": {
+            "direction": "OUT"
+        },
+        "DI10": {
+            "direction": "IN"
+        },
+        "TESTIN2": {
+            "direction": "IN"
+        },
+        "TESTIN15": {
+            "direction": "IN"
+        },
+        "DADDR3": {
+            "direction": "IN"
+        },
+        "TESTIN8": {
+            "direction": "IN"
+        },
+        "DEN": {
+            "direction": "IN"
+        },
+        "TESTOUT53": {
+            "direction": "OUT"
+        },
+        "TESTOUT27": {
+            "direction": "OUT"
+        },
+        "TESTOUT37": {
+            "direction": "OUT"
+        },
+        "TESTIN31": {
+            "direction": "IN"
+        },
+        "TESTIN22": {
+            "direction": "IN"
+        },
+        "DADDR6": {
+            "direction": "IN"
+        },
+        "TESTIN29": {
+            "direction": "IN"
+        },
+        "TESTOUT51": {
+            "direction": "OUT"
+        },
+        "TESTOUT29": {
+            "direction": "OUT"
+        },
+        "TESTOUT39": {
+            "direction": "OUT"
+        },
+        "DO15": {
+            "direction": "OUT"
+        },
+        "DI12": {
+            "direction": "IN"
+        },
+        "TESTOUT35": {
+            "direction": "OUT"
+        },
+        "TESTIN16": {
+            "direction": "IN"
+        },
+        "TESTOUT47": {
+            "direction": "OUT"
+        },
+        "DADDR2": {
+            "direction": "IN"
+        },
+        "TESTOUT2": {
+            "direction": "OUT"
+        },
+        "TESTOUT58": {
+            "direction": "OUT"
+        },
+        "TESTIN5": {
+            "direction": "IN"
+        },
+        "TESTOUT18": {
+            "direction": "OUT"
+        },
+        "TESTOUT52": {
+            "direction": "OUT"
+        },
+        "TESTOUT40": {
+            "direction": "OUT"
+        },
+        "DO5": {
+            "direction": "OUT"
+        },
+        "TESTIN21": {
+            "direction": "IN"
+        },
+        "DO6": {
+            "direction": "OUT"
+        },
+        "CLKFBIN": {
+            "direction": "IN"
+        },
+        "RST": {
+            "direction": "IN"
+        },
+        "TESTOUT8": {
+            "direction": "OUT"
+        },
+        "DO2": {
+            "direction": "OUT"
+        },
+        "DO7": {
+            "direction": "OUT"
+        },
+        "TESTIN28": {
+            "direction": "IN"
+        },
+        "TESTOUT25": {
+            "direction": "OUT"
+        },
+        "TESTOUT61": {
+            "direction": "OUT"
+        },
+        "CLKINSEL": {
+            "direction": "IN"
+        },
+        "DI1": {
+            "direction": "IN"
+        },
+        "DI8": {
+            "direction": "IN"
+        },
+        "CLKOUT2": {
+            "direction": "OUT"
+        },
+        "CLKIN2": {
+            "direction": "IN"
+        },
+        "DO8": {
+            "direction": "OUT"
+        },
+        "TESTOUT48": {
+            "direction": "OUT"
+        },
+        "TESTOUT20": {
+            "direction": "OUT"
+        },
+        "TESTIN23": {
+            "direction": "IN"
+        },
+        "TESTOUT34": {
+            "direction": "OUT"
+        },
+        "DI14": {
+            "direction": "IN"
+        },
+        "TESTOUT46": {
+            "direction": "OUT"
+        },
+        "TESTOUT42": {
+            "direction": "OUT"
+        },
+        "TESTIN12": {
+            "direction": "IN"
+        },
+        "DO3": {
+            "direction": "OUT"
+        },
+        "TESTOUT44": {
+            "direction": "OUT"
+        },
+        "TESTOUT43": {
+            "direction": "OUT"
+        },
+        "TESTIN10": {
+            "direction": "IN"
+        },
+        "TESTOUT30": {
+            "direction": "OUT"
+        },
+        "TESTOUT19": {
+            "direction": "OUT"
+        },
+        "DO10": {
+            "direction": "OUT"
+        },
+        "TESTOUT26": {
+            "direction": "OUT"
+        }
+    },
+    "site_pips": {
+        "CLKINSELINV:CLKINSEL_B": {
+            "from_pin": "CLKINSEL_B",
+            "to_pin": "OUT"
+        },
+        "RSTINV:RST_B": {
+            "from_pin": "RST_B",
+            "to_pin": "OUT"
+        },
+        "RSTINV:RST": {
+            "from_pin": "RST",
+            "to_pin": "OUT"
+        },
+        "CLKINSELINV:CLKINSEL": {
+            "from_pin": "CLKINSEL",
+            "to_pin": "OUT"
+        },
+        "PWRDWNINV:PWRDWN": {
+            "from_pin": "PWRDWN",
+            "to_pin": "OUT"
+        },
+        "PWRDWNINV:PWRDWN_B": {
+            "from_pin": "PWRDWN_B",
+            "to_pin": "OUT"
+        }
+    },
+    "type": "PLLE2_ADV"
 }

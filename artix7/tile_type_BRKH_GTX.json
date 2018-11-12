@@ -1,104 +1,104 @@
 {
-  "pips": {
-    "BRKH_GTX.BRKH_GTX_SOUTHREFCLK1_UPPER->BRKH_GTX_SOUTHREFCLK1_LOWER": {
-      "can_invert": "0",
-      "src_wire": "BRKH_GTX_SOUTHREFCLK1_UPPER",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "BRKH_GTX_SOUTHREFCLK1_LOWER"
+    "wires": [
+        "BRKH_GTX_NORTHREFCLK0_UPPER",
+        "BRKH_GTX_REFCLK0_UPPER",
+        "BRKH_GTX_SOUTHREFCLK0_UPPER",
+        "BRKH_GTX_SOUTHREFCLK1_UPPER",
+        "BRKH_GTX_SOUTHREFCLK0_LOWER",
+        "BRKH_GTX_NORTHREFCLK1_UPPER",
+        "BRKH_GTX_REFCLK1_LOWER",
+        "BRKH_GTX_REFCLK1_UPPER",
+        "BRKH_GTX_REFCLK0_LOWER",
+        "BRKH_GTX_SOUTHREFCLK1_LOWER",
+        "BRKH_GTX_NORTHREFCLK1_LOWER",
+        "BRKH_GTX_NORTHREFCLK0_LOWER"
+    ],
+    "pips": {
+        "BRKH_GTX.BRKH_GTX_REFCLK0_LOWER->BRKH_GTX_NORTHREFCLK0_UPPER": {
+            "src_wire": "BRKH_GTX_REFCLK0_LOWER",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "BRKH_GTX_NORTHREFCLK0_UPPER"
+        },
+        "BRKH_GTX.BRKH_GTX_SOUTHREFCLK1_UPPER->BRKH_GTX_SOUTHREFCLK1_LOWER": {
+            "src_wire": "BRKH_GTX_SOUTHREFCLK1_UPPER",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "BRKH_GTX_SOUTHREFCLK1_LOWER"
+        },
+        "BRKH_GTX.BRKH_GTX_NORTHREFCLK1_LOWER->BRKH_GTX_NORTHREFCLK1_UPPER": {
+            "src_wire": "BRKH_GTX_NORTHREFCLK1_LOWER",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "BRKH_GTX_NORTHREFCLK1_UPPER"
+        },
+        "BRKH_GTX.BRKH_GTX_REFCLK1_UPPER->BRKH_GTX_SOUTHREFCLK1_LOWER": {
+            "src_wire": "BRKH_GTX_REFCLK1_UPPER",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "BRKH_GTX_SOUTHREFCLK1_LOWER"
+        },
+        "BRKH_GTX.BRKH_GTX_SOUTHREFCLK0_UPPER->BRKH_GTX_SOUTHREFCLK0_LOWER": {
+            "src_wire": "BRKH_GTX_SOUTHREFCLK0_UPPER",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "BRKH_GTX_SOUTHREFCLK0_LOWER"
+        },
+        "BRKH_GTX.BRKH_GTX_REFCLK1_LOWER->BRKH_GTX_NORTHREFCLK0_UPPER": {
+            "src_wire": "BRKH_GTX_REFCLK1_LOWER",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "BRKH_GTX_NORTHREFCLK0_UPPER"
+        },
+        "BRKH_GTX.BRKH_GTX_REFCLK1_LOWER->BRKH_GTX_NORTHREFCLK1_UPPER": {
+            "src_wire": "BRKH_GTX_REFCLK1_LOWER",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "BRKH_GTX_NORTHREFCLK1_UPPER"
+        },
+        "BRKH_GTX.BRKH_GTX_REFCLK0_UPPER->BRKH_GTX_SOUTHREFCLK0_LOWER": {
+            "src_wire": "BRKH_GTX_REFCLK0_UPPER",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "BRKH_GTX_SOUTHREFCLK0_LOWER"
+        },
+        "BRKH_GTX.BRKH_GTX_REFCLK1_UPPER->BRKH_GTX_SOUTHREFCLK0_LOWER": {
+            "src_wire": "BRKH_GTX_REFCLK1_UPPER",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "BRKH_GTX_SOUTHREFCLK0_LOWER"
+        },
+        "BRKH_GTX.BRKH_GTX_NORTHREFCLK0_LOWER->BRKH_GTX_NORTHREFCLK0_UPPER": {
+            "src_wire": "BRKH_GTX_NORTHREFCLK0_LOWER",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "BRKH_GTX_NORTHREFCLK0_UPPER"
+        },
+        "BRKH_GTX.BRKH_GTX_REFCLK0_UPPER->BRKH_GTX_SOUTHREFCLK1_LOWER": {
+            "src_wire": "BRKH_GTX_REFCLK0_UPPER",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "BRKH_GTX_SOUTHREFCLK1_LOWER"
+        },
+        "BRKH_GTX.BRKH_GTX_REFCLK0_LOWER->BRKH_GTX_NORTHREFCLK1_UPPER": {
+            "src_wire": "BRKH_GTX_REFCLK0_LOWER",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "can_invert": "0",
+            "dst_wire": "BRKH_GTX_NORTHREFCLK1_UPPER"
+        }
     },
-    "BRKH_GTX.BRKH_GTX_REFCLK1_UPPER->BRKH_GTX_SOUTHREFCLK1_LOWER": {
-      "can_invert": "0",
-      "src_wire": "BRKH_GTX_REFCLK1_UPPER",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "BRKH_GTX_SOUTHREFCLK1_LOWER"
-    },
-    "BRKH_GTX.BRKH_GTX_REFCLK0_UPPER->BRKH_GTX_SOUTHREFCLK1_LOWER": {
-      "can_invert": "0",
-      "src_wire": "BRKH_GTX_REFCLK0_UPPER",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "BRKH_GTX_SOUTHREFCLK1_LOWER"
-    },
-    "BRKH_GTX.BRKH_GTX_SOUTHREFCLK0_UPPER->BRKH_GTX_SOUTHREFCLK0_LOWER": {
-      "can_invert": "0",
-      "src_wire": "BRKH_GTX_SOUTHREFCLK0_UPPER",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "BRKH_GTX_SOUTHREFCLK0_LOWER"
-    },
-    "BRKH_GTX.BRKH_GTX_REFCLK0_UPPER->BRKH_GTX_SOUTHREFCLK0_LOWER": {
-      "can_invert": "0",
-      "src_wire": "BRKH_GTX_REFCLK0_UPPER",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "BRKH_GTX_SOUTHREFCLK0_LOWER"
-    },
-    "BRKH_GTX.BRKH_GTX_REFCLK1_UPPER->BRKH_GTX_SOUTHREFCLK0_LOWER": {
-      "can_invert": "0",
-      "src_wire": "BRKH_GTX_REFCLK1_UPPER",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "BRKH_GTX_SOUTHREFCLK0_LOWER"
-    },
-    "BRKH_GTX.BRKH_GTX_NORTHREFCLK0_LOWER->BRKH_GTX_NORTHREFCLK0_UPPER": {
-      "can_invert": "0",
-      "src_wire": "BRKH_GTX_NORTHREFCLK0_LOWER",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "BRKH_GTX_NORTHREFCLK0_UPPER"
-    },
-    "BRKH_GTX.BRKH_GTX_NORTHREFCLK1_LOWER->BRKH_GTX_NORTHREFCLK1_UPPER": {
-      "can_invert": "0",
-      "src_wire": "BRKH_GTX_NORTHREFCLK1_LOWER",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "BRKH_GTX_NORTHREFCLK1_UPPER"
-    },
-    "BRKH_GTX.BRKH_GTX_REFCLK0_LOWER->BRKH_GTX_NORTHREFCLK0_UPPER": {
-      "can_invert": "0",
-      "src_wire": "BRKH_GTX_REFCLK0_LOWER",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "BRKH_GTX_NORTHREFCLK0_UPPER"
-    },
-    "BRKH_GTX.BRKH_GTX_REFCLK0_LOWER->BRKH_GTX_NORTHREFCLK1_UPPER": {
-      "can_invert": "0",
-      "src_wire": "BRKH_GTX_REFCLK0_LOWER",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "BRKH_GTX_NORTHREFCLK1_UPPER"
-    },
-    "BRKH_GTX.BRKH_GTX_REFCLK1_LOWER->BRKH_GTX_NORTHREFCLK0_UPPER": {
-      "can_invert": "0",
-      "src_wire": "BRKH_GTX_REFCLK1_LOWER",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "BRKH_GTX_NORTHREFCLK0_UPPER"
-    },
-    "BRKH_GTX.BRKH_GTX_REFCLK1_LOWER->BRKH_GTX_NORTHREFCLK1_UPPER": {
-      "can_invert": "0",
-      "src_wire": "BRKH_GTX_REFCLK1_LOWER",
-      "is_directional": "1",
-      "is_pseudo": "0",
-      "dst_wire": "BRKH_GTX_NORTHREFCLK1_UPPER"
-    }
-  },
-  "wires": [
-    "BRKH_GTX_SOUTHREFCLK0_UPPER",
-    "BRKH_GTX_REFCLK0_UPPER",
-    "BRKH_GTX_NORTHREFCLK0_LOWER",
-    "BRKH_GTX_REFCLK1_LOWER",
-    "BRKH_GTX_NORTHREFCLK1_LOWER",
-    "BRKH_GTX_SOUTHREFCLK1_LOWER",
-    "BRKH_GTX_NORTHREFCLK0_UPPER",
-    "BRKH_GTX_NORTHREFCLK1_UPPER",
-    "BRKH_GTX_REFCLK0_LOWER",
-    "BRKH_GTX_REFCLK1_UPPER",
-    "BRKH_GTX_SOUTHREFCLK1_UPPER",
-    "BRKH_GTX_SOUTHREFCLK0_LOWER"
-  ],
-  "tile_type": "BRKH_GTX",
-  "sites": []
+    "tile_type": "BRKH_GTX",
+    "sites": []
 }

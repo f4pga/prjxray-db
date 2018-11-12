@@ -1,453 +1,453 @@
 {
-  "type": "OUT_FIFO",
-  "site_pips": {},
-  "site_pins": {
-    "SCANIN2": {
-      "direction": "IN"
-    },
-    "Q83": {
-      "direction": "OUT"
-    },
-    "D07": {
-      "direction": "IN"
-    },
-    "D31": {
-      "direction": "IN"
-    },
-    "D75": {
-      "direction": "IN"
-    },
-    "Q62": {
-      "direction": "OUT"
-    },
-    "D12": {
-      "direction": "IN"
-    },
-    "D67": {
-      "direction": "IN"
-    },
-    "Q53": {
-      "direction": "OUT"
-    },
-    "D90": {
-      "direction": "IN"
-    },
-    "ALMOSTEMPTY": {
-      "direction": "OUT"
-    },
-    "Q67": {
-      "direction": "OUT"
-    },
-    "D13": {
-      "direction": "IN"
-    },
-    "D72": {
-      "direction": "IN"
-    },
-    "RDCLK": {
-      "direction": "IN"
-    },
-    "Q81": {
-      "direction": "OUT"
-    },
-    "D22": {
-      "direction": "IN"
-    },
-    "D46": {
-      "direction": "IN"
-    },
-    "Q82": {
-      "direction": "OUT"
-    },
-    "Q03": {
-      "direction": "OUT"
-    },
-    "D87": {
-      "direction": "IN"
-    },
-    "Q10": {
-      "direction": "OUT"
-    },
-    "Q21": {
-      "direction": "OUT"
-    },
-    "D20": {
-      "direction": "IN"
-    },
-    "Q70": {
-      "direction": "OUT"
-    },
-    "SCANIN1": {
-      "direction": "IN"
-    },
-    "SCANENB": {
-      "direction": "IN"
-    },
-    "D24": {
-      "direction": "IN"
-    },
-    "D80": {
-      "direction": "IN"
-    },
-    "ALMOSTFULL": {
-      "direction": "OUT"
-    },
-    "D44": {
-      "direction": "IN"
-    },
-    "D37": {
-      "direction": "IN"
-    },
-    "Q41": {
-      "direction": "OUT"
-    },
-    "Q43": {
-      "direction": "OUT"
-    },
-    "Q55": {
-      "direction": "OUT"
-    },
-    "Q13": {
-      "direction": "OUT"
-    },
-    "SCANOUT1": {
-      "direction": "OUT"
-    },
-    "D73": {
-      "direction": "IN"
-    },
-    "Q22": {
-      "direction": "OUT"
-    },
-    "SCANOUT2": {
-      "direction": "OUT"
-    },
-    "D27": {
-      "direction": "IN"
-    },
-    "Q42": {
-      "direction": "OUT"
-    },
-    "D94": {
-      "direction": "IN"
-    },
-    "D66": {
-      "direction": "IN"
-    },
-    "Q65": {
-      "direction": "OUT"
-    },
-    "D36": {
-      "direction": "IN"
-    },
-    "FULL": {
-      "direction": "OUT"
-    },
-    "D85": {
-      "direction": "IN"
-    },
-    "D15": {
-      "direction": "IN"
-    },
-    "D84": {
-      "direction": "IN"
-    },
-    "D21": {
-      "direction": "IN"
-    },
-    "D92": {
-      "direction": "IN"
-    },
-    "Q51": {
-      "direction": "OUT"
-    },
-    "D53": {
-      "direction": "IN"
-    },
-    "Q56": {
-      "direction": "OUT"
-    },
-    "D34": {
-      "direction": "IN"
-    },
-    "Q90": {
-      "direction": "OUT"
-    },
-    "D65": {
-      "direction": "IN"
-    },
-    "D14": {
-      "direction": "IN"
-    },
-    "D50": {
-      "direction": "IN"
-    },
-    "D32": {
-      "direction": "IN"
-    },
-    "D76": {
-      "direction": "IN"
-    },
-    "D97": {
-      "direction": "IN"
-    },
-    "Q64": {
-      "direction": "OUT"
-    },
-    "Q20": {
-      "direction": "OUT"
-    },
-    "SCANOUT3": {
-      "direction": "OUT"
-    },
-    "Q92": {
-      "direction": "OUT"
-    },
-    "D42": {
-      "direction": "IN"
-    },
-    "WREN": {
-      "direction": "IN"
-    },
-    "D51": {
-      "direction": "IN"
-    },
-    "D10": {
-      "direction": "IN"
-    },
-    "Q91": {
-      "direction": "OUT"
-    },
-    "D16": {
-      "direction": "IN"
-    },
-    "Q61": {
-      "direction": "OUT"
-    },
-    "D01": {
-      "direction": "IN"
-    },
-    "D71": {
-      "direction": "IN"
-    },
-    "Q57": {
-      "direction": "OUT"
-    },
-    "D45": {
-      "direction": "IN"
-    },
-    "D96": {
-      "direction": "IN"
-    },
-    "D81": {
-      "direction": "IN"
-    },
-    "SCANIN0": {
-      "direction": "IN"
-    },
-    "D70": {
-      "direction": "IN"
-    },
-    "Q66": {
-      "direction": "OUT"
-    },
-    "D05": {
-      "direction": "IN"
-    },
-    "Q11": {
-      "direction": "OUT"
-    },
-    "D61": {
-      "direction": "IN"
-    },
-    "D86": {
-      "direction": "IN"
-    },
-    "D91": {
-      "direction": "IN"
-    },
-    "WRCLK": {
-      "direction": "IN"
-    },
-    "D17": {
-      "direction": "IN"
-    },
-    "D03": {
-      "direction": "IN"
-    },
-    "Q80": {
-      "direction": "OUT"
-    },
-    "SCANIN3": {
-      "direction": "IN"
-    },
-    "D93": {
-      "direction": "IN"
-    },
-    "TESTMODEB": {
-      "direction": "IN"
-    },
-    "Q01": {
-      "direction": "OUT"
-    },
-    "D56": {
-      "direction": "IN"
-    },
-    "D60": {
-      "direction": "IN"
-    },
-    "D06": {
-      "direction": "IN"
-    },
-    "D77": {
-      "direction": "IN"
-    },
-    "D52": {
-      "direction": "IN"
-    },
-    "D04": {
-      "direction": "IN"
-    },
-    "RESET": {
-      "direction": "IN"
-    },
-    "SCANOUT0": {
-      "direction": "OUT"
-    },
-    "Q50": {
-      "direction": "OUT"
-    },
-    "D43": {
-      "direction": "IN"
-    },
-    "D74": {
-      "direction": "IN"
-    },
-    "D11": {
-      "direction": "IN"
-    },
-    "D54": {
-      "direction": "IN"
-    },
-    "D55": {
-      "direction": "IN"
-    },
-    "D35": {
-      "direction": "IN"
-    },
-    "Q93": {
-      "direction": "OUT"
-    },
-    "TESTWRITEDISB": {
-      "direction": "IN"
-    },
-    "Q63": {
-      "direction": "OUT"
-    },
-    "Q00": {
-      "direction": "OUT"
-    },
-    "Q54": {
-      "direction": "OUT"
-    },
-    "Q30": {
-      "direction": "OUT"
-    },
-    "D00": {
-      "direction": "IN"
-    },
-    "Q33": {
-      "direction": "OUT"
-    },
-    "D30": {
-      "direction": "IN"
-    },
-    "Q32": {
-      "direction": "OUT"
-    },
-    "D63": {
-      "direction": "IN"
-    },
-    "RDEN": {
-      "direction": "IN"
-    },
-    "EMPTY": {
-      "direction": "OUT"
-    },
-    "D64": {
-      "direction": "IN"
-    },
-    "Q52": {
-      "direction": "OUT"
-    },
-    "D26": {
-      "direction": "IN"
-    },
-    "Q73": {
-      "direction": "OUT"
-    },
-    "Q60": {
-      "direction": "OUT"
-    },
-    "Q12": {
-      "direction": "OUT"
-    },
-    "D83": {
-      "direction": "IN"
-    },
-    "TESTREADDISB": {
-      "direction": "IN"
-    },
-    "D33": {
-      "direction": "IN"
-    },
-    "Q31": {
-      "direction": "OUT"
-    },
-    "Q23": {
-      "direction": "OUT"
-    },
-    "D82": {
-      "direction": "IN"
-    },
-    "Q02": {
-      "direction": "OUT"
-    },
-    "D25": {
-      "direction": "IN"
-    },
-    "D57": {
-      "direction": "IN"
-    },
-    "D40": {
-      "direction": "IN"
-    },
-    "Q40": {
-      "direction": "OUT"
-    },
-    "Q72": {
-      "direction": "OUT"
-    },
-    "Q71": {
-      "direction": "OUT"
-    },
-    "D62": {
-      "direction": "IN"
-    },
-    "D02": {
-      "direction": "IN"
-    },
-    "D95": {
-      "direction": "IN"
-    },
-    "D47": {
-      "direction": "IN"
-    },
-    "D23": {
-      "direction": "IN"
-    },
-    "D41": {
-      "direction": "IN"
-    }
-  }
+    "site_pins": {
+        "D02": {
+            "direction": "IN"
+        },
+        "Q73": {
+            "direction": "OUT"
+        },
+        "D91": {
+            "direction": "IN"
+        },
+        "Q00": {
+            "direction": "OUT"
+        },
+        "D41": {
+            "direction": "IN"
+        },
+        "D05": {
+            "direction": "IN"
+        },
+        "D81": {
+            "direction": "IN"
+        },
+        "D70": {
+            "direction": "IN"
+        },
+        "Q60": {
+            "direction": "OUT"
+        },
+        "D34": {
+            "direction": "IN"
+        },
+        "D44": {
+            "direction": "IN"
+        },
+        "ALMOSTEMPTY": {
+            "direction": "OUT"
+        },
+        "D51": {
+            "direction": "IN"
+        },
+        "D55": {
+            "direction": "IN"
+        },
+        "D92": {
+            "direction": "IN"
+        },
+        "TESTWRITEDISB": {
+            "direction": "IN"
+        },
+        "SCANIN0": {
+            "direction": "IN"
+        },
+        "D00": {
+            "direction": "IN"
+        },
+        "D46": {
+            "direction": "IN"
+        },
+        "D24": {
+            "direction": "IN"
+        },
+        "Q40": {
+            "direction": "OUT"
+        },
+        "D97": {
+            "direction": "IN"
+        },
+        "D11": {
+            "direction": "IN"
+        },
+        "D30": {
+            "direction": "IN"
+        },
+        "Q12": {
+            "direction": "OUT"
+        },
+        "D50": {
+            "direction": "IN"
+        },
+        "D40": {
+            "direction": "IN"
+        },
+        "D95": {
+            "direction": "IN"
+        },
+        "WREN": {
+            "direction": "IN"
+        },
+        "D77": {
+            "direction": "IN"
+        },
+        "Q55": {
+            "direction": "OUT"
+        },
+        "D67": {
+            "direction": "IN"
+        },
+        "Q93": {
+            "direction": "OUT"
+        },
+        "Q52": {
+            "direction": "OUT"
+        },
+        "D56": {
+            "direction": "IN"
+        },
+        "D36": {
+            "direction": "IN"
+        },
+        "Q67": {
+            "direction": "OUT"
+        },
+        "Q21": {
+            "direction": "OUT"
+        },
+        "SCANOUT0": {
+            "direction": "OUT"
+        },
+        "D62": {
+            "direction": "IN"
+        },
+        "D16": {
+            "direction": "IN"
+        },
+        "Q51": {
+            "direction": "OUT"
+        },
+        "D31": {
+            "direction": "IN"
+        },
+        "D86": {
+            "direction": "IN"
+        },
+        "Q92": {
+            "direction": "OUT"
+        },
+        "ALMOSTFULL": {
+            "direction": "OUT"
+        },
+        "D42": {
+            "direction": "IN"
+        },
+        "D90": {
+            "direction": "IN"
+        },
+        "Q31": {
+            "direction": "OUT"
+        },
+        "D26": {
+            "direction": "IN"
+        },
+        "SCANIN1": {
+            "direction": "IN"
+        },
+        "SCANIN3": {
+            "direction": "IN"
+        },
+        "D15": {
+            "direction": "IN"
+        },
+        "Q70": {
+            "direction": "OUT"
+        },
+        "D57": {
+            "direction": "IN"
+        },
+        "D87": {
+            "direction": "IN"
+        },
+        "D61": {
+            "direction": "IN"
+        },
+        "RDEN": {
+            "direction": "IN"
+        },
+        "Q66": {
+            "direction": "OUT"
+        },
+        "Q91": {
+            "direction": "OUT"
+        },
+        "Q71": {
+            "direction": "OUT"
+        },
+        "RESET": {
+            "direction": "IN"
+        },
+        "D72": {
+            "direction": "IN"
+        },
+        "D01": {
+            "direction": "IN"
+        },
+        "D52": {
+            "direction": "IN"
+        },
+        "Q20": {
+            "direction": "OUT"
+        },
+        "D47": {
+            "direction": "IN"
+        },
+        "Q01": {
+            "direction": "OUT"
+        },
+        "D13": {
+            "direction": "IN"
+        },
+        "D23": {
+            "direction": "IN"
+        },
+        "Q61": {
+            "direction": "OUT"
+        },
+        "D82": {
+            "direction": "IN"
+        },
+        "D20": {
+            "direction": "IN"
+        },
+        "TESTMODEB": {
+            "direction": "IN"
+        },
+        "D03": {
+            "direction": "IN"
+        },
+        "Q30": {
+            "direction": "OUT"
+        },
+        "Q22": {
+            "direction": "OUT"
+        },
+        "D14": {
+            "direction": "IN"
+        },
+        "EMPTY": {
+            "direction": "OUT"
+        },
+        "Q03": {
+            "direction": "OUT"
+        },
+        "Q63": {
+            "direction": "OUT"
+        },
+        "D35": {
+            "direction": "IN"
+        },
+        "D80": {
+            "direction": "IN"
+        },
+        "D06": {
+            "direction": "IN"
+        },
+        "Q81": {
+            "direction": "OUT"
+        },
+        "D32": {
+            "direction": "IN"
+        },
+        "D54": {
+            "direction": "IN"
+        },
+        "Q64": {
+            "direction": "OUT"
+        },
+        "Q13": {
+            "direction": "OUT"
+        },
+        "D85": {
+            "direction": "IN"
+        },
+        "FULL": {
+            "direction": "OUT"
+        },
+        "D64": {
+            "direction": "IN"
+        },
+        "D60": {
+            "direction": "IN"
+        },
+        "SCANOUT1": {
+            "direction": "OUT"
+        },
+        "Q32": {
+            "direction": "OUT"
+        },
+        "D83": {
+            "direction": "IN"
+        },
+        "D96": {
+            "direction": "IN"
+        },
+        "D33": {
+            "direction": "IN"
+        },
+        "D76": {
+            "direction": "IN"
+        },
+        "Q11": {
+            "direction": "OUT"
+        },
+        "WRCLK": {
+            "direction": "IN"
+        },
+        "D10": {
+            "direction": "IN"
+        },
+        "D71": {
+            "direction": "IN"
+        },
+        "D04": {
+            "direction": "IN"
+        },
+        "D45": {
+            "direction": "IN"
+        },
+        "TESTREADDISB": {
+            "direction": "IN"
+        },
+        "D74": {
+            "direction": "IN"
+        },
+        "D63": {
+            "direction": "IN"
+        },
+        "Q33": {
+            "direction": "OUT"
+        },
+        "SCANOUT2": {
+            "direction": "OUT"
+        },
+        "D21": {
+            "direction": "IN"
+        },
+        "Q65": {
+            "direction": "OUT"
+        },
+        "D66": {
+            "direction": "IN"
+        },
+        "Q42": {
+            "direction": "OUT"
+        },
+        "D07": {
+            "direction": "IN"
+        },
+        "SCANENB": {
+            "direction": "IN"
+        },
+        "Q23": {
+            "direction": "OUT"
+        },
+        "RDCLK": {
+            "direction": "IN"
+        },
+        "Q80": {
+            "direction": "OUT"
+        },
+        "Q43": {
+            "direction": "OUT"
+        },
+        "Q54": {
+            "direction": "OUT"
+        },
+        "Q50": {
+            "direction": "OUT"
+        },
+        "SCANOUT3": {
+            "direction": "OUT"
+        },
+        "Q56": {
+            "direction": "OUT"
+        },
+        "Q83": {
+            "direction": "OUT"
+        },
+        "D43": {
+            "direction": "IN"
+        },
+        "Q57": {
+            "direction": "OUT"
+        },
+        "Q90": {
+            "direction": "OUT"
+        },
+        "Q62": {
+            "direction": "OUT"
+        },
+        "D93": {
+            "direction": "IN"
+        },
+        "D37": {
+            "direction": "IN"
+        },
+        "D22": {
+            "direction": "IN"
+        },
+        "Q72": {
+            "direction": "OUT"
+        },
+        "D17": {
+            "direction": "IN"
+        },
+        "D65": {
+            "direction": "IN"
+        },
+        "D84": {
+            "direction": "IN"
+        },
+        "Q02": {
+            "direction": "OUT"
+        },
+        "D12": {
+            "direction": "IN"
+        },
+        "D75": {
+            "direction": "IN"
+        },
+        "D73": {
+            "direction": "IN"
+        },
+        "D53": {
+            "direction": "IN"
+        },
+        "Q53": {
+            "direction": "OUT"
+        },
+        "SCANIN2": {
+            "direction": "IN"
+        },
+        "Q10": {
+            "direction": "OUT"
+        },
+        "D25": {
+            "direction": "IN"
+        },
+        "D27": {
+            "direction": "IN"
+        },
+        "Q41": {
+            "direction": "OUT"
+        },
+        "D94": {
+            "direction": "IN"
+        },
+        "Q82": {
+            "direction": "OUT"
+        }
+    },
+    "site_pips": {},
+    "type": "OUT_FIFO"
 }

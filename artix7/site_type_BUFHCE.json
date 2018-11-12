@@ -1,24 +1,24 @@
 {
-  "type": "BUFHCE",
-  "site_pips": {
-    "CEINV:CE_B": {
-      "to_pin": "OUT",
-      "from_pin": "CE_B"
+    "site_pins": {
+        "O": {
+            "direction": "OUT"
+        },
+        "CE": {
+            "direction": "IN"
+        },
+        "I": {
+            "direction": "IN"
+        }
     },
-    "CEINV:CE": {
-      "to_pin": "OUT",
-      "from_pin": "CE"
-    }
-  },
-  "site_pins": {
-    "I": {
-      "direction": "IN"
+    "site_pips": {
+        "CEINV:CE_B": {
+            "from_pin": "CE_B",
+            "to_pin": "OUT"
+        },
+        "CEINV:CE": {
+            "from_pin": "CE",
+            "to_pin": "OUT"
+        }
     },
-    "CE": {
-      "direction": "IN"
-    },
-    "O": {
-      "direction": "OUT"
-    }
-  }
+    "type": "BUFHCE"
 }

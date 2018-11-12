@@ -1,694 +1,694 @@
 {
-  "type": "SLICEL",
-  "site_pips": {
-    "B5LUT:A2": {
-      "to_pin": "O5",
-      "from_pin": "A2"
-    },
-    "D5LUT:A3": {
-      "to_pin": "O5",
-      "from_pin": "A3"
-    },
-    "CCY0:CX": {
-      "to_pin": "OUT",
-      "from_pin": "CX"
-    },
-    "C6LUT:A1": {
-      "to_pin": "O6",
-      "from_pin": "A1"
-    },
-    "A6LUT:A2": {
-      "to_pin": "O6",
-      "from_pin": "A2"
-    },
-    "A5LUT:A5": {
-      "to_pin": "O5",
-      "from_pin": "A5"
-    },
-    "CFFMUX:CARRY4_MUX": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_MUX"
-    },
-    "D5FFMUX:IN_A": {
-      "to_pin": "OUT",
-      "from_pin": "IN_A"
-    },
-    "DOUTMUX:O5": {
-      "to_pin": "OUT",
-      "from_pin": "O5"
-    },
-    "C5LUT:A2": {
-      "to_pin": "O5",
-      "from_pin": "A2"
-    },
-    "A5LUT:A3": {
-      "to_pin": "O5",
-      "from_pin": "A3"
-    },
-    "D5LUT:A2": {
-      "to_pin": "O5",
-      "from_pin": "A2"
-    },
-    "DFFMUX:CARRY4_MUX": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_MUX"
-    },
-    "BFFMUX:CARRY4_XOR": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_XOR"
-    },
-    "ACY0:AX": {
-      "to_pin": "OUT",
-      "from_pin": "AX"
-    },
-    "CFFMUX:XOR": {
-      "to_pin": "OUT",
-      "from_pin": "XOR"
-    },
-    "COUTUSED:CARRY4_0": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_0"
-    },
-    "COUTMUX:CY": {
-      "to_pin": "OUT",
-      "from_pin": "CY"
-    },
-    "CLKINV:CLK": {
-      "to_pin": "OUT",
-      "from_pin": "CLK"
-    },
-    "CFFMUX:O5": {
-      "to_pin": "OUT",
-      "from_pin": "O5"
-    },
-    "AFFMUX:XOR": {
-      "to_pin": "OUT",
-      "from_pin": "XOR"
-    },
-    "B5LUT:A3": {
-      "to_pin": "O5",
-      "from_pin": "A3"
-    },
-    "AFFMUX:F7": {
-      "to_pin": "OUT",
-      "from_pin": "F7"
-    },
-    "B6LUT:A3": {
-      "to_pin": "O6",
-      "from_pin": "A3"
-    },
-    "A5FFMUX:IN_A": {
-      "to_pin": "OUT",
-      "from_pin": "IN_A"
-    },
-    "BFFMUX:O5": {
-      "to_pin": "OUT",
-      "from_pin": "O5"
-    },
-    "COUTMUX:O6": {
-      "to_pin": "OUT",
-      "from_pin": "O6"
-    },
-    "BOUTMUX:F8": {
-      "to_pin": "OUT",
-      "from_pin": "F8"
-    },
-    "A6LUT:A3": {
-      "to_pin": "O6",
-      "from_pin": "A3"
-    },
-    "BUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "PRECYINIT:1": {
-      "to_pin": "OUT",
-      "from_pin": "1"
-    },
-    "D6LUT:A3": {
-      "to_pin": "O6",
-      "from_pin": "A3"
-    },
-    "COUTMUX:CARRY4_XOR": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_XOR"
-    },
-    "D6LUT:A4": {
-      "to_pin": "O6",
-      "from_pin": "A4"
-    },
-    "SRUSEDMUX:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "AOUTMUX:O5": {
-      "to_pin": "OUT",
-      "from_pin": "O5"
-    },
-    "D5FFMUX:IN_B": {
-      "to_pin": "OUT",
-      "from_pin": "IN_B"
-    },
-    "C6LUT:A2": {
-      "to_pin": "O6",
-      "from_pin": "A2"
-    },
-    "ACY0:O5": {
-      "to_pin": "OUT",
-      "from_pin": "O5"
-    },
-    "AFFMUX:CY": {
-      "to_pin": "OUT",
-      "from_pin": "CY"
-    },
-    "DFFMUX:XOR": {
-      "to_pin": "OUT",
-      "from_pin": "XOR"
-    },
-    "DCY0:O5": {
-      "to_pin": "OUT",
-      "from_pin": "O5"
-    },
-    "C6LUT:A6": {
-      "to_pin": "O6",
-      "from_pin": "A6"
-    },
-    "B5LUT:A4": {
-      "to_pin": "O5",
-      "from_pin": "A4"
-    },
-    "B6LUT:A2": {
-      "to_pin": "O6",
-      "from_pin": "A2"
-    },
-    "DCY0:DX": {
-      "to_pin": "OUT",
-      "from_pin": "DX"
-    },
-    "B6LUT:A6": {
-      "to_pin": "O6",
-      "from_pin": "A6"
-    },
-    "C5LUT:A1": {
-      "to_pin": "O5",
-      "from_pin": "A1"
-    },
-    "AOUTMUX:F7": {
-      "to_pin": "OUT",
-      "from_pin": "F7"
-    },
-    "C5LUT:A4": {
-      "to_pin": "O5",
-      "from_pin": "A4"
-    },
-    "COUTMUX:XOR": {
-      "to_pin": "OUT",
-      "from_pin": "XOR"
-    },
-    "AFFMUX:CARRY4_MUX": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_MUX"
-    },
-    "CFFMUX:CY": {
-      "to_pin": "OUT",
-      "from_pin": "CY"
-    },
-    "BFFMUX:CY": {
-      "to_pin": "OUT",
-      "from_pin": "CY"
-    },
-    "AOUTMUX:A5Q": {
-      "to_pin": "OUT",
-      "from_pin": "A5Q"
-    },
-    "C6LUT:A3": {
-      "to_pin": "O6",
-      "from_pin": "A3"
-    },
-    "PRECYINIT:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "BOUTMUX:XOR": {
-      "to_pin": "OUT",
-      "from_pin": "XOR"
-    },
-    "COUTMUX:CARRY4_MUX": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_MUX"
-    },
-    "C5FFMUX:IN_B": {
-      "to_pin": "OUT",
-      "from_pin": "IN_B"
-    },
-    "BOUTMUX:CARRY4_MUX": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_MUX"
-    },
-    "A5LUT:A2": {
-      "to_pin": "O5",
-      "from_pin": "A2"
-    },
-    "CFFMUX:O6": {
-      "to_pin": "OUT",
-      "from_pin": "O6"
-    },
-    "BFFMUX:F8": {
-      "to_pin": "OUT",
-      "from_pin": "F8"
-    },
-    "A5FFMUX:IN_B": {
-      "to_pin": "OUT",
-      "from_pin": "IN_B"
-    },
-    "DOUTMUX:XOR": {
-      "to_pin": "OUT",
-      "from_pin": "XOR"
-    },
-    "DFFMUX:O5": {
-      "to_pin": "OUT",
-      "from_pin": "O5"
-    },
-    "CUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "A6LUT:A4": {
-      "to_pin": "O6",
-      "from_pin": "A4"
-    },
-    "B5FFMUX:IN_A": {
-      "to_pin": "OUT",
-      "from_pin": "IN_A"
-    },
-    "AFFMUX:CARRY4_XOR": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_XOR"
-    },
-    "B6LUT:A5": {
-      "to_pin": "O6",
-      "from_pin": "A5"
-    },
-    "A6LUT:A6": {
-      "to_pin": "O6",
-      "from_pin": "A6"
-    },
-    "AOUTMUX:XOR": {
-      "to_pin": "OUT",
-      "from_pin": "XOR"
-    },
-    "DFFMUX:CARRY4_XOR": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_XOR"
-    },
-    "A6LUT:A5": {
-      "to_pin": "O6",
-      "from_pin": "A5"
-    },
-    "PRECYINIT:CIN": {
-      "to_pin": "OUT",
-      "from_pin": "CIN"
-    },
-    "COUTUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "CFFMUX:F7": {
-      "to_pin": "OUT",
-      "from_pin": "F7"
-    },
-    "B6LUT:A4": {
-      "to_pin": "O6",
-      "from_pin": "A4"
-    },
-    "BCY0:O5": {
-      "to_pin": "OUT",
-      "from_pin": "O5"
-    },
-    "COUTMUX:C5Q": {
-      "to_pin": "OUT",
-      "from_pin": "C5Q"
-    },
-    "CFFMUX:CX": {
-      "to_pin": "OUT",
-      "from_pin": "CX"
-    },
-    "D6LUT:A2": {
-      "to_pin": "O6",
-      "from_pin": "A2"
-    },
-    "AOUTMUX:O6": {
-      "to_pin": "OUT",
-      "from_pin": "O6"
-    },
-    "BOUTMUX:O6": {
-      "to_pin": "OUT",
-      "from_pin": "O6"
-    },
-    "DFFMUX:DX": {
-      "to_pin": "OUT",
-      "from_pin": "DX"
-    },
-    "DOUTMUX:D5Q": {
-      "to_pin": "OUT",
-      "from_pin": "D5Q"
-    },
-    "CEUSEDMUX:IN": {
-      "to_pin": "OUT",
-      "from_pin": "IN"
-    },
-    "BOUTMUX:CY": {
-      "to_pin": "OUT",
-      "from_pin": "CY"
-    },
-    "D5LUT:A5": {
-      "to_pin": "O5",
-      "from_pin": "A5"
-    },
-    "A6LUT:A1": {
-      "to_pin": "O6",
-      "from_pin": "A1"
-    },
-    "COUTMUX:F7": {
-      "to_pin": "OUT",
-      "from_pin": "F7"
-    },
-    "A5LUT:A1": {
-      "to_pin": "O5",
-      "from_pin": "A1"
-    },
-    "BOUTMUX:O5": {
-      "to_pin": "OUT",
-      "from_pin": "O5"
-    },
-    "AOUTMUX:CY": {
-      "to_pin": "OUT",
-      "from_pin": "CY"
-    },
-    "B5LUT:A1": {
-      "to_pin": "O5",
-      "from_pin": "A1"
-    },
-    "DUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "D5LUT:A1": {
-      "to_pin": "O5",
-      "from_pin": "A1"
-    },
-    "BFFMUX:BX": {
-      "to_pin": "OUT",
-      "from_pin": "BX"
-    },
-    "BOUTMUX:B5Q": {
-      "to_pin": "OUT",
-      "from_pin": "B5Q"
-    },
-    "AFFMUX:O6": {
-      "to_pin": "OUT",
-      "from_pin": "O6"
-    },
-    "C5LUT:A5": {
-      "to_pin": "O5",
-      "from_pin": "A5"
-    },
-    "BCY0:BX": {
-      "to_pin": "OUT",
-      "from_pin": "BX"
-    },
-    "B5LUT:A5": {
-      "to_pin": "O5",
-      "from_pin": "A5"
-    },
-    "D6LUT:A1": {
-      "to_pin": "O6",
-      "from_pin": "A1"
-    },
-    "AOUTMUX:CARRY4_XOR": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_XOR"
-    },
-    "CCY0:O5": {
-      "to_pin": "OUT",
-      "from_pin": "O5"
-    },
-    "AUSED:0": {
-      "to_pin": "OUT",
-      "from_pin": "0"
-    },
-    "SRUSEDMUX:IN": {
-      "to_pin": "OUT",
-      "from_pin": "IN"
-    },
-    "C6LUT:A5": {
-      "to_pin": "O6",
-      "from_pin": "A5"
-    },
-    "COUTMUX:O5": {
-      "to_pin": "OUT",
-      "from_pin": "O5"
-    },
-    "AFFMUX:O5": {
-      "to_pin": "OUT",
-      "from_pin": "O5"
-    },
-    "DOUTMUX:CARRY4_XOR": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_XOR"
-    },
-    "BFFMUX:CARRY4_MUX": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_MUX"
-    },
-    "C5LUT:A3": {
-      "to_pin": "O5",
-      "from_pin": "A3"
-    },
-    "DOUTMUX:O6": {
-      "to_pin": "OUT",
-      "from_pin": "O6"
-    },
-    "BFFMUX:XOR": {
-      "to_pin": "OUT",
-      "from_pin": "XOR"
-    },
-    "C6LUT:A4": {
-      "to_pin": "O6",
-      "from_pin": "A4"
-    },
-    "DFFMUX:O6": {
-      "to_pin": "OUT",
-      "from_pin": "O6"
-    },
-    "AFFMUX:AX": {
-      "to_pin": "OUT",
-      "from_pin": "AX"
-    },
-    "CFFMUX:CARRY4_XOR": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_XOR"
-    },
-    "DFFMUX:CY": {
-      "to_pin": "OUT",
-      "from_pin": "CY"
-    },
-    "DOUTMUX:CY": {
-      "to_pin": "OUT",
-      "from_pin": "CY"
-    },
-    "CLKINV:CLK_B": {
-      "to_pin": "OUT",
-      "from_pin": "CLK_B"
-    },
-    "D6LUT:A5": {
-      "to_pin": "O6",
-      "from_pin": "A5"
-    },
-    "B6LUT:A1": {
-      "to_pin": "O6",
-      "from_pin": "A1"
-    },
-    "D6LUT:A6": {
-      "to_pin": "O6",
-      "from_pin": "A6"
-    },
-    "CEUSEDMUX:1": {
-      "to_pin": "OUT",
-      "from_pin": "1"
-    },
-    "AOUTMUX:CARRY4_MUX": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_MUX"
-    },
-    "PRECYINIT:AX": {
-      "to_pin": "OUT",
-      "from_pin": "AX"
-    },
-    "BOUTMUX:CARRY4_XOR": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_XOR"
-    },
-    "C5FFMUX:IN_A": {
-      "to_pin": "OUT",
-      "from_pin": "IN_A"
-    },
-    "DOUTMUX:CARRY4_MUX": {
-      "to_pin": "OUT",
-      "from_pin": "CARRY4_MUX"
-    },
-    "A5LUT:A4": {
-      "to_pin": "O5",
-      "from_pin": "A4"
-    },
-    "B5FFMUX:IN_B": {
-      "to_pin": "OUT",
-      "from_pin": "IN_B"
-    },
-    "D5LUT:A4": {
-      "to_pin": "O5",
-      "from_pin": "A4"
-    },
-    "BFFMUX:O6": {
-      "to_pin": "OUT",
-      "from_pin": "O6"
-    }
-  },
-  "site_pins": {
-    "BMUX": {
-      "direction": "OUT"
-    },
-    "B1": {
-      "direction": "IN"
-    },
-    "C5": {
-      "direction": "IN"
-    },
-    "D1": {
-      "direction": "IN"
-    },
-    "C1": {
-      "direction": "IN"
-    },
-    "AQ": {
-      "direction": "OUT"
-    },
-    "AMUX": {
-      "direction": "OUT"
-    },
-    "B4": {
-      "direction": "IN"
-    },
-    "A1": {
-      "direction": "IN"
-    },
-    "C4": {
-      "direction": "IN"
-    },
-    "A2": {
-      "direction": "IN"
-    },
-    "AX": {
-      "direction": "IN"
-    },
-    "D": {
-      "direction": "OUT"
-    },
-    "A5": {
-      "direction": "IN"
-    },
-    "BX": {
-      "direction": "IN"
-    },
-    "D4": {
-      "direction": "IN"
-    },
-    "DMUX": {
-      "direction": "OUT"
-    },
-    "C3": {
-      "direction": "IN"
-    },
-    "D6": {
-      "direction": "IN"
-    },
-    "SR": {
-      "direction": "IN"
-    },
-    "B": {
-      "direction": "OUT"
-    },
-    "COUT": {
-      "direction": "OUT"
-    },
-    "B6": {
-      "direction": "IN"
-    },
-    "A": {
-      "direction": "OUT"
-    },
-    "CIN": {
-      "direction": "IN"
-    },
-    "CE": {
-      "direction": "IN"
-    },
-    "C2": {
-      "direction": "IN"
-    },
-    "D3": {
-      "direction": "IN"
-    },
-    "DQ": {
-      "direction": "OUT"
-    },
-    "D5": {
-      "direction": "IN"
-    },
-    "C6": {
-      "direction": "IN"
-    },
-    "BQ": {
-      "direction": "OUT"
-    },
-    "D2": {
-      "direction": "IN"
-    },
-    "CMUX": {
-      "direction": "OUT"
-    },
-    "A6": {
-      "direction": "IN"
-    },
-    "CX": {
-      "direction": "IN"
-    },
-    "B2": {
-      "direction": "IN"
-    },
-    "B5": {
-      "direction": "IN"
-    },
-    "CQ": {
-      "direction": "OUT"
-    },
-    "A4": {
-      "direction": "IN"
-    },
-    "C": {
-      "direction": "OUT"
-    },
-    "B3": {
-      "direction": "IN"
-    },
-    "DX": {
-      "direction": "IN"
-    },
-    "A3": {
-      "direction": "IN"
-    },
-    "CLK": {
-      "direction": "IN"
-    }
-  }
+    "site_pins": {
+        "A": {
+            "direction": "OUT"
+        },
+        "AX": {
+            "direction": "IN"
+        },
+        "DQ": {
+            "direction": "OUT"
+        },
+        "CE": {
+            "direction": "IN"
+        },
+        "D3": {
+            "direction": "IN"
+        },
+        "D4": {
+            "direction": "IN"
+        },
+        "B": {
+            "direction": "OUT"
+        },
+        "D": {
+            "direction": "OUT"
+        },
+        "CIN": {
+            "direction": "IN"
+        },
+        "CMUX": {
+            "direction": "OUT"
+        },
+        "B2": {
+            "direction": "IN"
+        },
+        "B6": {
+            "direction": "IN"
+        },
+        "BQ": {
+            "direction": "OUT"
+        },
+        "CLK": {
+            "direction": "IN"
+        },
+        "D2": {
+            "direction": "IN"
+        },
+        "BX": {
+            "direction": "IN"
+        },
+        "C1": {
+            "direction": "IN"
+        },
+        "B1": {
+            "direction": "IN"
+        },
+        "SR": {
+            "direction": "IN"
+        },
+        "A2": {
+            "direction": "IN"
+        },
+        "D1": {
+            "direction": "IN"
+        },
+        "AMUX": {
+            "direction": "OUT"
+        },
+        "B3": {
+            "direction": "IN"
+        },
+        "C": {
+            "direction": "OUT"
+        },
+        "D6": {
+            "direction": "IN"
+        },
+        "C4": {
+            "direction": "IN"
+        },
+        "B5": {
+            "direction": "IN"
+        },
+        "C3": {
+            "direction": "IN"
+        },
+        "COUT": {
+            "direction": "OUT"
+        },
+        "A4": {
+            "direction": "IN"
+        },
+        "DX": {
+            "direction": "IN"
+        },
+        "CQ": {
+            "direction": "OUT"
+        },
+        "C5": {
+            "direction": "IN"
+        },
+        "C2": {
+            "direction": "IN"
+        },
+        "A5": {
+            "direction": "IN"
+        },
+        "A3": {
+            "direction": "IN"
+        },
+        "BMUX": {
+            "direction": "OUT"
+        },
+        "A6": {
+            "direction": "IN"
+        },
+        "D5": {
+            "direction": "IN"
+        },
+        "C6": {
+            "direction": "IN"
+        },
+        "AQ": {
+            "direction": "OUT"
+        },
+        "DMUX": {
+            "direction": "OUT"
+        },
+        "CX": {
+            "direction": "IN"
+        },
+        "B4": {
+            "direction": "IN"
+        },
+        "A1": {
+            "direction": "IN"
+        }
+    },
+    "site_pips": {
+        "BOUTMUX:O5": {
+            "from_pin": "O5",
+            "to_pin": "OUT"
+        },
+        "BOUTMUX:B5Q": {
+            "from_pin": "B5Q",
+            "to_pin": "OUT"
+        },
+        "A6LUT:A5": {
+            "from_pin": "A5",
+            "to_pin": "O6"
+        },
+        "DFFMUX:CARRY4_MUX": {
+            "from_pin": "CARRY4_MUX",
+            "to_pin": "OUT"
+        },
+        "AFFMUX:F7": {
+            "from_pin": "F7",
+            "to_pin": "OUT"
+        },
+        "SRUSEDMUX:IN": {
+            "from_pin": "IN",
+            "to_pin": "OUT"
+        },
+        "COUTMUX:CY": {
+            "from_pin": "CY",
+            "to_pin": "OUT"
+        },
+        "AUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "AFFMUX:XOR": {
+            "from_pin": "XOR",
+            "to_pin": "OUT"
+        },
+        "AOUTMUX:CARRY4_MUX": {
+            "from_pin": "CARRY4_MUX",
+            "to_pin": "OUT"
+        },
+        "PRECYINIT:1": {
+            "from_pin": "1",
+            "to_pin": "OUT"
+        },
+        "D5FFMUX:IN_A": {
+            "from_pin": "IN_A",
+            "to_pin": "OUT"
+        },
+        "DFFMUX:O6": {
+            "from_pin": "O6",
+            "to_pin": "OUT"
+        },
+        "DFFMUX:O5": {
+            "from_pin": "O5",
+            "to_pin": "OUT"
+        },
+        "C5LUT:A5": {
+            "from_pin": "A5",
+            "to_pin": "O5"
+        },
+        "CFFMUX:CY": {
+            "from_pin": "CY",
+            "to_pin": "OUT"
+        },
+        "BFFMUX:CY": {
+            "from_pin": "CY",
+            "to_pin": "OUT"
+        },
+        "SRUSEDMUX:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "AOUTMUX:CY": {
+            "from_pin": "CY",
+            "to_pin": "OUT"
+        },
+        "DOUTMUX:D5Q": {
+            "from_pin": "D5Q",
+            "to_pin": "OUT"
+        },
+        "COUTUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "ACY0:AX": {
+            "from_pin": "AX",
+            "to_pin": "OUT"
+        },
+        "AOUTMUX:XOR": {
+            "from_pin": "XOR",
+            "to_pin": "OUT"
+        },
+        "BFFMUX:CARRY4_XOR": {
+            "from_pin": "CARRY4_XOR",
+            "to_pin": "OUT"
+        },
+        "C5LUT:A4": {
+            "from_pin": "A4",
+            "to_pin": "O5"
+        },
+        "AOUTMUX:CARRY4_XOR": {
+            "from_pin": "CARRY4_XOR",
+            "to_pin": "OUT"
+        },
+        "CEUSEDMUX:1": {
+            "from_pin": "1",
+            "to_pin": "OUT"
+        },
+        "CFFMUX:F7": {
+            "from_pin": "F7",
+            "to_pin": "OUT"
+        },
+        "AFFMUX:O6": {
+            "from_pin": "O6",
+            "to_pin": "OUT"
+        },
+        "BFFMUX:BX": {
+            "from_pin": "BX",
+            "to_pin": "OUT"
+        },
+        "A6LUT:A6": {
+            "from_pin": "A6",
+            "to_pin": "O6"
+        },
+        "A5LUT:A4": {
+            "from_pin": "A4",
+            "to_pin": "O5"
+        },
+        "AFFMUX:CY": {
+            "from_pin": "CY",
+            "to_pin": "OUT"
+        },
+        "AFFMUX:AX": {
+            "from_pin": "AX",
+            "to_pin": "OUT"
+        },
+        "D5LUT:A2": {
+            "from_pin": "A2",
+            "to_pin": "O5"
+        },
+        "COUTMUX:O5": {
+            "from_pin": "O5",
+            "to_pin": "OUT"
+        },
+        "A6LUT:A4": {
+            "from_pin": "A4",
+            "to_pin": "O6"
+        },
+        "CLKINV:CLK": {
+            "from_pin": "CLK",
+            "to_pin": "OUT"
+        },
+        "BFFMUX:O6": {
+            "from_pin": "O6",
+            "to_pin": "OUT"
+        },
+        "DCY0:DX": {
+            "from_pin": "DX",
+            "to_pin": "OUT"
+        },
+        "BFFMUX:F8": {
+            "from_pin": "F8",
+            "to_pin": "OUT"
+        },
+        "BCY0:O5": {
+            "from_pin": "O5",
+            "to_pin": "OUT"
+        },
+        "CFFMUX:CX": {
+            "from_pin": "CX",
+            "to_pin": "OUT"
+        },
+        "B6LUT:A6": {
+            "from_pin": "A6",
+            "to_pin": "O6"
+        },
+        "A5LUT:A3": {
+            "from_pin": "A3",
+            "to_pin": "O5"
+        },
+        "D5FFMUX:IN_B": {
+            "from_pin": "IN_B",
+            "to_pin": "OUT"
+        },
+        "B5LUT:A4": {
+            "from_pin": "A4",
+            "to_pin": "O5"
+        },
+        "D5LUT:A1": {
+            "from_pin": "A1",
+            "to_pin": "O5"
+        },
+        "ACY0:O5": {
+            "from_pin": "O5",
+            "to_pin": "OUT"
+        },
+        "DFFMUX:XOR": {
+            "from_pin": "XOR",
+            "to_pin": "OUT"
+        },
+        "DFFMUX:CY": {
+            "from_pin": "CY",
+            "to_pin": "OUT"
+        },
+        "C5FFMUX:IN_B": {
+            "from_pin": "IN_B",
+            "to_pin": "OUT"
+        },
+        "BCY0:BX": {
+            "from_pin": "BX",
+            "to_pin": "OUT"
+        },
+        "A6LUT:A3": {
+            "from_pin": "A3",
+            "to_pin": "O6"
+        },
+        "AFFMUX:O5": {
+            "from_pin": "O5",
+            "to_pin": "OUT"
+        },
+        "D6LUT:A4": {
+            "from_pin": "A4",
+            "to_pin": "O6"
+        },
+        "AOUTMUX:A5Q": {
+            "from_pin": "A5Q",
+            "to_pin": "OUT"
+        },
+        "PRECYINIT:CIN": {
+            "from_pin": "CIN",
+            "to_pin": "OUT"
+        },
+        "BOUTMUX:F8": {
+            "from_pin": "F8",
+            "to_pin": "OUT"
+        },
+        "AOUTMUX:F7": {
+            "from_pin": "F7",
+            "to_pin": "OUT"
+        },
+        "C5LUT:A2": {
+            "from_pin": "A2",
+            "to_pin": "O5"
+        },
+        "D6LUT:A3": {
+            "from_pin": "A3",
+            "to_pin": "O6"
+        },
+        "DOUTMUX:CY": {
+            "from_pin": "CY",
+            "to_pin": "OUT"
+        },
+        "B5LUT:A3": {
+            "from_pin": "A3",
+            "to_pin": "O5"
+        },
+        "CUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "CFFMUX:O6": {
+            "from_pin": "O6",
+            "to_pin": "OUT"
+        },
+        "B5LUT:A5": {
+            "from_pin": "A5",
+            "to_pin": "O5"
+        },
+        "PRECYINIT:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "BFFMUX:XOR": {
+            "from_pin": "XOR",
+            "to_pin": "OUT"
+        },
+        "DUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "BOUTMUX:CARRY4_MUX": {
+            "from_pin": "CARRY4_MUX",
+            "to_pin": "OUT"
+        },
+        "DFFMUX:CARRY4_XOR": {
+            "from_pin": "CARRY4_XOR",
+            "to_pin": "OUT"
+        },
+        "A6LUT:A2": {
+            "from_pin": "A2",
+            "to_pin": "O6"
+        },
+        "AOUTMUX:O5": {
+            "from_pin": "O5",
+            "to_pin": "OUT"
+        },
+        "BOUTMUX:O6": {
+            "from_pin": "O6",
+            "to_pin": "OUT"
+        },
+        "COUTMUX:CARRY4_XOR": {
+            "from_pin": "CARRY4_XOR",
+            "to_pin": "OUT"
+        },
+        "C6LUT:A4": {
+            "from_pin": "A4",
+            "to_pin": "O6"
+        },
+        "BOUTMUX:XOR": {
+            "from_pin": "XOR",
+            "to_pin": "OUT"
+        },
+        "CLKINV:CLK_B": {
+            "from_pin": "CLK_B",
+            "to_pin": "OUT"
+        },
+        "CFFMUX:CARRY4_MUX": {
+            "from_pin": "CARRY4_MUX",
+            "to_pin": "OUT"
+        },
+        "B5FFMUX:IN_B": {
+            "from_pin": "IN_B",
+            "to_pin": "OUT"
+        },
+        "COUTUSED:CARRY4_0": {
+            "from_pin": "CARRY4_0",
+            "to_pin": "OUT"
+        },
+        "C5LUT:A1": {
+            "from_pin": "A1",
+            "to_pin": "O5"
+        },
+        "BFFMUX:O5": {
+            "from_pin": "O5",
+            "to_pin": "OUT"
+        },
+        "CCY0:CX": {
+            "from_pin": "CX",
+            "to_pin": "OUT"
+        },
+        "CFFMUX:XOR": {
+            "from_pin": "XOR",
+            "to_pin": "OUT"
+        },
+        "COUTMUX:C5Q": {
+            "from_pin": "C5Q",
+            "to_pin": "OUT"
+        },
+        "DFFMUX:DX": {
+            "from_pin": "DX",
+            "to_pin": "OUT"
+        },
+        "B5LUT:A2": {
+            "from_pin": "A2",
+            "to_pin": "O5"
+        },
+        "DOUTMUX:O6": {
+            "from_pin": "O6",
+            "to_pin": "OUT"
+        },
+        "D5LUT:A4": {
+            "from_pin": "A4",
+            "to_pin": "O5"
+        },
+        "A6LUT:A1": {
+            "from_pin": "A1",
+            "to_pin": "O6"
+        },
+        "COUTMUX:O6": {
+            "from_pin": "O6",
+            "to_pin": "OUT"
+        },
+        "COUTMUX:CARRY4_MUX": {
+            "from_pin": "CARRY4_MUX",
+            "to_pin": "OUT"
+        },
+        "D6LUT:A1": {
+            "from_pin": "A1",
+            "to_pin": "O6"
+        },
+        "A5FFMUX:IN_A": {
+            "from_pin": "IN_A",
+            "to_pin": "OUT"
+        },
+        "AFFMUX:CARRY4_MUX": {
+            "from_pin": "CARRY4_MUX",
+            "to_pin": "OUT"
+        },
+        "C6LUT:A2": {
+            "from_pin": "A2",
+            "to_pin": "O6"
+        },
+        "B6LUT:A2": {
+            "from_pin": "A2",
+            "to_pin": "O6"
+        },
+        "AOUTMUX:O6": {
+            "from_pin": "O6",
+            "to_pin": "OUT"
+        },
+        "CFFMUX:CARRY4_XOR": {
+            "from_pin": "CARRY4_XOR",
+            "to_pin": "OUT"
+        },
+        "B5FFMUX:IN_A": {
+            "from_pin": "IN_A",
+            "to_pin": "OUT"
+        },
+        "CEUSEDMUX:IN": {
+            "from_pin": "IN",
+            "to_pin": "OUT"
+        },
+        "BOUTMUX:CY": {
+            "from_pin": "CY",
+            "to_pin": "OUT"
+        },
+        "CFFMUX:O5": {
+            "from_pin": "O5",
+            "to_pin": "OUT"
+        },
+        "A5FFMUX:IN_B": {
+            "from_pin": "IN_B",
+            "to_pin": "OUT"
+        },
+        "C6LUT:A6": {
+            "from_pin": "A6",
+            "to_pin": "O6"
+        },
+        "CCY0:O5": {
+            "from_pin": "O5",
+            "to_pin": "OUT"
+        },
+        "DOUTMUX:XOR": {
+            "from_pin": "XOR",
+            "to_pin": "OUT"
+        },
+        "B6LUT:A4": {
+            "from_pin": "A4",
+            "to_pin": "O6"
+        },
+        "A5LUT:A5": {
+            "from_pin": "A5",
+            "to_pin": "O5"
+        },
+        "DCY0:O5": {
+            "from_pin": "O5",
+            "to_pin": "OUT"
+        },
+        "PRECYINIT:AX": {
+            "from_pin": "AX",
+            "to_pin": "OUT"
+        },
+        "C6LUT:A1": {
+            "from_pin": "A1",
+            "to_pin": "O6"
+        },
+        "D5LUT:A3": {
+            "from_pin": "A3",
+            "to_pin": "O5"
+        },
+        "BFFMUX:CARRY4_MUX": {
+            "from_pin": "CARRY4_MUX",
+            "to_pin": "OUT"
+        },
+        "C6LUT:A3": {
+            "from_pin": "A3",
+            "to_pin": "O6"
+        },
+        "A5LUT:A1": {
+            "from_pin": "A1",
+            "to_pin": "O5"
+        },
+        "D6LUT:A2": {
+            "from_pin": "A2",
+            "to_pin": "O6"
+        },
+        "B6LUT:A5": {
+            "from_pin": "A5",
+            "to_pin": "O6"
+        },
+        "C5LUT:A3": {
+            "from_pin": "A3",
+            "to_pin": "O5"
+        },
+        "C5FFMUX:IN_A": {
+            "from_pin": "IN_A",
+            "to_pin": "OUT"
+        },
+        "D6LUT:A5": {
+            "from_pin": "A5",
+            "to_pin": "O6"
+        },
+        "D6LUT:A6": {
+            "from_pin": "A6",
+            "to_pin": "O6"
+        },
+        "BOUTMUX:CARRY4_XOR": {
+            "from_pin": "CARRY4_XOR",
+            "to_pin": "OUT"
+        },
+        "DOUTMUX:CARRY4_MUX": {
+            "from_pin": "CARRY4_MUX",
+            "to_pin": "OUT"
+        },
+        "COUTMUX:XOR": {
+            "from_pin": "XOR",
+            "to_pin": "OUT"
+        },
+        "B6LUT:A1": {
+            "from_pin": "A1",
+            "to_pin": "O6"
+        },
+        "A5LUT:A2": {
+            "from_pin": "A2",
+            "to_pin": "O5"
+        },
+        "B6LUT:A3": {
+            "from_pin": "A3",
+            "to_pin": "O6"
+        },
+        "B5LUT:A1": {
+            "from_pin": "A1",
+            "to_pin": "O5"
+        },
+        "AFFMUX:CARRY4_XOR": {
+            "from_pin": "CARRY4_XOR",
+            "to_pin": "OUT"
+        },
+        "DOUTMUX:O5": {
+            "from_pin": "O5",
+            "to_pin": "OUT"
+        },
+        "COUTMUX:F7": {
+            "from_pin": "F7",
+            "to_pin": "OUT"
+        },
+        "DOUTMUX:CARRY4_XOR": {
+            "from_pin": "CARRY4_XOR",
+            "to_pin": "OUT"
+        },
+        "D5LUT:A5": {
+            "from_pin": "A5",
+            "to_pin": "O5"
+        },
+        "C6LUT:A5": {
+            "from_pin": "A5",
+            "to_pin": "O6"
+        },
+        "BUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        }
+    },
+    "type": "SLICEL"
 }
