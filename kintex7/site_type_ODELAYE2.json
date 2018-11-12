@@ -1,0 +1,92 @@
+{
+  "type": "ODELAYE2",
+  "site_pips": {
+    "ODATAININV:ODATAIN_B": {
+      "from_pin": "ODATAIN_B",
+      "to_pin": "OUT"
+    },
+    "ODATAININV:ODATAIN": {
+      "from_pin": "ODATAIN",
+      "to_pin": "OUT"
+    },
+    "CINV:C": {
+      "from_pin": "C",
+      "to_pin": "OUT"
+    },
+    "CINV:C_B": {
+      "from_pin": "C_B",
+      "to_pin": "OUT"
+    }
+  },
+  "site_pins": {
+    "CLKIN": {
+      "direction": "IN"
+    },
+    "CNTVALUEOUT1": {
+      "direction": "OUT"
+    },
+    "CNTVALUEIN1": {
+      "direction": "IN"
+    },
+    "ODATAIN": {
+      "direction": "IN"
+    },
+    "OFDLY0": {
+      "direction": "IN"
+    },
+    "CE": {
+      "direction": "IN"
+    },
+    "DATAOUT": {
+      "direction": "OUT"
+    },
+    "CNTVALUEIN0": {
+      "direction": "IN"
+    },
+    "CNTVALUEIN4": {
+      "direction": "IN"
+    },
+    "CNTVALUEOUT2": {
+      "direction": "OUT"
+    },
+    "C": {
+      "direction": "IN"
+    },
+    "CNTVALUEOUT0": {
+      "direction": "OUT"
+    },
+    "CNTVALUEIN2": {
+      "direction": "IN"
+    },
+    "OFDLY2": {
+      "direction": "IN"
+    },
+    "LDPIPEEN": {
+      "direction": "IN"
+    },
+    "CINVCTRL": {
+      "direction": "IN"
+    },
+    "CNTVALUEOUT3": {
+      "direction": "OUT"
+    },
+    "INC": {
+      "direction": "IN"
+    },
+    "CNTVALUEOUT4": {
+      "direction": "OUT"
+    },
+    "CNTVALUEIN3": {
+      "direction": "IN"
+    },
+    "OFDLY1": {
+      "direction": "IN"
+    },
+    "REGRST": {
+      "direction": "IN"
+    },
+    "LD": {
+      "direction": "IN"
+    }
+  }
+}

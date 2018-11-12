@@ -1,0 +1,6753 @@
+{
+  "type": "PCIE_2_1",
+  "site_pips": {},
+  "site_pins": {
+    "MIMTXWDATA19": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG112": {
+      "direction": "IN"
+    },
+    "CFGINTERRUPTDI3": {
+      "direction": "IN"
+    },
+    "DBGVECC9": {
+      "direction": "OUT"
+    },
+    "MIMTXRADDR1": {
+      "direction": "OUT"
+    },
+    "PIPERX4DATA13": {
+      "direction": "IN"
+    },
+    "PLDIRECTEDLINKCHANGE0": {
+      "direction": "IN"
+    },
+    "PIPERX6POLARITY": {
+      "direction": "OUT"
+    },
+    "CFGPCIECAPINTERRUPTMSGNUM4": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR21": {
+      "direction": "OUT"
+    },
+    "PIPERX6VALID": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA33": {
+      "direction": "OUT"
+    },
+    "TRNRD114": {
+      "direction": "OUT"
+    },
+    "CMSTICKYRSTN": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR46": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA25": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI31": {
+      "direction": "IN"
+    },
+    "DBGVECB43": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROLMAXREADREQ0": {
+      "direction": "OUT"
+    },
+    "DBGVECC3": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR58": {
+      "direction": "OUT"
+    },
+    "CFGLINKSTATUSLINKTRAINING": {
+      "direction": "OUT"
+    },
+    "CFGREVID4": {
+      "direction": "IN"
+    },
+    "CFGDSN48": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSID0": {
+      "direction": "IN"
+    },
+    "TRNRSOF": {
+      "direction": "OUT"
+    },
+    "CFGDSN63": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA52": {
+      "direction": "OUT"
+    },
+    "LL2TFCINIT1SEQ": {
+      "direction": "OUT"
+    },
+    "TRNRD85": {
+      "direction": "OUT"
+    },
+    "DBGVECC1": {
+      "direction": "OUT"
+    },
+    "MIMTXWADDR8": {
+      "direction": "OUT"
+    },
+    "CFGERRECRCN": {
+      "direction": "IN"
+    },
+    "PIPETX4DATA11": {
+      "direction": "OUT"
+    },
+    "TRNTD120": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA27": {
+      "direction": "IN"
+    },
+    "TRNTD88": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG124": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA35": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG42": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA54": {
+      "direction": "IN"
+    },
+    "PLDBGMODE0": {
+      "direction": "IN"
+    },
+    "EDTCHANNELSOUT8": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG49": {
+      "direction": "IN"
+    },
+    "CFGDSN47": {
+      "direction": "IN"
+    },
+    "CFGPMRCVREQACKN": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDERRCOR": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA43": {
+      "direction": "OUT"
+    },
+    "TRNTD109": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR6": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA51": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDI20": {
+      "direction": "IN"
+    },
+    "TRNTD42": {
+      "direction": "IN"
+    },
+    "TRNRD52": {
+      "direction": "OUT"
+    },
+    "CFGREVID2": {
+      "direction": "IN"
+    },
+    "TRNRBARHIT5": {
+      "direction": "OUT"
+    },
+    "PIPERX7ELECIDLE": {
+      "direction": "IN"
+    },
+    "DBGVECA54": {
+      "direction": "OUT"
+    },
+    "TRNREOF": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA20": {
+      "direction": "IN"
+    },
+    "TRNFCNPH2": {
+      "direction": "OUT"
+    },
+    "DBGVECB15": {
+      "direction": "OUT"
+    },
+    "CFGDSN25": {
+      "direction": "IN"
+    },
+    "PIPERX6STATUS2": {
+      "direction": "IN"
+    },
+    "PIPETX0DATA3": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG94": {
+      "direction": "IN"
+    },
+    "PLDBGVEC7": {
+      "direction": "OUT"
+    },
+    "DBGVECA63": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT20": {
+      "direction": "OUT"
+    },
+    "PIPETX2DATA0": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDI29": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA62": {
+      "direction": "OUT"
+    },
+    "PIPERX2DATA12": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT1": {
+      "direction": "OUT"
+    },
+    "PIPERX5CHANISALIGNED": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA27": {
+      "direction": "OUT"
+    },
+    "CFGDSN3": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG83": {
+      "direction": "IN"
+    },
+    "PIPERX4DATA1": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI26": {
+      "direction": "IN"
+    },
+    "TRNFCCPLH6": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA1": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR61": {
+      "direction": "OUT"
+    },
+    "PIPETX0CHARISK1": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT38": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR24": {
+      "direction": "OUT"
+    },
+    "TRNRD76": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA22": {
+      "direction": "IN"
+    },
+    "PIPETX7DATA8": {
+      "direction": "OUT"
+    },
+    "PIPETX2CHARISK0": {
+      "direction": "OUT"
+    },
+    "DBGVECA31": {
+      "direction": "OUT"
+    },
+    "TRNTD79": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSID8": {
+      "direction": "IN"
+    },
+    "CFGDSN22": {
+      "direction": "IN"
+    },
+    "DBGVECB18": {
+      "direction": "OUT"
+    },
+    "PIPERX0DATA10": {
+      "direction": "IN"
+    },
+    "TRNRD16": {
+      "direction": "OUT"
+    },
+    "PLDBGVEC3": {
+      "direction": "OUT"
+    },
+    "PIPERX7CHARISK1": {
+      "direction": "IN"
+    },
+    "PLINITIALLINKWIDTH1": {
+      "direction": "OUT"
+    },
+    "PL2LINKUP": {
+      "direction": "OUT"
+    },
+    "PIPERX4DATA8": {
+      "direction": "IN"
+    },
+    "MIMTXWADDR12": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA9": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA54": {
+      "direction": "OUT"
+    },
+    "PIPETX2DATA5": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDWADDR5": {
+      "direction": "IN"
+    },
+    "DBGVECB28": {
+      "direction": "OUT"
+    },
+    "PIPERX6PHYSTATUS": {
+      "direction": "IN"
+    },
+    "CFGDSDEVICENUMBER0": {
+      "direction": "IN"
+    },
+    "PIPERX3PHYSTATUS": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA31": {
+      "direction": "OUT"
+    },
+    "PIPETX0DATA5": {
+      "direction": "OUT"
+    },
+    "TRNLNKUP": {
+      "direction": "OUT"
+    },
+    "PL2RECOVERY": {
+      "direction": "OUT"
+    },
+    "PIPERX4DATA7": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA13": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR7": {
+      "direction": "OUT"
+    },
+    "DBGVECA61": {
+      "direction": "OUT"
+    },
+    "CFGERRACSN": {
+      "direction": "IN"
+    },
+    "CFGDSN14": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA55": {
+      "direction": "IN"
+    },
+    "CFGDSN12": {
+      "direction": "IN"
+    },
+    "DBGVECA25": {
+      "direction": "OUT"
+    },
+    "TRNRD53": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDDEASSERTINTB": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA7": {
+      "direction": "IN"
+    },
+    "PIPETXRCVRDET": {
+      "direction": "OUT"
+    },
+    "MIMRXWADDR9": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSVENDID15": {
+      "direction": "IN"
+    },
+    "TRNRD66": {
+      "direction": "OUT"
+    },
+    "PIPETX2POWERDOWN0": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER43": {
+      "direction": "IN"
+    },
+    "DBGVECC5": {
+      "direction": "OUT"
+    },
+    "PIPERX3DATA12": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSVENDID8": {
+      "direction": "IN"
+    },
+    "TRNRBARHIT7": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR44": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA18": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA47": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA11": {
+      "direction": "IN"
+    },
+    "PIPETX2DATA14": {
+      "direction": "OUT"
+    },
+    "TRNFCCPLD1": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER20": {
+      "direction": "IN"
+    },
+    "TRNTBUFAV1": {
+      "direction": "OUT"
+    },
+    "PIPETX0DATA6": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG119": {
+      "direction": "IN"
+    },
+    "TRNTD2": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG55": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER6": {
+      "direction": "IN"
+    },
+    "TRNFCPH6": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA5": {
+      "direction": "IN"
+    },
+    "CFGAERROOTERRCORRERRREPORTINGEN": {
+      "direction": "OUT"
+    },
+    "DBGVECA1": {
+      "direction": "OUT"
+    },
+    "CFGDSN62": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA48": {
+      "direction": "OUT"
+    },
+    "PLLTSSMSTATE3": {
+      "direction": "OUT"
+    },
+    "DBGSCLRF": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDPMPME": {
+      "direction": "OUT"
+    },
+    "CFGERRATOMICEGRESSBLOCKEDN": {
+      "direction": "IN"
+    },
+    "CFGAERECRCCHECKEN": {
+      "direction": "OUT"
+    },
+    "TRNFCPD0": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG14": {
+      "direction": "IN"
+    },
+    "CFGLINKSTATUSNEGOTIATEDWIDTH0": {
+      "direction": "OUT"
+    },
+    "TRNFCPH0": {
+      "direction": "OUT"
+    },
+    "PIPERX2DATA10": {
+      "direction": "IN"
+    },
+    "EDTCHANNELSIN8": {
+      "direction": "IN"
+    },
+    "TRNRD10": {
+      "direction": "OUT"
+    },
+    "CFGVENDID1": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI3": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG82": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA23": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG72": {
+      "direction": "IN"
+    },
+    "TRNTD67": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA60": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA54": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER42": {
+      "direction": "IN"
+    },
+    "CFGMGMTWRREADONLYN": {
+      "direction": "IN"
+    },
+    "EDTBYPASS": {
+      "direction": "IN"
+    },
+    "DBGVECB62": {
+      "direction": "OUT"
+    },
+    "PIPERX5DATA5": {
+      "direction": "IN"
+    },
+    "TRNTDSTRDY0": {
+      "direction": "OUT"
+    },
+    "PIPERX6DATA6": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA49": {
+      "direction": "IN"
+    },
+    "CFGDEVCONTROL2CPLTIMEOUTVAL2": {
+      "direction": "OUT"
+    },
+    "DBGVECA9": {
+      "direction": "OUT"
+    },
+    "DBGVECA51": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA38": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA7": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA8": {
+      "direction": "OUT"
+    },
+    "PIPETX1DATA3": {
+      "direction": "OUT"
+    },
+    "CFGERRCORN": {
+      "direction": "IN"
+    },
+    "PIPETX1DATA1": {
+      "direction": "OUT"
+    },
+    "PIPETX2DATA1": {
+      "direction": "OUT"
+    },
+    "PIPETX3DATA4": {
+      "direction": "OUT"
+    },
+    "DBGVECA39": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER9": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA61": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT29": {
+      "direction": "OUT"
+    },
+    "PIPERX1DATA4": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA41": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA6": {
+      "direction": "IN"
+    },
+    "PIPERX5DATA3": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR47": {
+      "direction": "OUT"
+    },
+    "TRNRD22": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG70": {
+      "direction": "IN"
+    },
+    "CFGFORCEMPS1": {
+      "direction": "IN"
+    },
+    "TRNTD57": {
+      "direction": "IN"
+    },
+    "USERCLKPREBUF": {
+      "direction": "IN"
+    },
+    "TRNFCNPH6": {
+      "direction": "OUT"
+    },
+    "PIPETX1DATA13": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT0": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG12": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA46": {
+      "direction": "OUT"
+    },
+    "PIPERX3DATA13": {
+      "direction": "IN"
+    },
+    "TRNFCPD8": {
+      "direction": "OUT"
+    },
+    "PIPERX0CHANISALIGNED": {
+      "direction": "IN"
+    },
+    "TRNTD107": {
+      "direction": "IN"
+    },
+    "MIMRXRADDR12": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT17": {
+      "direction": "OUT"
+    },
+    "PIPERX0STATUS0": {
+      "direction": "IN"
+    },
+    "DBGVECC2": {
+      "direction": "OUT"
+    },
+    "DRPDI9": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER21": {
+      "direction": "IN"
+    },
+    "MIMTXWADDR9": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER39": {
+      "direction": "IN"
+    },
+    "DRPDI7": {
+      "direction": "IN"
+    },
+    "TRNTD8": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA57": {
+      "direction": "IN"
+    },
+    "DBGSCLRH": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO15": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG24": {
+      "direction": "IN"
+    },
+    "CFGERRPOSTEDN": {
+      "direction": "IN"
+    },
+    "DBGVECA57": {
+      "direction": "OUT"
+    },
+    "SCANMODEN": {
+      "direction": "IN"
+    },
+    "PIPERX2VALID": {
+      "direction": "IN"
+    },
+    "CFGMGMTBYTEENN3": {
+      "direction": "IN"
+    },
+    "TRNTD108": {
+      "direction": "IN"
+    },
+    "TRNTD110": {
+      "direction": "IN"
+    },
+    "CFGINTERRUPTDI0": {
+      "direction": "IN"
+    },
+    "TRNFCCPLD11": {
+      "direction": "OUT"
+    },
+    "TRNRD102": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER25": {
+      "direction": "IN"
+    },
+    "PIPERX5PHYSTATUS": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG96": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO20": {
+      "direction": "OUT"
+    },
+    "PIPETX1DATA7": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG91": {
+      "direction": "IN"
+    },
+    "DBGVECA13": {
+      "direction": "OUT"
+    },
+    "MIMTXREN": {
+      "direction": "OUT"
+    },
+    "CFGPMFORCESTATEENN": {
+      "direction": "IN"
+    },
+    "DRPDI0": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG27": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO12": {
+      "direction": "OUT"
+    },
+    "PLINITIALLINKWIDTH0": {
+      "direction": "OUT"
+    },
+    "PIPETX5CHARISK1": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG44": {
+      "direction": "IN"
+    },
+    "CFGREVID6": {
+      "direction": "IN"
+    },
+    "TRNFCSEL1": {
+      "direction": "IN"
+    },
+    "CFGFORCECOMMONCLOCKOFF": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG78": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA22": {
+      "direction": "OUT"
+    },
+    "CFGFORCEMPS0": {
+      "direction": "IN"
+    },
+    "PIPETX2DATA2": {
+      "direction": "OUT"
+    },
+    "PIPETX5DATA5": {
+      "direction": "OUT"
+    },
+    "DBGSCLRI": {
+      "direction": "OUT"
+    },
+    "PIPETX6DATA13": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA32": {
+      "direction": "OUT"
+    },
+    "TRNRBARHIT1": {
+      "direction": "OUT"
+    },
+    "DLRSTN": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA40": {
+      "direction": "IN"
+    },
+    "DRPDI6": {
+      "direction": "IN"
+    },
+    "DBGVECB48": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA18": {
+      "direction": "IN"
+    },
+    "PIPERX5DATA2": {
+      "direction": "IN"
+    },
+    "DBGVECA30": {
+      "direction": "OUT"
+    },
+    "TRNFCCPLD5": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROL2ATOMICREQUESTEREN": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDI22": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDSTRDY": {
+      "direction": "OUT"
+    },
+    "TRNTD36": {
+      "direction": "IN"
+    },
+    "MIMTXRADDR2": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA4": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA18": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA45": {
+      "direction": "IN"
+    },
+    "TRNTD73": {
+      "direction": "IN"
+    },
+    "TRNRD78": {
+      "direction": "OUT"
+    },
+    "TRNTD18": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG65": {
+      "direction": "IN"
+    },
+    "CFGDSN49": {
+      "direction": "IN"
+    },
+    "TRNRD12": {
+      "direction": "OUT"
+    },
+    "PIPETX7DATA10": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG33": {
+      "direction": "IN"
+    },
+    "PIPETX6ELECIDLE": {
+      "direction": "OUT"
+    },
+    "TRNRD116": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO3": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTDO4": {
+      "direction": "OUT"
+    },
+    "PIPERX5DATA12": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA26": {
+      "direction": "OUT"
+    },
+    "DRPDO8": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA46": {
+      "direction": "IN"
+    },
+    "DBGVECB29": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO22": {
+      "direction": "OUT"
+    },
+    "CFGDSN4": {
+      "direction": "IN"
+    },
+    "CFGPORTNUMBER0": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA65": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO18": {
+      "direction": "OUT"
+    },
+    "CFGPMRCVASREQL1N": {
+      "direction": "OUT"
+    },
+    "PIPERX0ELECIDLE": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA48": {
+      "direction": "OUT"
+    },
+    "MIMRXWADDR11": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA9": {
+      "direction": "OUT"
+    },
+    "TRNTD113": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA7": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG98": {
+      "direction": "IN"
+    },
+    "PIPETX3DATA5": {
+      "direction": "OUT"
+    },
+    "PIPERX7DATA0": {
+      "direction": "IN"
+    },
+    "TRNTD43": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA46": {
+      "direction": "IN"
+    },
+    "PIPETX3POWERDOWN0": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA4": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA9": {
+      "direction": "OUT"
+    },
+    "DBGVECA15": {
+      "direction": "OUT"
+    },
+    "CFGERRLOCKEDN": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSVENDID11": {
+      "direction": "IN"
+    },
+    "TRNTD27": {
+      "direction": "IN"
+    },
+    "EDTCHANNELSIN7": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI12": {
+      "direction": "IN"
+    },
+    "TRNRD38": {
+      "direction": "OUT"
+    },
+    "PIPETX5DATA14": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA29": {
+      "direction": "OUT"
+    },
+    "LL2SUSPENDNOW": {
+      "direction": "IN"
+    },
+    "DBGVECA38": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG39": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI10": {
+      "direction": "IN"
+    },
+    "PIPERX2ELECIDLE": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA30": {
+      "direction": "IN"
+    },
+    "TRNTD105": {
+      "direction": "IN"
+    },
+    "PIPERX7DATA8": {
+      "direction": "IN"
+    },
+    "CFGPCIECAPINTERRUPTMSGNUM1": {
+      "direction": "IN"
+    },
+    "PL2RXELECIDLE": {
+      "direction": "OUT"
+    },
+    "DBGVECB3": {
+      "direction": "OUT"
+    },
+    "TRNFCNPD2": {
+      "direction": "OUT"
+    },
+    "MIMRXWADDR12": {
+      "direction": "OUT"
+    },
+    "PIPERX5DATA13": {
+      "direction": "IN"
+    },
+    "PIPETX5DATA0": {
+      "direction": "OUT"
+    },
+    "PIPETX2COMPLIANCE": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER44": {
+      "direction": "IN"
+    },
+    "PIPERX4STATUS1": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA45": {
+      "direction": "IN"
+    },
+    "PIPETX1DATA12": {
+      "direction": "OUT"
+    },
+    "PLLINKPARTNERGEN2SUPPORTED": {
+      "direction": "OUT"
+    },
+    "DBGVECB2": {
+      "direction": "OUT"
+    },
+    "CFGMSGDATA14": {
+      "direction": "OUT"
+    },
+    "CFGAERROOTERRCORRERRRECEIVED": {
+      "direction": "OUT"
+    },
+    "TL2ASPMSUSPENDREQ": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER35": {
+      "direction": "IN"
+    },
+    "CFGVCTCVCMAP6": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA2": {
+      "direction": "IN"
+    },
+    "MIMTXWADDR0": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSVENDID4": {
+      "direction": "IN"
+    },
+    "DBGVECB11": {
+      "direction": "OUT"
+    },
+    "CFGDSN44": {
+      "direction": "IN"
+    },
+    "TRNFCPD4": {
+      "direction": "OUT"
+    },
+    "TRNFCNPH4": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA0": {
+      "direction": "OUT"
+    },
+    "PIPERX0DATA0": {
+      "direction": "IN"
+    },
+    "CFGMGMTDWADDR6": {
+      "direction": "IN"
+    },
+    "PIPETX7COMPLIANCE": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA1": {
+      "direction": "OUT"
+    },
+    "PIPERX5CHARISK1": {
+      "direction": "IN"
+    },
+    "TRNRD32": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA52": {
+      "direction": "OUT"
+    },
+    "CFGDSN24": {
+      "direction": "IN"
+    },
+    "TRNRD109": {
+      "direction": "OUT"
+    },
+    "CFGDSN17": {
+      "direction": "IN"
+    },
+    "PLDIRECTEDLINKWIDTH1": {
+      "direction": "IN"
+    },
+    "PIPERX0DATA4": {
+      "direction": "IN"
+    },
+    "PIPERX7DATA3": {
+      "direction": "IN"
+    },
+    "CFGPORTNUMBER5": {
+      "direction": "IN"
+    },
+    "LL2BADTLPERR": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR33": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA44": {
+      "direction": "OUT"
+    },
+    "TL2ERRFCPE": {
+      "direction": "OUT"
+    },
+    "TRNTD127": {
+      "direction": "IN"
+    },
+    "TRNRD28": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT32": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR27": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG120": {
+      "direction": "IN"
+    },
+    "LL2REPLAYTOERR": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG127": {
+      "direction": "IN"
+    },
+    "MIMRXRADDR10": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG37": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT34": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA28": {
+      "direction": "IN"
+    },
+    "CFGMSGRECEIVED": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSVENDID1": {
+      "direction": "IN"
+    },
+    "PLLANEREVERSALMODE0": {
+      "direction": "OUT"
+    },
+    "TRNFCCPLH4": {
+      "direction": "OUT"
+    },
+    "PIPERX6STATUS0": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA14": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA66": {
+      "direction": "IN"
+    },
+    "TRNRD74": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA56": {
+      "direction": "OUT"
+    },
+    "PIPERX2STATUS1": {
+      "direction": "IN"
+    },
+    "PLSELLNKRATE": {
+      "direction": "OUT"
+    },
+    "TRNRD80": {
+      "direction": "OUT"
+    },
+    "PIPETX6DATA7": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG11": {
+      "direction": "IN"
+    },
+    "CFGMSGDATA11": {
+      "direction": "OUT"
+    },
+    "CFGLINKSTATUSCURRENTSPEED1": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG23": {
+      "direction": "IN"
+    },
+    "CFGDSN52": {
+      "direction": "IN"
+    },
+    "DBGVECA52": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA1": {
+      "direction": "OUT"
+    },
+    "MIMTXRADDR12": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA42": {
+      "direction": "OUT"
+    },
+    "MIMTXWADDR3": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA38": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA0": {
+      "direction": "OUT"
+    },
+    "PIPERX3DATA10": {
+      "direction": "IN"
+    },
+    "TRNTD85": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA47": {
+      "direction": "OUT"
+    },
+    "PIPETX0DATA14": {
+      "direction": "OUT"
+    },
+    "TRNRD123": {
+      "direction": "OUT"
+    },
+    "PIPERX7DATA7": {
+      "direction": "IN"
+    },
+    "CFGDSDEVICENUMBER4": {
+      "direction": "IN"
+    },
+    "CFGDSN16": {
+      "direction": "IN"
+    },
+    "CFGDEVCONTROLPHANTOMEN": {
+      "direction": "OUT"
+    },
+    "TRNRD42": {
+      "direction": "OUT"
+    },
+    "PIPETX5ELECIDLE": {
+      "direction": "OUT"
+    },
+    "DBGVECB36": {
+      "direction": "OUT"
+    },
+    "PIPETX4COMPLIANCE": {
+      "direction": "OUT"
+    },
+    "PLDOWNSTREAMDEEMPHSOURCE": {
+      "direction": "IN"
+    },
+    "TRNRD68": {
+      "direction": "OUT"
+    },
+    "TRNRD117": {
+      "direction": "OUT"
+    },
+    "PIPERX3DATA7": {
+      "direction": "IN"
+    },
+    "PIPETX5DATA13": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG32": {
+      "direction": "IN"
+    },
+    "DBGVECC0": {
+      "direction": "OUT"
+    },
+    "CFGDSN60": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA61": {
+      "direction": "OUT"
+    },
+    "USERRSTN": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA14": {
+      "direction": "OUT"
+    },
+    "DRPDI4": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA59": {
+      "direction": "OUT"
+    },
+    "PIPETX2DATA11": {
+      "direction": "OUT"
+    },
+    "DBGVECA43": {
+      "direction": "OUT"
+    },
+    "TRNFCCPLD3": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDASSERTINTD": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO25": {
+      "direction": "OUT"
+    },
+    "CFGDEVID7": {
+      "direction": "IN"
+    },
+    "PIPERX1PHYSTATUS": {
+      "direction": "IN"
+    },
+    "TRNRD101": {
+      "direction": "OUT"
+    },
+    "TRNTBUFAV3": {
+      "direction": "OUT"
+    },
+    "PIPETX1CHARISK0": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA42": {
+      "direction": "OUT"
+    },
+    "PIPERX0DATA3": {
+      "direction": "IN"
+    },
+    "MIMTXRADDR4": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA37": {
+      "direction": "OUT"
+    },
+    "CFGDSN51": {
+      "direction": "IN"
+    },
+    "TRNRD55": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROL2IDOCPLEN": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA23": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSVENDID10": {
+      "direction": "IN"
+    },
+    "PIPETXRATE": {
+      "direction": "OUT"
+    },
+    "TRNTD63": {
+      "direction": "IN"
+    },
+    "TRNRD86": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA58": {
+      "direction": "OUT"
+    },
+    "TRNRD43": {
+      "direction": "OUT"
+    },
+    "CFGREVID1": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA22": {
+      "direction": "IN"
+    },
+    "PIPETX1COMPLIANCE": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER15": {
+      "direction": "IN"
+    },
+    "PIPERX7STATUS2": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT16": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROL2CPLTIMEOUTVAL0": {
+      "direction": "OUT"
+    },
+    "TRNTD97": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER32": {
+      "direction": "IN"
+    },
+    "TRNRD65": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA5": {
+      "direction": "IN"
+    },
+    "PIPETX6DATA14": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA66": {
+      "direction": "OUT"
+    },
+    "TRNTDSTRDY2": {
+      "direction": "OUT"
+    },
+    "TRNFCPD10": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA10": {
+      "direction": "IN"
+    },
+    "PMVENABLEN": {
+      "direction": "IN"
+    },
+    "CFGLINKCONTROLEXTENDEDSYNC": {
+      "direction": "OUT"
+    },
+    "TRNTD1": {
+      "direction": "IN"
+    },
+    "CFGPCIECAPINTERRUPTMSGNUM2": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR18": {
+      "direction": "OUT"
+    },
+    "DBGVECB23": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR26": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA44": {
+      "direction": "IN"
+    },
+    "CFGDSBUSNUMBER7": {
+      "direction": "IN"
+    },
+    "PIPETX0DATA4": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDERRNONFATAL": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA34": {
+      "direction": "OUT"
+    },
+    "PLTXPMSTATE0": {
+      "direction": "OUT"
+    },
+    "PLUPSTREAMPREFERDEEMPH": {
+      "direction": "IN"
+    },
+    "TRNTD95": {
+      "direction": "IN"
+    },
+    "TRNTD124": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG2": {
+      "direction": "IN"
+    },
+    "CFGMSGDATA12": {
+      "direction": "OUT"
+    },
+    "CFGTRANSACTIONADDR0": {
+      "direction": "OUT"
+    },
+    "DBGVECA21": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA44": {
+      "direction": "OUT"
+    },
+    "PIPETX7DATA6": {
+      "direction": "OUT"
+    },
+    "PL2DIRECTEDLSTATE3": {
+      "direction": "IN"
+    },
+    "PIPETX7DATA15": {
+      "direction": "OUT"
+    },
+    "DBGVECA17": {
+      "direction": "OUT"
+    },
+    "CFGCOMMANDBUSMASTERENABLE": {
+      "direction": "OUT"
+    },
+    "PIPERX1DATA12": {
+      "direction": "IN"
+    },
+    "TRNTBUFAV4": {
+      "direction": "OUT"
+    },
+    "CFGLINKSTATUSNEGOTIATEDWIDTH1": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG17": {
+      "direction": "IN"
+    },
+    "PIPETX3POWERDOWN1": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA56": {
+      "direction": "IN"
+    },
+    "CFGAERINTERRUPTMSGNUM1": {
+      "direction": "IN"
+    },
+    "CFGDSN38": {
+      "direction": "IN"
+    },
+    "PIPETX2POWERDOWN1": {
+      "direction": "OUT"
+    },
+    "PIPETX0DATA13": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA29": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA60": {
+      "direction": "IN"
+    },
+    "PIPETX5DATA6": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA63": {
+      "direction": "OUT"
+    },
+    "MIMTXWADDR1": {
+      "direction": "OUT"
+    },
+    "CFGMSGDATA6": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA21": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR23": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG21": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA0": {
+      "direction": "IN"
+    },
+    "CFGMSGRECEIVEDDEASSERTINTC": {
+      "direction": "OUT"
+    },
+    "TRNRD119": {
+      "direction": "OUT"
+    },
+    "CFGERRURN": {
+      "direction": "IN"
+    },
+    "CFGLINKSTATUSBANDWIDTHSTATUS": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA30": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA39": {
+      "direction": "OUT"
+    },
+    "PIPETX4DATA7": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR15": {
+      "direction": "OUT"
+    },
+    "TRNTD76": {
+      "direction": "IN"
+    },
+    "CFGROOTCONTROLPMEINTEN": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA50": {
+      "direction": "OUT"
+    },
+    "PIPERX5VALID": {
+      "direction": "IN"
+    },
+    "TRNTD115": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO16": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA25": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA65": {
+      "direction": "OUT"
+    },
+    "CFGDSN20": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA5": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG110": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO5": {
+      "direction": "OUT"
+    },
+    "PIPERX6CHARISK1": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG99": {
+      "direction": "IN"
+    },
+    "PIPERX3DATA5": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA35": {
+      "direction": "IN"
+    },
+    "PIPERX1CHARISK0": {
+      "direction": "IN"
+    },
+    "DBGVECA42": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA13": {
+      "direction": "IN"
+    },
+    "TRNTD81": {
+      "direction": "IN"
+    },
+    "DBGVECB19": {
+      "direction": "OUT"
+    },
+    "DBGVECA46": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA53": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA7": {
+      "direction": "IN"
+    },
+    "TRNRD111": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA3": {
+      "direction": "IN"
+    },
+    "LL2TXIDLE": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG69": {
+      "direction": "IN"
+    },
+    "DBGVECB44": {
+      "direction": "OUT"
+    },
+    "PIPETX5DATA12": {
+      "direction": "OUT"
+    },
+    "PIPETX6DATA11": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA34": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDWADDR4": {
+      "direction": "IN"
+    },
+    "EDTCHANNELSOUT7": {
+      "direction": "OUT"
+    },
+    "PIPERX4DATA11": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA16": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTDI2": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA24": {
+      "direction": "IN"
+    },
+    "CFGMSGDATA0": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT39": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER2": {
+      "direction": "IN"
+    },
+    "CFGVENDID15": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG77": {
+      "direction": "IN"
+    },
+    "DBGVECA37": {
+      "direction": "OUT"
+    },
+    "PIPETX0CHARISK0": {
+      "direction": "OUT"
+    },
+    "PIPERX1DATA6": {
+      "direction": "IN"
+    },
+    "TRNRDLLPSRCRDY0": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA11": {
+      "direction": "OUT"
+    },
+    "CFGDSN31": {
+      "direction": "IN"
+    },
+    "PIPETX6POWERDOWN0": {
+      "direction": "OUT"
+    },
+    "MIMRXRADDR11": {
+      "direction": "OUT"
+    },
+    "DBGVECA24": {
+      "direction": "OUT"
+    },
+    "PIPERX6CHANISALIGNED": {
+      "direction": "IN"
+    },
+    "TRNTD70": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA31": {
+      "direction": "OUT"
+    },
+    "TRNRD98": {
+      "direction": "OUT"
+    },
+    "PIPETX7DATA14": {
+      "direction": "OUT"
+    },
+    "TRNTD22": {
+      "direction": "IN"
+    },
+    "TRNTSTR": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA26": {
+      "direction": "OUT"
+    },
+    "CFGVENDID11": {
+      "direction": "IN"
+    },
+    "PLDIRECTEDLINKCHANGE1": {
+      "direction": "IN"
+    },
+    "DRPDI11": {
+      "direction": "IN"
+    },
+    "PLDIRECTEDLTSSMNEWVLD": {
+      "direction": "IN"
+    },
+    "TRNRD95": {
+      "direction": "OUT"
+    },
+    "PLRXPMSTATE0": {
+      "direction": "OUT"
+    },
+    "TRNRD83": {
+      "direction": "OUT"
+    },
+    "EDTCHANNELSIN5": {
+      "direction": "IN"
+    },
+    "TRNTD5": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA45": {
+      "direction": "OUT"
+    },
+    "PIPETXRESET": {
+      "direction": "OUT"
+    },
+    "PIPETX3DATA9": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA6": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR41": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG38": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG71": {
+      "direction": "IN"
+    },
+    "TRNTD119": {
+      "direction": "IN"
+    },
+    "CFGVENDID8": {
+      "direction": "IN"
+    },
+    "PIPETX5DATA4": {
+      "direction": "OUT"
+    },
+    "DBGVECB39": {
+      "direction": "OUT"
+    },
+    "PIPERX1DATA7": {
+      "direction": "IN"
+    },
+    "CFGTRANSACTIONADDR6": {
+      "direction": "OUT"
+    },
+    "PLRXPMSTATE1": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG50": {
+      "direction": "IN"
+    },
+    "PIPETX2CHARISK1": {
+      "direction": "OUT"
+    },
+    "PIPETX3DATA2": {
+      "direction": "OUT"
+    },
+    "CFGLINKSTATUSNEGOTIATEDWIDTH3": {
+      "direction": "OUT"
+    },
+    "MIMTXRADDR0": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER7": {
+      "direction": "IN"
+    },
+    "DBGVECA4": {
+      "direction": "OUT"
+    },
+    "CFGDSBUSNUMBER1": {
+      "direction": "IN"
+    },
+    "EDTSINGLEBYPASSCHAIN": {
+      "direction": "IN"
+    },
+    "CFGINTERRUPTASSERTN": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI19": {
+      "direction": "IN"
+    },
+    "PIPERX7DATA6": {
+      "direction": "IN"
+    },
+    "TRNRD126": {
+      "direction": "OUT"
+    },
+    "TRNRD122": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA5": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA44": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA57": {
+      "direction": "OUT"
+    },
+    "CFGDSN8": {
+      "direction": "IN"
+    },
+    "TRNFCNPD10": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTDI5": {
+      "direction": "IN"
+    },
+    "PLDBGVEC2": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA2": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA4": {
+      "direction": "OUT"
+    },
+    "PIPETX4DATA3": {
+      "direction": "OUT"
+    },
+    "MIMTXRADDR7": {
+      "direction": "OUT"
+    },
+    "PIPERX6CHARISK0": {
+      "direction": "IN"
+    },
+    "PIPETX5COMPLIANCE": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA63": {
+      "direction": "IN"
+    },
+    "MIMRXRADDR2": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA12": {
+      "direction": "IN"
+    },
+    "TRNTD91": {
+      "direction": "IN"
+    },
+    "PIPERX0DATA14": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT5": {
+      "direction": "OUT"
+    },
+    "PIPETX1POWERDOWN1": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO6": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA49": {
+      "direction": "IN"
+    },
+    "TRNTDLLPSRCRDY": {
+      "direction": "IN"
+    },
+    "CFGINTERRUPTDI1": {
+      "direction": "IN"
+    },
+    "DBGMODE1": {
+      "direction": "IN"
+    },
+    "PIPECLK": {
+      "direction": "IN"
+    },
+    "TRNTDSTRDY3": {
+      "direction": "OUT"
+    },
+    "TRNRD15": {
+      "direction": "OUT"
+    },
+    "CFGDSN50": {
+      "direction": "IN"
+    },
+    "TRNRD106": {
+      "direction": "OUT"
+    },
+    "TRNRD60": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA64": {
+      "direction": "IN"
+    },
+    "CFGDEVSTATUSFATALERRDETECTED": {
+      "direction": "OUT"
+    },
+    "PIPERX3DATA6": {
+      "direction": "IN"
+    },
+    "DRPCLK": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT14": {
+      "direction": "OUT"
+    },
+    "CFGFORCEMPS2": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA19": {
+      "direction": "OUT"
+    },
+    "DRPDO2": {
+      "direction": "OUT"
+    },
+    "PIPERX7DATA9": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA37": {
+      "direction": "IN"
+    },
+    "CFGMGMTDWADDR3": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG113": {
+      "direction": "IN"
+    },
+    "CFGAERROOTERRFATALERRREPORTINGEN": {
+      "direction": "OUT"
+    },
+    "DRPDI15": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER10": {
+      "direction": "IN"
+    },
+    "LL2SUSPENDOK": {
+      "direction": "OUT"
+    },
+    "PIPETX3DATA1": {
+      "direction": "OUT"
+    },
+    "PIPERX2DATA6": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA61": {
+      "direction": "OUT"
+    },
+    "PIPETX6DATA9": {
+      "direction": "OUT"
+    },
+    "TRNTD84": {
+      "direction": "IN"
+    },
+    "CFGERRCPLRDYN": {
+      "direction": "OUT"
+    },
+    "PIPETX7DATA1": {
+      "direction": "OUT"
+    },
+    "TRNTD64": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA55": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA42": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA20": {
+      "direction": "IN"
+    },
+    "DBGVECA44": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT13": {
+      "direction": "OUT"
+    },
+    "DRPDO10": {
+      "direction": "OUT"
+    },
+    "TRNTD75": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA2": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDI30": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA55": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA26": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR16": {
+      "direction": "OUT"
+    },
+    "TRNRD104": {
+      "direction": "OUT"
+    },
+    "CFGTRANSACTIONADDR4": {
+      "direction": "OUT"
+    },
+    "PIPETX3DATA14": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA33": {
+      "direction": "IN"
+    },
+    "TRNRD90": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA28": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSID11": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA37": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA30": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA7": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA54": {
+      "direction": "OUT"
+    },
+    "CFGVENDID7": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI21": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA3": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER26": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA28": {
+      "direction": "OUT"
+    },
+    "CFGDSN26": {
+      "direction": "IN"
+    },
+    "PIPETX1DATA10": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA55": {
+      "direction": "OUT"
+    },
+    "TRNFCPH2": {
+      "direction": "OUT"
+    },
+    "TRNTD20": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA47": {
+      "direction": "IN"
+    },
+    "PLLINKGEN2CAP": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSVENDID3": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA23": {
+      "direction": "OUT"
+    },
+    "CFGBRIDGESERREN": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA62": {
+      "direction": "IN"
+    },
+    "DBGVECA40": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA31": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG51": {
+      "direction": "IN"
+    },
+    "TRNRD70": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTN": {
+      "direction": "IN"
+    },
+    "DRPDO12": {
+      "direction": "OUT"
+    },
+    "TRNRD45": {
+      "direction": "OUT"
+    },
+    "PIPERX2STATUS0": {
+      "direction": "IN"
+    },
+    "MIMTXRADDR8": {
+      "direction": "OUT"
+    },
+    "PIPETX0ELECIDLE": {
+      "direction": "OUT"
+    },
+    "PLRSTN": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA43": {
+      "direction": "OUT"
+    },
+    "TRNRSRCRDY": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA59": {
+      "direction": "IN"
+    },
+    "CFGDSN7": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI1": {
+      "direction": "IN"
+    },
+    "TRNRD58": {
+      "direction": "OUT"
+    },
+    "TRNTD28": {
+      "direction": "IN"
+    },
+    "PIPETX2DATA3": {
+      "direction": "OUT"
+    },
+    "PIPERX6DATA10": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA40": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA19": {
+      "direction": "IN"
+    },
+    "PIPERX0CHARISK0": {
+      "direction": "IN"
+    },
+    "CFGLINKCONTROLBANDWIDTHINTEN": {
+      "direction": "OUT"
+    },
+    "PL2DIRECTEDLSTATE4": {
+      "direction": "IN"
+    },
+    "PIPERX6DATA2": {
+      "direction": "IN"
+    },
+    "DBGVECC11": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA14": {
+      "direction": "OUT"
+    },
+    "CFGMGMTRDWRDONEN": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER36": {
+      "direction": "IN"
+    },
+    "PIPETX6DATA12": {
+      "direction": "OUT"
+    },
+    "TRNFCPH4": {
+      "direction": "OUT"
+    },
+    "EDTUPDATE": {
+      "direction": "IN"
+    },
+    "CFGDEVID4": {
+      "direction": "IN"
+    },
+    "TRNRD0": {
+      "direction": "OUT"
+    },
+    "TRNFCNPH1": {
+      "direction": "OUT"
+    },
+    "DRPDO14": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA16": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSVENDID0": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA23": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA25": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA63": {
+      "direction": "OUT"
+    },
+    "PIPETX4DATA2": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT3": {
+      "direction": "OUT"
+    },
+    "TRNRD34": {
+      "direction": "OUT"
+    },
+    "MIMTXWADDR11": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG115": {
+      "direction": "IN"
+    },
+    "TRNTEOF": {
+      "direction": "IN"
+    },
+    "DBGSCLRD": {
+      "direction": "OUT"
+    },
+    "TRNTD122": {
+      "direction": "IN"
+    },
+    "TRNTD26": {
+      "direction": "IN"
+    },
+    "PL2DIRECTEDLSTATE1": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA49": {
+      "direction": "OUT"
+    },
+    "PIPERX2DATA2": {
+      "direction": "IN"
+    },
+    "DBGVECA48": {
+      "direction": "OUT"
+    },
+    "PIPERX2DATA11": {
+      "direction": "IN"
+    },
+    "TRNFCCPLH0": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO27": {
+      "direction": "OUT"
+    },
+    "PIPERX4DATA12": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER18": {
+      "direction": "IN"
+    },
+    "PIPERX2DATA4": {
+      "direction": "IN"
+    },
+    "CFGMSGRECEIVEDDEASSERTINTD": {
+      "direction": "OUT"
+    },
+    "PIPETX2DATA15": {
+      "direction": "OUT"
+    },
+    "CFGLINKCONTROLRETRAINLINK": {
+      "direction": "OUT"
+    },
+    "DRPDI3": {
+      "direction": "IN"
+    },
+    "PIPETX4DATA9": {
+      "direction": "OUT"
+    },
+    "PIPERX7CHANISALIGNED": {
+      "direction": "IN"
+    },
+    "PIPETX2DATA4": {
+      "direction": "OUT"
+    },
+    "PIPERX3CHARISK0": {
+      "direction": "IN"
+    },
+    "PIPETX6DATA3": {
+      "direction": "OUT"
+    },
+    "PIPERX2DATA9": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSID4": {
+      "direction": "IN"
+    },
+    "TRNTD93": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSVENDID6": {
+      "direction": "IN"
+    },
+    "DBGSCLRA": {
+      "direction": "OUT"
+    },
+    "DBGVECB6": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA15": {
+      "direction": "OUT"
+    },
+    "CFGMSGDATA7": {
+      "direction": "OUT"
+    },
+    "CMRSTN": {
+      "direction": "IN"
+    },
+    "PLDIRECTEDCHANGEDONE": {
+      "direction": "OUT"
+    },
+    "MIMRXRADDR3": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR10": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG76": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA21": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDUNLOCK": {
+      "direction": "OUT"
+    },
+    "MIMRXWADDR10": {
+      "direction": "OUT"
+    },
+    "CFGTRANSACTIONTYPE": {
+      "direction": "OUT"
+    },
+    "PIPERX6DATA0": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA43": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER30": {
+      "direction": "IN"
+    },
+    "CFGLINKCONTROLCLOCKPMEN": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA56": {
+      "direction": "OUT"
+    },
+    "CFGDEVID15": {
+      "direction": "IN"
+    },
+    "PIPERX7DATA1": {
+      "direction": "IN"
+    },
+    "CFGINTERRUPTMSIXENABLE": {
+      "direction": "OUT"
+    },
+    "PIPERX2DATA15": {
+      "direction": "IN"
+    },
+    "PIPERX4STATUS2": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA23": {
+      "direction": "OUT"
+    },
+    "PIPERX1DATA0": {
+      "direction": "IN"
+    },
+    "PIPERX0DATA2": {
+      "direction": "IN"
+    },
+    "TRNRD2": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA33": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROLNONFATALREPORTINGEN": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA32": {
+      "direction": "OUT"
+    },
+    "PIPETX7DATA0": {
+      "direction": "OUT"
+    },
+    "CFGDEVID0": {
+      "direction": "IN"
+    },
+    "MIMRXWADDR1": {
+      "direction": "OUT"
+    },
+    "PIPERX5STATUS0": {
+      "direction": "IN"
+    },
+    "PIPETX2DATA7": {
+      "direction": "OUT"
+    },
+    "TRNFCPD2": {
+      "direction": "OUT"
+    },
+    "CFGPMFORCESTATE1": {
+      "direction": "IN"
+    },
+    "DBGVECB41": {
+      "direction": "OUT"
+    },
+    "DBGVECA35": {
+      "direction": "OUT"
+    },
+    "MIMRXWADDR2": {
+      "direction": "OUT"
+    },
+    "PL2SUSPENDOK": {
+      "direction": "OUT"
+    },
+    "DBGVECA3": {
+      "direction": "OUT"
+    },
+    "DBGVECB17": {
+      "direction": "OUT"
+    },
+    "DBGVECB31": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG10": {
+      "direction": "IN"
+    },
+    "TRNFCNPH7": {
+      "direction": "OUT"
+    },
+    "TRNTD10": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR8": {
+      "direction": "OUT"
+    },
+    "MIMTXWADDR7": {
+      "direction": "OUT"
+    },
+    "DBGSCLRC": {
+      "direction": "OUT"
+    },
+    "EDTCHANNELSIN4": {
+      "direction": "IN"
+    },
+    "TRNRD25": {
+      "direction": "OUT"
+    },
+    "TRNFCPD3": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER3": {
+      "direction": "IN"
+    },
+    "DBGVECB49": {
+      "direction": "OUT"
+    },
+    "CFGVCTCVCMAP3": {
+      "direction": "OUT"
+    },
+    "DRPADDR7": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA10": {
+      "direction": "OUT"
+    },
+    "EDTCHANNELSOUT6": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDI11": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI28": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG6": {
+      "direction": "IN"
+    },
+    "PIPERX3CHARISK1": {
+      "direction": "IN"
+    },
+    "DBGVECC7": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA30": {
+      "direction": "OUT"
+    },
+    "TRNTD19": {
+      "direction": "IN"
+    },
+    "CFGDSN34": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA47": {
+      "direction": "OUT"
+    },
+    "TRNTD44": {
+      "direction": "IN"
+    },
+    "TRNRD61": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSVENDID12": {
+      "direction": "IN"
+    },
+    "CFGDEVCONTROLEXTTAGEN": {
+      "direction": "OUT"
+    },
+    "PIPERX4DATA2": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO17": {
+      "direction": "OUT"
+    },
+    "DBGVECB37": {
+      "direction": "OUT"
+    },
+    "PIPETX6DATA5": {
+      "direction": "OUT"
+    },
+    "DBGVECB54": {
+      "direction": "OUT"
+    },
+    "PIPERX4CHARISK1": {
+      "direction": "IN"
+    },
+    "PIPETX4DATA4": {
+      "direction": "OUT"
+    },
+    "PIPERX1DATA1": {
+      "direction": "IN"
+    },
+    "CFGDSN40": {
+      "direction": "IN"
+    },
+    "CFGROOTCONTROLSYSERRCORRERREN": {
+      "direction": "OUT"
+    },
+    "TRNRD91": {
+      "direction": "OUT"
+    },
+    "TRNTD33": {
+      "direction": "IN"
+    },
+    "TRNTD17": {
+      "direction": "IN"
+    },
+    "PLDBGVEC5": {
+      "direction": "OUT"
+    },
+    "TRNRD11": {
+      "direction": "OUT"
+    },
+    "MIMRXRADDR6": {
+      "direction": "OUT"
+    },
+    "PIPERX1DATA9": {
+      "direction": "IN"
+    },
+    "PIPETX3DATA3": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROLNOSNOOPEN": {
+      "direction": "OUT"
+    },
+    "TRNFCPH5": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT22": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA42": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSID3": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR11": {
+      "direction": "OUT"
+    },
+    "PIPETX1DATA0": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA61": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER45": {
+      "direction": "IN"
+    },
+    "PIPERX5DATA8": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER13": {
+      "direction": "IN"
+    },
+    "CFGPCIELINKSTATE1": {
+      "direction": "OUT"
+    },
+    "MIMTXWADDR6": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA50": {
+      "direction": "IN"
+    },
+    "TRNFCPH7": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDPMETO": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG3": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA48": {
+      "direction": "IN"
+    },
+    "TRNRNPREQ": {
+      "direction": "IN"
+    },
+    "DBGVECB27": {
+      "direction": "OUT"
+    },
+    "TRNTD35": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA53": {
+      "direction": "IN"
+    },
+    "CFGMGMTRDENN": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA67": {
+      "direction": "OUT"
+    },
+    "TRNRECRCERR": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA57": {
+      "direction": "IN"
+    },
+    "DBGVECB4": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA14": {
+      "direction": "IN"
+    },
+    "CFGDSDEVICENUMBER1": {
+      "direction": "IN"
+    },
+    "TRNTCFGGNT": {
+      "direction": "IN"
+    },
+    "DRPADDR1": {
+      "direction": "IN"
+    },
+    "CFGAERINTERRUPTMSGNUM2": {
+      "direction": "IN"
+    },
+    "TRNFCNPD0": {
+      "direction": "OUT"
+    },
+    "PIPETX4DATA6": {
+      "direction": "OUT"
+    },
+    "CFGDSN6": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOGSETN": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG89": {
+      "direction": "IN"
+    },
+    "CFGDEVID10": {
+      "direction": "IN"
+    },
+    "CFGSLOTCONTROLELECTROMECHILCTLPULSE": {
+      "direction": "OUT"
+    },
+    "TRNTD78": {
+      "direction": "IN"
+    },
+    "CFGDSN56": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO13": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG92": {
+      "direction": "IN"
+    },
+    "CFGPMTURNOFFOKN": {
+      "direction": "IN"
+    },
+    "CFGERRMALFORMEDN": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR55": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTMMENABLE0": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA40": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA14": {
+      "direction": "IN"
+    },
+    "PIPERX6DATA7": {
+      "direction": "IN"
+    },
+    "TRNTERRFWD": {
+      "direction": "IN"
+    },
+    "PIPETX7POWERDOWN1": {
+      "direction": "OUT"
+    },
+    "TRNTD40": {
+      "direction": "IN"
+    },
+    "PIPETX0DATA12": {
+      "direction": "OUT"
+    },
+    "TRNRBARHIT0": {
+      "direction": "OUT"
+    },
+    "TRNFCPD1": {
+      "direction": "OUT"
+    },
+    "DBGVECB32": {
+      "direction": "OUT"
+    },
+    "MIMTXRADDR5": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG13": {
+      "direction": "IN"
+    },
+    "PIPERX4CHARISK0": {
+      "direction": "IN"
+    },
+    "DBGVECA32": {
+      "direction": "OUT"
+    },
+    "DRPDI12": {
+      "direction": "IN"
+    },
+    "PMVSELECT1": {
+      "direction": "IN"
+    },
+    "CFGDSN9": {
+      "direction": "IN"
+    },
+    "CFGLINKCONTROLRCB": {
+      "direction": "OUT"
+    },
+    "DBGVECB21": {
+      "direction": "OUT"
+    },
+    "TRNRD27": {
+      "direction": "OUT"
+    },
+    "PIPETX7CHARISK0": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA9": {
+      "direction": "IN"
+    },
+    "PIPERX5DATA10": {
+      "direction": "IN"
+    },
+    "PIPERX5DATA9": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA51": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR45": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR38": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA32": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR50": {
+      "direction": "OUT"
+    },
+    "CFGMGMTWRENN": {
+      "direction": "IN"
+    },
+    "EDTCHANNELSOUT4": {
+      "direction": "OUT"
+    },
+    "EDTCHANNELSOUT1": {
+      "direction": "OUT"
+    },
+    "TRNRD96": {
+      "direction": "OUT"
+    },
+    "PL2RECEIVERERR": {
+      "direction": "OUT"
+    },
+    "MIMRXRADDR5": {
+      "direction": "OUT"
+    },
+    "CFGDSBUSNUMBER6": {
+      "direction": "IN"
+    },
+    "CFGPMRCVENTERL1N": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDWADDR8": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG7": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSVENDID7": {
+      "direction": "IN"
+    },
+    "TRNRD87": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA14": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA7": {
+      "direction": "OUT"
+    },
+    "MIMRXRADDR1": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR20": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSID5": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSID14": {
+      "direction": "IN"
+    },
+    "PIPETX2DATA12": {
+      "direction": "OUT"
+    },
+    "CFGDSN10": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI17": {
+      "direction": "IN"
+    },
+    "DBGVECB5": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTDO2": {
+      "direction": "OUT"
+    },
+    "TRNRD103": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDSETSLOTPOWERLIMIT": {
+      "direction": "OUT"
+    },
+    "PIPETX6POWERDOWN1": {
+      "direction": "OUT"
+    },
+    "LL2TFCINIT2SEQ": {
+      "direction": "OUT"
+    },
+    "MIMRXRADDR7": {
+      "direction": "OUT"
+    },
+    "LL2PROTOCOLERR": {
+      "direction": "OUT"
+    },
+    "CFGAERINTERRUPTMSGNUM3": {
+      "direction": "IN"
+    },
+    "CFGDEVCONTROL2ATOMICEGRESSBLOCK": {
+      "direction": "OUT"
+    },
+    "PIPERX6DATA8": {
+      "direction": "IN"
+    },
+    "TRNRD35": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR52": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG5": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA23": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA17": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA26": {
+      "direction": "IN"
+    },
+    "PIPERX7POLARITY": {
+      "direction": "OUT"
+    },
+    "PIPERX3ELECIDLE": {
+      "direction": "IN"
+    },
+    "LL2RECEIVERERR": {
+      "direction": "OUT"
+    },
+    "PIPERX1DATA11": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA24": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA27": {
+      "direction": "IN"
+    },
+    "PIPETX4DATA13": {
+      "direction": "OUT"
+    },
+    "PLDIRECTEDLINKSPEED": {
+      "direction": "IN"
+    },
+    "CFGDEVID8": {
+      "direction": "IN"
+    },
+    "CFGDEVID2": {
+      "direction": "IN"
+    },
+    "CFGDSN58": {
+      "direction": "IN"
+    },
+    "TRNTD24": {
+      "direction": "IN"
+    },
+    "PL2L0REQ": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG107": {
+      "direction": "IN"
+    },
+    "CFGDEVSTATUSCORRERRDETECTED": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER5": {
+      "direction": "IN"
+    },
+    "PIPERX3DATA11": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA38": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDPMETOACK": {
+      "direction": "OUT"
+    },
+    "TRNTD48": {
+      "direction": "IN"
+    },
+    "PIPERX1CHANISALIGNED": {
+      "direction": "IN"
+    },
+    "MIMTXRADDR3": {
+      "direction": "OUT"
+    },
+    "DBGVECB13": {
+      "direction": "OUT"
+    },
+    "PIPERX4STATUS0": {
+      "direction": "IN"
+    },
+    "DRPDO11": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA58": {
+      "direction": "IN"
+    },
+    "PLPHYLNKUPN": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER11": {
+      "direction": "IN"
+    },
+    "DRPADDR2": {
+      "direction": "IN"
+    },
+    "CFGMSGDATA4": {
+      "direction": "OUT"
+    },
+    "TRNRD18": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG61": {
+      "direction": "IN"
+    },
+    "CFGDEVID13": {
+      "direction": "IN"
+    },
+    "CFGDSN54": {
+      "direction": "IN"
+    },
+    "DRPDI5": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA68": {
+      "direction": "OUT"
+    },
+    "TRNRD121": {
+      "direction": "OUT"
+    },
+    "CFGERRPOISONEDN": {
+      "direction": "IN"
+    },
+    "PIPERX2DATA8": {
+      "direction": "IN"
+    },
+    "DBGVECB20": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER19": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR25": {
+      "direction": "OUT"
+    },
+    "CFGTRNPENDINGN": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG30": {
+      "direction": "IN"
+    },
+    "CFGDSN61": {
+      "direction": "IN"
+    },
+    "DBGSCLRE": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA20": {
+      "direction": "IN"
+    },
+    "PIPERX7DATA15": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG108": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG22": {
+      "direction": "IN"
+    },
+    "PLDBGVEC4": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTDO5": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDWADDR9": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSVENDID9": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG90": {
+      "direction": "IN"
+    },
+    "TRNRD26": {
+      "direction": "OUT"
+    },
+    "PIPERX0DATA5": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI6": {
+      "direction": "IN"
+    },
+    "TRNTD114": {
+      "direction": "IN"
+    },
+    "PIPETX6DATA0": {
+      "direction": "OUT"
+    },
+    "PIPETX7DATA3": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA61": {
+      "direction": "IN"
+    },
+    "TRNTD38": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA15": {
+      "direction": "IN"
+    },
+    "TRNTD117": {
+      "direction": "IN"
+    },
+    "TRNRBARHIT3": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR42": {
+      "direction": "OUT"
+    },
+    "TRNRD57": {
+      "direction": "OUT"
+    },
+    "PIPETX4CHARISK1": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROLCORRERRREPORTINGEN": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG75": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSID13": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA34": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA18": {
+      "direction": "OUT"
+    },
+    "PIPETX7DATA12": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA53": {
+      "direction": "OUT"
+    },
+    "CFGDSBUSNUMBER2": {
+      "direction": "IN"
+    },
+    "TRNRREM1": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA39": {
+      "direction": "IN"
+    },
+    "LL2LINKSTATUS1": {
+      "direction": "OUT"
+    },
+    "PIPETX6DATA2": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG56": {
+      "direction": "IN"
+    },
+    "MIMRXWADDR3": {
+      "direction": "OUT"
+    },
+    "TRNTD92": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG62": {
+      "direction": "IN"
+    },
+    "EDTCHANNELSIN2": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG20": {
+      "direction": "IN"
+    },
+    "TRNTD103": {
+      "direction": "IN"
+    },
+    "PIPERX4CHANISALIGNED": {
+      "direction": "IN"
+    },
+    "CFGMSGRECEIVEDASSERTINTC": {
+      "direction": "OUT"
+    },
+    "CFGMSGDATA10": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR13": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDI7": {
+      "direction": "IN"
+    },
+    "PLDBGVEC1": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA37": {
+      "direction": "OUT"
+    },
+    "CFGDSFUNCTIONNUMBER0": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA5": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA24": {
+      "direction": "OUT"
+    },
+    "DRPDO6": {
+      "direction": "OUT"
+    },
+    "TRNTD86": {
+      "direction": "IN"
+    },
+    "PIPERX4DATA5": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO4": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG0": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA24": {
+      "direction": "OUT"
+    },
+    "FUNCLVLRSTN": {
+      "direction": "IN"
+    },
+    "TRNTD50": {
+      "direction": "IN"
+    },
+    "TRNFCSEL0": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG1": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG103": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA41": {
+      "direction": "IN"
+    },
+    "PIPERX3DATA3": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA31": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR39": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO29": {
+      "direction": "OUT"
+    },
+    "CFGDSN29": {
+      "direction": "IN"
+    },
+    "TRNRREM0": {
+      "direction": "OUT"
+    },
+    "CFGREVID3": {
+      "direction": "IN"
+    },
+    "DBGVECC4": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPSRCRDY1": {
+      "direction": "OUT"
+    },
+    "DBGVECB52": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA30": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA68": {
+      "direction": "IN"
+    },
+    "DBGSUBMODE": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA62": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDDEASSERTINTA": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR3": {
+      "direction": "OUT"
+    },
+    "TRNTD54": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG81": {
+      "direction": "IN"
+    },
+    "TRNTD101": {
+      "direction": "IN"
+    },
+    "CFGDSN15": {
+      "direction": "IN"
+    },
+    "CFGDEVCONTROL2TLPPREFIXBLOCK": {
+      "direction": "OUT"
+    },
+    "PIPETX7CHARISK1": {
+      "direction": "OUT"
+    },
+    "DBGVECA58": {
+      "direction": "OUT"
+    },
+    "PIPETX4DATA12": {
+      "direction": "OUT"
+    },
+    "DBGVECB30": {
+      "direction": "OUT"
+    },
+    "PIPERX2PHYSTATUS": {
+      "direction": "IN"
+    },
+    "TRNFCCPLH7": {
+      "direction": "OUT"
+    },
+    "TRNRD50": {
+      "direction": "OUT"
+    },
+    "TRNRD82": {
+      "direction": "OUT"
+    },
+    "PIPETX0DATA10": {
+      "direction": "OUT"
+    },
+    "TRNFCCPLH1": {
+      "direction": "OUT"
+    },
+    "MIMTXWEN": {
+      "direction": "OUT"
+    },
+    "LL2SENDENTERL23": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA8": {
+      "direction": "IN"
+    },
+    "TRNTD89": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO9": {
+      "direction": "OUT"
+    },
+    "EDTCHANNELSOUT2": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA25": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA2": {
+      "direction": "OUT"
+    },
+    "CFGDEVID5": {
+      "direction": "IN"
+    },
+    "MIMTXWADDR4": {
+      "direction": "OUT"
+    },
+    "PMVSELECT2": {
+      "direction": "IN"
+    },
+    "MIMRXWADDR0": {
+      "direction": "OUT"
+    },
+    "TRNFCPH1": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDERRFATAL": {
+      "direction": "OUT"
+    },
+    "CFGDSN19": {
+      "direction": "IN"
+    },
+    "CFGDEVCONTROLMAXPAYLOAD2": {
+      "direction": "OUT"
+    },
+    "PIPERX6DATA14": {
+      "direction": "IN"
+    },
+    "EDTCHANNELSOUT5": {
+      "direction": "OUT"
+    },
+    "TRNRD33": {
+      "direction": "OUT"
+    },
+    "CFGERRCPLTIMEOUTN": {
+      "direction": "IN"
+    },
+    "PIPETX5CHARISK0": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA13": {
+      "direction": "OUT"
+    },
+    "TRNRD17": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR9": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDI14": {
+      "direction": "IN"
+    },
+    "CFGMSGDATA5": {
+      "direction": "OUT"
+    },
+    "PIPERX5STATUS1": {
+      "direction": "IN"
+    },
+    "PIPERX0DATA15": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSID9": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG45": {
+      "direction": "IN"
+    },
+    "SYSRSTN": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER1": {
+      "direction": "IN"
+    },
+    "CFGLINKCONTROLLINKDISABLE": {
+      "direction": "OUT"
+    },
+    "DBGVECA36": {
+      "direction": "OUT"
+    },
+    "PIPERX1DATA14": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO30": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER38": {
+      "direction": "IN"
+    },
+    "TRNRD71": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR40": {
+      "direction": "OUT"
+    },
+    "TRNRD20": {
+      "direction": "OUT"
+    },
+    "MIMTXRADDR6": {
+      "direction": "OUT"
+    },
+    "TRNRD29": {
+      "direction": "OUT"
+    },
+    "MIMRXWADDR6": {
+      "direction": "OUT"
+    },
+    "MIMRXWADDR4": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG80": {
+      "direction": "IN"
+    },
+    "CFGDSN42": {
+      "direction": "IN"
+    },
+    "PLDBGVEC11": {
+      "direction": "OUT"
+    },
+    "TRNFCCPLH5": {
+      "direction": "OUT"
+    },
+    "PLLANEREVERSALMODE1": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA62": {
+      "direction": "IN"
+    },
+    "CFGDEVCONTROLMAXPAYLOAD0": {
+      "direction": "OUT"
+    },
+    "CFGDSN35": {
+      "direction": "IN"
+    },
+    "TRNTD66": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR30": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG111": {
+      "direction": "IN"
+    },
+    "PIPETX5DATA2": {
+      "direction": "OUT"
+    },
+    "CFGDSFUNCTIONNUMBER2": {
+      "direction": "IN"
+    },
+    "PIPERX4ELECIDLE": {
+      "direction": "IN"
+    },
+    "CFGDEVCONTROL2LTREN": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT24": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA15": {
+      "direction": "OUT"
+    },
+    "TRNFCNPD11": {
+      "direction": "OUT"
+    },
+    "TRNTD125": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR32": {
+      "direction": "OUT"
+    },
+    "PIPERX4DATA6": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG93": {
+      "direction": "IN"
+    },
+    "PIPETXMARGIN2": {
+      "direction": "OUT"
+    },
+    "PIPERX7DATA4": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA21": {
+      "direction": "OUT"
+    },
+    "DRPDO4": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG19": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR1": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA47": {
+      "direction": "IN"
+    },
+    "TRNRD41": {
+      "direction": "OUT"
+    },
+    "PIPETX3COMPLIANCE": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTMSIENABLE": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO7": {
+      "direction": "OUT"
+    },
+    "TRNRD56": {
+      "direction": "OUT"
+    },
+    "TRNRD97": {
+      "direction": "OUT"
+    },
+    "PIPETX1DATA5": {
+      "direction": "OUT"
+    },
+    "DBGVECB40": {
+      "direction": "OUT"
+    },
+    "PIPETX0DATA15": {
+      "direction": "OUT"
+    },
+    "TL2PPMSUSPENDOK": {
+      "direction": "OUT"
+    },
+    "PIPETX7DATA5": {
+      "direction": "OUT"
+    },
+    "PIPERX4DATA9": {
+      "direction": "IN"
+    },
+    "PIPERX1DATA8": {
+      "direction": "IN"
+    },
+    "PIPETX6CHARISK0": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA39": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER29": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA4": {
+      "direction": "IN"
+    },
+    "DRPDI8": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER17": {
+      "direction": "IN"
+    },
+    "PIPETX4POWERDOWN1": {
+      "direction": "OUT"
+    },
+    "CFGMSGDATA8": {
+      "direction": "OUT"
+    },
+    "DRPADDR5": {
+      "direction": "IN"
+    },
+    "TRNTD71": {
+      "direction": "IN"
+    },
+    "TRNRD63": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA24": {
+      "direction": "IN"
+    },
+    "PLTXPMSTATE1": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA22": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT35": {
+      "direction": "OUT"
+    },
+    "PIPERX2CHARISK0": {
+      "direction": "IN"
+    },
+    "CFGLINKSTATUSCURRENTSPEED0": {
+      "direction": "OUT"
+    },
+    "CFGPMCSRPOWERSTATE1": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA6": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA12": {
+      "direction": "OUT"
+    },
+    "EDTCHANNELSIN1": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA17": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROL2ARIFORWARDEN": {
+      "direction": "OUT"
+    },
+    "TRNTD68": {
+      "direction": "IN"
+    },
+    "CFGMSGDATA15": {
+      "direction": "OUT"
+    },
+    "USERCLK2": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA13": {
+      "direction": "OUT"
+    },
+    "CFGREVID5": {
+      "direction": "IN"
+    },
+    "TRNTD16": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA2": {
+      "direction": "IN"
+    },
+    "PIPERX3CHANISALIGNED": {
+      "direction": "IN"
+    },
+    "TRNTSOF": {
+      "direction": "IN"
+    },
+    "PIPERX0POLARITY": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA31": {
+      "direction": "IN"
+    },
+    "DRPWE": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG116": {
+      "direction": "IN"
+    },
+    "TRNRD48": {
+      "direction": "OUT"
+    },
+    "DBGVECA11": {
+      "direction": "OUT"
+    },
+    "PL2DIRECTEDLSTATE2": {
+      "direction": "IN"
+    },
+    "MIMTXRADDR11": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER4": {
+      "direction": "IN"
+    },
+    "LL2LINKSTATUS4": {
+      "direction": "OUT"
+    },
+    "TRNRD47": {
+      "direction": "OUT"
+    },
+    "CFGDSN57": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA55": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA11": {
+      "direction": "IN"
+    },
+    "CFGDSN33": {
+      "direction": "IN"
+    },
+    "CFGPMHALTASPML0SN": {
+      "direction": "IN"
+    },
+    "TRNTD98": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSVENDID2": {
+      "direction": "IN"
+    },
+    "TRNTD6": {
+      "direction": "IN"
+    },
+    "TRNTD74": {
+      "direction": "IN"
+    },
+    "DBGVECB58": {
+      "direction": "OUT"
+    },
+    "LL2LINKSTATUS2": {
+      "direction": "OUT"
+    },
+    "DBGVECA20": {
+      "direction": "OUT"
+    },
+    "CFGDSBUSNUMBER4": {
+      "direction": "IN"
+    },
+    "PIPERX2CHARISK1": {
+      "direction": "IN"
+    },
+    "DBGVECB35": {
+      "direction": "OUT"
+    },
+    "TRNRD100": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR59": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA9": {
+      "direction": "IN"
+    },
+    "TRNTD14": {
+      "direction": "IN"
+    },
+    "CFGDEVID3": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO0": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDWADDR2": {
+      "direction": "IN"
+    },
+    "CFGDEVCONTROL2CPLTIMEOUTDIS": {
+      "direction": "OUT"
+    },
+    "LL2SENDENTERL1": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR14": {
+      "direction": "OUT"
+    },
+    "TRNTBUFAV5": {
+      "direction": "OUT"
+    },
+    "TRNRD24": {
+      "direction": "OUT"
+    },
+    "PIPETX4DATA14": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO14": {
+      "direction": "OUT"
+    },
+    "PIPETX5DATA15": {
+      "direction": "OUT"
+    },
+    "TRNTSRCDSC": {
+      "direction": "IN"
+    },
+    "CFGMGMTBYTEENN0": {
+      "direction": "IN"
+    },
+    "PIPERX3POLARITY": {
+      "direction": "OUT"
+    },
+    "DBGVECA5": {
+      "direction": "OUT"
+    },
+    "PIPERX0DATA13": {
+      "direction": "IN"
+    },
+    "PIPETX1DATA14": {
+      "direction": "OUT"
+    },
+    "PIPERX1POLARITY": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR19": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA60": {
+      "direction": "OUT"
+    },
+    "PIPETX1ELECIDLE": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTRDYN": {
+      "direction": "OUT"
+    },
+    "PLINITIALLINKWIDTH2": {
+      "direction": "OUT"
+    },
+    "PIPERX5DATA6": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA0": {
+      "direction": "OUT"
+    },
+    "DRPADDR0": {
+      "direction": "IN"
+    },
+    "CFGINTERRUPTSTATN": {
+      "direction": "IN"
+    },
+    "PIPERX2DATA3": {
+      "direction": "IN"
+    },
+    "CFGLINKCONTROLCOMMONCLOCK": {
+      "direction": "OUT"
+    },
+    "TRNRD99": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG125": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI13": {
+      "direction": "IN"
+    },
+    "TRNTD25": {
+      "direction": "IN"
+    },
+    "CFGERRMCBLOCKEDN": {
+      "direction": "IN"
+    },
+    "PIPERX7PHYSTATUS": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG63": {
+      "direction": "IN"
+    },
+    "CFGDSN0": {
+      "direction": "IN"
+    },
+    "CFGPMCSRPMEEN": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA19": {
+      "direction": "IN"
+    },
+    "PIPETX1POWERDOWN0": {
+      "direction": "OUT"
+    },
+    "PIPERX1STATUS2": {
+      "direction": "IN"
+    },
+    "CFGERRCPLUNEXPECTN": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT7": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA13": {
+      "direction": "IN"
+    },
+    "DBGVECA19": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDWADDR7": {
+      "direction": "IN"
+    },
+    "TRNFCCPLH2": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA32": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR56": {
+      "direction": "OUT"
+    },
+    "PIPETX2DATA13": {
+      "direction": "OUT"
+    },
+    "RECEIVEDFUNCLVLRSTN": {
+      "direction": "OUT"
+    },
+    "CFGDSN32": {
+      "direction": "IN"
+    },
+    "PIPETX6DATA15": {
+      "direction": "OUT"
+    },
+    "PIPETX2DATA9": {
+      "direction": "OUT"
+    },
+    "TRNTD83": {
+      "direction": "IN"
+    },
+    "DBGVECB53": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA51": {
+      "direction": "IN"
+    },
+    "PLLTSSMSTATE4": {
+      "direction": "OUT"
+    },
+    "CFGVENDID13": {
+      "direction": "IN"
+    },
+    "PLTRANSMITHOTRST": {
+      "direction": "IN"
+    },
+    "CFGDSN5": {
+      "direction": "IN"
+    },
+    "TL2ASPMSUSPENDCREDITCHECK": {
+      "direction": "IN"
+    },
+    "PIPERX2DATA1": {
+      "direction": "IN"
+    },
+    "CFGMSGRECEIVEDASSERTINTB": {
+      "direction": "OUT"
+    },
+    "TRNRD92": {
+      "direction": "OUT"
+    },
+    "DRPEN": {
+      "direction": "IN"
+    },
+    "PLDIRECTEDLTSSMNEW1": {
+      "direction": "IN"
+    },
+    "USERCLK": {
+      "direction": "IN"
+    },
+    "PLDIRECTEDLINKWIDTH0": {
+      "direction": "IN"
+    },
+    "PLDBGMODE1": {
+      "direction": "IN"
+    },
+    "CFGTRANSACTIONADDR5": {
+      "direction": "OUT"
+    },
+    "DBGVECA14": {
+      "direction": "OUT"
+    },
+    "CFGDSN28": {
+      "direction": "IN"
+    },
+    "TRNTDSTRDY1": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA10": {
+      "direction": "OUT"
+    },
+    "TRNRD6": {
+      "direction": "OUT"
+    },
+    "PIPERX5DATA15": {
+      "direction": "IN"
+    },
+    "CFGDSBUSNUMBER0": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA49": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA10": {
+      "direction": "IN"
+    },
+    "DBGVECB12": {
+      "direction": "OUT"
+    },
+    "CFGDSN41": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR34": {
+      "direction": "OUT"
+    },
+    "TRNFCPD9": {
+      "direction": "OUT"
+    },
+    "DBGVECB33": {
+      "direction": "OUT"
+    },
+    "TLRSTN": {
+      "direction": "IN"
+    },
+    "DBGVECB0": {
+      "direction": "OUT"
+    },
+    "TRNRBARHIT6": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR36": {
+      "direction": "OUT"
+    },
+    "DBGVECB60": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA33": {
+      "direction": "OUT"
+    },
+    "DBGVECA41": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG58": {
+      "direction": "IN"
+    },
+    "CFGDEVSTATUSURDETECTED": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA24": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR22": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER12": {
+      "direction": "IN"
+    },
+    "CFGINTERRUPTDI4": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA25": {
+      "direction": "OUT"
+    },
+    "CFGMGMTWRRW1CASRWN": {
+      "direction": "IN"
+    },
+    "TRNFCPD6": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSID10": {
+      "direction": "IN"
+    },
+    "LNKCLKEN": {
+      "direction": "OUT"
+    },
+    "PIPETX5DATA10": {
+      "direction": "OUT"
+    },
+    "TRNFCNPD3": {
+      "direction": "OUT"
+    },
+    "DBGVECA34": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA43": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA58": {
+      "direction": "OUT"
+    },
+    "TRNTD61": {
+      "direction": "IN"
+    },
+    "TRNTD111": {
+      "direction": "IN"
+    },
+    "TRNFCCPLD9": {
+      "direction": "OUT"
+    },
+    "TRNRD37": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTMMENABLE1": {
+      "direction": "OUT"
+    },
+    "PIPETX0POWERDOWN0": {
+      "direction": "OUT"
+    },
+    "TRNRD77": {
+      "direction": "OUT"
+    },
+    "CFGDSN53": {
+      "direction": "IN"
+    },
+    "PIPERX4POLARITY": {
+      "direction": "OUT"
+    },
+    "PIPERX3DATA14": {
+      "direction": "IN"
+    },
+    "CFGPORTNUMBER4": {
+      "direction": "IN"
+    },
+    "PIPETXMARGIN0": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT33": {
+      "direction": "OUT"
+    },
+    "PIPERX1DATA15": {
+      "direction": "IN"
+    },
+    "TRNTD94": {
+      "direction": "IN"
+    },
+    "PIPERX0DATA7": {
+      "direction": "IN"
+    },
+    "CFGVCTCVCMAP5": {
+      "direction": "OUT"
+    },
+    "DBGVECC6": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA65": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT28": {
+      "direction": "OUT"
+    },
+    "CFGAERINTERRUPTMSGNUM0": {
+      "direction": "IN"
+    },
+    "CFGDEVCONTROLMAXREADREQ1": {
+      "direction": "OUT"
+    },
+    "TRNRD40": {
+      "direction": "OUT"
+    },
+    "TRNRD89": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA18": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA58": {
+      "direction": "IN"
+    },
+    "PIPERX2DATA0": {
+      "direction": "IN"
+    },
+    "TRNTERRDROP": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER46": {
+      "direction": "IN"
+    },
+    "PIPETXDEEMPH": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSID1": {
+      "direction": "IN"
+    },
+    "TRNTD106": {
+      "direction": "IN"
+    },
+    "CFGFORCEEXTENDEDSYNCON": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA28": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA8": {
+      "direction": "IN"
+    },
+    "PIPERX2POLARITY": {
+      "direction": "OUT"
+    },
+    "PIPETX3CHARISK1": {
+      "direction": "OUT"
+    },
+    "TRNRSRCDSC": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA13": {
+      "direction": "OUT"
+    },
+    "LL2TLPRCV": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA10": {
+      "direction": "IN"
+    },
+    "CFGDSN2": {
+      "direction": "IN"
+    },
+    "PIPETX5DATA9": {
+      "direction": "OUT"
+    },
+    "DBGVECA50": {
+      "direction": "OUT"
+    },
+    "DBGVECA28": {
+      "direction": "OUT"
+    },
+    "PIPETX2DATA6": {
+      "direction": "OUT"
+    },
+    "TRNRD19": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER37": {
+      "direction": "IN"
+    },
+    "PIPERX4DATA14": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA52": {
+      "direction": "IN"
+    },
+    "TRNRD14": {
+      "direction": "OUT"
+    },
+    "PIPERX6DATA15": {
+      "direction": "IN"
+    },
+    "TRNTD58": {
+      "direction": "IN"
+    },
+    "TRNTD13": {
+      "direction": "IN"
+    },
+    "TRNRD23": {
+      "direction": "OUT"
+    },
+    "CFGROOTCONTROLSYSERRFATALERREN": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA50": {
+      "direction": "IN"
+    },
+    "EDTCHANNELSIN3": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI16": {
+      "direction": "IN"
+    },
+    "TL2ASPMSUSPENDCREDITCHECKOK": {
+      "direction": "OUT"
+    },
+    "CFGERRINTERNALUNCORN": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA36": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA54": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA11": {
+      "direction": "OUT"
+    },
+    "CFGLINKCONTROLHWAUTOWIDTHDIS": {
+      "direction": "OUT"
+    },
+    "PIPERX0DATA8": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER41": {
+      "direction": "IN"
+    },
+    "TRNTD3": {
+      "direction": "IN"
+    },
+    "TRNFCCPLD8": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO1": {
+      "direction": "OUT"
+    },
+    "PIPETX3DATA15": {
+      "direction": "OUT"
+    },
+    "TRNTD72": {
+      "direction": "IN"
+    },
+    "PLLTSSMSTATE5": {
+      "direction": "OUT"
+    },
+    "TRNTD56": {
+      "direction": "IN"
+    },
+    "PIPERX1DATA3": {
+      "direction": "IN"
+    },
+    "PIPERX7DATA13": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA39": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA2": {
+      "direction": "IN"
+    },
+    "PLSELLNKWIDTH0": {
+      "direction": "OUT"
+    },
+    "PIPERX6DATA3": {
+      "direction": "IN"
+    },
+    "PIPERX0VALID": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG28": {
+      "direction": "IN"
+    },
+    "MIMRXRADDR4": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR28": {
+      "direction": "OUT"
+    },
+    "DBGMODE0": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA20": {
+      "direction": "OUT"
+    },
+    "DBGVECB55": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA30": {
+      "direction": "IN"
+    },
+    "PIPERX6DATA11": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG47": {
+      "direction": "IN"
+    },
+    "TRNTD62": {
+      "direction": "IN"
+    },
+    "DBGVECB50": {
+      "direction": "OUT"
+    },
+    "DBGVECB8": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDPMASNAK": {
+      "direction": "OUT"
+    },
+    "TRNRBARHIT2": {
+      "direction": "OUT"
+    },
+    "TRNTD52": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR57": {
+      "direction": "OUT"
+    },
+    "DRPDO7": {
+      "direction": "OUT"
+    },
+    "TRNRD73": {
+      "direction": "OUT"
+    },
+    "CFGPMRCVENTERL23N": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR48": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA20": {
+      "direction": "OUT"
+    },
+    "CFGPMHALTASPML1N": {
+      "direction": "IN"
+    },
+    "TRNRD108": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO28": {
+      "direction": "OUT"
+    },
+    "TRNFCCPLD0": {
+      "direction": "OUT"
+    },
+    "CFGDSN13": {
+      "direction": "IN"
+    },
+    "CFGDSN30": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA63": {
+      "direction": "IN"
+    },
+    "DRPDI14": {
+      "direction": "IN"
+    },
+    "DBGVECB38": {
+      "direction": "OUT"
+    },
+    "PIPERX6DATA13": {
+      "direction": "IN"
+    },
+    "TRNRD54": {
+      "direction": "OUT"
+    },
+    "TRNTD96": {
+      "direction": "IN"
+    },
+    "PIPERX6DATA9": {
+      "direction": "IN"
+    },
+    "TRNTD53": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA27": {
+      "direction": "OUT"
+    },
+    "CFGAERINTERRUPTMSGNUM4": {
+      "direction": "IN"
+    },
+    "CFGVCTCVCMAP0": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG109": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR2": {
+      "direction": "OUT"
+    },
+    "MIMTXWADDR10": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTMSIXFM": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT15": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA60": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER24": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI15": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA37": {
+      "direction": "IN"
+    },
+    "PIPERX5DATA1": {
+      "direction": "IN"
+    },
+    "TRNRD69": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG105": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG46": {
+      "direction": "IN"
+    },
+    "MIMRXWADDR8": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA53": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA67": {
+      "direction": "IN"
+    },
+    "DBGVECB25": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA60": {
+      "direction": "IN"
+    },
+    "PIPERX7DATA5": {
+      "direction": "IN"
+    },
+    "PIPERX0STATUS2": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA56": {
+      "direction": "IN"
+    },
+    "PIPETX5DATA11": {
+      "direction": "OUT"
+    },
+    "CFGPMFORCESTATE0": {
+      "direction": "IN"
+    },
+    "PIPERX5STATUS2": {
+      "direction": "IN"
+    },
+    "TRNTD23": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA46": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA49": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA64": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG79": {
+      "direction": "IN"
+    },
+    "TRNFCNPD5": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR49": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA17": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA53": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA3": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA57": {
+      "direction": "OUT"
+    },
+    "CFGDSN18": {
+      "direction": "IN"
+    },
+    "PIPERX1DATA10": {
+      "direction": "IN"
+    },
+    "PIPETX5DATA1": {
+      "direction": "OUT"
+    },
+    "CFGREVID0": {
+      "direction": "IN"
+    },
+    "CFGPORTNUMBER2": {
+      "direction": "IN"
+    },
+    "PIPETX7DATA13": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA38": {
+      "direction": "IN"
+    },
+    "CFGPMWAKEN": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA29": {
+      "direction": "IN"
+    },
+    "PIPETX4CHARISK0": {
+      "direction": "OUT"
+    },
+    "TRNFCNPH0": {
+      "direction": "OUT"
+    },
+    "MIMRXRADDR8": {
+      "direction": "OUT"
+    },
+    "CFGVCTCVCMAP4": {
+      "direction": "OUT"
+    },
+    "CFGDEVSTATUSNONFATALERRDETECTED": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTDO3": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA29": {
+      "direction": "OUT"
+    },
+    "TRNRD79": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA25": {
+      "direction": "OUT"
+    },
+    "TRNRD115": {
+      "direction": "OUT"
+    },
+    "PIPETX6DATA4": {
+      "direction": "OUT"
+    },
+    "PL2RXPMSTATE0": {
+      "direction": "OUT"
+    },
+    "TRNTD90": {
+      "direction": "IN"
+    },
+    "CFGLINKCONTROLAUTOBANDWIDTHINTEN": {
+      "direction": "OUT"
+    },
+    "CFGPORTNUMBER1": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG16": {
+      "direction": "IN"
+    },
+    "TRNTSRCRDY": {
+      "direction": "IN"
+    },
+    "PIPETX6DATA1": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG88": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO26": {
+      "direction": "OUT"
+    },
+    "CFGDSN37": {
+      "direction": "IN"
+    },
+    "DRPADDR4": {
+      "direction": "IN"
+    },
+    "PIPETX1DATA9": {
+      "direction": "OUT"
+    },
+    "PIPERX6STATUS1": {
+      "direction": "IN"
+    },
+    "PLLTSSMSTATE2": {
+      "direction": "OUT"
+    },
+    "DBGVECB24": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA29": {
+      "direction": "IN"
+    },
+    "DRPADDR8": {
+      "direction": "IN"
+    },
+    "CFGREVID7": {
+      "direction": "IN"
+    },
+    "TRNRD46": {
+      "direction": "OUT"
+    },
+    "PIPETX5DATA3": {
+      "direction": "OUT"
+    },
+    "PIPERX1STATUS1": {
+      "direction": "IN"
+    },
+    "CFGPCIELINKSTATE2": {
+      "direction": "OUT"
+    },
+    "PLRECEIVEDHOTRST": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG18": {
+      "direction": "IN"
+    },
+    "PIPETX3DATA10": {
+      "direction": "OUT"
+    },
+    "PIPERX3STATUS1": {
+      "direction": "IN"
+    },
+    "PIPERX0DATA1": {
+      "direction": "IN"
+    },
+    "CFGVENDID12": {
+      "direction": "IN"
+    },
+    "CFGCOMMANDMEMENABLE": {
+      "direction": "OUT"
+    },
+    "CFGLINKCONTROLASPMCONTROL1": {
+      "direction": "OUT"
+    },
+    "DBGVECA53": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDI25": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA45": {
+      "direction": "OUT"
+    },
+    "TRNFCNPD6": {
+      "direction": "OUT"
+    },
+    "PMVOUT": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA66": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG41": {
+      "direction": "IN"
+    },
+    "CFGDEVID12": {
+      "direction": "IN"
+    },
+    "PIPETX7DATA4": {
+      "direction": "OUT"
+    },
+    "TRNRFCPRET": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA22": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG85": {
+      "direction": "IN"
+    },
+    "CFGINTERRUPTDO0": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA12": {
+      "direction": "OUT"
+    },
+    "PLDBGVEC0": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG31": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA43": {
+      "direction": "IN"
+    },
+    "CFGVENDID3": {
+      "direction": "IN"
+    },
+    "TRNRD81": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSID15": {
+      "direction": "IN"
+    },
+    "PIPETX1DATA8": {
+      "direction": "OUT"
+    },
+    "TRNTD46": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG66": {
+      "direction": "IN"
+    },
+    "TRNFCNPD1": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA32": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT12": {
+      "direction": "OUT"
+    },
+    "DBGSCLRG": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROL2CPLTIMEOUTVAL1": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG68": {
+      "direction": "IN"
+    },
+    "CFGAERROOTERRNONFATALERRRECEIVED": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG73": {
+      "direction": "IN"
+    },
+    "PIPETX4DATA5": {
+      "direction": "OUT"
+    },
+    "PIPETX1DATA6": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG59": {
+      "direction": "IN"
+    },
+    "PIPERX4DATA4": {
+      "direction": "IN"
+    },
+    "TRNFCCPLD6": {
+      "direction": "OUT"
+    },
+    "PIPETX0DATA11": {
+      "direction": "OUT"
+    },
+    "CFGPCIELINKSTATE0": {
+      "direction": "OUT"
+    },
+    "TRNTD34": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA5": {
+      "direction": "OUT"
+    },
+    "TRNRNPOK": {
+      "direction": "IN"
+    },
+    "CFGPCIECAPINTERRUPTMSGNUM3": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR54": {
+      "direction": "OUT"
+    },
+    "DBGVECB61": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER34": {
+      "direction": "IN"
+    },
+    "CFGDEVID14": {
+      "direction": "IN"
+    },
+    "DRPDO15": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA10": {
+      "direction": "OUT"
+    },
+    "PIPERX7STATUS0": {
+      "direction": "IN"
+    },
+    "DRPDO13": {
+      "direction": "OUT"
+    },
+    "PIPERX3STATUS2": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT36": {
+      "direction": "OUT"
+    },
+    "CFGLINKCONTROLASPMCONTROL0": {
+      "direction": "OUT"
+    },
+    "CFGDSDEVICENUMBER2": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSID12": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO19": {
+      "direction": "OUT"
+    },
+    "MIMTXRADDR10": {
+      "direction": "OUT"
+    },
+    "PIPERX5DATA4": {
+      "direction": "IN"
+    },
+    "TRNRD3": {
+      "direction": "OUT"
+    },
+    "MIMRXRADDR9": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG53": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER33": {
+      "direction": "IN"
+    },
+    "PIPETX5DATA7": {
+      "direction": "OUT"
+    },
+    "CFGDSFUNCTIONNUMBER1": {
+      "direction": "IN"
+    },
+    "EDTCONFIGURATION": {
+      "direction": "IN"
+    },
+    "PIPERX0DATA11": {
+      "direction": "IN"
+    },
+    "TRNTD116": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG84": {
+      "direction": "IN"
+    },
+    "TRNTD31": {
+      "direction": "IN"
+    },
+    "PMVDIVIDE0": {
+      "direction": "IN"
+    },
+    "PIPERX4VALID": {
+      "direction": "IN"
+    },
+    "PIPERX5DATA7": {
+      "direction": "IN"
+    },
+    "CFGVENDID5": {
+      "direction": "IN"
+    },
+    "PIPERX3DATA2": {
+      "direction": "IN"
+    },
+    "DBGVECA55": {
+      "direction": "OUT"
+    },
+    "PIPETX7ELECIDLE": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA8": {
+      "direction": "OUT"
+    },
+    "CFGAERROOTERRNONFATALERRREPORTINGEN": {
+      "direction": "OUT"
+    },
+    "TRNTD49": {
+      "direction": "IN"
+    },
+    "TRNTREM1": {
+      "direction": "IN"
+    },
+    "PMVDIVIDE1": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER0": {
+      "direction": "IN"
+    },
+    "CFGDSN55": {
+      "direction": "IN"
+    },
+    "TRNRD93": {
+      "direction": "OUT"
+    },
+    "PIPETX3DATA11": {
+      "direction": "OUT"
+    },
+    "TRNTD51": {
+      "direction": "IN"
+    },
+    "PIPETX2DATA10": {
+      "direction": "OUT"
+    },
+    "PIPETX7POWERDOWN0": {
+      "direction": "OUT"
+    },
+    "TRNFCCPLD7": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA4": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR51": {
+      "direction": "OUT"
+    },
+    "DBGVECC8": {
+      "direction": "OUT"
+    },
+    "PLLINKUPCFGCAP": {
+      "direction": "OUT"
+    },
+    "TRNTECRCGEN": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA21": {
+      "direction": "IN"
+    },
+    "PIPETX6DATA10": {
+      "direction": "OUT"
+    },
+    "TRNRD113": {
+      "direction": "OUT"
+    },
+    "PIPETX0DATA0": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO11": {
+      "direction": "OUT"
+    },
+    "PIPETX7DATA11": {
+      "direction": "OUT"
+    },
+    "TRNRD59": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA48": {
+      "direction": "IN"
+    },
+    "TRNTD126": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA17": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG102": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA62": {
+      "direction": "OUT"
+    },
+    "CFGDSN1": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA41": {
+      "direction": "IN"
+    },
+    "PIPERX7STATUS1": {
+      "direction": "IN"
+    },
+    "TRNTD45": {
+      "direction": "IN"
+    },
+    "CFGDSN36": {
+      "direction": "IN"
+    },
+    "CFGTRANSACTIONADDR1": {
+      "direction": "OUT"
+    },
+    "TRNTD55": {
+      "direction": "IN"
+    },
+    "DRPDO0": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA36": {
+      "direction": "IN"
+    },
+    "PIPERX1STATUS0": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA36": {
+      "direction": "OUT"
+    },
+    "PIPERX1CHARISK1": {
+      "direction": "IN"
+    },
+    "PIPERX7DATA2": {
+      "direction": "IN"
+    },
+    "DBGVECA23": {
+      "direction": "OUT"
+    },
+    "PIPERX6DATA12": {
+      "direction": "IN"
+    },
+    "PIPETX6CHARISK1": {
+      "direction": "OUT"
+    },
+    "CFGERRCPLABORTN": {
+      "direction": "IN"
+    },
+    "CFGLINKSTATUSNEGOTIATEDWIDTH2": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG54": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA58": {
+      "direction": "OUT"
+    },
+    "TRNTD82": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI2": {
+      "direction": "IN"
+    },
+    "PIPETX7DATA2": {
+      "direction": "OUT"
+    },
+    "TRNRD49": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG122": {
+      "direction": "IN"
+    },
+    "TL2PPMSUSPENDREQ": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG64": {
+      "direction": "IN"
+    },
+    "PLDIRECTEDLTSSMNEW4": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO21": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDWADDR0": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG25": {
+      "direction": "IN"
+    },
+    "PIPERX5CHARISK0": {
+      "direction": "IN"
+    },
+    "TRNFCNPD9": {
+      "direction": "OUT"
+    },
+    "DRPDO3": {
+      "direction": "OUT"
+    },
+    "CFGPMCSRPMESTATUS": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDI23": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA4": {
+      "direction": "OUT"
+    },
+    "PIPERX1ELECIDLE": {
+      "direction": "IN"
+    },
+    "PLDIRECTEDLTSSMSTALL": {
+      "direction": "IN"
+    },
+    "CFGVENDID2": {
+      "direction": "IN"
+    },
+    "TRNRD112": {
+      "direction": "OUT"
+    },
+    "TRNTD9": {
+      "direction": "IN"
+    },
+    "CFGDSN59": {
+      "direction": "IN"
+    },
+    "PLDBGVEC6": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA27": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA3": {
+      "direction": "IN"
+    },
+    "TRNTD21": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA52": {
+      "direction": "OUT"
+    },
+    "PLDIRECTEDLTSSMNEW3": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA48": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT25": {
+      "direction": "OUT"
+    },
+    "DBGVECA7": {
+      "direction": "OUT"
+    },
+    "TRNTD39": {
+      "direction": "IN"
+    },
+    "CFGMGMTDO2": {
+      "direction": "OUT"
+    },
+    "LL2SENDASREQL1": {
+      "direction": "IN"
+    },
+    "CFGDSBUSNUMBER3": {
+      "direction": "IN"
+    },
+    "TRNTD37": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA16": {
+      "direction": "IN"
+    },
+    "SCANENABLEN": {
+      "direction": "IN"
+    },
+    "TRNTD69": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG118": {
+      "direction": "IN"
+    },
+    "DRPADDR6": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT27": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG86": {
+      "direction": "IN"
+    },
+    "CFGDSBUSNUMBER5": {
+      "direction": "IN"
+    },
+    "DBGVECA10": {
+      "direction": "OUT"
+    },
+    "PIPETX2DATA8": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA8": {
+      "direction": "IN"
+    },
+    "CFGDEVCONTROLURERRREPORTINGEN": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA17": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG95": {
+      "direction": "IN"
+    },
+    "DBGVECB26": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT19": {
+      "direction": "OUT"
+    },
+    "CFGDSN21": {
+      "direction": "IN"
+    },
+    "TRNRD88": {
+      "direction": "OUT"
+    },
+    "TRNRD62": {
+      "direction": "OUT"
+    },
+    "CFGPORTNUMBER3": {
+      "direction": "IN"
+    },
+    "PIPERX3DATA1": {
+      "direction": "IN"
+    },
+    "CFGDEVID6": {
+      "direction": "IN"
+    },
+    "PIPETX0COMPLIANCE": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG9": {
+      "direction": "IN"
+    },
+    "PIPETX4DATA10": {
+      "direction": "OUT"
+    },
+    "CFGROOTCONTROLSYSERRNONFATALERREN": {
+      "direction": "OUT"
+    },
+    "CFGPMSENDPMETON": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA12": {
+      "direction": "IN"
+    },
+    "DBGVECA29": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO10": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDI27": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSVENDID13": {
+      "direction": "IN"
+    },
+    "TRNTD0": {
+      "direction": "IN"
+    },
+    "USERCLKPREBUFEN": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSID6": {
+      "direction": "IN"
+    },
+    "CFGVENDID0": {
+      "direction": "IN"
+    },
+    "CFGPMCSRPOWERSTATE0": {
+      "direction": "OUT"
+    },
+    "CFGDSN46": {
+      "direction": "IN"
+    },
+    "CFGVCTCVCMAP1": {
+      "direction": "OUT"
+    },
+    "PIPERX3DATA0": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA28": {
+      "direction": "IN"
+    },
+    "TRNRD13": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA1": {
+      "direction": "IN"
+    },
+    "CFGTRANSACTIONADDR2": {
+      "direction": "OUT"
+    },
+    "PIPETX1CHARISK1": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA67": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER28": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA29": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG106": {
+      "direction": "IN"
+    },
+    "DBGVECA33": {
+      "direction": "OUT"
+    },
+    "PIPETX4DATA1": {
+      "direction": "OUT"
+    },
+    "DBGVECB56": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDI4": {
+      "direction": "IN"
+    },
+    "CFGINTERRUPTDO1": {
+      "direction": "OUT"
+    },
+    "PIPERX3STATUS0": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA34": {
+      "direction": "IN"
+    },
+    "TRNTD32": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA6": {
+      "direction": "IN"
+    },
+    "PIPERX6DATA5": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA21": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA0": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA57": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA21": {
+      "direction": "IN"
+    },
+    "TRNRD84": {
+      "direction": "OUT"
+    },
+    "TRNTD80": {
+      "direction": "IN"
+    },
+    "PLTXPMSTATE2": {
+      "direction": "OUT"
+    },
+    "PIPETX1DATA11": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA19": {
+      "direction": "IN"
+    },
+    "EDTCHANNELSIN6": {
+      "direction": "IN"
+    },
+    "TRNRD120": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA26": {
+      "direction": "OUT"
+    },
+    "TRNRD31": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROLENABLERO": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROL2CPLTIMEOUTVAL3": {
+      "direction": "OUT"
+    },
+    "PLDIRECTEDLINKAUTON": {
+      "direction": "IN"
+    },
+    "PIPERX0STATUS1": {
+      "direction": "IN"
+    },
+    "PIPERX5DATA11": {
+      "direction": "IN"
+    },
+    "DBGVECA22": {
+      "direction": "OUT"
+    },
+    "PLDBGVEC8": {
+      "direction": "OUT"
+    },
+    "CFGDSN45": {
+      "direction": "IN"
+    },
+    "DBGVECB10": {
+      "direction": "OUT"
+    },
+    "DBGSCLRB": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA39": {
+      "direction": "OUT"
+    },
+    "DBGVECC10": {
+      "direction": "OUT"
+    },
+    "DBGVECA59": {
+      "direction": "OUT"
+    },
+    "PIPERX6ELECIDLE": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG121": {
+      "direction": "IN"
+    },
+    "PIPETX0POWERDOWN1": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER31": {
+      "direction": "IN"
+    },
+    "PIPETX1DATA15": {
+      "direction": "OUT"
+    },
+    "PLDBGVEC10": {
+      "direction": "OUT"
+    },
+    "CFGVENDID14": {
+      "direction": "IN"
+    },
+    "CFGINTERRUPTDO7": {
+      "direction": "OUT"
+    },
+    "PIPERX7DATA14": {
+      "direction": "IN"
+    },
+    "TRNRD105": {
+      "direction": "OUT"
+    },
+    "TRNRERRFWD": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTDI6": {
+      "direction": "IN"
+    },
+    "PIPETX7DATA7": {
+      "direction": "OUT"
+    },
+    "TRNRD1": {
+      "direction": "OUT"
+    },
+    "DRPRDY": {
+      "direction": "OUT"
+    },
+    "TRNFCPH3": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR17": {
+      "direction": "OUT"
+    },
+    "TRNRD72": {
+      "direction": "OUT"
+    },
+    "PIPERX1DATA13": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA66": {
+      "direction": "OUT"
+    },
+    "TRNTD30": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG100": {
+      "direction": "IN"
+    },
+    "TRNRD94": {
+      "direction": "OUT"
+    },
+    "CFGERRNORECOVERYN": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER27": {
+      "direction": "IN"
+    },
+    "DBGVECA62": {
+      "direction": "OUT"
+    },
+    "PIPETX0DATA2": {
+      "direction": "OUT"
+    },
+    "TRNTD123": {
+      "direction": "IN"
+    },
+    "MIMTXWADDR2": {
+      "direction": "OUT"
+    },
+    "TRNFCPD5": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA52": {
+      "direction": "IN"
+    },
+    "TRNRD110": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR53": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG48": {
+      "direction": "IN"
+    },
+    "PLLTSSMSTATE1": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA63": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA42": {
+      "direction": "IN"
+    },
+    "TRNFCNPD7": {
+      "direction": "OUT"
+    },
+    "PMVSELECT0": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR5": {
+      "direction": "OUT"
+    },
+    "TRNFCCPLH3": {
+      "direction": "OUT"
+    },
+    "TRNRD51": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA16": {
+      "direction": "OUT"
+    },
+    "DBGVECA56": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA15": {
+      "direction": "IN"
+    },
+    "PIPERX3DATA8": {
+      "direction": "IN"
+    },
+    "DBGVECB47": {
+      "direction": "OUT"
+    },
+    "CFGMSGDATA1": {
+      "direction": "OUT"
+    },
+    "CFGTRANSACTIONADDR3": {
+      "direction": "OUT"
+    },
+    "DBGVECA27": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT37": {
+      "direction": "OUT"
+    },
+    "CFGMSGDATA13": {
+      "direction": "OUT"
+    },
+    "PIPETX3DATA12": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA59": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER40": {
+      "direction": "IN"
+    },
+    "TRNFCNPH5": {
+      "direction": "OUT"
+    },
+    "DBGVECA18": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER22": {
+      "direction": "IN"
+    },
+    "PIPERX0CHARISK1": {
+      "direction": "IN"
+    },
+    "DRPDO9": {
+      "direction": "OUT"
+    },
+    "TRNTD41": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR12": {
+      "direction": "OUT"
+    },
+    "TRNFCNPH3": {
+      "direction": "OUT"
+    },
+    "CFGCOMMANDSERREN": {
+      "direction": "OUT"
+    },
+    "TRNTCFGREQ": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSVENDID14": {
+      "direction": "IN"
+    },
+    "TRNRD127": {
+      "direction": "OUT"
+    },
+    "TRNFCCPLD10": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT23": {
+      "direction": "OUT"
+    },
+    "TRNTD12": {
+      "direction": "IN"
+    },
+    "CFGLINKSTATUSAUTOBANDWIDTHSTATUS": {
+      "direction": "OUT"
+    },
+    "PIPETX3ELECIDLE": {
+      "direction": "OUT"
+    },
+    "TRNFCNPD8": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA9": {
+      "direction": "IN"
+    },
+    "MIMRXWADDR5": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO24": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA22": {
+      "direction": "IN"
+    },
+    "CFGVENDID9": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA56": {
+      "direction": "OUT"
+    },
+    "CFGDSN11": {
+      "direction": "IN"
+    },
+    "TRNRD39": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA34": {
+      "direction": "IN"
+    },
+    "CFGMSGDATA9": {
+      "direction": "OUT"
+    },
+    "DBGVECB14": {
+      "direction": "OUT"
+    },
+    "TRNRD4": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO31": {
+      "direction": "OUT"
+    },
+    "PL2RXPMSTATE1": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG34": {
+      "direction": "IN"
+    },
+    "MIMRXWEN": {
+      "direction": "OUT"
+    },
+    "DRPADDR3": {
+      "direction": "IN"
+    },
+    "PIPERX3DATA4": {
+      "direction": "IN"
+    },
+    "DBGVECA60": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROLAUXPOWEREN": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA36": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA64": {
+      "direction": "IN"
+    },
+    "TRNRD75": {
+      "direction": "OUT"
+    },
+    "EDTCLK": {
+      "direction": "IN"
+    },
+    "CFGERRINTERNALCORN": {
+      "direction": "IN"
+    },
+    "TRNFCNPD4": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA67": {
+      "direction": "IN"
+    },
+    "PIPETX3CHARISK0": {
+      "direction": "OUT"
+    },
+    "CFGDEVID9": {
+      "direction": "IN"
+    },
+    "TRNTD15": {
+      "direction": "IN"
+    },
+    "TRNTD60": {
+      "direction": "IN"
+    },
+    "PIPERX1DATA5": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA26": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG36": {
+      "direction": "IN"
+    },
+    "PIPETX4DATA8": {
+      "direction": "OUT"
+    },
+    "TRNTBUFAV2": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG60": {
+      "direction": "IN"
+    },
+    "PIPERX1VALID": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT31": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG123": {
+      "direction": "IN"
+    },
+    "CFGDSN27": {
+      "direction": "IN"
+    },
+    "DRPDI2": {
+      "direction": "IN"
+    },
+    "TRNRD7": {
+      "direction": "OUT"
+    },
+    "PIPERX6DATA1": {
+      "direction": "IN"
+    },
+    "PIPERX3DATA15": {
+      "direction": "IN"
+    },
+    "PL2DIRECTEDLSTATE0": {
+      "direction": "IN"
+    },
+    "TL2ERRRXOVERFLOW": {
+      "direction": "OUT"
+    },
+    "TRNTD102": {
+      "direction": "IN"
+    },
+    "PLLTSSMSTATE0": {
+      "direction": "OUT"
+    },
+    "TRNTD112": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI24": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER8": {
+      "direction": "IN"
+    },
+    "PIPETX1DATA2": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA28": {
+      "direction": "IN"
+    },
+    "PIPETX4DATA15": {
+      "direction": "OUT"
+    },
+    "PIPERX2STATUS2": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA16": {
+      "direction": "IN"
+    },
+    "CFGSUBSYSID2": {
+      "direction": "IN"
+    },
+    "MIMTXRADDR9": {
+      "direction": "OUT"
+    },
+    "PIPERX7VALID": {
+      "direction": "IN"
+    },
+    "MIMRXRADDR0": {
+      "direction": "OUT"
+    },
+    "TRNFCCPLD2": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA50": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA12": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR29": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA12": {
+      "direction": "IN"
+    },
+    "CFGMSGDATA2": {
+      "direction": "OUT"
+    },
+    "PIPERX0DATA9": {
+      "direction": "IN"
+    },
+    "CFGDSDEVICENUMBER3": {
+      "direction": "IN"
+    },
+    "TRNFCSEL2": {
+      "direction": "IN"
+    },
+    "TRNTD47": {
+      "direction": "IN"
+    },
+    "TRNTDLLPDATA1": {
+      "direction": "IN"
+    },
+    "TRNRD124": {
+      "direction": "OUT"
+    },
+    "LL2SENDPMACK": {
+      "direction": "IN"
+    },
+    "PIPETX5DATA8": {
+      "direction": "OUT"
+    },
+    "DBGVECB34": {
+      "direction": "OUT"
+    },
+    "PIPERX4PHYSTATUS": {
+      "direction": "IN"
+    },
+    "PIPETX7DATA9": {
+      "direction": "OUT"
+    },
+    "PIPETX5POWERDOWN0": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR62": {
+      "direction": "OUT"
+    },
+    "CFGDSN39": {
+      "direction": "IN"
+    },
+    "DBGVECB7": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR60": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA51": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT6": {
+      "direction": "OUT"
+    },
+    "MIMTXWADDR5": {
+      "direction": "OUT"
+    },
+    "PIPERX2DATA13": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG97": {
+      "direction": "IN"
+    },
+    "PLDIRECTEDLTSSMNEW2": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA18": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA0": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG8": {
+      "direction": "IN"
+    },
+    "PIPERX7DATA10": {
+      "direction": "IN"
+    },
+    "DBGVECB42": {
+      "direction": "OUT"
+    },
+    "TRNRD125": {
+      "direction": "OUT"
+    },
+    "PIPETXMARGIN1": {
+      "direction": "OUT"
+    },
+    "TRNRD44": {
+      "direction": "OUT"
+    },
+    "PIPETX3DATA13": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG101": {
+      "direction": "IN"
+    },
+    "PIPERX4DATA3": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG57": {
+      "direction": "IN"
+    },
+    "TRNRD36": {
+      "direction": "OUT"
+    },
+    "PIPERX1DATA2": {
+      "direction": "IN"
+    },
+    "CFGDEVID1": {
+      "direction": "IN"
+    },
+    "TRNTD4": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG87": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG4": {
+      "direction": "IN"
+    },
+    "PIPERX5DATA14": {
+      "direction": "IN"
+    },
+    "PIPETX4ELECIDLE": {
+      "direction": "OUT"
+    },
+    "DBGVECB16": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG74": {
+      "direction": "IN"
+    },
+    "CFGDSN43": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA15": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA33": {
+      "direction": "IN"
+    },
+    "TRNTD118": {
+      "direction": "IN"
+    },
+    "CFGAERECRCGENEN": {
+      "direction": "OUT"
+    },
+    "TRNTD59": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA50": {
+      "direction": "OUT"
+    },
+    "CFGPCIECAPINTERRUPTMSGNUM0": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR31": {
+      "direction": "OUT"
+    },
+    "TRNRDSTRDY": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT2": {
+      "direction": "OUT"
+    },
+    "TRNTD77": {
+      "direction": "IN"
+    },
+    "PIPERX7DATA11": {
+      "direction": "IN"
+    },
+    "PIPERX2DATA14": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT21": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA65": {
+      "direction": "OUT"
+    },
+    "CFGAERROOTERRFATALERRRECEIVED": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA36": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG67": {
+      "direction": "IN"
+    },
+    "TRNTD11": {
+      "direction": "IN"
+    },
+    "TRNRD118": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROLMAXPAYLOAD1": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA20": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROLFATALERRREPORTINGEN": {
+      "direction": "OUT"
+    },
+    "CFGDEVCONTROL2IDOREQEN": {
+      "direction": "OUT"
+    },
+    "DRPDI1": {
+      "direction": "IN"
+    },
+    "TRNRD64": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA64": {
+      "direction": "OUT"
+    },
+    "DBGSCLRJ": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG26": {
+      "direction": "IN"
+    },
+    "CFGVENDID4": {
+      "direction": "IN"
+    },
+    "DRPDI10": {
+      "direction": "IN"
+    },
+    "MIMRXRDATA51": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER47": {
+      "direction": "IN"
+    },
+    "TRNTD121": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT10": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTDO6": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA35": {
+      "direction": "OUT"
+    },
+    "TRNTBUFAV0": {
+      "direction": "OUT"
+    },
+    "DBGVECB9": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA45": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG126": {
+      "direction": "IN"
+    },
+    "PIPERX2CHANISALIGNED": {
+      "direction": "IN"
+    },
+    "TRNRD30": {
+      "direction": "OUT"
+    },
+    "DBGVECB45": {
+      "direction": "OUT"
+    },
+    "TRNFCPD11": {
+      "direction": "OUT"
+    },
+    "TRNTD100": {
+      "direction": "IN"
+    },
+    "PLDIRECTEDLTSSMNEW5": {
+      "direction": "IN"
+    },
+    "MIMTXRDATA11": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG40": {
+      "direction": "IN"
+    },
+    "PIPETX4POWERDOWN0": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTDI7": {
+      "direction": "IN"
+    },
+    "TRNRD67": {
+      "direction": "OUT"
+    },
+    "DBGVECA47": {
+      "direction": "OUT"
+    },
+    "DBGVECA2": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA27": {
+      "direction": "OUT"
+    },
+    "PLDBGMODE2": {
+      "direction": "IN"
+    },
+    "PIPERX7CHARISK0": {
+      "direction": "IN"
+    },
+    "CFGDEVID11": {
+      "direction": "IN"
+    },
+    "TRNRD107": {
+      "direction": "OUT"
+    },
+    "TRNTD29": {
+      "direction": "IN"
+    },
+    "PIPETX3DATA7": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG52": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA8": {
+      "direction": "OUT"
+    },
+    "PIPETX0DATA9": {
+      "direction": "OUT"
+    },
+    "DBGVECB57": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG43": {
+      "direction": "IN"
+    },
+    "LL2REPLAYROERR": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA16": {
+      "direction": "IN"
+    },
+    "DBGVECB22": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR43": {
+      "direction": "OUT"
+    },
+    "CFGVCTCVCMAP2": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA40": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO23": {
+      "direction": "OUT"
+    },
+    "CFGMGMTBYTEENN2": {
+      "direction": "IN"
+    },
+    "CFGMGMTDWADDR1": {
+      "direction": "IN"
+    },
+    "CFGPORTNUMBER6": {
+      "direction": "IN"
+    },
+    "DRPDI13": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI5": {
+      "direction": "IN"
+    },
+    "PIPERX5ELECIDLE": {
+      "direction": "IN"
+    },
+    "TRNFCPD7": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG35": {
+      "direction": "IN"
+    },
+    "TRNRD8": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDI0": {
+      "direction": "IN"
+    },
+    "CFGERRTLPCPLHEADER14": {
+      "direction": "IN"
+    },
+    "DRPDO5": {
+      "direction": "OUT"
+    },
+    "DBGVECB63": {
+      "direction": "OUT"
+    },
+    "PIPETX4DATA0": {
+      "direction": "OUT"
+    },
+    "PLDIRECTEDLTSSMNEW0": {
+      "direction": "IN"
+    },
+    "CFGDEVCONTROLMAXREADREQ2": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT30": {
+      "direction": "OUT"
+    },
+    "PIPERX6DATA4": {
+      "direction": "IN"
+    },
+    "TRNTD7": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA6": {
+      "direction": "OUT"
+    },
+    "CFGCOMMANDIOENABLE": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG114": {
+      "direction": "IN"
+    },
+    "PIPERX0DATA12": {
+      "direction": "IN"
+    },
+    "DBGVECA0": {
+      "direction": "OUT"
+    },
+    "PIPETX0DATA7": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA59": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA46": {
+      "direction": "OUT"
+    },
+    "PIPETX0DATA1": {
+      "direction": "OUT"
+    },
+    "DBGVECB59": {
+      "direction": "OUT"
+    },
+    "DBGVECA6": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT18": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT11": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG15": {
+      "direction": "IN"
+    },
+    "PIPERX7DATA12": {
+      "direction": "IN"
+    },
+    "TRNRD21": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT8": {
+      "direction": "OUT"
+    },
+    "MIMTXWDATA41": {
+      "direction": "OUT"
+    },
+    "TRNTDLLPDATA17": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA3": {
+      "direction": "OUT"
+    },
+    "LL2BADDLLPERR": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER16": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG104": {
+      "direction": "IN"
+    },
+    "PIPETX5POWERDOWN1": {
+      "direction": "OUT"
+    },
+    "TRNTREM0": {
+      "direction": "IN"
+    },
+    "PIPERX2DATA7": {
+      "direction": "IN"
+    },
+    "TL2ERRMALFORMED": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA41": {
+      "direction": "OUT"
+    },
+    "DBGSCLRK": {
+      "direction": "OUT"
+    },
+    "PIPETX3DATA6": {
+      "direction": "OUT"
+    },
+    "CFGCOMMANDINTERRUPTDISABLE": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR37": {
+      "direction": "OUT"
+    },
+    "CFGMSGDATA3": {
+      "direction": "OUT"
+    },
+    "CFGERRTLPCPLHEADER23": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA38": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR35": {
+      "direction": "OUT"
+    },
+    "PIPETX6DATA8": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA35": {
+      "direction": "OUT"
+    },
+    "CFGMGMTBYTEENN1": {
+      "direction": "IN"
+    },
+    "LL2LINKSTATUS0": {
+      "direction": "OUT"
+    },
+    "CFGVENDID6": {
+      "direction": "IN"
+    },
+    "MIMRXWDATA3": {
+      "direction": "OUT"
+    },
+    "DBGVECB51": {
+      "direction": "OUT"
+    },
+    "CFGMSGRECEIVEDASSERTINTA": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSID7": {
+      "direction": "IN"
+    },
+    "DBGVECA26": {
+      "direction": "OUT"
+    },
+    "TRNTD65": {
+      "direction": "IN"
+    },
+    "DBGVECB46": {
+      "direction": "OUT"
+    },
+    "TRNRD5": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA59": {
+      "direction": "OUT"
+    },
+    "DBGVECA49": {
+      "direction": "OUT"
+    },
+    "PIPERX0PHYSTATUS": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI18": {
+      "direction": "IN"
+    },
+    "CFGLINKSTATUSDLLACTIVE": {
+      "direction": "OUT"
+    },
+    "CFGERRAERHEADERLOG29": {
+      "direction": "IN"
+    },
+    "PIPETX1DATA4": {
+      "direction": "OUT"
+    },
+    "TRNRBARHIT4": {
+      "direction": "OUT"
+    },
+    "PIPERX2DATA5": {
+      "direction": "IN"
+    },
+    "CFGDSN23": {
+      "direction": "IN"
+    },
+    "TRNTD87": {
+      "direction": "IN"
+    },
+    "CFGTRANSACTION": {
+      "direction": "OUT"
+    },
+    "TRNRDLLPDATA6": {
+      "direction": "OUT"
+    },
+    "PIPETX3DATA0": {
+      "direction": "OUT"
+    },
+    "CFGPORTNUMBER7": {
+      "direction": "IN"
+    },
+    "PIPERX5POLARITY": {
+      "direction": "OUT"
+    },
+    "EDTCHANNELSOUT3": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA40": {
+      "direction": "IN"
+    },
+    "PLSELLNKWIDTH1": {
+      "direction": "OUT"
+    },
+    "PIPETX6DATA6": {
+      "direction": "OUT"
+    },
+    "LL2LINKSTATUS3": {
+      "direction": "OUT"
+    },
+    "CFGINTERRUPTMMENABLE2": {
+      "direction": "OUT"
+    },
+    "MIMRXRDATA1": {
+      "direction": "IN"
+    },
+    "TRNRDLLPDATA19": {
+      "direction": "OUT"
+    },
+    "PIPETX6COMPLIANCE": {
+      "direction": "OUT"
+    },
+    "TRNRD9": {
+      "direction": "OUT"
+    },
+    "DRPDO1": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT9": {
+      "direction": "OUT"
+    },
+    "PIPERX0DATA6": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR4": {
+      "direction": "OUT"
+    },
+    "PIPERX4DATA10": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI8": {
+      "direction": "IN"
+    },
+    "CFGERRAERHEADERLOG117": {
+      "direction": "IN"
+    },
+    "CFGVENDID10": {
+      "direction": "IN"
+    },
+    "DBGVECA16": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA11": {
+      "direction": "OUT"
+    },
+    "MIMRXREN": {
+      "direction": "OUT"
+    },
+    "DBGVECA45": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA35": {
+      "direction": "IN"
+    },
+    "PIPETX0DATA8": {
+      "direction": "OUT"
+    },
+    "PIPERX3DATA9": {
+      "direction": "IN"
+    },
+    "TRNTD104": {
+      "direction": "IN"
+    },
+    "XILUNCONNOUT4": {
+      "direction": "OUT"
+    },
+    "MIMRXWDATA31": {
+      "direction": "OUT"
+    },
+    "XILUNCONNOUT26": {
+      "direction": "OUT"
+    },
+    "DBGVECA8": {
+      "direction": "OUT"
+    },
+    "PIPETX3DATA8": {
+      "direction": "OUT"
+    },
+    "PIPETX2ELECIDLE": {
+      "direction": "OUT"
+    },
+    "CFGMGMTDO8": {
+      "direction": "OUT"
+    },
+    "PIPERX4DATA0": {
+      "direction": "IN"
+    },
+    "TL2ERRHDR0": {
+      "direction": "OUT"
+    },
+    "PIPERX5DATA0": {
+      "direction": "IN"
+    },
+    "TRNFCCPLD4": {
+      "direction": "OUT"
+    },
+    "MIMTXRDATA15": {
+      "direction": "IN"
+    },
+    "DBGVECB1": {
+      "direction": "OUT"
+    },
+    "PIPERX4DATA15": {
+      "direction": "IN"
+    },
+    "PLDBGVEC9": {
+      "direction": "OUT"
+    },
+    "TL2ERRHDR63": {
+      "direction": "OUT"
+    },
+    "CFGSUBSYSVENDID5": {
+      "direction": "IN"
+    },
+    "CFGMGMTDI9": {
+      "direction": "IN"
+    },
+    "TRNTD99": {
+      "direction": "IN"
+    },
+    "MIMTXWDATA44": {
+      "direction": "OUT"
+    },
+    "DBGVECA12": {
+      "direction": "OUT"
+    },
+    "MIMRXWADDR7": {
+      "direction": "OUT"
+    },
+    "PIPERX3VALID": {
+      "direction": "IN"
+    }
+  }
+}

@@ -1,0 +1,1494 @@
+{
+  "tile_type": "CLBLM_R",
+  "sites": [
+    {
+      "y_coord": 0,
+      "name": "X0Y0",
+      "prefix": "SLICE",
+      "type": "SLICEM",
+      "site_pins": {
+        "BX": "CLBLM_M_BX",
+        "A3": "CLBLM_M_A3",
+        "D": "CLBLM_M_D",
+        "C": "CLBLM_M_C",
+        "DQ": "CLBLM_M_DQ",
+        "B2": "CLBLM_M_B2",
+        "C6": "CLBLM_M_C6",
+        "COUT": "CLBLM_M_COUT",
+        "A2": "CLBLM_M_A2",
+        "SR": "CLBLM_M_SR",
+        "AI": "CLBLM_M_AI",
+        "B6": "CLBLM_M_B6",
+        "BI": "CLBLM_M_BI",
+        "D6": "CLBLM_M_D6",
+        "A5": "CLBLM_M_A5",
+        "B": "CLBLM_M_B",
+        "A4": "CLBLM_M_A4",
+        "B4": "CLBLM_M_B4",
+        "A6": "CLBLM_M_A6",
+        "C2": "CLBLM_M_C2",
+        "BMUX": "CLBLM_M_BMUX",
+        "A": "CLBLM_M_A",
+        "BQ": "CLBLM_M_BQ",
+        "D3": "CLBLM_M_D3",
+        "B1": "CLBLM_M_B1",
+        "CI": "CLBLM_M_CI",
+        "WE": "CLBLM_M_WE",
+        "D4": "CLBLM_M_D4",
+        "AMUX": "CLBLM_M_AMUX",
+        "DMUX": "CLBLM_M_DMUX",
+        "DI": "CLBLM_M_DI",
+        "AX": "CLBLM_M_AX",
+        "C1": "CLBLM_M_C1",
+        "C5": "CLBLM_M_C5",
+        "DX": "CLBLM_M_DX",
+        "CX": "CLBLM_M_CX",
+        "C3": "CLBLM_M_C3",
+        "CMUX": "CLBLM_M_CMUX",
+        "A1": "CLBLM_M_A1",
+        "D2": "CLBLM_M_D2",
+        "CQ": "CLBLM_M_CQ",
+        "CLK": "CLBLM_M_CLK",
+        "CIN": "CLBLM_M_CIN",
+        "AQ": "CLBLM_M_AQ",
+        "B3": "CLBLM_M_B3",
+        "D5": "CLBLM_M_D5",
+        "D1": "CLBLM_M_D1",
+        "CE": "CLBLM_M_CE",
+        "B5": "CLBLM_M_B5",
+        "C4": "CLBLM_M_C4"
+      },
+      "x_coord": 0
+    },
+    {
+      "y_coord": 0,
+      "name": "X1Y0",
+      "prefix": "SLICE",
+      "type": "SLICEL",
+      "site_pins": {
+        "BX": "CLBLM_L_BX",
+        "A3": "CLBLM_L_A3",
+        "D": "CLBLM_L_D",
+        "C": "CLBLM_L_C",
+        "DQ": "CLBLM_L_DQ",
+        "B2": "CLBLM_L_B2",
+        "C6": "CLBLM_L_C6",
+        "A2": "CLBLM_L_A2",
+        "SR": "CLBLM_L_SR",
+        "B6": "CLBLM_L_B6",
+        "D6": "CLBLM_L_D6",
+        "A5": "CLBLM_L_A5",
+        "B": "CLBLM_L_B",
+        "A4": "CLBLM_L_A4",
+        "B4": "CLBLM_L_B4",
+        "A6": "CLBLM_L_A6",
+        "C2": "CLBLM_L_C2",
+        "AQ": "CLBLM_L_AQ",
+        "A": "CLBLM_L_A",
+        "BQ": "CLBLM_L_BQ",
+        "D3": "CLBLM_L_D3",
+        "B1": "CLBLM_L_B1",
+        "COUT": "CLBLM_L_COUT",
+        "D4": "CLBLM_L_D4",
+        "AMUX": "CLBLM_L_AMUX",
+        "DMUX": "CLBLM_L_DMUX",
+        "AX": "CLBLM_L_AX",
+        "C1": "CLBLM_L_C1",
+        "C5": "CLBLM_L_C5",
+        "DX": "CLBLM_L_DX",
+        "CX": "CLBLM_L_CX",
+        "C3": "CLBLM_L_C3",
+        "CMUX": "CLBLM_L_CMUX",
+        "A1": "CLBLM_L_A1",
+        "D2": "CLBLM_L_D2",
+        "CQ": "CLBLM_L_CQ",
+        "CLK": "CLBLM_L_CLK",
+        "CIN": "CLBLM_L_CIN",
+        "BMUX": "CLBLM_L_BMUX",
+        "B3": "CLBLM_L_B3",
+        "D5": "CLBLM_L_D5",
+        "D1": "CLBLM_L_D1",
+        "CE": "CLBLM_L_CE",
+        "B5": "CLBLM_L_B5",
+        "C4": "CLBLM_L_C4"
+      },
+      "x_coord": 1
+    }
+  ],
+  "wires": [
+    "CLBLM_SE2A0",
+    "CLBLM_LOGIC_OUTS7",
+    "CLBLM_L_CIN",
+    "CLBLM_L_AQ",
+    "CLBLM_IMUX42",
+    "CLBLM_L_D6",
+    "CLBLM_L_A4",
+    "CLBLM_LH1",
+    "CLBLM_EE2A3",
+    "CLBLM_L_B",
+    "CLBLM_IMUX32",
+    "CLBLM_L_D2",
+    "CLBLM_M_BI",
+    "CLBLM_IMUX23",
+    "CLBLM_NW4END0",
+    "CLBLM_NW4END3",
+    "CLBLM_M_BMUX",
+    "CLBLM_ER1BEG2",
+    "CLBLM_WW4C1",
+    "CLBLM_M_AI",
+    "CLBLM_WL1END2",
+    "CLBLM_NW2A2",
+    "CLBLM_IMUX45",
+    "CLBLM_NW4A3",
+    "CLBLM_IMUX16",
+    "CLBLM_IMUX11",
+    "CLBLM_WW2END3",
+    "CLBLM_ER1BEG1",
+    "CLBLM_M_CIN",
+    "CLBLM_WW4B2",
+    "CLBLM_IMUX6",
+    "CLBLM_M_B2",
+    "CLBLM_M_C3",
+    "CLBLM_M_B4",
+    "CLBLM_SW2A0",
+    "CLBLM_NW4A0",
+    "CLBLM_BYP2",
+    "CLBLM_EE4A0",
+    "CLBLM_M_C",
+    "CLBLM_IMUX43",
+    "CLBLM_WW4B1",
+    "CLBLM_IMUX26",
+    "CLBLM_M_AX",
+    "CLBLM_IMUX9",
+    "CLBLM_EE2BEG3",
+    "CLBLM_M_DQ",
+    "CLBLM_NE2A0",
+    "CLBLM_WW2A0",
+    "CLBLM_EE2A0",
+    "CLBLM_L_D3",
+    "CLBLM_FAN5",
+    "CLBLM_SW4A0",
+    "CLBLM_M_B5",
+    "CLBLM_M_CE",
+    "CLBLM_LOGIC_OUTS9",
+    "CLBLM_L_BX",
+    "CLBLM_M_D6",
+    "CLBLM_IMUX7",
+    "CLBLM_WW4A1",
+    "CLBLM_EE2BEG2",
+    "CLBLM_IMUX13",
+    "CLBLM_M_DMUX",
+    "CLBLM_M_A2",
+    "CLBLM_M_DI",
+    "CLBLM_SW2A2",
+    "CLBLM_IMUX12",
+    "CLBLM_L_C2",
+    "CLBLM_SE4BEG1",
+    "CLBLM_ER1BEG0",
+    "CLBLM_L_CMUX",
+    "CLBLM_IMUX37",
+    "CLBLM_NE2A3",
+    "CLBLM_EE2BEG1",
+    "CLBLM_WW2END1",
+    "CLBLM_IMUX29",
+    "CLBLM_LOGIC_OUTS2",
+    "CLBLM_M_A1",
+    "CLBLM_IMUX30",
+    "CLBLM_EE4A2",
+    "CLBLM_IMUX36",
+    "CLBLM_SE4C2",
+    "CLBLM_EE2A1",
+    "CLBLM_FAN2",
+    "CLBLM_L_DMUX",
+    "CLBLM_WW2END0",
+    "CLBLM_IMUX15",
+    "CLBLM_NW4A2",
+    "CLBLM_IMUX38",
+    "CLBLM_NW4END2",
+    "CLBLM_SW4END3",
+    "CLBLM_FAN6",
+    "CLBLM_WR1END2",
+    "CLBLM_EE4C2",
+    "CLBLM_NE4C0",
+    "CLBLM_SW2A1",
+    "CLBLM_SW4END0",
+    "CLBLM_M_D5",
+    "CLBLM_EE2BEG0",
+    "CLBLM_IMUX25",
+    "CLBLM_L_B5",
+    "CLBLM_IMUX4",
+    "CLBLM_SE4BEG0",
+    "CLBLM_EE4C1",
+    "CLBLM_SE4BEG3",
+    "CLBLM_M_A",
+    "CLBLM_M_D",
+    "CLBLM_IMUX28",
+    "CLBLM_WL1END0",
+    "CLBLM_EL1BEG3",
+    "CLBLM_SW4END1",
+    "CLBLM_FAN1",
+    "CLBLM_LOGIC_OUTS6",
+    "CLBLM_CTRL0",
+    "CLBLM_WW4END0",
+    "CLBLM_LOGIC_OUTS23",
+    "CLBLM_IMUX41",
+    "CLBLM_LH4",
+    "CLBLM_M_CLK",
+    "CLBLM_L_A6",
+    "CLBLM_L_AMUX",
+    "CLBLM_L_C",
+    "CLBLM_IMUX3",
+    "CLBLM_FAN3",
+    "CLBLM_EL1BEG0",
+    "CLBLM_M_A4",
+    "CLBLM_LOGIC_OUTS18",
+    "CLBLM_NE4BEG3",
+    "CLBLM_L_A5",
+    "CLBLM_M_C6",
+    "CLBLM_L_BQ",
+    "CLBLM_WL1END1",
+    "CLBLM_NW2A3",
+    "CLBLM_M_B1",
+    "CLBLM_L_BMUX",
+    "CLBLM_M_CX",
+    "CLBLM_IMUX0",
+    "CLBLM_M_C2",
+    "CLBLM_LH10",
+    "CLBLM_WW4END3",
+    "CLBLM_NW2A1",
+    "CLBLM_FAN7",
+    "CLBLM_IMUX39",
+    "CLBLM_IMUX8",
+    "CLBLM_M_COUT_N",
+    "CLBLM_IMUX21",
+    "CLBLM_BYP1",
+    "CLBLM_L_CE",
+    "CLBLM_CLK0",
+    "CLBLM_LH12",
+    "CLBLM_EL1BEG2",
+    "CLBLM_LOGIC_OUTS1",
+    "CLBLM_IMUX27",
+    "CLBLM_LOGIC_OUTS22",
+    "CLBLM_M_C4",
+    "CLBLM_L_CQ",
+    "CLBLM_L_A1",
+    "CLBLM_CTRL1",
+    "CLBLM_L_B2",
+    "CLBLM_SW4A1",
+    "CLBLM_LOGIC_OUTS15",
+    "CLBLM_IMUX1",
+    "CLBLM_SW4END2",
+    "CLBLM_M_AQ",
+    "CLBLM_WW4B3",
+    "CLBLM_L_DX",
+    "CLBLM_SE2A3",
+    "CLBLM_FAN0",
+    "CLBLM_LOGIC_OUTS0",
+    "CLBLM_LOGIC_OUTS14",
+    "CLBLM_L_A3",
+    "CLBLM_BYP4",
+    "CLBLM_NE2A2",
+    "CLBLM_NE2A1",
+    "CLBLM_SE4C3",
+    "CLBLM_NE4BEG2",
+    "CLBLM_L_B6",
+    "CLBLM_WL1END3",
+    "CLBLM_NW4END1",
+    "CLBLM_IMUX10",
+    "CLBLM_M_C1",
+    "CLBLM_SW4A3",
+    "CLBLM_LOGIC_OUTS3",
+    "CLBLM_EE4C3",
+    "CLBLM_M_C5",
+    "CLBLM_M_A6",
+    "CLBLM_MONITOR_N",
+    "CLBLM_BYP7",
+    "CLBLM_WW4B0",
+    "CLBLM_CLK1",
+    "CLBLM_LOGIC_OUTS20",
+    "CLBLM_LH3",
+    "CLBLM_L_COUT",
+    "CLBLM_IMUX44",
+    "CLBLM_ER1BEG3",
+    "CLBLM_L_A2",
+    "CLBLM_L_D5",
+    "CLBLM_L_C6",
+    "CLBLM_LOGIC_OUTS4",
+    "CLBLM_WW2A1",
+    "CLBLM_EE4BEG0",
+    "CLBLM_SE4C1",
+    "CLBLM_EL1BEG1",
+    "CLBLM_L_C1",
+    "CLBLM_M_D1",
+    "CLBLM_WR1END0",
+    "CLBLM_WR1END1",
+    "CLBLM_EE4B1",
+    "CLBLM_WW4C2",
+    "CLBLM_L_DQ",
+    "CLBLM_M_A5",
+    "CLBLM_EE2A2",
+    "CLBLM_WW2END2",
+    "CLBLM_NE4C1",
+    "CLBLM_LH11",
+    "CLBLM_IMUX18",
+    "CLBLM_L_B1",
+    "CLBLM_M_CI",
+    "CLBLM_MONITOR_P",
+    "CLBLM_LH5",
+    "CLBLM_L_COUT_N",
+    "CLBLM_IMUX35",
+    "CLBLM_EE4BEG3",
+    "CLBLM_L_CX",
+    "CLBLM_NE4BEG0",
+    "CLBLM_LOGIC_OUTS21",
+    "CLBLM_IMUX2",
+    "CLBLM_BYP5",
+    "CLBLM_IMUX20",
+    "CLBLM_EE4B2",
+    "CLBLM_EE4B0",
+    "CLBLM_IMUX40",
+    "CLBLM_M_D2",
+    "CLBLM_WR1END3",
+    "CLBLM_LOGIC_OUTS16",
+    "CLBLM_WW4A3",
+    "CLBLM_LOGIC_OUTS5",
+    "CLBLM_M_AMUX",
+    "CLBLM_NE4C2",
+    "CLBLM_WW4END2",
+    "CLBLM_L_B4",
+    "CLBLM_WW2A2",
+    "CLBLM_NE4BEG1",
+    "CLBLM_M_CMUX",
+    "CLBLM_IMUX5",
+    "CLBLM_M_D3",
+    "CLBLM_WW2A3",
+    "CLBLM_LH6",
+    "CLBLM_L_A",
+    "CLBLM_M_WE",
+    "CLBLM_WW4END1",
+    "CLBLM_LOGIC_OUTS13",
+    "CLBLM_M_COUT",
+    "CLBLM_L_B3",
+    "CLBLM_L_D",
+    "CLBLM_LOGIC_OUTS10",
+    "CLBLM_SW2A3",
+    "CLBLM_LH8",
+    "CLBLM_FAN4",
+    "CLBLM_L_SR",
+    "CLBLM_M_B3",
+    "CLBLM_SE2A2",
+    "CLBLM_WW4C3",
+    "CLBLM_L_D1",
+    "CLBLM_L_C3",
+    "CLBLM_M_D4",
+    "CLBLM_L_C4",
+    "CLBLM_EE4B3",
+    "CLBLM_LOGIC_OUTS19",
+    "CLBLM_LOGIC_OUTS8",
+    "CLBLM_IMUX17",
+    "CLBLM_NW4A1",
+    "CLBLM_IMUX22",
+    "CLBLM_M_CQ",
+    "CLBLM_M_B",
+    "CLBLM_SW4A2",
+    "CLBLM_EE4C0",
+    "CLBLM_WW4A2",
+    "CLBLM_EE4BEG2",
+    "CLBLM_NW2A0",
+    "CLBLM_EE4BEG1",
+    "CLBLM_IMUX19",
+    "CLBLM_IMUX47",
+    "CLBLM_IMUX46",
+    "CLBLM_WW4C0",
+    "CLBLM_LH7",
+    "CLBLM_L_CLK",
+    "CLBLM_M_DX",
+    "CLBLM_M_A3",
+    "CLBLM_L_D4",
+    "CLBLM_LOGIC_OUTS12",
+    "CLBLM_M_BQ",
+    "CLBLM_IMUX14",
+    "CLBLM_BYP6",
+    "CLBLM_SE2A1",
+    "CLBLM_EE4A1",
+    "CLBLM_LH9",
+    "CLBLM_EE4A3",
+    "CLBLM_IMUX24",
+    "CLBLM_LOGIC_OUTS17",
+    "CLBLM_IMUX31",
+    "CLBLM_LH2",
+    "CLBLM_LOGIC_OUTS11",
+    "CLBLM_IMUX33",
+    "CLBLM_SE4BEG2",
+    "CLBLM_M_BX",
+    "CLBLM_M_SR",
+    "CLBLM_NE4C3",
+    "CLBLM_WW4A0",
+    "CLBLM_M_B6",
+    "CLBLM_BYP3",
+    "CLBLM_IMUX34",
+    "CLBLM_SE4C0",
+    "CLBLM_L_AX",
+    "CLBLM_L_C5",
+    "CLBLM_BYP0"
+  ],
+  "pips": {
+    "CLBLM_R.CLBLM_IMUX45->CLBLM_M_D2": {
+      "src_wire": "CLBLM_IMUX45",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_D2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_DQ->CLBLM_LOGIC_OUTS7": {
+      "src_wire": "CLBLM_M_DQ",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS7",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_BYP4->CLBLM_M_BX": {
+      "src_wire": "CLBLM_BYP4",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_BX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX9->CLBLM_L_A5": {
+      "src_wire": "CLBLM_IMUX9",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_A5",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_DMUX->CLBLM_LOGIC_OUTS19": {
+      "src_wire": "CLBLM_L_DMUX",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS19",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX34->CLBLM_L_C6": {
+      "src_wire": "CLBLM_IMUX34",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_C6",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX15->CLBLM_M_B1": {
+      "src_wire": "CLBLM_IMUX15",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_B1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_B4->>CLBLM_L_B": {
+      "src_wire": "CLBLM_L_B4",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_B",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_B5->>CLBLM_M_B": {
+      "src_wire": "CLBLM_M_B5",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_B",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_D6->>CLBLM_M_D": {
+      "src_wire": "CLBLM_M_D6",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_CTRL1->CLBLM_M_SR": {
+      "src_wire": "CLBLM_CTRL1",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_SR",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX14->CLBLM_L_B1": {
+      "src_wire": "CLBLM_IMUX14",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_B1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_C2->>CLBLM_L_C": {
+      "src_wire": "CLBLM_L_C2",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_C->CLBLM_LOGIC_OUTS10": {
+      "src_wire": "CLBLM_L_C",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS10",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX29->CLBLM_M_C2": {
+      "src_wire": "CLBLM_IMUX29",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_C2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX46->CLBLM_L_D5": {
+      "src_wire": "CLBLM_IMUX46",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_D5",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_A1->>CLBLM_L_A": {
+      "src_wire": "CLBLM_L_A1",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_A",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_C->>CLBLM_L_CMUX": {
+      "src_wire": "CLBLM_L_C",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_CMUX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_D5->>CLBLM_L_D": {
+      "src_wire": "CLBLM_L_D5",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX23->CLBLM_L_C3": {
+      "src_wire": "CLBLM_IMUX23",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_C3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_BQ->CLBLM_LOGIC_OUTS5": {
+      "src_wire": "CLBLM_M_BQ",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS5",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_D3->>CLBLM_L_D": {
+      "src_wire": "CLBLM_L_D3",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX31->CLBLM_M_C5": {
+      "src_wire": "CLBLM_IMUX31",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_C5",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_FAN7->CLBLM_M_CE": {
+      "src_wire": "CLBLM_FAN7",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_CE",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX36->CLBLM_L_D2": {
+      "src_wire": "CLBLM_IMUX36",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_D2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_FAN5->CLBLM_M_CI": {
+      "src_wire": "CLBLM_FAN5",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_CI",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_A4->>CLBLM_M_A": {
+      "src_wire": "CLBLM_M_A4",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_A",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_BYP6->CLBLM_M_DX": {
+      "src_wire": "CLBLM_BYP6",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_DX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_CQ->CLBLM_LOGIC_OUTS6": {
+      "src_wire": "CLBLM_M_CQ",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS6",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX3->CLBLM_L_A2": {
+      "src_wire": "CLBLM_IMUX3",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_A2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX19->CLBLM_L_B2": {
+      "src_wire": "CLBLM_IMUX19",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_B2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_B6->>CLBLM_M_B": {
+      "src_wire": "CLBLM_M_B6",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_B",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_DMUX->CLBLM_LOGIC_OUTS23": {
+      "src_wire": "CLBLM_M_DMUX",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS23",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX33->CLBLM_L_C1": {
+      "src_wire": "CLBLM_IMUX33",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_C1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_AMUX->CLBLM_LOGIC_OUTS20": {
+      "src_wire": "CLBLM_M_AMUX",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS20",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX13->CLBLM_L_B6": {
+      "src_wire": "CLBLM_IMUX13",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_B6",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX2->CLBLM_M_A2": {
+      "src_wire": "CLBLM_IMUX2",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_A2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_D->>CLBLM_L_DMUX": {
+      "src_wire": "CLBLM_L_D",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_DMUX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_B6->>CLBLM_L_B": {
+      "src_wire": "CLBLM_L_B6",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_B",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_A1->>CLBLM_M_A": {
+      "src_wire": "CLBLM_M_A1",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_A",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX5->CLBLM_L_A6": {
+      "src_wire": "CLBLM_IMUX5",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_A6",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX47->CLBLM_M_D5": {
+      "src_wire": "CLBLM_IMUX47",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_D5",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX20->CLBLM_L_C2": {
+      "src_wire": "CLBLM_IMUX20",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_C2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_D5->>CLBLM_M_D": {
+      "src_wire": "CLBLM_M_D5",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX16->CLBLM_L_B3": {
+      "src_wire": "CLBLM_IMUX16",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_B3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_A6->>CLBLM_L_A": {
+      "src_wire": "CLBLM_L_A6",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_A",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_C6->>CLBLM_L_C": {
+      "src_wire": "CLBLM_L_C6",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_BYP0->CLBLM_L_AX": {
+      "src_wire": "CLBLM_BYP0",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_AX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX11->CLBLM_M_A4": {
+      "src_wire": "CLBLM_IMUX11",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_A4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_A2->>CLBLM_L_A": {
+      "src_wire": "CLBLM_L_A2",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_A",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_CTRL0->CLBLM_L_SR": {
+      "src_wire": "CLBLM_CTRL0",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_SR",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_B->CLBLM_LOGIC_OUTS13": {
+      "src_wire": "CLBLM_M_B",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS13",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX1->CLBLM_M_A3": {
+      "src_wire": "CLBLM_IMUX1",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_A3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_CQ->CLBLM_LOGIC_OUTS2": {
+      "src_wire": "CLBLM_L_CQ",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_A->CLBLM_LOGIC_OUTS8": {
+      "src_wire": "CLBLM_L_A",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS8",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_B5->>CLBLM_L_B": {
+      "src_wire": "CLBLM_L_B5",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_B",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX37->CLBLM_L_D4": {
+      "src_wire": "CLBLM_IMUX37",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_D4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_BYP7->CLBLM_L_DX": {
+      "src_wire": "CLBLM_BYP7",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_DX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX27->CLBLM_M_B4": {
+      "src_wire": "CLBLM_IMUX27",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_B4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_AMUX->CLBLM_LOGIC_OUTS16": {
+      "src_wire": "CLBLM_L_AMUX",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS16",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX28->CLBLM_M_C4": {
+      "src_wire": "CLBLM_IMUX28",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_C4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX32->CLBLM_M_C1": {
+      "src_wire": "CLBLM_IMUX32",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_C1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_B2->>CLBLM_L_B": {
+      "src_wire": "CLBLM_L_B2",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_B",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_B2->>CLBLM_M_B": {
+      "src_wire": "CLBLM_M_B2",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_B",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_BMUX->CLBLM_LOGIC_OUTS17": {
+      "src_wire": "CLBLM_L_BMUX",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS17",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX39->CLBLM_L_D3": {
+      "src_wire": "CLBLM_IMUX39",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_D3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_D4->>CLBLM_L_D": {
+      "src_wire": "CLBLM_L_D4",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_D->CLBLM_LOGIC_OUTS11": {
+      "src_wire": "CLBLM_L_D",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS11",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_FAN0->CLBLM_M_AI": {
+      "src_wire": "CLBLM_FAN0",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_AI",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_C3->>CLBLM_M_C": {
+      "src_wire": "CLBLM_M_C3",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX8->CLBLM_M_A5": {
+      "src_wire": "CLBLM_IMUX8",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_A5",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX38->CLBLM_M_D3": {
+      "src_wire": "CLBLM_IMUX38",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_D3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_A->>CLBLM_L_AMUX": {
+      "src_wire": "CLBLM_L_A",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_AMUX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX6->CLBLM_L_A1": {
+      "src_wire": "CLBLM_IMUX6",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_A1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_BQ->CLBLM_LOGIC_OUTS1": {
+      "src_wire": "CLBLM_L_BQ",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_C3->>CLBLM_L_C": {
+      "src_wire": "CLBLM_L_C3",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX26->CLBLM_L_B4": {
+      "src_wire": "CLBLM_IMUX26",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_B4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_CLK0->CLBLM_L_CLK": {
+      "src_wire": "CLBLM_CLK0",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX21->CLBLM_L_C4": {
+      "src_wire": "CLBLM_IMUX21",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_C4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_A3->>CLBLM_L_A": {
+      "src_wire": "CLBLM_L_A3",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_A",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_D->CLBLM_LOGIC_OUTS15": {
+      "src_wire": "CLBLM_M_D",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS15",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_C1->>CLBLM_M_C": {
+      "src_wire": "CLBLM_M_C1",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_COUT->>CLBLM_L_DMUX": {
+      "src_wire": "CLBLM_L_COUT",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_DMUX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_BYP2->CLBLM_L_CX": {
+      "src_wire": "CLBLM_BYP2",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_CX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_C1->>CLBLM_L_C": {
+      "src_wire": "CLBLM_L_C1",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_AQ->CLBLM_LOGIC_OUTS4": {
+      "src_wire": "CLBLM_M_AQ",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_D3->>CLBLM_M_D": {
+      "src_wire": "CLBLM_M_D3",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_BYP3->CLBLM_M_CX": {
+      "src_wire": "CLBLM_BYP3",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_CX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_B3->>CLBLM_L_B": {
+      "src_wire": "CLBLM_L_B3",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_B",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX22->CLBLM_M_C3": {
+      "src_wire": "CLBLM_IMUX22",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_C3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_A->CLBLM_LOGIC_OUTS12": {
+      "src_wire": "CLBLM_M_A",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS12",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_CLK1->CLBLM_M_CLK": {
+      "src_wire": "CLBLM_CLK1",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_A3->>CLBLM_M_A": {
+      "src_wire": "CLBLM_M_A3",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_A",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_C5->>CLBLM_M_C": {
+      "src_wire": "CLBLM_M_C5",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_FAN2->CLBLM_M_BI": {
+      "src_wire": "CLBLM_FAN2",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_BI",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX40->CLBLM_M_D1": {
+      "src_wire": "CLBLM_IMUX40",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_D1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_C->CLBLM_LOGIC_OUTS14": {
+      "src_wire": "CLBLM_M_C",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS14",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX10->CLBLM_L_A4": {
+      "src_wire": "CLBLM_IMUX10",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_A4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX25->CLBLM_L_B5": {
+      "src_wire": "CLBLM_IMUX25",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_B5",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_AQ->CLBLM_LOGIC_OUTS0": {
+      "src_wire": "CLBLM_L_AQ",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_B->>CLBLM_L_BMUX": {
+      "src_wire": "CLBLM_L_B",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_BMUX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX30->CLBLM_L_C5": {
+      "src_wire": "CLBLM_IMUX30",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_C5",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_C4->>CLBLM_L_C": {
+      "src_wire": "CLBLM_L_C4",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_D4->>CLBLM_M_D": {
+      "src_wire": "CLBLM_M_D4",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_COUT->CLBLM_M_COUT_N": {
+      "src_wire": "CLBLM_M_COUT",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_COUT_N",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_FAN4->CLBLM_M_WE": {
+      "src_wire": "CLBLM_FAN4",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_WE",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_B1->>CLBLM_L_B": {
+      "src_wire": "CLBLM_L_B1",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_B",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_A->>CLBLM_M_AMUX": {
+      "src_wire": "CLBLM_M_A",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_AMUX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_D2->>CLBLM_L_D": {
+      "src_wire": "CLBLM_L_D2",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_COUT->CLBLM_L_COUT_N": {
+      "src_wire": "CLBLM_L_COUT",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_COUT_N",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_A2->>CLBLM_M_A": {
+      "src_wire": "CLBLM_M_A2",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_A",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_A6->>CLBLM_M_A": {
+      "src_wire": "CLBLM_M_A6",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_A",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX4->CLBLM_M_A6": {
+      "src_wire": "CLBLM_IMUX4",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_A6",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_BYP1->CLBLM_M_AX": {
+      "src_wire": "CLBLM_BYP1",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_AX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_B4->>CLBLM_M_B": {
+      "src_wire": "CLBLM_M_B4",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_B",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_D->>CLBLM_M_DMUX": {
+      "src_wire": "CLBLM_M_D",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_DMUX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_FAN6->CLBLM_L_CE": {
+      "src_wire": "CLBLM_FAN6",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_CE",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_BMUX->CLBLM_LOGIC_OUTS21": {
+      "src_wire": "CLBLM_M_BMUX",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS21",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX35->CLBLM_M_C6": {
+      "src_wire": "CLBLM_IMUX35",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_C6",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_A5->>CLBLM_L_A": {
+      "src_wire": "CLBLM_L_A5",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_A",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_A5->>CLBLM_M_A": {
+      "src_wire": "CLBLM_M_A5",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_A",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_B->>CLBLM_M_BMUX": {
+      "src_wire": "CLBLM_M_B",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_BMUX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_D1->>CLBLM_L_D": {
+      "src_wire": "CLBLM_L_D1",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_DQ->CLBLM_LOGIC_OUTS3": {
+      "src_wire": "CLBLM_L_DQ",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX41->CLBLM_L_D1": {
+      "src_wire": "CLBLM_IMUX41",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_D1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_FAN3->CLBLM_M_DI": {
+      "src_wire": "CLBLM_FAN3",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_DI",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_D6->>CLBLM_L_D": {
+      "src_wire": "CLBLM_L_D6",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX18->CLBLM_M_B2": {
+      "src_wire": "CLBLM_IMUX18",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_B2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX44->CLBLM_M_D4": {
+      "src_wire": "CLBLM_IMUX44",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_D4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_BYP5->CLBLM_L_BX": {
+      "src_wire": "CLBLM_BYP5",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_BX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_C->>CLBLM_M_CMUX": {
+      "src_wire": "CLBLM_M_C",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_CMUX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX12->CLBLM_M_B6": {
+      "src_wire": "CLBLM_IMUX12",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_B6",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX0->CLBLM_L_A3": {
+      "src_wire": "CLBLM_IMUX0",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_A3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_D2->>CLBLM_M_D": {
+      "src_wire": "CLBLM_M_D2",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX24->CLBLM_M_B5": {
+      "src_wire": "CLBLM_IMUX24",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_B5",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX42->CLBLM_L_D6": {
+      "src_wire": "CLBLM_IMUX42",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_L_D6",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_CMUX->CLBLM_LOGIC_OUTS18": {
+      "src_wire": "CLBLM_L_CMUX",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS18",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_B1->>CLBLM_M_B": {
+      "src_wire": "CLBLM_M_B1",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_B",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_CMUX->CLBLM_LOGIC_OUTS22": {
+      "src_wire": "CLBLM_M_CMUX",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS22",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX43->CLBLM_M_D6": {
+      "src_wire": "CLBLM_IMUX43",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_D6",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_C5->>CLBLM_L_C": {
+      "src_wire": "CLBLM_L_C5",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_COUT->>CLBLM_M_DMUX": {
+      "src_wire": "CLBLM_M_COUT",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_DMUX",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_C4->>CLBLM_M_C": {
+      "src_wire": "CLBLM_M_C4",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX7->CLBLM_M_A1": {
+      "src_wire": "CLBLM_IMUX7",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_A1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_B3->>CLBLM_M_B": {
+      "src_wire": "CLBLM_M_B3",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_B",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_A4->>CLBLM_L_A": {
+      "src_wire": "CLBLM_L_A4",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_L_A",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_C2->>CLBLM_M_C": {
+      "src_wire": "CLBLM_M_C2",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_IMUX17->CLBLM_M_B3": {
+      "src_wire": "CLBLM_IMUX17",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_M_B3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_C6->>CLBLM_M_C": {
+      "src_wire": "CLBLM_M_C6",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_M_D1->>CLBLM_M_D": {
+      "src_wire": "CLBLM_M_D1",
+      "is_pseudo": "1",
+      "dst_wire": "CLBLM_M_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "CLBLM_R.CLBLM_L_B->CLBLM_LOGIC_OUTS9": {
+      "src_wire": "CLBLM_L_B",
+      "is_pseudo": "0",
+      "dst_wire": "CLBLM_LOGIC_OUTS9",
+      "is_directional": "1",
+      "can_invert": "0"
+    }
+  }
+}

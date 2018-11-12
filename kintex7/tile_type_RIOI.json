@@ -1,0 +1,4314 @@
+{
+  "tile_type": "RIOI",
+  "sites": [
+    {
+      "y_coord": 0,
+      "name": "X0Y0",
+      "prefix": "OLOGIC",
+      "type": "OLOGICE2",
+      "site_pins": {
+        "CLKDIVFB": "IOI_OLOGIC1_CLKDIVFB",
+        "TBYTEOUT": "IOI_OLOGIC1_TBYTEOUT",
+        "IOCLKGLITCH": "IOI_OLOGIC1_IOCLKGLITCH",
+        "TBYTEIN": "IOI_OLOGIC1_TBYTEIN",
+        "OFB": "RIOI_OLOGIC1_OFB",
+        "T1": "IOI_OLOGIC1_T1",
+        "D6": "IOI_OLOGIC1_D6",
+        "SHIFTIN2": null,
+        "TCE": "IOI_OLOGIC1_TCE",
+        "OCE": "IOI_OLOGIC1_OCE",
+        "SHIFTOUT2": "RIOI_OSOUT21",
+        "REV": null,
+        "OQ": "RIOI_OLOGIC1_OQ",
+        "CLKDIVB": "IOI_OLOGIC1_CLKDIVB",
+        "D7": "IOI_OLOGIC1_D7",
+        "TQ": "RIOI_OLOGIC1_TQ",
+        "D3": "IOI_OLOGIC1_D3",
+        "D4": "IOI_OLOGIC1_D4",
+        "SR": "IOI_OLOGIC1_SR",
+        "CLKB": "IOI_OLOGIC1_CLKB",
+        "SHIFTIN1": null,
+        "CLKDIVF": "RIOI_OLOGIC1_CLKDIVF",
+        "D2": "IOI_OLOGIC1_D2",
+        "CLK": "IOI_OLOGIC1_CLK",
+        "T4": "IOI_OLOGIC1_T4",
+        "T2": "IOI_OLOGIC1_T2",
+        "TFB": "RIOI_OLOGIC1_TFB",
+        "SHIFTOUT1": "RIOI_OSOUT11",
+        "T3": "IOI_OLOGIC1_T3",
+        "D1": "IOI_OLOGIC1_D1",
+        "D5": "IOI_OLOGIC1_D5",
+        "CLKDIV": "IOI_OLOGIC1_CLKDIV",
+        "D8": "IOI_OLOGIC1_D8"
+      },
+      "x_coord": 0
+    },
+    {
+      "y_coord": 0,
+      "name": "X0Y0",
+      "prefix": "ODELAY",
+      "type": "ODELAYE2",
+      "site_pins": {
+        "CNTVALUEIN1": "IOI_ODELAY1_CNTVALUEIN1",
+        "OFDLY1": "RIOI_ODELAY1_OFDLY1",
+        "REGRST": "IOI_ODELAY1_REGRST",
+        "CNTVALUEIN3": "IOI_ODELAY1_CNTVALUEIN3",
+        "CE": "IOI_ODELAY1_CE",
+        "C": "IOI_ODELAY1_C",
+        "ODATAIN": "RIOI_ODELAY1_ODATAIN",
+        "OFDLY0": "RIOI_ODELAY1_OFDLY0",
+        "CNTVALUEIN4": "IOI_ODELAY1_CNTVALUEIN4",
+        "CNTVALUEOUT0": "IOI_ODELAY1_CNTVALUEOUT0",
+        "CNTVALUEOUT1": "IOI_ODELAY1_CNTVALUEOUT1",
+        "CNTVALUEOUT3": "IOI_ODELAY1_CNTVALUEOUT3",
+        "LD": "IOI_ODELAY1_LD",
+        "CINVCTRL": "IOI_ODELAY1_CINVCTRL",
+        "CNTVALUEOUT4": "IOI_ODELAY1_CNTVALUEOUT4",
+        "DATAOUT": "RIOI_ODELAY1_DATAOUT",
+        "LDPIPEEN": "IOI_ODELAY1_LDPIPEEN",
+        "CNTVALUEIN0": "IOI_ODELAY1_CNTVALUEIN0",
+        "CLKIN": "IOI_ODELAY1_CLKIN",
+        "INC": "IOI_ODELAY1_INC",
+        "CNTVALUEOUT2": "IOI_ODELAY1_CNTVALUEOUT2",
+        "OFDLY2": "RIOI_ODELAY1_OFDLY2",
+        "CNTVALUEIN2": "IOI_ODELAY1_CNTVALUEIN2"
+      },
+      "x_coord": 0
+    },
+    {
+      "y_coord": 0,
+      "name": "X0Y0",
+      "prefix": "ILOGIC",
+      "type": "ILOGICE2",
+      "site_pins": {
+        "Q4": "IOI_ILOGIC1_Q4",
+        "D": "RIOI_ILOGIC1_D",
+        "Q5": "IOI_ILOGIC1_Q5",
+        "SHIFTIN2": "RIOI_ISIN21",
+        "O": "IOI_ILOGIC1_O",
+        "Q6": "IOI_ILOGIC1_Q6",
+        "Q7": "IOI_ILOGIC1_Q7",
+        "TFB": "RIOI_ILOGIC1_TFB",
+        "Q2": "IOI_ILOGIC1_Q2",
+        "DYNCLKSEL": "IOI_ILOGIC1_DYNCLKSEL",
+        "SHIFTIN1": "RIOI_ISIN11",
+        "Q8": "IOI_ILOGIC1_Q8",
+        "CE1": "IOI_ILOGIC1_CE1",
+        "CE2": "IOI_ILOGIC1_CE2",
+        "SR": "IOI_ILOGIC1_SR",
+        "Q3": "IOI_ILOGIC1_Q3",
+        "CLK": "IOI_ILOGIC1_CLK",
+        "OFB": "RIOI_ILOGIC1_OFB",
+        "DDLY": "RIOI_ILOGIC1_DDLY",
+        "CLKDIVP": "IOI_ILOGIC1_CLKDIVP",
+        "CLKB": "IOI_ILOGIC1_CLKB",
+        "REV": null,
+        "DYNCLKDIVPSEL": "IOI_ILOGIC1_DYNCLKDIVPSEL",
+        "CLKDIV": "IOI_ILOGIC1_CLKDIV",
+        "BITSLIP": "IOI_ILOGIC1_BITSLIP",
+        "DYNCLKDIVSEL": "IOI_ILOGIC1_DYNCLKDIVSEL",
+        "OCLKB": "IOI_ILOGIC1_OCLKB",
+        "SHIFTOUT1": "RIOI_ISOUT11",
+        "OCLK": "IOI_ILOGIC1_OCLK",
+        "Q1": "IOI_ILOGIC1_Q1",
+        "SHIFTOUT2": "RIOI_ISOUT21"
+      },
+      "x_coord": 0
+    },
+    {
+      "y_coord": 1,
+      "name": "X0Y1",
+      "prefix": "OLOGIC",
+      "type": "OLOGICE2",
+      "site_pins": {
+        "CLKDIVFB": "IOI_OLOGIC0_CLKDIVFB",
+        "TBYTEOUT": "IOI_OLOGIC0_TBYTEOUT",
+        "IOCLKGLITCH": "IOI_OLOGIC0_IOCLKGLITCH",
+        "TBYTEIN": "IOI_OLOGIC0_TBYTEIN",
+        "OFB": "RIOI_OLOGIC0_OFB",
+        "T1": "IOI_OLOGIC0_T1",
+        "D6": "IOI_OLOGIC0_D6",
+        "SHIFTIN2": "RIOI_OSIN20",
+        "TCE": "IOI_OLOGIC0_TCE",
+        "OCE": "IOI_OLOGIC0_OCE",
+        "SHIFTOUT2": "RIOI_OSOUT20",
+        "REV": null,
+        "OQ": "RIOI_OLOGIC0_OQ",
+        "CLKDIVB": "IOI_OLOGIC0_CLKDIVB",
+        "D7": "IOI_OLOGIC0_D7",
+        "TQ": "RIOI_OLOGIC0_TQ",
+        "D3": "IOI_OLOGIC0_D3",
+        "D4": "IOI_OLOGIC0_D4",
+        "SR": "IOI_OLOGIC0_SR",
+        "CLKB": "IOI_OLOGIC0_CLKB",
+        "SHIFTIN1": "RIOI_OSIN10",
+        "CLKDIVF": "RIOI_OLOGIC0_CLKDIVF",
+        "D2": "IOI_OLOGIC0_D2",
+        "CLK": "IOI_OLOGIC0_CLK",
+        "T4": "IOI_OLOGIC0_T4",
+        "T2": "IOI_OLOGIC0_T2",
+        "TFB": "RIOI_OLOGIC0_TFB",
+        "SHIFTOUT1": "RIOI_OSOUT10",
+        "T3": "IOI_OLOGIC0_T3",
+        "D1": "IOI_OLOGIC0_D1",
+        "D5": "IOI_OLOGIC0_D5",
+        "CLKDIV": "IOI_OLOGIC0_CLKDIV",
+        "D8": "IOI_OLOGIC0_D8"
+      },
+      "x_coord": 0
+    },
+    {
+      "y_coord": 1,
+      "name": "X0Y1",
+      "prefix": "ODELAY",
+      "type": "ODELAYE2",
+      "site_pins": {
+        "CNTVALUEIN1": "IOI_ODELAY0_CNTVALUEIN1",
+        "OFDLY1": "RIOI_ODELAY0_OFDLY1",
+        "REGRST": "IOI_ODELAY0_REGRST",
+        "CNTVALUEIN3": "IOI_ODELAY0_CNTVALUEIN3",
+        "CE": "IOI_ODELAY0_CE",
+        "C": "IOI_ODELAY0_C",
+        "ODATAIN": "RIOI_ODELAY0_ODATAIN",
+        "OFDLY0": "RIOI_ODELAY0_OFDLY0",
+        "CNTVALUEIN4": "IOI_ODELAY0_CNTVALUEIN4",
+        "CNTVALUEOUT0": "IOI_ODELAY0_CNTVALUEOUT0",
+        "CNTVALUEOUT1": "IOI_ODELAY0_CNTVALUEOUT1",
+        "CNTVALUEOUT3": "IOI_ODELAY0_CNTVALUEOUT3",
+        "LD": "IOI_ODELAY0_LD",
+        "CINVCTRL": "IOI_ODELAY0_CINVCTRL",
+        "CNTVALUEOUT4": "IOI_ODELAY0_CNTVALUEOUT4",
+        "DATAOUT": "RIOI_ODELAY0_DATAOUT",
+        "LDPIPEEN": "IOI_ODELAY0_LDPIPEEN",
+        "CNTVALUEIN0": "IOI_ODELAY0_CNTVALUEIN0",
+        "CLKIN": "IOI_ODELAY0_CLKIN",
+        "INC": "IOI_ODELAY0_INC",
+        "CNTVALUEOUT2": "IOI_ODELAY0_CNTVALUEOUT2",
+        "OFDLY2": "RIOI_ODELAY0_OFDLY2",
+        "CNTVALUEIN2": "IOI_ODELAY0_CNTVALUEIN2"
+      },
+      "x_coord": 0
+    },
+    {
+      "y_coord": 1,
+      "name": "X0Y1",
+      "prefix": "ILOGIC",
+      "type": "ILOGICE2",
+      "site_pins": {
+        "Q4": "IOI_ILOGIC0_Q4",
+        "D": "RIOI_ILOGIC0_D",
+        "Q5": "IOI_ILOGIC0_Q5",
+        "SHIFTIN2": null,
+        "O": "IOI_ILOGIC0_O",
+        "Q6": "IOI_ILOGIC0_Q6",
+        "Q7": "IOI_ILOGIC0_Q7",
+        "TFB": "RIOI_ILOGIC0_TFB",
+        "Q2": "IOI_ILOGIC0_Q2",
+        "DYNCLKSEL": "IOI_ILOGIC0_DYNCLKSEL",
+        "SHIFTIN1": null,
+        "Q8": "IOI_ILOGIC0_Q8",
+        "CE1": "IOI_ILOGIC0_CE1",
+        "CE2": "IOI_ILOGIC0_CE2",
+        "SR": "IOI_ILOGIC0_SR",
+        "Q3": "IOI_ILOGIC0_Q3",
+        "CLK": "IOI_ILOGIC0_CLK",
+        "OFB": "RIOI_ILOGIC0_OFB",
+        "DDLY": "RIOI_ILOGIC0_DDLY",
+        "CLKDIVP": "IOI_ILOGIC0_CLKDIVP",
+        "CLKB": "IOI_ILOGIC0_CLKB",
+        "REV": null,
+        "DYNCLKDIVPSEL": "IOI_ILOGIC0_DYNCLKDIVPSEL",
+        "CLKDIV": "IOI_ILOGIC0_CLKDIV",
+        "BITSLIP": "IOI_ILOGIC0_BITSLIP",
+        "DYNCLKDIVSEL": "IOI_ILOGIC0_DYNCLKDIVSEL",
+        "OCLKB": "IOI_ILOGIC0_OCLKB",
+        "SHIFTOUT1": "RIOI_ISOUT10",
+        "OCLK": "IOI_ILOGIC0_OCLK",
+        "Q1": "IOI_ILOGIC0_Q1",
+        "SHIFTOUT2": "RIOI_ISOUT20"
+      },
+      "x_coord": 0
+    },
+    {
+      "y_coord": 0,
+      "name": "X0Y0",
+      "prefix": "IDELAY",
+      "type": "IDELAYE2_FINEDELAY",
+      "site_pins": {
+        "CNTVALUEIN1": "IOI_IDELAY1_CNTVALUEIN1",
+        "DATAOUT": "RIOI_IDELAY1_DATAOUT",
+        "IDATAIN": "RIOI_IDELAY1_IDATAIN",
+        "REGRST": "IOI_IDELAY1_REGRST",
+        "CNTVALUEIN3": "IOI_IDELAY1_CNTVALUEIN3",
+        "C": "IOI_IDELAY1_C",
+        "IFDLY0": "RIOI_IDELAY1_IFDLY0",
+        "DATAIN": "IOI_IDELAY1_DATAIN",
+        "CNTVALUEIN4": "IOI_IDELAY1_CNTVALUEIN4",
+        "CNTVALUEOUT0": "IOI_IDELAY1_CNTVALUEOUT0",
+        "CNTVALUEOUT1": "IOI_IDELAY1_CNTVALUEOUT1",
+        "CNTVALUEOUT3": "IOI_IDELAY1_CNTVALUEOUT3",
+        "LDPIPEEN": "IOI_IDELAY1_LDPIPEEN",
+        "LD": "IOI_IDELAY1_LD",
+        "CINVCTRL": "IOI_IDELAY1_CINVCTRL",
+        "CNTVALUEOUT4": "IOI_IDELAY1_CNTVALUEOUT4",
+        "IFDLY1": "RIOI_IDELAY1_IFDLY1",
+        "IFDLY2": "RIOI_IDELAY1_IFDLY2",
+        "CNTVALUEIN0": "IOI_IDELAY1_CNTVALUEIN0",
+        "INC": "IOI_IDELAY1_INC",
+        "CNTVALUEOUT2": "IOI_IDELAY1_CNTVALUEOUT2",
+        "CE": "IOI_IDELAY1_CE",
+        "CNTVALUEIN2": "IOI_IDELAY1_CNTVALUEIN2"
+      },
+      "x_coord": 0
+    },
+    {
+      "y_coord": 1,
+      "name": "X0Y1",
+      "prefix": "IDELAY",
+      "type": "IDELAYE2_FINEDELAY",
+      "site_pins": {
+        "CNTVALUEIN1": "IOI_IDELAY0_CNTVALUEIN1",
+        "DATAOUT": "RIOI_IDELAY0_DATAOUT",
+        "IDATAIN": "RIOI_IDELAY0_IDATAIN",
+        "REGRST": "IOI_IDELAY0_REGRST",
+        "CNTVALUEIN3": "IOI_IDELAY0_CNTVALUEIN3",
+        "C": "IOI_IDELAY0_C",
+        "IFDLY0": "RIOI_IDELAY0_IFDLY0",
+        "DATAIN": "IOI_IDELAY0_DATAIN",
+        "CNTVALUEIN4": "IOI_IDELAY0_CNTVALUEIN4",
+        "CNTVALUEOUT0": "IOI_IDELAY0_CNTVALUEOUT0",
+        "CNTVALUEOUT1": "IOI_IDELAY0_CNTVALUEOUT1",
+        "CNTVALUEOUT3": "IOI_IDELAY0_CNTVALUEOUT3",
+        "LDPIPEEN": "IOI_IDELAY0_LDPIPEEN",
+        "LD": "IOI_IDELAY0_LD",
+        "CINVCTRL": "IOI_IDELAY0_CINVCTRL",
+        "CNTVALUEOUT4": "IOI_IDELAY0_CNTVALUEOUT4",
+        "IFDLY1": "RIOI_IDELAY0_IFDLY1",
+        "IFDLY2": "RIOI_IDELAY0_IFDLY2",
+        "CNTVALUEIN0": "IOI_IDELAY0_CNTVALUEIN0",
+        "INC": "IOI_IDELAY0_INC",
+        "CNTVALUEOUT2": "IOI_IDELAY0_CNTVALUEOUT2",
+        "CE": "IOI_IDELAY0_CE",
+        "CNTVALUEIN2": "IOI_IDELAY0_CNTVALUEIN2"
+      },
+      "x_coord": 0
+    }
+  ],
+  "wires": [
+    "IOI_RCLK_DIV_CLR0_1",
+    "IOI_WL1END0_0",
+    "IOI_IDELAYCTRL_RST",
+    "RIOI_OLOGIC0_OQ",
+    "RIOI_I2GCLK_BOT1",
+    "IOI_IMUX12_0",
+    "IOI_DCI_TSTHLN",
+    "IOI_LH12_0",
+    "IOI_IDELAYCTRL_OUTN1",
+    "IOI_EE2BEG2_0",
+    "IOI_SE4C2_0",
+    "IOI_OLOGIC0_D5",
+    "IOI_IOCLK1",
+    "IOI_IMUX2_0",
+    "IOI_WW4A3_0",
+    "IOI_OLOGIC1_SR",
+    "RIOI_ODELAY0_OFDLY2",
+    "IOI_EL1BEG2_0",
+    "IOI_ILOGIC1_REV",
+    "IOI_EL1BEG2_1",
+    "IOI_SE4BEG2_0",
+    "IOI_IDELAYCTRL_RDY",
+    "IOI_EE4A0_1",
+    "IOI_RCLK_DIV_CE1",
+    "IOI_OLOGIC1_CLKB",
+    "IOI_IDELAY0_CNTVALUEOUT3",
+    "IOI_LOGIC_OUTS8_1",
+    "IOI_SW4END2_0",
+    "IOI_IMUX_RC1",
+    "IOI_ODELAY1_CNTVALUEOUT2",
+    "RIOI_OSIN20",
+    "RIOI_IDELAY1_IDATAIN",
+    "IOI_IMUX39_0",
+    "IOI_WW4B0_0",
+    "IOI_ER1BEG3_1",
+    "IOI_BYP1_1",
+    "RIOI_ODELAY0_OFDLY0",
+    "IOI_IMUX5_1",
+    "IOI_PHASER_TO_IO_ICLKDIV_0",
+    "IOI_IMUX46_1",
+    "IOI_ILOGIC0_Q6",
+    "IOI_IMUX4_0",
+    "IOI_ODELAY1_CNTVALUEOUT4",
+    "IOI_NW4END3_1",
+    "IOI_ILOGIC1_OCLKB",
+    "IOI_FAN1_0",
+    "IOI_LOGIC_OUTS19_0",
+    "IOI_IMUX29_1",
+    "IOI_IMUX10_1",
+    "IOI_ILOGIC1_DYNCLKDIVPSEL",
+    "IOI_PHASER_TO_IO_OCLK1X_90_0",
+    "RIOI_DIFF_TERM_INT_EN",
+    "IOI_ILOGIC1_Q1",
+    "IOI_OLOGIC1_D7",
+    "RIOI_IDELAY0_IFDLY0",
+    "IOI_LH5_1",
+    "IOI_ODELAY0_REGRST",
+    "IOI_IOCLK2",
+    "IOI_WW4END0_0",
+    "RIOI_PU_INT_EN_1",
+    "RIOI_KEEPER_INT_EN_1",
+    "IOI_WW4END2_1",
+    "RIOI_ODELAY1_ODATAIN",
+    "IOI_IMUX32_1",
+    "IOI_EE4C2_0",
+    "IOI_LOGIC_OUTS20_0",
+    "IOI_PHASER_TO_IO_OCLK",
+    "IOI_LOGIC_OUTS5_1",
+    "IOI_RCLK_DIV_CE0",
+    "RIOI_OSOUT11",
+    "IOI_LOGIC_OUTS9_0",
+    "IOI_EE2A3_1",
+    "IOI_EE2A1_1",
+    "IOI_FAN6_0",
+    "IOI_WW2END1_0",
+    "IOI_IOCLK3",
+    "IOI_WW2END0_1",
+    "IOI_SE2A3_0",
+    "IOI_SE4C0_1",
+    "IOI_ODELAY0_CNTVALUEOUT1",
+    "IOI_EE2A0_1",
+    "IOI_DCI_DCIDONE",
+    "RIOI_DCI_T_TERM0",
+    "IOI_IMUX25_0",
+    "RIOI_OSIN11",
+    "IOI_LOGIC_OUTS8_0",
+    "IOI_ODELAY0_CLKIN",
+    "IOI_BLOCK_OUTS2_0",
+    "IOI_FAN4_1",
+    "IOI_PHASER_TO_IO_OCLKDIV",
+    "IOI_NE4C2_1",
+    "IOI_IMUX44_0",
+    "IOI_IMUX29_0",
+    "IOI_WR1END2_1",
+    "IOI_OLOGIC0_CLKDIV",
+    "IOI_EE4C3_1",
+    "IOI_EE2BEG3_1",
+    "IOI_IMUX22_0",
+    "IOI_ILOGIC0_REV",
+    "IOI_IMUX21_0",
+    "IOI_IMUX15_1",
+    "IOI_BYP4_1",
+    "IOI_IDELAY0_CNTVALUEOUT2",
+    "IOI_ODELAY0_LDPIPEEN",
+    "IOI_NE2A3_1",
+    "IOI_ILOGIC1_Q3",
+    "IOI_BYP2_1",
+    "IOI_ODELAY0_CNTVALUEIN1",
+    "IOI_WW4A2_0",
+    "IOI_NE4BEG1_0",
+    "IOI_LOGIC_OUTS18_1",
+    "IOI_OLOGIC0_D2",
+    "RIOI_ILOGIC0_OFB",
+    "IOI_ILOGIC0_Q7",
+    "IOI_ILOGIC1_CLK",
+    "IOI_ODELAY0_CNTVALUEOUT0",
+    "IOI_ODELAY1_INC",
+    "IOI_IDELAY0_REGRST",
+    "IOI_SE4BEG1_1",
+    "IOI_IMUX33_1",
+    "IOI_WW4END3_0",
+    "IOI_WR1END1_1",
+    "IOI_ILOGIC1_CE2",
+    "IOI_SE4C0_0",
+    "IOI_LOGIC_OUTS21_1",
+    "IOI_ILOGIC0_CLKDIV",
+    "IOI_SE2A1_0",
+    "IOI_IMUX8_0",
+    "IOI_LH5_0",
+    "IOI_IDELAYCTRL_OUTN65",
+    "IOI_NE2A1_1",
+    "IOI_EE4C3_0",
+    "IOI_LOGIC_OUTS14_1",
+    "IOI_OLOGIC0_CLKB",
+    "RIOI_OLOGIC0_CLKDIVF",
+    "IOI_IDELAY0_CNTVALUEOUT0",
+    "IOI_SE4BEG0_0",
+    "IOI_ILOGIC0_OCLKB",
+    "IOI_SE4C1_1",
+    "IOI_IMUX47_1",
+    "RIOI_OLOGIC1_TFB_LOCAL",
+    "IOI_CLK1_1",
+    "IOI_IDELAY1_DATAIN",
+    "IOI_ODELAY1_CNTVALUEIN0",
+    "RIOI_ISOUT11",
+    "IOI_IMUX28_0",
+    "IOI_LOGIC_OUTS6_1",
+    "IOI_SE2A2_1",
+    "IOI_LH9_0",
+    "RIOI_I0",
+    "IOI_EE2BEG3_0",
+    "IOI_SE2A0_1",
+    "RIOI_ILOGIC0_TFB",
+    "IOI_IMUX40_1",
+    "IOI_IMUX8_1",
+    "IOI_ILOGIC1_DYNCLKSEL",
+    "IOI_EE2BEG1_1",
+    "IOI_SW4END1_0",
+    "IOI_SW4A3_0",
+    "IOI_IMUX16_0",
+    "IOI_LOGIC_OUTS0_1",
+    "IOI_ER1BEG0_1",
+    "IOI_OLOGIC0_TCE",
+    "IOI_NW4A1_0",
+    "IOI_NW2A0_0",
+    "IOI_IDELAY1_CNTVALUEIN4",
+    "IOI_EL1BEG0_0",
+    "IOI_ILOGIC0_CE1",
+    "IOI_NW4A3_0",
+    "IOI_IDELAY1_CNTVALUEOUT1",
+    "IOI_SE2A2_0",
+    "IOI_WL1END1_1",
+    "IOI_IDELAY0_CNTVALUEOUT1",
+    "IOI_ILOGIC1_O",
+    "IOI_IDELAY0_INC",
+    "IOI_IMUX28_1",
+    "IOI_WW4A1_0",
+    "IOI_IDELAY1_CNTVALUEOUT0",
+    "IOI_ODELAY1_CINVCTRL",
+    "IOI_IMUX37_1",
+    "IOI_MONITOR_P",
+    "IOI_EE4C0_1",
+    "IOI_OLOGIC1_TBYTEOUT",
+    "IOI_LEAF_GCLK0",
+    "IOI_LOGIC_OUTS7_1",
+    "RIOI_ISIN21",
+    "RIOI_ODELAY1_OFDLY1",
+    "IOI_IMUX35_1",
+    "IOI_WW2END3_0",
+    "IOI_IDELAY1_CNTVALUEOUT4",
+    "IOI_EE4C2_1",
+    "IOI_NE4BEG2_1",
+    "IOI_SE4BEG3_0",
+    "IOI_ILOGIC1_Q6",
+    "IOI_ILOGIC0_Q4",
+    "IOI_SE4BEG0_1",
+    "IOI_RCLK_DIV_CE2_1",
+    "RIOI_IDELAY1_IFDLY1",
+    "IOI_LOGIC_OUTS0_0",
+    "IOI_BYP4_0",
+    "IOI_ILOGIC0_DYNCLKDIVSEL",
+    "RIOI_PD_INT_EN_1",
+    "IOI_OLOGIC0_D6",
+    "IOI_WL1END3_1",
+    "IOI_DCI_TSTCLK",
+    "IOI_WW4C2_1",
+    "IOI_WW4B1_0",
+    "IOI_PHASER_TO_IO_OCLK_0",
+    "IOI_PHASER_TO_IO_OCLKDIV_0",
+    "IOI_IMUX45_0",
+    "IOI_ILOGIC0_Q2",
+    "IOI_SW2A0_1",
+    "IOI_SE4BEG1_0",
+    "IOI_WW2A1_0",
+    "IOI_LOGIC_OUTS12_0",
+    "IOI_ILOGIC0_OCLK",
+    "IOI_EE4B3_0",
+    "IOI_WW4END1_1",
+    "IOI_IMUX19_0",
+    "IOI_NE4C2_0",
+    "IOI_OLOGIC0_CLK",
+    "IOI_WL1END1_0",
+    "IOI_OLOGIC0_CLKDIVFB",
+    "IOI_IMUX_RC2",
+    "IOI_IMUX35_0",
+    "IOI_IMUX2_1",
+    "IOI_WW4A0_0",
+    "IOI_IDELAY0_CNTVALUEOUT4",
+    "IOI_IMUX15_0",
+    "IOI_WL1END2_0",
+    "IOI_WW2END3_1",
+    "IOI_IMUX41_1",
+    "IOI_WW4END1_0",
+    "IOI_ODELAY0_CNTVALUEOUT4",
+    "IOI_LOGIC_OUTS14_0",
+    "IOI_OLOGIC0_D7",
+    "IOI_IMUX31_1",
+    "IOI_SW2A3_0",
+    "RIOI_IDELAY1_IFDLY2",
+    "IOI_OLOGIC1_TBYTEIN",
+    "IOI_SW4A2_1",
+    "IOI_IDELAY1_LDPIPEEN",
+    "IOI_IMUX6_1",
+    "IOI_IMUX_RC0",
+    "IOI_IMUX9_0",
+    "IOI_WW2END2_0",
+    "IOI_PHASER_TO_IO_ICLK",
+    "IOI_EE4BEG2_1",
+    "IOI_FAN6_1",
+    "IOI_ODELAY1_REGRST",
+    "IOI_IMUX11_0",
+    "IOI_RCLK_FORIO1",
+    "IOI_SW4A0_1",
+    "RIOI_OLOGIC0_TFB_LOCAL",
+    "IOI_WW4C0_1",
+    "RIOI_IBUF_DISABLE0",
+    "IOI_IMUX30_1",
+    "IOI_SE2A3_1",
+    "IOI_SW4A1_1",
+    "IOI_ODELAY0_CNTVALUEOUT3",
+    "IOI_OLOGIC1_D4",
+    "IOI_WW2A1_1",
+    "IOI_RCLK_DIV_CLR0",
+    "IOI_NW2A3_0",
+    "IOI_OLOGIC1_OCE",
+    "IOI_IMUX40_0",
+    "IOI_SW4END0_1",
+    "IOI_SW4END1_1",
+    "IOI_ILOGIC1_Q4",
+    "IOI_LOGIC_OUTS16_1",
+    "IOI_IMUX20_1",
+    "IOI_NE4C1_1",
+    "IOI_ILOGIC1_CLKB",
+    "IOI_RCLK_DIV_CE3",
+    "IOI_IDELAY0_CNTVALUEIN4",
+    "IOI_LEAF_GCLK1",
+    "IOI_ILOGIC0_Q1",
+    "IOI_EE4BEG0_0",
+    "RIOI_OLOGIC1_OQ",
+    "RIOI_ODELAY1_DATAOUT",
+    "IOI_IMUX46_0",
+    "IOI_IMUX45_1",
+    "IOI_EE4BEG3_1",
+    "IOI_IDELAYCTRL_UPPULSEOUT",
+    "IOI_IMUX38_1",
+    "RIOI_OLOGIC0_TQ",
+    "IOI_MONITOR_N",
+    "IOI_LEAF_GCLK5",
+    "IOI_ODELAY0_CNTVALUEIN2",
+    "IOI_WW4A3_1",
+    "RIOI_OSOUT21",
+    "IOI_NW4END3_0",
+    "IOI_WW2A3_1",
+    "IOI_SE4BEG2_1",
+    "IOI_BYP5_1",
+    "IOI_ODELAY0_CINVCTRL",
+    "IOI_OLOGIC0_D1",
+    "IOI_WW4A2_1",
+    "IOI_ODELAY1_CE",
+    "IOI_WW4C0_0",
+    "IOI_FAN1_1",
+    "IOI_IMUX26_0",
+    "IOI_ODELAY0_LD",
+    "IOI_EE4B2_0",
+    "IOI_NW4A0_0",
+    "IOI_SE2A0_0",
+    "IOI_EE4C0_0",
+    "IOI_LOGIC_OUTS21_0",
+    "RIOI_IBUF_DISABLE1",
+    "IOI_IDELAY0_LD",
+    "IOI_IMUX23_0",
+    "IOI_WR1END0_0",
+    "IOI_WW4END3_1",
+    "IOI_ODELAY1_CNTVALUEIN1",
+    "RIOI_OSIN10",
+    "IOI_LOGIC_OUTS15_0",
+    "IOI_OLOGIC1_D1",
+    "IOI_LOGIC_OUTS23_0",
+    "IOI_WW2END2_1",
+    "IOI_DCI_TSTRST",
+    "IOI_IMUX22_1",
+    "IOI_LOGIC_OUTS1_1",
+    "IOI_EE4B1_0",
+    "IOI_IMUX7_0",
+    "IOI_EE4A2_1",
+    "IOI_BLOCK_OUTS1_0",
+    "IOI_IMUX42_0",
+    "IOI_SW2A2_1",
+    "IOI_WW4C1_0",
+    "IOI_OLOGIC0_REV",
+    "IOI_BYP0_1",
+    "IOI_IMUX39_1",
+    "RIOI_ODELAY0_ODATAIN",
+    "IOI_NW4A0_1",
+    "IOI_BYP6_0",
+    "IOI_IMUX13_1",
+    "IOI_OLOGIC0_D4",
+    "RIOI_DCI_T_TERM1",
+    "IOI_ODELAY0_CNTVALUEIN3",
+    "RIOI_I1",
+    "IOI_IMUX24_1",
+    "IOI_ILOGIC0_CLKDIVP",
+    "RIOI_ISIN11",
+    "RIOI_IDELAY0_IFDLY1",
+    "IOI_IMUX13_0",
+    "IOI_RCLK_DIV_CE2",
+    "IOI_IDELAY1_REGRST",
+    "IOI_WR1END3_1",
+    "RIOI_OLOGIC1_TQ",
+    "RIOI_KEEPER_INT_EN_0",
+    "IOI_IDELAY1_C",
+    "IOI_IDELAY1_LD",
+    "IOI_IMUX47_0",
+    "IOI_ILOGIC0_O",
+    "IOI_ILOGIC1_Q8",
+    "IOI_BYP0_0",
+    "IOI_IMUX27_0",
+    "IOI_SW4END3_1",
+    "IOI_LH1_0",
+    "RIOI_IDELAY1_IFDLY0",
+    "IOI_SW4A0_0",
+    "IOI_SE4BEG3_1",
+    "IOI_IDELAY1_CNTVALUEIN0",
+    "IOI_SW4END0_0",
+    "IOI_WW4B1_1",
+    "IOI_IDELAY0_DATAIN",
+    "IOI_SW4A2_0",
+    "IOI_LOGIC_OUTS10_0",
+    "IOI_CLK0_1",
+    "IOI_IMUX11_1",
+    "IOI_WW4C1_1",
+    "IOI_OLOGIC0_T2",
+    "IOI_BYP6_1",
+    "IOI_LOGIC_OUTS2_0",
+    "IOI_BLOCK_OUTS0_0",
+    "IOI_NW4A3_1",
+    "IOI_ODELAY0_CE",
+    "IOI_ILOGIC1_BITSLIP",
+    "IOI_IDELAY0_CNTVALUEIN3",
+    "IOI_OLOGIC1_CLK",
+    "IOI_ILOGIC1_CLKDIV",
+    "IOI_IMUX20_0",
+    "IOI_LOGIC_OUTS10_1",
+    "RIOI_IDELAY0_DATAOUT",
+    "IOI_IDELAY0_LDPIPEEN",
+    "IOI_LOGIC_OUTS6_0",
+    "IOI_EL1BEG3_1",
+    "IOI_ILOGIC0_CLKB",
+    "IOI_LH6_0",
+    "IOI_EE4A2_0",
+    "IOI_LOGIC_OUTS22_0",
+    "IOI_NW2A1_0",
+    "IOI_WW2A0_0",
+    "IOI_PHASER_TO_IO_OCLK1X_90",
+    "IOI_ILOGIC1_Q5",
+    "IOI_CTRL0_0",
+    "IOI_IDELAY0_CE",
+    "IOI_ILOGIC0_BITSLIP",
+    "IOI_IMUX14_0",
+    "IOI_LOGIC_OUTS3_0",
+    "IOI_IMUX4_1",
+    "IOI_IMUX3_1",
+    "IOI_IMUX34_0",
+    "IOI_WL1END3_0",
+    "IOI_OLOGIC0_D8",
+    "IOI_IMUX17_1",
+    "RIOI_OLOGIC1_TFB",
+    "IOI_OLOGIC1_TCE",
+    "IOI_LOGIC_OUTS4_1",
+    "IOI_OLOGIC0_T3",
+    "IOI_LOGIC_OUTS5_0",
+    "IOI_ILOGIC0_Q5",
+    "RIOI_IDELAY0_IDATAIN",
+    "IOI_IMUX43_1",
+    "IOI_ODELAY0_C",
+    "IOI_EE2BEG2_1",
+    "IOI_LOGIC_OUTS22_1",
+    "IOI_FAN3_0",
+    "IOI_SW2A3_1",
+    "IOI_LOGIC_OUTS13_0",
+    "IOI_ODELAY1_LD",
+    "IOI_IDELAY1_CNTVALUEOUT3",
+    "IOI_ILOGIC1_Q2",
+    "IOI_ODELAY1_CNTVALUEIN3",
+    "IOI_EE4A3_1",
+    "IOI_WR1END3_0",
+    "IOI_IDELAY0_C",
+    "IOI_WW2END0_0",
+    "IOI_FAN0_1",
+    "IOI_ILOGIC0_Q3",
+    "IOI_IDELAY0_CINVCTRL",
+    "IOI_NW2A1_1",
+    "IOI_IMUX26_1",
+    "IOI_EE2BEG1_0",
+    "IOI_OLOGIC1_IOCLKGLITCH",
+    "IOI_FAN3_1",
+    "IOI_NE2A0_1",
+    "IOI_WR1END2_0",
+    "IOI_ODELAY1_CNTVALUEIN2",
+    "IOI_CTRL1_1",
+    "IOI_ODELAY0_INC",
+    "IOI_IMUX0_0",
+    "IOI_BYP3_1",
+    "IOI_IMUX19_1",
+    "IOI_LH7_0",
+    "IOI_SE4C2_1",
+    "IOI_BLOCK_OUTS2_1",
+    "IOI_WW4C2_0",
+    "IOI_NW2A2_0",
+    "IOI_NW4END2_1",
+    "IOI_NE4BEG1_1",
+    "IOI_NW4A1_1",
+    "IOI_IMUX3_0",
+    "IOI_OLOGIC1_CLKDIV",
+    "IOI_LEAF_GCLK4",
+    "RIOI_PU_INT_EN_0",
+    "IOI_WW4C3_0",
+    "IOI_EL1BEG1_0",
+    "IOI_IMUX0_1",
+    "IOI_WR1END0_1",
+    "IOI_LH4_1",
+    "IOI_IDELAY1_CE",
+    "IOI_NE4C3_1",
+    "IOI_BLOCK_OUTS0_1",
+    "IOI_IDELAY1_CINVCTRL",
+    "IOI_LH3_0",
+    "IOI_NE2A1_0",
+    "RIOI_OLOGIC0_OFB",
+    "IOI_IMUX43_0",
+    "IOI_RCLK_DIV_CLR2",
+    "IOI_NE4BEG3_1",
+    "IOI_IMUX_RC3",
+    "RIOI_OSIN21",
+    "IOI_LOGIC_OUTS9_1",
+    "IOI_BLOCK_OUTS3_1",
+    "IOI_OLOGIC0_TBYTEOUT",
+    "IOI_OLOGIC1_T3",
+    "IOI_NE4BEG0_0",
+    "IOI_NE4C1_0",
+    "IOI_IMUX38_0",
+    "IOI_LH10_1",
+    "IOI_IMUX34_1",
+    "IOI_SE4C3_0",
+    "IOI_ILOGIC1_Q7",
+    "IOI_EL1BEG3_0",
+    "IOI_LOGIC_OUTS11_0",
+    "IOI_EE4BEG1_0",
+    "IOI_FAN0_0",
+    "IOI_FAN2_1",
+    "IOI_IDELAY1_CNTVALUEIN2",
+    "IOI_IMUX10_0",
+    "IOI_EE4B3_1",
+    "RIOI_O0",
+    "IOI_IMUX44_1",
+    "RIOI_ISOUT10",
+    "IOI_IMUX31_0",
+    "IOI_WW2END1_1",
+    "IOI_ER1BEG1_0",
+    "RIOI_I2GCLK_TOP0",
+    "IOI_NW2A2_1",
+    "RIOI_ILOGIC1_DDLY",
+    "IOI_WW4B3_0",
+    "IOI_RCLK_FORIO0",
+    "RIOI_ILOGIC0_DDLY",
+    "IOI_SE4C1_0",
+    "IOI_ILOGIC0_CE2",
+    "IOI_ODELAY1_CNTVALUEOUT0",
+    "IOI_IMUX16_1",
+    "IOI_FAN5_1",
+    "IOI_RCLK_DIV_CE3_1",
+    "IOI_IMUX42_1",
+    "IOI_FAN4_0",
+    "IOI_OLOGIC1_D2",
+    "IOI_IMUX17_0",
+    "RIOI_ILOGIC1_D",
+    "IOI_WW4C3_1",
+    "IOI_OLOGIC0_CLKDIVB",
+    "IOI_LH12_1",
+    "IOI_EE4B1_1",
+    "IOI_TBYTEIN",
+    "RIOI_ISIN20",
+    "IOI_NW4A2_0",
+    "IOI_LH2_1",
+    "IOI_EE4B0_0",
+    "RIOI_ISOUT21",
+    "RIOI_ODELAY0_OFDLY1",
+    "IOI_EE4BEG0_1",
+    "IOI_OLOGIC1_REV",
+    "IOI_WW4B2_0",
+    "IOI_NE2A0_0",
+    "IOI_FAN5_0",
+    "IOI_IMUX36_0",
+    "IOI_NW4A2_1",
+    "IOI_IMUX33_0",
+    "IOI_BYP1_0",
+    "IOI_OLOGIC1_T2",
+    "IOI_RCLK_FORIO2",
+    "IOI_EE2A3_0",
+    "IOI_RCLK_DIV_CLR1",
+    "IOI_IDELAY1_CNTVALUEOUT2",
+    "IOI_IDELAY0_CNTVALUEIN2",
+    "IOI_NE2A2_1",
+    "IOI_WW2A2_0",
+    "IOI_EE4A1_1",
+    "IOI_EE4B2_1",
+    "IOI_LEAF_GCLK3",
+    "IOI_NW4END1_1",
+    "IOI_ODELAY1_CNTVALUEOUT1",
+    "IOI_WL1END2_1",
+    "IOI_LH3_1",
+    "IOI_LH6_1",
+    "IOI_RCLK_DIV_CLR3",
+    "RIOI_T1",
+    "RIOI_ODELAY0_DATAOUT",
+    "IOI_EE4A0_0",
+    "IOI_CLK0_0",
+    "IOI_IMUX30_0",
+    "IOI_LH10_0",
+    "IOI_OLOGIC1_CLKDIVFB",
+    "RIOI_T0",
+    "IOI_BYP5_0",
+    "IOI_BLOCK_OUTS3_0",
+    "IOI_SW4A3_1",
+    "IOI_CLK1_0",
+    "RIOI_I2GCLK_TOP1",
+    "IOI_LOGIC_OUTS2_1",
+    "IOI_ILOGIC1_CLKDIVP",
+    "IOI_ILOGIC0_CLK",
+    "IOI_SW2A2_0",
+    "IOI_EL1BEG0_1",
+    "IOI_NE4C0_1",
+    "IOI_WL1END0_1",
+    "IOI_IMUX32_0",
+    "RIOI_PD_INT_EN_0",
+    "IOI_ODELAY1_CNTVALUEOUT3",
+    "IOI_LOGIC_OUTS3_1",
+    "IOI_EE4BEG1_1",
+    "IOI_IMUX7_1",
+    "IOI_WW4B0_1",
+    "IOI_LOGIC_OUTS4_0",
+    "IOI_LOGIC_OUTS12_1",
+    "IOI_SW2A1_1",
+    "IOI_ILOGIC1_CE1",
+    "IOI_WW4END0_1",
+    "IOI_IMUX18_0",
+    "RIOI_IDELAY0_IFDLY2",
+    "IOI_RCLK_FORIO3",
+    "IOI_ODELAY1_LDPIPEEN",
+    "IOI_WW2A0_1",
+    "IOI_ER1BEG2_1",
+    "RIOI_ILOGIC1_OFB",
+    "IOI_IMUX25_1",
+    "IOI_IDELAYCTRL_DNPULSEOUT",
+    "IOI_LH11_1",
+    "IOI_OLOGIC1_D6",
+    "IOI_LOGIC_OUTS15_1",
+    "IOI_IMUX1_1",
+    "IOI_IMUX12_1",
+    "IOI_SE4C3_1",
+    "IOI_WR1END1_0",
+    "IOI_LH8_1",
+    "IOI_EE4A1_0",
+    "IOI_SE2A1_1",
+    "IOI_SW4END3_0",
+    "IOI_LH1_1",
+    "IOI_LH8_0",
+    "IOI_DCI_TSTRST0",
+    "IOI_LOGIC_OUTS23_1",
+    "IOI_LH2_0",
+    "IOI_BYP7_1",
+    "IOI_OCLKM_0",
+    "IOI_SW4END2_1",
+    "IOI_EE4A3_0",
+    "IOI_IMUX1_0",
+    "IOI_BYP3_0",
+    "IOI_NE2A2_0",
+    "IOI_ER1BEG0_0",
+    "RIOI_OSOUT20",
+    "IOI_NW4END2_0",
+    "IOI_ER1BEG3_0",
+    "IOI_EE2A2_1",
+    "RIOI_IBUF1",
+    "IOI_FAN2_0",
+    "IOI_SW2A1_0",
+    "IOI_ODELAY1_CLKIN",
+    "IOI_CTRL1_0",
+    "IOI_WW2A2_1",
+    "IOI_OLOGIC0_OCE",
+    "IOI_OCLKM_1",
+    "IOI_IMUX41_0",
+    "IOI_NW2A0_1",
+    "IOI_IMUX24_0",
+    "IOI_ILOGIC0_DYNCLKSEL",
+    "IOI_WW2A3_0",
+    "IOI_OLOGIC1_D3",
+    "RIOI_OLOGIC0_TFB",
+    "IOI_OLOGIC0_IOCLKGLITCH",
+    "IOI_LH9_1",
+    "RIOI_IBUF0",
+    "IOI_IMUX5_0",
+    "IOI_OLOGIC1_T4",
+    "IOI_LOGIC_OUTS20_1",
+    "IOI_IMUX9_1",
+    "IOI_SW4A1_0",
+    "RIOI_OLOGIC1_OFB",
+    "IOI_LH11_0",
+    "IOI_OLOGIC1_T1",
+    "IOI_EE4C1_0",
+    "IOI_IDELAY1_CNTVALUEIN1",
+    "IOI_BYP2_0",
+    "RIOI_ILOGIC1_TFB",
+    "IOI_RCLK_DIV_CLR1_1",
+    "RIOI_O1",
+    "IOI_ODELAY0_CNTVALUEOUT2",
+    "IOI_WW4B3_1",
+    "IOI_ODELAY0_CNTVALUEIN0",
+    "IOI_EE4C1_1",
+    "IOI_WW4B2_1",
+    "IOI_IMUX36_1",
+    "RIOI_ILOGIC0_D",
+    "IOI_BLOCK_OUTS1_1",
+    "RIOI_ISIN10",
+    "IOI_LOGIC_OUTS18_0",
+    "IOI_IMUX27_1",
+    "IOI_EL1BEG1_1",
+    "RIOI_ISOUT20",
+    "IOI_LOGIC_OUTS16_0",
+    "IOI_PHASER_TO_IO_ICLKDIV",
+    "IOI_LOGIC_OUTS1_0",
+    "RIOI_OLOGIC1_CLKDIVF",
+    "IOI_EE4BEG3_0",
+    "IOI_ER1BEG2_0",
+    "IOI_DCI_TSTHLP",
+    "IOI_EE4BEG2_0",
+    "IOI_EE2A0_0",
+    "IOI_WW4A0_1",
+    "IOI_LOGIC_OUTS11_1",
+    "IOI_IDELAY0_CNTVALUEIN1",
+    "IOI_IDELAY0_CNTVALUEIN0",
+    "IOI_IOCLK0",
+    "IOI_IMUX37_0",
+    "IOI_OLOGIC1_D8",
+    "IOI_ODELAY1_CNTVALUEIN4",
+    "RIOI_OSOUT10",
+    "IOI_LOGIC_OUTS7_0",
+    "IOI_NE4BEG2_0",
+    "IOI_EE2BEG0_0",
+    "IOI_ILOGIC1_SR",
+    "RIOI_IDELAY1_DATAOUT",
+    "IOI_OLOGIC0_T1",
+    "IOI_OLOGIC1_CLKDIVB",
+    "RIOI_ODELAY1_OFDLY0",
+    "IOI_NE4C3_0",
+    "IOI_ILOGIC0_SR",
+    "IOI_ODELAY1_C",
+    "IOI_EE2A2_0",
+    "IOI_IMUX6_0",
+    "IOI_LOGIC_OUTS13_1",
+    "IOI_LH7_1",
+    "IOI_NW4END0_0",
+    "IOI_NE2A3_0",
+    "IOI_NW2A3_1",
+    "IOI_LOGIC_OUTS19_1",
+    "IOI_LEAF_GCLK2",
+    "IOI_OLOGIC0_SR",
+    "IOI_EE2BEG0_1",
+    "RIOI_ODELAY1_OFDLY2",
+    "IOI_NE4BEG3_0",
+    "IOI_INT_DCI_EN",
+    "IOI_ILOGIC0_Q8",
+    "IOI_SW2A0_0",
+    "IOI_ODELAY0_CNTVALUEIN4",
+    "IOI_WW4END2_0",
+    "IOI_FAN7_1",
+    "IOI_IMUX23_1",
+    "IOI_BYP7_0",
+    "IOI_IMUX18_1",
+    "IOI_ILOGIC1_DYNCLKDIVSEL",
+    "IOI_NW4END0_1",
+    "IOI_OCLK_1",
+    "IOI_IMUX21_1",
+    "IOI_FAN7_0",
+    "IOI_NW4END1_0",
+    "IOI_IDELAY1_CNTVALUEIN3",
+    "IOI_ILOGIC1_OCLK",
+    "IOI_LOGIC_OUTS17_0",
+    "IOI_NE4BEG0_1",
+    "IOI_PHASER_TO_IO_ICLK_0",
+    "IOI_EE4B0_1",
+    "IOI_OLOGIC0_D3",
+    "IOI_LOGIC_OUTS17_1",
+    "IOI_EE2A1_0",
+    "IOI_WW4A1_1",
+    "IOI_OLOGIC0_TBYTEIN",
+    "IOI_ILOGIC0_DYNCLKDIVPSEL",
+    "IOI_ER1BEG1_1",
+    "IOI_CTRL0_1",
+    "IOI_IMUX14_1",
+    "IOI_OLOGIC1_D5",
+    "IOI_OCLK_0",
+    "IOI_IDELAY1_INC",
+    "IOI_NE4C0_0",
+    "IOI_LH4_0",
+    "IOI_OLOGIC0_T4"
+  ],
+  "pips": {
+    "RIOI.IOI_IMUX8_0->>IOI_OLOGIC1_CLKDIVB": {
+      "src_wire": "IOI_IMUX8_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_CTRL1_1->IOI_ILOGIC0_SR": {
+      "src_wire": "IOI_CTRL1_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_SR",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_OCLK_1": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX39_1->IOI_IDELAY0_CNTVALUEIN4": {
+      "src_wire": "IOI_IMUX39_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_CNTVALUEIN4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX3_1->IOI_ODELAY0_INC": {
+      "src_wire": "IOI_IMUX3_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_INC",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP2_0->IOI_ODELAY1_CINVCTRL": {
+      "src_wire": "IOI_BYP2_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_CINVCTRL",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX31_0->>IOI_OCLKM_1": {
+      "src_wire": "IOI_IMUX31_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX26_0->IOI_IDELAY1_INC": {
+      "src_wire": "IOI_IMUX26_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_INC",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_ODELAY1_DATAOUT->RIOI_O1": {
+      "src_wire": "RIOI_ODELAY1_DATAOUT",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_O1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_OCLK_0": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC0_TQ->>RIOI_OLOGIC0_TFB": {
+      "src_wire": "RIOI_OLOGIC0_TQ",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_OLOGIC0_TFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OLOGIC1_T1->>RIOI_OLOGIC1_TQ": {
+      "src_wire": "IOI_OLOGIC1_T1",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_OLOGIC1_TQ",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLKM_0->IOI_OLOGIC0_CLKB": {
+      "src_wire": "IOI_OCLKM_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP7_0->RIOI_IDELAY1_IFDLY2": {
+      "src_wire": "IOI_BYP7_0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_IDELAY1_IFDLY2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC1_OQ->>RIOI_O1": {
+      "src_wire": "RIOI_OLOGIC1_OQ",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_O1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_ICLK_0->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_PHASER_TO_IO_ICLK_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC1_TQ->>RIOI_OLOGIC1_TFB": {
+      "src_wire": "RIOI_OLOGIC1_TQ",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_OLOGIC1_TFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC1_Q3->IOI_LOGIC_OUTS9_0": {
+      "src_wire": "IOI_ILOGIC1_Q3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS9_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLK_0->IOI_ILOGIC0_OCLKB": {
+      "src_wire": "IOI_OCLK_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_OCLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX33_1->IOI_IDELAY0_LDPIPEEN": {
+      "src_wire": "IOI_IMUX33_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_LDPIPEEN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ODELAY1_CNTVALUEOUT0->IOI_LOGIC_OUTS12_0": {
+      "src_wire": "IOI_ODELAY1_CNTVALUEOUT0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS12_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAY1_CNTVALUEOUT3->IOI_LOGIC_OUTS15_0": {
+      "src_wire": "IOI_IDELAY1_CNTVALUEOUT3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS15_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX47_1->IOI_OLOGIC0_D8": {
+      "src_wire": "IOI_IMUX47_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_D8",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC1_TFB_LOCAL->IOI_LOGIC_OUTS2_0": {
+      "src_wire": "RIOI_OLOGIC1_TFB_LOCAL",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS2_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_OLOGIC1_CLKDIVB": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_OLOGIC0_CLKDIVB": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX20_0->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_IMUX20_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX27_0->IOI_ODELAY1_LDPIPEEN": {
+      "src_wire": "IOI_IMUX27_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_LDPIPEEN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX3_0->IOI_ODELAY1_INC": {
+      "src_wire": "IOI_IMUX3_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_INC",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_OLOGIC0_CLKDIV": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_FAN5_0->RIOI_IDELAY1_IFDLY1": {
+      "src_wire": "IOI_FAN5_0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_IDELAY1_IFDLY1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK3->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_IOCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX35_1->IOI_IDELAY0_CNTVALUEIN2": {
+      "src_wire": "IOI_IMUX35_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_CNTVALUEIN2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLK->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLK",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_I1->RIOI_IDELAY1_IDATAIN": {
+      "src_wire": "RIOI_I1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_IDELAY1_IDATAIN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC1_Q7->IOI_LOGIC_OUTS7_0": {
+      "src_wire": "IOI_ILOGIC1_Q7",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS7_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX38_0->IOI_IDELAY1_CNTVALUEIN3": {
+      "src_wire": "IOI_IMUX38_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_CNTVALUEIN3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK0->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_IOCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC0_Q7->IOI_LOGIC_OUTS7_1": {
+      "src_wire": "IOI_ILOGIC0_Q7",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS7_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC0_OFB->RIOI_ODELAY0_ODATAIN": {
+      "src_wire": "RIOI_OLOGIC0_OFB",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ODELAY0_ODATAIN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP3_1->IOI_RCLK_DIV_CE3_1": {
+      "src_wire": "IOI_BYP3_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_RCLK_DIV_CE3_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_OCLKM_1": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK0->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_IOCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_OCLK_0": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP7_1->RIOI_IDELAY0_IFDLY2": {
+      "src_wire": "IOI_BYP7_1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_IDELAY0_IFDLY2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC0_OQ->>RIOI_O0": {
+      "src_wire": "RIOI_OLOGIC0_OQ",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_O0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLKDIV->>IOI_OLOGIC1_CLKDIV": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLKDIV",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_IBUF0->RIOI_I0": {
+      "src_wire": "RIOI_IBUF0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_I0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX4_1->IOI_ILOGIC0_DYNCLKDIVSEL": {
+      "src_wire": "IOI_IMUX4_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_DYNCLKDIVSEL",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLKDIV_0->>IOI_OLOGIC0_CLKDIV": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLKDIV_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_OLOGIC0_CLKDIVFB": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX26_1->IOI_IDELAY0_INC": {
+      "src_wire": "IOI_IMUX26_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_INC",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_OLOGIC0_CLKDIV": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_OLOGIC0_CLKDIV": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX1_1->IOI_OLOGIC0_TCE": {
+      "src_wire": "IOI_IMUX1_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_TCE",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_ICLK_0->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_PHASER_TO_IO_ICLK_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ODELAY0_CNTVALUEOUT3->IOI_LOGIC_OUTS17_1": {
+      "src_wire": "IOI_ODELAY0_CNTVALUEOUT3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS17_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX8_1->>RIOI_OLOGIC0_CLKDIVF": {
+      "src_wire": "IOI_IMUX8_1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC0_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_OCLK_1": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_OLOGIC0_CLKDIVFB": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_CLK0_1->IOI_ILOGIC0_CLKDIVP": {
+      "src_wire": "IOI_CLK0_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKDIVP",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK1->>IOI_OCLKM_0": {
+      "src_wire": "IOI_IOCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX28_1->IOI_ODELAY0_LD": {
+      "src_wire": "IOI_IMUX28_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_LD",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX6_1->RIOI_DCI_T_TERM0": {
+      "src_wire": "IOI_IMUX6_1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_DCI_T_TERM0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>RIOI_OLOGIC0_CLKDIVF": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC0_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OLOGIC1_IOCLKGLITCH->IOI_LOGIC_OUTS5_0": {
+      "src_wire": "IOI_OLOGIC1_IOCLKGLITCH",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS5_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP3_0->IOI_RCLK_DIV_CLR3": {
+      "src_wire": "IOI_BYP3_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_RCLK_DIV_CLR3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_IDELAY0_IDATAIN->>RIOI_IDELAY0_DATAOUT": {
+      "src_wire": "RIOI_IDELAY0_IDATAIN",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_IDELAY0_DATAOUT",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX8_0->>IOI_OLOGIC1_CLKDIV": {
+      "src_wire": "IOI_IMUX8_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ODELAY1_CNTVALUEOUT4->IOI_LOGIC_OUTS21_0": {
+      "src_wire": "IOI_ODELAY1_CNTVALUEOUT4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS21_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX19_1->IOI_ODELAY0_CNTVALUEIN3": {
+      "src_wire": "IOI_IMUX19_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_CNTVALUEIN3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_OLOGIC1_CLKDIVFB": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX32_1->IOI_IDELAY0_CE": {
+      "src_wire": "IOI_IMUX32_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_CE",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX5_0->IOI_ILOGIC1_CE1": {
+      "src_wire": "IOI_IMUX5_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CE1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX15_0->IOI_OLOGIC1_T1": {
+      "src_wire": "IOI_IMUX15_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_T1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX23_0->IOI_ODELAY1_CNTVALUEIN0": {
+      "src_wire": "IOI_IMUX23_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_CNTVALUEIN0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAYCTRL_UPPULSEOUT->IOI_LOGIC_OUTS16_0": {
+      "src_wire": "IOI_IDELAYCTRL_UPPULSEOUT",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS16_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_OLOGIC0_CLKDIVFB": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX30_1->IOI_IDELAY0_LD": {
+      "src_wire": "IOI_IMUX30_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_LD",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC0_Q3->IOI_LOGIC_OUTS9_1": {
+      "src_wire": "IOI_ILOGIC0_Q3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS9_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX42_1->IOI_OLOGIC0_D4": {
+      "src_wire": "IOI_IMUX42_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_D4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX15_1->IOI_OLOGIC0_T1": {
+      "src_wire": "IOI_IMUX15_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_T1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ODELAY1_CNTVALUEOUT2->IOI_LOGIC_OUTS6_0": {
+      "src_wire": "IOI_ODELAY1_CNTVALUEOUT2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS6_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>RIOI_OLOGIC0_CLKDIVF": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC0_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_OLOGIC0_CLKDIVB": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_OLOGIC1_CLKDIVFB": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC0_Q4->IOI_LOGIC_OUTS10_1": {
+      "src_wire": "IOI_ILOGIC0_Q4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS10_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_OLOGIC1_CLKDIVB": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX29_1->IOI_OLOGIC0_OCE": {
+      "src_wire": "IOI_IMUX29_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_OCE",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX34_1->IOI_OLOGIC0_D1": {
+      "src_wire": "IOI_IMUX34_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_D1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_OLOGIC1_CLKDIVB": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK1->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_IOCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX41_0->IOI_IDELAY1_CNTVALUEIN0": {
+      "src_wire": "IOI_IMUX41_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_CNTVALUEIN0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_OCLKM_1": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX12_0->IOI_IDELAY1_REGRST": {
+      "src_wire": "IOI_IMUX12_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_REGRST",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_OCLK_0": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK0->>IOI_OCLKM_0": {
+      "src_wire": "IOI_IOCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX2_0->IOI_ODELAY1_CE": {
+      "src_wire": "IOI_IMUX2_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_CE",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAY0_CNTVALUEOUT0->IOI_LOGIC_OUTS20_1": {
+      "src_wire": "IOI_IDELAY0_CNTVALUEOUT0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS20_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_OCLKM_1": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX7_0->IOI_OLOGIC1_T2": {
+      "src_wire": "IOI_IMUX7_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_T2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_OCLK_0": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX13_0->IOI_OLOGIC1_T3": {
+      "src_wire": "IOI_IMUX13_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_T3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OLOGIC0_IOCLKGLITCH->IOI_LOGIC_OUTS5_1": {
+      "src_wire": "IOI_OLOGIC0_IOCLKGLITCH",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS5_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_OLOGIC1_CLKDIVB": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX2_1->IOI_ODELAY0_CE": {
+      "src_wire": "IOI_IMUX2_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_CE",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_OLOGIC0_CLKDIVFB": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_OLOGIC0_CLKDIVB": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_OLOGIC1_CLKDIV": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP0_1->RIOI_ODELAY0_OFDLY0": {
+      "src_wire": "IOI_BYP0_1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ODELAY0_OFDLY0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK2->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_IOCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC1_OFB->RIOI_ODELAY1_ODATAIN": {
+      "src_wire": "RIOI_OLOGIC1_OFB",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ODELAY1_ODATAIN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK0->>IOI_OCLK_1": {
+      "src_wire": "IOI_IOCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX30_0->IOI_IDELAY1_LD": {
+      "src_wire": "IOI_IMUX30_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_LD",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_OLOGIC1_CLKDIV": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC0_TFB_LOCAL->IOI_LOGIC_OUTS2_1": {
+      "src_wire": "RIOI_OLOGIC0_TFB_LOCAL",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS2_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX0_0->IOI_ILOGIC1_BITSLIP": {
+      "src_wire": "IOI_IMUX0_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_BITSLIP",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_OLOGIC0_CLKDIVB": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLK_1->IOI_OLOGIC1_CLK": {
+      "src_wire": "IOI_OCLK_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLK_0->IOI_OLOGIC0_CLK": {
+      "src_wire": "IOI_OCLK_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_OLOGIC1_CLKDIV": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_OLOGIC1_CLKDIV": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>RIOI_OLOGIC1_CLKDIVF": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC1_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX31_1->>IOI_OCLK_0": {
+      "src_wire": "IOI_IMUX31_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLK_0->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLK_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_OLOGIC1_CLKDIV": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_OLOGIC0_CLKDIV": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX31_1->>IOI_OCLKM_0": {
+      "src_wire": "IOI_IMUX31_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX44_0->IOI_OLOGIC1_D3": {
+      "src_wire": "IOI_IMUX44_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_D3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_ILOGIC0_DDLY->>IOI_ILOGIC0_O": {
+      "src_wire": "RIOI_ILOGIC0_DDLY",
+      "is_pseudo": "1",
+      "dst_wire": "IOI_ILOGIC0_O",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC0_Q2->IOI_LOGIC_OUTS23_1": {
+      "src_wire": "IOI_ILOGIC0_Q2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS23_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_CLK0_0->IOI_ILOGIC1_CLKDIV": {
+      "src_wire": "IOI_CLK0_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_TBYTEIN->>IOI_OLOGIC1_TBYTEIN": {
+      "src_wire": "IOI_TBYTEIN",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_TBYTEIN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_CLK1_0->IOI_ODELAY1_C": {
+      "src_wire": "IOI_CLK1_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX5_1->IOI_ILOGIC0_CE1": {
+      "src_wire": "IOI_IMUX5_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CE1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_OLOGIC1_CLKDIVFB": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_CTRL0_1->IOI_OLOGIC0_SR": {
+      "src_wire": "IOI_CTRL0_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_SR",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX8_1->>IOI_OLOGIC0_CLKDIVFB": {
+      "src_wire": "IOI_IMUX8_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_OCLKM_0": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_OLOGIC1_CLKDIVB": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ODELAY1_CNTVALUEOUT3->IOI_LOGIC_OUTS17_0": {
+      "src_wire": "IOI_ODELAY1_CNTVALUEOUT3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS17_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK3->>IOI_OCLK_1": {
+      "src_wire": "IOI_IOCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_OLOGIC0_CLKDIVB": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC0_O->RIOI_I2GCLK_TOP0": {
+      "src_wire": "IOI_ILOGIC0_O",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_I2GCLK_TOP0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC1_OFB->RIOI_ILOGIC1_OFB": {
+      "src_wire": "RIOI_OLOGIC1_OFB",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ILOGIC1_OFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_OCLK_1": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX40_1->IOI_OLOGIC0_D2": {
+      "src_wire": "IOI_IMUX40_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_D2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX22_1->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_IMUX22_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC0_Q8->IOI_LOGIC_OUTS8_1": {
+      "src_wire": "IOI_ILOGIC0_Q8",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS8_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX8_0->>IOI_OLOGIC1_CLKDIVFB": {
+      "src_wire": "IOI_IMUX8_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_OLOGIC1_CLKDIVFB": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_OLOGIC0_CLKDIV": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_OLOGIC0_CLKDIVFB": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_IDELAY1_IDATAIN->>RIOI_IDELAY1_DATAOUT": {
+      "src_wire": "RIOI_IDELAY1_IDATAIN",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_IDELAY1_DATAOUT",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK0->>IOI_OCLKM_1": {
+      "src_wire": "IOI_IOCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX37_1->IOI_ILOGIC0_DYNCLKSEL": {
+      "src_wire": "IOI_IMUX37_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_DYNCLKSEL",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_OLOGIC0_CLKDIV": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAYCTRL_OUTN1->IOI_LOGIC_OUTS13_1": {
+      "src_wire": "IOI_IDELAYCTRL_OUTN1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS13_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP5_1->RIOI_ODELAY0_OFDLY2": {
+      "src_wire": "IOI_BYP5_1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ODELAY0_OFDLY2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_OCLK_1": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ODELAY1_CNTVALUEOUT1->IOI_LOGIC_OUTS4_0": {
+      "src_wire": "IOI_ODELAY1_CNTVALUEOUT1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS4_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAYCTRL_OUTN65->IOI_LOGIC_OUTS16_1": {
+      "src_wire": "IOI_IDELAYCTRL_OUTN65",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS16_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_OLOGIC1_CLKDIVB": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLK_0->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLK_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLK_0->>IOI_OCLK_0": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLK_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP0_0->RIOI_ODELAY1_OFDLY0": {
+      "src_wire": "IOI_BYP0_0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ODELAY1_OFDLY0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK0->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_IOCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC0_O->>IOI_LOGIC_OUTS18_1": {
+      "src_wire": "IOI_ILOGIC0_O",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS18_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX33_0->IOI_IDELAY1_LDPIPEEN": {
+      "src_wire": "IOI_IMUX33_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_LDPIPEEN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX17_1->IOI_ODELAY0_CNTVALUEIN2": {
+      "src_wire": "IOI_IMUX17_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_CNTVALUEIN2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_OLOGIC0_CLKDIVB": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX18_1->IOI_ODELAY0_CNTVALUEIN4": {
+      "src_wire": "IOI_IMUX18_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_CNTVALUEIN4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC1_Q2->IOI_LOGIC_OUTS23_0": {
+      "src_wire": "IOI_ILOGIC1_Q2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS23_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAY0_CNTVALUEOUT1->IOI_LOGIC_OUTS1_1": {
+      "src_wire": "IOI_IDELAY0_CNTVALUEOUT1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS1_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK3->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_IOCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX22_0->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_IMUX22_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC0_OQ->>RIOI_OLOGIC0_OFB": {
+      "src_wire": "RIOI_OLOGIC0_OQ",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_OLOGIC0_OFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX11_1->IOI_ODELAY0_REGRST": {
+      "src_wire": "IOI_IMUX11_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_REGRST",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLKM_1->IOI_ILOGIC1_OCLKB": {
+      "src_wire": "IOI_OCLKM_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_OCLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC0_TFB_LOCAL->RIOI_ILOGIC0_TFB": {
+      "src_wire": "RIOI_OLOGIC0_TFB_LOCAL",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ILOGIC0_TFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX38_1->IOI_IDELAY0_CNTVALUEIN3": {
+      "src_wire": "IOI_IMUX38_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_CNTVALUEIN3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLK_0->IOI_ODELAY0_CLKIN": {
+      "src_wire": "IOI_OCLK_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_CLKIN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_OLOGIC0_CLKDIVFB": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX37_0->IOI_ILOGIC1_DYNCLKSEL": {
+      "src_wire": "IOI_IMUX37_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_DYNCLKSEL",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX6_0->RIOI_DCI_T_TERM1": {
+      "src_wire": "IOI_IMUX6_0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_DCI_T_TERM1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLK_0->>IOI_OCLKM_0": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLK_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OLOGIC1_D1->>RIOI_OLOGIC1_OQ": {
+      "src_wire": "IOI_OLOGIC1_D1",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_OLOGIC1_OQ",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>RIOI_OLOGIC1_CLKDIVF": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC1_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_OCLK_1": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_OLOGIC1_CLKDIV": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX7_1->IOI_OLOGIC0_T2": {
+      "src_wire": "IOI_IMUX7_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_T2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_CLK0_1->IOI_ILOGIC0_CLKDIV": {
+      "src_wire": "IOI_CLK0_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX22_1->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_IMUX22_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP4_0->IOI_IMUX_RC1": {
+      "src_wire": "IOI_BYP4_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IMUX_RC1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_OLOGIC0_CLKDIV": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX36_0->IOI_IDELAY1_CNTVALUEIN1": {
+      "src_wire": "IOI_IMUX36_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_CNTVALUEIN1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_ILOGIC1_D->>IOI_ILOGIC1_O": {
+      "src_wire": "RIOI_ILOGIC1_D",
+      "is_pseudo": "1",
+      "dst_wire": "IOI_ILOGIC1_O",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>RIOI_OLOGIC0_CLKDIVF": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC0_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_OLOGIC1_CLKDIVFB": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_OLOGIC1_CLKDIVFB": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC0_TFB->RIOI_OLOGIC0_TFB_LOCAL": {
+      "src_wire": "RIOI_OLOGIC0_TFB",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC0_TFB_LOCAL",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAYCTRL_RDY->IOI_LOGIC_OUTS22_1": {
+      "src_wire": "IOI_IDELAYCTRL_RDY",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS22_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>RIOI_OLOGIC0_CLKDIVF": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC0_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OLOGIC0_T1->>RIOI_OLOGIC0_TFB": {
+      "src_wire": "IOI_OLOGIC0_T1",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_OLOGIC0_TFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_ICLK->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_PHASER_TO_IO_ICLK",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_OLOGIC0_CLKDIV": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX42_0->IOI_OLOGIC1_D4": {
+      "src_wire": "IOI_IMUX42_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_D4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX44_1->IOI_OLOGIC0_D3": {
+      "src_wire": "IOI_IMUX44_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_D3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX18_0->IOI_ODELAY1_CNTVALUEIN4": {
+      "src_wire": "IOI_IMUX18_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_CNTVALUEIN4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OLOGIC0_T1->>RIOI_OLOGIC0_TQ": {
+      "src_wire": "IOI_OLOGIC0_T1",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_OLOGIC0_TQ",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK1->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_IOCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_OCLKM_0": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK1->>IOI_OCLK_0": {
+      "src_wire": "IOI_IOCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_I0->RIOI_ILOGIC0_D": {
+      "src_wire": "RIOI_I0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ILOGIC0_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAY1_CNTVALUEOUT2->IOI_LOGIC_OUTS19_0": {
+      "src_wire": "IOI_IDELAY1_CNTVALUEOUT2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS19_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_IBUF1->RIOI_I1": {
+      "src_wire": "RIOI_IBUF1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_I1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX27_1->IOI_ODELAY0_LDPIPEEN": {
+      "src_wire": "IOI_IMUX27_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_LDPIPEEN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC0_OFB->RIOI_ILOGIC0_OFB": {
+      "src_wire": "RIOI_OLOGIC0_OFB",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ILOGIC0_OFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_OCLKM_1": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC1_TFB_LOCAL->RIOI_ILOGIC1_TFB": {
+      "src_wire": "RIOI_OLOGIC1_TFB_LOCAL",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ILOGIC1_TFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX21_1->IOI_OLOGIC0_T4": {
+      "src_wire": "IOI_IMUX21_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_T4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX12_1->IOI_IDELAY0_REGRST": {
+      "src_wire": "IOI_IMUX12_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_REGRST",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX24_0->IOI_IDELAYCTRL_RST": {
+      "src_wire": "IOI_IMUX24_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAYCTRL_RST",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP3_0->IOI_IMUX_RC0": {
+      "src_wire": "IOI_BYP3_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IMUX_RC0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX40_0->IOI_OLOGIC1_D2": {
+      "src_wire": "IOI_IMUX40_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_D2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK2->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_IOCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ODELAY0_CNTVALUEOUT0->IOI_LOGIC_OUTS12_1": {
+      "src_wire": "IOI_ODELAY0_CNTVALUEOUT0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS12_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC1_Q4->IOI_LOGIC_OUTS10_0": {
+      "src_wire": "IOI_ILOGIC1_Q4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS10_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_OCLKM_0": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX14_0->IOI_ILOGIC1_CE2": {
+      "src_wire": "IOI_IMUX14_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CE2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_OLOGIC1_CLKDIVFB": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_OLOGIC0_CLKDIVFB": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX32_0->IOI_IDELAY1_CE": {
+      "src_wire": "IOI_IMUX32_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_CE",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OSOUT11->RIOI_OSIN10": {
+      "src_wire": "RIOI_OSOUT11",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OSIN10",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX8_1->>IOI_OLOGIC0_CLKDIVB": {
+      "src_wire": "IOI_IMUX8_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_OLOGIC1_CLKDIVB": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLK_1->IOI_ODELAY1_CLKIN": {
+      "src_wire": "IOI_OCLK_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_CLKIN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP5_0->RIOI_ODELAY1_OFDLY2": {
+      "src_wire": "IOI_BYP5_0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ODELAY1_OFDLY2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_OLOGIC0_CLKDIVB": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_OLOGIC1_CLKDIV": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX29_0->IOI_OLOGIC1_OCE": {
+      "src_wire": "IOI_IMUX29_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_OCE",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_OLOGIC0_CLKDIVB": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX45_1->IOI_OLOGIC0_D6": {
+      "src_wire": "IOI_IMUX45_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_D6",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK2->>IOI_OCLK_0": {
+      "src_wire": "IOI_IOCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX36_1->IOI_IDELAY0_CNTVALUEIN1": {
+      "src_wire": "IOI_IMUX36_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_CNTVALUEIN1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_IDELAY0_DATAOUT->RIOI_ILOGIC0_DDLY": {
+      "src_wire": "RIOI_IDELAY0_DATAOUT",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ILOGIC0_DDLY",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_OCLKM_0": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX46_0->IOI_OLOGIC1_D7": {
+      "src_wire": "IOI_IMUX46_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_D7",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP1_0->RIOI_ODELAY1_OFDLY1": {
+      "src_wire": "IOI_BYP1_0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ODELAY1_OFDLY1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX43_1->IOI_OLOGIC0_D5": {
+      "src_wire": "IOI_IMUX43_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_D5",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX28_0->IOI_ODELAY1_LD": {
+      "src_wire": "IOI_IMUX28_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_LD",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLK1X_90->>IOI_OCLK_1": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLK1X_90",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_OLOGIC0_CLKDIVB": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC0_Q6->IOI_LOGIC_OUTS3_1": {
+      "src_wire": "IOI_ILOGIC0_Q6",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS3_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP3_1->IOI_RCLK_DIV_CE0": {
+      "src_wire": "IOI_BYP3_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_RCLK_DIV_CE0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>RIOI_OLOGIC1_CLKDIVF": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC1_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX13_1->IOI_OLOGIC0_T3": {
+      "src_wire": "IOI_IMUX13_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_T3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_ICLKDIV_0->>IOI_ILOGIC0_CLKDIVP": {
+      "src_wire": "IOI_PHASER_TO_IO_ICLKDIV_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKDIVP",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>RIOI_OLOGIC1_CLKDIVF": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC1_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_FAN5_1->RIOI_IDELAY0_IFDLY1": {
+      "src_wire": "IOI_FAN5_1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_IDELAY0_IFDLY1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK3->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_IOCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ODELAY0_CNTVALUEOUT4->IOI_LOGIC_OUTS21_1": {
+      "src_wire": "IOI_ODELAY0_CNTVALUEOUT4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS21_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OLOGIC1_T1->>RIOI_OLOGIC1_TFB": {
+      "src_wire": "IOI_OLOGIC1_T1",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_OLOGIC1_TFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP4_0->IOI_RCLK_DIV_CLR1_1": {
+      "src_wire": "IOI_BYP4_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_RCLK_DIV_CLR1_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>RIOI_OLOGIC0_CLKDIVF": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC0_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX41_1->IOI_IDELAY0_CNTVALUEIN0": {
+      "src_wire": "IOI_IMUX41_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_CNTVALUEIN0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAY0_CNTVALUEOUT4->IOI_LOGIC_OUTS11_1": {
+      "src_wire": "IOI_IDELAY0_CNTVALUEOUT4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS11_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC1_TFB->RIOI_OLOGIC1_TFB_LOCAL": {
+      "src_wire": "RIOI_OLOGIC1_TFB",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC1_TFB_LOCAL",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLK_0->IOI_ILOGIC0_OCLK": {
+      "src_wire": "IOI_OCLK_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_OCLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OSOUT21->RIOI_OSIN20": {
+      "src_wire": "RIOI_OSOUT21",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OSIN20",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK2->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_IOCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_OCLKM_1": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAY0_CNTVALUEOUT2->IOI_LOGIC_OUTS19_1": {
+      "src_wire": "IOI_IDELAY0_CNTVALUEOUT2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS19_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_ILOGIC0_D->>IOI_ILOGIC0_O": {
+      "src_wire": "RIOI_ILOGIC0_D",
+      "is_pseudo": "1",
+      "dst_wire": "IOI_ILOGIC0_O",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_OCLKM_0": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX25_1->IOI_IDELAY0_DATAIN": {
+      "src_wire": "IOI_IMUX25_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_DATAIN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC1_OQ->>RIOI_OLOGIC1_OFB": {
+      "src_wire": "RIOI_OLOGIC1_OQ",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_OLOGIC1_OFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_CLK1_1->IOI_ODELAY0_C": {
+      "src_wire": "IOI_CLK1_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_CLK0_0->IOI_ILOGIC1_CLKDIVP": {
+      "src_wire": "IOI_CLK0_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKDIVP",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLK_1->IOI_ILOGIC1_OCLKB": {
+      "src_wire": "IOI_OCLK_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_OCLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_OLOGIC1_CLKDIVB": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP4_1->IOI_RCLK_DIV_CE2_1": {
+      "src_wire": "IOI_BYP4_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_RCLK_DIV_CE2_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK0->>IOI_OCLK_0": {
+      "src_wire": "IOI_IOCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_ICLK->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_PHASER_TO_IO_ICLK",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX47_0->IOI_OLOGIC1_D8": {
+      "src_wire": "IOI_IMUX47_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_D8",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_OLOGIC1_CLKDIV": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_OCLK_1": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX20_0->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_IMUX20_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX25_0->IOI_IDELAY1_DATAIN": {
+      "src_wire": "IOI_IMUX25_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_DATAIN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_OLOGIC0_CLKDIVFB": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX0_1->IOI_ILOGIC0_BITSLIP": {
+      "src_wire": "IOI_IMUX0_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_BITSLIP",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX35_0->IOI_IDELAY1_CNTVALUEIN2": {
+      "src_wire": "IOI_IMUX35_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_CNTVALUEIN2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK1->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_IOCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLKM_1->IOI_OLOGIC1_CLKB": {
+      "src_wire": "IOI_OCLKM_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_OLOGIC1_CLKDIV": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX4_0->IOI_ILOGIC1_DYNCLKDIVSEL": {
+      "src_wire": "IOI_IMUX4_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_DYNCLKDIVSEL",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLKDIV_0->>IOI_OLOGIC0_CLKDIVB": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLKDIV_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX16_1->IOI_ODELAY0_CNTVALUEIN1": {
+      "src_wire": "IOI_IMUX16_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_CNTVALUEIN1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLK->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLK",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK1->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_IOCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_OCLK_1": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK3->>IOI_OCLK_0": {
+      "src_wire": "IOI_IOCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAY1_CNTVALUEOUT4->IOI_LOGIC_OUTS11_0": {
+      "src_wire": "IOI_IDELAY1_CNTVALUEOUT4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS11_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAY1_CNTVALUEOUT1->IOI_LOGIC_OUTS1_0": {
+      "src_wire": "IOI_IDELAY1_CNTVALUEOUT1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS1_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_OCLK_1": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC1_O->>IOI_LOGIC_OUTS18_0": {
+      "src_wire": "IOI_ILOGIC1_O",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS18_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX45_0->IOI_OLOGIC1_D6": {
+      "src_wire": "IOI_IMUX45_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_D6",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX43_0->IOI_OLOGIC1_D5": {
+      "src_wire": "IOI_IMUX43_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_D5",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OLOGIC1_D1->>RIOI_OLOGIC1_OFB": {
+      "src_wire": "IOI_OLOGIC1_D1",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_OLOGIC1_OFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>RIOI_OLOGIC0_CLKDIVF": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC0_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>RIOI_OLOGIC0_CLKDIVF": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC0_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLK_0->IOI_OLOGIC0_CLKB": {
+      "src_wire": "IOI_OCLK_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP3_0->IOI_RCLK_DIV_CLR0_1": {
+      "src_wire": "IOI_BYP3_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_RCLK_DIV_CLR0_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_ICLKDIV->>IOI_ILOGIC1_CLKDIVP": {
+      "src_wire": "IOI_PHASER_TO_IO_ICLKDIV",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKDIVP",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_TBYTEIN->>IOI_OLOGIC0_TBYTEIN": {
+      "src_wire": "IOI_TBYTEIN",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_TBYTEIN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_OLOGIC0_CLKDIV": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_OCLK_1": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OLOGIC0_D1->>RIOI_OLOGIC0_OQ": {
+      "src_wire": "IOI_OLOGIC0_D1",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_OLOGIC0_OQ",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX17_0->IOI_ODELAY1_CNTVALUEIN2": {
+      "src_wire": "IOI_IMUX17_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_CNTVALUEIN2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_OCLK_0": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK3->>IOI_OCLKM_0": {
+      "src_wire": "IOI_IOCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_OCLK_0": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK2->>IOI_OCLK_1": {
+      "src_wire": "IOI_IOCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX10_0->IOI_ILOGIC1_DYNCLKDIVPSEL": {
+      "src_wire": "IOI_IMUX10_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_DYNCLKDIVPSEL",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_OLOGIC0_CLKDIVB": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX19_0->IOI_ODELAY1_CNTVALUEIN3": {
+      "src_wire": "IOI_IMUX19_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_CNTVALUEIN3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_CLK1_1->IOI_IDELAY0_C": {
+      "src_wire": "IOI_CLK1_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP4_0->IOI_RCLK_DIV_CLR2": {
+      "src_wire": "IOI_BYP4_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_RCLK_DIV_CLR2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLKDIV->>IOI_OLOGIC1_CLKDIVB": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLKDIV",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OLOGIC0_D1->>RIOI_OLOGIC0_OFB": {
+      "src_wire": "IOI_OLOGIC0_D1",
+      "is_pseudo": "1",
+      "dst_wire": "RIOI_OLOGIC0_OFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_OCLK_0": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_OCLKM_1": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX1_0->IOI_OLOGIC1_TCE": {
+      "src_wire": "IOI_IMUX1_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_TCE",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC1_Q5->IOI_LOGIC_OUTS14_0": {
+      "src_wire": "IOI_ILOGIC1_Q5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS14_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC1_Q6->IOI_LOGIC_OUTS3_0": {
+      "src_wire": "IOI_ILOGIC1_Q6",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS3_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLK->>IOI_OCLKM_1": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLK",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX39_0->IOI_IDELAY1_CNTVALUEIN4": {
+      "src_wire": "IOI_IMUX39_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_CNTVALUEIN4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_OCLKM_0": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ODELAY0_CNTVALUEOUT1->IOI_LOGIC_OUTS4_1": {
+      "src_wire": "IOI_ODELAY0_CNTVALUEOUT1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS4_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK3->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_IOCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_OCLK_0": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP6_1->IOI_IDELAY0_CINVCTRL": {
+      "src_wire": "IOI_BYP6_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY0_CINVCTRL",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP2_1->IOI_ODELAY0_CINVCTRL": {
+      "src_wire": "IOI_BYP2_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_CINVCTRL",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_OCLKM_1": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLKM_0->IOI_ILOGIC0_OCLKB": {
+      "src_wire": "IOI_OCLKM_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_OCLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_OLOGIC0_CLKDIV": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX9_0->RIOI_IBUF_DISABLE1": {
+      "src_wire": "IOI_IMUX9_0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_IBUF_DISABLE1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO2->>IOI_OCLK_0": {
+      "src_wire": "IOI_RCLK_FORIO2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC1_TQ->>RIOI_T1": {
+      "src_wire": "RIOI_OLOGIC1_TQ",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_T1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_OCLK_1": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX21_0->IOI_OLOGIC1_T4": {
+      "src_wire": "IOI_IMUX21_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_T4",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ODELAY0_CNTVALUEOUT2->IOI_LOGIC_OUTS6_1": {
+      "src_wire": "IOI_ODELAY0_CNTVALUEOUT2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS6_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK1->>IOI_OCLKM_1": {
+      "src_wire": "IOI_IOCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_ISOUT20->RIOI_ISIN21": {
+      "src_wire": "RIOI_ISOUT20",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ISIN21",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC0_Q5->IOI_LOGIC_OUTS14_1": {
+      "src_wire": "IOI_ILOGIC0_Q5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS14_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_OLOGIC1_CLKDIVB": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP3_1->IOI_IMUX_RC3": {
+      "src_wire": "IOI_BYP3_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IMUX_RC3",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK2->>IOI_OCLKM_1": {
+      "src_wire": "IOI_IOCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC0_Q1->IOI_LOGIC_OUTS0_1": {
+      "src_wire": "IOI_ILOGIC0_Q1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS0_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>RIOI_OLOGIC1_CLKDIVF": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC1_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_ISOUT10->RIOI_ISIN11": {
+      "src_wire": "RIOI_ISOUT10",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ISIN11",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_CTRL1_0->IOI_ILOGIC1_SR": {
+      "src_wire": "IOI_CTRL1_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_SR",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX14_1->IOI_ILOGIC0_CE2": {
+      "src_wire": "IOI_IMUX14_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CE2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX8_0->>RIOI_OLOGIC1_CLKDIVF": {
+      "src_wire": "IOI_IMUX8_0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC1_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_OLOGIC1_CLKDIVFB": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK2->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_IOCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX34_0->IOI_OLOGIC1_D1": {
+      "src_wire": "IOI_IMUX34_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_D1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_FAN4_1->RIOI_IDELAY0_IFDLY0": {
+      "src_wire": "IOI_FAN4_1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_IDELAY0_IFDLY0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK0->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_IOCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP6_0->IOI_IDELAY1_CINVCTRL": {
+      "src_wire": "IOI_BYP6_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_CINVCTRL",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX16_0->IOI_ODELAY1_CNTVALUEIN1": {
+      "src_wire": "IOI_IMUX16_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_CNTVALUEIN1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX23_1->IOI_ODELAY0_CNTVALUEIN0": {
+      "src_wire": "IOI_IMUX23_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY0_CNTVALUEIN0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>RIOI_OLOGIC1_CLKDIVF": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC1_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_ILOGIC1_DDLY->>IOI_ILOGIC1_O": {
+      "src_wire": "RIOI_ILOGIC1_DDLY",
+      "is_pseudo": "1",
+      "dst_wire": "IOI_ILOGIC1_O",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_OLOGIC0_CLKDIVFB": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLK1X_90_0->>IOI_OCLK_0": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLK1X_90_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>RIOI_OLOGIC1_CLKDIVF": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC1_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_ILOGIC1_CLKB": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX22_0->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_IMUX22_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX9_1->RIOI_IBUF_DISABLE0": {
+      "src_wire": "IOI_IMUX9_1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_IBUF_DISABLE0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP1_1->RIOI_ODELAY0_OFDLY1": {
+      "src_wire": "IOI_BYP1_1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ODELAY0_OFDLY1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLK_1->IOI_ILOGIC1_OCLK": {
+      "src_wire": "IOI_OCLK_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_OCLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>RIOI_OLOGIC1_CLKDIVF": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC1_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAY0_CNTVALUEOUT3->IOI_LOGIC_OUTS15_1": {
+      "src_wire": "IOI_IDELAY0_CNTVALUEOUT3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS15_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX20_1->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_IMUX20_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_OCLKM_1": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_OCLKM_0": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_OLOGIC0_TQ->>RIOI_T0": {
+      "src_wire": "RIOI_OLOGIC0_TQ",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_T0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>RIOI_OLOGIC0_CLKDIVF": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC0_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX20_1->>IOI_ILOGIC0_CLKB": {
+      "src_wire": "IOI_IMUX20_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK3->>IOI_OCLKM_1": {
+      "src_wire": "IOI_LEAF_GCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_CLK1_0->IOI_IDELAY1_C": {
+      "src_wire": "IOI_CLK1_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IDELAY1_C",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_ILOGIC0_CLK": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>IOI_OLOGIC1_CLKDIVB": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAYCTRL_DNPULSEOUT->IOI_LOGIC_OUTS13_0": {
+      "src_wire": "IOI_IDELAYCTRL_DNPULSEOUT",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS13_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IDELAY1_CNTVALUEOUT0->IOI_LOGIC_OUTS20_0": {
+      "src_wire": "IOI_IDELAY1_CNTVALUEOUT0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS20_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_I1->RIOI_ILOGIC1_D": {
+      "src_wire": "RIOI_I1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ILOGIC1_D",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_I0->RIOI_IDELAY0_IDATAIN": {
+      "src_wire": "RIOI_I0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_IDELAY0_IDATAIN",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_ODELAY0_DATAOUT->RIOI_O0": {
+      "src_wire": "RIOI_ODELAY0_DATAOUT",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_O0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK2->>IOI_OCLKM_1": {
+      "src_wire": "IOI_LEAF_GCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP4_1->IOI_IMUX_RC2": {
+      "src_wire": "IOI_BYP4_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_IMUX_RC2",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO0->>IOI_OLOGIC1_CLKDIVFB": {
+      "src_wire": "IOI_RCLK_FORIO0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_OCLKM_0": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK1->>IOI_OCLK_1": {
+      "src_wire": "IOI_IOCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_CTRL0_0->IOI_OLOGIC1_SR": {
+      "src_wire": "IOI_CTRL0_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_SR",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK4->>IOI_OLOGIC1_CLKDIVFB": {
+      "src_wire": "IOI_LEAF_GCLK4",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK3->>IOI_OCLKM_1": {
+      "src_wire": "IOI_IOCLK3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX8_1->>IOI_OLOGIC0_CLKDIV": {
+      "src_wire": "IOI_IMUX8_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IOCLK2->>IOI_OCLKM_0": {
+      "src_wire": "IOI_IOCLK2",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX31_0->>IOI_OCLK_1": {
+      "src_wire": "IOI_IMUX31_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_FAN4_0->RIOI_IDELAY1_IFDLY0": {
+      "src_wire": "IOI_FAN4_0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_IDELAY1_IFDLY0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>RIOI_OLOGIC1_CLKDIVF": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC1_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX10_1->IOI_ILOGIC0_DYNCLKDIVPSEL": {
+      "src_wire": "IOI_IMUX10_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC0_DYNCLKDIVPSEL",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.RIOI_IDELAY1_DATAOUT->RIOI_ILOGIC1_DDLY": {
+      "src_wire": "RIOI_IDELAY1_DATAOUT",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_ILOGIC1_DDLY",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_ILOGIC1_CLK": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ILOGIC1_CLK",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_BYP4_1->IOI_RCLK_DIV_CE1": {
+      "src_wire": "IOI_BYP4_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_RCLK_DIV_CE1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO1->>RIOI_OLOGIC1_CLKDIVF": {
+      "src_wire": "IOI_RCLK_FORIO1",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC1_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_OLOGIC0_CLKDIVFB": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC1_Q8->IOI_LOGIC_OUTS8_0": {
+      "src_wire": "IOI_ILOGIC1_Q8",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS8_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_ILOGIC1_Q1->IOI_LOGIC_OUTS0_0": {
+      "src_wire": "IOI_ILOGIC1_Q1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_LOGIC_OUTS0_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>RIOI_OLOGIC0_CLKDIVF": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC0_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX46_1->IOI_OLOGIC0_D7": {
+      "src_wire": "IOI_IMUX46_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC0_D7",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_IMUX11_0->IOI_ODELAY1_REGRST": {
+      "src_wire": "IOI_IMUX11_0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_ODELAY1_REGRST",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK5->>IOI_OCLKM_0": {
+      "src_wire": "IOI_LEAF_GCLK5",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>RIOI_OLOGIC0_CLKDIVF": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "RIOI_OLOGIC0_CLKDIVF",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK0->>IOI_OCLKM_0": {
+      "src_wire": "IOI_LEAF_GCLK0",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLKM_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_RCLK_FORIO3->>IOI_OCLK_0": {
+      "src_wire": "IOI_RCLK_FORIO3",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_0",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_OCLK_1->IOI_OLOGIC1_CLKB": {
+      "src_wire": "IOI_OCLK_1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKB",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_PHASER_TO_IO_OCLK->>IOI_OCLK_1": {
+      "src_wire": "IOI_PHASER_TO_IO_OCLK",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OCLK_1",
+      "is_directional": "1",
+      "can_invert": "0"
+    },
+    "RIOI.IOI_LEAF_GCLK1->>IOI_OLOGIC1_CLKDIV": {
+      "src_wire": "IOI_LEAF_GCLK1",
+      "is_pseudo": "0",
+      "dst_wire": "IOI_OLOGIC1_CLKDIV",
+      "is_directional": "1",
+      "can_invert": "0"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "type": "IBUFDS_GTE2",
+  "site_pips": {
+    "CLKTESTSIGINV:CLKTESTSIG_B": {
+      "from_pin": "CLKTESTSIG_B",
+      "to_pin": "OUT"
+    },
+    "CLKTESTSIGINV:CLKTESTSIG": {
+      "from_pin": "CLKTESTSIG",
+      "to_pin": "OUT"
+    }
+  },
+  "site_pins": {
+    "I": {
+      "direction": "IN"
+    },
+    "CEB": {
+      "direction": "IN"
+    },
+    "ODIV2": {
+      "direction": "OUT"
+    },
+    "IB": {
+      "direction": "IN"
+    },
+    "O": {
+      "direction": "OUT"
+    },
+    "CLKTESTSIG": {
+      "direction": "IN"
+    }
+  }
+}
