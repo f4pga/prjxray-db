@@ -37,35 +37,37 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Fri Dec  7 01:01:06 UTC 2018 (2018-12-07T01:01:06+00:00).
+Last updated on Fri Dec  7 01:03:27 UTC 2018 (2018-12-07T01:03:27+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-984-gb43bf35](https://github.com/SymbiFlow/prjxray/commit/b43bf3539f51ed8a755ae245682cd660ca23d813).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-1084-gafe50c6](https://github.com/SymbiFlow/prjxray/commit/afe50c68c464c0cd4a3fa92b6a07c9abbe41682f).
 
 Latest commit was;
 ```
-commit b43bf3539f51ed8a755ae245682cd660ca23d813
-Merge: b5d691c e2e236e
-Author: Tim Ansell <me@mith.ro>
-Date:   Tue Nov 6 15:11:29 2018 -0800
+commit afe50c68c464c0cd4a3fa92b6a07c9abbe41682f
+Merge: 8385636 5c82555
+Author: John McMaster <18452276+mcmasterg@users.noreply.github.com>
+Date:   Wed Nov 28 14:28:03 2018 -0800
 
-    Merge pull request #229 from mcmasterg/k7_bits
+    Merge pull request #275 from mcmasterg/rempips
     
-    k7: use all bitstream bits, format settings.sh alike
+    Rempips
 ```
 
 ## Database for [artix7](artix7/)
 
 ### Settings
 
-Created using following [settings.sh (sha256: d77b40f729b66962f0197a5e31b43860326401b6116ac36e727411319adac0f2)](https://github.com/SymbiFlow/prjxray/blob/b43bf3539f51ed8a755ae245682cd660ca23d813/database/artix7/settings.sh)
+Created using following [settings.sh (sha256: 5e7fd99c466d50e7074f812737417596ed2dd985a8f084bdb803ff06543d9b7f)](https://github.com/SymbiFlow/prjxray/blob/afe50c68c464c0cd4a3fa92b6a07c9abbe41682f/database/artix7/settings.sh)
 ```shell
 export XRAY_DATABASE="artix7"
 export XRAY_PART="xc7a50tfgg484-1"
 export XRAY_ROI_FRAMES="0x00000000:0xffffffff"
 
 # All CLB's in part, all BRAM's in part, all DSP's in part.
-export XRAY_ROI="SLICE_X0Y0:SLICE_X65Y99 SLICE_X0Y100:SLICE_X57Y149 RAMB18_X0Y0:RAMB18_X1Y59 RAMB36_X0Y0:RAMB36_X1Y29 RAMB18_X2Y0:RAMB18_X2Y39 RAMB36_X2Y0:RAMB36_X2Y19 DSP48_X0Y0:DSP48_X1Y59"
+export XRAY_ROI_TILEGRID="SLICE_X0Y0:SLICE_X65Y99 SLICE_X0Y100:SLICE_X57Y149 RAMB18_X0Y0:RAMB18_X1Y59 RAMB36_X0Y0:RAMB36_X1Y29 RAMB18_X2Y0:RAMB18_X2Y39 RAMB36_X2Y0:RAMB36_X2Y19 DSP48_X0Y0:DSP48_X1Y59"
 
+# These settings must remain in sync
+export XRAY_ROI="SLICE_X0Y100:SLICE_X35Y149 RAMB18_X0Y40:RAMB18_X0Y59 RAMB36_X0Y20:RAMB36_X0Y29 DSP48_X0Y40:DSP48_X0Y59"
 # Most of CMT X0Y2.
 export XRAY_ROI_GRID_X1="9"
 export XRAY_ROI_GRID_X2="58"
@@ -103,16 +105,12 @@ Results have checksums;
  * [`65cbe9fc850652b79386575b9d9f7bb157757b27d49a40fc5297cff3f22084df  ./artix7/harness/basys3/swbut/design.json`](./artix7/harness/basys3/swbut/design.json)
  * [`cd4000b96378f736d31686b381ebd4349898b3b8bd09606223c7ca48cb1a5aba  ./artix7/harness/basys3/swbut/design.txt`](./artix7/harness/basys3/swbut/design.txt)
  * [`4c0a815ab8943181331f7aa9ac77655a0a640d9a409a602e4f24f8feb5f905e9  ./artix7/harness/README.md`](./artix7/harness/README.md)
- * [`1c863520307fac805e9dec67ed91eabf663e7cf873b3da16e581cefa771ed9c4  ./artix7/mask_bram_l.db`](./artix7/mask_bram_l.db)
- * [`9b0ecfed6b65de55c9975d59c92512f3f67ed5cc07106d027eb63edaffe53fca  ./artix7/mask_bram_r.db`](./artix7/mask_bram_r.db)
- * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clbll_l.db`](./artix7/mask_clbll_l.db)
- * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clbll_r.db`](./artix7/mask_clbll_r.db)
- * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clblm_l.db`](./artix7/mask_clblm_l.db)
- * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clblm_r.db`](./artix7/mask_clblm_r.db)
- * [`ad8008e2e4dfd461e421b15f236cd1862e501e5679ad292ede421122373e224f  ./artix7/mask_dsp_l.db`](./artix7/mask_dsp_l.db)
- * [`169a5dc2a069653f17dad854fff1895e3981bcd703109304f719d7f1b3a02ab1  ./artix7/mask_dsp_r.db`](./artix7/mask_dsp_r.db)
- * [`76d1e0bd4b7ad492cf3fe8698b2b5f46f7dcc5fe446984e5dccae373c63edafd  ./artix7/mask_hclk_l.db`](./artix7/mask_hclk_l.db)
- * [`76d1e0bd4b7ad492cf3fe8698b2b5f46f7dcc5fe446984e5dccae373c63edafd  ./artix7/mask_hclk_r.db`](./artix7/mask_hclk_r.db)
+ * [`5acfc8680a96dfe832cbcf70e55d98617323e8f37405d3dca7bcfda9b31aef17  ./artix7/mask_clbll_l.db`](./artix7/mask_clbll_l.db)
+ * [`615472574699aeeb8471224558ce13e18f14c3e65e3b5a2ecc862ee6d3e89211  ./artix7/mask_clbll_r.db`](./artix7/mask_clbll_r.db)
+ * [`5acfc8680a96dfe832cbcf70e55d98617323e8f37405d3dca7bcfda9b31aef17  ./artix7/mask_clblm_l.db`](./artix7/mask_clblm_l.db)
+ * [`615472574699aeeb8471224558ce13e18f14c3e65e3b5a2ecc862ee6d3e89211  ./artix7/mask_clblm_r.db`](./artix7/mask_clblm_r.db)
+ * [`c5aabee9a52c0eb671d569264639b6903e85e76e50ce57af8b7033062e81c2f5  ./artix7/mask_hclk_l.db`](./artix7/mask_hclk_l.db)
+ * [`c5aabee9a52c0eb671d569264639b6903e85e76e50ce57af8b7033062e81c2f5  ./artix7/mask_hclk_r.db`](./artix7/mask_hclk_r.db)
  * [`6baea72435613b87334f95cfe2b1ab36da4d57ada20b71a7dd870715b3e430c4  ./artix7/ppips_clbll_l.db`](./artix7/ppips_clbll_l.db)
  * [`3955d590e8ee64c843bb80f911a08781c1bac63e71b577436ae1f44195a88e22  ./artix7/ppips_clbll_r.db`](./artix7/ppips_clbll_r.db)
  * [`29f175153821dc13989eb580676ff0007e108d911275a74e7ebe45e819c14eaf  ./artix7/ppips_clblm_l.db`](./artix7/ppips_clblm_l.db)
@@ -121,19 +119,19 @@ Results have checksums;
  * [`81e0696179a33bdf8d2279a53b406911a403d50224355e9ad29eccee01a70305  ./artix7/ppips_hclk_r.db`](./artix7/ppips_hclk_r.db)
  * [`be617c15d1ec311b6249791414bbd69380fe90b476353cbb2fc2a7cb06f5029d  ./artix7/ppips_int_l.db`](./artix7/ppips_int_l.db)
  * [`a1423859c97a82dcfb114644f50b991db4ca7e0996e6d1ae4d2c97bfdfcb723d  ./artix7/ppips_int_r.db`](./artix7/ppips_int_r.db)
- * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./artix7/segbits_bram_l.block_ram.db`](./artix7/segbits_bram_l.block_ram.db)
- * [`b3011b6a49b05f1f0a40b499537d0f3eb208a51b87d6d97811911df50d4ad2d2  ./artix7/segbits_bram_l.db`](./artix7/segbits_bram_l.db)
- * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./artix7/segbits_bram_r.block_ram.db`](./artix7/segbits_bram_r.block_ram.db)
- * [`ac4e1c029ed8e623985ca2665e7aa1fae57aa2b33defb5f8cfa17d34d160e4b1  ./artix7/segbits_bram_r.db`](./artix7/segbits_bram_r.db)
- * [`280eb9f102fe5fb64a657088b277d08bb0600c90507a17567bf44b544b6cf2ac  ./artix7/segbits_clbll_l.db`](./artix7/segbits_clbll_l.db)
- * [`28a4160e4ce09f2a3d015b913d4f0a320ff8e47088fdada9622fcdf8c4b523e6  ./artix7/segbits_clbll_r.db`](./artix7/segbits_clbll_r.db)
- * [`de134d4d2a9e1e2aed74bffaea198d886d12e7e906152d58cc777db65d58e2d2  ./artix7/segbits_clblm_l.db`](./artix7/segbits_clblm_l.db)
- * [`b1e17491351b2f402df2415ef0908d8ff4e84fa645180c2c9931843c479d8e45  ./artix7/segbits_clblm_r.db`](./artix7/segbits_clblm_r.db)
- * [`20f7bf469951b04a56e5e140b6327470750b08960643353384b35baf85eb9117  ./artix7/segbits_hclk_l.db`](./artix7/segbits_hclk_l.db)
+ * [`7966925d50ebf5296f273ac64d03614ce0f452209bc0a4bde2e3d30f2fbd9a53  ./artix7/segbits_bram_l.block_ram.db`](./artix7/segbits_bram_l.block_ram.db)
+ * [`aaa1d706495108244ce39af259fe7a0b636f3e5e0d911e2bce23f904d8816f1a  ./artix7/segbits_bram_l.db`](./artix7/segbits_bram_l.db)
+ * [`7b958779367cfa8ab94fc1358241bf2704f0f165eb7809653d527ecef77bb6b1  ./artix7/segbits_bram_r.block_ram.db`](./artix7/segbits_bram_r.block_ram.db)
+ * [`c5335d22c23e0ef7dc23d66388d9586fef598680d429f96d4308a21a345edc22  ./artix7/segbits_bram_r.db`](./artix7/segbits_bram_r.db)
+ * [`0cc8dc983fe854bc534c9239dd3b0ffa2dda77f9805a315f9defeaf42c255618  ./artix7/segbits_clbll_l.db`](./artix7/segbits_clbll_l.db)
+ * [`cd85f9175e2fc0e379c05e01c21ec21dc6bc76733e03cffe47af7fa6bc4d5c37  ./artix7/segbits_clbll_r.db`](./artix7/segbits_clbll_r.db)
+ * [`564092247d7162afb3ad01a8a2cf1dbe7f198cbee3be0d113afedb67ef4c96ec  ./artix7/segbits_clblm_l.db`](./artix7/segbits_clblm_l.db)
+ * [`f15a683170fdb706c9b53af9029a5a81c7e0efbd8b45f84145f8cbddf6065d86  ./artix7/segbits_clblm_r.db`](./artix7/segbits_clblm_r.db)
+ * [`df496c4d335fac0c379497ff0a75ba4f5c5c25bcce79f9c7a72d5f08066310db  ./artix7/segbits_hclk_l.db`](./artix7/segbits_hclk_l.db)
  * [`5e22f758a04eab3185b2453c9994aa2fa48f50ca8a6b49bf82e8fc4351f23a5c  ./artix7/segbits_hclk_r.db`](./artix7/segbits_hclk_r.db)
- * [`90d9243f3210a3ac7feb0d5c4434d62bd74ebf5edc75b95a9eae22540d462d3f  ./artix7/segbits_int_l.db`](./artix7/segbits_int_l.db)
- * [`13bc58bf4a42029adf4f9b06ffd7c9436e2294bf4fdc16cdaa70505c28a2a7b7  ./artix7/segbits_int_r.db`](./artix7/segbits_int_r.db)
- * [`d77b40f729b66962f0197a5e31b43860326401b6116ac36e727411319adac0f2  ./artix7/settings.sh`](./artix7/settings.sh)
+ * [`582158a8db52f7e08b4d0f20d4e2f9efcaa56bd836f06e1e8b0de3dbb909d698  ./artix7/segbits_int_l.db`](./artix7/segbits_int_l.db)
+ * [`c95a67762d97d31140eb9f251fb52d97674912633990438495bf8c37793eea06  ./artix7/segbits_int_r.db`](./artix7/segbits_int_r.db)
+ * [`5e7fd99c466d50e7074f812737417596ed2dd985a8f084bdb803ff06543d9b7f  ./artix7/settings.sh`](./artix7/settings.sh)
  * [`6a998dd55a7aa4ab33db25db7b5167d57f3d708713baf1fca394dc2940f12007  ./artix7/site_type_BSCAN.json`](./artix7/site_type_BSCAN.json)
  * [`7f59ea08fa5dbf9ce84ea26f03f13cd02683fce9cdd98621e501e422bf09d165  ./artix7/site_type_BUFGCTRL.json`](./artix7/site_type_BUFGCTRL.json)
  * [`2d6c78790d74503f0810356de3a765b380b319f09a41593bc8cbe8979defd1f7  ./artix7/site_type_BUFHCE.json`](./artix7/site_type_BUFHCE.json)
@@ -178,8 +176,8 @@ Results have checksums;
  * [`db8c88384575a7e0562692550bdba7a4089ea5fabe451bf58403d3a85af419a0  ./artix7/site_type_TIEOFF.json`](./artix7/site_type_TIEOFF.json)
  * [`4d6130cb2604efae8ca5d628b95be2549083c16c639d335bdc906924e37ec28c  ./artix7/site_type_USR_ACCESS.json`](./artix7/site_type_USR_ACCESS.json)
  * [`dbf0ff3b27d1fac02572351765f1b17b3e950ed4e8fe95ac6bcd71012e4f7b2d  ./artix7/site_type_XADC.json`](./artix7/site_type_XADC.json)
- * [`2af71373b90795d9db335d93f255391c9f11abc72a1dfd96b9d964bf254290d3  ./artix7/tileconn.json`](./artix7/tileconn.json)
- * [`455829274901658159f9f06f8021b34a19e8fe891991a4c3ea137a8d5646e998  ./artix7/tilegrid.json`](./artix7/tilegrid.json)
+ * [`6ae28ffd57cb4c4f7a731e0ea8e37173f079db2cfe275f05b526ba261db5d234  ./artix7/tileconn.json`](./artix7/tileconn.json)
+ * [`3dcf45da1b1f6d0b0f4867c6cabd17366a383652f09b6838e3f906a4b5d1a677  ./artix7/tilegrid.json`](./artix7/tilegrid.json)
  * [`a93b4be2b2832d1a9240b892f6d8db469f3d9cf6229cc6856a197e854f4abc8a  ./artix7/tile_type_BRAM_INT_INTERFACE_L.json`](./artix7/tile_type_BRAM_INT_INTERFACE_L.json)
  * [`fff3e640e286158767fc484ec932d0ce7eba48c1168798c11c7779426a846004  ./artix7/tile_type_BRAM_INT_INTERFACE_R.json`](./artix7/tile_type_BRAM_INT_INTERFACE_R.json)
  * [`ea83df939d85f211eebf41d40d8ee9c5b7f1d6c493c5f4b842cbf3b6d9b9b186  ./artix7/tile_type_BRAM_L.json`](./artix7/tile_type_BRAM_L.json)
