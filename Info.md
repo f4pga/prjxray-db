@@ -37,7 +37,7 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Fri Dec  7 05:19:28 UTC 2018 (2018-12-07T05:19:28+00:00).
+Last updated on Fri Dec  7 06:43:38 UTC 2018 (2018-12-07T06:43:38+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-1084-gafe50c6](https://github.com/SymbiFlow/prjxray/commit/afe50c68c464c0cd4a3fa92b6a07c9abbe41682f).
 
@@ -176,7 +176,7 @@ Results have checksums;
  * [`db8c88384575a7e0562692550bdba7a4089ea5fabe451bf58403d3a85af419a0  ./artix7/site_type_TIEOFF.json`](./artix7/site_type_TIEOFF.json)
  * [`4d6130cb2604efae8ca5d628b95be2549083c16c639d335bdc906924e37ec28c  ./artix7/site_type_USR_ACCESS.json`](./artix7/site_type_USR_ACCESS.json)
  * [`dbf0ff3b27d1fac02572351765f1b17b3e950ed4e8fe95ac6bcd71012e4f7b2d  ./artix7/site_type_XADC.json`](./artix7/site_type_XADC.json)
- * [`6ae28ffd57cb4c4f7a731e0ea8e37173f079db2cfe275f05b526ba261db5d234  ./artix7/tileconn.json`](./artix7/tileconn.json)
+ * [`22ec794e0d8e263d117dcc3606363c042b4cb186a14f4da81efbaa75d86037f3  ./artix7/tileconn.json`](./artix7/tileconn.json)
  * [`3dcf45da1b1f6d0b0f4867c6cabd17366a383652f09b6838e3f906a4b5d1a677  ./artix7/tilegrid.json`](./artix7/tilegrid.json)
  * [`a93b4be2b2832d1a9240b892f6d8db469f3d9cf6229cc6856a197e854f4abc8a  ./artix7/tile_type_BRAM_INT_INTERFACE_L.json`](./artix7/tile_type_BRAM_INT_INTERFACE_L.json)
  * [`fff3e640e286158767fc484ec932d0ce7eba48c1168798c11c7779426a846004  ./artix7/tile_type_BRAM_INT_INTERFACE_R.json`](./artix7/tile_type_BRAM_INT_INTERFACE_R.json)
@@ -411,7 +411,7 @@ Results have checksums;
  * [`db8c88384575a7e0562692550bdba7a4089ea5fabe451bf58403d3a85af419a0  ./kintex7/site_type_TIEOFF.json`](./kintex7/site_type_TIEOFF.json)
  * [`4d6130cb2604efae8ca5d628b95be2549083c16c639d335bdc906924e37ec28c  ./kintex7/site_type_USR_ACCESS.json`](./kintex7/site_type_USR_ACCESS.json)
  * [`dbf0ff3b27d1fac02572351765f1b17b3e950ed4e8fe95ac6bcd71012e4f7b2d  ./kintex7/site_type_XADC.json`](./kintex7/site_type_XADC.json)
- * [`46f7c8b9fcb943f16d55e233c5ac3c31089e55b1ccb89b8c38c18cb068af6111  ./kintex7/tileconn.json`](./kintex7/tileconn.json)
+ * [`eaea5154fc105272fef0c39faebac6089fb5a10bd9c4c6dea50332639f04380b  ./kintex7/tileconn.json`](./kintex7/tileconn.json)
  * [`eeef94852cdce206d5958d0d2e5754459cfb2e7c843c12871718bea8e202daa3  ./kintex7/tilegrid.json`](./kintex7/tilegrid.json)
  * [`a93b4be2b2832d1a9240b892f6d8db469f3d9cf6229cc6856a197e854f4abc8a  ./kintex7/tile_type_BRAM_INT_INTERFACE_L.json`](./kintex7/tile_type_BRAM_INT_INTERFACE_L.json)
  * [`fff3e640e286158767fc484ec932d0ce7eba48c1168798c11c7779426a846004  ./kintex7/tile_type_BRAM_INT_INTERFACE_R.json`](./kintex7/tile_type_BRAM_INT_INTERFACE_R.json)
