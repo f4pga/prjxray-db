@@ -37,7 +37,7 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Fri Dec  7 01:03:27 UTC 2018 (2018-12-07T01:03:27+00:00).
+Last updated on Fri Dec  7 05:19:28 UTC 2018 (2018-12-07T05:19:28+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-1084-gafe50c6](https://github.com/SymbiFlow/prjxray/commit/afe50c68c464c0cd4a3fa92b6a07c9abbe41682f).
 
@@ -123,10 +123,10 @@ Results have checksums;
  * [`aaa1d706495108244ce39af259fe7a0b636f3e5e0d911e2bce23f904d8816f1a  ./artix7/segbits_bram_l.db`](./artix7/segbits_bram_l.db)
  * [`7b958779367cfa8ab94fc1358241bf2704f0f165eb7809653d527ecef77bb6b1  ./artix7/segbits_bram_r.block_ram.db`](./artix7/segbits_bram_r.block_ram.db)
  * [`c5335d22c23e0ef7dc23d66388d9586fef598680d429f96d4308a21a345edc22  ./artix7/segbits_bram_r.db`](./artix7/segbits_bram_r.db)
- * [`0cc8dc983fe854bc534c9239dd3b0ffa2dda77f9805a315f9defeaf42c255618  ./artix7/segbits_clbll_l.db`](./artix7/segbits_clbll_l.db)
- * [`cd85f9175e2fc0e379c05e01c21ec21dc6bc76733e03cffe47af7fa6bc4d5c37  ./artix7/segbits_clbll_r.db`](./artix7/segbits_clbll_r.db)
- * [`564092247d7162afb3ad01a8a2cf1dbe7f198cbee3be0d113afedb67ef4c96ec  ./artix7/segbits_clblm_l.db`](./artix7/segbits_clblm_l.db)
- * [`f15a683170fdb706c9b53af9029a5a81c7e0efbd8b45f84145f8cbddf6065d86  ./artix7/segbits_clblm_r.db`](./artix7/segbits_clblm_r.db)
+ * [`71a9f4d45ff1bc97600e667cdef73e1af1d9c51774349b22b64af15119d1327d  ./artix7/segbits_clbll_l.db`](./artix7/segbits_clbll_l.db)
+ * [`ee8c13190939fea8ce6a73b3890553b6eb3bfb44086b286c91643ba26346a70a  ./artix7/segbits_clbll_r.db`](./artix7/segbits_clbll_r.db)
+ * [`07edc5ba0b0ecffe2307d0d3ba99c86137f8413ea8a607cecaf200975cb2faf1  ./artix7/segbits_clblm_l.db`](./artix7/segbits_clblm_l.db)
+ * [`8d2b473ddb30e63cf50cf9cd6eba36cffaa2315756280dc9b1da678f5f747774  ./artix7/segbits_clblm_r.db`](./artix7/segbits_clblm_r.db)
  * [`df496c4d335fac0c379497ff0a75ba4f5c5c25bcce79f9c7a72d5f08066310db  ./artix7/segbits_hclk_l.db`](./artix7/segbits_hclk_l.db)
  * [`5e22f758a04eab3185b2453c9994aa2fa48f50ca8a6b49bf82e8fc4351f23a5c  ./artix7/segbits_hclk_r.db`](./artix7/segbits_hclk_r.db)
  * [`582158a8db52f7e08b4d0f20d4e2f9efcaa56bd836f06e1e8b0de3dbb909d698  ./artix7/segbits_int_l.db`](./artix7/segbits_int_l.db)
