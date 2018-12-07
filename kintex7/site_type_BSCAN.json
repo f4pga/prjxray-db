@@ -1,39 +1,39 @@
 {
-  "type": "BSCAN",
-  "site_pips": {},
-  "site_pins": {
-    "TMS": {
-      "direction": "OUT"
+    "site_pins": {
+        "CAPTURE": {
+            "direction": "OUT"
+        },
+        "DRCK": {
+            "direction": "OUT"
+        },
+        "RESET": {
+            "direction": "OUT"
+        },
+        "RUNTEST": {
+            "direction": "OUT"
+        },
+        "SEL": {
+            "direction": "OUT"
+        },
+        "SHIFT": {
+            "direction": "OUT"
+        },
+        "TCK": {
+            "direction": "OUT"
+        },
+        "TDI": {
+            "direction": "OUT"
+        },
+        "TDO": {
+            "direction": "IN"
+        },
+        "TMS": {
+            "direction": "OUT"
+        },
+        "UPDATE": {
+            "direction": "OUT"
+        }
     },
-    "CAPTURE": {
-      "direction": "OUT"
-    },
-    "TDO": {
-      "direction": "IN"
-    },
-    "SHIFT": {
-      "direction": "OUT"
-    },
-    "SEL": {
-      "direction": "OUT"
-    },
-    "UPDATE": {
-      "direction": "OUT"
-    },
-    "TCK": {
-      "direction": "OUT"
-    },
-    "TDI": {
-      "direction": "OUT"
-    },
-    "RESET": {
-      "direction": "OUT"
-    },
-    "RUNTEST": {
-      "direction": "OUT"
-    },
-    "DRCK": {
-      "direction": "OUT"
-    }
-  }
+    "site_pips": {},
+    "type": "BSCAN"
 }

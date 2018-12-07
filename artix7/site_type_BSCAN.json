@@ -3,10 +3,7 @@
         "CAPTURE": {
             "direction": "OUT"
         },
-        "TDO": {
-            "direction": "IN"
-        },
-        "UPDATE": {
+        "DRCK": {
             "direction": "OUT"
         },
         "RESET": {
@@ -15,22 +12,25 @@
         "RUNTEST": {
             "direction": "OUT"
         },
+        "SEL": {
+            "direction": "OUT"
+        },
         "SHIFT": {
-            "direction": "OUT"
-        },
-        "TMS": {
-            "direction": "OUT"
-        },
-        "TDI": {
             "direction": "OUT"
         },
         "TCK": {
             "direction": "OUT"
         },
-        "SEL": {
+        "TDI": {
             "direction": "OUT"
         },
-        "DRCK": {
+        "TDO": {
+            "direction": "IN"
+        },
+        "TMS": {
+            "direction": "OUT"
+        },
+        "UPDATE": {
             "direction": "OUT"
         }
     },

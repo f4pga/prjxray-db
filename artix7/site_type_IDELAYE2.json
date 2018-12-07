@@ -1,98 +1,98 @@
 {
     "site_pins": {
-        "IFDLY1": {
-            "direction": "IN"
-        },
-        "DATAIN": {
-            "direction": "IN"
-        },
-        "INC": {
-            "direction": "IN"
-        },
         "C": {
             "direction": "IN"
         },
-        "CNTVALUEOUT2": {
-            "direction": "OUT"
-        },
-        "IFDLY2": {
-            "direction": "IN"
-        },
-        "CNTVALUEOUT1": {
-            "direction": "OUT"
-        },
-        "LDPIPEEN": {
-            "direction": "IN"
-        },
-        "IFDLY0": {
-            "direction": "IN"
-        },
-        "CNTVALUEIN1": {
-            "direction": "IN"
-        },
-        "LD": {
-            "direction": "IN"
-        },
-        "IDATAIN": {
-            "direction": "IN"
-        },
-        "CNTVALUEOUT4": {
-            "direction": "OUT"
-        },
-        "CNTVALUEOUT0": {
-            "direction": "OUT"
-        },
         "CE": {
-            "direction": "IN"
-        },
-        "CNTVALUEIN2": {
-            "direction": "IN"
-        },
-        "CNTVALUEIN0": {
             "direction": "IN"
         },
         "CINVCTRL": {
             "direction": "IN"
         },
+        "CNTVALUEIN0": {
+            "direction": "IN"
+        },
+        "CNTVALUEIN1": {
+            "direction": "IN"
+        },
+        "CNTVALUEIN2": {
+            "direction": "IN"
+        },
+        "CNTVALUEIN3": {
+            "direction": "IN"
+        },
+        "CNTVALUEIN4": {
+            "direction": "IN"
+        },
+        "CNTVALUEOUT0": {
+            "direction": "OUT"
+        },
+        "CNTVALUEOUT1": {
+            "direction": "OUT"
+        },
+        "CNTVALUEOUT2": {
+            "direction": "OUT"
+        },
         "CNTVALUEOUT3": {
             "direction": "OUT"
         },
-        "CNTVALUEIN4": {
+        "CNTVALUEOUT4": {
+            "direction": "OUT"
+        },
+        "DATAIN": {
             "direction": "IN"
         },
         "DATAOUT": {
             "direction": "OUT"
         },
-        "REGRST": {
+        "IDATAIN": {
             "direction": "IN"
         },
-        "CNTVALUEIN3": {
+        "IFDLY0": {
+            "direction": "IN"
+        },
+        "IFDLY1": {
+            "direction": "IN"
+        },
+        "IFDLY2": {
+            "direction": "IN"
+        },
+        "INC": {
+            "direction": "IN"
+        },
+        "LD": {
+            "direction": "IN"
+        },
+        "LDPIPEEN": {
+            "direction": "IN"
+        },
+        "REGRST": {
             "direction": "IN"
         }
     },
     "site_pips": {
-        "IDATAININV:IDATAIN_B": {
-            "from_pin": "IDATAIN_B",
-            "to_pin": "OUT"
-        },
-        "DATAININV:DATAIN": {
-            "from_pin": "DATAIN",
+        "CINV:C": {
+            "from_pin": "C",
             "to_pin": "OUT"
         },
         "CINV:C_B": {
             "from_pin": "C_B",
             "to_pin": "OUT"
         },
-        "IDATAININV:IDATAIN": {
-            "from_pin": "IDATAIN",
-            "to_pin": "OUT"
-        },
-        "CINV:C": {
-            "from_pin": "C",
+        "DATAININV:DATAIN": {
+            "from_pin": "DATAIN",
             "to_pin": "OUT"
         },
         "DATAININV:DATAIN_B": {
             "from_pin": "DATAIN_B",
+            "to_pin": "OUT"
+        },
+        "IDATAININV:IDATAIN": {
+            "from_pin": "IDATAIN",
+            "to_pin": "OUT"
+        },
+        "IDATAININV:IDATAIN_B": {
+            "from_pin": "IDATAIN_B",
             "to_pin": "OUT"
         }
     },

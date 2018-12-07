@@ -1,15 +1,6 @@
 {
     "site_pins": {
-        "ODIV2": {
-            "direction": "OUT"
-        },
-        "ODIV4": {
-            "direction": "OUT"
-        },
         "A0": {
-            "direction": "IN"
-        },
-        "EN": {
             "direction": "IN"
         },
         "A1": {
@@ -18,7 +9,16 @@
         "A2": {
             "direction": "IN"
         },
+        "EN": {
+            "direction": "IN"
+        },
         "O": {
+            "direction": "OUT"
+        },
+        "ODIV2": {
+            "direction": "OUT"
+        },
+        "ODIV4": {
             "direction": "OUT"
         }
     },

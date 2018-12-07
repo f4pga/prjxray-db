@@ -1,1449 +1,1449 @@
 {
-  "tile_type": "CLBLL_R",
-  "sites": [
-    {
-      "y_coord": 0,
-      "name": "X0Y0",
-      "prefix": "SLICE",
-      "type": "SLICEL",
-      "site_pins": {
-        "BX": "CLBLL_LL_BX",
-        "A3": "CLBLL_LL_A3",
-        "D": "CLBLL_LL_D",
-        "C": "CLBLL_LL_C",
-        "DQ": "CLBLL_LL_DQ",
-        "B2": "CLBLL_LL_B2",
-        "C6": "CLBLL_LL_C6",
-        "A2": "CLBLL_LL_A2",
-        "SR": "CLBLL_LL_SR",
-        "B6": "CLBLL_LL_B6",
-        "D6": "CLBLL_LL_D6",
-        "A5": "CLBLL_LL_A5",
-        "B": "CLBLL_LL_B",
-        "A4": "CLBLL_LL_A4",
-        "B4": "CLBLL_LL_B4",
-        "A6": "CLBLL_LL_A6",
-        "C2": "CLBLL_LL_C2",
-        "AQ": "CLBLL_LL_AQ",
-        "A": "CLBLL_LL_A",
-        "BQ": "CLBLL_LL_BQ",
-        "D3": "CLBLL_LL_D3",
-        "B1": "CLBLL_LL_B1",
-        "COUT": "CLBLL_LL_COUT",
-        "D4": "CLBLL_LL_D4",
-        "AMUX": "CLBLL_LL_AMUX",
-        "DMUX": "CLBLL_LL_DMUX",
-        "AX": "CLBLL_LL_AX",
-        "C1": "CLBLL_LL_C1",
-        "C5": "CLBLL_LL_C5",
-        "DX": "CLBLL_LL_DX",
-        "CX": "CLBLL_LL_CX",
-        "C3": "CLBLL_LL_C3",
-        "CMUX": "CLBLL_LL_CMUX",
-        "A1": "CLBLL_LL_A1",
-        "D2": "CLBLL_LL_D2",
-        "CQ": "CLBLL_LL_CQ",
-        "CLK": "CLBLL_LL_CLK",
-        "CIN": "CLBLL_LL_CIN",
-        "BMUX": "CLBLL_LL_BMUX",
-        "B3": "CLBLL_LL_B3",
-        "D5": "CLBLL_LL_D5",
-        "D1": "CLBLL_LL_D1",
-        "CE": "CLBLL_LL_CE",
-        "B5": "CLBLL_LL_B5",
-        "C4": "CLBLL_LL_C4"
-      },
-      "x_coord": 0
-    },
-    {
-      "y_coord": 0,
-      "name": "X1Y0",
-      "prefix": "SLICE",
-      "type": "SLICEL",
-      "site_pins": {
-        "BX": "CLBLL_L_BX",
-        "A3": "CLBLL_L_A3",
-        "D": "CLBLL_L_D",
-        "C": "CLBLL_L_C",
-        "DQ": "CLBLL_L_DQ",
-        "B2": "CLBLL_L_B2",
-        "C6": "CLBLL_L_C6",
-        "A2": "CLBLL_L_A2",
-        "SR": "CLBLL_L_SR",
-        "B6": "CLBLL_L_B6",
-        "D6": "CLBLL_L_D6",
-        "A5": "CLBLL_L_A5",
-        "B": "CLBLL_L_B",
-        "A4": "CLBLL_L_A4",
-        "B4": "CLBLL_L_B4",
-        "A6": "CLBLL_L_A6",
-        "C2": "CLBLL_L_C2",
-        "AQ": "CLBLL_L_AQ",
-        "A": "CLBLL_L_A",
-        "BQ": "CLBLL_L_BQ",
-        "D3": "CLBLL_L_D3",
-        "B1": "CLBLL_L_B1",
-        "COUT": "CLBLL_L_COUT",
-        "D4": "CLBLL_L_D4",
-        "AMUX": "CLBLL_L_AMUX",
-        "DMUX": "CLBLL_L_DMUX",
-        "AX": "CLBLL_L_AX",
-        "C1": "CLBLL_L_C1",
-        "C5": "CLBLL_L_C5",
-        "DX": "CLBLL_L_DX",
-        "CX": "CLBLL_L_CX",
-        "C3": "CLBLL_L_C3",
-        "CMUX": "CLBLL_L_CMUX",
-        "A1": "CLBLL_L_A1",
-        "D2": "CLBLL_L_D2",
-        "CQ": "CLBLL_L_CQ",
-        "CLK": "CLBLL_L_CLK",
-        "CIN": "CLBLL_L_CIN",
-        "BMUX": "CLBLL_L_BMUX",
-        "B3": "CLBLL_L_B3",
-        "D5": "CLBLL_L_D5",
-        "D1": "CLBLL_L_D1",
-        "CE": "CLBLL_L_CE",
-        "B5": "CLBLL_L_B5",
-        "C4": "CLBLL_L_C4"
-      },
-      "x_coord": 1
-    }
-  ],
-  "wires": [
-    "CLBLL_SE4BEG2",
-    "CLBLL_WR1END0",
-    "CLBLL_LH2",
-    "CLBLL_IMUX15",
-    "CLBLL_LL_CQ",
-    "CLBLL_SW4A2",
-    "CLBLL_LL_D4",
-    "CLBLL_IMUX16",
-    "CLBLL_SW4END0",
-    "CLBLL_LH11",
-    "CLBLL_L_B2",
-    "CLBLL_L_AX",
-    "CLBLL_LH8",
-    "CLBLL_MONITOR_N",
-    "CLBLL_NE2A1",
-    "CLBLL_WW4END2",
-    "CLBLL_LOGIC_OUTS20",
-    "CLBLL_IMUX3",
-    "CLBLL_SW4A1",
-    "CLBLL_IMUX17",
-    "CLBLL_LH7",
-    "CLBLL_L_CQ",
-    "CLBLL_L_B5",
-    "CLBLL_SE4BEG1",
-    "CLBLL_LL_COUT",
-    "CLBLL_LL_C3",
-    "CLBLL_SE4C2",
-    "CLBLL_LL_A6",
-    "CLBLL_IMUX38",
-    "CLBLL_LL_CIN",
-    "CLBLL_LL_COUT_N",
-    "CLBLL_L_AQ",
-    "CLBLL_EL1BEG1",
-    "CLBLL_WW4END3",
-    "CLBLL_L_DMUX",
-    "CLBLL_FAN1",
-    "CLBLL_L_D",
-    "CLBLL_IMUX30",
-    "CLBLL_LL_B1",
-    "CLBLL_WW4C3",
-    "CLBLL_IMUX6",
-    "CLBLL_LL_CE",
-    "CLBLL_EE4B1",
-    "CLBLL_SW2A2",
-    "CLBLL_CTRL1",
-    "CLBLL_LL_B",
-    "CLBLL_IMUX46",
-    "CLBLL_EL1BEG3",
-    "CLBLL_NE4C1",
-    "CLBLL_EE4B3",
-    "CLBLL_EE4A3",
-    "CLBLL_IMUX29",
-    "CLBLL_LOGIC_OUTS14",
-    "CLBLL_L_BQ",
-    "CLBLL_L_D2",
-    "CLBLL_SE4C1",
-    "CLBLL_WW4A2",
-    "CLBLL_WW2END0",
-    "CLBLL_LL_A1",
-    "CLBLL_L_DX",
-    "CLBLL_LL_A2",
-    "CLBLL_EE2A0",
-    "CLBLL_NE2A0",
-    "CLBLL_WW2END2",
-    "CLBLL_L_C4",
-    "CLBLL_EL1BEG0",
-    "CLBLL_WW2A2",
-    "CLBLL_LL_D",
-    "CLBLL_L_D3",
-    "CLBLL_LL_B2",
-    "CLBLL_SW2A0",
-    "CLBLL_L_A3",
-    "CLBLL_LL_D1",
-    "CLBLL_IMUX8",
-    "CLBLL_NW4END1",
-    "CLBLL_SW4END3",
-    "CLBLL_EE4C1",
-    "CLBLL_L_B1",
-    "CLBLL_IMUX14",
-    "CLBLL_L_B",
-    "CLBLL_L_D1",
-    "CLBLL_L_D6",
-    "CLBLL_NE4C2",
-    "CLBLL_LL_BQ",
-    "CLBLL_WW4B3",
-    "CLBLL_NE4BEG3",
-    "CLBLL_L_COUT_N",
-    "CLBLL_IMUX26",
-    "CLBLL_LH4",
-    "CLBLL_FAN3",
-    "CLBLL_NW4END2",
-    "CLBLL_NW4END3",
-    "CLBLL_NW4A0",
-    "CLBLL_EE4C0",
-    "CLBLL_EE4C3",
-    "CLBLL_NW4END0",
-    "CLBLL_LH6",
-    "CLBLL_LL_A3",
-    "CLBLL_LL_DX",
-    "CLBLL_WW2END3",
-    "CLBLL_NE4BEG0",
-    "CLBLL_SW2A1",
-    "CLBLL_NE4C0",
-    "CLBLL_L_A5",
-    "CLBLL_WW2END1",
-    "CLBLL_IMUX45",
-    "CLBLL_WW4B0",
-    "CLBLL_LL_AX",
-    "CLBLL_CTRL0",
-    "CLBLL_IMUX40",
-    "CLBLL_LL_B3",
-    "CLBLL_EE4BEG2",
-    "CLBLL_EE2A3",
-    "CLBLL_LL_C1",
-    "CLBLL_WW4A3",
-    "CLBLL_LOGIC_OUTS11",
-    "CLBLL_IMUX7",
-    "CLBLL_WW4END1",
-    "CLBLL_IMUX31",
-    "CLBLL_L_CIN",
-    "CLBLL_IMUX21",
-    "CLBLL_SE2A2",
-    "CLBLL_FAN4",
-    "CLBLL_LOGIC_OUTS2",
-    "CLBLL_FAN5",
-    "CLBLL_LOGIC_OUTS23",
-    "CLBLL_NW4A2",
-    "CLBLL_IMUX24",
-    "CLBLL_L_CX",
-    "CLBLL_LL_C5",
-    "CLBLL_LL_A5",
-    "CLBLL_SE2A3",
-    "CLBLL_WW2A0",
-    "CLBLL_NE4BEG2",
-    "CLBLL_IMUX36",
-    "CLBLL_WL1END1",
-    "CLBLL_L_C",
-    "CLBLL_L_C5",
-    "CLBLL_L_CLK",
-    "CLBLL_WW4C2",
-    "CLBLL_LOGIC_OUTS7",
-    "CLBLL_FAN2",
-    "CLBLL_L_CE",
-    "CLBLL_IMUX33",
-    "CLBLL_WW4END0",
-    "CLBLL_WR1END2",
-    "CLBLL_LL_B6",
-    "CLBLL_LOGIC_OUTS1",
-    "CLBLL_EE4B0",
-    "CLBLL_WW4B1",
-    "CLBLL_BYP6",
-    "CLBLL_L_D5",
-    "CLBLL_EE4BEG3",
-    "CLBLL_BYP1",
-    "CLBLL_NW4A1",
-    "CLBLL_WL1END0",
-    "CLBLL_LL_D5",
-    "CLBLL_L_BMUX",
-    "CLBLL_BYP5",
-    "CLBLL_IMUX25",
-    "CLBLL_ER1BEG3",
-    "CLBLL_NW4A3",
-    "CLBLL_EE2BEG3",
-    "CLBLL_NW2A1",
-    "CLBLL_LL_CX",
-    "CLBLL_WW4B2",
-    "CLBLL_L_C3",
-    "CLBLL_EE2BEG2",
-    "CLBLL_IMUX5",
-    "CLBLL_LL_D6",
-    "CLBLL_WW2A3",
-    "CLBLL_L_A1",
-    "CLBLL_LL_D2",
-    "CLBLL_L_SR",
-    "CLBLL_IMUX39",
-    "CLBLL_LOGIC_OUTS6",
-    "CLBLL_LOGIC_OUTS16",
-    "CLBLL_WW4A1",
-    "CLBLL_LH9",
-    "CLBLL_L_AMUX",
-    "CLBLL_LL_A4",
-    "CLBLL_BYP4",
-    "CLBLL_LH5",
-    "CLBLL_WW4A0",
-    "CLBLL_L_BX",
-    "CLBLL_L_C1",
-    "CLBLL_L_B6",
-    "CLBLL_NE4C3",
-    "CLBLL_WL1END2",
-    "CLBLL_IMUX44",
-    "CLBLL_LOGIC_OUTS5",
-    "CLBLL_LOGIC_OUTS12",
-    "CLBLL_LH1",
-    "CLBLL_EE2BEG0",
-    "CLBLL_LL_CMUX",
-    "CLBLL_LOGIC_OUTS9",
-    "CLBLL_IMUX27",
-    "CLBLL_NW2A0",
-    "CLBLL_LL_B4",
-    "CLBLL_IMUX4",
-    "CLBLL_EE2A2",
-    "CLBLL_L_C2",
-    "CLBLL_L_A4",
-    "CLBLL_ER1BEG1",
-    "CLBLL_WW4C0",
-    "CLBLL_LH10",
-    "CLBLL_L_A6",
-    "CLBLL_LOGIC_OUTS18",
-    "CLBLL_IMUX1",
-    "CLBLL_IMUX22",
-    "CLBLL_IMUX13",
-    "CLBLL_IMUX20",
-    "CLBLL_LOGIC_OUTS4",
-    "CLBLL_IMUX23",
-    "CLBLL_LOGIC_OUTS22",
-    "CLBLL_SW4END2",
-    "CLBLL_IMUX42",
-    "CLBLL_IMUX11",
-    "CLBLL_LOGIC_OUTS17",
-    "CLBLL_NE2A3",
-    "CLBLL_L_C6",
-    "CLBLL_SW2A3",
-    "CLBLL_LL_C6",
-    "CLBLL_EE4B2",
-    "CLBLL_FAN7",
-    "CLBLL_SE4C3",
-    "CLBLL_LL_AQ",
-    "CLBLL_L_D4",
-    "CLBLL_L_B4",
-    "CLBLL_NW2A3",
-    "CLBLL_NW2A2",
-    "CLBLL_LL_CLK",
-    "CLBLL_MONITOR_P",
-    "CLBLL_EE4BEG1",
-    "CLBLL_EE2A1",
-    "CLBLL_BYP3",
-    "CLBLL_LL_B5",
-    "CLBLL_LL_C4",
-    "CLBLL_LL_D3",
-    "CLBLL_WR1END1",
-    "CLBLL_LL_DMUX",
-    "CLBLL_IMUX43",
-    "CLBLL_LL_A",
-    "CLBLL_L_A",
-    "CLBLL_IMUX12",
-    "CLBLL_IMUX41",
-    "CLBLL_LH12",
-    "CLBLL_L_DQ",
-    "CLBLL_WR1END3",
-    "CLBLL_LOGIC_OUTS21",
-    "CLBLL_IMUX19",
-    "CLBLL_IMUX2",
-    "CLBLL_EE4A2",
-    "CLBLL_SE4C0",
-    "CLBLL_FAN0",
-    "CLBLL_BYP2",
-    "CLBLL_BYP0",
-    "CLBLL_BYP7",
-    "CLBLL_FAN6",
-    "CLBLL_LL_AMUX",
-    "CLBLL_LH3",
-    "CLBLL_LOGIC_OUTS8",
-    "CLBLL_ER1BEG0",
-    "CLBLL_WW4C1",
-    "CLBLL_LL_C",
-    "CLBLL_SW4A3",
-    "CLBLL_LL_BX",
-    "CLBLL_EE4A0",
-    "CLBLL_IMUX35",
-    "CLBLL_LOGIC_OUTS0",
-    "CLBLL_IMUX18",
-    "CLBLL_IMUX37",
-    "CLBLL_LOGIC_OUTS15",
-    "CLBLL_EE4BEG0",
-    "CLBLL_L_B3",
-    "CLBLL_SE4BEG0",
-    "CLBLL_SE2A1",
-    "CLBLL_IMUX32",
-    "CLBLL_SE2A0",
-    "CLBLL_SE4BEG3",
-    "CLBLL_EE4A1",
-    "CLBLL_EL1BEG2",
-    "CLBLL_LOGIC_OUTS13",
-    "CLBLL_IMUX9",
-    "CLBLL_LL_DQ",
-    "CLBLL_LL_SR",
-    "CLBLL_EE4C2",
-    "CLBLL_ER1BEG2",
-    "CLBLL_NE2A2",
-    "CLBLL_IMUX28",
-    "CLBLL_IMUX10",
-    "CLBLL_L_A2",
-    "CLBLL_L_COUT",
-    "CLBLL_CLK1",
-    "CLBLL_IMUX47",
-    "CLBLL_LL_BMUX",
-    "CLBLL_CLK0",
-    "CLBLL_LOGIC_OUTS10",
-    "CLBLL_NE4BEG1",
-    "CLBLL_L_CMUX",
-    "CLBLL_LL_C2",
-    "CLBLL_WL1END3",
-    "CLBLL_WW2A1",
-    "CLBLL_IMUX34",
-    "CLBLL_IMUX0",
-    "CLBLL_SW4A0",
-    "CLBLL_SW4END1",
-    "CLBLL_LOGIC_OUTS3",
-    "CLBLL_LOGIC_OUTS19",
-    "CLBLL_EE2BEG1"
-  ],
-  "pips": {
-    "CLBLL_R.CLBLL_LL_BMUX->CLBLL_LOGIC_OUTS21": {
-      "src_wire": "CLBLL_LL_BMUX",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS21",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX37->CLBLL_L_D4": {
-      "src_wire": "CLBLL_IMUX37",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_D4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_D2->>CLBLL_LL_D": {
-      "src_wire": "CLBLL_LL_D2",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_D",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX15->CLBLL_LL_B1": {
-      "src_wire": "CLBLL_IMUX15",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_B1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_C->CLBLL_LOGIC_OUTS14": {
-      "src_wire": "CLBLL_LL_C",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS14",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_A4->>CLBLL_LL_A": {
-      "src_wire": "CLBLL_LL_A4",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_A",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_B1->>CLBLL_L_B": {
-      "src_wire": "CLBLL_L_B1",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_B",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_C->>CLBLL_L_CMUX": {
-      "src_wire": "CLBLL_L_C",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_CMUX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_A4->>CLBLL_L_A": {
-      "src_wire": "CLBLL_L_A4",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_A",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_D1->>CLBLL_LL_D": {
-      "src_wire": "CLBLL_LL_D1",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_D",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_BMUX->CLBLL_LOGIC_OUTS17": {
-      "src_wire": "CLBLL_L_BMUX",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS17",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_B2->>CLBLL_L_B": {
-      "src_wire": "CLBLL_L_B2",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_B",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX29->CLBLL_LL_C2": {
-      "src_wire": "CLBLL_IMUX29",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_C2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX3->CLBLL_L_A2": {
-      "src_wire": "CLBLL_IMUX3",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_A2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_A2->>CLBLL_LL_A": {
-      "src_wire": "CLBLL_LL_A2",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_A",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX21->CLBLL_L_C4": {
-      "src_wire": "CLBLL_IMUX21",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_C4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_DMUX->CLBLL_LOGIC_OUTS19": {
-      "src_wire": "CLBLL_L_DMUX",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS19",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_D4->>CLBLL_L_D": {
-      "src_wire": "CLBLL_L_D4",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_D",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX39->CLBLL_L_D3": {
-      "src_wire": "CLBLL_IMUX39",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_D3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX18->CLBLL_LL_B2": {
-      "src_wire": "CLBLL_IMUX18",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_B2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_D3->>CLBLL_LL_D": {
-      "src_wire": "CLBLL_LL_D3",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_D",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_C1->>CLBLL_L_C": {
-      "src_wire": "CLBLL_L_C1",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_C",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_D1->>CLBLL_L_D": {
-      "src_wire": "CLBLL_L_D1",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_D",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_B1->>CLBLL_LL_B": {
-      "src_wire": "CLBLL_LL_B1",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_B",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_AMUX->CLBLL_LOGIC_OUTS16": {
-      "src_wire": "CLBLL_L_AMUX",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS16",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_C6->>CLBLL_LL_C": {
-      "src_wire": "CLBLL_LL_C6",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_C",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_D6->>CLBLL_L_D": {
-      "src_wire": "CLBLL_L_D6",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_D",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_A6->>CLBLL_L_A": {
-      "src_wire": "CLBLL_L_A6",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_A",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_A5->>CLBLL_LL_A": {
-      "src_wire": "CLBLL_LL_A5",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_A",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_BYP5->CLBLL_L_BX": {
-      "src_wire": "CLBLL_BYP5",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_BX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX44->CLBLL_LL_D4": {
-      "src_wire": "CLBLL_IMUX44",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_D4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_CMUX->CLBLL_LOGIC_OUTS22": {
-      "src_wire": "CLBLL_LL_CMUX",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS22",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_B->CLBLL_LOGIC_OUTS9": {
-      "src_wire": "CLBLL_L_B",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS9",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_C2->>CLBLL_L_C": {
-      "src_wire": "CLBLL_L_C2",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_C",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX1->CLBLL_LL_A3": {
-      "src_wire": "CLBLL_IMUX1",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_A3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_CQ->CLBLL_LOGIC_OUTS2": {
-      "src_wire": "CLBLL_L_CQ",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX30->CLBLL_L_C5": {
-      "src_wire": "CLBLL_IMUX30",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_C5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX2->CLBLL_LL_A2": {
-      "src_wire": "CLBLL_IMUX2",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_A2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX16->CLBLL_L_B3": {
-      "src_wire": "CLBLL_IMUX16",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_B3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX41->CLBLL_L_D1": {
-      "src_wire": "CLBLL_IMUX41",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_D1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX45->CLBLL_LL_D2": {
-      "src_wire": "CLBLL_IMUX45",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_D2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX26->CLBLL_L_B4": {
-      "src_wire": "CLBLL_IMUX26",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_B4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_DQ->CLBLL_LOGIC_OUTS7": {
-      "src_wire": "CLBLL_LL_DQ",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS7",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_A2->>CLBLL_L_A": {
-      "src_wire": "CLBLL_L_A2",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_A",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX7->CLBLL_LL_A1": {
-      "src_wire": "CLBLL_IMUX7",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_A1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_B3->>CLBLL_L_B": {
-      "src_wire": "CLBLL_L_B3",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_B",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_A6->>CLBLL_LL_A": {
-      "src_wire": "CLBLL_LL_A6",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_A",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_BYP0->CLBLL_L_AX": {
-      "src_wire": "CLBLL_BYP0",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_AX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX6->CLBLL_L_A1": {
-      "src_wire": "CLBLL_IMUX6",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_A1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_A->CLBLL_LOGIC_OUTS12": {
-      "src_wire": "CLBLL_LL_A",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS12",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_D->CLBLL_LOGIC_OUTS11": {
-      "src_wire": "CLBLL_L_D",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS11",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX23->CLBLL_L_C3": {
-      "src_wire": "CLBLL_IMUX23",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_C3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX33->CLBLL_L_C1": {
-      "src_wire": "CLBLL_IMUX33",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_C1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_B->CLBLL_LOGIC_OUTS13": {
-      "src_wire": "CLBLL_LL_B",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS13",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_FAN6->CLBLL_L_CE": {
-      "src_wire": "CLBLL_FAN6",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_CE",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX42->CLBLL_L_D6": {
-      "src_wire": "CLBLL_IMUX42",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_D6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_C4->>CLBLL_L_C": {
-      "src_wire": "CLBLL_L_C4",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_C",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX4->CLBLL_LL_A6": {
-      "src_wire": "CLBLL_IMUX4",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_A6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_CTRL0->CLBLL_L_SR": {
-      "src_wire": "CLBLL_CTRL0",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_SR",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX11->CLBLL_LL_A4": {
-      "src_wire": "CLBLL_IMUX11",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_A4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_D5->>CLBLL_LL_D": {
-      "src_wire": "CLBLL_LL_D5",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_D",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX20->CLBLL_L_C2": {
-      "src_wire": "CLBLL_IMUX20",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_C2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX13->CLBLL_L_B6": {
-      "src_wire": "CLBLL_IMUX13",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_B6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_CLK1->CLBLL_LL_CLK": {
-      "src_wire": "CLBLL_CLK1",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_CLK",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_BYP4->CLBLL_LL_BX": {
-      "src_wire": "CLBLL_BYP4",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_BX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_C5->>CLBLL_LL_C": {
-      "src_wire": "CLBLL_LL_C5",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_C",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_AMUX->CLBLL_LOGIC_OUTS20": {
-      "src_wire": "CLBLL_LL_AMUX",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS20",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_C->CLBLL_LOGIC_OUTS10": {
-      "src_wire": "CLBLL_L_C",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS10",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_BYP6->CLBLL_LL_DX": {
-      "src_wire": "CLBLL_BYP6",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_DX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_COUT->>CLBLL_LL_DMUX": {
-      "src_wire": "CLBLL_LL_COUT",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_DMUX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_B6->>CLBLL_LL_B": {
-      "src_wire": "CLBLL_LL_B6",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_B",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_BQ->CLBLL_LOGIC_OUTS5": {
-      "src_wire": "CLBLL_LL_BQ",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_A3->>CLBLL_LL_A": {
-      "src_wire": "CLBLL_LL_A3",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_A",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_BYP7->CLBLL_L_DX": {
-      "src_wire": "CLBLL_BYP7",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_DX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX5->CLBLL_L_A6": {
-      "src_wire": "CLBLL_IMUX5",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_A6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_D->CLBLL_LOGIC_OUTS15": {
-      "src_wire": "CLBLL_LL_D",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS15",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_CLK0->CLBLL_L_CLK": {
-      "src_wire": "CLBLL_CLK0",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_CLK",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_C5->>CLBLL_L_C": {
-      "src_wire": "CLBLL_L_C5",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_C",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX32->CLBLL_LL_C1": {
-      "src_wire": "CLBLL_IMUX32",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_C1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_C->>CLBLL_LL_CMUX": {
-      "src_wire": "CLBLL_LL_C",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_CMUX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_D5->>CLBLL_L_D": {
-      "src_wire": "CLBLL_L_D5",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_D",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_DQ->CLBLL_LOGIC_OUTS3": {
-      "src_wire": "CLBLL_L_DQ",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_B4->>CLBLL_L_B": {
-      "src_wire": "CLBLL_L_B4",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_B",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX10->CLBLL_L_A4": {
-      "src_wire": "CLBLL_IMUX10",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_A4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_B->>CLBLL_LL_BMUX": {
-      "src_wire": "CLBLL_LL_B",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_BMUX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_A1->>CLBLL_LL_A": {
-      "src_wire": "CLBLL_LL_A1",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_A",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_D6->>CLBLL_LL_D": {
-      "src_wire": "CLBLL_LL_D6",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_D",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_B4->>CLBLL_LL_B": {
-      "src_wire": "CLBLL_LL_B4",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_B",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX46->CLBLL_L_D5": {
-      "src_wire": "CLBLL_IMUX46",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_D5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX38->CLBLL_LL_D3": {
-      "src_wire": "CLBLL_IMUX38",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_D3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX34->CLBLL_L_C6": {
-      "src_wire": "CLBLL_IMUX34",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_C6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_A5->>CLBLL_L_A": {
-      "src_wire": "CLBLL_L_A5",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_A",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX22->CLBLL_LL_C3": {
-      "src_wire": "CLBLL_IMUX22",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_C3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_D->>CLBLL_L_DMUX": {
-      "src_wire": "CLBLL_L_D",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_DMUX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_COUT->CLBLL_LL_COUT_N": {
-      "src_wire": "CLBLL_LL_COUT",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_COUT_N",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_D->>CLBLL_LL_DMUX": {
-      "src_wire": "CLBLL_LL_D",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_DMUX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX25->CLBLL_L_B5": {
-      "src_wire": "CLBLL_IMUX25",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_B5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX40->CLBLL_LL_D1": {
-      "src_wire": "CLBLL_IMUX40",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_D1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_B5->>CLBLL_L_B": {
-      "src_wire": "CLBLL_L_B5",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_B",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_COUT->>CLBLL_L_DMUX": {
-      "src_wire": "CLBLL_L_COUT",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_DMUX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_C3->>CLBLL_L_C": {
-      "src_wire": "CLBLL_L_C3",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_C",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_CTRL1->CLBLL_LL_SR": {
-      "src_wire": "CLBLL_CTRL1",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_SR",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_D4->>CLBLL_LL_D": {
-      "src_wire": "CLBLL_LL_D4",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_D",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX9->CLBLL_L_A5": {
-      "src_wire": "CLBLL_IMUX9",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_A5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_C6->>CLBLL_L_C": {
-      "src_wire": "CLBLL_L_C6",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_C",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX24->CLBLL_LL_B5": {
-      "src_wire": "CLBLL_IMUX24",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_B5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX43->CLBLL_LL_D6": {
-      "src_wire": "CLBLL_IMUX43",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_D6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX47->CLBLL_LL_D5": {
-      "src_wire": "CLBLL_IMUX47",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_D5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_BYP1->CLBLL_LL_AX": {
-      "src_wire": "CLBLL_BYP1",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_AX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_C2->>CLBLL_LL_C": {
-      "src_wire": "CLBLL_LL_C2",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_C",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX36->CLBLL_L_D2": {
-      "src_wire": "CLBLL_IMUX36",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_D2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX8->CLBLL_LL_A5": {
-      "src_wire": "CLBLL_IMUX8",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_A5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX14->CLBLL_L_B1": {
-      "src_wire": "CLBLL_IMUX14",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_B1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_C3->>CLBLL_LL_C": {
-      "src_wire": "CLBLL_LL_C3",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_C",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_BYP2->CLBLL_L_CX": {
-      "src_wire": "CLBLL_BYP2",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_CX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX28->CLBLL_LL_C4": {
-      "src_wire": "CLBLL_IMUX28",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_C4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_B6->>CLBLL_L_B": {
-      "src_wire": "CLBLL_L_B6",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_B",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX27->CLBLL_LL_B4": {
-      "src_wire": "CLBLL_IMUX27",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_B4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_A->>CLBLL_L_AMUX": {
-      "src_wire": "CLBLL_L_A",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_AMUX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_C4->>CLBLL_LL_C": {
-      "src_wire": "CLBLL_LL_C4",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_C",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_CQ->CLBLL_LOGIC_OUTS6": {
-      "src_wire": "CLBLL_LL_CQ",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX17->CLBLL_LL_B3": {
-      "src_wire": "CLBLL_IMUX17",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_B3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX12->CLBLL_LL_B6": {
-      "src_wire": "CLBLL_IMUX12",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_B6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX35->CLBLL_LL_C6": {
-      "src_wire": "CLBLL_IMUX35",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_C6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_B3->>CLBLL_LL_B": {
-      "src_wire": "CLBLL_LL_B3",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_B",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_A->CLBLL_LOGIC_OUTS8": {
-      "src_wire": "CLBLL_L_A",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS8",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_FAN7->CLBLL_LL_CE": {
-      "src_wire": "CLBLL_FAN7",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_CE",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_A3->>CLBLL_L_A": {
-      "src_wire": "CLBLL_L_A3",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_A",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX31->CLBLL_LL_C5": {
-      "src_wire": "CLBLL_IMUX31",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_C5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_B2->>CLBLL_LL_B": {
-      "src_wire": "CLBLL_LL_B2",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_B",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_B5->>CLBLL_LL_B": {
-      "src_wire": "CLBLL_LL_B5",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_B",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_C1->>CLBLL_LL_C": {
-      "src_wire": "CLBLL_LL_C1",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_C",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_D2->>CLBLL_L_D": {
-      "src_wire": "CLBLL_L_D2",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_D",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_BQ->CLBLL_LOGIC_OUTS1": {
-      "src_wire": "CLBLL_L_BQ",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_CMUX->CLBLL_LOGIC_OUTS18": {
-      "src_wire": "CLBLL_L_CMUX",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS18",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX0->CLBLL_L_A3": {
-      "src_wire": "CLBLL_IMUX0",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_A3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_B->>CLBLL_L_BMUX": {
-      "src_wire": "CLBLL_L_B",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_BMUX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_COUT->CLBLL_L_COUT_N": {
-      "src_wire": "CLBLL_L_COUT",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_COUT_N",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_IMUX19->CLBLL_L_B2": {
-      "src_wire": "CLBLL_IMUX19",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_L_B2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_D3->>CLBLL_L_D": {
-      "src_wire": "CLBLL_L_D3",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_D",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_A->>CLBLL_LL_AMUX": {
-      "src_wire": "CLBLL_LL_A",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_LL_AMUX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_BYP3->CLBLL_LL_CX": {
-      "src_wire": "CLBLL_BYP3",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LL_CX",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_A1->>CLBLL_L_A": {
-      "src_wire": "CLBLL_L_A1",
-      "is_pseudo": "1",
-      "dst_wire": "CLBLL_L_A",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_DMUX->CLBLL_LOGIC_OUTS23": {
-      "src_wire": "CLBLL_LL_DMUX",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS23",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_LL_AQ->CLBLL_LOGIC_OUTS4": {
-      "src_wire": "CLBLL_LL_AQ",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "CLBLL_R.CLBLL_L_AQ->CLBLL_LOGIC_OUTS0": {
-      "src_wire": "CLBLL_L_AQ",
-      "is_pseudo": "0",
-      "dst_wire": "CLBLL_LOGIC_OUTS0",
-      "is_directional": "1",
-      "can_invert": "0"
-    }
-  }
+    "pips": {
+        "CLBLL_R.CLBLL_BYP0->CLBLL_L_AX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_AX",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_BYP0"
+        },
+        "CLBLL_R.CLBLL_BYP1->CLBLL_LL_AX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_AX",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_BYP1"
+        },
+        "CLBLL_R.CLBLL_BYP2->CLBLL_L_CX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_CX",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_BYP2"
+        },
+        "CLBLL_R.CLBLL_BYP3->CLBLL_LL_CX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_CX",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_BYP3"
+        },
+        "CLBLL_R.CLBLL_BYP4->CLBLL_LL_BX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_BX",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_BYP4"
+        },
+        "CLBLL_R.CLBLL_BYP5->CLBLL_L_BX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_BX",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_BYP5"
+        },
+        "CLBLL_R.CLBLL_BYP6->CLBLL_LL_DX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_DX",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_BYP6"
+        },
+        "CLBLL_R.CLBLL_BYP7->CLBLL_L_DX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_DX",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_BYP7"
+        },
+        "CLBLL_R.CLBLL_CLK0->CLBLL_L_CLK": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_CLK",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_CLK0"
+        },
+        "CLBLL_R.CLBLL_CLK1->CLBLL_LL_CLK": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_CLK",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_CLK1"
+        },
+        "CLBLL_R.CLBLL_CTRL0->CLBLL_L_SR": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_SR",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_CTRL0"
+        },
+        "CLBLL_R.CLBLL_CTRL1->CLBLL_LL_SR": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_SR",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_CTRL1"
+        },
+        "CLBLL_R.CLBLL_FAN6->CLBLL_L_CE": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_CE",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_FAN6"
+        },
+        "CLBLL_R.CLBLL_FAN7->CLBLL_LL_CE": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_CE",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_FAN7"
+        },
+        "CLBLL_R.CLBLL_IMUX0->CLBLL_L_A3": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_A3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX0"
+        },
+        "CLBLL_R.CLBLL_IMUX1->CLBLL_LL_A3": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_A3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX1"
+        },
+        "CLBLL_R.CLBLL_IMUX10->CLBLL_L_A4": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_A4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX10"
+        },
+        "CLBLL_R.CLBLL_IMUX11->CLBLL_LL_A4": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_A4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX11"
+        },
+        "CLBLL_R.CLBLL_IMUX12->CLBLL_LL_B6": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_B6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX12"
+        },
+        "CLBLL_R.CLBLL_IMUX13->CLBLL_L_B6": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_B6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX13"
+        },
+        "CLBLL_R.CLBLL_IMUX14->CLBLL_L_B1": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_B1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX14"
+        },
+        "CLBLL_R.CLBLL_IMUX15->CLBLL_LL_B1": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_B1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX15"
+        },
+        "CLBLL_R.CLBLL_IMUX16->CLBLL_L_B3": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_B3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX16"
+        },
+        "CLBLL_R.CLBLL_IMUX17->CLBLL_LL_B3": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_B3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX17"
+        },
+        "CLBLL_R.CLBLL_IMUX18->CLBLL_LL_B2": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_B2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX18"
+        },
+        "CLBLL_R.CLBLL_IMUX19->CLBLL_L_B2": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_B2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX19"
+        },
+        "CLBLL_R.CLBLL_IMUX2->CLBLL_LL_A2": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_A2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX2"
+        },
+        "CLBLL_R.CLBLL_IMUX20->CLBLL_L_C2": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_C2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX20"
+        },
+        "CLBLL_R.CLBLL_IMUX21->CLBLL_L_C4": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_C4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX21"
+        },
+        "CLBLL_R.CLBLL_IMUX22->CLBLL_LL_C3": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_C3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX22"
+        },
+        "CLBLL_R.CLBLL_IMUX23->CLBLL_L_C3": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_C3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX23"
+        },
+        "CLBLL_R.CLBLL_IMUX24->CLBLL_LL_B5": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_B5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX24"
+        },
+        "CLBLL_R.CLBLL_IMUX25->CLBLL_L_B5": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_B5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX25"
+        },
+        "CLBLL_R.CLBLL_IMUX26->CLBLL_L_B4": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_B4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX26"
+        },
+        "CLBLL_R.CLBLL_IMUX27->CLBLL_LL_B4": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_B4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX27"
+        },
+        "CLBLL_R.CLBLL_IMUX28->CLBLL_LL_C4": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_C4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX28"
+        },
+        "CLBLL_R.CLBLL_IMUX29->CLBLL_LL_C2": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_C2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX29"
+        },
+        "CLBLL_R.CLBLL_IMUX3->CLBLL_L_A2": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_A2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX3"
+        },
+        "CLBLL_R.CLBLL_IMUX30->CLBLL_L_C5": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_C5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX30"
+        },
+        "CLBLL_R.CLBLL_IMUX31->CLBLL_LL_C5": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_C5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX31"
+        },
+        "CLBLL_R.CLBLL_IMUX32->CLBLL_LL_C1": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_C1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX32"
+        },
+        "CLBLL_R.CLBLL_IMUX33->CLBLL_L_C1": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_C1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX33"
+        },
+        "CLBLL_R.CLBLL_IMUX34->CLBLL_L_C6": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_C6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX34"
+        },
+        "CLBLL_R.CLBLL_IMUX35->CLBLL_LL_C6": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_C6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX35"
+        },
+        "CLBLL_R.CLBLL_IMUX36->CLBLL_L_D2": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_D2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX36"
+        },
+        "CLBLL_R.CLBLL_IMUX37->CLBLL_L_D4": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_D4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX37"
+        },
+        "CLBLL_R.CLBLL_IMUX38->CLBLL_LL_D3": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_D3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX38"
+        },
+        "CLBLL_R.CLBLL_IMUX39->CLBLL_L_D3": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_D3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX39"
+        },
+        "CLBLL_R.CLBLL_IMUX4->CLBLL_LL_A6": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_A6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX4"
+        },
+        "CLBLL_R.CLBLL_IMUX40->CLBLL_LL_D1": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_D1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX40"
+        },
+        "CLBLL_R.CLBLL_IMUX41->CLBLL_L_D1": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_D1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX41"
+        },
+        "CLBLL_R.CLBLL_IMUX42->CLBLL_L_D6": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_D6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX42"
+        },
+        "CLBLL_R.CLBLL_IMUX43->CLBLL_LL_D6": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_D6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX43"
+        },
+        "CLBLL_R.CLBLL_IMUX44->CLBLL_LL_D4": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_D4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX44"
+        },
+        "CLBLL_R.CLBLL_IMUX45->CLBLL_LL_D2": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_D2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX45"
+        },
+        "CLBLL_R.CLBLL_IMUX46->CLBLL_L_D5": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_D5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX46"
+        },
+        "CLBLL_R.CLBLL_IMUX47->CLBLL_LL_D5": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_D5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX47"
+        },
+        "CLBLL_R.CLBLL_IMUX5->CLBLL_L_A6": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_A6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX5"
+        },
+        "CLBLL_R.CLBLL_IMUX6->CLBLL_L_A1": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_A1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX6"
+        },
+        "CLBLL_R.CLBLL_IMUX7->CLBLL_LL_A1": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_A1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX7"
+        },
+        "CLBLL_R.CLBLL_IMUX8->CLBLL_LL_A5": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_A5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX8"
+        },
+        "CLBLL_R.CLBLL_IMUX9->CLBLL_L_A5": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_A5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_IMUX9"
+        },
+        "CLBLL_R.CLBLL_LL_A->>CLBLL_LL_AMUX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_AMUX",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_A"
+        },
+        "CLBLL_R.CLBLL_LL_A->CLBLL_LOGIC_OUTS12": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS12",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_A"
+        },
+        "CLBLL_R.CLBLL_LL_A1->>CLBLL_LL_A": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_A",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_A1"
+        },
+        "CLBLL_R.CLBLL_LL_A2->>CLBLL_LL_A": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_A",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_A2"
+        },
+        "CLBLL_R.CLBLL_LL_A3->>CLBLL_LL_A": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_A",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_A3"
+        },
+        "CLBLL_R.CLBLL_LL_A4->>CLBLL_LL_A": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_A",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_A4"
+        },
+        "CLBLL_R.CLBLL_LL_A5->>CLBLL_LL_A": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_A",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_A5"
+        },
+        "CLBLL_R.CLBLL_LL_A6->>CLBLL_LL_A": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_A",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_A6"
+        },
+        "CLBLL_R.CLBLL_LL_AMUX->CLBLL_LOGIC_OUTS20": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS20",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_AMUX"
+        },
+        "CLBLL_R.CLBLL_LL_AQ->CLBLL_LOGIC_OUTS4": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_AQ"
+        },
+        "CLBLL_R.CLBLL_LL_B->>CLBLL_LL_BMUX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_BMUX",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_B"
+        },
+        "CLBLL_R.CLBLL_LL_B->CLBLL_LOGIC_OUTS13": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS13",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_B"
+        },
+        "CLBLL_R.CLBLL_LL_B1->>CLBLL_LL_B": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_B",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_B1"
+        },
+        "CLBLL_R.CLBLL_LL_B2->>CLBLL_LL_B": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_B",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_B2"
+        },
+        "CLBLL_R.CLBLL_LL_B3->>CLBLL_LL_B": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_B",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_B3"
+        },
+        "CLBLL_R.CLBLL_LL_B4->>CLBLL_LL_B": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_B",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_B4"
+        },
+        "CLBLL_R.CLBLL_LL_B5->>CLBLL_LL_B": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_B",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_B5"
+        },
+        "CLBLL_R.CLBLL_LL_B6->>CLBLL_LL_B": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_B",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_B6"
+        },
+        "CLBLL_R.CLBLL_LL_BMUX->CLBLL_LOGIC_OUTS21": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS21",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_BMUX"
+        },
+        "CLBLL_R.CLBLL_LL_BQ->CLBLL_LOGIC_OUTS5": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_BQ"
+        },
+        "CLBLL_R.CLBLL_LL_C->>CLBLL_LL_CMUX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_CMUX",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_C"
+        },
+        "CLBLL_R.CLBLL_LL_C->CLBLL_LOGIC_OUTS14": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS14",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_C"
+        },
+        "CLBLL_R.CLBLL_LL_C1->>CLBLL_LL_C": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_C",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_C1"
+        },
+        "CLBLL_R.CLBLL_LL_C2->>CLBLL_LL_C": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_C",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_C2"
+        },
+        "CLBLL_R.CLBLL_LL_C3->>CLBLL_LL_C": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_C",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_C3"
+        },
+        "CLBLL_R.CLBLL_LL_C4->>CLBLL_LL_C": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_C",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_C4"
+        },
+        "CLBLL_R.CLBLL_LL_C5->>CLBLL_LL_C": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_C",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_C5"
+        },
+        "CLBLL_R.CLBLL_LL_C6->>CLBLL_LL_C": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_C",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_C6"
+        },
+        "CLBLL_R.CLBLL_LL_CMUX->CLBLL_LOGIC_OUTS22": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS22",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_CMUX"
+        },
+        "CLBLL_R.CLBLL_LL_COUT->>CLBLL_LL_DMUX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_DMUX",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_COUT"
+        },
+        "CLBLL_R.CLBLL_LL_COUT->CLBLL_LL_COUT_N": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_COUT_N",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_COUT"
+        },
+        "CLBLL_R.CLBLL_LL_CQ->CLBLL_LOGIC_OUTS6": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_CQ"
+        },
+        "CLBLL_R.CLBLL_LL_D->>CLBLL_LL_DMUX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_DMUX",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_D"
+        },
+        "CLBLL_R.CLBLL_LL_D->CLBLL_LOGIC_OUTS15": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS15",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_D"
+        },
+        "CLBLL_R.CLBLL_LL_D1->>CLBLL_LL_D": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_D",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_D1"
+        },
+        "CLBLL_R.CLBLL_LL_D2->>CLBLL_LL_D": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_D",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_D2"
+        },
+        "CLBLL_R.CLBLL_LL_D3->>CLBLL_LL_D": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_D",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_D3"
+        },
+        "CLBLL_R.CLBLL_LL_D4->>CLBLL_LL_D": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_D",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_D4"
+        },
+        "CLBLL_R.CLBLL_LL_D5->>CLBLL_LL_D": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_D",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_D5"
+        },
+        "CLBLL_R.CLBLL_LL_D6->>CLBLL_LL_D": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LL_D",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_LL_D6"
+        },
+        "CLBLL_R.CLBLL_LL_DMUX->CLBLL_LOGIC_OUTS23": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS23",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_DMUX"
+        },
+        "CLBLL_R.CLBLL_LL_DQ->CLBLL_LOGIC_OUTS7": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_LL_DQ"
+        },
+        "CLBLL_R.CLBLL_L_A->>CLBLL_L_AMUX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_AMUX",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_A"
+        },
+        "CLBLL_R.CLBLL_L_A->CLBLL_LOGIC_OUTS8": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS8",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_A"
+        },
+        "CLBLL_R.CLBLL_L_A1->>CLBLL_L_A": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_A",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_A1"
+        },
+        "CLBLL_R.CLBLL_L_A2->>CLBLL_L_A": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_A",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_A2"
+        },
+        "CLBLL_R.CLBLL_L_A3->>CLBLL_L_A": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_A",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_A3"
+        },
+        "CLBLL_R.CLBLL_L_A4->>CLBLL_L_A": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_A",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_A4"
+        },
+        "CLBLL_R.CLBLL_L_A5->>CLBLL_L_A": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_A",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_A5"
+        },
+        "CLBLL_R.CLBLL_L_A6->>CLBLL_L_A": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_A",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_A6"
+        },
+        "CLBLL_R.CLBLL_L_AMUX->CLBLL_LOGIC_OUTS16": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS16",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_AMUX"
+        },
+        "CLBLL_R.CLBLL_L_AQ->CLBLL_LOGIC_OUTS0": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_AQ"
+        },
+        "CLBLL_R.CLBLL_L_B->>CLBLL_L_BMUX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_BMUX",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_B"
+        },
+        "CLBLL_R.CLBLL_L_B->CLBLL_LOGIC_OUTS9": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS9",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_B"
+        },
+        "CLBLL_R.CLBLL_L_B1->>CLBLL_L_B": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_B",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_B1"
+        },
+        "CLBLL_R.CLBLL_L_B2->>CLBLL_L_B": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_B",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_B2"
+        },
+        "CLBLL_R.CLBLL_L_B3->>CLBLL_L_B": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_B",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_B3"
+        },
+        "CLBLL_R.CLBLL_L_B4->>CLBLL_L_B": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_B",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_B4"
+        },
+        "CLBLL_R.CLBLL_L_B5->>CLBLL_L_B": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_B",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_B5"
+        },
+        "CLBLL_R.CLBLL_L_B6->>CLBLL_L_B": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_B",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_B6"
+        },
+        "CLBLL_R.CLBLL_L_BMUX->CLBLL_LOGIC_OUTS17": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS17",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_BMUX"
+        },
+        "CLBLL_R.CLBLL_L_BQ->CLBLL_LOGIC_OUTS1": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_BQ"
+        },
+        "CLBLL_R.CLBLL_L_C->>CLBLL_L_CMUX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_CMUX",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_C"
+        },
+        "CLBLL_R.CLBLL_L_C->CLBLL_LOGIC_OUTS10": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS10",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_C"
+        },
+        "CLBLL_R.CLBLL_L_C1->>CLBLL_L_C": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_C",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_C1"
+        },
+        "CLBLL_R.CLBLL_L_C2->>CLBLL_L_C": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_C",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_C2"
+        },
+        "CLBLL_R.CLBLL_L_C3->>CLBLL_L_C": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_C",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_C3"
+        },
+        "CLBLL_R.CLBLL_L_C4->>CLBLL_L_C": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_C",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_C4"
+        },
+        "CLBLL_R.CLBLL_L_C5->>CLBLL_L_C": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_C",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_C5"
+        },
+        "CLBLL_R.CLBLL_L_C6->>CLBLL_L_C": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_C",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_C6"
+        },
+        "CLBLL_R.CLBLL_L_CMUX->CLBLL_LOGIC_OUTS18": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS18",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_CMUX"
+        },
+        "CLBLL_R.CLBLL_L_COUT->>CLBLL_L_DMUX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_DMUX",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_COUT"
+        },
+        "CLBLL_R.CLBLL_L_COUT->CLBLL_L_COUT_N": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_COUT_N",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_COUT"
+        },
+        "CLBLL_R.CLBLL_L_CQ->CLBLL_LOGIC_OUTS2": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_CQ"
+        },
+        "CLBLL_R.CLBLL_L_D->>CLBLL_L_DMUX": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_DMUX",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_D"
+        },
+        "CLBLL_R.CLBLL_L_D->CLBLL_LOGIC_OUTS11": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS11",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_D"
+        },
+        "CLBLL_R.CLBLL_L_D1->>CLBLL_L_D": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_D",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_D1"
+        },
+        "CLBLL_R.CLBLL_L_D2->>CLBLL_L_D": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_D",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_D2"
+        },
+        "CLBLL_R.CLBLL_L_D3->>CLBLL_L_D": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_D",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_D3"
+        },
+        "CLBLL_R.CLBLL_L_D4->>CLBLL_L_D": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_D",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_D4"
+        },
+        "CLBLL_R.CLBLL_L_D5->>CLBLL_L_D": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_D",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_D5"
+        },
+        "CLBLL_R.CLBLL_L_D6->>CLBLL_L_D": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_L_D",
+            "is_directional": "1",
+            "is_pseudo": "1",
+            "src_wire": "CLBLL_L_D6"
+        },
+        "CLBLL_R.CLBLL_L_DMUX->CLBLL_LOGIC_OUTS19": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS19",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_DMUX"
+        },
+        "CLBLL_R.CLBLL_L_DQ->CLBLL_LOGIC_OUTS3": {
+            "can_invert": "0",
+            "dst_wire": "CLBLL_LOGIC_OUTS3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "CLBLL_L_DQ"
+        }
+    },
+    "sites": [
+        {
+            "name": "X0Y0",
+            "prefix": "SLICE",
+            "site_pins": {
+                "A": "CLBLL_LL_A",
+                "A1": "CLBLL_LL_A1",
+                "A2": "CLBLL_LL_A2",
+                "A3": "CLBLL_LL_A3",
+                "A4": "CLBLL_LL_A4",
+                "A5": "CLBLL_LL_A5",
+                "A6": "CLBLL_LL_A6",
+                "AMUX": "CLBLL_LL_AMUX",
+                "AQ": "CLBLL_LL_AQ",
+                "AX": "CLBLL_LL_AX",
+                "B": "CLBLL_LL_B",
+                "B1": "CLBLL_LL_B1",
+                "B2": "CLBLL_LL_B2",
+                "B3": "CLBLL_LL_B3",
+                "B4": "CLBLL_LL_B4",
+                "B5": "CLBLL_LL_B5",
+                "B6": "CLBLL_LL_B6",
+                "BMUX": "CLBLL_LL_BMUX",
+                "BQ": "CLBLL_LL_BQ",
+                "BX": "CLBLL_LL_BX",
+                "C": "CLBLL_LL_C",
+                "C1": "CLBLL_LL_C1",
+                "C2": "CLBLL_LL_C2",
+                "C3": "CLBLL_LL_C3",
+                "C4": "CLBLL_LL_C4",
+                "C5": "CLBLL_LL_C5",
+                "C6": "CLBLL_LL_C6",
+                "CE": "CLBLL_LL_CE",
+                "CIN": "CLBLL_LL_CIN",
+                "CLK": "CLBLL_LL_CLK",
+                "CMUX": "CLBLL_LL_CMUX",
+                "COUT": "CLBLL_LL_COUT",
+                "CQ": "CLBLL_LL_CQ",
+                "CX": "CLBLL_LL_CX",
+                "D": "CLBLL_LL_D",
+                "D1": "CLBLL_LL_D1",
+                "D2": "CLBLL_LL_D2",
+                "D3": "CLBLL_LL_D3",
+                "D4": "CLBLL_LL_D4",
+                "D5": "CLBLL_LL_D5",
+                "D6": "CLBLL_LL_D6",
+                "DMUX": "CLBLL_LL_DMUX",
+                "DQ": "CLBLL_LL_DQ",
+                "DX": "CLBLL_LL_DX",
+                "SR": "CLBLL_LL_SR"
+            },
+            "type": "SLICEL",
+            "x_coord": 0,
+            "y_coord": 0
+        },
+        {
+            "name": "X1Y0",
+            "prefix": "SLICE",
+            "site_pins": {
+                "A": "CLBLL_L_A",
+                "A1": "CLBLL_L_A1",
+                "A2": "CLBLL_L_A2",
+                "A3": "CLBLL_L_A3",
+                "A4": "CLBLL_L_A4",
+                "A5": "CLBLL_L_A5",
+                "A6": "CLBLL_L_A6",
+                "AMUX": "CLBLL_L_AMUX",
+                "AQ": "CLBLL_L_AQ",
+                "AX": "CLBLL_L_AX",
+                "B": "CLBLL_L_B",
+                "B1": "CLBLL_L_B1",
+                "B2": "CLBLL_L_B2",
+                "B3": "CLBLL_L_B3",
+                "B4": "CLBLL_L_B4",
+                "B5": "CLBLL_L_B5",
+                "B6": "CLBLL_L_B6",
+                "BMUX": "CLBLL_L_BMUX",
+                "BQ": "CLBLL_L_BQ",
+                "BX": "CLBLL_L_BX",
+                "C": "CLBLL_L_C",
+                "C1": "CLBLL_L_C1",
+                "C2": "CLBLL_L_C2",
+                "C3": "CLBLL_L_C3",
+                "C4": "CLBLL_L_C4",
+                "C5": "CLBLL_L_C5",
+                "C6": "CLBLL_L_C6",
+                "CE": "CLBLL_L_CE",
+                "CIN": "CLBLL_L_CIN",
+                "CLK": "CLBLL_L_CLK",
+                "CMUX": "CLBLL_L_CMUX",
+                "COUT": "CLBLL_L_COUT",
+                "CQ": "CLBLL_L_CQ",
+                "CX": "CLBLL_L_CX",
+                "D": "CLBLL_L_D",
+                "D1": "CLBLL_L_D1",
+                "D2": "CLBLL_L_D2",
+                "D3": "CLBLL_L_D3",
+                "D4": "CLBLL_L_D4",
+                "D5": "CLBLL_L_D5",
+                "D6": "CLBLL_L_D6",
+                "DMUX": "CLBLL_L_DMUX",
+                "DQ": "CLBLL_L_DQ",
+                "DX": "CLBLL_L_DX",
+                "SR": "CLBLL_L_SR"
+            },
+            "type": "SLICEL",
+            "x_coord": 1,
+            "y_coord": 0
+        }
+    ],
+    "tile_type": "CLBLL_R",
+    "wires": [
+        "CLBLL_BYP0",
+        "CLBLL_BYP1",
+        "CLBLL_BYP2",
+        "CLBLL_BYP3",
+        "CLBLL_BYP4",
+        "CLBLL_BYP5",
+        "CLBLL_BYP6",
+        "CLBLL_BYP7",
+        "CLBLL_CLK0",
+        "CLBLL_CLK1",
+        "CLBLL_CTRL0",
+        "CLBLL_CTRL1",
+        "CLBLL_EE2A0",
+        "CLBLL_EE2A1",
+        "CLBLL_EE2A2",
+        "CLBLL_EE2A3",
+        "CLBLL_EE2BEG0",
+        "CLBLL_EE2BEG1",
+        "CLBLL_EE2BEG2",
+        "CLBLL_EE2BEG3",
+        "CLBLL_EE4A0",
+        "CLBLL_EE4A1",
+        "CLBLL_EE4A2",
+        "CLBLL_EE4A3",
+        "CLBLL_EE4B0",
+        "CLBLL_EE4B1",
+        "CLBLL_EE4B2",
+        "CLBLL_EE4B3",
+        "CLBLL_EE4BEG0",
+        "CLBLL_EE4BEG1",
+        "CLBLL_EE4BEG2",
+        "CLBLL_EE4BEG3",
+        "CLBLL_EE4C0",
+        "CLBLL_EE4C1",
+        "CLBLL_EE4C2",
+        "CLBLL_EE4C3",
+        "CLBLL_EL1BEG0",
+        "CLBLL_EL1BEG1",
+        "CLBLL_EL1BEG2",
+        "CLBLL_EL1BEG3",
+        "CLBLL_ER1BEG0",
+        "CLBLL_ER1BEG1",
+        "CLBLL_ER1BEG2",
+        "CLBLL_ER1BEG3",
+        "CLBLL_FAN0",
+        "CLBLL_FAN1",
+        "CLBLL_FAN2",
+        "CLBLL_FAN3",
+        "CLBLL_FAN4",
+        "CLBLL_FAN5",
+        "CLBLL_FAN6",
+        "CLBLL_FAN7",
+        "CLBLL_IMUX0",
+        "CLBLL_IMUX1",
+        "CLBLL_IMUX10",
+        "CLBLL_IMUX11",
+        "CLBLL_IMUX12",
+        "CLBLL_IMUX13",
+        "CLBLL_IMUX14",
+        "CLBLL_IMUX15",
+        "CLBLL_IMUX16",
+        "CLBLL_IMUX17",
+        "CLBLL_IMUX18",
+        "CLBLL_IMUX19",
+        "CLBLL_IMUX2",
+        "CLBLL_IMUX20",
+        "CLBLL_IMUX21",
+        "CLBLL_IMUX22",
+        "CLBLL_IMUX23",
+        "CLBLL_IMUX24",
+        "CLBLL_IMUX25",
+        "CLBLL_IMUX26",
+        "CLBLL_IMUX27",
+        "CLBLL_IMUX28",
+        "CLBLL_IMUX29",
+        "CLBLL_IMUX3",
+        "CLBLL_IMUX30",
+        "CLBLL_IMUX31",
+        "CLBLL_IMUX32",
+        "CLBLL_IMUX33",
+        "CLBLL_IMUX34",
+        "CLBLL_IMUX35",
+        "CLBLL_IMUX36",
+        "CLBLL_IMUX37",
+        "CLBLL_IMUX38",
+        "CLBLL_IMUX39",
+        "CLBLL_IMUX4",
+        "CLBLL_IMUX40",
+        "CLBLL_IMUX41",
+        "CLBLL_IMUX42",
+        "CLBLL_IMUX43",
+        "CLBLL_IMUX44",
+        "CLBLL_IMUX45",
+        "CLBLL_IMUX46",
+        "CLBLL_IMUX47",
+        "CLBLL_IMUX5",
+        "CLBLL_IMUX6",
+        "CLBLL_IMUX7",
+        "CLBLL_IMUX8",
+        "CLBLL_IMUX9",
+        "CLBLL_LH1",
+        "CLBLL_LH10",
+        "CLBLL_LH11",
+        "CLBLL_LH12",
+        "CLBLL_LH2",
+        "CLBLL_LH3",
+        "CLBLL_LH4",
+        "CLBLL_LH5",
+        "CLBLL_LH6",
+        "CLBLL_LH7",
+        "CLBLL_LH8",
+        "CLBLL_LH9",
+        "CLBLL_LL_A",
+        "CLBLL_LL_A1",
+        "CLBLL_LL_A2",
+        "CLBLL_LL_A3",
+        "CLBLL_LL_A4",
+        "CLBLL_LL_A5",
+        "CLBLL_LL_A6",
+        "CLBLL_LL_AMUX",
+        "CLBLL_LL_AQ",
+        "CLBLL_LL_AX",
+        "CLBLL_LL_B",
+        "CLBLL_LL_B1",
+        "CLBLL_LL_B2",
+        "CLBLL_LL_B3",
+        "CLBLL_LL_B4",
+        "CLBLL_LL_B5",
+        "CLBLL_LL_B6",
+        "CLBLL_LL_BMUX",
+        "CLBLL_LL_BQ",
+        "CLBLL_LL_BX",
+        "CLBLL_LL_C",
+        "CLBLL_LL_C1",
+        "CLBLL_LL_C2",
+        "CLBLL_LL_C3",
+        "CLBLL_LL_C4",
+        "CLBLL_LL_C5",
+        "CLBLL_LL_C6",
+        "CLBLL_LL_CE",
+        "CLBLL_LL_CIN",
+        "CLBLL_LL_CLK",
+        "CLBLL_LL_CMUX",
+        "CLBLL_LL_COUT",
+        "CLBLL_LL_COUT_N",
+        "CLBLL_LL_CQ",
+        "CLBLL_LL_CX",
+        "CLBLL_LL_D",
+        "CLBLL_LL_D1",
+        "CLBLL_LL_D2",
+        "CLBLL_LL_D3",
+        "CLBLL_LL_D4",
+        "CLBLL_LL_D5",
+        "CLBLL_LL_D6",
+        "CLBLL_LL_DMUX",
+        "CLBLL_LL_DQ",
+        "CLBLL_LL_DX",
+        "CLBLL_LL_SR",
+        "CLBLL_LOGIC_OUTS0",
+        "CLBLL_LOGIC_OUTS1",
+        "CLBLL_LOGIC_OUTS10",
+        "CLBLL_LOGIC_OUTS11",
+        "CLBLL_LOGIC_OUTS12",
+        "CLBLL_LOGIC_OUTS13",
+        "CLBLL_LOGIC_OUTS14",
+        "CLBLL_LOGIC_OUTS15",
+        "CLBLL_LOGIC_OUTS16",
+        "CLBLL_LOGIC_OUTS17",
+        "CLBLL_LOGIC_OUTS18",
+        "CLBLL_LOGIC_OUTS19",
+        "CLBLL_LOGIC_OUTS2",
+        "CLBLL_LOGIC_OUTS20",
+        "CLBLL_LOGIC_OUTS21",
+        "CLBLL_LOGIC_OUTS22",
+        "CLBLL_LOGIC_OUTS23",
+        "CLBLL_LOGIC_OUTS3",
+        "CLBLL_LOGIC_OUTS4",
+        "CLBLL_LOGIC_OUTS5",
+        "CLBLL_LOGIC_OUTS6",
+        "CLBLL_LOGIC_OUTS7",
+        "CLBLL_LOGIC_OUTS8",
+        "CLBLL_LOGIC_OUTS9",
+        "CLBLL_L_A",
+        "CLBLL_L_A1",
+        "CLBLL_L_A2",
+        "CLBLL_L_A3",
+        "CLBLL_L_A4",
+        "CLBLL_L_A5",
+        "CLBLL_L_A6",
+        "CLBLL_L_AMUX",
+        "CLBLL_L_AQ",
+        "CLBLL_L_AX",
+        "CLBLL_L_B",
+        "CLBLL_L_B1",
+        "CLBLL_L_B2",
+        "CLBLL_L_B3",
+        "CLBLL_L_B4",
+        "CLBLL_L_B5",
+        "CLBLL_L_B6",
+        "CLBLL_L_BMUX",
+        "CLBLL_L_BQ",
+        "CLBLL_L_BX",
+        "CLBLL_L_C",
+        "CLBLL_L_C1",
+        "CLBLL_L_C2",
+        "CLBLL_L_C3",
+        "CLBLL_L_C4",
+        "CLBLL_L_C5",
+        "CLBLL_L_C6",
+        "CLBLL_L_CE",
+        "CLBLL_L_CIN",
+        "CLBLL_L_CLK",
+        "CLBLL_L_CMUX",
+        "CLBLL_L_COUT",
+        "CLBLL_L_COUT_N",
+        "CLBLL_L_CQ",
+        "CLBLL_L_CX",
+        "CLBLL_L_D",
+        "CLBLL_L_D1",
+        "CLBLL_L_D2",
+        "CLBLL_L_D3",
+        "CLBLL_L_D4",
+        "CLBLL_L_D5",
+        "CLBLL_L_D6",
+        "CLBLL_L_DMUX",
+        "CLBLL_L_DQ",
+        "CLBLL_L_DX",
+        "CLBLL_L_SR",
+        "CLBLL_MONITOR_N",
+        "CLBLL_MONITOR_P",
+        "CLBLL_NE2A0",
+        "CLBLL_NE2A1",
+        "CLBLL_NE2A2",
+        "CLBLL_NE2A3",
+        "CLBLL_NE4BEG0",
+        "CLBLL_NE4BEG1",
+        "CLBLL_NE4BEG2",
+        "CLBLL_NE4BEG3",
+        "CLBLL_NE4C0",
+        "CLBLL_NE4C1",
+        "CLBLL_NE4C2",
+        "CLBLL_NE4C3",
+        "CLBLL_NW2A0",
+        "CLBLL_NW2A1",
+        "CLBLL_NW2A2",
+        "CLBLL_NW2A3",
+        "CLBLL_NW4A0",
+        "CLBLL_NW4A1",
+        "CLBLL_NW4A2",
+        "CLBLL_NW4A3",
+        "CLBLL_NW4END0",
+        "CLBLL_NW4END1",
+        "CLBLL_NW4END2",
+        "CLBLL_NW4END3",
+        "CLBLL_SE2A0",
+        "CLBLL_SE2A1",
+        "CLBLL_SE2A2",
+        "CLBLL_SE2A3",
+        "CLBLL_SE4BEG0",
+        "CLBLL_SE4BEG1",
+        "CLBLL_SE4BEG2",
+        "CLBLL_SE4BEG3",
+        "CLBLL_SE4C0",
+        "CLBLL_SE4C1",
+        "CLBLL_SE4C2",
+        "CLBLL_SE4C3",
+        "CLBLL_SW2A0",
+        "CLBLL_SW2A1",
+        "CLBLL_SW2A2",
+        "CLBLL_SW2A3",
+        "CLBLL_SW4A0",
+        "CLBLL_SW4A1",
+        "CLBLL_SW4A2",
+        "CLBLL_SW4A3",
+        "CLBLL_SW4END0",
+        "CLBLL_SW4END1",
+        "CLBLL_SW4END2",
+        "CLBLL_SW4END3",
+        "CLBLL_WL1END0",
+        "CLBLL_WL1END1",
+        "CLBLL_WL1END2",
+        "CLBLL_WL1END3",
+        "CLBLL_WR1END0",
+        "CLBLL_WR1END1",
+        "CLBLL_WR1END2",
+        "CLBLL_WR1END3",
+        "CLBLL_WW2A0",
+        "CLBLL_WW2A1",
+        "CLBLL_WW2A2",
+        "CLBLL_WW2A3",
+        "CLBLL_WW2END0",
+        "CLBLL_WW2END1",
+        "CLBLL_WW2END2",
+        "CLBLL_WW2END3",
+        "CLBLL_WW4A0",
+        "CLBLL_WW4A1",
+        "CLBLL_WW4A2",
+        "CLBLL_WW4A3",
+        "CLBLL_WW4B0",
+        "CLBLL_WW4B1",
+        "CLBLL_WW4B2",
+        "CLBLL_WW4B3",
+        "CLBLL_WW4C0",
+        "CLBLL_WW4C1",
+        "CLBLL_WW4C2",
+        "CLBLL_WW4C3",
+        "CLBLL_WW4END0",
+        "CLBLL_WW4END1",
+        "CLBLL_WW4END2",
+        "CLBLL_WW4END3"
+    ]
 }

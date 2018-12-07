@@ -1,406 +1,214 @@
 {
     "site_pins": {
-        "PLL1REFCLKSEL1": {
+        "BGBYPASSB": {
             "direction": "IN"
         },
-        "DMONITOROUT7": {
-            "direction": "OUT"
-        },
-        "DRPDO8": {
-            "direction": "OUT"
-        },
-        "PLL0REFCLKLOST": {
-            "direction": "OUT"
-        },
-        "PMARSVDOUT2": {
-            "direction": "OUT"
-        },
-        "DRPDO7": {
-            "direction": "OUT"
-        },
-        "PLL0FBCLKLOST": {
-            "direction": "OUT"
-        },
-        "PLL1OUTCLK": {
-            "direction": "OUT"
-        },
-        "DRPDO6": {
-            "direction": "OUT"
-        },
-        "PMASCANOUT0": {
-            "direction": "OUT"
-        },
-        "BGRCALOVRD3": {
+        "BGMONITORENB": {
             "direction": "IN"
         },
-        "GTWESTREFCLK1": {
+        "BGPDB": {
             "direction": "IN"
-        },
-        "DRPADDR4": {
-            "direction": "IN"
-        },
-        "PLLRSVD13": {
-            "direction": "IN"
-        },
-        "DRPDI15": {
-            "direction": "IN"
-        },
-        "GTEASTREFCLK0": {
-            "direction": "IN"
-        },
-        "PLL1REFCLKLOST": {
-            "direction": "OUT"
-        },
-        "DRPDO10": {
-            "direction": "OUT"
         },
         "BGRCALOVRD0": {
-            "direction": "IN"
-        },
-        "PLLRSVD112": {
-            "direction": "IN"
-        },
-        "PLLRSVD15": {
-            "direction": "IN"
-        },
-        "PLLRSVD12": {
-            "direction": "IN"
-        },
-        "PLLRSVD18": {
-            "direction": "IN"
-        },
-        "DRPEN": {
-            "direction": "IN"
-        },
-        "DRPDO3": {
-            "direction": "OUT"
-        },
-        "DRPDI13": {
-            "direction": "IN"
-        },
-        "PLL0RESET": {
-            "direction": "IN"
-        },
-        "DRPDI11": {
-            "direction": "IN"
-        },
-        "PLLRSVD14": {
-            "direction": "IN"
-        },
-        "GTWESTREFCLK0": {
-            "direction": "IN"
-        },
-        "DRPDI0": {
-            "direction": "IN"
-        },
-        "REFCLKOUTMONITOR1": {
-            "direction": "OUT"
-        },
-        "RCALENB": {
-            "direction": "IN"
-        },
-        "PLL1FBCLKLOST": {
-            "direction": "OUT"
-        },
-        "PMARSVDOUT15": {
-            "direction": "OUT"
-        },
-        "PLL1LOCKDETCLK": {
-            "direction": "IN"
-        },
-        "DRPDO15": {
-            "direction": "OUT"
-        },
-        "PMARSVD7": {
-            "direction": "IN"
-        },
-        "PMASCANCLK0": {
-            "direction": "IN"
-        },
-        "PMARSVD0": {
             "direction": "IN"
         },
         "BGRCALOVRD1": {
             "direction": "IN"
         },
-        "PMARSVDOUT9": {
-            "direction": "OUT"
-        },
-        "PMARSVD6": {
+        "BGRCALOVRD2": {
             "direction": "IN"
         },
-        "DRPDI14": {
+        "BGRCALOVRD3": {
             "direction": "IN"
         },
-        "DMONITOROUT2": {
-            "direction": "OUT"
-        },
-        "DRPRDY": {
-            "direction": "OUT"
-        },
-        "DRPADDR1": {
-            "direction": "IN"
-        },
-        "PMARSVDOUT3": {
-            "direction": "OUT"
-        },
-        "PLL0OUTREFCLK": {
-            "direction": "OUT"
-        },
-        "PMASCANIN3": {
-            "direction": "IN"
-        },
-        "DRPDO13": {
-            "direction": "OUT"
-        },
-        "PLL1LOCK": {
-            "direction": "OUT"
-        },
-        "PMASCANENB": {
+        "BGRCALOVRD4": {
             "direction": "IN"
         },
         "BGRCALOVRDENB": {
             "direction": "IN"
         },
-        "PLL1RESET": {
-            "direction": "IN"
-        },
-        "GTREFCLK0": {
-            "direction": "IN"
-        },
-        "DRPDI5": {
-            "direction": "IN"
+        "DMONITOROUT0": {
+            "direction": "OUT"
         },
         "DMONITOROUT1": {
             "direction": "OUT"
         },
-        "DRPDO11": {
+        "DMONITOROUT2": {
             "direction": "OUT"
         },
-        "PLL0REFCLKSEL1": {
-            "direction": "IN"
-        },
-        "PMASCANCLK1": {
-            "direction": "IN"
-        },
-        "PMASCANOUT2": {
-            "direction": "OUT"
-        },
-        "PLLRSVD19": {
-            "direction": "IN"
-        },
-        "BGRCALOVRD2": {
-            "direction": "IN"
-        },
-        "PMASCANIN2": {
-            "direction": "IN"
-        },
-        "PLL0REFCLKSEL2": {
-            "direction": "IN"
-        },
-        "PLLRSVD16": {
-            "direction": "IN"
-        },
-        "DRPDO2": {
-            "direction": "OUT"
-        },
-        "DMONITOROUT0": {
-            "direction": "OUT"
-        },
-        "DRPDI4": {
-            "direction": "IN"
-        },
-        "QDPMASCANMODEB": {
-            "direction": "IN"
-        },
-        "DRPDO5": {
+        "DMONITOROUT3": {
             "direction": "OUT"
         },
         "DMONITOROUT4": {
             "direction": "OUT"
         },
-        "PLLRSVD10": {
-            "direction": "IN"
-        },
-        "GTREFCLK1": {
-            "direction": "IN"
-        },
-        "DRPDO0": {
+        "DMONITOROUT5": {
             "direction": "OUT"
         },
-        "DRPCLK": {
-            "direction": "IN"
-        },
-        "PLLCLKSPARE": {
-            "direction": "IN"
-        },
-        "DRPDI3": {
-            "direction": "IN"
-        },
-        "PLL1PD": {
-            "direction": "IN"
-        },
-        "PLLRSVD20": {
-            "direction": "IN"
-        },
-        "PMASCANOUT3": {
+        "DMONITOROUT6": {
             "direction": "OUT"
         },
-        "PMARSVDOUT7": {
+        "DMONITOROUT7": {
             "direction": "OUT"
         },
-        "PLLRSVD115": {
+        "DRPADDR0": {
             "direction": "IN"
         },
-        "PLLRSVD24": {
+        "DRPADDR1": {
             "direction": "IN"
         },
         "DRPADDR2": {
             "direction": "IN"
         },
-        "GTGREFCLK0": {
+        "DRPADDR3": {
             "direction": "IN"
         },
-        "DRPDI7": {
+        "DRPADDR4": {
             "direction": "IN"
         },
-        "PMARSVDOUT5": {
-            "direction": "OUT"
-        },
-        "PMARSVDOUT10": {
-            "direction": "OUT"
-        },
-        "GTEASTREFCLK1": {
+        "DRPADDR5": {
             "direction": "IN"
-        },
-        "PMARSVD5": {
-            "direction": "IN"
-        },
-        "DRPDO14": {
-            "direction": "OUT"
-        },
-        "QDPMASCANRSTEN": {
-            "direction": "IN"
-        },
-        "PMARSVD2": {
-            "direction": "IN"
-        },
-        "DRPDI6": {
-            "direction": "IN"
-        },
-        "PMARSVDOUT6": {
-            "direction": "OUT"
-        },
-        "DRPDO4": {
-            "direction": "OUT"
-        },
-        "PMASCANOUT1": {
-            "direction": "OUT"
         },
         "DRPADDR6": {
             "direction": "IN"
         },
-        "DMONITOROUT6": {
-            "direction": "OUT"
-        },
-        "DRPDO9": {
-            "direction": "OUT"
-        },
-        "PLL0LOCKEN": {
+        "DRPADDR7": {
             "direction": "IN"
         },
-        "PMASCANIN0": {
+        "DRPCLK": {
             "direction": "IN"
         },
-        "PMARSVDOUT13": {
-            "direction": "OUT"
-        },
-        "REFCLKOUTMONITOR0": {
-            "direction": "OUT"
-        },
-        "PMARSVD1": {
-            "direction": "IN"
-        },
-        "DMONITOROUT3": {
-            "direction": "OUT"
-        },
-        "PLLRSVD110": {
-            "direction": "IN"
-        },
-        "DRPADDR0": {
-            "direction": "IN"
-        },
-        "PLLRSVD17": {
-            "direction": "IN"
-        },
-        "PLLRSVD114": {
-            "direction": "IN"
-        },
-        "DRPDI8": {
-            "direction": "IN"
-        },
-        "DRPDO1": {
-            "direction": "OUT"
-        },
-        "GTGREFCLK1": {
-            "direction": "IN"
-        },
-        "PLLRSVD11": {
+        "DRPDI0": {
             "direction": "IN"
         },
         "DRPDI1": {
             "direction": "IN"
         },
-        "PMASCANIN1": {
+        "DRPDI10": {
             "direction": "IN"
         },
-        "PLL0PD": {
+        "DRPDI11": {
             "direction": "IN"
         },
-        "PMARSVDOUT11": {
+        "DRPDI12": {
+            "direction": "IN"
+        },
+        "DRPDI13": {
+            "direction": "IN"
+        },
+        "DRPDI14": {
+            "direction": "IN"
+        },
+        "DRPDI15": {
+            "direction": "IN"
+        },
+        "DRPDI2": {
+            "direction": "IN"
+        },
+        "DRPDI3": {
+            "direction": "IN"
+        },
+        "DRPDI4": {
+            "direction": "IN"
+        },
+        "DRPDI5": {
+            "direction": "IN"
+        },
+        "DRPDI6": {
+            "direction": "IN"
+        },
+        "DRPDI7": {
+            "direction": "IN"
+        },
+        "DRPDI8": {
+            "direction": "IN"
+        },
+        "DRPDI9": {
+            "direction": "IN"
+        },
+        "DRPDO0": {
             "direction": "OUT"
         },
-        "BGRCALOVRD4": {
-            "direction": "IN"
-        },
-        "PLL1OUTREFCLK": {
+        "DRPDO1": {
             "direction": "OUT"
         },
-        "PMARSVDOUT1": {
+        "DRPDO10": {
             "direction": "OUT"
         },
-        "PLL0OUTCLK": {
+        "DRPDO11": {
             "direction": "OUT"
         },
-        "PLLRSVD21": {
-            "direction": "IN"
-        },
-        "PMARSVDOUT4": {
+        "DRPDO12": {
             "direction": "OUT"
         },
-        "PMASCANIN4": {
-            "direction": "IN"
-        },
-        "PMARSVDOUT14": {
+        "DRPDO13": {
             "direction": "OUT"
         },
-        "PLL1REFCLKSEL2": {
-            "direction": "IN"
-        },
-        "PLL0REFCLKSEL0": {
-            "direction": "IN"
-        },
-        "PLL1LOCKEN": {
-            "direction": "IN"
-        },
-        "PMASCANOUT4": {
+        "DRPDO14": {
             "direction": "OUT"
         },
-        "PMARSVDOUT8": {
+        "DRPDO15": {
             "direction": "OUT"
         },
-        "BGMONITORENB": {
+        "DRPDO2": {
+            "direction": "OUT"
+        },
+        "DRPDO3": {
+            "direction": "OUT"
+        },
+        "DRPDO4": {
+            "direction": "OUT"
+        },
+        "DRPDO5": {
+            "direction": "OUT"
+        },
+        "DRPDO6": {
+            "direction": "OUT"
+        },
+        "DRPDO7": {
+            "direction": "OUT"
+        },
+        "DRPDO8": {
+            "direction": "OUT"
+        },
+        "DRPDO9": {
+            "direction": "OUT"
+        },
+        "DRPEN": {
             "direction": "IN"
+        },
+        "DRPRDY": {
+            "direction": "OUT"
+        },
+        "DRPWE": {
+            "direction": "IN"
+        },
+        "GTEASTREFCLK0": {
+            "direction": "IN"
+        },
+        "GTEASTREFCLK1": {
+            "direction": "IN"
+        },
+        "GTGREFCLK0": {
+            "direction": "IN"
+        },
+        "GTGREFCLK1": {
+            "direction": "IN"
+        },
+        "GTREFCLK0": {
+            "direction": "IN"
+        },
+        "GTREFCLK1": {
+            "direction": "IN"
+        },
+        "GTWESTREFCLK0": {
+            "direction": "IN"
+        },
+        "GTWESTREFCLK1": {
+            "direction": "IN"
+        },
+        "PLL0FBCLKLOST": {
+            "direction": "OUT"
         },
         "PLL0LOCK": {
             "direction": "OUT"
@@ -408,109 +216,269 @@
         "PLL0LOCKDETCLK": {
             "direction": "IN"
         },
-        "BGBYPASSB": {
+        "PLL0LOCKEN": {
             "direction": "IN"
         },
-        "DRPDI2": {
+        "PLL0OUTCLK": {
+            "direction": "OUT"
+        },
+        "PLL0OUTREFCLK": {
+            "direction": "OUT"
+        },
+        "PLL0PD": {
             "direction": "IN"
         },
-        "DRPADDR5": {
+        "PLL0REFCLKLOST": {
+            "direction": "OUT"
+        },
+        "PLL0REFCLKSEL0": {
             "direction": "IN"
         },
-        "DRPDI9": {
+        "PLL0REFCLKSEL1": {
             "direction": "IN"
         },
-        "PLLRSVD23": {
+        "PLL0REFCLKSEL2": {
             "direction": "IN"
+        },
+        "PLL0RESET": {
+            "direction": "IN"
+        },
+        "PLL1FBCLKLOST": {
+            "direction": "OUT"
+        },
+        "PLL1LOCK": {
+            "direction": "OUT"
+        },
+        "PLL1LOCKDETCLK": {
+            "direction": "IN"
+        },
+        "PLL1LOCKEN": {
+            "direction": "IN"
+        },
+        "PLL1OUTCLK": {
+            "direction": "OUT"
+        },
+        "PLL1OUTREFCLK": {
+            "direction": "OUT"
+        },
+        "PLL1PD": {
+            "direction": "IN"
+        },
+        "PLL1REFCLKLOST": {
+            "direction": "OUT"
         },
         "PLL1REFCLKSEL0": {
             "direction": "IN"
         },
-        "PMARSVDOUT12": {
-            "direction": "OUT"
-        },
-        "DRPDO12": {
-            "direction": "OUT"
-        },
-        "BGPDB": {
+        "PLL1REFCLKSEL1": {
             "direction": "IN"
         },
-        "PLLRSVD113": {
+        "PLL1REFCLKSEL2": {
             "direction": "IN"
         },
-        "DRPDI12": {
+        "PLL1RESET": {
             "direction": "IN"
         },
-        "PMARSVDOUT0": {
-            "direction": "OUT"
-        },
-        "DRPADDR3": {
+        "PLLCLKSPARE": {
             "direction": "IN"
         },
-        "PMARSVD4": {
+        "PLLRSVD10": {
             "direction": "IN"
         },
-        "DMONITOROUT5": {
-            "direction": "OUT"
-        },
-        "DRPWE": {
+        "PLLRSVD11": {
             "direction": "IN"
         },
-        "PLLRSVD22": {
-            "direction": "IN"
-        },
-        "PMARSVD3": {
+        "PLLRSVD110": {
             "direction": "IN"
         },
         "PLLRSVD111": {
             "direction": "IN"
         },
-        "DRPADDR7": {
+        "PLLRSVD112": {
             "direction": "IN"
         },
-        "DRPDI10": {
+        "PLLRSVD113": {
             "direction": "IN"
+        },
+        "PLLRSVD114": {
+            "direction": "IN"
+        },
+        "PLLRSVD115": {
+            "direction": "IN"
+        },
+        "PLLRSVD12": {
+            "direction": "IN"
+        },
+        "PLLRSVD13": {
+            "direction": "IN"
+        },
+        "PLLRSVD14": {
+            "direction": "IN"
+        },
+        "PLLRSVD15": {
+            "direction": "IN"
+        },
+        "PLLRSVD16": {
+            "direction": "IN"
+        },
+        "PLLRSVD17": {
+            "direction": "IN"
+        },
+        "PLLRSVD18": {
+            "direction": "IN"
+        },
+        "PLLRSVD19": {
+            "direction": "IN"
+        },
+        "PLLRSVD20": {
+            "direction": "IN"
+        },
+        "PLLRSVD21": {
+            "direction": "IN"
+        },
+        "PLLRSVD22": {
+            "direction": "IN"
+        },
+        "PLLRSVD23": {
+            "direction": "IN"
+        },
+        "PLLRSVD24": {
+            "direction": "IN"
+        },
+        "PMARSVD0": {
+            "direction": "IN"
+        },
+        "PMARSVD1": {
+            "direction": "IN"
+        },
+        "PMARSVD2": {
+            "direction": "IN"
+        },
+        "PMARSVD3": {
+            "direction": "IN"
+        },
+        "PMARSVD4": {
+            "direction": "IN"
+        },
+        "PMARSVD5": {
+            "direction": "IN"
+        },
+        "PMARSVD6": {
+            "direction": "IN"
+        },
+        "PMARSVD7": {
+            "direction": "IN"
+        },
+        "PMARSVDOUT0": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT1": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT10": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT11": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT12": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT13": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT14": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT15": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT2": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT3": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT4": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT5": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT6": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT7": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT8": {
+            "direction": "OUT"
+        },
+        "PMARSVDOUT9": {
+            "direction": "OUT"
+        },
+        "PMASCANCLK0": {
+            "direction": "IN"
+        },
+        "PMASCANCLK1": {
+            "direction": "IN"
+        },
+        "PMASCANENB": {
+            "direction": "IN"
+        },
+        "PMASCANIN0": {
+            "direction": "IN"
+        },
+        "PMASCANIN1": {
+            "direction": "IN"
+        },
+        "PMASCANIN2": {
+            "direction": "IN"
+        },
+        "PMASCANIN3": {
+            "direction": "IN"
+        },
+        "PMASCANIN4": {
+            "direction": "IN"
+        },
+        "PMASCANOUT0": {
+            "direction": "OUT"
+        },
+        "PMASCANOUT1": {
+            "direction": "OUT"
+        },
+        "PMASCANOUT2": {
+            "direction": "OUT"
+        },
+        "PMASCANOUT3": {
+            "direction": "OUT"
+        },
+        "PMASCANOUT4": {
+            "direction": "OUT"
+        },
+        "QDPMASCANMODEB": {
+            "direction": "IN"
+        },
+        "QDPMASCANRSTEN": {
+            "direction": "IN"
+        },
+        "RCALENB": {
+            "direction": "IN"
+        },
+        "REFCLKOUTMONITOR0": {
+            "direction": "OUT"
+        },
+        "REFCLKOUTMONITOR1": {
+            "direction": "OUT"
         }
     },
     "site_pips": {
-        "PLL1LOCKDETCLKINV:PLL1LOCKDETCLK": {
-            "from_pin": "PLL1LOCKDETCLK",
-            "to_pin": "OUT"
-        },
-        "PMASCANCLK0INV:PMASCANCLK0_B": {
-            "from_pin": "PMASCANCLK0_B",
-            "to_pin": "OUT"
-        },
-        "PLL0LOCKDETCLKINV:PLL0LOCKDETCLK_B": {
-            "from_pin": "PLL0LOCKDETCLK_B",
-            "to_pin": "OUT"
-        },
-        "PLL1LOCKDETCLKINV:PLL1LOCKDETCLK_B": {
-            "from_pin": "PLL1LOCKDETCLK_B",
-            "to_pin": "OUT"
-        },
-        "PMASCANCLK1INV:PMASCANCLK1": {
-            "from_pin": "PMASCANCLK1",
-            "to_pin": "OUT"
-        },
-        "PLL0LOCKDETCLKINV:PLL0LOCKDETCLK": {
-            "from_pin": "PLL0LOCKDETCLK",
+        "DRPCLKINV:DRPCLK": {
+            "from_pin": "DRPCLK",
             "to_pin": "OUT"
         },
         "DRPCLKINV:DRPCLK_B": {
             "from_pin": "DRPCLK_B",
-            "to_pin": "OUT"
-        },
-        "PMASCANCLK1INV:PMASCANCLK1_B": {
-            "from_pin": "PMASCANCLK1_B",
-            "to_pin": "OUT"
-        },
-        "PLLCLKSPAREINV:PLLCLKSPARE_B": {
-            "from_pin": "PLLCLKSPARE_B",
-            "to_pin": "OUT"
-        },
-        "PLLCLKSPAREINV:PLLCLKSPARE": {
-            "from_pin": "PLLCLKSPARE",
             "to_pin": "OUT"
         },
         "GTGREFCLK0INV:GTGREFCLK0": {
@@ -521,20 +489,52 @@
             "from_pin": "GTGREFCLK0_B",
             "to_pin": "OUT"
         },
-        "GTGREFCLK1INV:GTGREFCLK1_B": {
-            "from_pin": "GTGREFCLK1_B",
-            "to_pin": "OUT"
-        },
-        "DRPCLKINV:DRPCLK": {
-            "from_pin": "DRPCLK",
-            "to_pin": "OUT"
-        },
         "GTGREFCLK1INV:GTGREFCLK1": {
             "from_pin": "GTGREFCLK1",
             "to_pin": "OUT"
         },
+        "GTGREFCLK1INV:GTGREFCLK1_B": {
+            "from_pin": "GTGREFCLK1_B",
+            "to_pin": "OUT"
+        },
+        "PLL0LOCKDETCLKINV:PLL0LOCKDETCLK": {
+            "from_pin": "PLL0LOCKDETCLK",
+            "to_pin": "OUT"
+        },
+        "PLL0LOCKDETCLKINV:PLL0LOCKDETCLK_B": {
+            "from_pin": "PLL0LOCKDETCLK_B",
+            "to_pin": "OUT"
+        },
+        "PLL1LOCKDETCLKINV:PLL1LOCKDETCLK": {
+            "from_pin": "PLL1LOCKDETCLK",
+            "to_pin": "OUT"
+        },
+        "PLL1LOCKDETCLKINV:PLL1LOCKDETCLK_B": {
+            "from_pin": "PLL1LOCKDETCLK_B",
+            "to_pin": "OUT"
+        },
+        "PLLCLKSPAREINV:PLLCLKSPARE": {
+            "from_pin": "PLLCLKSPARE",
+            "to_pin": "OUT"
+        },
+        "PLLCLKSPAREINV:PLLCLKSPARE_B": {
+            "from_pin": "PLLCLKSPARE_B",
+            "to_pin": "OUT"
+        },
         "PMASCANCLK0INV:PMASCANCLK0": {
             "from_pin": "PMASCANCLK0",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK0INV:PMASCANCLK0_B": {
+            "from_pin": "PMASCANCLK0_B",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK1INV:PMASCANCLK1": {
+            "from_pin": "PMASCANCLK1",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK1INV:PMASCANCLK1_B": {
+            "from_pin": "PMASCANCLK1_B",
             "to_pin": "OUT"
         }
     },

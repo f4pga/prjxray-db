@@ -1,150 +1,27 @@
 {
     "site_pins": {
-        "FINEINC": {
+        "BURSTPENDING": {
             "direction": "IN"
         },
-        "STG1REGL7": {
+        "BURSTPENDINGPHY": {
             "direction": "IN"
         },
-        "TESTIN3": {
+        "COUNTERLOADEN": {
             "direction": "IN"
         },
         "COUNTERLOADVAL0": {
             "direction": "IN"
         },
-        "SCANIN": {
-            "direction": "IN"
-        },
-        "COUNTERREADVAL1": {
-            "direction": "OUT"
-        },
-        "RANKSELPHY0": {
-            "direction": "IN"
-        },
-        "ENSTG1": {
-            "direction": "IN"
-        },
-        "TESTIN1": {
-            "direction": "IN"
-        },
-        "STG1READ": {
-            "direction": "IN"
-        },
-        "STG1REGR2": {
-            "direction": "OUT"
-        },
-        "TESTIN6": {
-            "direction": "IN"
-        },
-        "SCANOUT": {
-            "direction": "OUT"
-        },
-        "STG1REGL0": {
-            "direction": "IN"
-        },
-        "STG1INCDEC": {
-            "direction": "IN"
-        },
-        "ICLKDIV": {
-            "direction": "OUT"
-        },
-        "ENSTG1ADJUSTB": {
-            "direction": "IN"
-        },
-        "COUNTERREADVAL3": {
-            "direction": "OUT"
-        },
-        "WRENABLE": {
-            "direction": "OUT"
-        },
-        "RANKSELPHY1": {
+        "COUNTERLOADVAL1": {
             "direction": "IN"
         },
         "COUNTERLOADVAL2": {
             "direction": "IN"
         },
-        "TESTOUT1": {
-            "direction": "OUT"
-        },
-        "PHASELOCKED": {
-            "direction": "OUT"
-        },
-        "COUNTERREADVAL0": {
-            "direction": "OUT"
-        },
-        "TESTIN9": {
-            "direction": "IN"
-        },
-        "ENCALIBPHY0": {
-            "direction": "IN"
-        },
-        "RANKSEL1": {
-            "direction": "IN"
-        },
-        "COUNTERREADVAL2": {
-            "direction": "OUT"
-        },
         "COUNTERLOADVAL3": {
             "direction": "IN"
         },
-        "TESTOUT0": {
-            "direction": "OUT"
-        },
-        "DQSFOUND": {
-            "direction": "OUT"
-        },
-        "SCANCLK": {
-            "direction": "IN"
-        },
-        "RSTDQSFIND": {
-            "direction": "IN"
-        },
-        "STG1REGR7": {
-            "direction": "OUT"
-        },
-        "TESTIN11": {
-            "direction": "IN"
-        },
-        "TESTIN7": {
-            "direction": "IN"
-        },
-        "FREQREFCLK": {
-            "direction": "IN"
-        },
-        "SCANMODEB": {
-            "direction": "IN"
-        },
-        "RST": {
-            "direction": "IN"
-        },
-        "STG1REGL6": {
-            "direction": "IN"
-        },
-        "DIVIDERST": {
-            "direction": "IN"
-        },
-        "TESTIN0": {
-            "direction": "IN"
-        },
-        "COUNTERREADVAL5": {
-            "direction": "OUT"
-        },
-        "ENCALIB1": {
-            "direction": "IN"
-        },
-        "SYSCLK": {
-            "direction": "IN"
-        },
-        "TESTOUT3": {
-            "direction": "OUT"
-        },
-        "TESTIN4": {
-            "direction": "IN"
-        },
-        "STG1REGL8": {
-            "direction": "IN"
-        },
-        "BURSTPENDING": {
+        "COUNTERLOADVAL4": {
             "direction": "IN"
         },
         "COUNTERLOADVAL5": {
@@ -153,137 +30,260 @@
         "COUNTERREADEN": {
             "direction": "IN"
         },
-        "TESTIN2": {
-            "direction": "IN"
-        },
-        "COUNTERLOADVAL1": {
-            "direction": "IN"
-        },
-        "STG1REGR0": {
+        "COUNTERREADVAL0": {
             "direction": "OUT"
         },
-        "STG1REGL5": {
-            "direction": "IN"
-        },
-        "ISERDESRST": {
+        "COUNTERREADVAL1": {
             "direction": "OUT"
         },
-        "SELCALORSTG1": {
-            "direction": "IN"
-        },
-        "TESTOUT2": {
+        "COUNTERREADVAL2": {
             "direction": "OUT"
         },
-        "STG1REGR3": {
-            "direction": "OUT"
-        },
-        "COUNTERLOADEN": {
-            "direction": "IN"
-        },
-        "STG1OVERFLOW": {
+        "COUNTERREADVAL3": {
             "direction": "OUT"
         },
         "COUNTERREADVAL4": {
             "direction": "OUT"
         },
-        "BURSTPENDINGPHY": {
-            "direction": "IN"
-        },
-        "STG1REGR4": {
+        "COUNTERREADVAL5": {
             "direction": "OUT"
         },
-        "PHASEREFCLK": {
+        "DIVIDERST": {
             "direction": "IN"
         },
-        "RCLK": {
-            "direction": "OUT"
-        },
-        "STG1REGR6": {
-            "direction": "OUT"
-        },
-        "STG1REGR1": {
-            "direction": "OUT"
-        },
-        "TESTIN5": {
-            "direction": "IN"
-        },
-        "ICLK": {
-            "direction": "OUT"
-        },
-        "SCANENB": {
-            "direction": "IN"
-        },
-        "STG1REGL1": {
-            "direction": "IN"
-        },
-        "FINEOVERFLOW": {
+        "DQSFOUND": {
             "direction": "OUT"
         },
         "DQSOUTOFRANGE": {
             "direction": "OUT"
         },
-        "ENCALIB0": {
-            "direction": "IN"
-        },
-        "STG1REGL2": {
-            "direction": "IN"
-        },
-        "STG1REGR8": {
-            "direction": "OUT"
-        },
         "EDGEADV": {
             "direction": "IN"
         },
-        "STG1REGL4": {
+        "ENCALIB0": {
+            "direction": "IN"
+        },
+        "ENCALIB1": {
+            "direction": "IN"
+        },
+        "ENCALIBPHY0": {
             "direction": "IN"
         },
         "ENCALIBPHY1": {
             "direction": "IN"
         },
-        "STG1REGR5": {
-            "direction": "OUT"
-        },
-        "RANKSEL0": {
+        "ENSTG1": {
             "direction": "IN"
         },
-        "COUNTERLOADVAL4": {
-            "direction": "IN"
-        },
-        "SYNCIN": {
-            "direction": "IN"
-        },
-        "TESTIN10": {
-            "direction": "IN"
-        },
-        "TESTIN8": {
-            "direction": "IN"
-        },
-        "TESTIN12": {
+        "ENSTG1ADJUSTB": {
             "direction": "IN"
         },
         "FINEENABLE": {
             "direction": "IN"
         },
-        "STG1REGL3": {
+        "FINEINC": {
+            "direction": "IN"
+        },
+        "FINEOVERFLOW": {
+            "direction": "OUT"
+        },
+        "FREQREFCLK": {
+            "direction": "IN"
+        },
+        "ICLK": {
+            "direction": "OUT"
+        },
+        "ICLKDIV": {
+            "direction": "OUT"
+        },
+        "ISERDESRST": {
+            "direction": "OUT"
+        },
+        "MEMREFCLK": {
+            "direction": "IN"
+        },
+        "PHASELOCKED": {
+            "direction": "OUT"
+        },
+        "PHASEREFCLK": {
+            "direction": "IN"
+        },
+        "RANKSEL0": {
+            "direction": "IN"
+        },
+        "RANKSEL1": {
+            "direction": "IN"
+        },
+        "RANKSELPHY0": {
+            "direction": "IN"
+        },
+        "RANKSELPHY1": {
+            "direction": "IN"
+        },
+        "RCLK": {
+            "direction": "OUT"
+        },
+        "RST": {
+            "direction": "IN"
+        },
+        "RSTDQSFIND": {
+            "direction": "IN"
+        },
+        "SCANCLK": {
+            "direction": "IN"
+        },
+        "SCANENB": {
+            "direction": "IN"
+        },
+        "SCANIN": {
+            "direction": "IN"
+        },
+        "SCANMODEB": {
+            "direction": "IN"
+        },
+        "SCANOUT": {
+            "direction": "OUT"
+        },
+        "SELCALORSTG1": {
+            "direction": "IN"
+        },
+        "STG1INCDEC": {
             "direction": "IN"
         },
         "STG1LOAD": {
             "direction": "IN"
         },
+        "STG1OVERFLOW": {
+            "direction": "OUT"
+        },
+        "STG1READ": {
+            "direction": "IN"
+        },
+        "STG1REGL0": {
+            "direction": "IN"
+        },
+        "STG1REGL1": {
+            "direction": "IN"
+        },
+        "STG1REGL2": {
+            "direction": "IN"
+        },
+        "STG1REGL3": {
+            "direction": "IN"
+        },
+        "STG1REGL4": {
+            "direction": "IN"
+        },
+        "STG1REGL5": {
+            "direction": "IN"
+        },
+        "STG1REGL6": {
+            "direction": "IN"
+        },
+        "STG1REGL7": {
+            "direction": "IN"
+        },
+        "STG1REGL8": {
+            "direction": "IN"
+        },
+        "STG1REGR0": {
+            "direction": "OUT"
+        },
+        "STG1REGR1": {
+            "direction": "OUT"
+        },
+        "STG1REGR2": {
+            "direction": "OUT"
+        },
+        "STG1REGR3": {
+            "direction": "OUT"
+        },
+        "STG1REGR4": {
+            "direction": "OUT"
+        },
+        "STG1REGR5": {
+            "direction": "OUT"
+        },
+        "STG1REGR6": {
+            "direction": "OUT"
+        },
+        "STG1REGR7": {
+            "direction": "OUT"
+        },
+        "STG1REGR8": {
+            "direction": "OUT"
+        },
+        "SYNCIN": {
+            "direction": "IN"
+        },
+        "SYSCLK": {
+            "direction": "IN"
+        },
+        "TESTIN0": {
+            "direction": "IN"
+        },
+        "TESTIN1": {
+            "direction": "IN"
+        },
+        "TESTIN10": {
+            "direction": "IN"
+        },
+        "TESTIN11": {
+            "direction": "IN"
+        },
+        "TESTIN12": {
+            "direction": "IN"
+        },
         "TESTIN13": {
             "direction": "IN"
         },
-        "MEMREFCLK": {
+        "TESTIN2": {
             "direction": "IN"
+        },
+        "TESTIN3": {
+            "direction": "IN"
+        },
+        "TESTIN4": {
+            "direction": "IN"
+        },
+        "TESTIN5": {
+            "direction": "IN"
+        },
+        "TESTIN6": {
+            "direction": "IN"
+        },
+        "TESTIN7": {
+            "direction": "IN"
+        },
+        "TESTIN8": {
+            "direction": "IN"
+        },
+        "TESTIN9": {
+            "direction": "IN"
+        },
+        "TESTOUT0": {
+            "direction": "OUT"
+        },
+        "TESTOUT1": {
+            "direction": "OUT"
+        },
+        "TESTOUT2": {
+            "direction": "OUT"
+        },
+        "TESTOUT3": {
+            "direction": "OUT"
+        },
+        "WRENABLE": {
+            "direction": "OUT"
         }
     },
     "site_pips": {
-        "RSTINV:RST_B": {
-            "from_pin": "RST_B",
-            "to_pin": "OUT"
-        },
         "RSTINV:RST": {
             "from_pin": "RST",
+            "to_pin": "OUT"
+        },
+        "RSTINV:RST_B": {
+            "from_pin": "RST_B",
             "to_pin": "OUT"
         }
     },

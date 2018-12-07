@@ -1,12 +1,9 @@
 {
     "site_pins": {
-        "CLKTESTSIG": {
+        "CEB": {
             "direction": "IN"
         },
-        "ODIV2": {
-            "direction": "OUT"
-        },
-        "CEB": {
+        "CLKTESTSIG": {
             "direction": "IN"
         },
         "I": {
@@ -16,6 +13,9 @@
             "direction": "IN"
         },
         "O": {
+            "direction": "OUT"
+        },
+        "ODIV2": {
             "direction": "OUT"
         }
     },

@@ -1,9 +1,9 @@
 {
     "site_pins": {
-        "PD_INT_EN": {
+        "DIFFI_IN": {
             "direction": "IN"
         },
-        "DIFFI_IN": {
+        "DIFFO_IN": {
             "direction": "IN"
         },
         "DIFFO_OUT": {
@@ -12,57 +12,61 @@
         "DIFF_TERM_INT_EN": {
             "direction": "IN"
         },
-        "PADOUT": {
+        "I": {
             "direction": "OUT"
-        },
-        "T": {
-            "direction": "IN"
         },
         "IBUFDISABLE": {
             "direction": "IN"
         },
-        "T_OUT": {
-            "direction": "OUT"
-        },
         "INTERMDISABLE": {
             "direction": "IN"
         },
-        "PU_INT_EN": {
+        "KEEPER_INT_EN": {
+            "direction": "IN"
+        },
+        "O": {
+            "direction": "IN"
+        },
+        "O_IN": {
             "direction": "IN"
         },
         "O_OUT": {
             "direction": "OUT"
         },
-        "KEEPER_INT_EN": {
+        "PADOUT": {
+            "direction": "OUT"
+        },
+        "PD_INT_EN": {
+            "direction": "IN"
+        },
+        "PU_INT_EN": {
+            "direction": "IN"
+        },
+        "T": {
             "direction": "IN"
         },
         "T_IN": {
             "direction": "IN"
         },
-        "I": {
+        "T_OUT": {
             "direction": "OUT"
-        },
-        "O": {
-            "direction": "IN"
-        },
-        "DIFFO_IN": {
-            "direction": "IN"
-        },
-        "O_IN": {
-            "direction": "IN"
         }
     },
     "site_pips": {
+        "DIFFI_INUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "IBUFDISABLE_SEL:GND": {
+            "from_pin": "GND",
+            "to_pin": "OUT"
+        },
         "IBUFDISABLE_SEL:I": {
             "from_pin": "I",
             "to_pin": "OUT"
         },
-        "OUSED:0": {
-            "from_pin": "0",
-            "to_pin": "OUT"
-        },
-        "TUSED:0": {
-            "from_pin": "0",
+        "INTERMDISABLE_SEL:GND": {
+            "from_pin": "GND",
             "to_pin": "OUT"
         },
         "INTERMDISABLE_SEL:I": {
@@ -73,20 +77,16 @@
             "from_pin": "0",
             "to_pin": "OUT"
         },
+        "OUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
         "PADOUTUSED:0": {
             "from_pin": "0",
             "to_pin": "OUT"
         },
-        "INTERMDISABLE_SEL:GND": {
-            "from_pin": "GND",
-            "to_pin": "OUT"
-        },
-        "DIFFI_INUSED:0": {
+        "TUSED:0": {
             "from_pin": "0",
-            "to_pin": "OUT"
-        },
-        "IBUFDISABLE_SEL:GND": {
-            "from_pin": "GND",
             "to_pin": "OUT"
         }
     },

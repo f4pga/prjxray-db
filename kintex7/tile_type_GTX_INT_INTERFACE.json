@@ -1,1526 +1,1526 @@
 {
-  "tile_type": "GTX_INT_INTERFACE",
-  "sites": [],
-  "wires": [
-    "GTXE2_INT_INTERFACE_IMUX46",
-    "GTXE2_INT_INTERFACE_IMUX44",
-    "INT_INTERFACE_LH7",
-    "INT_INTERFACE_EE4C3",
-    "GTXE2_INT_INTERFACE_IMUX39",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY8",
-    "GTXE2_INT_INTERFACE_IMUX0",
-    "GTXE2_INT_INTERFACE_IMUX3",
-    "INT_INTERFACE_WL1END2",
-    "INT_INTERFACE_LOGIC_OUTS_B22",
-    "GTXE2_INT_INTERFACE_IMUX_OUT15",
-    "GTXE2_INT_INTERFACE_IMUX_OUT7",
-    "INT_INTERFACE_EE2A2",
-    "GTXE2_INT_INTERFACE_IMUX33",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY5",
-    "INT_INTERFACE_LOGIC_OUTS3",
-    "INT_INTERFACE_WW2END2",
-    "INT_INTERFACE_NW4A1",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY2",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY39",
-    "GTXE2_INT_INTERFACE_IMUX18",
-    "INT_INTERFACE_WW2A1",
-    "INT_INTERFACE_EE4B3",
-    "INT_INTERFACE_WW2A3",
-    "INT_INTERFACE_LH8",
-    "INT_INTERFACE_LOGIC_OUTS1",
-    "INT_INTERFACE_EE4A2",
-    "INT_INTERFACE_LOGIC_OUTS0",
-    "INT_INTERFACE_BLOCK_OUTS_B0",
-    "INT_INTERFACE_SE2A2",
-    "GTXE2_INT_INTERFACE_IMUX_OUT13",
-    "INT_INTERFACE_SW2A3",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY40",
-    "INT_INTERFACE_SE4BEG2",
-    "INT_INTERFACE_LH5",
-    "GTXE2_INT_INTERFACE_IMUX6",
-    "INT_INTERFACE_BLOCK_OUTS_B3",
-    "INT_INTERFACE_FAN6",
-    "GTXE2_INT_INTERFACE_IMUX_OUT30",
-    "INT_INTERFACE_WW4B3",
-    "INT_INTERFACE_SW4END1",
-    "INT_INTERFACE_SE4BEG3",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY3",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY15",
-    "GTXE2_INT_INTERFACE_IMUX12",
-    "INT_INTERFACE_WW4END1",
-    "INT_INTERFACE_SE4BEG0",
-    "INT_INTERFACE_WL1END3",
-    "INT_INTERFACE_SW2A2",
-    "INT_INTERFACE_WL1END1",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY13",
-    "GTXE2_INT_INTERFACE_IMUX20",
-    "INT_INTERFACE_WW4A2",
-    "GTXE2_INT_INTERFACE_IMUX30",
-    "INT_INTERFACE_LH10",
-    "GTXE2_INT_INTERFACE_IMUX9",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY18",
-    "INT_INTERFACE_EE4C2",
-    "INT_INTERFACE_LOGIC_OUTS18",
-    "INT_INTERFACE_EL1BEG1",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY41",
-    "INT_INTERFACE_SW4A0",
-    "INT_INTERFACE_CTRL1",
-    "GTXE2_INT_INTERFACE_IMUX_OUT20",
-    "INT_INTERFACE_EE2A1",
-    "GTXE2_INT_INTERFACE_IMUX_OUT34",
-    "INT_INTERFACE_LOGIC_OUTS23",
-    "INT_INTERFACE_WW2A2",
-    "INT_INTERFACE_EE4A3",
-    "GTXE2_INT_INTERFACE_IMUX_OUT8",
-    "INT_INTERFACE_LH9",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY7",
-    "GTXE2_INT_INTERFACE_IMUX_OUT40",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY22",
-    "INT_INTERFACE_NE4C1",
-    "INT_INTERFACE_BYP3",
-    "INT_INTERFACE_ER1BEG1",
-    "GTXE2_INT_INTERFACE_IMUX36",
-    "INT_INTERFACE_EE4B0",
-    "INT_INTERFACE_NW4A2",
-    "INT_INTERFACE_LOGIC_OUTS11",
-    "INT_INTERFACE_WL1END0",
-    "INT_INTERFACE_LH3",
-    "INT_INTERFACE_SE4C0",
-    "INT_INTERFACE_BYP4",
-    "GTXE2_INT_INTERFACE_IMUX_OUT36",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY30",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY16",
-    "INT_INTERFACE_SW4A1",
-    "INT_INTERFACE_LOGIC_OUTS8",
-    "INT_INTERFACE_LOGIC_OUTS4",
-    "GTXE2_INT_INTERFACE_IMUX_OUT14",
-    "INT_INTERFACE_LOGIC_OUTS_B3",
-    "INT_INTERFACE_LOGIC_OUTS21",
-    "GTXE2_INT_INTERFACE_IMUX_OUT26",
-    "GTXE2_INT_INTERFACE_IMUX1",
-    "GTXE2_INT_INTERFACE_IMUX15",
-    "INT_INTERFACE_CLK1",
-    "GTXE2_INT_INTERFACE_IMUX_OUT25",
-    "INT_INTERFACE_SE4C1",
-    "GTXE2_INT_INTERFACE_IMUX11",
-    "GTXE2_INT_INTERFACE_IMUX27",
-    "INT_INTERFACE_SE2A0",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY34",
-    "INT_INTERFACE_SE4BEG1",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY43",
-    "INT_INTERFACE_NE4BEG0",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY45",
-    "INT_INTERFACE_SW2A1",
-    "GTXE2_INT_INTERFACE_IMUX_OUT27",
-    "GTXE2_INT_INTERFACE_IMUX19",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY17",
-    "INT_INTERFACE_WW4END2",
-    "INT_INTERFACE_WW2END3",
-    "INT_INTERFACE_EE2BEG3",
-    "INT_INTERFACE_LOGIC_OUTS_B21",
-    "GTXE2_INT_INTERFACE_IMUX_OUT18",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY20",
-    "INT_INTERFACE_BYP0",
-    "GTXE2_INT_INTERFACE_IMUX_OUT6",
-    "INT_INTERFACE_NW2A0",
-    "INT_INTERFACE_WW4C0",
-    "GTXE2_INT_INTERFACE_IMUX_OUT19",
-    "INT_INTERFACE_NW2A3",
-    "INT_INTERFACE_NE2A1",
-    "INT_INTERFACE_FAN0",
-    "INT_INTERFACE_EE4BEG0",
-    "INT_INTERFACE_EE2BEG1",
-    "GTXE2_INT_INTERFACE_IMUX_OUT24",
-    "INT_INTERFACE_LH6",
-    "GTXE2_INT_INTERFACE_IMUX43",
-    "INT_INTERFACE_EE4C0",
-    "GTXE2_INT_INTERFACE_IMUX_OUT16",
-    "INT_INTERFACE_WR1END0",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY47",
-    "INT_INTERFACE_LOGIC_OUTS10",
-    "GTXE2_INT_INTERFACE_IMUX_OUT44",
-    "GTXE2_INT_INTERFACE_IMUX_OUT5",
-    "INT_INTERFACE_LOGIC_OUTS_B11",
-    "GTXE2_INT_INTERFACE_IMUX_OUT42",
-    "GTXE2_INT_INTERFACE_IMUX23",
-    "INT_INTERFACE_LOGIC_OUTS_B10",
-    "INT_INTERFACE_SE4C2",
-    "GTXE2_INT_INTERFACE_IMUX_OUT28",
-    "INT_INTERFACE_WW4END0",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY46",
-    "INT_INTERFACE_LOGIC_OUTS17",
-    "INT_INTERFACE_LOGIC_OUTS_B13",
-    "INT_INTERFACE_MONITOR_P",
-    "INT_INTERFACE_EE2A3",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY44",
-    "INT_INTERFACE_LOGIC_OUTS2",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY12",
-    "INT_INTERFACE_NE2A3",
-    "INT_INTERFACE_EE4A0",
-    "INT_INTERFACE_EE4BEG1",
-    "INT_INTERFACE_LOGIC_OUTS_B12",
-    "GTXE2_INT_INTERFACE_IMUX7",
-    "INT_INTERFACE_EE4C1",
-    "GTXE2_INT_INTERFACE_IMUX_OUT46",
-    "INT_INTERFACE_SW4END0",
-    "INT_INTERFACE_SW4END3",
-    "INT_INTERFACE_EE4B1",
-    "GTXE2_INT_INTERFACE_IMUX_OUT32",
-    "INT_INTERFACE_WW4C2",
-    "GTXE2_INT_INTERFACE_IMUX40",
-    "GTXE2_INT_INTERFACE_IMUX28",
-    "GTXE2_INT_INTERFACE_IMUX_OUT11",
-    "INT_INTERFACE_BYP2",
-    "GTXE2_INT_INTERFACE_IMUX_OUT31",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY9",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY19",
-    "INT_INTERFACE_LOGIC_OUTS16",
-    "INT_INTERFACE_NW2A1",
-    "INT_INTERFACE_NW4A0",
-    "GTXE2_INT_INTERFACE_IMUX_OUT2",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY21",
-    "GTXE2_INT_INTERFACE_IMUX_OUT0",
-    "INT_INTERFACE_LOGIC_OUTS20",
-    "INT_INTERFACE_LOGIC_OUTS22",
-    "GTXE2_INT_INTERFACE_IMUX_OUT1",
-    "INT_INTERFACE_SE2A1",
-    "INT_INTERFACE_LH11",
-    "INT_INTERFACE_NW4A3",
-    "GTXE2_INT_INTERFACE_IMUX42",
-    "GTXE2_INT_INTERFACE_IMUX32",
-    "INT_INTERFACE_WW4C1",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY29",
-    "GTXE2_INT_INTERFACE_IMUX_OUT33",
-    "GTXE2_INT_INTERFACE_IMUX21",
-    "INT_INTERFACE_EL1BEG2",
-    "INT_INTERFACE_EL1BEG3",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY37",
-    "INT_INTERFACE_EE4A1",
-    "GTXE2_INT_INTERFACE_IMUX_OUT23",
-    "GTXE2_INT_INTERFACE_IMUX24",
-    "INT_INTERFACE_LOGIC_OUTS_B2",
-    "INT_INTERFACE_LOGIC_OUTS_B20",
-    "INT_INTERFACE_NE2A2",
-    "GTXE2_INT_INTERFACE_IMUX10",
-    "INT_INTERFACE_BYP6",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY23",
-    "INT_INTERFACE_LOGIC_OUTS_B23",
-    "INT_INTERFACE_NW4END1",
-    "INT_INTERFACE_NW4END0",
-    "INT_INTERFACE_LOGIC_OUTS_B6",
-    "GTXE2_INT_INTERFACE_IMUX2",
-    "INT_INTERFACE_NE4C3",
-    "INT_INTERFACE_LOGIC_OUTS_B16",
-    "INT_INTERFACE_FAN7",
-    "INT_INTERFACE_LH2",
-    "INT_INTERFACE_LOGIC_OUTS_B14",
-    "GTXE2_INT_INTERFACE_IMUX34",
-    "GTXE2_INT_INTERFACE_IMUX26",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY6",
-    "INT_INTERFACE_SW4A2",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY0",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY14",
-    "INT_INTERFACE_LH1",
-    "INT_INTERFACE_LOGIC_OUTS5",
-    "INT_INTERFACE_WW4A3",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY25",
-    "INT_INTERFACE_ER1BEG0",
-    "INT_INTERFACE_NW4END2",
-    "INT_INTERFACE_LH4",
-    "INT_INTERFACE_FAN3",
-    "INT_INTERFACE_NE4BEG1",
-    "INT_INTERFACE_FAN4",
-    "INT_INTERFACE_MONITOR_N",
-    "INT_INTERFACE_ER1BEG2",
-    "INT_INTERFACE_WR1END3",
-    "GTXE2_INT_INTERFACE_IMUX_OUT45",
-    "GTXE2_INT_INTERFACE_IMUX_OUT3",
-    "INT_INTERFACE_LOGIC_OUTS15",
-    "INT_INTERFACE_LOGIC_OUTS_B19",
-    "GTXE2_INT_INTERFACE_IMUX_OUT47",
-    "INT_INTERFACE_SW4END2",
-    "INT_INTERFACE_LOGIC_OUTS_B17",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY28",
-    "GTXE2_INT_INTERFACE_IMUX8",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY11",
-    "INT_INTERFACE_LOGIC_OUTS_B15",
-    "INT_INTERFACE_LOGIC_OUTS_B9",
-    "INT_INTERFACE_SW4A3",
-    "INT_INTERFACE_LOGIC_OUTS_B0",
-    "INT_INTERFACE_EE4B2",
-    "INT_INTERFACE_BLOCK_OUTS_B1",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY36",
-    "INT_INTERFACE_LOGIC_OUTS_B7",
-    "GTXE2_INT_INTERFACE_IMUX25",
-    "INT_INTERFACE_LOGIC_OUTS_B8",
-    "INT_INTERFACE_LOGIC_OUTS14",
-    "INT_INTERFACE_CTRL0",
-    "GTXE2_INT_INTERFACE_IMUX_OUT21",
-    "INT_INTERFACE_WW4B2",
-    "INT_INTERFACE_LOGIC_OUTS12",
-    "GTXE2_INT_INTERFACE_IMUX_OUT43",
-    "INT_INTERFACE_NE4C2",
-    "INT_INTERFACE_SW2A0",
-    "GTXE2_INT_INTERFACE_IMUX38",
-    "GTXE2_INT_INTERFACE_IMUX37",
-    "GTXE2_INT_INTERFACE_IMUX16",
-    "INT_INTERFACE_WW4A0",
-    "GTXE2_INT_INTERFACE_IMUX14",
-    "INT_INTERFACE_FAN5",
-    "GTXE2_INT_INTERFACE_IMUX13",
-    "INT_INTERFACE_LOGIC_OUTS7",
-    "INT_INTERFACE_SE4C3",
-    "INT_INTERFACE_LOGIC_OUTS_B18",
-    "INT_INTERFACE_BYP5",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY31",
-    "INT_INTERFACE_EE4BEG2",
-    "INT_INTERFACE_WW2A0",
-    "INT_INTERFACE_ER1BEG3",
-    "GTXE2_INT_INTERFACE_IMUX_OUT4",
-    "INT_INTERFACE_WW2END0",
-    "INT_INTERFACE_LOGIC_OUTS_B4",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY42",
-    "GTXE2_INT_INTERFACE_IMUX5",
-    "GTXE2_INT_INTERFACE_IMUX_OUT29",
-    "GTXE2_INT_INTERFACE_IMUX47",
-    "GTXE2_INT_INTERFACE_IMUX29",
-    "GTXE2_INT_INTERFACE_IMUX_OUT39",
-    "GTXE2_INT_INTERFACE_IMUX4",
-    "GTXE2_INT_INTERFACE_IMUX_OUT35",
-    "GTXE2_INT_INTERFACE_IMUX_OUT9",
-    "INT_INTERFACE_WW4B1",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY38",
-    "GTXE2_INT_INTERFACE_IMUX_OUT10",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY32",
-    "GTXE2_INT_INTERFACE_IMUX17",
-    "INT_INTERFACE_NW2A2",
-    "INT_INTERFACE_WW4A1",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY1",
-    "INT_INTERFACE_FAN2",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY33",
-    "GTXE2_INT_INTERFACE_IMUX_OUT38",
-    "INT_INTERFACE_CLK0",
-    "INT_INTERFACE_WW4B0",
-    "INT_INTERFACE_EL1BEG0",
-    "INT_INTERFACE_LH12",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY27",
-    "INT_INTERFACE_EE4BEG3",
-    "INT_INTERFACE_WR1END2",
-    "INT_INTERFACE_WR1END1",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY4",
-    "GTXE2_INT_INTERFACE_IMUX31",
-    "INT_INTERFACE_NE4BEG3",
-    "INT_INTERFACE_NE4C0",
-    "INT_INTERFACE_LOGIC_OUTS13",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY26",
-    "GTXE2_INT_INTERFACE_IMUX_OUT41",
-    "INT_INTERFACE_LOGIC_OUTS9",
-    "INT_INTERFACE_BYP1",
-    "INT_INTERFACE_EE2A0",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY35",
-    "INT_INTERFACE_FAN1",
-    "INT_INTERFACE_LOGIC_OUTS_B5",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY24",
-    "INT_INTERFACE_LOGIC_OUTS19",
-    "INT_INTERFACE_SE2A3",
-    "GTXE2_INT_INTERFACE_IMUX45",
-    "INT_INTERFACE_BLOCK_OUTS_B2",
-    "GTXE2_INT_INTERFACE_IMUX22",
-    "INT_INTERFACE_WW4END3",
-    "INT_INTERFACE_WW4C3",
-    "INT_INTERFACE_NW4END3",
-    "INT_INTERFACE_NE2A0",
-    "INT_INTERFACE_WW2END1",
-    "GTXE2_INT_INTERFACE_IMUX_OUT22",
-    "GTXE2_INT_INTERFACE_IMUX41",
-    "INT_INTERFACE_LOGIC_OUTS6",
-    "INT_INTERFACE_BYP7",
-    "GTXE2_INT_INTERFACE_IMUX_OUT17",
-    "GTXE2_INT_INTERFACE_IMUX_OUT12",
-    "GTXE2_INT_INTERFACE_IMUX35",
-    "INT_INTERFACE_EE2BEG0",
-    "GTXE2_INT_INTERFACE_IMUX_DELAY10",
-    "GTXE2_INT_INTERFACE_IMUX_OUT37",
-    "INT_INTERFACE_EE2BEG2",
-    "INT_INTERFACE_NE4BEG2",
-    "INT_INTERFACE_LOGIC_OUTS_B1"
-  ],
-  "pips": {
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX36->>GTXE2_INT_INTERFACE_IMUX_DELAY36": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX36",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY36",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX44->>GTXE2_INT_INTERFACE_IMUX_OUT44": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX44",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT44",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX44->>GTXE2_INT_INTERFACE_IMUX_DELAY44": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX44",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY44",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX16->>GTXE2_INT_INTERFACE_IMUX_DELAY16": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX16",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY16",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX14->>GTXE2_INT_INTERFACE_IMUX_DELAY14": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX14",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY14",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B6->>INT_INTERFACE_LOGIC_OUTS6": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B6",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY29->GTXE2_INT_INTERFACE_IMUX_OUT29": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY29",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT29",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX37->>GTXE2_INT_INTERFACE_IMUX_DELAY37": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX37",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY37",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX1->>GTXE2_INT_INTERFACE_IMUX_DELAY1": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX1",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX39->>GTXE2_INT_INTERFACE_IMUX_DELAY39": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX39",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY39",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX29->>GTXE2_INT_INTERFACE_IMUX_OUT29": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX29",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT29",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX27->>GTXE2_INT_INTERFACE_IMUX_DELAY27": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX27",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY27",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY31->GTXE2_INT_INTERFACE_IMUX_OUT31": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY31",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT31",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY8->GTXE2_INT_INTERFACE_IMUX_OUT8": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY8",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT8",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY39->GTXE2_INT_INTERFACE_IMUX_OUT39": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY39",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT39",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX13->>GTXE2_INT_INTERFACE_IMUX_OUT13": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX13",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT13",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY36->GTXE2_INT_INTERFACE_IMUX_OUT36": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY36",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT36",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX1->>GTXE2_INT_INTERFACE_IMUX_OUT1": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX1",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX35->>GTXE2_INT_INTERFACE_IMUX_OUT35": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX35",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT35",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX11->>GTXE2_INT_INTERFACE_IMUX_OUT11": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX11",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT11",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX40->>GTXE2_INT_INTERFACE_IMUX_DELAY40": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX40",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY40",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B1->>INT_INTERFACE_LOGIC_OUTS1": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B1",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY25->GTXE2_INT_INTERFACE_IMUX_OUT25": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY25",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT25",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B13->>INT_INTERFACE_LOGIC_OUTS13": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B13",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS13",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX47->>GTXE2_INT_INTERFACE_IMUX_OUT47": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX47",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT47",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX7->>GTXE2_INT_INTERFACE_IMUX_OUT7": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX7",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT7",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY42->GTXE2_INT_INTERFACE_IMUX_OUT42": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY42",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT42",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY44->GTXE2_INT_INTERFACE_IMUX_OUT44": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY44",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT44",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B8->>INT_INTERFACE_LOGIC_OUTS8": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B8",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS8",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY41->GTXE2_INT_INTERFACE_IMUX_OUT41": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY41",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT41",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX20->>GTXE2_INT_INTERFACE_IMUX_OUT20": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX20",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT20",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX42->>GTXE2_INT_INTERFACE_IMUX_OUT42": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX42",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT42",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY17->GTXE2_INT_INTERFACE_IMUX_OUT17": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY17",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT17",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY43->GTXE2_INT_INTERFACE_IMUX_OUT43": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY43",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT43",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX38->>GTXE2_INT_INTERFACE_IMUX_DELAY38": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX38",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY38",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY35->GTXE2_INT_INTERFACE_IMUX_OUT35": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY35",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT35",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY26->GTXE2_INT_INTERFACE_IMUX_OUT26": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY26",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT26",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY20->GTXE2_INT_INTERFACE_IMUX_OUT20": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY20",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT20",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY45->GTXE2_INT_INTERFACE_IMUX_OUT45": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY45",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT45",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX42->>GTXE2_INT_INTERFACE_IMUX_DELAY42": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX42",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY42",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY33->GTXE2_INT_INTERFACE_IMUX_OUT33": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY33",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT33",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX27->>GTXE2_INT_INTERFACE_IMUX_OUT27": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX27",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT27",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX22->>GTXE2_INT_INTERFACE_IMUX_OUT22": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX22",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT22",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX8->>GTXE2_INT_INTERFACE_IMUX_DELAY8": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX8",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY8",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX30->>GTXE2_INT_INTERFACE_IMUX_OUT30": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX30",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT30",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX13->>GTXE2_INT_INTERFACE_IMUX_DELAY13": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX13",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY13",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX28->>GTXE2_INT_INTERFACE_IMUX_DELAY28": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX28",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY28",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B14->>INT_INTERFACE_LOGIC_OUTS14": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B14",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS14",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX24->>GTXE2_INT_INTERFACE_IMUX_DELAY24": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX24",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY24",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX40->>GTXE2_INT_INTERFACE_IMUX_OUT40": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX40",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT40",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX5->>GTXE2_INT_INTERFACE_IMUX_DELAY5": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX5",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B3->>INT_INTERFACE_LOGIC_OUTS3": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B3",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX26->>GTXE2_INT_INTERFACE_IMUX_DELAY26": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX26",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY26",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX11->>GTXE2_INT_INTERFACE_IMUX_DELAY11": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX11",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY11",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX41->>GTXE2_INT_INTERFACE_IMUX_OUT41": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX41",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT41",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY28->GTXE2_INT_INTERFACE_IMUX_OUT28": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY28",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT28",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX19->>GTXE2_INT_INTERFACE_IMUX_DELAY19": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX19",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY19",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX46->>GTXE2_INT_INTERFACE_IMUX_DELAY46": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX46",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY46",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX22->>GTXE2_INT_INTERFACE_IMUX_DELAY22": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX22",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY22",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX15->>GTXE2_INT_INTERFACE_IMUX_DELAY15": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX15",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY15",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B15->>INT_INTERFACE_LOGIC_OUTS15": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B15",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS15",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B18->>INT_INTERFACE_LOGIC_OUTS18": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B18",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS18",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX33->>GTXE2_INT_INTERFACE_IMUX_DELAY33": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX33",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY33",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX28->>GTXE2_INT_INTERFACE_IMUX_OUT28": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX28",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT28",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY18->GTXE2_INT_INTERFACE_IMUX_OUT18": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY18",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT18",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX12->>GTXE2_INT_INTERFACE_IMUX_DELAY12": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX12",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY12",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX47->>GTXE2_INT_INTERFACE_IMUX_DELAY47": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX47",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY47",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX39->>GTXE2_INT_INTERFACE_IMUX_OUT39": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX39",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT39",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY38->GTXE2_INT_INTERFACE_IMUX_OUT38": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY38",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT38",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX4->>GTXE2_INT_INTERFACE_IMUX_DELAY4": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX4",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY46->GTXE2_INT_INTERFACE_IMUX_OUT46": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY46",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT46",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B0->>INT_INTERFACE_LOGIC_OUTS0": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B0",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS0",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX41->>GTXE2_INT_INTERFACE_IMUX_DELAY41": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX41",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY41",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY1->GTXE2_INT_INTERFACE_IMUX_OUT1": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY1",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT1",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX9->>GTXE2_INT_INTERFACE_IMUX_OUT9": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX9",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT9",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY10->GTXE2_INT_INTERFACE_IMUX_OUT10": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY10",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT10",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B11->>INT_INTERFACE_LOGIC_OUTS11": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B11",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS11",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX18->>GTXE2_INT_INTERFACE_IMUX_OUT18": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX18",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT18",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY5->GTXE2_INT_INTERFACE_IMUX_OUT5": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY5",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY27->GTXE2_INT_INTERFACE_IMUX_OUT27": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY27",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT27",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY0->GTXE2_INT_INTERFACE_IMUX_OUT0": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY0",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT0",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY32->GTXE2_INT_INTERFACE_IMUX_OUT32": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY32",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT32",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY3->GTXE2_INT_INTERFACE_IMUX_OUT3": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY3",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY34->GTXE2_INT_INTERFACE_IMUX_OUT34": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY34",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT34",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX17->>GTXE2_INT_INTERFACE_IMUX_OUT17": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX17",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT17",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY19->GTXE2_INT_INTERFACE_IMUX_OUT19": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY19",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT19",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX14->>GTXE2_INT_INTERFACE_IMUX_OUT14": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX14",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT14",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX16->>GTXE2_INT_INTERFACE_IMUX_OUT16": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX16",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT16",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B17->>INT_INTERFACE_LOGIC_OUTS17": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B17",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS17",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX45->>GTXE2_INT_INTERFACE_IMUX_OUT45": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX45",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT45",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY11->GTXE2_INT_INTERFACE_IMUX_OUT11": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY11",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT11",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX19->>GTXE2_INT_INTERFACE_IMUX_OUT19": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX19",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT19",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B12->>INT_INTERFACE_LOGIC_OUTS12": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B12",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS12",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX25->>GTXE2_INT_INTERFACE_IMUX_OUT25": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX25",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT25",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX31->>GTXE2_INT_INTERFACE_IMUX_OUT31": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX31",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT31",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX2->>GTXE2_INT_INTERFACE_IMUX_DELAY2": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX2",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX23->>GTXE2_INT_INTERFACE_IMUX_OUT23": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX23",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT23",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY4->GTXE2_INT_INTERFACE_IMUX_OUT4": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY4",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY22->GTXE2_INT_INTERFACE_IMUX_OUT22": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY22",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT22",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY14->GTXE2_INT_INTERFACE_IMUX_OUT14": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY14",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT14",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX10->>GTXE2_INT_INTERFACE_IMUX_DELAY10": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX10",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY10",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX0->>GTXE2_INT_INTERFACE_IMUX_DELAY0": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX0",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY0",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX32->>GTXE2_INT_INTERFACE_IMUX_OUT32": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX32",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT32",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY2->GTXE2_INT_INTERFACE_IMUX_OUT2": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY2",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX17->>GTXE2_INT_INTERFACE_IMUX_DELAY17": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX17",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY17",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY23->GTXE2_INT_INTERFACE_IMUX_OUT23": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY23",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT23",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY9->GTXE2_INT_INTERFACE_IMUX_OUT9": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY9",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT9",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX23->>GTXE2_INT_INTERFACE_IMUX_DELAY23": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX23",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY23",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B9->>INT_INTERFACE_LOGIC_OUTS9": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B9",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS9",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY6->GTXE2_INT_INTERFACE_IMUX_OUT6": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY6",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY37->GTXE2_INT_INTERFACE_IMUX_OUT37": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY37",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT37",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX20->>GTXE2_INT_INTERFACE_IMUX_DELAY20": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX20",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY20",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX4->>GTXE2_INT_INTERFACE_IMUX_OUT4": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX4",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX26->>GTXE2_INT_INTERFACE_IMUX_OUT26": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX26",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT26",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX24->>GTXE2_INT_INTERFACE_IMUX_OUT24": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX24",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT24",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY16->GTXE2_INT_INTERFACE_IMUX_OUT16": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY16",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT16",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX18->>GTXE2_INT_INTERFACE_IMUX_DELAY18": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX18",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY18",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX43->>GTXE2_INT_INTERFACE_IMUX_DELAY43": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX43",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY43",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY40->GTXE2_INT_INTERFACE_IMUX_OUT40": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY40",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT40",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B21->>INT_INTERFACE_LOGIC_OUTS21": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B21",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS21",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX36->>GTXE2_INT_INTERFACE_IMUX_OUT36": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX36",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT36",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX37->>GTXE2_INT_INTERFACE_IMUX_OUT37": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX37",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT37",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B20->>INT_INTERFACE_LOGIC_OUTS20": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B20",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS20",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX3->>GTXE2_INT_INTERFACE_IMUX_DELAY3": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX3",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX30->>GTXE2_INT_INTERFACE_IMUX_DELAY30": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX30",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY30",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX32->>GTXE2_INT_INTERFACE_IMUX_DELAY32": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX32",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY32",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX34->>GTXE2_INT_INTERFACE_IMUX_OUT34": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX34",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT34",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX5->>GTXE2_INT_INTERFACE_IMUX_OUT5": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX5",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B19->>INT_INTERFACE_LOGIC_OUTS19": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B19",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS19",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX6->>GTXE2_INT_INTERFACE_IMUX_DELAY6": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX6",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX25->>GTXE2_INT_INTERFACE_IMUX_DELAY25": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX25",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY25",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX33->>GTXE2_INT_INTERFACE_IMUX_OUT33": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX33",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT33",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY47->GTXE2_INT_INTERFACE_IMUX_OUT47": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY47",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT47",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY13->GTXE2_INT_INTERFACE_IMUX_OUT13": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY13",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT13",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX43->>GTXE2_INT_INTERFACE_IMUX_OUT43": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX43",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT43",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY21->GTXE2_INT_INTERFACE_IMUX_OUT21": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY21",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT21",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B5->>INT_INTERFACE_LOGIC_OUTS5": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B5",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS5",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX31->>GTXE2_INT_INTERFACE_IMUX_DELAY31": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX31",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY31",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX0->>GTXE2_INT_INTERFACE_IMUX_OUT0": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX0",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT0",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX46->>GTXE2_INT_INTERFACE_IMUX_OUT46": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX46",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT46",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B7->>INT_INTERFACE_LOGIC_OUTS7": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B7",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS7",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX8->>GTXE2_INT_INTERFACE_IMUX_OUT8": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX8",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT8",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX35->>GTXE2_INT_INTERFACE_IMUX_DELAY35": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX35",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY35",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX15->>GTXE2_INT_INTERFACE_IMUX_OUT15": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX15",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT15",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX10->>GTXE2_INT_INTERFACE_IMUX_OUT10": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX10",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT10",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX6->>GTXE2_INT_INTERFACE_IMUX_OUT6": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX6",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT6",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX21->>GTXE2_INT_INTERFACE_IMUX_OUT21": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX21",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT21",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY30->GTXE2_INT_INTERFACE_IMUX_OUT30": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY30",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT30",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX38->>GTXE2_INT_INTERFACE_IMUX_OUT38": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX38",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT38",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX9->>GTXE2_INT_INTERFACE_IMUX_DELAY9": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX9",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY9",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX45->>GTXE2_INT_INTERFACE_IMUX_DELAY45": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX45",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY45",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B16->>INT_INTERFACE_LOGIC_OUTS16": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B16",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS16",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY24->GTXE2_INT_INTERFACE_IMUX_OUT24": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY24",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT24",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY7->GTXE2_INT_INTERFACE_IMUX_OUT7": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY7",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT7",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY15->GTXE2_INT_INTERFACE_IMUX_OUT15": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY15",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT15",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX12->>GTXE2_INT_INTERFACE_IMUX_OUT12": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX12",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT12",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX29->>GTXE2_INT_INTERFACE_IMUX_DELAY29": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX29",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY29",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B22->>INT_INTERFACE_LOGIC_OUTS22": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B22",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS22",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY12->GTXE2_INT_INTERFACE_IMUX_OUT12": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY12",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT12",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B10->>INT_INTERFACE_LOGIC_OUTS10": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B10",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS10",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX3->>GTXE2_INT_INTERFACE_IMUX_OUT3": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX3",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT3",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B2->>INT_INTERFACE_LOGIC_OUTS2": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B2",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B23->>INT_INTERFACE_LOGIC_OUTS23": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B23",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS23",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B4->>INT_INTERFACE_LOGIC_OUTS4": {
-      "src_wire": "INT_INTERFACE_LOGIC_OUTS_B4",
-      "is_pseudo": "0",
-      "dst_wire": "INT_INTERFACE_LOGIC_OUTS4",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX7->>GTXE2_INT_INTERFACE_IMUX_DELAY7": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX7",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY7",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX21->>GTXE2_INT_INTERFACE_IMUX_DELAY21": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX21",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY21",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX2->>GTXE2_INT_INTERFACE_IMUX_OUT2": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX2",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT2",
-      "is_directional": "1",
-      "can_invert": "0"
-    },
-    "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX34->>GTXE2_INT_INTERFACE_IMUX_DELAY34": {
-      "src_wire": "GTXE2_INT_INTERFACE_IMUX34",
-      "is_pseudo": "0",
-      "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY34",
-      "is_directional": "1",
-      "can_invert": "0"
-    }
-  }
+    "pips": {
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX0->>GTXE2_INT_INTERFACE_IMUX_DELAY0": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX0"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX0->>GTXE2_INT_INTERFACE_IMUX_OUT0": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX0"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX1->>GTXE2_INT_INTERFACE_IMUX_DELAY1": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX1"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX1->>GTXE2_INT_INTERFACE_IMUX_OUT1": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX1"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX10->>GTXE2_INT_INTERFACE_IMUX_DELAY10": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY10",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX10"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX10->>GTXE2_INT_INTERFACE_IMUX_OUT10": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT10",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX10"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX11->>GTXE2_INT_INTERFACE_IMUX_DELAY11": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY11",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX11"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX11->>GTXE2_INT_INTERFACE_IMUX_OUT11": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT11",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX11"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX12->>GTXE2_INT_INTERFACE_IMUX_DELAY12": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY12",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX12"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX12->>GTXE2_INT_INTERFACE_IMUX_OUT12": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT12",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX12"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX13->>GTXE2_INT_INTERFACE_IMUX_DELAY13": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY13",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX13"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX13->>GTXE2_INT_INTERFACE_IMUX_OUT13": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT13",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX13"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX14->>GTXE2_INT_INTERFACE_IMUX_DELAY14": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY14",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX14"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX14->>GTXE2_INT_INTERFACE_IMUX_OUT14": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT14",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX14"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX15->>GTXE2_INT_INTERFACE_IMUX_DELAY15": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY15",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX15"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX15->>GTXE2_INT_INTERFACE_IMUX_OUT15": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT15",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX15"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX16->>GTXE2_INT_INTERFACE_IMUX_DELAY16": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY16",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX16"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX16->>GTXE2_INT_INTERFACE_IMUX_OUT16": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT16",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX16"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX17->>GTXE2_INT_INTERFACE_IMUX_DELAY17": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY17",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX17"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX17->>GTXE2_INT_INTERFACE_IMUX_OUT17": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT17",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX17"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX18->>GTXE2_INT_INTERFACE_IMUX_DELAY18": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY18",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX18"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX18->>GTXE2_INT_INTERFACE_IMUX_OUT18": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT18",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX18"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX19->>GTXE2_INT_INTERFACE_IMUX_DELAY19": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY19",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX19"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX19->>GTXE2_INT_INTERFACE_IMUX_OUT19": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT19",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX19"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX2->>GTXE2_INT_INTERFACE_IMUX_DELAY2": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX2"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX2->>GTXE2_INT_INTERFACE_IMUX_OUT2": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX2"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX20->>GTXE2_INT_INTERFACE_IMUX_DELAY20": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY20",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX20"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX20->>GTXE2_INT_INTERFACE_IMUX_OUT20": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT20",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX20"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX21->>GTXE2_INT_INTERFACE_IMUX_DELAY21": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY21",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX21"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX21->>GTXE2_INT_INTERFACE_IMUX_OUT21": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT21",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX21"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX22->>GTXE2_INT_INTERFACE_IMUX_DELAY22": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY22",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX22"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX22->>GTXE2_INT_INTERFACE_IMUX_OUT22": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT22",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX22"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX23->>GTXE2_INT_INTERFACE_IMUX_DELAY23": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY23",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX23"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX23->>GTXE2_INT_INTERFACE_IMUX_OUT23": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT23",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX23"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX24->>GTXE2_INT_INTERFACE_IMUX_DELAY24": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY24",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX24"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX24->>GTXE2_INT_INTERFACE_IMUX_OUT24": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT24",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX24"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX25->>GTXE2_INT_INTERFACE_IMUX_DELAY25": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY25",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX25"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX25->>GTXE2_INT_INTERFACE_IMUX_OUT25": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT25",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX25"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX26->>GTXE2_INT_INTERFACE_IMUX_DELAY26": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY26",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX26"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX26->>GTXE2_INT_INTERFACE_IMUX_OUT26": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT26",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX26"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX27->>GTXE2_INT_INTERFACE_IMUX_DELAY27": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY27",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX27"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX27->>GTXE2_INT_INTERFACE_IMUX_OUT27": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT27",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX27"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX28->>GTXE2_INT_INTERFACE_IMUX_DELAY28": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY28",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX28"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX28->>GTXE2_INT_INTERFACE_IMUX_OUT28": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT28",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX28"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX29->>GTXE2_INT_INTERFACE_IMUX_DELAY29": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY29",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX29"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX29->>GTXE2_INT_INTERFACE_IMUX_OUT29": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT29",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX29"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX3->>GTXE2_INT_INTERFACE_IMUX_DELAY3": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX3"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX3->>GTXE2_INT_INTERFACE_IMUX_OUT3": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX3"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX30->>GTXE2_INT_INTERFACE_IMUX_DELAY30": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY30",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX30"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX30->>GTXE2_INT_INTERFACE_IMUX_OUT30": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT30",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX30"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX31->>GTXE2_INT_INTERFACE_IMUX_DELAY31": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY31",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX31"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX31->>GTXE2_INT_INTERFACE_IMUX_OUT31": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT31",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX31"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX32->>GTXE2_INT_INTERFACE_IMUX_DELAY32": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY32",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX32"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX32->>GTXE2_INT_INTERFACE_IMUX_OUT32": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT32",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX32"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX33->>GTXE2_INT_INTERFACE_IMUX_DELAY33": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY33",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX33"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX33->>GTXE2_INT_INTERFACE_IMUX_OUT33": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT33",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX33"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX34->>GTXE2_INT_INTERFACE_IMUX_DELAY34": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY34",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX34"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX34->>GTXE2_INT_INTERFACE_IMUX_OUT34": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT34",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX34"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX35->>GTXE2_INT_INTERFACE_IMUX_DELAY35": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY35",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX35"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX35->>GTXE2_INT_INTERFACE_IMUX_OUT35": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT35",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX35"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX36->>GTXE2_INT_INTERFACE_IMUX_DELAY36": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY36",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX36"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX36->>GTXE2_INT_INTERFACE_IMUX_OUT36": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT36",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX36"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX37->>GTXE2_INT_INTERFACE_IMUX_DELAY37": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY37",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX37"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX37->>GTXE2_INT_INTERFACE_IMUX_OUT37": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT37",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX37"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX38->>GTXE2_INT_INTERFACE_IMUX_DELAY38": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY38",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX38"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX38->>GTXE2_INT_INTERFACE_IMUX_OUT38": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT38",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX38"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX39->>GTXE2_INT_INTERFACE_IMUX_DELAY39": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY39",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX39"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX39->>GTXE2_INT_INTERFACE_IMUX_OUT39": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT39",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX39"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX4->>GTXE2_INT_INTERFACE_IMUX_DELAY4": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX4"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX4->>GTXE2_INT_INTERFACE_IMUX_OUT4": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX4"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX40->>GTXE2_INT_INTERFACE_IMUX_DELAY40": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY40",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX40"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX40->>GTXE2_INT_INTERFACE_IMUX_OUT40": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT40",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX40"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX41->>GTXE2_INT_INTERFACE_IMUX_DELAY41": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY41",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX41"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX41->>GTXE2_INT_INTERFACE_IMUX_OUT41": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT41",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX41"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX42->>GTXE2_INT_INTERFACE_IMUX_DELAY42": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY42",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX42"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX42->>GTXE2_INT_INTERFACE_IMUX_OUT42": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT42",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX42"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX43->>GTXE2_INT_INTERFACE_IMUX_DELAY43": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY43",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX43"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX43->>GTXE2_INT_INTERFACE_IMUX_OUT43": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT43",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX43"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX44->>GTXE2_INT_INTERFACE_IMUX_DELAY44": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY44",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX44"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX44->>GTXE2_INT_INTERFACE_IMUX_OUT44": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT44",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX44"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX45->>GTXE2_INT_INTERFACE_IMUX_DELAY45": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY45",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX45"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX45->>GTXE2_INT_INTERFACE_IMUX_OUT45": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT45",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX45"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX46->>GTXE2_INT_INTERFACE_IMUX_DELAY46": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY46",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX46"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX46->>GTXE2_INT_INTERFACE_IMUX_OUT46": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT46",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX46"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX47->>GTXE2_INT_INTERFACE_IMUX_DELAY47": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY47",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX47"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX47->>GTXE2_INT_INTERFACE_IMUX_OUT47": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT47",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX47"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX5->>GTXE2_INT_INTERFACE_IMUX_DELAY5": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX5"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX5->>GTXE2_INT_INTERFACE_IMUX_OUT5": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX5"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX6->>GTXE2_INT_INTERFACE_IMUX_DELAY6": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX6"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX6->>GTXE2_INT_INTERFACE_IMUX_OUT6": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX6"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX7->>GTXE2_INT_INTERFACE_IMUX_DELAY7": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX7"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX7->>GTXE2_INT_INTERFACE_IMUX_OUT7": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX7"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX8->>GTXE2_INT_INTERFACE_IMUX_DELAY8": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY8",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX8"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX8->>GTXE2_INT_INTERFACE_IMUX_OUT8": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT8",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX8"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX9->>GTXE2_INT_INTERFACE_IMUX_DELAY9": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY9",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX9"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX9->>GTXE2_INT_INTERFACE_IMUX_OUT9": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT9",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX9"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY0->GTXE2_INT_INTERFACE_IMUX_OUT0": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY0"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY1->GTXE2_INT_INTERFACE_IMUX_OUT1": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY1"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY10->GTXE2_INT_INTERFACE_IMUX_OUT10": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT10",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY10"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY11->GTXE2_INT_INTERFACE_IMUX_OUT11": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT11",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY11"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY12->GTXE2_INT_INTERFACE_IMUX_OUT12": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT12",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY12"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY13->GTXE2_INT_INTERFACE_IMUX_OUT13": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT13",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY13"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY14->GTXE2_INT_INTERFACE_IMUX_OUT14": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT14",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY14"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY15->GTXE2_INT_INTERFACE_IMUX_OUT15": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT15",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY15"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY16->GTXE2_INT_INTERFACE_IMUX_OUT16": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT16",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY16"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY17->GTXE2_INT_INTERFACE_IMUX_OUT17": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT17",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY17"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY18->GTXE2_INT_INTERFACE_IMUX_OUT18": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT18",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY18"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY19->GTXE2_INT_INTERFACE_IMUX_OUT19": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT19",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY19"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY2->GTXE2_INT_INTERFACE_IMUX_OUT2": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY2"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY20->GTXE2_INT_INTERFACE_IMUX_OUT20": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT20",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY20"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY21->GTXE2_INT_INTERFACE_IMUX_OUT21": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT21",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY21"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY22->GTXE2_INT_INTERFACE_IMUX_OUT22": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT22",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY22"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY23->GTXE2_INT_INTERFACE_IMUX_OUT23": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT23",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY23"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY24->GTXE2_INT_INTERFACE_IMUX_OUT24": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT24",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY24"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY25->GTXE2_INT_INTERFACE_IMUX_OUT25": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT25",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY25"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY26->GTXE2_INT_INTERFACE_IMUX_OUT26": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT26",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY26"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY27->GTXE2_INT_INTERFACE_IMUX_OUT27": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT27",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY27"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY28->GTXE2_INT_INTERFACE_IMUX_OUT28": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT28",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY28"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY29->GTXE2_INT_INTERFACE_IMUX_OUT29": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT29",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY29"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY3->GTXE2_INT_INTERFACE_IMUX_OUT3": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY3"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY30->GTXE2_INT_INTERFACE_IMUX_OUT30": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT30",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY30"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY31->GTXE2_INT_INTERFACE_IMUX_OUT31": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT31",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY31"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY32->GTXE2_INT_INTERFACE_IMUX_OUT32": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT32",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY32"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY33->GTXE2_INT_INTERFACE_IMUX_OUT33": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT33",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY33"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY34->GTXE2_INT_INTERFACE_IMUX_OUT34": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT34",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY34"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY35->GTXE2_INT_INTERFACE_IMUX_OUT35": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT35",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY35"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY36->GTXE2_INT_INTERFACE_IMUX_OUT36": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT36",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY36"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY37->GTXE2_INT_INTERFACE_IMUX_OUT37": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT37",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY37"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY38->GTXE2_INT_INTERFACE_IMUX_OUT38": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT38",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY38"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY39->GTXE2_INT_INTERFACE_IMUX_OUT39": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT39",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY39"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY4->GTXE2_INT_INTERFACE_IMUX_OUT4": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY4"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY40->GTXE2_INT_INTERFACE_IMUX_OUT40": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT40",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY40"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY41->GTXE2_INT_INTERFACE_IMUX_OUT41": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT41",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY41"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY42->GTXE2_INT_INTERFACE_IMUX_OUT42": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT42",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY42"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY43->GTXE2_INT_INTERFACE_IMUX_OUT43": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT43",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY43"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY44->GTXE2_INT_INTERFACE_IMUX_OUT44": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT44",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY44"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY45->GTXE2_INT_INTERFACE_IMUX_OUT45": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT45",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY45"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY46->GTXE2_INT_INTERFACE_IMUX_OUT46": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT46",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY46"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY47->GTXE2_INT_INTERFACE_IMUX_OUT47": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT47",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY47"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY5->GTXE2_INT_INTERFACE_IMUX_OUT5": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY5"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY6->GTXE2_INT_INTERFACE_IMUX_OUT6": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY6"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY7->GTXE2_INT_INTERFACE_IMUX_OUT7": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY7"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY8->GTXE2_INT_INTERFACE_IMUX_OUT8": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT8",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY8"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY9->GTXE2_INT_INTERFACE_IMUX_OUT9": {
+            "can_invert": "0",
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT9",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY9"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B0->>INT_INTERFACE_LOGIC_OUTS0": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS0",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B0"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B1->>INT_INTERFACE_LOGIC_OUTS1": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS1",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B1"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B10->>INT_INTERFACE_LOGIC_OUTS10": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS10",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B10"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B11->>INT_INTERFACE_LOGIC_OUTS11": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS11",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B11"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B12->>INT_INTERFACE_LOGIC_OUTS12": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS12",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B12"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B13->>INT_INTERFACE_LOGIC_OUTS13": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS13",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B13"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B14->>INT_INTERFACE_LOGIC_OUTS14": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS14",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B14"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B15->>INT_INTERFACE_LOGIC_OUTS15": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS15",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B15"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B16->>INT_INTERFACE_LOGIC_OUTS16": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS16",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B16"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B17->>INT_INTERFACE_LOGIC_OUTS17": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS17",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B17"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B18->>INT_INTERFACE_LOGIC_OUTS18": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS18",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B18"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B19->>INT_INTERFACE_LOGIC_OUTS19": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS19",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B19"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B2->>INT_INTERFACE_LOGIC_OUTS2": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS2",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B2"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B20->>INT_INTERFACE_LOGIC_OUTS20": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS20",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B20"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B21->>INT_INTERFACE_LOGIC_OUTS21": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS21",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B21"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B22->>INT_INTERFACE_LOGIC_OUTS22": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS22",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B22"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B23->>INT_INTERFACE_LOGIC_OUTS23": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS23",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B23"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B3->>INT_INTERFACE_LOGIC_OUTS3": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS3",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B3"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B4->>INT_INTERFACE_LOGIC_OUTS4": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS4",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B4"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B5->>INT_INTERFACE_LOGIC_OUTS5": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS5",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B5"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B6->>INT_INTERFACE_LOGIC_OUTS6": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS6",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B6"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B7->>INT_INTERFACE_LOGIC_OUTS7": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS7",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B7"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B8->>INT_INTERFACE_LOGIC_OUTS8": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS8",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B8"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B9->>INT_INTERFACE_LOGIC_OUTS9": {
+            "can_invert": "0",
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS9",
+            "is_directional": "1",
+            "is_pseudo": "0",
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B9"
+        }
+    },
+    "sites": [],
+    "tile_type": "GTX_INT_INTERFACE",
+    "wires": [
+        "GTXE2_INT_INTERFACE_IMUX0",
+        "GTXE2_INT_INTERFACE_IMUX1",
+        "GTXE2_INT_INTERFACE_IMUX10",
+        "GTXE2_INT_INTERFACE_IMUX11",
+        "GTXE2_INT_INTERFACE_IMUX12",
+        "GTXE2_INT_INTERFACE_IMUX13",
+        "GTXE2_INT_INTERFACE_IMUX14",
+        "GTXE2_INT_INTERFACE_IMUX15",
+        "GTXE2_INT_INTERFACE_IMUX16",
+        "GTXE2_INT_INTERFACE_IMUX17",
+        "GTXE2_INT_INTERFACE_IMUX18",
+        "GTXE2_INT_INTERFACE_IMUX19",
+        "GTXE2_INT_INTERFACE_IMUX2",
+        "GTXE2_INT_INTERFACE_IMUX20",
+        "GTXE2_INT_INTERFACE_IMUX21",
+        "GTXE2_INT_INTERFACE_IMUX22",
+        "GTXE2_INT_INTERFACE_IMUX23",
+        "GTXE2_INT_INTERFACE_IMUX24",
+        "GTXE2_INT_INTERFACE_IMUX25",
+        "GTXE2_INT_INTERFACE_IMUX26",
+        "GTXE2_INT_INTERFACE_IMUX27",
+        "GTXE2_INT_INTERFACE_IMUX28",
+        "GTXE2_INT_INTERFACE_IMUX29",
+        "GTXE2_INT_INTERFACE_IMUX3",
+        "GTXE2_INT_INTERFACE_IMUX30",
+        "GTXE2_INT_INTERFACE_IMUX31",
+        "GTXE2_INT_INTERFACE_IMUX32",
+        "GTXE2_INT_INTERFACE_IMUX33",
+        "GTXE2_INT_INTERFACE_IMUX34",
+        "GTXE2_INT_INTERFACE_IMUX35",
+        "GTXE2_INT_INTERFACE_IMUX36",
+        "GTXE2_INT_INTERFACE_IMUX37",
+        "GTXE2_INT_INTERFACE_IMUX38",
+        "GTXE2_INT_INTERFACE_IMUX39",
+        "GTXE2_INT_INTERFACE_IMUX4",
+        "GTXE2_INT_INTERFACE_IMUX40",
+        "GTXE2_INT_INTERFACE_IMUX41",
+        "GTXE2_INT_INTERFACE_IMUX42",
+        "GTXE2_INT_INTERFACE_IMUX43",
+        "GTXE2_INT_INTERFACE_IMUX44",
+        "GTXE2_INT_INTERFACE_IMUX45",
+        "GTXE2_INT_INTERFACE_IMUX46",
+        "GTXE2_INT_INTERFACE_IMUX47",
+        "GTXE2_INT_INTERFACE_IMUX5",
+        "GTXE2_INT_INTERFACE_IMUX6",
+        "GTXE2_INT_INTERFACE_IMUX7",
+        "GTXE2_INT_INTERFACE_IMUX8",
+        "GTXE2_INT_INTERFACE_IMUX9",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY0",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY1",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY10",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY11",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY12",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY13",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY14",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY15",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY16",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY17",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY18",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY19",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY2",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY20",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY21",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY22",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY23",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY24",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY25",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY26",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY27",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY28",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY29",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY3",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY30",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY31",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY32",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY33",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY34",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY35",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY36",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY37",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY38",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY39",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY4",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY40",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY41",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY42",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY43",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY44",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY45",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY46",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY47",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY5",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY6",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY7",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY8",
+        "GTXE2_INT_INTERFACE_IMUX_DELAY9",
+        "GTXE2_INT_INTERFACE_IMUX_OUT0",
+        "GTXE2_INT_INTERFACE_IMUX_OUT1",
+        "GTXE2_INT_INTERFACE_IMUX_OUT10",
+        "GTXE2_INT_INTERFACE_IMUX_OUT11",
+        "GTXE2_INT_INTERFACE_IMUX_OUT12",
+        "GTXE2_INT_INTERFACE_IMUX_OUT13",
+        "GTXE2_INT_INTERFACE_IMUX_OUT14",
+        "GTXE2_INT_INTERFACE_IMUX_OUT15",
+        "GTXE2_INT_INTERFACE_IMUX_OUT16",
+        "GTXE2_INT_INTERFACE_IMUX_OUT17",
+        "GTXE2_INT_INTERFACE_IMUX_OUT18",
+        "GTXE2_INT_INTERFACE_IMUX_OUT19",
+        "GTXE2_INT_INTERFACE_IMUX_OUT2",
+        "GTXE2_INT_INTERFACE_IMUX_OUT20",
+        "GTXE2_INT_INTERFACE_IMUX_OUT21",
+        "GTXE2_INT_INTERFACE_IMUX_OUT22",
+        "GTXE2_INT_INTERFACE_IMUX_OUT23",
+        "GTXE2_INT_INTERFACE_IMUX_OUT24",
+        "GTXE2_INT_INTERFACE_IMUX_OUT25",
+        "GTXE2_INT_INTERFACE_IMUX_OUT26",
+        "GTXE2_INT_INTERFACE_IMUX_OUT27",
+        "GTXE2_INT_INTERFACE_IMUX_OUT28",
+        "GTXE2_INT_INTERFACE_IMUX_OUT29",
+        "GTXE2_INT_INTERFACE_IMUX_OUT3",
+        "GTXE2_INT_INTERFACE_IMUX_OUT30",
+        "GTXE2_INT_INTERFACE_IMUX_OUT31",
+        "GTXE2_INT_INTERFACE_IMUX_OUT32",
+        "GTXE2_INT_INTERFACE_IMUX_OUT33",
+        "GTXE2_INT_INTERFACE_IMUX_OUT34",
+        "GTXE2_INT_INTERFACE_IMUX_OUT35",
+        "GTXE2_INT_INTERFACE_IMUX_OUT36",
+        "GTXE2_INT_INTERFACE_IMUX_OUT37",
+        "GTXE2_INT_INTERFACE_IMUX_OUT38",
+        "GTXE2_INT_INTERFACE_IMUX_OUT39",
+        "GTXE2_INT_INTERFACE_IMUX_OUT4",
+        "GTXE2_INT_INTERFACE_IMUX_OUT40",
+        "GTXE2_INT_INTERFACE_IMUX_OUT41",
+        "GTXE2_INT_INTERFACE_IMUX_OUT42",
+        "GTXE2_INT_INTERFACE_IMUX_OUT43",
+        "GTXE2_INT_INTERFACE_IMUX_OUT44",
+        "GTXE2_INT_INTERFACE_IMUX_OUT45",
+        "GTXE2_INT_INTERFACE_IMUX_OUT46",
+        "GTXE2_INT_INTERFACE_IMUX_OUT47",
+        "GTXE2_INT_INTERFACE_IMUX_OUT5",
+        "GTXE2_INT_INTERFACE_IMUX_OUT6",
+        "GTXE2_INT_INTERFACE_IMUX_OUT7",
+        "GTXE2_INT_INTERFACE_IMUX_OUT8",
+        "GTXE2_INT_INTERFACE_IMUX_OUT9",
+        "INT_INTERFACE_BLOCK_OUTS_B0",
+        "INT_INTERFACE_BLOCK_OUTS_B1",
+        "INT_INTERFACE_BLOCK_OUTS_B2",
+        "INT_INTERFACE_BLOCK_OUTS_B3",
+        "INT_INTERFACE_BYP0",
+        "INT_INTERFACE_BYP1",
+        "INT_INTERFACE_BYP2",
+        "INT_INTERFACE_BYP3",
+        "INT_INTERFACE_BYP4",
+        "INT_INTERFACE_BYP5",
+        "INT_INTERFACE_BYP6",
+        "INT_INTERFACE_BYP7",
+        "INT_INTERFACE_CLK0",
+        "INT_INTERFACE_CLK1",
+        "INT_INTERFACE_CTRL0",
+        "INT_INTERFACE_CTRL1",
+        "INT_INTERFACE_EE2A0",
+        "INT_INTERFACE_EE2A1",
+        "INT_INTERFACE_EE2A2",
+        "INT_INTERFACE_EE2A3",
+        "INT_INTERFACE_EE2BEG0",
+        "INT_INTERFACE_EE2BEG1",
+        "INT_INTERFACE_EE2BEG2",
+        "INT_INTERFACE_EE2BEG3",
+        "INT_INTERFACE_EE4A0",
+        "INT_INTERFACE_EE4A1",
+        "INT_INTERFACE_EE4A2",
+        "INT_INTERFACE_EE4A3",
+        "INT_INTERFACE_EE4B0",
+        "INT_INTERFACE_EE4B1",
+        "INT_INTERFACE_EE4B2",
+        "INT_INTERFACE_EE4B3",
+        "INT_INTERFACE_EE4BEG0",
+        "INT_INTERFACE_EE4BEG1",
+        "INT_INTERFACE_EE4BEG2",
+        "INT_INTERFACE_EE4BEG3",
+        "INT_INTERFACE_EE4C0",
+        "INT_INTERFACE_EE4C1",
+        "INT_INTERFACE_EE4C2",
+        "INT_INTERFACE_EE4C3",
+        "INT_INTERFACE_EL1BEG0",
+        "INT_INTERFACE_EL1BEG1",
+        "INT_INTERFACE_EL1BEG2",
+        "INT_INTERFACE_EL1BEG3",
+        "INT_INTERFACE_ER1BEG0",
+        "INT_INTERFACE_ER1BEG1",
+        "INT_INTERFACE_ER1BEG2",
+        "INT_INTERFACE_ER1BEG3",
+        "INT_INTERFACE_FAN0",
+        "INT_INTERFACE_FAN1",
+        "INT_INTERFACE_FAN2",
+        "INT_INTERFACE_FAN3",
+        "INT_INTERFACE_FAN4",
+        "INT_INTERFACE_FAN5",
+        "INT_INTERFACE_FAN6",
+        "INT_INTERFACE_FAN7",
+        "INT_INTERFACE_LH1",
+        "INT_INTERFACE_LH10",
+        "INT_INTERFACE_LH11",
+        "INT_INTERFACE_LH12",
+        "INT_INTERFACE_LH2",
+        "INT_INTERFACE_LH3",
+        "INT_INTERFACE_LH4",
+        "INT_INTERFACE_LH5",
+        "INT_INTERFACE_LH6",
+        "INT_INTERFACE_LH7",
+        "INT_INTERFACE_LH8",
+        "INT_INTERFACE_LH9",
+        "INT_INTERFACE_LOGIC_OUTS0",
+        "INT_INTERFACE_LOGIC_OUTS1",
+        "INT_INTERFACE_LOGIC_OUTS10",
+        "INT_INTERFACE_LOGIC_OUTS11",
+        "INT_INTERFACE_LOGIC_OUTS12",
+        "INT_INTERFACE_LOGIC_OUTS13",
+        "INT_INTERFACE_LOGIC_OUTS14",
+        "INT_INTERFACE_LOGIC_OUTS15",
+        "INT_INTERFACE_LOGIC_OUTS16",
+        "INT_INTERFACE_LOGIC_OUTS17",
+        "INT_INTERFACE_LOGIC_OUTS18",
+        "INT_INTERFACE_LOGIC_OUTS19",
+        "INT_INTERFACE_LOGIC_OUTS2",
+        "INT_INTERFACE_LOGIC_OUTS20",
+        "INT_INTERFACE_LOGIC_OUTS21",
+        "INT_INTERFACE_LOGIC_OUTS22",
+        "INT_INTERFACE_LOGIC_OUTS23",
+        "INT_INTERFACE_LOGIC_OUTS3",
+        "INT_INTERFACE_LOGIC_OUTS4",
+        "INT_INTERFACE_LOGIC_OUTS5",
+        "INT_INTERFACE_LOGIC_OUTS6",
+        "INT_INTERFACE_LOGIC_OUTS7",
+        "INT_INTERFACE_LOGIC_OUTS8",
+        "INT_INTERFACE_LOGIC_OUTS9",
+        "INT_INTERFACE_LOGIC_OUTS_B0",
+        "INT_INTERFACE_LOGIC_OUTS_B1",
+        "INT_INTERFACE_LOGIC_OUTS_B10",
+        "INT_INTERFACE_LOGIC_OUTS_B11",
+        "INT_INTERFACE_LOGIC_OUTS_B12",
+        "INT_INTERFACE_LOGIC_OUTS_B13",
+        "INT_INTERFACE_LOGIC_OUTS_B14",
+        "INT_INTERFACE_LOGIC_OUTS_B15",
+        "INT_INTERFACE_LOGIC_OUTS_B16",
+        "INT_INTERFACE_LOGIC_OUTS_B17",
+        "INT_INTERFACE_LOGIC_OUTS_B18",
+        "INT_INTERFACE_LOGIC_OUTS_B19",
+        "INT_INTERFACE_LOGIC_OUTS_B2",
+        "INT_INTERFACE_LOGIC_OUTS_B20",
+        "INT_INTERFACE_LOGIC_OUTS_B21",
+        "INT_INTERFACE_LOGIC_OUTS_B22",
+        "INT_INTERFACE_LOGIC_OUTS_B23",
+        "INT_INTERFACE_LOGIC_OUTS_B3",
+        "INT_INTERFACE_LOGIC_OUTS_B4",
+        "INT_INTERFACE_LOGIC_OUTS_B5",
+        "INT_INTERFACE_LOGIC_OUTS_B6",
+        "INT_INTERFACE_LOGIC_OUTS_B7",
+        "INT_INTERFACE_LOGIC_OUTS_B8",
+        "INT_INTERFACE_LOGIC_OUTS_B9",
+        "INT_INTERFACE_MONITOR_N",
+        "INT_INTERFACE_MONITOR_P",
+        "INT_INTERFACE_NE2A0",
+        "INT_INTERFACE_NE2A1",
+        "INT_INTERFACE_NE2A2",
+        "INT_INTERFACE_NE2A3",
+        "INT_INTERFACE_NE4BEG0",
+        "INT_INTERFACE_NE4BEG1",
+        "INT_INTERFACE_NE4BEG2",
+        "INT_INTERFACE_NE4BEG3",
+        "INT_INTERFACE_NE4C0",
+        "INT_INTERFACE_NE4C1",
+        "INT_INTERFACE_NE4C2",
+        "INT_INTERFACE_NE4C3",
+        "INT_INTERFACE_NW2A0",
+        "INT_INTERFACE_NW2A1",
+        "INT_INTERFACE_NW2A2",
+        "INT_INTERFACE_NW2A3",
+        "INT_INTERFACE_NW4A0",
+        "INT_INTERFACE_NW4A1",
+        "INT_INTERFACE_NW4A2",
+        "INT_INTERFACE_NW4A3",
+        "INT_INTERFACE_NW4END0",
+        "INT_INTERFACE_NW4END1",
+        "INT_INTERFACE_NW4END2",
+        "INT_INTERFACE_NW4END3",
+        "INT_INTERFACE_SE2A0",
+        "INT_INTERFACE_SE2A1",
+        "INT_INTERFACE_SE2A2",
+        "INT_INTERFACE_SE2A3",
+        "INT_INTERFACE_SE4BEG0",
+        "INT_INTERFACE_SE4BEG1",
+        "INT_INTERFACE_SE4BEG2",
+        "INT_INTERFACE_SE4BEG3",
+        "INT_INTERFACE_SE4C0",
+        "INT_INTERFACE_SE4C1",
+        "INT_INTERFACE_SE4C2",
+        "INT_INTERFACE_SE4C3",
+        "INT_INTERFACE_SW2A0",
+        "INT_INTERFACE_SW2A1",
+        "INT_INTERFACE_SW2A2",
+        "INT_INTERFACE_SW2A3",
+        "INT_INTERFACE_SW4A0",
+        "INT_INTERFACE_SW4A1",
+        "INT_INTERFACE_SW4A2",
+        "INT_INTERFACE_SW4A3",
+        "INT_INTERFACE_SW4END0",
+        "INT_INTERFACE_SW4END1",
+        "INT_INTERFACE_SW4END2",
+        "INT_INTERFACE_SW4END3",
+        "INT_INTERFACE_WL1END0",
+        "INT_INTERFACE_WL1END1",
+        "INT_INTERFACE_WL1END2",
+        "INT_INTERFACE_WL1END3",
+        "INT_INTERFACE_WR1END0",
+        "INT_INTERFACE_WR1END1",
+        "INT_INTERFACE_WR1END2",
+        "INT_INTERFACE_WR1END3",
+        "INT_INTERFACE_WW2A0",
+        "INT_INTERFACE_WW2A1",
+        "INT_INTERFACE_WW2A2",
+        "INT_INTERFACE_WW2A3",
+        "INT_INTERFACE_WW2END0",
+        "INT_INTERFACE_WW2END1",
+        "INT_INTERFACE_WW2END2",
+        "INT_INTERFACE_WW2END3",
+        "INT_INTERFACE_WW4A0",
+        "INT_INTERFACE_WW4A1",
+        "INT_INTERFACE_WW4A2",
+        "INT_INTERFACE_WW4A3",
+        "INT_INTERFACE_WW4B0",
+        "INT_INTERFACE_WW4B1",
+        "INT_INTERFACE_WW4B2",
+        "INT_INTERFACE_WW4B3",
+        "INT_INTERFACE_WW4C0",
+        "INT_INTERFACE_WW4C1",
+        "INT_INTERFACE_WW4C2",
+        "INT_INTERFACE_WW4C3",
+        "INT_INTERFACE_WW4END0",
+        "INT_INTERFACE_WW4END1",
+        "INT_INTERFACE_WW4END2",
+        "INT_INTERFACE_WW4END3"
+    ]
 }
