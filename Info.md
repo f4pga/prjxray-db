@@ -37,20 +37,20 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Wed Jan 30 04:31:46 UTC 2019 (2019-01-30T04:31:46+00:00).
+Last updated on Wed Jan 30 05:24:00 UTC 2019 (2019-01-30T05:24:00+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-1084-gafe50c6](https://github.com/SymbiFlow/prjxray/commit/afe50c68c464c0cd4a3fa92b6a07c9abbe41682f).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [v0.0-1602-gf61ccd1](https://github.com/SymbiFlow/prjxray/commit/f61ccd1f2ae1fc2bb4f5a47ac5a97ca3c7a06ec6).
 
 Latest commit was;
 ```
-commit afe50c68c464c0cd4a3fa92b6a07c9abbe41682f
-Merge: 8385636 5c82555
-Author: John McMaster <18452276+mcmasterg@users.noreply.github.com>
-Date:   Wed Nov 28 14:28:03 2018 -0800
+commit f61ccd1f2ae1fc2bb4f5a47ac5a97ca3c7a06ec6
+Merge: 4efea26 9e585ef
+Author: litghost <537074+litghost@users.noreply.github.com>
+Date:   Fri Jan 18 07:09:59 2019 -0800
 
-    Merge pull request #275 from mcmasterg/rempips
+    Merge pull request #549 from litghost/accelerate_post_processing
     
-    Rempips
+    Refactor 074 post-processing
 ```
 
 
@@ -59,7 +59,7 @@ Date:   Wed Nov 28 14:28:03 2018 -0800
 
 ### Settings
 
-Created using following [settings/artix7.sh (sha256: 15398c7d0dd8a20e2b3d586ec845e9b1c2292587e308711eacf4fd31508821d5)](https://github.com/SymbiFlow/prjxray/blob/afe50c68c464c0cd4a3fa92b6a07c9abbe41682f/settings/artix7.sh)
+Created using following [settings/artix7.sh (sha256: 15398c7d0dd8a20e2b3d586ec845e9b1c2292587e308711eacf4fd31508821d5)](https://github.com/SymbiFlow/prjxray/blob/f61ccd1f2ae1fc2bb4f5a47ac5a97ca3c7a06ec6/settings/artix7.sh)
 ```shell
 export XRAY_DATABASE="artix7"
 export XRAY_PART="xc7a50tfgg484-1"
@@ -110,10 +110,14 @@ Results have checksums;
  * [`8cac3f210fcc33e78fe576841c286a19138be26004dee70397f93a0b3019e451  ./artix7/harness/basys3/swbut/design.dcp`](./artix7/harness/basys3/swbut/design.dcp)
  * [`11d15eb449e9f42409e7187c26635d3facb6974cc0172819b4387ada2ff2532c  ./artix7/harness/basys3/swbut/design.json`](./artix7/harness/basys3/swbut/design.json)
  * [`9df8eac3c11e57d81b4bf4a927ade787f881f0ef46c8ab610ca529f35e887689  ./artix7/harness/basys3/swbut/design.txt`](./artix7/harness/basys3/swbut/design.txt)
- * [`5acfc8680a96dfe832cbcf70e55d98617323e8f37405d3dca7bcfda9b31aef17  ./artix7/mask_clbll_l.db`](./artix7/mask_clbll_l.db)
- * [`615472574699aeeb8471224558ce13e18f14c3e65e3b5a2ecc862ee6d3e89211  ./artix7/mask_clbll_r.db`](./artix7/mask_clbll_r.db)
- * [`5acfc8680a96dfe832cbcf70e55d98617323e8f37405d3dca7bcfda9b31aef17  ./artix7/mask_clblm_l.db`](./artix7/mask_clblm_l.db)
- * [`615472574699aeeb8471224558ce13e18f14c3e65e3b5a2ecc862ee6d3e89211  ./artix7/mask_clblm_r.db`](./artix7/mask_clblm_r.db)
+ * [`fca753747fb1d583483e22980c4dae3a2de6451a326d46eab3581ea6f50f5b2d  ./artix7/mask_bram_l.block_ram.db`](./artix7/mask_bram_l.block_ram.db)
+ * [`bed3ba955aa33b47eb3f4c218d8619e6e3f7c5b7f0d0de700827d666a54956f7  ./artix7/mask_bram_l.db`](./artix7/mask_bram_l.db)
+ * [`fca753747fb1d583483e22980c4dae3a2de6451a326d46eab3581ea6f50f5b2d  ./artix7/mask_bram_r.block_ram.db`](./artix7/mask_bram_r.block_ram.db)
+ * [`bed3ba955aa33b47eb3f4c218d8619e6e3f7c5b7f0d0de700827d666a54956f7  ./artix7/mask_bram_r.db`](./artix7/mask_bram_r.db)
+ * [`97501937512bf87b2ed203fc35a1532e4fa96a0ef0693925a7e32c8405d28b67  ./artix7/mask_clbll_l.db`](./artix7/mask_clbll_l.db)
+ * [`121d2430c14b7170e91bfe974a8a028af667669764eb69a1cfd703ead54e1da4  ./artix7/mask_clbll_r.db`](./artix7/mask_clbll_r.db)
+ * [`82693076cf011620e3cb609cc5c8781894cc5071b0c371f6931c8086e250c81a  ./artix7/mask_clblm_l.db`](./artix7/mask_clblm_l.db)
+ * [`9c7daaad1ec1ace4d819ad09a761d7d64afc1b617821d3b059dac4268f94cb46  ./artix7/mask_clblm_r.db`](./artix7/mask_clblm_r.db)
  * [`76d1e0bd4b7ad492cf3fe8698b2b5f46f7dcc5fe446984e5dccae373c63edafd  ./artix7/mask_hclk_l.db`](./artix7/mask_hclk_l.db)
  * [`76d1e0bd4b7ad492cf3fe8698b2b5f46f7dcc5fe446984e5dccae373c63edafd  ./artix7/mask_hclk_r.db`](./artix7/mask_hclk_r.db)
  * [`b4ffdb01ca695c7d52f34b88508aef6d596377fcffd7fa5e197212acc4b00e9a  ./artix7/ppips_clbll_l.db`](./artix7/ppips_clbll_l.db)
@@ -125,17 +129,19 @@ Results have checksums;
  * [`292b55e44a2c49d9a7fc961ba37761ee8a29e50c790ef9da5e8c0d1c6c142b2f  ./artix7/ppips_int_l.db`](./artix7/ppips_int_l.db)
  * [`60c352d2d6124ad3260ae0c3c151effa29aaad4c32fa2cee7787bfc43ca6aa89  ./artix7/ppips_int_r.db`](./artix7/ppips_int_r.db)
  * [`63cab7c6cb50b9a86cd6de4ec02cfba93b99ac622684a1196b3d70adb1472fc1  ./artix7/segbits_bram_l.block_ram.db`](./artix7/segbits_bram_l.block_ram.db)
- * [`4b616026c8d3cb1e4e61e5e5e5abdfa381e66ac6583cacc5262c69273ff813f0  ./artix7/segbits_bram_l.db`](./artix7/segbits_bram_l.db)
+ * [`231e0e81ed1ad81e2e2f7a91e5eb32505453a8e6df4ab2e109872497f60a7195  ./artix7/segbits_bram_l.db`](./artix7/segbits_bram_l.db)
  * [`6daa967b706d7fc5cdf597ed9f142df8f3003ded2fee3d622d484b21ceda2827  ./artix7/segbits_bram_r.block_ram.db`](./artix7/segbits_bram_r.block_ram.db)
- * [`fb840f2f70f9203652d00f3b1dd5ea57e1b30d6ef49cb8c940b0f197b03ee5fe  ./artix7/segbits_bram_r.db`](./artix7/segbits_bram_r.db)
- * [`47ecf9e30df92e809b0b9fc20a5b4048a46647a73cc1feec967a439bedb4045b  ./artix7/segbits_clbll_l.db`](./artix7/segbits_clbll_l.db)
- * [`df25b39b33a981b1d20af7e4e04e1f39f9eb5b1d4b5afbaaf1e430525bf631b2  ./artix7/segbits_clbll_r.db`](./artix7/segbits_clbll_r.db)
- * [`631b4a3dc78241a6032b1c435097e26124023394f0ad16b50f5c9c841dd55407  ./artix7/segbits_clblm_l.db`](./artix7/segbits_clblm_l.db)
- * [`fda5c70c0a236d268af8821af66e452f82b69865cc51936e0130ab932560bb2b  ./artix7/segbits_clblm_r.db`](./artix7/segbits_clblm_r.db)
+ * [`41b85caddb170c03fc5a7ba588fcf509bb4fdd8baf9c2c3ca83c0063c89028ff  ./artix7/segbits_bram_r.db`](./artix7/segbits_bram_r.db)
+ * [`ef6706ef033396c75469738223e66d1b5f38b832e27b5bb80f07efd571e28fb7  ./artix7/segbits_clbll_l.db`](./artix7/segbits_clbll_l.db)
+ * [`53c0ea2b05a2c4ddf2b6cce38073534d0c21b893fc5783dc777d97de2f2d6a9e  ./artix7/segbits_clbll_r.db`](./artix7/segbits_clbll_r.db)
+ * [`e6459c01d0c1c7724fa02716103fd02a3e2a75d6b7326f4c937f158a264ffe85  ./artix7/segbits_clblm_l.db`](./artix7/segbits_clblm_l.db)
+ * [`5862b402a5e0a95be5f140112678fd39e1dc039bc339fda0e58111ca1ee9cb6e  ./artix7/segbits_clblm_r.db`](./artix7/segbits_clblm_r.db)
+ * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./artix7/segbits_dsp_l.db`](./artix7/segbits_dsp_l.db)
+ * [`718d2d615a8b636bdd102c3cf4e36be11f8f4d835c2a3c70fff7e03e9d95a763  ./artix7/segbits_dsp_r.db`](./artix7/segbits_dsp_r.db)
  * [`1c2c7229781a4a1d51bbbdeea76238b10497c043aaadf2a76de783041a201878  ./artix7/segbits_hclk_l.db`](./artix7/segbits_hclk_l.db)
  * [`51288ec0be63172fcb2a12a92853150c62a21e894c2d42a2586046c462bf57a9  ./artix7/segbits_hclk_r.db`](./artix7/segbits_hclk_r.db)
- * [`90a351d97c49ae04fc83b67bb71292b369dea648e75384276eb3655229cc02e0  ./artix7/segbits_int_l.db`](./artix7/segbits_int_l.db)
- * [`212fee423056293a26b17003c19ab8bb0931cf45c5d4bdb839df5af3bf0cdee9  ./artix7/segbits_int_r.db`](./artix7/segbits_int_r.db)
+ * [`8458db29d99b66d3171471302c0df0790c7ce96f1424b830dabe1acad26b31e2  ./artix7/segbits_int_l.db`](./artix7/segbits_int_l.db)
+ * [`21e905d7125a461233406a951f374b8d17da83ddd298810c7602c8666c0bb88a  ./artix7/segbits_int_r.db`](./artix7/segbits_int_r.db)
  * [`2bc07bf06b86af1985fe1c76da7bd6d858768dd6d9e99344a3c52d490b797cdb  ./artix7/settings.sh`](./artix7/settings.sh)
  * [`ac6ba9ad814503f0fdc1dabb4292aaccd1a2195f5b348276cfee12aed3d96a70  ./artix7/site_type_BSCAN.json`](./artix7/site_type_BSCAN.json)
  * [`64724ba2f8af98df5e1d92e5c2da2e6d5a41eec6580f796405e271dadb4e63be  ./artix7/site_type_BUFGCTRL.json`](./artix7/site_type_BUFGCTRL.json)
@@ -183,8 +189,8 @@ Results have checksums;
  * [`f711f285e16aa11d4827ce8504e9413c8ccf87f9f86d108740738ae6cbb4f388  ./artix7/site_type_XADC.json`](./artix7/site_type_XADC.json)
  * [`0bfdad62f04128ca4d469aa18b179cbd3bf78e40c6af50450c9ca85bfffd746f  ./artix7/tile_type_BRAM_INT_INTERFACE_L.json`](./artix7/tile_type_BRAM_INT_INTERFACE_L.json)
  * [`fd0b3b31118249e66193fa06633a58aa5d86820bed16d3f85497b886d2282845  ./artix7/tile_type_BRAM_INT_INTERFACE_R.json`](./artix7/tile_type_BRAM_INT_INTERFACE_R.json)
- * [`0872dcafbe45716e7f05f85e6f21fdf13b83f1b01ad425194a3beb91ebba9c45  ./artix7/tile_type_BRAM_L.json`](./artix7/tile_type_BRAM_L.json)
- * [`1f6fb30b7a5ea1931caad8efebaaef9e4c0f8c7505912418974d3922d9668ed5  ./artix7/tile_type_BRAM_R.json`](./artix7/tile_type_BRAM_R.json)
+ * [`23af85ab67092eb90d6b05c3bff539499494eaecb07b5063baa2aa494063a1ec  ./artix7/tile_type_BRAM_L.json`](./artix7/tile_type_BRAM_L.json)
+ * [`4ee74c76ea5a5e3125080179eaa2abed0e86835088ae7d2ec38e0ca36f6851bb  ./artix7/tile_type_BRAM_R.json`](./artix7/tile_type_BRAM_R.json)
  * [`29e4879a736ff9d43178ba3887ba47b8f1190464dabf4eef7c8fe8d8d23647c2  ./artix7/tile_type_BRKH_BRAM.json`](./artix7/tile_type_BRKH_BRAM.json)
  * [`fccd1abee620b9dc48534d82af9c84d7e4fb9f2fbeaa0d8bbef1ddab5d2d91c5  ./artix7/tile_type_BRKH_B_TERM_INT.json`](./artix7/tile_type_BRKH_B_TERM_INT.json)
  * [`1adbede824487b01b77eed4443ff5434c9473a067dae3c620df3ccca800951ac  ./artix7/tile_type_BRKH_CLB.json`](./artix7/tile_type_BRKH_CLB.json)
@@ -225,10 +231,10 @@ Results have checksums;
  * [`e008d249e1f1dafa57e4ac276826c60e24b7fd29ec4e5acafd078c0604631afc  ./artix7/tile_type_CMT_TOP_L_UPPER_T.json`](./artix7/tile_type_CMT_TOP_L_UPPER_T.json)
  * [`5b45ef7b0d9a366440da629a02330f51b6210652842fe723369e88f31df5d732  ./artix7/tile_type_CMT_TOP_R_LOWER_B.json`](./artix7/tile_type_CMT_TOP_R_LOWER_B.json)
  * [`6260182cedf2857372997d8b9a9b3d28504931d1c7ff5176d718dd44935354f0  ./artix7/tile_type_CMT_TOP_R_LOWER_T.json`](./artix7/tile_type_CMT_TOP_R_LOWER_T.json)
- * [`21e908de40301ce5b6d3a2479a5784c74f7227a1493941a5552845e794bdfa2b  ./artix7/tile_type_CMT_TOP_R_UPPER_B.json`](./artix7/tile_type_CMT_TOP_R_UPPER_B.json)
+ * [`1e5e97ee35ee5a8af5d7656618b11cdef2a452b9ac8f2257e1a9fb6070898804  ./artix7/tile_type_CMT_TOP_R_UPPER_B.json`](./artix7/tile_type_CMT_TOP_R_UPPER_B.json)
  * [`816d810709c3f54a33774c6a9acefe472cac1e5748d306e692524007b699ee35  ./artix7/tile_type_CMT_TOP_R_UPPER_T.json`](./artix7/tile_type_CMT_TOP_R_UPPER_T.json)
- * [`acd1f4d85f068809d6b1aa29426168b9418923631cc514a9159e95bfff599350  ./artix7/tile_type_DSP_L.json`](./artix7/tile_type_DSP_L.json)
- * [`bc2866210b36ed258d392e54b68d08171dd254eb1c976187259ce5bf403f920a  ./artix7/tile_type_DSP_R.json`](./artix7/tile_type_DSP_R.json)
+ * [`d4731d3d594d0f941c9e8565caf1d5fc8b2da870dc7b311e988b2216f15f7707  ./artix7/tile_type_DSP_L.json`](./artix7/tile_type_DSP_L.json)
+ * [`0bc4bf5df264f500c0117a86ba085ffb2b6d6c910f0e677f538fcb79d70478a8  ./artix7/tile_type_DSP_R.json`](./artix7/tile_type_DSP_R.json)
  * [`01bb373548f7244412efb0a59b85203b18450d357c809b0c36ceaee46a81f3d1  ./artix7/tile_type_GTP_CHANNEL_0.json`](./artix7/tile_type_GTP_CHANNEL_0.json)
  * [`e34491f9e8151c172f330dbddd41ee646dbb526772409174810ca8872df4e6a1  ./artix7/tile_type_GTP_CHANNEL_1.json`](./artix7/tile_type_GTP_CHANNEL_1.json)
  * [`fcb1a2ac092a41409be635c1d61585f0e9d40d0ce86014e424ab99f2f50342ea  ./artix7/tile_type_GTP_CHANNEL_2.json`](./artix7/tile_type_GTP_CHANNEL_2.json)
@@ -294,7 +300,7 @@ Results have checksums;
  * [`04409fb1eb974ee5af7e8115bf16aacfd4bda61094c7c4644cc020762a45f6c8  ./artix7/tile_type_VBRK_EXT.json`](./artix7/tile_type_VBRK_EXT.json)
  * [`004efcd7f9e172780ca7b8c379ec329bcfc52f86beaa1d997f41dbef7ac4a242  ./artix7/tile_type_VFRAME.json`](./artix7/tile_type_VFRAME.json)
  * [`1604d48580815e26069c2b4909fcc50e8e8f974ad0beb349ced2329c302bb06b  ./artix7/tileconn.json`](./artix7/tileconn.json)
- * [`70fc6a01f6485a7229011d894a4e1832ab3ff01d39e319f9093d58b3dc94f226  ./artix7/tilegrid.json`](./artix7/tilegrid.json)
+ * [`c4ca9177e8ecef5e3ce98abe3a33ab63d0585c853ab5b92d6d948e8dee2d3ba0  ./artix7/tilegrid.json`](./artix7/tilegrid.json)
  * [`4c20ee41ea32668919b7d91a7fabe38960e0ee4d5b3b83f1d18102d48895bf1c  ./artix7/xc7a35tcpg236-1.json`](./artix7/xc7a35tcpg236-1.json)
  * [`ef0724733da87455426a0f833642d96e9d206d047f4eb97072c3093f80c40d7d  ./artix7/xc7a35tcpg236-1.yaml`](./artix7/xc7a35tcpg236-1.yaml)
  * [`4c20ee41ea32668919b7d91a7fabe38960e0ee4d5b3b83f1d18102d48895bf1c  ./artix7/xc7a35tcsg324-1.json`](./artix7/xc7a35tcsg324-1.json)
@@ -307,7 +313,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/kintex7.sh (sha256: b15d95afeae26cb0236f2a17b411f0242e4af0f3664d49dda936465ad3fa2b25)](https://github.com/SymbiFlow/prjxray/blob/afe50c68c464c0cd4a3fa92b6a07c9abbe41682f/settings/kintex7.sh)
+Created using following [settings/kintex7.sh (sha256: b15d95afeae26cb0236f2a17b411f0242e4af0f3664d49dda936465ad3fa2b25)](https://github.com/SymbiFlow/prjxray/blob/f61ccd1f2ae1fc2bb4f5a47ac5a97ca3c7a06ec6/settings/kintex7.sh)
 ```shell
 export XRAY_DATABASE="kintex7"
 export XRAY_PART="xc7k70tfbg676-2"
@@ -545,7 +551,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/zynq7.sh (sha256: d956938bea24fcf8e8c7f71480116a9a668fb7be744e34a4e627b31a6b553f4b)](https://github.com/SymbiFlow/prjxray/blob/afe50c68c464c0cd4a3fa92b6a07c9abbe41682f/settings/zynq7.sh)
+Created using following [settings/zynq7.sh (sha256: d956938bea24fcf8e8c7f71480116a9a668fb7be744e34a4e627b31a6b553f4b)](https://github.com/SymbiFlow/prjxray/blob/f61ccd1f2ae1fc2bb4f5a47ac5a97ca3c7a06ec6/settings/zynq7.sh)
 ```shell
 export XRAY_DATABASE="zynq7"
 export XRAY_PART="xc7z010clg400-1"
