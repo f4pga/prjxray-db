@@ -58,8 +58,8 @@ fi
 )
 
 # Generate the HTML for each device we have a settings file for.
-for SETTINGS in $(find -name settings.sh); do
-	DEVICE="$(basename $(dirname $SETTINGS))"
+for SETTINGS in $TMPDIR/prjxray/settings/*.sh; do
+	DEVICE="$(basename $SETTINGS .sh)"
 
 	echo
 	echo "Generating for $DEVICE"
