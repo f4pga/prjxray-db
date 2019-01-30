@@ -1,0 +1,2195 @@
+{
+    "site_pins": {
+        "CFGRESET": {
+            "direction": "IN"
+        },
+        "CLKRSVD0": {
+            "direction": "IN"
+        },
+        "CLKRSVD1": {
+            "direction": "IN"
+        },
+        "CLKRSVD2": {
+            "direction": "IN"
+        },
+        "CLKRSVD3": {
+            "direction": "IN"
+        },
+        "CPLLFBCLKLOST": {
+            "direction": "OUT"
+        },
+        "CPLLLOCK": {
+            "direction": "OUT"
+        },
+        "CPLLLOCKDETCLK": {
+            "direction": "IN"
+        },
+        "CPLLLOCKEN": {
+            "direction": "IN"
+        },
+        "CPLLPD": {
+            "direction": "IN"
+        },
+        "CPLLREFCLKLOST": {
+            "direction": "OUT"
+        },
+        "CPLLREFCLKSEL0": {
+            "direction": "IN"
+        },
+        "CPLLREFCLKSEL1": {
+            "direction": "IN"
+        },
+        "CPLLREFCLKSEL2": {
+            "direction": "IN"
+        },
+        "CPLLRESET": {
+            "direction": "IN"
+        },
+        "DMONITOROUT0": {
+            "direction": "OUT"
+        },
+        "DMONITOROUT1": {
+            "direction": "OUT"
+        },
+        "DMONITOROUT2": {
+            "direction": "OUT"
+        },
+        "DMONITOROUT3": {
+            "direction": "OUT"
+        },
+        "DMONITOROUT4": {
+            "direction": "OUT"
+        },
+        "DMONITOROUT5": {
+            "direction": "OUT"
+        },
+        "DMONITOROUT6": {
+            "direction": "OUT"
+        },
+        "DMONITOROUT7": {
+            "direction": "OUT"
+        },
+        "DRPADDR0": {
+            "direction": "IN"
+        },
+        "DRPADDR1": {
+            "direction": "IN"
+        },
+        "DRPADDR2": {
+            "direction": "IN"
+        },
+        "DRPADDR3": {
+            "direction": "IN"
+        },
+        "DRPADDR4": {
+            "direction": "IN"
+        },
+        "DRPADDR5": {
+            "direction": "IN"
+        },
+        "DRPADDR6": {
+            "direction": "IN"
+        },
+        "DRPADDR7": {
+            "direction": "IN"
+        },
+        "DRPADDR8": {
+            "direction": "IN"
+        },
+        "DRPCLK": {
+            "direction": "IN"
+        },
+        "DRPDI0": {
+            "direction": "IN"
+        },
+        "DRPDI1": {
+            "direction": "IN"
+        },
+        "DRPDI10": {
+            "direction": "IN"
+        },
+        "DRPDI11": {
+            "direction": "IN"
+        },
+        "DRPDI12": {
+            "direction": "IN"
+        },
+        "DRPDI13": {
+            "direction": "IN"
+        },
+        "DRPDI14": {
+            "direction": "IN"
+        },
+        "DRPDI15": {
+            "direction": "IN"
+        },
+        "DRPDI2": {
+            "direction": "IN"
+        },
+        "DRPDI3": {
+            "direction": "IN"
+        },
+        "DRPDI4": {
+            "direction": "IN"
+        },
+        "DRPDI5": {
+            "direction": "IN"
+        },
+        "DRPDI6": {
+            "direction": "IN"
+        },
+        "DRPDI7": {
+            "direction": "IN"
+        },
+        "DRPDI8": {
+            "direction": "IN"
+        },
+        "DRPDI9": {
+            "direction": "IN"
+        },
+        "DRPDO0": {
+            "direction": "OUT"
+        },
+        "DRPDO1": {
+            "direction": "OUT"
+        },
+        "DRPDO10": {
+            "direction": "OUT"
+        },
+        "DRPDO11": {
+            "direction": "OUT"
+        },
+        "DRPDO12": {
+            "direction": "OUT"
+        },
+        "DRPDO13": {
+            "direction": "OUT"
+        },
+        "DRPDO14": {
+            "direction": "OUT"
+        },
+        "DRPDO15": {
+            "direction": "OUT"
+        },
+        "DRPDO2": {
+            "direction": "OUT"
+        },
+        "DRPDO3": {
+            "direction": "OUT"
+        },
+        "DRPDO4": {
+            "direction": "OUT"
+        },
+        "DRPDO5": {
+            "direction": "OUT"
+        },
+        "DRPDO6": {
+            "direction": "OUT"
+        },
+        "DRPDO7": {
+            "direction": "OUT"
+        },
+        "DRPDO8": {
+            "direction": "OUT"
+        },
+        "DRPDO9": {
+            "direction": "OUT"
+        },
+        "DRPEN": {
+            "direction": "IN"
+        },
+        "DRPRDY": {
+            "direction": "OUT"
+        },
+        "DRPWE": {
+            "direction": "IN"
+        },
+        "EDTBYPASS": {
+            "direction": "IN"
+        },
+        "EDTCLOCK": {
+            "direction": "IN"
+        },
+        "EDTCONFIGURATION": {
+            "direction": "IN"
+        },
+        "EDTSINGLEBYPASSCHAIN": {
+            "direction": "IN"
+        },
+        "EDTUPDATE": {
+            "direction": "IN"
+        },
+        "EYESCANDATAERROR": {
+            "direction": "OUT"
+        },
+        "EYESCANMODE": {
+            "direction": "IN"
+        },
+        "EYESCANRESET": {
+            "direction": "IN"
+        },
+        "EYESCANTRIGGER": {
+            "direction": "IN"
+        },
+        "GTGREFCLK": {
+            "direction": "IN"
+        },
+        "GTNORTHREFCLK0": {
+            "direction": "IN"
+        },
+        "GTNORTHREFCLK1": {
+            "direction": "IN"
+        },
+        "GTREFCLK0": {
+            "direction": "IN"
+        },
+        "GTREFCLK1": {
+            "direction": "IN"
+        },
+        "GTREFCLKMONITOR": {
+            "direction": "OUT"
+        },
+        "GTRESETSEL": {
+            "direction": "IN"
+        },
+        "GTRSVD0": {
+            "direction": "IN"
+        },
+        "GTRSVD1": {
+            "direction": "IN"
+        },
+        "GTRSVD10": {
+            "direction": "IN"
+        },
+        "GTRSVD11": {
+            "direction": "IN"
+        },
+        "GTRSVD12": {
+            "direction": "IN"
+        },
+        "GTRSVD13": {
+            "direction": "IN"
+        },
+        "GTRSVD14": {
+            "direction": "IN"
+        },
+        "GTRSVD15": {
+            "direction": "IN"
+        },
+        "GTRSVD2": {
+            "direction": "IN"
+        },
+        "GTRSVD3": {
+            "direction": "IN"
+        },
+        "GTRSVD4": {
+            "direction": "IN"
+        },
+        "GTRSVD5": {
+            "direction": "IN"
+        },
+        "GTRSVD6": {
+            "direction": "IN"
+        },
+        "GTRSVD7": {
+            "direction": "IN"
+        },
+        "GTRSVD8": {
+            "direction": "IN"
+        },
+        "GTRSVD9": {
+            "direction": "IN"
+        },
+        "GTRXRESET": {
+            "direction": "IN"
+        },
+        "GTSOUTHREFCLK0": {
+            "direction": "IN"
+        },
+        "GTSOUTHREFCLK1": {
+            "direction": "IN"
+        },
+        "GTTXRESET": {
+            "direction": "IN"
+        },
+        "GTXRXN": {
+            "direction": "IN"
+        },
+        "GTXRXP": {
+            "direction": "IN"
+        },
+        "GTXTXN": {
+            "direction": "OUT"
+        },
+        "GTXTXP": {
+            "direction": "OUT"
+        },
+        "LOOPBACK0": {
+            "direction": "IN"
+        },
+        "LOOPBACK1": {
+            "direction": "IN"
+        },
+        "LOOPBACK2": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN0": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN1": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN10": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN11": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN12": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN13": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN14": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN15": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN2": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN20": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN21": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN22": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN23": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN24": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN3": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN4": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN5": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN6": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN7": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN8": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN9": {
+            "direction": "IN"
+        },
+        "PCSRSVDOUT0": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT1": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT10": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT11": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT12": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT13": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT14": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT15": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT2": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT3": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT4": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT5": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT6": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT7": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT8": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT9": {
+            "direction": "OUT"
+        },
+        "PHYSTATUS": {
+            "direction": "OUT"
+        },
+        "PMARSVDIN0": {
+            "direction": "IN"
+        },
+        "PMARSVDIN1": {
+            "direction": "IN"
+        },
+        "PMARSVDIN2": {
+            "direction": "IN"
+        },
+        "PMARSVDIN20": {
+            "direction": "IN"
+        },
+        "PMARSVDIN21": {
+            "direction": "IN"
+        },
+        "PMARSVDIN22": {
+            "direction": "IN"
+        },
+        "PMARSVDIN23": {
+            "direction": "IN"
+        },
+        "PMARSVDIN24": {
+            "direction": "IN"
+        },
+        "PMARSVDIN3": {
+            "direction": "IN"
+        },
+        "PMARSVDIN4": {
+            "direction": "IN"
+        },
+        "PMASCANCLK0": {
+            "direction": "IN"
+        },
+        "PMASCANCLK1": {
+            "direction": "IN"
+        },
+        "PMASCANCLK2": {
+            "direction": "IN"
+        },
+        "PMASCANCLK3": {
+            "direction": "IN"
+        },
+        "PMASCANCLK4": {
+            "direction": "IN"
+        },
+        "PMASCANENB": {
+            "direction": "IN"
+        },
+        "PMASCANIN0": {
+            "direction": "IN"
+        },
+        "PMASCANIN1": {
+            "direction": "IN"
+        },
+        "PMASCANIN2": {
+            "direction": "IN"
+        },
+        "PMASCANIN3": {
+            "direction": "IN"
+        },
+        "PMASCANIN4": {
+            "direction": "IN"
+        },
+        "PMASCANMODEB": {
+            "direction": "IN"
+        },
+        "PMASCANOUT0": {
+            "direction": "OUT"
+        },
+        "PMASCANOUT1": {
+            "direction": "OUT"
+        },
+        "PMASCANOUT2": {
+            "direction": "OUT"
+        },
+        "PMASCANOUT3": {
+            "direction": "OUT"
+        },
+        "PMASCANOUT4": {
+            "direction": "OUT"
+        },
+        "PMASCANRSTEN": {
+            "direction": "IN"
+        },
+        "QPLLCLK": {
+            "direction": "IN"
+        },
+        "QPLLREFCLK": {
+            "direction": "IN"
+        },
+        "RESETOVRD": {
+            "direction": "IN"
+        },
+        "RX8B10BEN": {
+            "direction": "IN"
+        },
+        "RXBUFRESET": {
+            "direction": "IN"
+        },
+        "RXBUFSTATUS0": {
+            "direction": "OUT"
+        },
+        "RXBUFSTATUS1": {
+            "direction": "OUT"
+        },
+        "RXBUFSTATUS2": {
+            "direction": "OUT"
+        },
+        "RXBYTEISALIGNED": {
+            "direction": "OUT"
+        },
+        "RXBYTEREALIGN": {
+            "direction": "OUT"
+        },
+        "RXCDRFREQRESET": {
+            "direction": "IN"
+        },
+        "RXCDRHOLD": {
+            "direction": "IN"
+        },
+        "RXCDRLOCK": {
+            "direction": "OUT"
+        },
+        "RXCDROVRDEN": {
+            "direction": "IN"
+        },
+        "RXCDRRESET": {
+            "direction": "IN"
+        },
+        "RXCDRRESETRSV": {
+            "direction": "IN"
+        },
+        "RXCHANBONDSEQ": {
+            "direction": "OUT"
+        },
+        "RXCHANISALIGNED": {
+            "direction": "OUT"
+        },
+        "RXCHANREALIGN": {
+            "direction": "OUT"
+        },
+        "RXCHARISCOMMA0": {
+            "direction": "OUT"
+        },
+        "RXCHARISCOMMA1": {
+            "direction": "OUT"
+        },
+        "RXCHARISCOMMA2": {
+            "direction": "OUT"
+        },
+        "RXCHARISCOMMA3": {
+            "direction": "OUT"
+        },
+        "RXCHARISCOMMA4": {
+            "direction": "OUT"
+        },
+        "RXCHARISCOMMA5": {
+            "direction": "OUT"
+        },
+        "RXCHARISCOMMA6": {
+            "direction": "OUT"
+        },
+        "RXCHARISCOMMA7": {
+            "direction": "OUT"
+        },
+        "RXCHARISK0": {
+            "direction": "OUT"
+        },
+        "RXCHARISK1": {
+            "direction": "OUT"
+        },
+        "RXCHARISK2": {
+            "direction": "OUT"
+        },
+        "RXCHARISK3": {
+            "direction": "OUT"
+        },
+        "RXCHARISK4": {
+            "direction": "OUT"
+        },
+        "RXCHARISK5": {
+            "direction": "OUT"
+        },
+        "RXCHARISK6": {
+            "direction": "OUT"
+        },
+        "RXCHARISK7": {
+            "direction": "OUT"
+        },
+        "RXCHBONDEN": {
+            "direction": "IN"
+        },
+        "RXCHBONDI0": {
+            "direction": "IN"
+        },
+        "RXCHBONDI1": {
+            "direction": "IN"
+        },
+        "RXCHBONDI2": {
+            "direction": "IN"
+        },
+        "RXCHBONDI3": {
+            "direction": "IN"
+        },
+        "RXCHBONDI4": {
+            "direction": "IN"
+        },
+        "RXCHBONDLEVEL0": {
+            "direction": "IN"
+        },
+        "RXCHBONDLEVEL1": {
+            "direction": "IN"
+        },
+        "RXCHBONDLEVEL2": {
+            "direction": "IN"
+        },
+        "RXCHBONDMASTER": {
+            "direction": "IN"
+        },
+        "RXCHBONDO0": {
+            "direction": "OUT"
+        },
+        "RXCHBONDO1": {
+            "direction": "OUT"
+        },
+        "RXCHBONDO2": {
+            "direction": "OUT"
+        },
+        "RXCHBONDO3": {
+            "direction": "OUT"
+        },
+        "RXCHBONDO4": {
+            "direction": "OUT"
+        },
+        "RXCHBONDSLAVE": {
+            "direction": "IN"
+        },
+        "RXCLKCORCNT0": {
+            "direction": "OUT"
+        },
+        "RXCLKCORCNT1": {
+            "direction": "OUT"
+        },
+        "RXCOMINITDET": {
+            "direction": "OUT"
+        },
+        "RXCOMMADET": {
+            "direction": "OUT"
+        },
+        "RXCOMMADETEN": {
+            "direction": "IN"
+        },
+        "RXCOMSASDET": {
+            "direction": "OUT"
+        },
+        "RXCOMWAKEDET": {
+            "direction": "OUT"
+        },
+        "RXDATA0": {
+            "direction": "OUT"
+        },
+        "RXDATA1": {
+            "direction": "OUT"
+        },
+        "RXDATA10": {
+            "direction": "OUT"
+        },
+        "RXDATA11": {
+            "direction": "OUT"
+        },
+        "RXDATA12": {
+            "direction": "OUT"
+        },
+        "RXDATA13": {
+            "direction": "OUT"
+        },
+        "RXDATA14": {
+            "direction": "OUT"
+        },
+        "RXDATA15": {
+            "direction": "OUT"
+        },
+        "RXDATA16": {
+            "direction": "OUT"
+        },
+        "RXDATA17": {
+            "direction": "OUT"
+        },
+        "RXDATA18": {
+            "direction": "OUT"
+        },
+        "RXDATA19": {
+            "direction": "OUT"
+        },
+        "RXDATA2": {
+            "direction": "OUT"
+        },
+        "RXDATA20": {
+            "direction": "OUT"
+        },
+        "RXDATA21": {
+            "direction": "OUT"
+        },
+        "RXDATA22": {
+            "direction": "OUT"
+        },
+        "RXDATA23": {
+            "direction": "OUT"
+        },
+        "RXDATA24": {
+            "direction": "OUT"
+        },
+        "RXDATA25": {
+            "direction": "OUT"
+        },
+        "RXDATA26": {
+            "direction": "OUT"
+        },
+        "RXDATA27": {
+            "direction": "OUT"
+        },
+        "RXDATA28": {
+            "direction": "OUT"
+        },
+        "RXDATA29": {
+            "direction": "OUT"
+        },
+        "RXDATA3": {
+            "direction": "OUT"
+        },
+        "RXDATA30": {
+            "direction": "OUT"
+        },
+        "RXDATA31": {
+            "direction": "OUT"
+        },
+        "RXDATA32": {
+            "direction": "OUT"
+        },
+        "RXDATA33": {
+            "direction": "OUT"
+        },
+        "RXDATA34": {
+            "direction": "OUT"
+        },
+        "RXDATA35": {
+            "direction": "OUT"
+        },
+        "RXDATA36": {
+            "direction": "OUT"
+        },
+        "RXDATA37": {
+            "direction": "OUT"
+        },
+        "RXDATA38": {
+            "direction": "OUT"
+        },
+        "RXDATA39": {
+            "direction": "OUT"
+        },
+        "RXDATA4": {
+            "direction": "OUT"
+        },
+        "RXDATA40": {
+            "direction": "OUT"
+        },
+        "RXDATA41": {
+            "direction": "OUT"
+        },
+        "RXDATA42": {
+            "direction": "OUT"
+        },
+        "RXDATA43": {
+            "direction": "OUT"
+        },
+        "RXDATA44": {
+            "direction": "OUT"
+        },
+        "RXDATA45": {
+            "direction": "OUT"
+        },
+        "RXDATA46": {
+            "direction": "OUT"
+        },
+        "RXDATA47": {
+            "direction": "OUT"
+        },
+        "RXDATA48": {
+            "direction": "OUT"
+        },
+        "RXDATA49": {
+            "direction": "OUT"
+        },
+        "RXDATA5": {
+            "direction": "OUT"
+        },
+        "RXDATA50": {
+            "direction": "OUT"
+        },
+        "RXDATA51": {
+            "direction": "OUT"
+        },
+        "RXDATA52": {
+            "direction": "OUT"
+        },
+        "RXDATA53": {
+            "direction": "OUT"
+        },
+        "RXDATA54": {
+            "direction": "OUT"
+        },
+        "RXDATA55": {
+            "direction": "OUT"
+        },
+        "RXDATA56": {
+            "direction": "OUT"
+        },
+        "RXDATA57": {
+            "direction": "OUT"
+        },
+        "RXDATA58": {
+            "direction": "OUT"
+        },
+        "RXDATA59": {
+            "direction": "OUT"
+        },
+        "RXDATA6": {
+            "direction": "OUT"
+        },
+        "RXDATA60": {
+            "direction": "OUT"
+        },
+        "RXDATA61": {
+            "direction": "OUT"
+        },
+        "RXDATA62": {
+            "direction": "OUT"
+        },
+        "RXDATA63": {
+            "direction": "OUT"
+        },
+        "RXDATA7": {
+            "direction": "OUT"
+        },
+        "RXDATA8": {
+            "direction": "OUT"
+        },
+        "RXDATA9": {
+            "direction": "OUT"
+        },
+        "RXDATAVALID": {
+            "direction": "OUT"
+        },
+        "RXDDIEN": {
+            "direction": "IN"
+        },
+        "RXDEBUGPULSE": {
+            "direction": "IN"
+        },
+        "RXDFEAGCHOLD": {
+            "direction": "IN"
+        },
+        "RXDFEAGCOVRDEN": {
+            "direction": "IN"
+        },
+        "RXDFECM1EN": {
+            "direction": "IN"
+        },
+        "RXDFELFHOLD": {
+            "direction": "IN"
+        },
+        "RXDFELFOVRDEN": {
+            "direction": "IN"
+        },
+        "RXDFELPMRESET": {
+            "direction": "IN"
+        },
+        "RXDFETAP2HOLD": {
+            "direction": "IN"
+        },
+        "RXDFETAP2OVRDEN": {
+            "direction": "IN"
+        },
+        "RXDFETAP3HOLD": {
+            "direction": "IN"
+        },
+        "RXDFETAP3OVRDEN": {
+            "direction": "IN"
+        },
+        "RXDFETAP4HOLD": {
+            "direction": "IN"
+        },
+        "RXDFETAP4OVRDEN": {
+            "direction": "IN"
+        },
+        "RXDFETAP5HOLD": {
+            "direction": "IN"
+        },
+        "RXDFETAP5OVRDEN": {
+            "direction": "IN"
+        },
+        "RXDFEUTHOLD": {
+            "direction": "IN"
+        },
+        "RXDFEUTOVRDEN": {
+            "direction": "IN"
+        },
+        "RXDFEVPHOLD": {
+            "direction": "IN"
+        },
+        "RXDFEVPOVRDEN": {
+            "direction": "IN"
+        },
+        "RXDFEVSEN": {
+            "direction": "IN"
+        },
+        "RXDFEXYDEN": {
+            "direction": "IN"
+        },
+        "RXDFEXYDHOLD": {
+            "direction": "IN"
+        },
+        "RXDFEXYDOVRDEN": {
+            "direction": "IN"
+        },
+        "RXDISPERR0": {
+            "direction": "OUT"
+        },
+        "RXDISPERR1": {
+            "direction": "OUT"
+        },
+        "RXDISPERR2": {
+            "direction": "OUT"
+        },
+        "RXDISPERR3": {
+            "direction": "OUT"
+        },
+        "RXDISPERR4": {
+            "direction": "OUT"
+        },
+        "RXDISPERR5": {
+            "direction": "OUT"
+        },
+        "RXDISPERR6": {
+            "direction": "OUT"
+        },
+        "RXDISPERR7": {
+            "direction": "OUT"
+        },
+        "RXDLYBYPASS": {
+            "direction": "IN"
+        },
+        "RXDLYEN": {
+            "direction": "IN"
+        },
+        "RXDLYOVRDEN": {
+            "direction": "IN"
+        },
+        "RXDLYSRESET": {
+            "direction": "IN"
+        },
+        "RXDLYSRESETDONE": {
+            "direction": "OUT"
+        },
+        "RXDLYTESTENB": {
+            "direction": "IN"
+        },
+        "RXELECIDLE": {
+            "direction": "OUT"
+        },
+        "RXELECIDLEMODE0": {
+            "direction": "IN"
+        },
+        "RXELECIDLEMODE1": {
+            "direction": "IN"
+        },
+        "RXGEARBOXSLIP": {
+            "direction": "IN"
+        },
+        "RXHEADER0": {
+            "direction": "OUT"
+        },
+        "RXHEADER1": {
+            "direction": "OUT"
+        },
+        "RXHEADER2": {
+            "direction": "OUT"
+        },
+        "RXHEADERVALID": {
+            "direction": "OUT"
+        },
+        "RXLPMEN": {
+            "direction": "IN"
+        },
+        "RXLPMHFHOLD": {
+            "direction": "IN"
+        },
+        "RXLPMHFOVRDEN": {
+            "direction": "IN"
+        },
+        "RXLPMLFHOLD": {
+            "direction": "IN"
+        },
+        "RXLPMLFKLOVRDEN": {
+            "direction": "IN"
+        },
+        "RXMCOMMAALIGNEN": {
+            "direction": "IN"
+        },
+        "RXMONITOROUT0": {
+            "direction": "OUT"
+        },
+        "RXMONITOROUT1": {
+            "direction": "OUT"
+        },
+        "RXMONITOROUT2": {
+            "direction": "OUT"
+        },
+        "RXMONITOROUT3": {
+            "direction": "OUT"
+        },
+        "RXMONITOROUT4": {
+            "direction": "OUT"
+        },
+        "RXMONITOROUT5": {
+            "direction": "OUT"
+        },
+        "RXMONITOROUT6": {
+            "direction": "OUT"
+        },
+        "RXMONITORSEL0": {
+            "direction": "IN"
+        },
+        "RXMONITORSEL1": {
+            "direction": "IN"
+        },
+        "RXNOTINTABLE0": {
+            "direction": "OUT"
+        },
+        "RXNOTINTABLE1": {
+            "direction": "OUT"
+        },
+        "RXNOTINTABLE2": {
+            "direction": "OUT"
+        },
+        "RXNOTINTABLE3": {
+            "direction": "OUT"
+        },
+        "RXNOTINTABLE4": {
+            "direction": "OUT"
+        },
+        "RXNOTINTABLE5": {
+            "direction": "OUT"
+        },
+        "RXNOTINTABLE6": {
+            "direction": "OUT"
+        },
+        "RXNOTINTABLE7": {
+            "direction": "OUT"
+        },
+        "RXOOBRESET": {
+            "direction": "IN"
+        },
+        "RXOSHOLD": {
+            "direction": "IN"
+        },
+        "RXOSOVRDEN": {
+            "direction": "IN"
+        },
+        "RXOUTCLK": {
+            "direction": "OUT"
+        },
+        "RXOUTCLKFABRIC": {
+            "direction": "OUT"
+        },
+        "RXOUTCLKPCS": {
+            "direction": "OUT"
+        },
+        "RXOUTCLKSEL0": {
+            "direction": "IN"
+        },
+        "RXOUTCLKSEL1": {
+            "direction": "IN"
+        },
+        "RXOUTCLKSEL2": {
+            "direction": "IN"
+        },
+        "RXPCD1DONE": {
+            "direction": "OUT"
+        },
+        "RXPCOMMAALIGNEN": {
+            "direction": "IN"
+        },
+        "RXPCSRESET": {
+            "direction": "IN"
+        },
+        "RXPD0": {
+            "direction": "IN"
+        },
+        "RXPD1": {
+            "direction": "IN"
+        },
+        "RXPHALIGN": {
+            "direction": "IN"
+        },
+        "RXPHALIGNDONE": {
+            "direction": "OUT"
+        },
+        "RXPHALIGNEN": {
+            "direction": "IN"
+        },
+        "RXPHDLYPD": {
+            "direction": "IN"
+        },
+        "RXPHDLYRESET": {
+            "direction": "IN"
+        },
+        "RXPHMONITOR0": {
+            "direction": "OUT"
+        },
+        "RXPHMONITOR1": {
+            "direction": "OUT"
+        },
+        "RXPHMONITOR2": {
+            "direction": "OUT"
+        },
+        "RXPHMONITOR3": {
+            "direction": "OUT"
+        },
+        "RXPHMONITOR4": {
+            "direction": "OUT"
+        },
+        "RXPHOVRDEN": {
+            "direction": "IN"
+        },
+        "RXPHSLIPMONITOR0": {
+            "direction": "OUT"
+        },
+        "RXPHSLIPMONITOR1": {
+            "direction": "OUT"
+        },
+        "RXPHSLIPMONITOR2": {
+            "direction": "OUT"
+        },
+        "RXPHSLIPMONITOR3": {
+            "direction": "OUT"
+        },
+        "RXPHSLIPMONITOR4": {
+            "direction": "OUT"
+        },
+        "RXPMARESET": {
+            "direction": "IN"
+        },
+        "RXPOLARITY": {
+            "direction": "IN"
+        },
+        "RXPRBSCNTRESET": {
+            "direction": "IN"
+        },
+        "RXPRBSERR": {
+            "direction": "OUT"
+        },
+        "RXPRBSSEL0": {
+            "direction": "IN"
+        },
+        "RXPRBSSEL1": {
+            "direction": "IN"
+        },
+        "RXPRBSSEL2": {
+            "direction": "IN"
+        },
+        "RXQPIEN": {
+            "direction": "IN"
+        },
+        "RXQPISENN": {
+            "direction": "OUT"
+        },
+        "RXQPISENP": {
+            "direction": "OUT"
+        },
+        "RXRATE0": {
+            "direction": "IN"
+        },
+        "RXRATE1": {
+            "direction": "IN"
+        },
+        "RXRATE2": {
+            "direction": "IN"
+        },
+        "RXRATEDONE": {
+            "direction": "OUT"
+        },
+        "RXRESETDONE": {
+            "direction": "OUT"
+        },
+        "RXSLIDE": {
+            "direction": "IN"
+        },
+        "RXSTARTOFSEQ": {
+            "direction": "OUT"
+        },
+        "RXSTATUS0": {
+            "direction": "OUT"
+        },
+        "RXSTATUS1": {
+            "direction": "OUT"
+        },
+        "RXSTATUS2": {
+            "direction": "OUT"
+        },
+        "RXSYSCLKSEL0": {
+            "direction": "IN"
+        },
+        "RXSYSCLKSEL1": {
+            "direction": "IN"
+        },
+        "RXUSERRDY": {
+            "direction": "IN"
+        },
+        "RXUSRCLK": {
+            "direction": "IN"
+        },
+        "RXUSRCLK2": {
+            "direction": "IN"
+        },
+        "RXVALID": {
+            "direction": "OUT"
+        },
+        "SCANCLK": {
+            "direction": "IN"
+        },
+        "SCANENB": {
+            "direction": "IN"
+        },
+        "SCANIN0": {
+            "direction": "IN"
+        },
+        "SCANIN1": {
+            "direction": "IN"
+        },
+        "SCANIN2": {
+            "direction": "IN"
+        },
+        "SCANIN3": {
+            "direction": "IN"
+        },
+        "SCANIN4": {
+            "direction": "IN"
+        },
+        "SCANMODEB": {
+            "direction": "IN"
+        },
+        "SCANOUT0": {
+            "direction": "OUT"
+        },
+        "SCANOUT1": {
+            "direction": "OUT"
+        },
+        "SCANOUT2": {
+            "direction": "OUT"
+        },
+        "SCANOUT3": {
+            "direction": "OUT"
+        },
+        "SCANOUT4": {
+            "direction": "OUT"
+        },
+        "SETERRSTATUS": {
+            "direction": "IN"
+        },
+        "TSTCLK0": {
+            "direction": "IN"
+        },
+        "TSTCLK1": {
+            "direction": "IN"
+        },
+        "TSTIN0": {
+            "direction": "IN"
+        },
+        "TSTIN1": {
+            "direction": "IN"
+        },
+        "TSTIN10": {
+            "direction": "IN"
+        },
+        "TSTIN11": {
+            "direction": "IN"
+        },
+        "TSTIN12": {
+            "direction": "IN"
+        },
+        "TSTIN13": {
+            "direction": "IN"
+        },
+        "TSTIN14": {
+            "direction": "IN"
+        },
+        "TSTIN15": {
+            "direction": "IN"
+        },
+        "TSTIN16": {
+            "direction": "IN"
+        },
+        "TSTIN17": {
+            "direction": "IN"
+        },
+        "TSTIN18": {
+            "direction": "IN"
+        },
+        "TSTIN19": {
+            "direction": "IN"
+        },
+        "TSTIN2": {
+            "direction": "IN"
+        },
+        "TSTIN3": {
+            "direction": "IN"
+        },
+        "TSTIN4": {
+            "direction": "IN"
+        },
+        "TSTIN5": {
+            "direction": "IN"
+        },
+        "TSTIN6": {
+            "direction": "IN"
+        },
+        "TSTIN7": {
+            "direction": "IN"
+        },
+        "TSTIN8": {
+            "direction": "IN"
+        },
+        "TSTIN9": {
+            "direction": "IN"
+        },
+        "TSTOUT0": {
+            "direction": "OUT"
+        },
+        "TSTOUT1": {
+            "direction": "OUT"
+        },
+        "TSTOUT2": {
+            "direction": "OUT"
+        },
+        "TSTOUT3": {
+            "direction": "OUT"
+        },
+        "TSTOUT4": {
+            "direction": "OUT"
+        },
+        "TSTOUT5": {
+            "direction": "OUT"
+        },
+        "TSTOUT6": {
+            "direction": "OUT"
+        },
+        "TSTOUT7": {
+            "direction": "OUT"
+        },
+        "TSTOUT8": {
+            "direction": "OUT"
+        },
+        "TSTOUT9": {
+            "direction": "OUT"
+        },
+        "TSTPD0": {
+            "direction": "IN"
+        },
+        "TSTPD1": {
+            "direction": "IN"
+        },
+        "TSTPD2": {
+            "direction": "IN"
+        },
+        "TSTPD3": {
+            "direction": "IN"
+        },
+        "TSTPD4": {
+            "direction": "IN"
+        },
+        "TSTPDOVRDB": {
+            "direction": "IN"
+        },
+        "TX8B10BBYPASS0": {
+            "direction": "IN"
+        },
+        "TX8B10BBYPASS1": {
+            "direction": "IN"
+        },
+        "TX8B10BBYPASS2": {
+            "direction": "IN"
+        },
+        "TX8B10BBYPASS3": {
+            "direction": "IN"
+        },
+        "TX8B10BBYPASS4": {
+            "direction": "IN"
+        },
+        "TX8B10BBYPASS5": {
+            "direction": "IN"
+        },
+        "TX8B10BBYPASS6": {
+            "direction": "IN"
+        },
+        "TX8B10BBYPASS7": {
+            "direction": "IN"
+        },
+        "TX8B10BEN": {
+            "direction": "IN"
+        },
+        "TXBUFDIFFCTRL0": {
+            "direction": "IN"
+        },
+        "TXBUFDIFFCTRL1": {
+            "direction": "IN"
+        },
+        "TXBUFDIFFCTRL2": {
+            "direction": "IN"
+        },
+        "TXBUFSTATUS0": {
+            "direction": "OUT"
+        },
+        "TXBUFSTATUS1": {
+            "direction": "OUT"
+        },
+        "TXCHARDISPMODE0": {
+            "direction": "IN"
+        },
+        "TXCHARDISPMODE1": {
+            "direction": "IN"
+        },
+        "TXCHARDISPMODE2": {
+            "direction": "IN"
+        },
+        "TXCHARDISPMODE3": {
+            "direction": "IN"
+        },
+        "TXCHARDISPMODE4": {
+            "direction": "IN"
+        },
+        "TXCHARDISPMODE5": {
+            "direction": "IN"
+        },
+        "TXCHARDISPMODE6": {
+            "direction": "IN"
+        },
+        "TXCHARDISPMODE7": {
+            "direction": "IN"
+        },
+        "TXCHARDISPVAL0": {
+            "direction": "IN"
+        },
+        "TXCHARDISPVAL1": {
+            "direction": "IN"
+        },
+        "TXCHARDISPVAL2": {
+            "direction": "IN"
+        },
+        "TXCHARDISPVAL3": {
+            "direction": "IN"
+        },
+        "TXCHARDISPVAL4": {
+            "direction": "IN"
+        },
+        "TXCHARDISPVAL5": {
+            "direction": "IN"
+        },
+        "TXCHARDISPVAL6": {
+            "direction": "IN"
+        },
+        "TXCHARDISPVAL7": {
+            "direction": "IN"
+        },
+        "TXCHARISK0": {
+            "direction": "IN"
+        },
+        "TXCHARISK1": {
+            "direction": "IN"
+        },
+        "TXCHARISK2": {
+            "direction": "IN"
+        },
+        "TXCHARISK3": {
+            "direction": "IN"
+        },
+        "TXCHARISK4": {
+            "direction": "IN"
+        },
+        "TXCHARISK5": {
+            "direction": "IN"
+        },
+        "TXCHARISK6": {
+            "direction": "IN"
+        },
+        "TXCHARISK7": {
+            "direction": "IN"
+        },
+        "TXCOMFINISH": {
+            "direction": "OUT"
+        },
+        "TXCOMINIT": {
+            "direction": "IN"
+        },
+        "TXCOMSAS": {
+            "direction": "IN"
+        },
+        "TXCOMWAKE": {
+            "direction": "IN"
+        },
+        "TXDATA0": {
+            "direction": "IN"
+        },
+        "TXDATA1": {
+            "direction": "IN"
+        },
+        "TXDATA10": {
+            "direction": "IN"
+        },
+        "TXDATA11": {
+            "direction": "IN"
+        },
+        "TXDATA12": {
+            "direction": "IN"
+        },
+        "TXDATA13": {
+            "direction": "IN"
+        },
+        "TXDATA14": {
+            "direction": "IN"
+        },
+        "TXDATA15": {
+            "direction": "IN"
+        },
+        "TXDATA16": {
+            "direction": "IN"
+        },
+        "TXDATA17": {
+            "direction": "IN"
+        },
+        "TXDATA18": {
+            "direction": "IN"
+        },
+        "TXDATA19": {
+            "direction": "IN"
+        },
+        "TXDATA2": {
+            "direction": "IN"
+        },
+        "TXDATA20": {
+            "direction": "IN"
+        },
+        "TXDATA21": {
+            "direction": "IN"
+        },
+        "TXDATA22": {
+            "direction": "IN"
+        },
+        "TXDATA23": {
+            "direction": "IN"
+        },
+        "TXDATA24": {
+            "direction": "IN"
+        },
+        "TXDATA25": {
+            "direction": "IN"
+        },
+        "TXDATA26": {
+            "direction": "IN"
+        },
+        "TXDATA27": {
+            "direction": "IN"
+        },
+        "TXDATA28": {
+            "direction": "IN"
+        },
+        "TXDATA29": {
+            "direction": "IN"
+        },
+        "TXDATA3": {
+            "direction": "IN"
+        },
+        "TXDATA30": {
+            "direction": "IN"
+        },
+        "TXDATA31": {
+            "direction": "IN"
+        },
+        "TXDATA32": {
+            "direction": "IN"
+        },
+        "TXDATA33": {
+            "direction": "IN"
+        },
+        "TXDATA34": {
+            "direction": "IN"
+        },
+        "TXDATA35": {
+            "direction": "IN"
+        },
+        "TXDATA36": {
+            "direction": "IN"
+        },
+        "TXDATA37": {
+            "direction": "IN"
+        },
+        "TXDATA38": {
+            "direction": "IN"
+        },
+        "TXDATA39": {
+            "direction": "IN"
+        },
+        "TXDATA4": {
+            "direction": "IN"
+        },
+        "TXDATA40": {
+            "direction": "IN"
+        },
+        "TXDATA41": {
+            "direction": "IN"
+        },
+        "TXDATA42": {
+            "direction": "IN"
+        },
+        "TXDATA43": {
+            "direction": "IN"
+        },
+        "TXDATA44": {
+            "direction": "IN"
+        },
+        "TXDATA45": {
+            "direction": "IN"
+        },
+        "TXDATA46": {
+            "direction": "IN"
+        },
+        "TXDATA47": {
+            "direction": "IN"
+        },
+        "TXDATA48": {
+            "direction": "IN"
+        },
+        "TXDATA49": {
+            "direction": "IN"
+        },
+        "TXDATA5": {
+            "direction": "IN"
+        },
+        "TXDATA50": {
+            "direction": "IN"
+        },
+        "TXDATA51": {
+            "direction": "IN"
+        },
+        "TXDATA52": {
+            "direction": "IN"
+        },
+        "TXDATA53": {
+            "direction": "IN"
+        },
+        "TXDATA54": {
+            "direction": "IN"
+        },
+        "TXDATA55": {
+            "direction": "IN"
+        },
+        "TXDATA56": {
+            "direction": "IN"
+        },
+        "TXDATA57": {
+            "direction": "IN"
+        },
+        "TXDATA58": {
+            "direction": "IN"
+        },
+        "TXDATA59": {
+            "direction": "IN"
+        },
+        "TXDATA6": {
+            "direction": "IN"
+        },
+        "TXDATA60": {
+            "direction": "IN"
+        },
+        "TXDATA61": {
+            "direction": "IN"
+        },
+        "TXDATA62": {
+            "direction": "IN"
+        },
+        "TXDATA63": {
+            "direction": "IN"
+        },
+        "TXDATA7": {
+            "direction": "IN"
+        },
+        "TXDATA8": {
+            "direction": "IN"
+        },
+        "TXDATA9": {
+            "direction": "IN"
+        },
+        "TXDEEMPH": {
+            "direction": "IN"
+        },
+        "TXDETECTRX": {
+            "direction": "IN"
+        },
+        "TXDIFFCTRL0": {
+            "direction": "IN"
+        },
+        "TXDIFFCTRL1": {
+            "direction": "IN"
+        },
+        "TXDIFFCTRL2": {
+            "direction": "IN"
+        },
+        "TXDIFFCTRL3": {
+            "direction": "IN"
+        },
+        "TXDIFFPD": {
+            "direction": "IN"
+        },
+        "TXDLYBYPASS": {
+            "direction": "IN"
+        },
+        "TXDLYEN": {
+            "direction": "IN"
+        },
+        "TXDLYHOLD": {
+            "direction": "IN"
+        },
+        "TXDLYOVRDEN": {
+            "direction": "IN"
+        },
+        "TXDLYSRESET": {
+            "direction": "IN"
+        },
+        "TXDLYSRESETDONE": {
+            "direction": "OUT"
+        },
+        "TXDLYTESTENB": {
+            "direction": "IN"
+        },
+        "TXDLYUPDOWN": {
+            "direction": "IN"
+        },
+        "TXELECIDLE": {
+            "direction": "IN"
+        },
+        "TXGEARBOXREADY": {
+            "direction": "OUT"
+        },
+        "TXHEADER0": {
+            "direction": "IN"
+        },
+        "TXHEADER1": {
+            "direction": "IN"
+        },
+        "TXHEADER2": {
+            "direction": "IN"
+        },
+        "TXINHIBIT": {
+            "direction": "IN"
+        },
+        "TXMAINCURSOR0": {
+            "direction": "IN"
+        },
+        "TXMAINCURSOR1": {
+            "direction": "IN"
+        },
+        "TXMAINCURSOR2": {
+            "direction": "IN"
+        },
+        "TXMAINCURSOR3": {
+            "direction": "IN"
+        },
+        "TXMAINCURSOR4": {
+            "direction": "IN"
+        },
+        "TXMAINCURSOR5": {
+            "direction": "IN"
+        },
+        "TXMAINCURSOR6": {
+            "direction": "IN"
+        },
+        "TXMARGIN0": {
+            "direction": "IN"
+        },
+        "TXMARGIN1": {
+            "direction": "IN"
+        },
+        "TXMARGIN2": {
+            "direction": "IN"
+        },
+        "TXOUTCLK": {
+            "direction": "OUT"
+        },
+        "TXOUTCLKFABRIC": {
+            "direction": "OUT"
+        },
+        "TXOUTCLKPCS": {
+            "direction": "OUT"
+        },
+        "TXOUTCLKSEL0": {
+            "direction": "IN"
+        },
+        "TXOUTCLKSEL1": {
+            "direction": "IN"
+        },
+        "TXOUTCLKSEL2": {
+            "direction": "IN"
+        },
+        "TXPCSRESET": {
+            "direction": "IN"
+        },
+        "TXPD0": {
+            "direction": "IN"
+        },
+        "TXPD1": {
+            "direction": "IN"
+        },
+        "TXPDELECIDLEMODE": {
+            "direction": "IN"
+        },
+        "TXPHALIGN": {
+            "direction": "IN"
+        },
+        "TXPHALIGNDONE": {
+            "direction": "OUT"
+        },
+        "TXPHALIGNEN": {
+            "direction": "IN"
+        },
+        "TXPHDLYPD": {
+            "direction": "IN"
+        },
+        "TXPHDLYRESET": {
+            "direction": "IN"
+        },
+        "TXPHDLYTSTCLK": {
+            "direction": "IN"
+        },
+        "TXPHINIT": {
+            "direction": "IN"
+        },
+        "TXPHINITDONE": {
+            "direction": "OUT"
+        },
+        "TXPHOVRDEN": {
+            "direction": "IN"
+        },
+        "TXPISOPD": {
+            "direction": "IN"
+        },
+        "TXPMARESET": {
+            "direction": "IN"
+        },
+        "TXPOLARITY": {
+            "direction": "IN"
+        },
+        "TXPOSTCURSOR0": {
+            "direction": "IN"
+        },
+        "TXPOSTCURSOR1": {
+            "direction": "IN"
+        },
+        "TXPOSTCURSOR2": {
+            "direction": "IN"
+        },
+        "TXPOSTCURSOR3": {
+            "direction": "IN"
+        },
+        "TXPOSTCURSOR4": {
+            "direction": "IN"
+        },
+        "TXPOSTCURSORINV": {
+            "direction": "IN"
+        },
+        "TXPRBSFORCEERR": {
+            "direction": "IN"
+        },
+        "TXPRBSSEL0": {
+            "direction": "IN"
+        },
+        "TXPRBSSEL1": {
+            "direction": "IN"
+        },
+        "TXPRBSSEL2": {
+            "direction": "IN"
+        },
+        "TXPRECURSOR0": {
+            "direction": "IN"
+        },
+        "TXPRECURSOR1": {
+            "direction": "IN"
+        },
+        "TXPRECURSOR2": {
+            "direction": "IN"
+        },
+        "TXPRECURSOR3": {
+            "direction": "IN"
+        },
+        "TXPRECURSOR4": {
+            "direction": "IN"
+        },
+        "TXPRECURSORINV": {
+            "direction": "IN"
+        },
+        "TXQPIBIASEN": {
+            "direction": "IN"
+        },
+        "TXQPISENN": {
+            "direction": "OUT"
+        },
+        "TXQPISENP": {
+            "direction": "OUT"
+        },
+        "TXQPISTRONGPDOWN": {
+            "direction": "IN"
+        },
+        "TXQPIWEAKPUP": {
+            "direction": "IN"
+        },
+        "TXRATE0": {
+            "direction": "IN"
+        },
+        "TXRATE1": {
+            "direction": "IN"
+        },
+        "TXRATE2": {
+            "direction": "IN"
+        },
+        "TXRATEDONE": {
+            "direction": "OUT"
+        },
+        "TXRESETDONE": {
+            "direction": "OUT"
+        },
+        "TXRUNDISP0": {
+            "direction": "OUT"
+        },
+        "TXRUNDISP1": {
+            "direction": "OUT"
+        },
+        "TXRUNDISP2": {
+            "direction": "OUT"
+        },
+        "TXRUNDISP3": {
+            "direction": "OUT"
+        },
+        "TXRUNDISP4": {
+            "direction": "OUT"
+        },
+        "TXRUNDISP5": {
+            "direction": "OUT"
+        },
+        "TXRUNDISP6": {
+            "direction": "OUT"
+        },
+        "TXRUNDISP7": {
+            "direction": "OUT"
+        },
+        "TXSEQUENCE0": {
+            "direction": "IN"
+        },
+        "TXSEQUENCE1": {
+            "direction": "IN"
+        },
+        "TXSEQUENCE2": {
+            "direction": "IN"
+        },
+        "TXSEQUENCE3": {
+            "direction": "IN"
+        },
+        "TXSEQUENCE4": {
+            "direction": "IN"
+        },
+        "TXSEQUENCE5": {
+            "direction": "IN"
+        },
+        "TXSEQUENCE6": {
+            "direction": "IN"
+        },
+        "TXSTARTSEQ": {
+            "direction": "IN"
+        },
+        "TXSWING": {
+            "direction": "IN"
+        },
+        "TXSYSCLKSEL0": {
+            "direction": "IN"
+        },
+        "TXSYSCLKSEL1": {
+            "direction": "IN"
+        },
+        "TXUSERRDY": {
+            "direction": "IN"
+        },
+        "TXUSRCLK": {
+            "direction": "IN"
+        },
+        "TXUSRCLK2": {
+            "direction": "IN"
+        }
+    },
+    "site_pips": {
+        "CPLLLOCKDETCLKINV:CPLLLOCKDETCLK": {
+            "from_pin": "CPLLLOCKDETCLK",
+            "to_pin": "OUT"
+        },
+        "CPLLLOCKDETCLKINV:CPLLLOCKDETCLK_B": {
+            "from_pin": "CPLLLOCKDETCLK_B",
+            "to_pin": "OUT"
+        },
+        "DRPCLKINV:DRPCLK": {
+            "from_pin": "DRPCLK",
+            "to_pin": "OUT"
+        },
+        "DRPCLKINV:DRPCLK_B": {
+            "from_pin": "DRPCLK_B",
+            "to_pin": "OUT"
+        },
+        "EDTCLOCKINV:EDTCLOCK": {
+            "from_pin": "EDTCLOCK",
+            "to_pin": "OUT"
+        },
+        "EDTCLOCKINV:EDTCLOCK_B": {
+            "from_pin": "EDTCLOCK_B",
+            "to_pin": "OUT"
+        },
+        "GTGREFCLKINV:GTGREFCLK": {
+            "from_pin": "GTGREFCLK",
+            "to_pin": "OUT"
+        },
+        "GTGREFCLKINV:GTGREFCLK_B": {
+            "from_pin": "GTGREFCLK_B",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK0INV:PMASCANCLK0": {
+            "from_pin": "PMASCANCLK0",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK0INV:PMASCANCLK0_B": {
+            "from_pin": "PMASCANCLK0_B",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK1INV:PMASCANCLK1": {
+            "from_pin": "PMASCANCLK1",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK1INV:PMASCANCLK1_B": {
+            "from_pin": "PMASCANCLK1_B",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK2INV:PMASCANCLK2": {
+            "from_pin": "PMASCANCLK2",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK2INV:PMASCANCLK2_B": {
+            "from_pin": "PMASCANCLK2_B",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK3INV:PMASCANCLK3": {
+            "from_pin": "PMASCANCLK3",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK3INV:PMASCANCLK3_B": {
+            "from_pin": "PMASCANCLK3_B",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK4INV:PMASCANCLK4": {
+            "from_pin": "PMASCANCLK4",
+            "to_pin": "OUT"
+        },
+        "PMASCANCLK4INV:PMASCANCLK4_B": {
+            "from_pin": "PMASCANCLK4_B",
+            "to_pin": "OUT"
+        },
+        "RXUSRCLK2INV:RXUSRCLK2": {
+            "from_pin": "RXUSRCLK2",
+            "to_pin": "OUT"
+        },
+        "RXUSRCLK2INV:RXUSRCLK2_B": {
+            "from_pin": "RXUSRCLK2_B",
+            "to_pin": "OUT"
+        },
+        "RXUSRCLKINV:RXUSRCLK": {
+            "from_pin": "RXUSRCLK",
+            "to_pin": "OUT"
+        },
+        "RXUSRCLKINV:RXUSRCLK_B": {
+            "from_pin": "RXUSRCLK_B",
+            "to_pin": "OUT"
+        },
+        "SCANCLKINV:SCANCLK": {
+            "from_pin": "SCANCLK",
+            "to_pin": "OUT"
+        },
+        "SCANCLKINV:SCANCLK_B": {
+            "from_pin": "SCANCLK_B",
+            "to_pin": "OUT"
+        },
+        "TSTCLK0INV:TSTCLK0": {
+            "from_pin": "TSTCLK0",
+            "to_pin": "OUT"
+        },
+        "TSTCLK0INV:TSTCLK0_B": {
+            "from_pin": "TSTCLK0_B",
+            "to_pin": "OUT"
+        },
+        "TSTCLK1INV:TSTCLK1": {
+            "from_pin": "TSTCLK1",
+            "to_pin": "OUT"
+        },
+        "TSTCLK1INV:TSTCLK1_B": {
+            "from_pin": "TSTCLK1_B",
+            "to_pin": "OUT"
+        },
+        "TXPHDLYTSTCLKINV:TXPHDLYTSTCLK": {
+            "from_pin": "TXPHDLYTSTCLK",
+            "to_pin": "OUT"
+        },
+        "TXPHDLYTSTCLKINV:TXPHDLYTSTCLK_B": {
+            "from_pin": "TXPHDLYTSTCLK_B",
+            "to_pin": "OUT"
+        },
+        "TXUSRCLK2INV:TXUSRCLK2": {
+            "from_pin": "TXUSRCLK2",
+            "to_pin": "OUT"
+        },
+        "TXUSRCLK2INV:TXUSRCLK2_B": {
+            "from_pin": "TXUSRCLK2_B",
+            "to_pin": "OUT"
+        },
+        "TXUSRCLKINV:TXUSRCLK": {
+            "from_pin": "TXUSRCLK",
+            "to_pin": "OUT"
+        },
+        "TXUSRCLKINV:TXUSRCLK_B": {
+            "from_pin": "TXUSRCLK_B",
+            "to_pin": "OUT"
+        }
+    },
+    "type": "GTXE2_CHANNEL"
+}

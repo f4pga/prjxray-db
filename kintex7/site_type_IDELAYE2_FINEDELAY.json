@@ -1,0 +1,100 @@
+{
+    "site_pins": {
+        "C": {
+            "direction": "IN"
+        },
+        "CE": {
+            "direction": "IN"
+        },
+        "CINVCTRL": {
+            "direction": "IN"
+        },
+        "CNTVALUEIN0": {
+            "direction": "IN"
+        },
+        "CNTVALUEIN1": {
+            "direction": "IN"
+        },
+        "CNTVALUEIN2": {
+            "direction": "IN"
+        },
+        "CNTVALUEIN3": {
+            "direction": "IN"
+        },
+        "CNTVALUEIN4": {
+            "direction": "IN"
+        },
+        "CNTVALUEOUT0": {
+            "direction": "OUT"
+        },
+        "CNTVALUEOUT1": {
+            "direction": "OUT"
+        },
+        "CNTVALUEOUT2": {
+            "direction": "OUT"
+        },
+        "CNTVALUEOUT3": {
+            "direction": "OUT"
+        },
+        "CNTVALUEOUT4": {
+            "direction": "OUT"
+        },
+        "DATAIN": {
+            "direction": "IN"
+        },
+        "DATAOUT": {
+            "direction": "OUT"
+        },
+        "IDATAIN": {
+            "direction": "IN"
+        },
+        "IFDLY0": {
+            "direction": "IN"
+        },
+        "IFDLY1": {
+            "direction": "IN"
+        },
+        "IFDLY2": {
+            "direction": "IN"
+        },
+        "INC": {
+            "direction": "IN"
+        },
+        "LD": {
+            "direction": "IN"
+        },
+        "LDPIPEEN": {
+            "direction": "IN"
+        },
+        "REGRST": {
+            "direction": "IN"
+        }
+    },
+    "site_pips": {
+        "CINV:C": {
+            "from_pin": "C",
+            "to_pin": "OUT"
+        },
+        "CINV:C_B": {
+            "from_pin": "C_B",
+            "to_pin": "OUT"
+        },
+        "DATAININV:DATAIN": {
+            "from_pin": "DATAIN",
+            "to_pin": "OUT"
+        },
+        "DATAININV:DATAIN_B": {
+            "from_pin": "DATAIN_B",
+            "to_pin": "OUT"
+        },
+        "IDATAININV:IDATAIN": {
+            "from_pin": "IDATAIN",
+            "to_pin": "OUT"
+        },
+        "IDATAININV:IDATAIN_B": {
+            "from_pin": "IDATAIN_B",
+            "to_pin": "OUT"
+        }
+    },
+    "type": "IDELAYE2_FINEDELAY"
+}

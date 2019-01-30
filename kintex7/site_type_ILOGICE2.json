@@ -1,0 +1,184 @@
+{
+    "site_pins": {
+        "BITSLIP": {
+            "direction": "IN"
+        },
+        "CE1": {
+            "direction": "IN"
+        },
+        "CE2": {
+            "direction": "IN"
+        },
+        "CLK": {
+            "direction": "IN"
+        },
+        "CLKB": {
+            "direction": "IN"
+        },
+        "CLKDIV": {
+            "direction": "IN"
+        },
+        "CLKDIVP": {
+            "direction": "IN"
+        },
+        "D": {
+            "direction": "IN"
+        },
+        "DDLY": {
+            "direction": "IN"
+        },
+        "DYNCLKDIVPSEL": {
+            "direction": "IN"
+        },
+        "DYNCLKDIVSEL": {
+            "direction": "IN"
+        },
+        "DYNCLKSEL": {
+            "direction": "IN"
+        },
+        "O": {
+            "direction": "OUT"
+        },
+        "OCLK": {
+            "direction": "IN"
+        },
+        "OCLKB": {
+            "direction": "IN"
+        },
+        "OFB": {
+            "direction": "IN"
+        },
+        "Q1": {
+            "direction": "OUT"
+        },
+        "Q2": {
+            "direction": "OUT"
+        },
+        "Q3": {
+            "direction": "OUT"
+        },
+        "Q4": {
+            "direction": "OUT"
+        },
+        "Q5": {
+            "direction": "OUT"
+        },
+        "Q6": {
+            "direction": "OUT"
+        },
+        "Q7": {
+            "direction": "OUT"
+        },
+        "Q8": {
+            "direction": "OUT"
+        },
+        "REV": {
+            "direction": "IN"
+        },
+        "SHIFTIN1": {
+            "direction": "IN"
+        },
+        "SHIFTIN2": {
+            "direction": "IN"
+        },
+        "SHIFTOUT1": {
+            "direction": "OUT"
+        },
+        "SHIFTOUT2": {
+            "direction": "OUT"
+        },
+        "SR": {
+            "direction": "IN"
+        },
+        "TFB": {
+            "direction": "IN"
+        }
+    },
+    "site_pips": {
+        "CE1USED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "CLKBINV:CLKB": {
+            "from_pin": "CLKB",
+            "to_pin": "OUT"
+        },
+        "CLKBINV:CLKB_B": {
+            "from_pin": "CLKB_B",
+            "to_pin": "OUT"
+        },
+        "CLKINV:CLK": {
+            "from_pin": "CLK",
+            "to_pin": "OUT"
+        },
+        "CLKINV:CLK_B": {
+            "from_pin": "CLK_B",
+            "to_pin": "OUT"
+        },
+        "D2OBYP_SEL:GND": {
+            "from_pin": "GND",
+            "to_pin": "OUT"
+        },
+        "D2OBYP_SEL:T": {
+            "from_pin": "T",
+            "to_pin": "OUT"
+        },
+        "D2OFFBYP_SEL:GND": {
+            "from_pin": "GND",
+            "to_pin": "OUT"
+        },
+        "D2OFFBYP_SEL:T": {
+            "from_pin": "T",
+            "to_pin": "OUT"
+        },
+        "DINV:D": {
+            "from_pin": "D",
+            "to_pin": "OUT"
+        },
+        "DINV:D_B": {
+            "from_pin": "D_B",
+            "to_pin": "OUT"
+        },
+        "IDELMUX:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "IDELMUX:1": {
+            "from_pin": "1",
+            "to_pin": "OUT"
+        },
+        "IFFDELMUX:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "IFFDELMUX:1": {
+            "from_pin": "1",
+            "to_pin": "OUT"
+        },
+        "IFFMUX:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "IFFMUX:1": {
+            "from_pin": "1",
+            "to_pin": "OUT"
+        },
+        "IMUX:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "IMUX:1": {
+            "from_pin": "1",
+            "to_pin": "OUT"
+        },
+        "REVUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "SRUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        }
+    },
+    "type": "ILOGICE2"
+}

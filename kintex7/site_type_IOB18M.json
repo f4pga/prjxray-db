@@ -1,0 +1,106 @@
+{
+    "site_pins": {
+        "DCITERMDISABLE": {
+            "direction": "IN"
+        },
+        "DIFFI_IN": {
+            "direction": "IN"
+        },
+        "DIFFO_IN": {
+            "direction": "IN"
+        },
+        "DIFFO_OUT": {
+            "direction": "OUT"
+        },
+        "DIFF_TERM_INT_EN": {
+            "direction": "IN"
+        },
+        "I": {
+            "direction": "OUT"
+        },
+        "IBUFDISABLE": {
+            "direction": "IN"
+        },
+        "KEEPER_INT_EN": {
+            "direction": "IN"
+        },
+        "O": {
+            "direction": "IN"
+        },
+        "O_IN": {
+            "direction": "IN"
+        },
+        "O_OUT": {
+            "direction": "OUT"
+        },
+        "PADOUT": {
+            "direction": "OUT"
+        },
+        "PD_INT_EN": {
+            "direction": "IN"
+        },
+        "PU_INT_EN": {
+            "direction": "IN"
+        },
+        "T": {
+            "direction": "IN"
+        },
+        "T_IN": {
+            "direction": "IN"
+        },
+        "T_OUT": {
+            "direction": "OUT"
+        }
+    },
+    "site_pips": {
+        "DCITERMDISABLE_SEL:GND": {
+            "from_pin": "GND",
+            "to_pin": "OUT"
+        },
+        "DCITERMDISABLE_SEL:I": {
+            "from_pin": "I",
+            "to_pin": "OUT"
+        },
+        "DIFFI_INUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "DIFFO_OUTUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "IBUFDISABLE_SEL:GND": {
+            "from_pin": "GND",
+            "to_pin": "OUT"
+        },
+        "IBUFDISABLE_SEL:I": {
+            "from_pin": "I",
+            "to_pin": "OUT"
+        },
+        "IUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "OUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "O_OUTUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "PADOUTUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "TUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "T_OUTUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        }
+    },
+    "type": "IOB18M"
+}
