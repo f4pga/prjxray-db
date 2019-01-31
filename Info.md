@@ -37,7 +37,7 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Thu Jan 31 01:15:43 UTC 2019 (2019-01-31T01:15:43+00:00).
+Last updated on Thu Jan 31 08:55:27 UTC 2019 (2019-01-31T08:55:27+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [a8299c8](https://github.com/SymbiFlow/prjxray/commit/a8299c84a3e37414b961c4ca837c629f84a4ce4f).
 
@@ -111,13 +111,15 @@ Results have checksums;
  * [`11d15eb449e9f42409e7187c26635d3facb6974cc0172819b4387ada2ff2532c  ./artix7/harness/basys3/swbut/design.json`](./artix7/harness/basys3/swbut/design.json)
  * [`9df8eac3c11e57d81b4bf4a927ade787f881f0ef46c8ab610ca529f35e887689  ./artix7/harness/basys3/swbut/design.txt`](./artix7/harness/basys3/swbut/design.txt)
  * [`fca753747fb1d583483e22980c4dae3a2de6451a326d46eab3581ea6f50f5b2d  ./artix7/mask_bram_l.block_ram.db`](./artix7/mask_bram_l.block_ram.db)
- * [`bed3ba955aa33b47eb3f4c218d8619e6e3f7c5b7f0d0de700827d666a54956f7  ./artix7/mask_bram_l.db`](./artix7/mask_bram_l.db)
+ * [`6458e88c8d3b8565fbfafed8835f303ccaddf773c35db969e9ccd565e999107d  ./artix7/mask_bram_l.db`](./artix7/mask_bram_l.db)
  * [`fca753747fb1d583483e22980c4dae3a2de6451a326d46eab3581ea6f50f5b2d  ./artix7/mask_bram_r.block_ram.db`](./artix7/mask_bram_r.block_ram.db)
- * [`bed3ba955aa33b47eb3f4c218d8619e6e3f7c5b7f0d0de700827d666a54956f7  ./artix7/mask_bram_r.db`](./artix7/mask_bram_r.db)
+ * [`6458e88c8d3b8565fbfafed8835f303ccaddf773c35db969e9ccd565e999107d  ./artix7/mask_bram_r.db`](./artix7/mask_bram_r.db)
  * [`4f37a37c925f92956b6fc010034529a4cc37698ecb7dd263a0fe737ad600cde7  ./artix7/mask_clbll_l.db`](./artix7/mask_clbll_l.db)
  * [`4f37a37c925f92956b6fc010034529a4cc37698ecb7dd263a0fe737ad600cde7  ./artix7/mask_clbll_r.db`](./artix7/mask_clbll_r.db)
  * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clblm_l.db`](./artix7/mask_clblm_l.db)
  * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clblm_r.db`](./artix7/mask_clblm_r.db)
+ * [`aab2e5f20890d805b6a78db6e6fd68d6024a140ac5e960feb4162d7e49582ca8  ./artix7/mask_dsp_l.db`](./artix7/mask_dsp_l.db)
+ * [`aab2e5f20890d805b6a78db6e6fd68d6024a140ac5e960feb4162d7e49582ca8  ./artix7/mask_dsp_r.db`](./artix7/mask_dsp_r.db)
  * [`76d1e0bd4b7ad492cf3fe8698b2b5f46f7dcc5fe446984e5dccae373c63edafd  ./artix7/mask_hclk_l.db`](./artix7/mask_hclk_l.db)
  * [`76d1e0bd4b7ad492cf3fe8698b2b5f46f7dcc5fe446984e5dccae373c63edafd  ./artix7/mask_hclk_r.db`](./artix7/mask_hclk_r.db)
  * [`d94e4d13df16da498224f0e94deaa310fbf471b6f9ec0ec8b2308fe62fa2eeaf  ./artix7/ppips_bram_int_interface_l.db`](./artix7/ppips_bram_int_interface_l.db)
@@ -133,9 +135,9 @@ Results have checksums;
  * [`d300ad4128a192e416a958471013b7554f141fd1f816715828b1e5a87838f18d  ./artix7/ppips_int_l.db`](./artix7/ppips_int_l.db)
  * [`46564e746b8d9e37bf46a68f2915bd1395efb68508d48d336a4dfb9342105285  ./artix7/ppips_int_r.db`](./artix7/ppips_int_r.db)
  * [`63cab7c6cb50b9a86cd6de4ec02cfba93b99ac622684a1196b3d70adb1472fc1  ./artix7/segbits_bram_l.block_ram.db`](./artix7/segbits_bram_l.block_ram.db)
- * [`231e0e81ed1ad81e2e2f7a91e5eb32505453a8e6df4ab2e109872497f60a7195  ./artix7/segbits_bram_l.db`](./artix7/segbits_bram_l.db)
+ * [`464df44f37a07c5bc56f07c58d4051bce9d4999e7c6185c8603b3bc1815af3ba  ./artix7/segbits_bram_l.db`](./artix7/segbits_bram_l.db)
  * [`6daa967b706d7fc5cdf597ed9f142df8f3003ded2fee3d622d484b21ceda2827  ./artix7/segbits_bram_r.block_ram.db`](./artix7/segbits_bram_r.block_ram.db)
- * [`41b85caddb170c03fc5a7ba588fcf509bb4fdd8baf9c2c3ca83c0063c89028ff  ./artix7/segbits_bram_r.db`](./artix7/segbits_bram_r.db)
+ * [`03ebf886b7fd6fffa068c32e02b7c53c5f3a09bea0090972b9633295a6af8f7a  ./artix7/segbits_bram_r.db`](./artix7/segbits_bram_r.db)
  * [`ef6706ef033396c75469738223e66d1b5f38b832e27b5bb80f07efd571e28fb7  ./artix7/segbits_clbll_l.db`](./artix7/segbits_clbll_l.db)
  * [`53c0ea2b05a2c4ddf2b6cce38073534d0c21b893fc5783dc777d97de2f2d6a9e  ./artix7/segbits_clbll_r.db`](./artix7/segbits_clbll_r.db)
  * [`e6459c01d0c1c7724fa02716103fd02a3e2a75d6b7326f4c937f158a264ffe85  ./artix7/segbits_clblm_l.db`](./artix7/segbits_clblm_l.db)
@@ -144,8 +146,8 @@ Results have checksums;
  * [`b014d7e2b101b0b0540a539cb74a76ccbe3a494e225e8e510bf258a457b18685  ./artix7/segbits_dsp_r.db`](./artix7/segbits_dsp_r.db)
  * [`1c2c7229781a4a1d51bbbdeea76238b10497c043aaadf2a76de783041a201878  ./artix7/segbits_hclk_l.db`](./artix7/segbits_hclk_l.db)
  * [`51288ec0be63172fcb2a12a92853150c62a21e894c2d42a2586046c462bf57a9  ./artix7/segbits_hclk_r.db`](./artix7/segbits_hclk_r.db)
- * [`5d127ad971383f9719608e240c2c4aa5d7c52d651fcebc3faa386fc53c2affc7  ./artix7/segbits_int_l.db`](./artix7/segbits_int_l.db)
- * [`1541c7832dd161c5b3b5745d08fe0ee6f92bfbd372b76c12f54afc032c888556  ./artix7/segbits_int_r.db`](./artix7/segbits_int_r.db)
+ * [`0ea44e8dfaf97ed200f30b2afe117e94e1a68bdb26af2e09e69e855414779520  ./artix7/segbits_int_l.db`](./artix7/segbits_int_l.db)
+ * [`9c7b94275c440e0bb0634ae2c347e92b605a77e29bb28c04f8bba126ba808f60  ./artix7/segbits_int_r.db`](./artix7/segbits_int_r.db)
  * [`2bc07bf06b86af1985fe1c76da7bd6d858768dd6d9e99344a3c52d490b797cdb  ./artix7/settings.sh`](./artix7/settings.sh)
  * [`ac6ba9ad814503f0fdc1dabb4292aaccd1a2195f5b348276cfee12aed3d96a70  ./artix7/site_type_BSCAN.json`](./artix7/site_type_BSCAN.json)
  * [`64724ba2f8af98df5e1d92e5c2da2e6d5a41eec6580f796405e271dadb4e63be  ./artix7/site_type_BUFGCTRL.json`](./artix7/site_type_BUFGCTRL.json)
@@ -193,8 +195,8 @@ Results have checksums;
  * [`f711f285e16aa11d4827ce8504e9413c8ccf87f9f86d108740738ae6cbb4f388  ./artix7/site_type_XADC.json`](./artix7/site_type_XADC.json)
  * [`0bfdad62f04128ca4d469aa18b179cbd3bf78e40c6af50450c9ca85bfffd746f  ./artix7/tile_type_BRAM_INT_INTERFACE_L.json`](./artix7/tile_type_BRAM_INT_INTERFACE_L.json)
  * [`fd0b3b31118249e66193fa06633a58aa5d86820bed16d3f85497b886d2282845  ./artix7/tile_type_BRAM_INT_INTERFACE_R.json`](./artix7/tile_type_BRAM_INT_INTERFACE_R.json)
- * [`23af85ab67092eb90d6b05c3bff539499494eaecb07b5063baa2aa494063a1ec  ./artix7/tile_type_BRAM_L.json`](./artix7/tile_type_BRAM_L.json)
- * [`1c16777c03b83fd75f36bd5a4dba291532a1266b19b53441528d521bebb4162e  ./artix7/tile_type_BRAM_R.json`](./artix7/tile_type_BRAM_R.json)
+ * [`c9d7113965812d79fb69c451ec0fc2f0b56ebaf50db7c31a1377c960387af8da  ./artix7/tile_type_BRAM_L.json`](./artix7/tile_type_BRAM_L.json)
+ * [`1d8f980ff164deb6af581fdf5641f073dd77ebbd9a51591f9fb6b41852819573  ./artix7/tile_type_BRAM_R.json`](./artix7/tile_type_BRAM_R.json)
  * [`29e4879a736ff9d43178ba3887ba47b8f1190464dabf4eef7c8fe8d8d23647c2  ./artix7/tile_type_BRKH_BRAM.json`](./artix7/tile_type_BRKH_BRAM.json)
  * [`fccd1abee620b9dc48534d82af9c84d7e4fb9f2fbeaa0d8bbef1ddab5d2d91c5  ./artix7/tile_type_BRKH_B_TERM_INT.json`](./artix7/tile_type_BRKH_B_TERM_INT.json)
  * [`1adbede824487b01b77eed4443ff5434c9473a067dae3c620df3ccca800951ac  ./artix7/tile_type_BRKH_CLB.json`](./artix7/tile_type_BRKH_CLB.json)
@@ -237,8 +239,8 @@ Results have checksums;
  * [`6260182cedf2857372997d8b9a9b3d28504931d1c7ff5176d718dd44935354f0  ./artix7/tile_type_CMT_TOP_R_LOWER_T.json`](./artix7/tile_type_CMT_TOP_R_LOWER_T.json)
  * [`21e908de40301ce5b6d3a2479a5784c74f7227a1493941a5552845e794bdfa2b  ./artix7/tile_type_CMT_TOP_R_UPPER_B.json`](./artix7/tile_type_CMT_TOP_R_UPPER_B.json)
  * [`816d810709c3f54a33774c6a9acefe472cac1e5748d306e692524007b699ee35  ./artix7/tile_type_CMT_TOP_R_UPPER_T.json`](./artix7/tile_type_CMT_TOP_R_UPPER_T.json)
- * [`67014634eb0884ca84f121db190d59d8c32b1fd6e8b130f5b4be43fcca2c66b3  ./artix7/tile_type_DSP_L.json`](./artix7/tile_type_DSP_L.json)
- * [`cdcb7f5a7d5fa09b04a3b850cbc196bce36725e135e3f5fa7508d4bf97aa7db8  ./artix7/tile_type_DSP_R.json`](./artix7/tile_type_DSP_R.json)
+ * [`d4731d3d594d0f941c9e8565caf1d5fc8b2da870dc7b311e988b2216f15f7707  ./artix7/tile_type_DSP_L.json`](./artix7/tile_type_DSP_L.json)
+ * [`3d834d05c2c2874744430a3ed49b66a00068b6918189f977c32a52830919fe42  ./artix7/tile_type_DSP_R.json`](./artix7/tile_type_DSP_R.json)
  * [`01bb373548f7244412efb0a59b85203b18450d357c809b0c36ceaee46a81f3d1  ./artix7/tile_type_GTP_CHANNEL_0.json`](./artix7/tile_type_GTP_CHANNEL_0.json)
  * [`e34491f9e8151c172f330dbddd41ee646dbb526772409174810ca8872df4e6a1  ./artix7/tile_type_GTP_CHANNEL_1.json`](./artix7/tile_type_GTP_CHANNEL_1.json)
  * [`fcb1a2ac092a41409be635c1d61585f0e9d40d0ce86014e424ab99f2f50342ea  ./artix7/tile_type_GTP_CHANNEL_2.json`](./artix7/tile_type_GTP_CHANNEL_2.json)
