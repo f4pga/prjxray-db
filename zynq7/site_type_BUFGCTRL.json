@@ -1,0 +1,82 @@
+{
+    "site_pins": {
+        "CE0": {
+            "direction": "IN"
+        },
+        "CE1": {
+            "direction": "IN"
+        },
+        "I0": {
+            "direction": "IN"
+        },
+        "I1": {
+            "direction": "IN"
+        },
+        "IGNORE0": {
+            "direction": "IN"
+        },
+        "IGNORE1": {
+            "direction": "IN"
+        },
+        "O": {
+            "direction": "OUT"
+        },
+        "S0": {
+            "direction": "IN"
+        },
+        "S1": {
+            "direction": "IN"
+        }
+    },
+    "site_pips": {
+        "CE0INV:CE0": {
+            "from_pin": "CE0",
+            "to_pin": "OUT"
+        },
+        "CE0INV:CE0_B": {
+            "from_pin": "CE0_B",
+            "to_pin": "OUT"
+        },
+        "CE1INV:CE1": {
+            "from_pin": "CE1",
+            "to_pin": "OUT"
+        },
+        "CE1INV:CE1_B": {
+            "from_pin": "CE1_B",
+            "to_pin": "OUT"
+        },
+        "IGNORE0INV:IGNORE0": {
+            "from_pin": "IGNORE0",
+            "to_pin": "OUT"
+        },
+        "IGNORE0INV:IGNORE0_B": {
+            "from_pin": "IGNORE0_B",
+            "to_pin": "OUT"
+        },
+        "IGNORE1INV:IGNORE1": {
+            "from_pin": "IGNORE1",
+            "to_pin": "OUT"
+        },
+        "IGNORE1INV:IGNORE1_B": {
+            "from_pin": "IGNORE1_B",
+            "to_pin": "OUT"
+        },
+        "S0INV:S0": {
+            "from_pin": "S0",
+            "to_pin": "OUT"
+        },
+        "S0INV:S0_B": {
+            "from_pin": "S0_B",
+            "to_pin": "OUT"
+        },
+        "S1INV:S1": {
+            "from_pin": "S1",
+            "to_pin": "OUT"
+        },
+        "S1INV:S1_B": {
+            "from_pin": "S1_B",
+            "to_pin": "OUT"
+        }
+    },
+    "type": "BUFGCTRL"
+}

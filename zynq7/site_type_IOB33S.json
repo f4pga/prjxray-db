@@ -1,0 +1,114 @@
+{
+    "site_pins": {
+        "DIFFI_IN": {
+            "direction": "IN"
+        },
+        "DIFFO_IN": {
+            "direction": "IN"
+        },
+        "DIFFO_OUT": {
+            "direction": "OUT"
+        },
+        "DIFF_TERM_INT_EN": {
+            "direction": "IN"
+        },
+        "I": {
+            "direction": "OUT"
+        },
+        "IBUFDISABLE": {
+            "direction": "IN"
+        },
+        "INTERMDISABLE": {
+            "direction": "IN"
+        },
+        "KEEPER_INT_EN": {
+            "direction": "IN"
+        },
+        "O": {
+            "direction": "IN"
+        },
+        "O_IN": {
+            "direction": "IN"
+        },
+        "O_OUT": {
+            "direction": "OUT"
+        },
+        "PADOUT": {
+            "direction": "OUT"
+        },
+        "PD_INT_EN": {
+            "direction": "IN"
+        },
+        "PU_INT_EN": {
+            "direction": "IN"
+        },
+        "T": {
+            "direction": "IN"
+        },
+        "T_IN": {
+            "direction": "IN"
+        },
+        "T_OUT": {
+            "direction": "OUT"
+        }
+    },
+    "site_pips": {
+        "DIFFI_INUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "DIFFO_INUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "IBUFDISABLE_SEL:GND": {
+            "from_pin": "GND",
+            "to_pin": "OUT"
+        },
+        "IBUFDISABLE_SEL:I": {
+            "from_pin": "I",
+            "to_pin": "OUT"
+        },
+        "INTERMDISABLE_SEL:GND": {
+            "from_pin": "GND",
+            "to_pin": "OUT"
+        },
+        "INTERMDISABLE_SEL:I": {
+            "from_pin": "I",
+            "to_pin": "OUT"
+        },
+        "IUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "OINMUX:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "OINMUX:1": {
+            "from_pin": "1",
+            "to_pin": "OUT"
+        },
+        "OUTMUX:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "OUTMUX:1": {
+            "from_pin": "1",
+            "to_pin": "OUT"
+        },
+        "PADOUTUSED:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "TINMUX:0": {
+            "from_pin": "0",
+            "to_pin": "OUT"
+        },
+        "TINMUX:1": {
+            "from_pin": "1",
+            "to_pin": "OUT"
+        }
+    },
+    "type": "IOB33S"
+}
