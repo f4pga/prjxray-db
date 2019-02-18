@@ -4271,44 +4271,44 @@
             "y_coord": 0
         },
         {
-            "name": "X1Y11",
+            "name": "X0Y0",
             "prefix": "IPAD",
             "site_pins": {
                 "O": "GTPE2_CHANNEL_RXN_PAD"
             },
             "type": "IPAD",
-            "x_coord": 1,
-            "y_coord": 11
+            "x_coord": 0,
+            "y_coord": 0
         },
         {
-            "name": "X1Y12",
+            "name": "X0Y1",
             "prefix": "IPAD",
             "site_pins": {
                 "O": "GTPE2_CHANNEL_RXP_PAD"
             },
             "type": "IPAD",
-            "x_coord": 1,
-            "y_coord": 12
+            "x_coord": 0,
+            "y_coord": 1
         },
         {
-            "name": "X0Y1",
+            "name": "X0Y0",
             "prefix": "OPAD",
             "site_pins": {
                 "I": "GTPE2_CHANNEL_TXN_PAD"
             },
             "type": "OPAD",
             "x_coord": 0,
-            "y_coord": 1
+            "y_coord": 0
         },
         {
-            "name": "X0Y2",
+            "name": "X0Y1",
             "prefix": "OPAD",
             "site_pins": {
                 "I": "GTPE2_CHANNEL_TXP_PAD"
             },
             "type": "OPAD",
             "x_coord": 0,
-            "y_coord": 2
+            "y_coord": 1
         }
     ],
     "tile_type": "GTP_CHANNEL_1",
