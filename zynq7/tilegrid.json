@@ -41963,7 +41963,14 @@
         "type": "CLBLM_R"
     },
     "CLK_BUFG_BOT_R_X82Y48": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401380",
+                "frames": 30,
+                "offset": 93,
+                "words": 8
+            }
+        },
         "grid_x": 82,
         "grid_y": 56,
         "sites": {
@@ -41987,35 +41994,70 @@
         "type": "CLK_BUFG_BOT_R"
     },
     "CLK_BUFG_REBUF_X82Y13": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401380",
+                "frames": 30,
+                "offset": 24,
+                "words": 4
+            }
+        },
         "grid_x": 82,
         "grid_y": 91,
         "sites": {},
         "type": "CLK_BUFG_REBUF"
     },
     "CLK_BUFG_REBUF_X82Y38": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401380",
+                "frames": 30,
+                "offset": 73,
+                "words": 4
+            }
+        },
         "grid_x": 82,
         "grid_y": 66,
         "sites": {},
         "type": "CLK_BUFG_REBUF"
     },
     "CLK_BUFG_REBUF_X82Y65": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001380",
+                "frames": 30,
+                "offset": 24,
+                "words": 4
+            }
+        },
         "grid_x": 82,
         "grid_y": 39,
         "sites": {},
         "type": "CLK_BUFG_REBUF"
     },
     "CLK_BUFG_REBUF_X82Y90": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001380",
+                "frames": 30,
+                "offset": 73,
+                "words": 4
+            }
+        },
         "grid_x": 82,
         "grid_y": 14,
         "sites": {},
         "type": "CLK_BUFG_REBUF"
     },
     "CLK_BUFG_TOP_R_X82Y53": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001380",
+                "frames": 30,
+                "offset": 0,
+                "words": 8
+            }
+        },
         "grid_x": 82,
         "grid_y": 51,
         "sites": {
@@ -42438,7 +42480,14 @@
         "type": "CLK_FEED"
     },
     "CLK_HROW_BOT_R_X82Y26": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401380",
+                "frames": 30,
+                "offset": 47,
+                "words": 7
+            }
+        },
         "grid_x": 82,
         "grid_y": 78,
         "sites": {
@@ -42470,7 +42519,14 @@
         "type": "CLK_HROW_BOT_R"
     },
     "CLK_HROW_TOP_R_X82Y78": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001380",
+                "frames": 30,
+                "offset": 47,
+                "words": 7
+            }
+        },
         "grid_x": 82,
         "grid_y": 26,
         "sites": {
@@ -138488,7 +138544,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 0,
+                "offset": 2,
                 "words": 4
             }
         },
@@ -138505,7 +138561,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 20,
+                "offset": 22,
                 "words": 4
             }
         },
@@ -138522,7 +138578,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 24,
+                "offset": 26,
                 "words": 4
             }
         },
@@ -138539,7 +138595,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 28,
+                "offset": 30,
                 "words": 4
             }
         },
@@ -138556,7 +138612,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 32,
+                "offset": 34,
                 "words": 4
             }
         },
@@ -138573,7 +138629,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 36,
+                "offset": 38,
                 "words": 4
             }
         },
@@ -138590,7 +138646,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 40,
+                "offset": 42,
                 "words": 4
             }
         },
@@ -138607,7 +138663,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 44,
+                "offset": 46,
                 "words": 4
             }
         },
@@ -138624,7 +138680,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 49,
+                "offset": 51,
                 "words": 4
             }
         },
@@ -138641,7 +138697,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 53,
+                "offset": 55,
                 "words": 4
             }
         },
@@ -138658,7 +138714,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 57,
+                "offset": 59,
                 "words": 4
             }
         },
@@ -138675,7 +138731,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 4,
+                "offset": 6,
                 "words": 4
             }
         },
@@ -138692,7 +138748,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 61,
+                "offset": 63,
                 "words": 4
             }
         },
@@ -138709,7 +138765,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 65,
+                "offset": 67,
                 "words": 4
             }
         },
@@ -138726,7 +138782,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 69,
+                "offset": 71,
                 "words": 4
             }
         },
@@ -138743,7 +138799,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 73,
+                "offset": 75,
                 "words": 4
             }
         },
@@ -138760,7 +138816,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 77,
+                "offset": 79,
                 "words": 4
             }
         },
@@ -138777,7 +138833,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 81,
+                "offset": 83,
                 "words": 4
             }
         },
@@ -138794,7 +138850,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 85,
+                "offset": 87,
                 "words": 4
             }
         },
@@ -138811,7 +138867,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 89,
+                "offset": 91,
                 "words": 4
             }
         },
@@ -138828,7 +138884,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 93,
+                "offset": 95,
                 "words": 4
             }
         },
@@ -138845,7 +138901,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 8,
+                "offset": 10,
                 "words": 4
             }
         },
@@ -138862,7 +138918,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 0,
+                "offset": 2,
                 "words": 4
             }
         },
@@ -138879,7 +138935,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 4,
+                "offset": 6,
                 "words": 4
             }
         },
@@ -138896,7 +138952,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 8,
+                "offset": 10,
                 "words": 4
             }
         },
@@ -138913,7 +138969,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 12,
+                "offset": 14,
                 "words": 4
             }
         },
@@ -138930,7 +138986,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 16,
+                "offset": 18,
                 "words": 4
             }
         },
@@ -138947,7 +139003,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 20,
+                "offset": 22,
                 "words": 4
             }
         },
@@ -138964,7 +139020,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 24,
+                "offset": 26,
                 "words": 4
             }
         },
@@ -138981,7 +139037,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 28,
+                "offset": 30,
                 "words": 4
             }
         },
@@ -138998,7 +139054,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 32,
+                "offset": 34,
                 "words": 4
             }
         },
@@ -139015,7 +139071,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 36,
+                "offset": 38,
                 "words": 4
             }
         },
@@ -139032,7 +139088,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 12,
+                "offset": 14,
                 "words": 4
             }
         },
@@ -139049,7 +139105,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 40,
+                "offset": 42,
                 "words": 4
             }
         },
@@ -139066,7 +139122,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 44,
+                "offset": 46,
                 "words": 4
             }
         },
@@ -139083,7 +139139,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 49,
+                "offset": 51,
                 "words": 4
             }
         },
@@ -139100,7 +139156,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 53,
+                "offset": 55,
                 "words": 4
             }
         },
@@ -139117,7 +139173,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 57,
+                "offset": 59,
                 "words": 4
             }
         },
@@ -139134,7 +139190,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 61,
+                "offset": 63,
                 "words": 4
             }
         },
@@ -139151,7 +139207,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 65,
+                "offset": 67,
                 "words": 4
             }
         },
@@ -139168,7 +139224,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 69,
+                "offset": 71,
                 "words": 4
             }
         },
@@ -139185,7 +139241,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 73,
+                "offset": 75,
                 "words": 4
             }
         },
@@ -139202,7 +139258,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 77,
+                "offset": 79,
                 "words": 4
             }
         },
@@ -139219,7 +139275,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00401B80",
                 "frames": 42,
-                "offset": 16,
+                "offset": 18,
                 "words": 4
             }
         },
@@ -139236,7 +139292,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 81,
+                "offset": 83,
                 "words": 4
             }
         },
@@ -139253,7 +139309,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 85,
+                "offset": 87,
                 "words": 4
             }
         },
@@ -139270,7 +139326,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 89,
+                "offset": 91,
                 "words": 4
             }
         },
@@ -139287,7 +139343,7 @@
             "CLB_IO_CLK": {
                 "baseaddr": "0x00001B80",
                 "frames": 42,
-                "offset": 93,
+                "offset": 95,
                 "words": 4
             }
         },
