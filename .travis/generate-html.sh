@@ -5,7 +5,7 @@ set -e
 # Capture some information about what we are generating for.
 export CURRENT_OWNER="$(git remote get-url origin | sed -e's@/[^/]\+$@@' -e's@.*[:/]\([^:/]\+\)$@\1@')"
 
-SRCDIR=$PWD
+DBDIR=$PWD
 TMPDIR=$(mktemp -d)
 
 PYTHONHASHSEED=0
@@ -55,6 +55,8 @@ fi
 	sha256sum htmlgen/htmlgen.py
 	echo "--------------------------------------------"
 	echo
+	rm -rf database
+	ln -s $DBDIR database
 )
 
 # Generate the HTML for each device we have a settings file for.
