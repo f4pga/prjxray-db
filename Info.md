@@ -37,20 +37,20 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Wed Feb 20 00:46:22 UTC 2019 (2019-02-20T00:46:22+00:00).
+Last updated on Fri Feb 22 22:26:23 UTC 2019 (2019-02-22T22:26:23+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [9e4c6f1](https://github.com/SymbiFlow/prjxray/commit/9e4c6f1bb55e9e68266396bae169f0c5d05bdc0d).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [aa88f68](https://github.com/SymbiFlow/prjxray/commit/aa88f68da77b0e139362992aa94d7e8cbdf2fa98).
 
 Latest commit was;
 ```
-commit 9e4c6f1bb55e9e68266396bae169f0c5d05bdc0d
-Merge: 979cc59 04011d4
+commit aa88f68da77b0e139362992aa94d7e8cbdf2fa98
+Merge: 1e410e6 8536a17
 Author: litghost <537074+litghost@users.noreply.github.com>
-Date:   Sun Feb 17 22:04:08 2019 -0800
+Date:   Tue Feb 19 16:48:47 2019 -0800
 
-    Merge pull request #659 from litghost/restore_iob_fuzzer
+    Merge pull request #668 from litghost/add_missing_cascade_bits
     
-    Restore IOB fuzzer and add _Y0 bits.
+    Add CASCOUT_*_ACTIVE bits.
 ```
 
 
@@ -59,7 +59,7 @@ Date:   Sun Feb 17 22:04:08 2019 -0800
 
 ### Settings
 
-Created using following [settings/artix7.sh (sha256: 632f87003df3388761e7f843432ae7cb2eaedeba95245503a09279ef9452db9d)](https://github.com/SymbiFlow/prjxray/blob/9e4c6f1bb55e9e68266396bae169f0c5d05bdc0d/settings/artix7.sh)
+Created using following [settings/artix7.sh (sha256: 632f87003df3388761e7f843432ae7cb2eaedeba95245503a09279ef9452db9d)](https://github.com/SymbiFlow/prjxray/blob/aa88f68da77b0e139362992aa94d7e8cbdf2fa98/settings/artix7.sh)
 ```shell
 export XRAY_DATABASE="artix7"
 export XRAY_PART="xc7a50tfgg484-1"
@@ -110,9 +110,9 @@ Results have checksums;
  * [`11d15eb449e9f42409e7187c26635d3facb6974cc0172819b4387ada2ff2532c  ./artix7/harness/basys3/swbut/design.json`](./artix7/harness/basys3/swbut/design.json)
  * [`9df8eac3c11e57d81b4bf4a927ade787f881f0ef46c8ab610ca529f35e887689  ./artix7/harness/basys3/swbut/design.txt`](./artix7/harness/basys3/swbut/design.txt)
  * [`fca753747fb1d583483e22980c4dae3a2de6451a326d46eab3581ea6f50f5b2d  ./artix7/mask_bram_l.block_ram.db`](./artix7/mask_bram_l.block_ram.db)
- * [`1d5844e3c0bc3a74e9c4dc4bce9284b1b3a1d6a267457e0c17f6a904311d73e0  ./artix7/mask_bram_l.db`](./artix7/mask_bram_l.db)
+ * [`e9cbf256305d67504ac8e1b2548783a49253c14265b53f2e3e6dea96b415f162  ./artix7/mask_bram_l.db`](./artix7/mask_bram_l.db)
  * [`fca753747fb1d583483e22980c4dae3a2de6451a326d46eab3581ea6f50f5b2d  ./artix7/mask_bram_r.block_ram.db`](./artix7/mask_bram_r.block_ram.db)
- * [`1d5844e3c0bc3a74e9c4dc4bce9284b1b3a1d6a267457e0c17f6a904311d73e0  ./artix7/mask_bram_r.db`](./artix7/mask_bram_r.db)
+ * [`e9cbf256305d67504ac8e1b2548783a49253c14265b53f2e3e6dea96b415f162  ./artix7/mask_bram_r.db`](./artix7/mask_bram_r.db)
  * [`4f37a37c925f92956b6fc010034529a4cc37698ecb7dd263a0fe737ad600cde7  ./artix7/mask_clbll_l.db`](./artix7/mask_clbll_l.db)
  * [`4f37a37c925f92956b6fc010034529a4cc37698ecb7dd263a0fe737ad600cde7  ./artix7/mask_clbll_r.db`](./artix7/mask_clbll_r.db)
  * [`5c274320294201935a3edccb43eca8e347ca1f0acded71ec388c794877d4b55b  ./artix7/mask_clblm_l.db`](./artix7/mask_clblm_l.db)
@@ -141,9 +141,9 @@ Results have checksums;
  * [`d300ad4128a192e416a958471013b7554f141fd1f816715828b1e5a87838f18d  ./artix7/ppips_int_l.db`](./artix7/ppips_int_l.db)
  * [`46564e746b8d9e37bf46a68f2915bd1395efb68508d48d336a4dfb9342105285  ./artix7/ppips_int_r.db`](./artix7/ppips_int_r.db)
  * [`63cab7c6cb50b9a86cd6de4ec02cfba93b99ac622684a1196b3d70adb1472fc1  ./artix7/segbits_bram_l.block_ram.db`](./artix7/segbits_bram_l.block_ram.db)
- * [`f61ce3972e8a3db9dd090a626c018c247788b5ba0946968b641d108de325a0a1  ./artix7/segbits_bram_l.db`](./artix7/segbits_bram_l.db)
+ * [`e6569c94ce988c3b15167c8f526e8ed9b1c473caa51fbbbc3d37caf0c27094a0  ./artix7/segbits_bram_l.db`](./artix7/segbits_bram_l.db)
  * [`6daa967b706d7fc5cdf597ed9f142df8f3003ded2fee3d622d484b21ceda2827  ./artix7/segbits_bram_r.block_ram.db`](./artix7/segbits_bram_r.block_ram.db)
- * [`d675f037111e500b21acb0b455d77f3b972de1f68643d69a842ea8ffb44db65a  ./artix7/segbits_bram_r.db`](./artix7/segbits_bram_r.db)
+ * [`d92fdbf8320074b6b98ba23cd01d4dda11385e9802b9d6068931d09def7b03c8  ./artix7/segbits_bram_r.db`](./artix7/segbits_bram_r.db)
  * [`ef6706ef033396c75469738223e66d1b5f38b832e27b5bb80f07efd571e28fb7  ./artix7/segbits_clbll_l.db`](./artix7/segbits_clbll_l.db)
  * [`53c0ea2b05a2c4ddf2b6cce38073534d0c21b893fc5783dc777d97de2f2d6a9e  ./artix7/segbits_clbll_r.db`](./artix7/segbits_clbll_r.db)
  * [`e6459c01d0c1c7724fa02716103fd02a3e2a75d6b7326f4c937f158a264ffe85  ./artix7/segbits_clblm_l.db`](./artix7/segbits_clblm_l.db)
@@ -330,7 +330,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/kintex7.sh (sha256: 794538b550d399255cbafeeb1b5ff183dc66ebc6cd8dc0f725e3f6a3977f757d)](https://github.com/SymbiFlow/prjxray/blob/9e4c6f1bb55e9e68266396bae169f0c5d05bdc0d/settings/kintex7.sh)
+Created using following [settings/kintex7.sh (sha256: 794538b550d399255cbafeeb1b5ff183dc66ebc6cd8dc0f725e3f6a3977f757d)](https://github.com/SymbiFlow/prjxray/blob/aa88f68da77b0e139362992aa94d7e8cbdf2fa98/settings/kintex7.sh)
 ```shell
 export XRAY_DATABASE="kintex7"
 export XRAY_PART="xc7k70tfbg676-2"
@@ -591,7 +591,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/zynq7.sh (sha256: 4fda8e53d37070c2ae679944740d8ea38b79c68785ab47e9482e0536d27a8b4f)](https://github.com/SymbiFlow/prjxray/blob/9e4c6f1bb55e9e68266396bae169f0c5d05bdc0d/settings/zynq7.sh)
+Created using following [settings/zynq7.sh (sha256: 4fda8e53d37070c2ae679944740d8ea38b79c68785ab47e9482e0536d27a8b4f)](https://github.com/SymbiFlow/prjxray/blob/aa88f68da77b0e139362992aa94d7e8cbdf2fa98/settings/zynq7.sh)
 ```shell
 export XRAY_DATABASE="zynq7"
 export XRAY_PART="xc7z010clg400-1"
