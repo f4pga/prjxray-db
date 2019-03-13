@@ -1,4 +1,4 @@
-# [Harnesses](.)
+# [Artix 7 Harnesses](.)
 
 Current using Project X-Ray requires a bitstream "harness" which connects IO
 into the ROI.
@@ -73,7 +73,7 @@ interest (plus clock).
 Supported boards;
  * [Arty A7-35T](#Arty%20A7-35T)
  * [Basys 3](#Basys%203)
-
+ * [Zybo Z7-10](../../zynq7/harness/README.md#Zybo%2Z7-10)
 
 ## PMOD
 
