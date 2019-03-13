@@ -138504,7 +138504,21 @@
         "type": "PSS4"
     },
     "RIOB33_SING_X31Y0": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "alias": {
+                    "sites": {
+                        "IOB33_Y0": "IOB33_Y0"
+                    },
+                    "start_offset": 2,
+                    "type": "RIOB33"
+                },
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 0,
+                "words": 2
+            }
+        },
         "grid_x": 127,
         "grid_y": 103,
         "sites": {
@@ -138513,7 +138527,21 @@
         "type": "RIOB33_SING"
     },
     "RIOB33_SING_X31Y49": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "alias": {
+                    "sites": {
+                        "IOB33_Y0": "IOB33_Y1"
+                    },
+                    "start_offset": 0,
+                    "type": "RIOB33"
+                },
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 99,
+                "words": 2
+            }
+        },
         "grid_x": 127,
         "grid_y": 53,
         "sites": {
@@ -138522,7 +138550,21 @@
         "type": "RIOB33_SING"
     },
     "RIOB33_SING_X31Y50": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "alias": {
+                    "sites": {
+                        "IOB33_Y0": "IOB33_Y0"
+                    },
+                    "start_offset": 2,
+                    "type": "RIOB33"
+                },
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 0,
+                "words": 2
+            }
+        },
         "grid_x": 127,
         "grid_y": 51,
         "sites": {
@@ -138531,7 +138573,21 @@
         "type": "RIOB33_SING"
     },
     "RIOB33_SING_X31Y99": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "alias": {
+                    "sites": {
+                        "IOB33_Y0": "IOB33_Y1"
+                    },
+                    "start_offset": 0,
+                    "type": "RIOB33"
+                },
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 99,
+                "words": 2
+            }
+        },
         "grid_x": 127,
         "grid_y": 1,
         "sites": {
