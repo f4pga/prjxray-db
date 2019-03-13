@@ -37,7 +37,7 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Wed Mar 13 21:42:34 UTC 2019 (2019-03-13T21:42:34+00:00).
+Last updated on Wed Mar 13 22:16:59 UTC 2019 (2019-03-13T22:16:59+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [45a8af8](https://github.com/SymbiFlow/prjxray/commit/45a8af8d71c285e7115112c564e5d46b6c81dd97).
 
@@ -96,7 +96,7 @@ Results have checksums;
 
  * [`8c6097166bf4b43969c49894dc464d1202f19683d7287a63ec709bc867d97105  ./artix7/element_counts.csv`](./artix7/element_counts.csv)
  * [`6864d8edcef442cb129f83b9c5cd27be85d1b4bded8007bbeadcfc70717f8c48  ./artix7/gridinfo/grid-xc7a50tfgg484-1-db.txt`](./artix7/gridinfo/grid-xc7a50tfgg484-1-db.txt)
- * [`4c0a815ab8943181331f7aa9ac77655a0a640d9a409a602e4f24f8feb5f905e9  ./artix7/harness/README.md`](./artix7/harness/README.md)
+ * [`3aacff527ff9389f20510c56014b7bc2c54116d9d0d3199216743cfbdd09664d  ./artix7/harness/README.md`](./artix7/harness/README.md)
  * [`8416e8eef29e5defebbd3e45f60baa15cbcc22d66647a8da62ec7c42eff8b521  ./artix7/harness/arty-a7/pmod/design.bit`](./artix7/harness/arty-a7/pmod/design.bit)
  * [`c98eefb677a5cd469b75223d6ceb0e95f5d331de00291193caed008f33ee746c  ./artix7/harness/arty-a7/pmod/design.dcp`](./artix7/harness/arty-a7/pmod/design.dcp)
  * [`13382ee7fffcd88636892517929e7c60a6e82bb63324a4e48414bb16eb81174b  ./artix7/harness/arty-a7/pmod/design.json`](./artix7/harness/arty-a7/pmod/design.json)
@@ -631,6 +631,11 @@ source $(dirname ${BASH_SOURCE[0]})/../utils/environment.sh
 Results have checksums;
 
  * [`389d7501980b8d12b5fe58af98158372ac3eaa1f557434f6ad96b7610c1ad378  ./zynq7/element_counts.csv`](./zynq7/element_counts.csv)
+ * [`bfd74012f2b02547e824bac877b790ce12b84694b375205e26cb96b5f517672d  ./zynq7/harness/README.md`](./zynq7/harness/README.md)
+ * [`ef169ec1d698b4f8a6675b33b600af8f7c481f61ebb663deed1ad5923e4a438c  ./zynq7/harness/zybo/swbut/design.bit`](./zynq7/harness/zybo/swbut/design.bit)
+ * [`e0e4b94719fdd010522da34d18ab9466f2938e6a14871696e94f48a5818a31e4  ./zynq7/harness/zybo/swbut/design.dcp`](./zynq7/harness/zybo/swbut/design.dcp)
+ * [`785faee1524045b220751675a2ac5d9c29fb5718a44e854dfd512014ace97e24  ./zynq7/harness/zybo/swbut/design.json`](./zynq7/harness/zybo/swbut/design.json)
+ * [`9315fdbbd691414d1cd31b798b080f53bcfe7fefc735f86f9b4d5f013d14c168  ./zynq7/harness/zybo/swbut/design.txt`](./zynq7/harness/zybo/swbut/design.txt)
  * [`fca753747fb1d583483e22980c4dae3a2de6451a326d46eab3581ea6f50f5b2d  ./zynq7/mask_bram_l.block_ram.db`](./zynq7/mask_bram_l.block_ram.db)
  * [`3adab1bc4365599535597dd6366028004dd056a17a3349d328965b23a6a4064a  ./zynq7/mask_bram_l.db`](./zynq7/mask_bram_l.db)
  * [`fca753747fb1d583483e22980c4dae3a2de6451a326d46eab3581ea6f50f5b2d  ./zynq7/mask_bram_r.block_ram.db`](./zynq7/mask_bram_r.block_ram.db)
