@@ -37,20 +37,20 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Wed Mar 13 22:16:59 UTC 2019 (2019-03-13T22:16:59+00:00).
+Last updated on Thu Mar 21 21:13:39 UTC 2019 (2019-03-21T21:13:39+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [45a8af8](https://github.com/SymbiFlow/prjxray/commit/45a8af8d71c285e7115112c564e5d46b6c81dd97).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [c82efce](https://github.com/SymbiFlow/prjxray/commit/c82efce96a5468775289d0892924217369cfa216).
 
 Latest commit was;
 ```
-commit 45a8af8d71c285e7115112c564e5d46b6c81dd97
-Merge: 2389645 1f53d57
+commit c82efce96a5468775289d0892924217369cfa216
+Merge: 1775858 5a7102c
 Author: litghost <537074+litghost@users.noreply.github.com>
-Date:   Tue Mar 12 13:43:29 2019 -0700
+Date:   Thu Mar 21 08:26:06 2019 -0700
 
-    Merge pull request #715 from litghost/fix_pip_list
+    Merge pull request #735 from SymbiFlow/dependabot/submodules/third_party/googletest-f957bd0
     
-    Fix 048 not using correct directory.
+    Bump third_party/googletest from `8b6d3f9` to `f957bd0`
 ```
 
 
@@ -59,7 +59,7 @@ Date:   Tue Mar 12 13:43:29 2019 -0700
 
 ### Settings
 
-Created using following [settings/artix7.sh (sha256: 26e1ff93657132928a3b583c95347267d7afeb18a7b7036f0d7a6ea3367ae803)](https://github.com/SymbiFlow/prjxray/blob/45a8af8d71c285e7115112c564e5d46b6c81dd97/settings/artix7.sh)
+Created using following [settings/artix7.sh (sha256: 26e1ff93657132928a3b583c95347267d7afeb18a7b7036f0d7a6ea3367ae803)](https://github.com/SymbiFlow/prjxray/blob/c82efce96a5468775289d0892924217369cfa216/settings/artix7.sh)
 ```shell
 export XRAY_DATABASE="artix7"
 export XRAY_PART="xc7a50tfgg484-1"
@@ -126,8 +126,8 @@ Results have checksums;
  * [`aab2e5f20890d805b6a78db6e6fd68d6024a140ac5e960feb4162d7e49582ca8  ./artix7/mask_dsp_r.db`](./artix7/mask_dsp_r.db)
  * [`76d1e0bd4b7ad492cf3fe8698b2b5f46f7dcc5fe446984e5dccae373c63edafd  ./artix7/mask_hclk_l.db`](./artix7/mask_hclk_l.db)
  * [`76d1e0bd4b7ad492cf3fe8698b2b5f46f7dcc5fe446984e5dccae373c63edafd  ./artix7/mask_hclk_r.db`](./artix7/mask_hclk_r.db)
- * [`2e2903784928e691e260cf453f1d1949d74634c6461c8e00f9b501041eaaec9e  ./artix7/mask_liob33.db`](./artix7/mask_liob33.db)
- * [`2e2903784928e691e260cf453f1d1949d74634c6461c8e00f9b501041eaaec9e  ./artix7/mask_riob33.db`](./artix7/mask_riob33.db)
+ * [`0cbad55ccd00e0bab154cf4462e0bf9897f3fe1f8a5a29f9106df29f76b585fc  ./artix7/mask_liob33.db`](./artix7/mask_liob33.db)
+ * [`0cbad55ccd00e0bab154cf4462e0bf9897f3fe1f8a5a29f9106df29f76b585fc  ./artix7/mask_riob33.db`](./artix7/mask_riob33.db)
  * [`d94e4d13df16da498224f0e94deaa310fbf471b6f9ec0ec8b2308fe62fa2eeaf  ./artix7/ppips_bram_int_interface_l.db`](./artix7/ppips_bram_int_interface_l.db)
  * [`b48d766ac6f9dd0e21280d3a04dd448ea39016143309c0c7867fc00d730a59ae  ./artix7/ppips_bram_int_interface_r.db`](./artix7/ppips_bram_int_interface_r.db)
  * [`2c68f8b128aeb79197013c3a1774522143a3507a8fa595a98c22dba2553fd5ce  ./artix7/ppips_bram_l.db`](./artix7/ppips_bram_l.db)
@@ -136,12 +136,22 @@ Results have checksums;
  * [`bb75573609f56f082544644ecbb39125d023809340f7a30180cb9df823585009  ./artix7/ppips_clbll_r.db`](./artix7/ppips_clbll_r.db)
  * [`a5357b0c018ac9c8c1f8cccf3c36b69f66ffd0e29039dfadb5a829caafd71a73  ./artix7/ppips_clblm_l.db`](./artix7/ppips_clblm_l.db)
  * [`15424ecbd5816143def2dcb20fc9cfae5ec4e11a1a5cfc1848e71b2904a1a713  ./artix7/ppips_clblm_r.db`](./artix7/ppips_clblm_r.db)
+ * [`77fba62caedba6632e55834bbc40ff797181d8825e2f4d55987a04a38a95a6c0  ./artix7/ppips_clk_bufg_bot_r.db`](./artix7/ppips_clk_bufg_bot_r.db)
+ * [`15dba278ba801744b1ed558220334899fc098acd8e8aff20ab9761249a70e839  ./artix7/ppips_clk_bufg_top_r.db`](./artix7/ppips_clk_bufg_top_r.db)
+ * [`0dbef414182c3ef9054f4b9bc15c41c435d4bef2db30850add728d3de93749b8  ./artix7/ppips_clk_hrow_bot_r.db`](./artix7/ppips_clk_hrow_bot_r.db)
+ * [`8774624d8398b6000e80cefbcf5a5bac095e1c8650772c23f9b73448e0df5dbb  ./artix7/ppips_clk_hrow_top_r.db`](./artix7/ppips_clk_hrow_top_r.db)
  * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./artix7/ppips_dsp_l.db`](./artix7/ppips_dsp_l.db)
  * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./artix7/ppips_dsp_r.db`](./artix7/ppips_dsp_r.db)
- * [`6d35b568a51f9b6761da2470a71738b2477ef72c16068a529ae8eb52b65bf17a  ./artix7/ppips_hclk_l.db`](./artix7/ppips_hclk_l.db)
- * [`81e0696179a33bdf8d2279a53b406911a403d50224355e9ad29eccee01a70305  ./artix7/ppips_hclk_r.db`](./artix7/ppips_hclk_r.db)
  * [`d300ad4128a192e416a958471013b7554f141fd1f816715828b1e5a87838f18d  ./artix7/ppips_int_l.db`](./artix7/ppips_int_l.db)
  * [`46564e746b8d9e37bf46a68f2915bd1395efb68508d48d336a4dfb9342105285  ./artix7/ppips_int_r.db`](./artix7/ppips_int_r.db)
+ * [`916e3cea00e0bf8291ae24083696833dc1ff09f06562eccba6f2c73afd267ccb  ./artix7/ppips_io_int_interface_l.db`](./artix7/ppips_io_int_interface_l.db)
+ * [`01526db954ab19098931424b8203c98803894b5563b5272fad665f3a75f0bb3b  ./artix7/ppips_io_int_interface_r.db`](./artix7/ppips_io_int_interface_r.db)
+ * [`b155fbb8d964a2c3359a8420c0a6fd11aafccaeee92034e78cd16d2c56d4fcf9  ./artix7/ppips_lioi3.db`](./artix7/ppips_lioi3.db)
+ * [`fbe2cd3174bcec467e55558c497717480808149193c2ee80b51be78580356385  ./artix7/ppips_lioi3_sing.db`](./artix7/ppips_lioi3_sing.db)
+ * [`a28a9783e37b9768245b5e48bcf5876b1c625093544b2cce9408d4d3a846cdf3  ./artix7/ppips_lioi3_tbytesrc.db`](./artix7/ppips_lioi3_tbytesrc.db)
+ * [`df11ac1c71eefa9c06abe06bc932d36368977543fba9666ee1b36e8417cd9f78  ./artix7/ppips_rioi3.db`](./artix7/ppips_rioi3.db)
+ * [`0c6263c13669085c09a61f25d68786d8f6c9b12b162fe2cd6c9a50114106f739  ./artix7/ppips_rioi3_sing.db`](./artix7/ppips_rioi3_sing.db)
+ * [`76c5978b345f11a9e46733a98875a6c419b75cf863a0e42d05e9ac94f9795bfc  ./artix7/ppips_rioi3_tbytesrc.db`](./artix7/ppips_rioi3_tbytesrc.db)
  * [`8a2136e564ac92c06b226ef8715a122050fcabbb063f69eeaf46cfee5c89670f  ./artix7/segbits_bram_l.block_ram.db`](./artix7/segbits_bram_l.block_ram.db)
  * [`53d975bf59b763b9f764106db362ee7f6a753e9e72a5e2be334041658a5ea4ba  ./artix7/segbits_bram_l.db`](./artix7/segbits_bram_l.db)
  * [`a635577b55878c69df492c16b67a1dfbd1d4b786a695abe3e95a62d9540ecea5  ./artix7/segbits_bram_r.block_ram.db`](./artix7/segbits_bram_r.block_ram.db)
@@ -334,7 +344,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/kintex7.sh (sha256: 794538b550d399255cbafeeb1b5ff183dc66ebc6cd8dc0f725e3f6a3977f757d)](https://github.com/SymbiFlow/prjxray/blob/45a8af8d71c285e7115112c564e5d46b6c81dd97/settings/kintex7.sh)
+Created using following [settings/kintex7.sh (sha256: 794538b550d399255cbafeeb1b5ff183dc66ebc6cd8dc0f725e3f6a3977f757d)](https://github.com/SymbiFlow/prjxray/blob/c82efce96a5468775289d0892924217369cfa216/settings/kintex7.sh)
 ```shell
 export XRAY_DATABASE="kintex7"
 export XRAY_PART="xc7k70tfbg676-2"
@@ -595,7 +605,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/zynq7.sh (sha256: 61298e89dcc873eadba47f5c2f9f72a38fa022583b2c7ff89246b2e051585ad8)](https://github.com/SymbiFlow/prjxray/blob/45a8af8d71c285e7115112c564e5d46b6c81dd97/settings/zynq7.sh)
+Created using following [settings/zynq7.sh (sha256: 61298e89dcc873eadba47f5c2f9f72a38fa022583b2c7ff89246b2e051585ad8)](https://github.com/SymbiFlow/prjxray/blob/c82efce96a5468775289d0892924217369cfa216/settings/zynq7.sh)
 ```shell
 export XRAY_DATABASE="zynq7"
 export XRAY_PART="xc7z010clg400-1"
