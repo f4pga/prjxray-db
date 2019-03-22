@@ -39,6 +39,7 @@ Description from the [Digilent website](https://store.digilentinc.com/arty-a7-ar
 Supported harness configurations;
  * [SWBUT](#swbut)
  * [PMOD](#pmod)
+ * [UART](#uart)
 
 ## [Basys 3](basys3)
 
@@ -79,6 +80,14 @@ Supported boards;
 
 Harness which maps a board's PMOD connectors into the region of interest (plus
 a clock).
+
+Supported boards;
+ * [Arty A7-35T](#Arty%20A7-35T)
+
+## UART
+
+Harness which maps a board's UART, a reset button, an LED into the region of
+interest (plus a clock).
 
 Supported boards;
  * [Arty A7-35T](#Arty%20A7-35T)
