@@ -37,7 +37,7 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Tue Mar 26 20:43:13 UTC 2019 (2019-03-26T20:43:13+00:00).
+Last updated on Wed Mar 27 01:22:23 UTC 2019 (2019-03-27T01:22:23+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [c7d7e9d](https://github.com/SymbiFlow/prjxray/commit/c7d7e9d7ade70bd47f969f9713d9a6e4defbd53a).
 
@@ -97,21 +97,21 @@ Results have checksums;
  * [`8c6097166bf4b43969c49894dc464d1202f19683d7287a63ec709bc867d97105  ./artix7/element_counts.csv`](./artix7/element_counts.csv)
  * [`6864d8edcef442cb129f83b9c5cd27be85d1b4bded8007bbeadcfc70717f8c48  ./artix7/gridinfo/grid-xc7a50tfgg484-1-db.txt`](./artix7/gridinfo/grid-xc7a50tfgg484-1-db.txt)
  * [`2b18b3806f0e58024469eac1fe11749d04c6b035d2c2eafa7d2f30bf57173fa9  ./artix7/harness/README.md`](./artix7/harness/README.md)
- * [`8416e8eef29e5defebbd3e45f60baa15cbcc22d66647a8da62ec7c42eff8b521  ./artix7/harness/arty-a7/pmod/design.bit`](./artix7/harness/arty-a7/pmod/design.bit)
- * [`c98eefb677a5cd469b75223d6ceb0e95f5d331de00291193caed008f33ee746c  ./artix7/harness/arty-a7/pmod/design.dcp`](./artix7/harness/arty-a7/pmod/design.dcp)
- * [`13382ee7fffcd88636892517929e7c60a6e82bb63324a4e48414bb16eb81174b  ./artix7/harness/arty-a7/pmod/design.json`](./artix7/harness/arty-a7/pmod/design.json)
- * [`0c0db34e2b1a0f38b05799ad7e042874d43443d79426e9f32f0b63c71a8c9d3d  ./artix7/harness/arty-a7/pmod/design.txt`](./artix7/harness/arty-a7/pmod/design.txt)
- * [`0df8a22d29a4425ee1da4363b8cdb56c82c1ab71913fbe36b4470b3ebc082c60  ./artix7/harness/arty-a7/swbut/design.bit`](./artix7/harness/arty-a7/swbut/design.bit)
- * [`578bbe948ecc1af59c3e9cda0aacd53841d31534a6ec156af9d2779aee8770f4  ./artix7/harness/arty-a7/swbut/design.dcp`](./artix7/harness/arty-a7/swbut/design.dcp)
- * [`124264a1ac88ce1e72eef3d337dc1b67287413036e1e0bf4e1eb52df3cef17ee  ./artix7/harness/arty-a7/swbut/design.json`](./artix7/harness/arty-a7/swbut/design.json)
- * [`d8c1255df5bc352fbff05b9688b86becfc7d28ee82663256332e0a7b8ac4b338  ./artix7/harness/arty-a7/swbut/design.txt`](./artix7/harness/arty-a7/swbut/design.txt)
- * [`7f92af7280a5e8563dd764c52356e2f914a20b5d413ff1441c546da6101df21c  ./artix7/harness/arty-a7/uart/design.bit`](./artix7/harness/arty-a7/uart/design.bit)
- * [`78616f1443dcacb0af37f78ba507c81f0a6115770e538430d5c7382aa48edd6a  ./artix7/harness/arty-a7/uart/design.dcp`](./artix7/harness/arty-a7/uart/design.dcp)
- * [`8df57ddc871785ba1710beb4a14c6ceed706cfb48bfbc425182f2a96742fdd13  ./artix7/harness/arty-a7/uart/design.json`](./artix7/harness/arty-a7/uart/design.json)
+ * [`b270ca64ce9a15a0a2cde99523bab6e7ba748fbca804dd600ccb2c21a4224c85  ./artix7/harness/arty-a7/pmod/design.bit`](./artix7/harness/arty-a7/pmod/design.bit)
+ * [`134f6438b4dbbd511c823e80548970359e9468b2509e6614732ef2d591613c53  ./artix7/harness/arty-a7/pmod/design.dcp`](./artix7/harness/arty-a7/pmod/design.dcp)
+ * [`39236ffb06698077ee3f06edd6d64c0167793cefab4acda71f219a5cf3a20f76  ./artix7/harness/arty-a7/pmod/design.json`](./artix7/harness/arty-a7/pmod/design.json)
+ * [`fb90ad5fe10750f33d5802e1409ebc2406f7b0adab4bf6ef12b53c0e100b43ea  ./artix7/harness/arty-a7/pmod/design.txt`](./artix7/harness/arty-a7/pmod/design.txt)
+ * [`5e4504596aaca26baf85309f7e223a9e45af410971af8c21b375f8151e9e6a53  ./artix7/harness/arty-a7/swbut/design.bit`](./artix7/harness/arty-a7/swbut/design.bit)
+ * [`6c20fcdb578030f58da1082539828d2785065a598f8ca9c2d14b49d3a6ebe834  ./artix7/harness/arty-a7/swbut/design.dcp`](./artix7/harness/arty-a7/swbut/design.dcp)
+ * [`63af3a7ba401751dc4b03cd2db38d5a4c6d20279117307138fee3fcb92ab1119  ./artix7/harness/arty-a7/swbut/design.json`](./artix7/harness/arty-a7/swbut/design.json)
+ * [`7d2429e6bcedecaf6f0db4f2f04860b5b6dc4b036495815a70edc4a036361310  ./artix7/harness/arty-a7/swbut/design.txt`](./artix7/harness/arty-a7/swbut/design.txt)
+ * [`e492a4c97f0d0a10cd07e0badb0b81f084e2d1a88ba06ab5b705e90ef6003076  ./artix7/harness/arty-a7/uart/design.bit`](./artix7/harness/arty-a7/uart/design.bit)
+ * [`e2dbcf498c7efe26d6a4ab14733bf3acfe51798bc1d2cd7f4e0e77fc95f40225  ./artix7/harness/arty-a7/uart/design.dcp`](./artix7/harness/arty-a7/uart/design.dcp)
+ * [`62586079b9ffd917ff5a5d4edcae802b161a7ed4f6af1c776731dcd10c87d096  ./artix7/harness/arty-a7/uart/design.json`](./artix7/harness/arty-a7/uart/design.json)
  * [`0583aa7502ee7a0303510c524f5500d8e1b9598aa26016d3d0e4e9623bf8ab8d  ./artix7/harness/arty-a7/uart/design.txt`](./artix7/harness/arty-a7/uart/design.txt)
- * [`3e70378bc05fe32951fed4816f634ff35e5f1511d992ebf8e6718d6d8a65943f  ./artix7/harness/basys3/swbut/design.bit`](./artix7/harness/basys3/swbut/design.bit)
- * [`8cac3f210fcc33e78fe576841c286a19138be26004dee70397f93a0b3019e451  ./artix7/harness/basys3/swbut/design.dcp`](./artix7/harness/basys3/swbut/design.dcp)
- * [`2e19b7f8aaaf6fd6e891fa16ceb351eaf659202ef512598ec8f518c57d6ab484  ./artix7/harness/basys3/swbut/design.json`](./artix7/harness/basys3/swbut/design.json)
+ * [`4f590875a7851c6d036ab171421b12100f517af74229ad47d8e21fdb6e09b09e  ./artix7/harness/basys3/swbut/design.bit`](./artix7/harness/basys3/swbut/design.bit)
+ * [`0e48014931ae9a6010d6023b2a6e07e13ecf206be1076197b881161e67ced596  ./artix7/harness/basys3/swbut/design.dcp`](./artix7/harness/basys3/swbut/design.dcp)
+ * [`9bc42fedabb2f8ca69d0431b5e9c22f20c09b8fa5313dd252d0c32c32b6ad80b  ./artix7/harness/basys3/swbut/design.json`](./artix7/harness/basys3/swbut/design.json)
  * [`9df8eac3c11e57d81b4bf4a927ade787f881f0ef46c8ab610ca529f35e887689  ./artix7/harness/basys3/swbut/design.txt`](./artix7/harness/basys3/swbut/design.txt)
  * [`fca753747fb1d583483e22980c4dae3a2de6451a326d46eab3581ea6f50f5b2d  ./artix7/mask_bram_l.block_ram.db`](./artix7/mask_bram_l.block_ram.db)
  * [`30b4cfe8b60ccde4423a0bd0d7ad5242bea58d54abf5d15601dd3f390465e821  ./artix7/mask_bram_l.db`](./artix7/mask_bram_l.db)
