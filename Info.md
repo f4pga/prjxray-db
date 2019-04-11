@@ -37,7 +37,7 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Thu Apr 11 21:24:48 UTC 2019 (2019-04-11T21:24:48+00:00).
+Last updated on Thu Apr 11 21:39:58 UTC 2019 (2019-04-11T21:39:58+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [37c46aa](https://github.com/SymbiFlow/prjxray/commit/37c46aa7f7e8993e2359cc32f0d3d2978e28d24d).
 
@@ -873,3 +873,4 @@ Results have checksums;
  * [`2f47bc43658a75f97bc3b2eab79d2a5d3adc9cb008609d2ed94ddb76e1386e11  ./zynq7/tilegrid.json`](./zynq7/tilegrid.json)
  * [`f3704845c7559e0289c9a1c6f42a7874be6d5d7aef3e0f285647b8ca62a154b3  ./zynq7/xc7z010clg400-1.json`](./zynq7/xc7z010clg400-1.json)
  * [`43a136f26603c51bd97e9489d223bbc80f278fcc234225ed9fde404402f22683  ./zynq7/xc7z010clg400-1.yaml`](./zynq7/xc7z010clg400-1.yaml)
+ * [`d9914c14b3a8d59c76dd5992c4727e4002acd5e14b32c1afe49f7be8798e4db9  ./zynq7/xc7z010clg400-1_package_pins.csv`](./zynq7/xc7z010clg400-1_package_pins.csv)
