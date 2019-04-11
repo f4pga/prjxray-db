@@ -37,7 +37,7 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Thu Apr 11 21:16:03 UTC 2019 (2019-04-11T21:16:03+00:00).
+Last updated on Thu Apr 11 21:24:48 UTC 2019 (2019-04-11T21:24:48+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [37c46aa](https://github.com/SymbiFlow/prjxray/commit/37c46aa7f7e8993e2359cc32f0d3d2978e28d24d).
 
@@ -347,8 +347,10 @@ Results have checksums;
  * [`08912d58cee8057f7557c307700162b1d3437766adeb95a79980bf3602a7a779  ./artix7/tilegrid.json`](./artix7/tilegrid.json)
  * [`4c20ee41ea32668919b7d91a7fabe38960e0ee4d5b3b83f1d18102d48895bf1c  ./artix7/xc7a35tcpg236-1.json`](./artix7/xc7a35tcpg236-1.json)
  * [`ef0724733da87455426a0f833642d96e9d206d047f4eb97072c3093f80c40d7d  ./artix7/xc7a35tcpg236-1.yaml`](./artix7/xc7a35tcpg236-1.yaml)
+ * [`ac928ee3c50e91facacb4173fdf70384f56e046bb14581bf75f760e406fe4f78  ./artix7/xc7a35tcpg236-1_package_pins.csv`](./artix7/xc7a35tcpg236-1_package_pins.csv)
  * [`4c20ee41ea32668919b7d91a7fabe38960e0ee4d5b3b83f1d18102d48895bf1c  ./artix7/xc7a35tcsg324-1.json`](./artix7/xc7a35tcsg324-1.json)
  * [`ef0724733da87455426a0f833642d96e9d206d047f4eb97072c3093f80c40d7d  ./artix7/xc7a35tcsg324-1.yaml`](./artix7/xc7a35tcsg324-1.yaml)
+ * [`9081f5280a2f1fc30b67cb91af72950be624c37111bde3a341997c059e77d2b1  ./artix7/xc7a35tcsg324-1_package_pins.csv`](./artix7/xc7a35tcsg324-1_package_pins.csv)
  * [`bee2616f3f373813e4539952e1185dd6e39fb0aec4cd2a2b42451318c6cd2de0  ./artix7/xc7a50tfgg484-1.json`](./artix7/xc7a50tfgg484-1.json)
  * [`41c360b1e2f7e08b9051f1160a34954ce4c05a445a07f226f1f4059caf1fa1d3  ./artix7/xc7a50tfgg484-1.yaml`](./artix7/xc7a50tfgg484-1.yaml)
  * [`54421233f3cb478ec70b933afab73363b22d3cc68dc1332e2f63e3a131160bd5  ./artix7/xc7a50tfgg484-1_package_pins.csv`](./artix7/xc7a50tfgg484-1_package_pins.csv)
