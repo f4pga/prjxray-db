@@ -48,23 +48,23 @@ that file and then request Tim to rebuild the HTML output.</p>
 <h1 id="license">License</h1>
 <p>These files are released under the very permissive <a href="COPYING">CC0 1.0 Universal</a>.</p>
 <h1 id="details">Details</h1>
-<p>Last updated on Thu Apr 11 21:39:58 UTC 2019 (2019-04-11T21:39:58+00:00).</p>
-<p>Created using <a href="https://github.com/SymbiFlow/prjxray">Project X-Ray</a> version <a href="https://github.com/SymbiFlow/prjxray/commit/37c46aa7f7e8993e2359cc32f0d3d2978e28d24d">37c46aa</a>.</p>
+<p>Last updated on Mon Apr 29 21:36:42 UTC 2019 (2019-04-29T21:36:42+00:00).</p>
+<p>Created using <a href="https://github.com/SymbiFlow/prjxray">Project X-Ray</a> version <a href="https://github.com/SymbiFlow/prjxray/commit/27bba88fc8ac6b08dc83a9298ef6f227c5a0d46e">27bba88</a>.</p>
 <p>Latest commit was;</p>
-<div class="codehilite"><pre><span></span>commit 37c46aa7f7e8993e2359cc32f0d3d2978e28d24d
-Merge: ef63708 36177e9
-Author: litghost &lt;537074+litghost@users.noreply.github.com&gt;
-Date:   Thu Apr 11 10:00:05 2019 -0700
+<div class="codehilite"><pre><span></span>commit 27bba88fc8ac6b08dc83a9298ef6f227c5a0d46e
+Merge: 938f378 85060dd
+Author: Tim Ansell &lt;me@mith.ro&gt;
+Date:   Mon Apr 29 09:30:05 2019 -0700
 
-    Merge pull request #773 from litghost/add_more_parts
+    Merge pull request #810 from mithro/import-wiki
 
-    Add make targets to build additional outputs from each database.
+    Fixing issues from wiki import
 </pre></div>
 
 
 <h2 id="database-for-artix7">Database for <a href="artix7/">artix7</a></h2>
 <h3 id="settings">Settings</h3>
-<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/37c46aa7f7e8993e2359cc32f0d3d2978e28d24d/settings/artix7.sh">settings/artix7.sh (sha256: 26e1ff93657132928a3b583c95347267d7afeb18a7b7036f0d7a6ea3367ae803)</a></p>
+<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/27bba88fc8ac6b08dc83a9298ef6f227c5a0d46e/settings/artix7.sh">settings/artix7.sh (sha256: 26e1ff93657132928a3b583c95347267d7afeb18a7b7036f0d7a6ea3367ae803)</a></p>
 <div class="codehilite"><pre><span></span><span class="nb">export</span> <span class="nv">XRAY_DATABASE</span><span class="o">=</span><span class="s2">&quot;artix7&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_PART</span><span class="o">=</span><span class="s2">&quot;xc7a50tfgg484-1&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_ROI_FRAMES</span><span class="o">=</span><span class="s2">&quot;0x00000000:0xffffffff&quot;</span>
@@ -348,6 +348,117 @@ Date:   Thu Apr 11 10:00:05 2019 -0700
 <li><a href="./artix7/tile_type_VFRAME.json"><code>004efcd7f9e172780ca7b8c379ec329bcfc52f86beaa1d997f41dbef7ac4a242  ./artix7/tile_type_VFRAME.json</code></a></li>
 <li><a href="./artix7/tileconn.json"><code>1604d48580815e26069c2b4909fcc50e8e8f974ad0beb349ced2329c302bb06b  ./artix7/tileconn.json</code></a></li>
 <li><a href="./artix7/tilegrid.json"><code>08912d58cee8057f7557c307700162b1d3437766adeb95a79980bf3602a7a779  ./artix7/tilegrid.json</code></a></li>
+<li><a href="./artix7/timings/BRAM_INT_INTERFACE_L.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRAM_INT_INTERFACE_L.sdf</code></a></li>
+<li><a href="./artix7/timings/BRAM_INT_INTERFACE_R.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRAM_INT_INTERFACE_R.sdf</code></a></li>
+<li><a href="./artix7/timings/BRAM_L.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRAM_L.sdf</code></a></li>
+<li><a href="./artix7/timings/BRAM_R.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRAM_R.sdf</code></a></li>
+<li><a href="./artix7/timings/BRKH_BRAM.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRKH_BRAM.sdf</code></a></li>
+<li><a href="./artix7/timings/BRKH_B_TERM_INT.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRKH_B_TERM_INT.sdf</code></a></li>
+<li><a href="./artix7/timings/BRKH_CLB.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRKH_CLB.sdf</code></a></li>
+<li><a href="./artix7/timings/BRKH_CLK.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRKH_CLK.sdf</code></a></li>
+<li><a href="./artix7/timings/BRKH_CMT.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRKH_CMT.sdf</code></a></li>
+<li><a href="./artix7/timings/BRKH_DSP_L.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRKH_DSP_L.sdf</code></a></li>
+<li><a href="./artix7/timings/BRKH_DSP_R.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRKH_DSP_R.sdf</code></a></li>
+<li><a href="./artix7/timings/BRKH_GTX.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRKH_GTX.sdf</code></a></li>
+<li><a href="./artix7/timings/BRKH_INT.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRKH_INT.sdf</code></a></li>
+<li><a href="./artix7/timings/BRKH_TERM_INT.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/BRKH_TERM_INT.sdf</code></a></li>
+<li><a href="./artix7/timings/B_TERM_INT.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/B_TERM_INT.sdf</code></a></li>
+<li><a href="./artix7/timings/CFG_CENTER_BOT.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CFG_CENTER_BOT.sdf</code></a></li>
+<li><a href="./artix7/timings/CFG_CENTER_MID.sdf"><code>da68ee39b0b3d97cccf9a57607156e26947ba0b75d769f024c3a94b990838cc2  ./artix7/timings/CFG_CENTER_MID.sdf</code></a></li>
+<li><a href="./artix7/timings/CFG_CENTER_TOP.sdf"><code>a6ee3d276725de5965953133b3298674badd2d9a892043cd67380bef3be9a840  ./artix7/timings/CFG_CENTER_TOP.sdf</code></a></li>
+<li><a href="./artix7/timings/CLBLL_L.sdf"><code>0b73ca38e6c462bd7567c2dea04e8b721bd14d3c0d96ec3d8718eed107e73c8c  ./artix7/timings/CLBLL_L.sdf</code></a></li>
+<li><a href="./artix7/timings/CLBLL_R.sdf"><code>0b73ca38e6c462bd7567c2dea04e8b721bd14d3c0d96ec3d8718eed107e73c8c  ./artix7/timings/CLBLL_R.sdf</code></a></li>
+<li><a href="./artix7/timings/CLBLM_L.sdf"><code>76e4fbdcdc31addedea51d1888128b638df941a091cec42dc6da9224ba5ecdd3  ./artix7/timings/CLBLM_L.sdf</code></a></li>
+<li><a href="./artix7/timings/CLBLM_R.sdf"><code>76e4fbdcdc31addedea51d1888128b638df941a091cec42dc6da9224ba5ecdd3  ./artix7/timings/CLBLM_R.sdf</code></a></li>
+<li><a href="./artix7/timings/CLK_BUFG_BOT_R.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CLK_BUFG_BOT_R.sdf</code></a></li>
+<li><a href="./artix7/timings/CLK_BUFG_REBUF.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CLK_BUFG_REBUF.sdf</code></a></li>
+<li><a href="./artix7/timings/CLK_BUFG_TOP_R.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CLK_BUFG_TOP_R.sdf</code></a></li>
+<li><a href="./artix7/timings/CLK_FEED.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CLK_FEED.sdf</code></a></li>
+<li><a href="./artix7/timings/CLK_HROW_BOT_R.sdf"><code>534489925413749644e5ec08fc25b07264e88db91a75a7b76a4ca612bee8f23b  ./artix7/timings/CLK_HROW_BOT_R.sdf</code></a></li>
+<li><a href="./artix7/timings/CLK_HROW_TOP_R.sdf"><code>534489925413749644e5ec08fc25b07264e88db91a75a7b76a4ca612bee8f23b  ./artix7/timings/CLK_HROW_TOP_R.sdf</code></a></li>
+<li><a href="./artix7/timings/CLK_MTBF2.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CLK_MTBF2.sdf</code></a></li>
+<li><a href="./artix7/timings/CLK_PMV.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CLK_PMV.sdf</code></a></li>
+<li><a href="./artix7/timings/CLK_PMV2.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CLK_PMV2.sdf</code></a></li>
+<li><a href="./artix7/timings/CLK_PMV2_SVT.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CLK_PMV2_SVT.sdf</code></a></li>
+<li><a href="./artix7/timings/CLK_PMVIOB.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CLK_PMVIOB.sdf</code></a></li>
+<li><a href="./artix7/timings/CLK_TERM.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CLK_TERM.sdf</code></a></li>
+<li><a href="./artix7/timings/CMT_FIFO_L.sdf"><code>11ee82949c2bda0d78181c7134f2809f5630cda2b28b5e4203add1cde7372fcc  ./artix7/timings/CMT_FIFO_L.sdf</code></a></li>
+<li><a href="./artix7/timings/CMT_FIFO_R.sdf"><code>11ee82949c2bda0d78181c7134f2809f5630cda2b28b5e4203add1cde7372fcc  ./artix7/timings/CMT_FIFO_R.sdf</code></a></li>
+<li><a href="./artix7/timings/CMT_PMV.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CMT_PMV.sdf</code></a></li>
+<li><a href="./artix7/timings/CMT_PMV_L.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/CMT_PMV_L.sdf</code></a></li>
+<li><a href="./artix7/timings/CMT_TOP_L_LOWER_B.sdf"><code>f0a3f422e55c37190cc023d7881632ce105b9519b0b32e153ba6c65c54863c6f  ./artix7/timings/CMT_TOP_L_LOWER_B.sdf</code></a></li>
+<li><a href="./artix7/timings/CMT_TOP_L_LOWER_T.sdf"><code>97c0b23cfc1e555fab674bd2c107a14790554bc0314a2cfe7d940b4ea3ebe72b  ./artix7/timings/CMT_TOP_L_LOWER_T.sdf</code></a></li>
+<li><a href="./artix7/timings/CMT_TOP_L_UPPER_B.sdf"><code>f03b8c8d322e560be02fda8951fa17daef00b3bb7acde8d6e02389aeafc31483  ./artix7/timings/CMT_TOP_L_UPPER_B.sdf</code></a></li>
+<li><a href="./artix7/timings/CMT_TOP_L_UPPER_T.sdf"><code>19e18e8427407f3c1cb679d297cfa9028e10bf1eb6762ceef6dd0df1e77979ac  ./artix7/timings/CMT_TOP_L_UPPER_T.sdf</code></a></li>
+<li><a href="./artix7/timings/CMT_TOP_R_LOWER_B.sdf"><code>f0a3f422e55c37190cc023d7881632ce105b9519b0b32e153ba6c65c54863c6f  ./artix7/timings/CMT_TOP_R_LOWER_B.sdf</code></a></li>
+<li><a href="./artix7/timings/CMT_TOP_R_LOWER_T.sdf"><code>97c0b23cfc1e555fab674bd2c107a14790554bc0314a2cfe7d940b4ea3ebe72b  ./artix7/timings/CMT_TOP_R_LOWER_T.sdf</code></a></li>
+<li><a href="./artix7/timings/CMT_TOP_R_UPPER_B.sdf"><code>f03b8c8d322e560be02fda8951fa17daef00b3bb7acde8d6e02389aeafc31483  ./artix7/timings/CMT_TOP_R_UPPER_B.sdf</code></a></li>
+<li><a href="./artix7/timings/CMT_TOP_R_UPPER_T.sdf"><code>19e18e8427407f3c1cb679d297cfa9028e10bf1eb6762ceef6dd0df1e77979ac  ./artix7/timings/CMT_TOP_R_UPPER_T.sdf</code></a></li>
+<li><a href="./artix7/timings/GTP_CHANNEL_0.sdf"><code>99916eea41e8a31ac142c2b6990fba1d78b4cd240e1db58ec91a2a5f9069b847  ./artix7/timings/GTP_CHANNEL_0.sdf</code></a></li>
+<li><a href="./artix7/timings/GTP_CHANNEL_1.sdf"><code>99916eea41e8a31ac142c2b6990fba1d78b4cd240e1db58ec91a2a5f9069b847  ./artix7/timings/GTP_CHANNEL_1.sdf</code></a></li>
+<li><a href="./artix7/timings/GTP_CHANNEL_2.sdf"><code>99916eea41e8a31ac142c2b6990fba1d78b4cd240e1db58ec91a2a5f9069b847  ./artix7/timings/GTP_CHANNEL_2.sdf</code></a></li>
+<li><a href="./artix7/timings/GTP_CHANNEL_3.sdf"><code>99916eea41e8a31ac142c2b6990fba1d78b4cd240e1db58ec91a2a5f9069b847  ./artix7/timings/GTP_CHANNEL_3.sdf</code></a></li>
+<li><a href="./artix7/timings/GTP_COMMON.sdf"><code>3c3d717b8c01c8faba8475822720de13896ebdb4beeb96b21a31835b11ab54d2  ./artix7/timings/GTP_COMMON.sdf</code></a></li>
+<li><a href="./artix7/timings/GTP_INT_INTERFACE.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/GTP_INT_INTERFACE.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_BRAM.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_BRAM.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_CLB.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_CLB.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_CMT.sdf"><code>1e9ba23fac7d5d7e2ad25c4f395981d9e5a00d580fd96e2d40bc37bce4859558  ./artix7/timings/HCLK_CMT.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_CMT_L.sdf"><code>1e9ba23fac7d5d7e2ad25c4f395981d9e5a00d580fd96e2d40bc37bce4859558  ./artix7/timings/HCLK_CMT_L.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_DSP_L.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_DSP_L.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_DSP_R.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_DSP_R.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_FEEDTHRU_1.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_FEEDTHRU_1.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_FEEDTHRU_2.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_FEEDTHRU_2.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_FIFO_L.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_FIFO_L.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_GTX.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_GTX.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_INT_INTERFACE.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_INT_INTERFACE.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_IOB.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_IOB.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_IOI3.sdf"><code>338525f5ef736f1407baff9ff4eabff53a9abb0a37e8c4876a8f6d4782a8658e  ./artix7/timings/HCLK_IOI3.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_L.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_L.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_L_BOT_UTURN.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_L_BOT_UTURN.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_R.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_R.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_R_BOT_UTURN.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_R_BOT_UTURN.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_TERM.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_TERM.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_TERM_GTX.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_TERM_GTX.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_VBRK.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_VBRK.sdf</code></a></li>
+<li><a href="./artix7/timings/HCLK_VFRAME.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/HCLK_VFRAME.sdf</code></a></li>
+<li><a href="./artix7/timings/INT_FEEDTHRU_1.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/INT_FEEDTHRU_1.sdf</code></a></li>
+<li><a href="./artix7/timings/INT_FEEDTHRU_2.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/INT_FEEDTHRU_2.sdf</code></a></li>
+<li><a href="./artix7/timings/INT_INTERFACE_L.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/INT_INTERFACE_L.sdf</code></a></li>
+<li><a href="./artix7/timings/INT_INTERFACE_R.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/INT_INTERFACE_R.sdf</code></a></li>
+<li><a href="./artix7/timings/INT_L.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/INT_L.sdf</code></a></li>
+<li><a href="./artix7/timings/INT_R.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/INT_R.sdf</code></a></li>
+<li><a href="./artix7/timings/IO_INT_INTERFACE_L.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/IO_INT_INTERFACE_L.sdf</code></a></li>
+<li><a href="./artix7/timings/IO_INT_INTERFACE_R.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/IO_INT_INTERFACE_R.sdf</code></a></li>
+<li><a href="./artix7/timings/LIOB33.sdf"><code>672c12b334f07c7243bcbd35d14742c460aee6e7d70fcdf6acecfa811da1456b  ./artix7/timings/LIOB33.sdf</code></a></li>
+<li><a href="./artix7/timings/LIOB33_SING.sdf"><code>9befc627c1bb83308433ab488ade8d0e4e26dd59490d8d8f622a68406077b04f  ./artix7/timings/LIOB33_SING.sdf</code></a></li>
+<li><a href="./artix7/timings/LIOI3.sdf"><code>1ff9b2f86ccbf610746d8aa83e3c07baf945c99e0d34482c349d17806c09247f  ./artix7/timings/LIOI3.sdf</code></a></li>
+<li><a href="./artix7/timings/LIOI3_SING.sdf"><code>1ff9b2f86ccbf610746d8aa83e3c07baf945c99e0d34482c349d17806c09247f  ./artix7/timings/LIOI3_SING.sdf</code></a></li>
+<li><a href="./artix7/timings/LIOI3_TBYTESRC.sdf"><code>1ff9b2f86ccbf610746d8aa83e3c07baf945c99e0d34482c349d17806c09247f  ./artix7/timings/LIOI3_TBYTESRC.sdf</code></a></li>
+<li><a href="./artix7/timings/LIOI3_TBYTETERM.sdf"><code>1ff9b2f86ccbf610746d8aa83e3c07baf945c99e0d34482c349d17806c09247f  ./artix7/timings/LIOI3_TBYTETERM.sdf</code></a></li>
+<li><a href="./artix7/timings/L_TERM_INT.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/L_TERM_INT.sdf</code></a></li>
+<li><a href="./artix7/timings/MONITOR_BOT.sdf"><code>7e518763e9de6a3ae4c55b05cb24eb7541ff077a89fd6996a58939e225ff3dfc  ./artix7/timings/MONITOR_BOT.sdf</code></a></li>
+<li><a href="./artix7/timings/MONITOR_MID.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/MONITOR_MID.sdf</code></a></li>
+<li><a href="./artix7/timings/MONITOR_TOP.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/MONITOR_TOP.sdf</code></a></li>
+<li><a href="./artix7/timings/PCIE_BOT.sdf"><code>d6c9c750697ae9b1c7da71ee199a36d141d049a1b0cf0acc80086cc2291e2b34  ./artix7/timings/PCIE_BOT.sdf</code></a></li>
+<li><a href="./artix7/timings/PCIE_INT_INTERFACE_L.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/PCIE_INT_INTERFACE_L.sdf</code></a></li>
+<li><a href="./artix7/timings/PCIE_INT_INTERFACE_R.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/PCIE_INT_INTERFACE_R.sdf</code></a></li>
+<li><a href="./artix7/timings/PCIE_NULL.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/PCIE_NULL.sdf</code></a></li>
+<li><a href="./artix7/timings/PCIE_TOP.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/PCIE_TOP.sdf</code></a></li>
+<li><a href="./artix7/timings/RIOB33.sdf"><code>672c12b334f07c7243bcbd35d14742c460aee6e7d70fcdf6acecfa811da1456b  ./artix7/timings/RIOB33.sdf</code></a></li>
+<li><a href="./artix7/timings/RIOB33_SING.sdf"><code>9befc627c1bb83308433ab488ade8d0e4e26dd59490d8d8f622a68406077b04f  ./artix7/timings/RIOB33_SING.sdf</code></a></li>
+<li><a href="./artix7/timings/RIOI3.sdf"><code>1ff9b2f86ccbf610746d8aa83e3c07baf945c99e0d34482c349d17806c09247f  ./artix7/timings/RIOI3.sdf</code></a></li>
+<li><a href="./artix7/timings/RIOI3_SING.sdf"><code>1ff9b2f86ccbf610746d8aa83e3c07baf945c99e0d34482c349d17806c09247f  ./artix7/timings/RIOI3_SING.sdf</code></a></li>
+<li><a href="./artix7/timings/RIOI3_TBYTESRC.sdf"><code>1ff9b2f86ccbf610746d8aa83e3c07baf945c99e0d34482c349d17806c09247f  ./artix7/timings/RIOI3_TBYTESRC.sdf</code></a></li>
+<li><a href="./artix7/timings/RIOI3_TBYTETERM.sdf"><code>1ff9b2f86ccbf610746d8aa83e3c07baf945c99e0d34482c349d17806c09247f  ./artix7/timings/RIOI3_TBYTETERM.sdf</code></a></li>
+<li><a href="./artix7/timings/R_TERM_INT.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/R_TERM_INT.sdf</code></a></li>
+<li><a href="./artix7/timings/R_TERM_INT_GTX.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/R_TERM_INT_GTX.sdf</code></a></li>
+<li><a href="./artix7/timings/TERM_CMT.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/TERM_CMT.sdf</code></a></li>
+<li><a href="./artix7/timings/T_TERM_INT.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/T_TERM_INT.sdf</code></a></li>
+<li><a href="./artix7/timings/VBRK.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/VBRK.sdf</code></a></li>
+<li><a href="./artix7/timings/VBRK_EXT.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/VBRK_EXT.sdf</code></a></li>
+<li><a href="./artix7/timings/VFRAME.sdf"><code>fdbd15cd9a5b54d402980d250333c7ab8bdbff2f89eaffbc8053e1afde4dbfd5  ./artix7/timings/VFRAME.sdf</code></a></li>
+<li><a href="./artix7/timings/slicel.sdf"><code>2ba5ff1badba4350de2be5e1cb9b81b28b1ea715e5bbdc8d500d525615977bad  ./artix7/timings/slicel.sdf</code></a></li>
+<li><a href="./artix7/timings/slicem.sdf"><code>d553984e9712cff2e4bd941fd12162f1fdf18c74ad9c2126f4346e981b7f21d9  ./artix7/timings/slicem.sdf</code></a></li>
 <li><a href="./artix7/xc7a35tcpg236-1.json"><code>4c20ee41ea32668919b7d91a7fabe38960e0ee4d5b3b83f1d18102d48895bf1c  ./artix7/xc7a35tcpg236-1.json</code></a></li>
 <li><a href="./artix7/xc7a35tcpg236-1.yaml"><code>ef0724733da87455426a0f833642d96e9d206d047f4eb97072c3093f80c40d7d  ./artix7/xc7a35tcpg236-1.yaml</code></a></li>
 <li><a href="./artix7/xc7a35tcpg236-1_package_pins.csv"><code>ac928ee3c50e91facacb4173fdf70384f56e046bb14581bf75f760e406fe4f78  ./artix7/xc7a35tcpg236-1_package_pins.csv</code></a></li>
@@ -360,7 +471,7 @@ Date:   Thu Apr 11 10:00:05 2019 -0700
 </ul>
 <h2 id="database-for-kintex7">Database for <a href="kintex7/">kintex7</a></h2>
 <h3 id="settings_1">Settings</h3>
-<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/37c46aa7f7e8993e2359cc32f0d3d2978e28d24d/settings/kintex7.sh">settings/kintex7.sh (sha256: 794538b550d399255cbafeeb1b5ff183dc66ebc6cd8dc0f725e3f6a3977f757d)</a></p>
+<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/27bba88fc8ac6b08dc83a9298ef6f227c5a0d46e/settings/kintex7.sh">settings/kintex7.sh (sha256: 794538b550d399255cbafeeb1b5ff183dc66ebc6cd8dc0f725e3f6a3977f757d)</a></p>
 <div class="codehilite"><pre><span></span><span class="nb">export</span> <span class="nv">XRAY_DATABASE</span><span class="o">=</span><span class="s2">&quot;kintex7&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_PART</span><span class="o">=</span><span class="s2">&quot;xc7k70tfbg676-2&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_ROI_FRAMES</span><span class="o">=</span><span class="s2">&quot;0x00000000:0xffffffff&quot;</span>
@@ -629,7 +740,7 @@ Date:   Thu Apr 11 10:00:05 2019 -0700
 </ul>
 <h2 id="database-for-zynq7">Database for <a href="zynq7/">zynq7</a></h2>
 <h3 id="settings_2">Settings</h3>
-<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/37c46aa7f7e8993e2359cc32f0d3d2978e28d24d/settings/zynq7.sh">settings/zynq7.sh (sha256: 61298e89dcc873eadba47f5c2f9f72a38fa022583b2c7ff89246b2e051585ad8)</a></p>
+<p>Created using following <a href="https://github.com/SymbiFlow/prjxray/blob/27bba88fc8ac6b08dc83a9298ef6f227c5a0d46e/settings/zynq7.sh">settings/zynq7.sh (sha256: 61298e89dcc873eadba47f5c2f9f72a38fa022583b2c7ff89246b2e051585ad8)</a></p>
 <div class="codehilite"><pre><span></span><span class="nb">export</span> <span class="nv">XRAY_DATABASE</span><span class="o">=</span><span class="s2">&quot;zynq7&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_PART</span><span class="o">=</span><span class="s2">&quot;xc7z010clg400-1&quot;</span>
 <span class="nb">export</span> <span class="nv">XRAY_ROI_FRAMES</span><span class="o">=</span><span class="s2">&quot;0x00000000:0xffffffff&quot;</span>
