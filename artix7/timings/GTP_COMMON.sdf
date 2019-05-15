@@ -4,18 +4,6 @@
     (TIMESCALE 1ps)
 
     (CELL
-        (CELLTYPE "IBUFDS_GTE2_IBUFDS_GTE2IBUFDS_GTE2")
-        (INSTANCE IBUFDS_GTE2)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH I O (0.441::0.732)(1.616::2.684))
-                (IOPATH I ODIV2 (0.441::0.732)(1.616::2.684))
-                (IOPATH IB O (0.441::0.732)(1.616::2.684))
-                (IOPATH IB ODIV2 (0.441::0.732)(1.616::2.684))
-            )
-        )
-    )
-    (CELL
         (CELLTYPE "GTPE2_COMMON_GTPE2_COMMONGTPE2_COMMON")
         (INSTANCE GTPE2_COMMON)
         (DELAY
@@ -44,6 +32,14 @@
         )
     )
     (CELL
+        (CELLTYPE "GTPE2_COMMON_GTPE2_COMMONGTPE2_COMMON_DRPADDR")
+        (INSTANCE GTPE2_COMMON)
+        (TIMINGCHECK
+            (HOLD DRPCLK (posedge DRPCLK) (0.172::0.183))
+            (SETUP DRPCLK (posedge DRPCLK) (0.380::0.403))
+        )
+    )
+    (CELL
         (CELLTYPE "GTPE2_COMMON_GTPE2_COMMONGTPE2_COMMON_DRPDI")
         (INSTANCE GTPE2_COMMON)
         (TIMINGCHECK
@@ -52,11 +48,15 @@
         )
     )
     (CELL
-        (CELLTYPE "GTPE2_COMMON_GTPE2_COMMONGTPE2_COMMON_DRPADDR")
-        (INSTANCE GTPE2_COMMON)
-        (TIMINGCHECK
-            (HOLD DRPCLK (posedge DRPCLK) (0.172::0.183))
-            (SETUP DRPCLK (posedge DRPCLK) (0.380::0.403))
+        (CELLTYPE "IBUFDS_GTE2_IBUFDS_GTE2IBUFDS_GTE2")
+        (INSTANCE IBUFDS_GTE2)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH I O (0.441::0.732)(1.616::2.684))
+                (IOPATH I ODIV2 (0.441::0.732)(1.616::2.684))
+                (IOPATH IB O (0.441::0.732)(1.616::2.684))
+                (IOPATH IB ODIV2 (0.441::0.732)(1.616::2.684))
+            )
         )
     )
 )

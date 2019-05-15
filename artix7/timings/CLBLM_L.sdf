@@ -4,105 +4,6 @@
     (TIMESCALE 1ps)
 
     (CELL
-        (CELLTYPE "CARRY4_AX_LFF")
-        (INSTANCE SLICEL)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH DI0 CO0 (0.113::0.140)(0.301::0.374))
-                (IOPATH DI0 CO1 (0.134::0.166)(0.373::0.462))
-                (IOPATH DI0 CO2 (0.158::0.197)(0.432::0.536))
-                (IOPATH DI0 O1 (0.124::0.154)(0.328::0.407))
-                (IOPATH DI0 O2 (0.157::0.196)(0.448::0.556))
-                (IOPATH DI0 O3 (0.177::0.220)(0.496::0.615))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "CARRY4_AX")
-        (INSTANCE SLICEL)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH DI0 CO0 (0.112::0.139)(0.306::0.379))
-                (IOPATH DI0 CO1 (0.134::0.166)(0.375::0.465))
-                (IOPATH DI0 CO2 (0.160::0.199)(0.435::0.540))
-                (IOPATH DI0 CO3 (0.161::0.201)(0.424::0.526))
-                (IOPATH DI0 O1 (0.124::0.155)(0.328::0.407))
-                (IOPATH DI0 O2 (0.157::0.196)(0.448::0.556))
-                (IOPATH DI0 O3 (0.178::0.222)(0.496::0.615))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "CARRY4_CX")
-        (INSTANCE SLICEL)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH DI2 CO2 (0.099::0.124)(0.287::0.356))
-                (IOPATH DI2 CO3 (0.117::0.146)(0.321::0.398))
-                (IOPATH DI2 O3 (0.127::0.158)(0.353::0.438))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "CARRY4_LBOTH")
-        (INSTANCE SLICEL)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH CIN CO0 (0.086::0.113)(0.223::0.293))
-                (IOPATH CIN CO1 (0.052::0.064)(0.143::0.178))
-                (IOPATH CIN CO2 (0.075::0.094)(0.201::0.250))
-                (IOPATH CIN O0 (0.057::0.085)(0.159::0.235))
-                (IOPATH CIN O1 (0.098::0.122)(0.280::0.348))
-                (IOPATH CIN O2 (0.070::0.087)(0.206::0.256))
-                (IOPATH CIN O3 (0.092::0.114)(0.265::0.329))
-                (IOPATH CYINIT CO0 (0.177::0.220)(0.466::0.578))
-                (IOPATH CYINIT CO1 (0.152::0.189)(0.426::0.529))
-                (IOPATH CYINIT CO2 (0.180::0.224)(0.497::0.617))
-                (IOPATH CYINIT O0 (0.152::0.189)(0.395::0.491))
-                (IOPATH CYINIT O1 (0.183::0.228)(0.494::0.613))
-                (IOPATH CYINIT O2 (0.172::0.214)(0.483::0.600))
-                (IOPATH CYINIT O3 (0.194::0.241)(0.530::0.657))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "CARRY4_AX_LBOTH")
-        (INSTANCE SLICEL)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH DI0 CO0 (0.123::0.153)(0.343::0.425))
-                (IOPATH DI0 CO1 (0.142::0.177)(0.393::0.487))
-                (IOPATH DI0 CO2 (0.170::0.211)(0.456::0.566))
-                (IOPATH DI0 O1 (0.131::0.163)(0.338::0.420))
-                (IOPATH DI0 O2 (0.160::0.200)(0.462::0.573))
-                (IOPATH DI0 O3 (0.182::0.227)(0.511::0.633))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "REG_INIT_LAT_LOGIC_AND")
-        (INSTANCE SLICEL)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH D Q (0.073::0.092)(0.213::0.264))
-                (IOPATH SR Q (0.164::0.204)(0.638::0.791))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "CARRY4_BX")
-        (INSTANCE SLICEL)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH DI1 CO1 (0.124::0.154)(0.359::0.445))
-                (IOPATH DI1 CO2 (0.150::0.186)(0.419::0.520))
-                (IOPATH DI1 CO3 (0.147::0.183)(0.409::0.507))
-                (IOPATH DI1 O2 (0.146::0.182)(0.433::0.537))
-                (IOPATH DI1 O3 (0.167::0.208)(0.481::0.596))
-            )
-        )
-    )
-    (CELL
         (CELLTYPE "CARRY4")
         (INSTANCE SLICEL)
         (DELAY
@@ -147,22 +48,58 @@
         )
     )
     (CELL
-        (CELLTYPE "REG_INIT_LAT_LOGIC_OR")
+        (CELLTYPE "CARRY4_AX")
         (INSTANCE SLICEL)
         (DELAY
             (ABSOLUTE
-                (IOPATH D Q (0.073::0.092)(0.213::0.264))
-                (IOPATH SR Q (0.164::0.204)(0.638::0.791))
+                (IOPATH DI0 CO0 (0.112::0.139)(0.306::0.379))
+                (IOPATH DI0 CO1 (0.134::0.166)(0.375::0.465))
+                (IOPATH DI0 CO2 (0.160::0.199)(0.435::0.540))
+                (IOPATH DI0 CO3 (0.161::0.201)(0.424::0.526))
+                (IOPATH DI0 O1 (0.124::0.155)(0.328::0.407))
+                (IOPATH DI0 O2 (0.157::0.196)(0.448::0.556))
+                (IOPATH DI0 O3 (0.178::0.222)(0.496::0.615))
             )
         )
     )
     (CELL
-        (CELLTYPE "CARRY4_CX_LBOTH")
+        (CELLTYPE "CARRY4_AX_LBOTH")
         (INSTANCE SLICEL)
         (DELAY
             (ABSOLUTE
-                (IOPATH DI2 CO2 (0.105::0.131)(0.308::0.383))
-                (IOPATH DI2 O3 (0.129::0.160)(0.366::0.455))
+                (IOPATH DI0 CO0 (0.123::0.153)(0.343::0.425))
+                (IOPATH DI0 CO1 (0.142::0.177)(0.393::0.487))
+                (IOPATH DI0 CO2 (0.170::0.211)(0.456::0.566))
+                (IOPATH DI0 O1 (0.131::0.163)(0.338::0.420))
+                (IOPATH DI0 O2 (0.160::0.200)(0.462::0.573))
+                (IOPATH DI0 O3 (0.182::0.227)(0.511::0.633))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_AX_LFF")
+        (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI0 CO0 (0.113::0.140)(0.301::0.374))
+                (IOPATH DI0 CO1 (0.134::0.166)(0.373::0.462))
+                (IOPATH DI0 CO2 (0.158::0.197)(0.432::0.536))
+                (IOPATH DI0 O1 (0.124::0.154)(0.328::0.407))
+                (IOPATH DI0 O2 (0.157::0.196)(0.448::0.556))
+                (IOPATH DI0 O3 (0.177::0.220)(0.496::0.615))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_BX")
+        (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI1 CO1 (0.124::0.154)(0.359::0.445))
+                (IOPATH DI1 CO2 (0.150::0.186)(0.419::0.520))
+                (IOPATH DI1 CO3 (0.147::0.183)(0.409::0.507))
+                (IOPATH DI1 O2 (0.146::0.182)(0.433::0.537))
+                (IOPATH DI1 O3 (0.167::0.208)(0.481::0.596))
             )
         )
     )
@@ -179,46 +116,6 @@
         )
     )
     (CELL
-        (CELLTYPE "FF_INIT")
-        (INSTANCE SLICEL)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH CLK Q (0.099::0.124)(0.244::0.303))
-            )
-        )
-        (TIMINGCHECK
-            (HOLD CE (posedge CLK) (-0.011::-0.009))
-            (SETUP CE (posedge CLK) (0.088::0.109))
-        )
-    )
-    (CELL
-        (CELLTYPE "FF_INIT_QH")
-        (INSTANCE SLICEL)
-        (TIMINGCHECK
-            (RECOVERY SR (posedge CLK) (0.288::0.358))
-            (REMOVAL SR (posedge CLK) (-0.305::-0.248))
-        )
-    )
-    (CELL
-        (CELLTYPE "REG_INIT_LAT")
-        (INSTANCE SLICEL)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH CE Q (0.130::0.162)(0.409::0.507))
-                (IOPATH CLK Q (0.129::0.160)(0.357::0.443))
-                (IOPATH D Q (0.073::0.092)(0.213::0.264))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "REG_INIT_FF_QH")
-        (INSTANCE SLICEL)
-        (TIMINGCHECK
-            (RECOVERY SR (posedge CLK) (0.288::0.358))
-            (REMOVAL SR (posedge CLK) (-0.305::-0.248))
-        )
-    )
-    (CELL
         (CELLTYPE "CARRY4_BX_LFF")
         (INSTANCE SLICEL)
         (DELAY
@@ -231,11 +128,87 @@
         )
     )
     (CELL
-        (CELLTYPE "FF_INIT_QL")
+        (CELLTYPE "CARRY4_CX")
         (INSTANCE SLICEL)
-        (TIMINGCHECK
-            (RECOVERY SR (posedge CLK) (0.326::0.404))
-            (REMOVAL SR (posedge CLK) (-0.305::-0.248))
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI2 CO2 (0.099::0.124)(0.287::0.356))
+                (IOPATH DI2 CO3 (0.117::0.146)(0.321::0.398))
+                (IOPATH DI2 O3 (0.127::0.158)(0.353::0.438))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_CX_LBOTH")
+        (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI2 CO2 (0.105::0.131)(0.308::0.383))
+                (IOPATH DI2 O3 (0.129::0.160)(0.366::0.455))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_CX_LFF")
+        (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI2 CO2 (0.099::0.124)(0.286::0.354))
+                (IOPATH DI2 O3 (0.127::0.158)(0.354::0.439))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_DX")
+        (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI3 CO3 (0.113::0.140)(0.310::0.385))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_LBOTH")
+        (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CIN CO0 (0.086::0.113)(0.223::0.293))
+                (IOPATH CIN CO1 (0.052::0.064)(0.143::0.178))
+                (IOPATH CIN CO2 (0.075::0.094)(0.201::0.250))
+                (IOPATH CIN O0 (0.057::0.085)(0.159::0.235))
+                (IOPATH CIN O1 (0.098::0.122)(0.280::0.348))
+                (IOPATH CIN O2 (0.070::0.087)(0.206::0.256))
+                (IOPATH CIN O3 (0.092::0.114)(0.265::0.329))
+                (IOPATH CYINIT CO0 (0.177::0.220)(0.466::0.578))
+                (IOPATH CYINIT CO1 (0.152::0.189)(0.426::0.529))
+                (IOPATH CYINIT CO2 (0.180::0.224)(0.497::0.617))
+                (IOPATH CYINIT O0 (0.152::0.189)(0.395::0.491))
+                (IOPATH CYINIT O1 (0.183::0.228)(0.494::0.613))
+                (IOPATH CYINIT O2 (0.172::0.214)(0.483::0.600))
+                (IOPATH CYINIT O3 (0.194::0.241)(0.530::0.657))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_LFF")
+        (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CIN CO0 (0.076::0.100)(0.204::0.268))
+                (IOPATH CIN CO1 (0.044::0.055)(0.125::0.155))
+                (IOPATH CIN CO2 (0.064::0.080)(0.183::0.227))
+                (IOPATH CIN O0 (0.055::0.081)(0.151::0.223))
+                (IOPATH CIN O1 (0.090::0.112)(0.269::0.334))
+                (IOPATH CIN O2 (0.065::0.081)(0.192::0.239))
+                (IOPATH CIN O3 (0.090::0.112)(0.250::0.311))
+                (IOPATH CYINIT CO0 (0.165::0.206)(0.429::0.532))
+                (IOPATH CYINIT CO1 (0.144::0.180)(0.395::0.491))
+                (IOPATH CYINIT CO2 (0.168::0.209)(0.474::0.589))
+                (IOPATH CYINIT O0 (0.148::0.184)(0.385::0.477))
+                (IOPATH CYINIT O1 (0.175::0.218)(0.482::0.598))
+                (IOPATH CYINIT O2 (0.167::0.208)(0.468::0.581))
+                (IOPATH CYINIT O3 (0.189::0.235)(0.516::0.640))
+            )
         )
     )
     (CELL
@@ -263,6 +236,35 @@
         )
     )
     (CELL
+        (CELLTYPE "FF_INIT")
+        (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK Q (0.099::0.124)(0.244::0.303))
+            )
+        )
+        (TIMINGCHECK
+            (HOLD CE (posedge CLK) (-0.011::-0.009))
+            (SETUP CE (posedge CLK) (0.088::0.109))
+        )
+    )
+    (CELL
+        (CELLTYPE "FF_INIT_QH")
+        (INSTANCE SLICEL)
+        (TIMINGCHECK
+            (RECOVERY SR (posedge CLK) (0.288::0.358))
+            (REMOVAL SR (posedge CLK) (-0.305::-0.248))
+        )
+    )
+    (CELL
+        (CELLTYPE "FF_INIT_QL")
+        (INSTANCE SLICEL)
+        (TIMINGCHECK
+            (RECOVERY SR (posedge CLK) (0.326::0.404))
+            (REMOVAL SR (posedge CLK) (-0.305::-0.248))
+        )
+    )
+    (CELL
         (CELLTYPE "REG_INIT_FF")
         (INSTANCE SLICEL)
         (DELAY
@@ -276,44 +278,11 @@
         )
     )
     (CELL
-        (CELLTYPE "CARRY4_CX_LFF")
+        (CELLTYPE "REG_INIT_FF_QH")
         (INSTANCE SLICEL)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH DI2 CO2 (0.099::0.124)(0.286::0.354))
-                (IOPATH DI2 O3 (0.127::0.158)(0.354::0.439))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "CARRY4_LFF")
-        (INSTANCE SLICEL)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH CIN CO0 (0.076::0.100)(0.204::0.268))
-                (IOPATH CIN CO1 (0.044::0.055)(0.125::0.155))
-                (IOPATH CIN CO2 (0.064::0.080)(0.183::0.227))
-                (IOPATH CIN O0 (0.055::0.081)(0.151::0.223))
-                (IOPATH CIN O1 (0.090::0.112)(0.269::0.334))
-                (IOPATH CIN O2 (0.065::0.081)(0.192::0.239))
-                (IOPATH CIN O3 (0.090::0.112)(0.250::0.311))
-                (IOPATH CYINIT CO0 (0.165::0.206)(0.429::0.532))
-                (IOPATH CYINIT CO1 (0.144::0.180)(0.395::0.491))
-                (IOPATH CYINIT CO2 (0.168::0.209)(0.474::0.589))
-                (IOPATH CYINIT O0 (0.148::0.184)(0.385::0.477))
-                (IOPATH CYINIT O1 (0.175::0.218)(0.482::0.598))
-                (IOPATH CYINIT O2 (0.167::0.208)(0.468::0.581))
-                (IOPATH CYINIT O3 (0.189::0.235)(0.516::0.640))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "CARRY4_DX")
-        (INSTANCE SLICEL)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH DI3 CO3 (0.113::0.140)(0.310::0.385))
-            )
+        (TIMINGCHECK
+            (RECOVERY SR (posedge CLK) (0.288::0.358))
+            (REMOVAL SR (posedge CLK) (-0.305::-0.248))
         )
     )
     (CELL
@@ -325,45 +294,101 @@
         )
     )
     (CELL
-        (CELLTYPE "SELMUX2_1")
-        (INSTANCE SLICEL/F7AMUX)
+        (CELLTYPE "REG_INIT_LAT")
+        (INSTANCE SLICEL)
         (DELAY
             (ABSOLUTE
-                (IOPATH 0 OUT (0.053::0.067)(0.153::0.190))
-                (IOPATH 1 OUT (0.055::0.069)(0.156::0.193))
-                (IOPATH S0 OUT (0.085::0.106)(0.222::0.276))
+                (IOPATH CE Q (0.130::0.162)(0.409::0.507))
+                (IOPATH CLK Q (0.129::0.160)(0.357::0.443))
+                (IOPATH D Q (0.073::0.092)(0.213::0.264))
             )
         )
     )
     (CELL
-        (CELLTYPE "LUT_OR_MEM5LRAM")
-        (INSTANCE SLICEM/B5LUT)
+        (CELLTYPE "REG_INIT_LAT_LOGIC_AND")
+        (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH D Q (0.073::0.092)(0.213::0.264))
+                (IOPATH SR Q (0.164::0.204)(0.638::0.791))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_LAT_LOGIC_OR")
+        (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH D Q (0.073::0.092)(0.213::0.264))
+                (IOPATH SR Q (0.164::0.204)(0.638::0.791))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT5")
+        (INSTANCE SLICEL/A5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O5 (0.044::0.055)(0.122::0.152))
+                (IOPATH A2 O5 (0.044::0.055)(0.122::0.152))
+                (IOPATH A3 O5 (0.042::0.052)(0.121::0.150))
+                (IOPATH A4 O5 (0.046::0.057)(0.121::0.150))
+                (IOPATH A5 O5 (0.048::0.060)(0.095::0.118))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT6")
+        (INSTANCE SLICEL/A6LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A2 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A3 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A4 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A5 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A6 O6 (0.045::0.056)(0.100::0.124))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT5")
+        (INSTANCE SLICEL/B5LUT)
         (DELAY
             (ABSOLUTE
                 (IOPATH A1 O5 (0.045::0.056)(0.122::0.152))
-                (IOPATH A2 O5 (0.044::0.055)(0.122::0.152))
-                (IOPATH A3 O5 (0.043::0.053)(0.121::0.150))
-                (IOPATH A4 O5 (0.047::0.058)(0.121::0.150))
-                (IOPATH A5 O5 (0.048::0.060)(0.094::0.117))
-                (IOPATH CLK O5 (0.348::0.434)(0.957::1.187))
+                (IOPATH A2 O5 (0.043::0.054)(0.122::0.152))
+                (IOPATH A3 O5 (0.043::0.053)(0.122::0.152))
+                (IOPATH A4 O5 (0.045::0.056)(0.121::0.150))
+                (IOPATH A5 O5 (0.049::0.061)(0.096::0.119))
             )
-        )
-        (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.154::0.191))
-            (SETUP CLK (posedge CLK) (0.250::0.311))
         )
     )
     (CELL
-        (CELLTYPE "LUT_OR_MEM5SHFREG")
-        (INSTANCE SLICEM/B5LUT)
+        (CELLTYPE "LUT6")
+        (INSTANCE SLICEL/B6LUT)
         (DELAY
             (ABSOLUTE
-                (IOPATH CLK O5 (0.439::0.547)(1.190::1.476))
+                (IOPATH A1 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A2 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A3 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A4 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A5 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A6 O6 (0.045::0.056)(0.100::0.124))
             )
         )
-        (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.070::0.087))
-            (SETUP CLK (posedge CLK) (0.126::0.156))
+    )
+    (CELL
+        (CELLTYPE "LUT5")
+        (INSTANCE SLICEL/C5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O5 (0.044::0.055)(0.124::0.154))
+                (IOPATH A2 O5 (0.043::0.053)(0.124::0.154))
+                (IOPATH A3 O5 (0.042::0.052)(0.123::0.153))
+                (IOPATH A4 O5 (0.045::0.056)(0.123::0.153))
+                (IOPATH A5 O5 (0.051::0.063)(0.097::0.120))
+            )
         )
     )
     (CELL
@@ -381,13 +406,15 @@
         )
     )
     (CELL
-        (CELLTYPE "SELMUX2_1")
-        (INSTANCE SLICEL/F7BMUX)
+        (CELLTYPE "LUT5")
+        (INSTANCE SLICEL/D5LUT)
         (DELAY
             (ABSOLUTE
-                (IOPATH 0 OUT (0.062::0.077)(0.175::0.217))
-                (IOPATH 1 OUT (0.065::0.081)(0.180::0.223))
-                (IOPATH S0 OUT (0.093::0.115)(0.239::0.296))
+                (IOPATH A1 O5 (0.044::0.055)(0.120::0.149))
+                (IOPATH A2 O5 (0.043::0.054)(0.121::0.150))
+                (IOPATH A3 O5 (0.042::0.052)(0.120::0.149))
+                (IOPATH A4 O5 (0.044::0.055)(0.120::0.149))
+                (IOPATH A5 O5 (0.049::0.061)(0.094::0.117))
             )
         )
     )
@@ -406,128 +433,35 @@
         )
     )
     (CELL
-        (CELLTYPE "CARRY4_AX_LFF")
-        (INSTANCE SLICEM)
+        (CELLTYPE "SELMUX2_1")
+        (INSTANCE SLICEL/F7AMUX)
         (DELAY
             (ABSOLUTE
-                (IOPATH DI0 CO0 (0.117::0.146)(0.311::0.386))
-                (IOPATH DI0 CO1 (0.141::0.176)(0.391::0.485))
-                (IOPATH DI0 CO2 (0.165::0.206)(0.452::0.560))
-                (IOPATH DI0 O1 (0.129::0.160)(0.339::0.421))
-                (IOPATH DI0 O2 (0.165::0.205)(0.467::0.579))
-                (IOPATH DI0 O3 (0.186::0.232)(0.518::0.642))
+                (IOPATH 0 OUT (0.053::0.067)(0.153::0.190))
+                (IOPATH 1 OUT (0.055::0.069)(0.156::0.193))
+                (IOPATH S0 OUT (0.085::0.106)(0.222::0.276))
             )
         )
     )
     (CELL
-        (CELLTYPE "LUT_OR_MEM6SHFREG")
-        (INSTANCE SLICEM)
-        (TIMINGCHECK
-            (HOLD WE (posedge CLK) (0.011::0.014))
-            (SETUP WE (posedge CLK) (0.514::0.638))
-        )
-    )
-    (CELL
-        (CELLTYPE "CARRY4_AX")
-        (INSTANCE SLICEM)
+        (CELLTYPE "SELMUX2_1")
+        (INSTANCE SLICEL/F7BMUX)
         (DELAY
             (ABSOLUTE
-                (IOPATH DI0 CO0 (0.117::0.146)(0.317::0.393))
-                (IOPATH DI0 CO1 (0.141::0.176)(0.394::0.488))
-                (IOPATH DI0 CO2 (0.167::0.208)(0.454::0.564))
-                (IOPATH DI0 CO3 (0.169::0.210)(0.444::0.550))
-                (IOPATH DI0 O1 (0.129::0.161)(0.340::0.422))
-                (IOPATH DI0 O2 (0.164::0.204)(0.467::0.579))
-                (IOPATH DI0 O3 (0.187::0.233)(0.518::0.642))
+                (IOPATH 0 OUT (0.062::0.077)(0.175::0.217))
+                (IOPATH 1 OUT (0.065::0.081)(0.180::0.223))
+                (IOPATH S0 OUT (0.093::0.115)(0.239::0.296))
             )
         )
     )
     (CELL
-        (CELLTYPE "CARRY4_CX")
-        (INSTANCE SLICEM)
+        (CELLTYPE "SELMUX2_1")
+        (INSTANCE SLICEL/F8MUX)
         (DELAY
             (ABSOLUTE
-                (IOPATH DI2 CO2 (0.101::0.126)(0.295::0.366))
-                (IOPATH DI2 CO3 (0.119::0.148)(0.326::0.404))
-                (IOPATH DI2 O3 (0.129::0.161)(0.360::0.447))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "REG_INIT_LAT")
-        (INSTANCE SLICEM)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH CE Q (0.129::0.161)(0.415::0.514))
-                (IOPATH CLK Q (0.132::0.164)(0.378::0.469))
-                (IOPATH D Q (0.075::0.094)(0.214::0.265))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "CARRY4_LBOTH")
-        (INSTANCE SLICEM)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH CIN CO0 (0.084::0.111)(0.214::0.281))
-                (IOPATH CIN CO1 (0.051::0.063)(0.144::0.179))
-                (IOPATH CIN CO2 (0.075::0.094)(0.203::0.252))
-                (IOPATH CIN O0 (0.057::0.084)(0.157::0.232))
-                (IOPATH CIN O1 (0.097::0.121)(0.272::0.337))
-                (IOPATH CIN O2 (0.072::0.089)(0.206::0.256))
-                (IOPATH CIN O3 (0.094::0.116)(0.267::0.331))
-                (IOPATH CYINIT CO0 (0.184::0.229)(0.476::0.591))
-                (IOPATH CYINIT CO1 (0.156::0.194)(0.440::0.546))
-                (IOPATH CYINIT CO2 (0.185::0.230)(0.510::0.632))
-                (IOPATH CYINIT O0 (0.161::0.201)(0.419::0.520))
-                (IOPATH CYINIT O1 (0.191::0.238)(0.519::0.644))
-                (IOPATH CYINIT O2 (0.178::0.222)(0.495::0.614))
-                (IOPATH CYINIT O3 (0.201::0.251)(0.547::0.678))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "CARRY4_AX_LBOTH")
-        (INSTANCE SLICEM)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH DI0 CO0 (0.127::0.158)(0.353::0.438))
-                (IOPATH DI0 CO1 (0.149::0.185)(0.412::0.511))
-                (IOPATH DI0 CO2 (0.177::0.220)(0.475::0.590))
-                (IOPATH DI0 O1 (0.136::0.170)(0.351::0.436))
-                (IOPATH DI0 O2 (0.168::0.209)(0.481::0.596))
-                (IOPATH DI0 O3 (0.191::0.238)(0.532::0.659))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "REG_INIT_LAT_LOGIC_AND")
-        (INSTANCE SLICEM)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH D Q (0.104::0.129)(0.282::0.350))
-                (IOPATH SR Q (0.161::0.201)(0.645::0.800))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "LUT_OR_MEM5SHFREG")
-        (INSTANCE SLICEM)
-        (TIMINGCHECK
-            (HOLD WE (posedge CLK) (0.011::0.014))
-            (SETUP WE (posedge CLK) (0.514::0.638))
-        )
-    )
-    (CELL
-        (CELLTYPE "CARRY4_BX")
-        (INSTANCE SLICEM)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH DI1 CO1 (0.125::0.156)(0.367::0.456))
-                (IOPATH DI1 CO2 (0.151::0.188)(0.430::0.533))
-                (IOPATH DI1 CO3 (0.150::0.187)(0.419::0.520))
-                (IOPATH DI1 O2 (0.149::0.185)(0.441::0.547))
-                (IOPATH DI1 O3 (0.170::0.212)(0.492::0.610))
+                (IOPATH 0 OUT (0.023::0.028)(0.083::0.104))
+                (IOPATH 1 OUT (0.019::0.024)(0.076::0.094))
+                (IOPATH S0 OUT (0.080::0.100)(0.220::0.273))
             )
         )
     )
@@ -576,22 +510,58 @@
         )
     )
     (CELL
-        (CELLTYPE "REG_INIT_LAT_LOGIC_OR")
+        (CELLTYPE "CARRY4_AX")
         (INSTANCE SLICEM)
         (DELAY
             (ABSOLUTE
-                (IOPATH D Q (0.104::0.129)(0.282::0.350))
-                (IOPATH SR Q (0.161::0.201)(0.645::0.800))
+                (IOPATH DI0 CO0 (0.117::0.146)(0.317::0.393))
+                (IOPATH DI0 CO1 (0.141::0.176)(0.394::0.488))
+                (IOPATH DI0 CO2 (0.167::0.208)(0.454::0.564))
+                (IOPATH DI0 CO3 (0.169::0.210)(0.444::0.550))
+                (IOPATH DI0 O1 (0.129::0.161)(0.340::0.422))
+                (IOPATH DI0 O2 (0.164::0.204)(0.467::0.579))
+                (IOPATH DI0 O3 (0.187::0.233)(0.518::0.642))
             )
         )
     )
     (CELL
-        (CELLTYPE "CARRY4_CX_LBOTH")
+        (CELLTYPE "CARRY4_AX_LBOTH")
         (INSTANCE SLICEM)
         (DELAY
             (ABSOLUTE
-                (IOPATH DI2 CO2 (0.108::0.134)(0.315::0.391))
-                (IOPATH DI2 O3 (0.132::0.164)(0.373::0.463))
+                (IOPATH DI0 CO0 (0.127::0.158)(0.353::0.438))
+                (IOPATH DI0 CO1 (0.149::0.185)(0.412::0.511))
+                (IOPATH DI0 CO2 (0.177::0.220)(0.475::0.590))
+                (IOPATH DI0 O1 (0.136::0.170)(0.351::0.436))
+                (IOPATH DI0 O2 (0.168::0.209)(0.481::0.596))
+                (IOPATH DI0 O3 (0.191::0.238)(0.532::0.659))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_AX_LFF")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI0 CO0 (0.117::0.146)(0.311::0.386))
+                (IOPATH DI0 CO1 (0.141::0.176)(0.391::0.485))
+                (IOPATH DI0 CO2 (0.165::0.206)(0.452::0.560))
+                (IOPATH DI0 O1 (0.129::0.160)(0.339::0.421))
+                (IOPATH DI0 O2 (0.165::0.205)(0.467::0.579))
+                (IOPATH DI0 O3 (0.186::0.232)(0.518::0.642))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_BX")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI1 CO1 (0.125::0.156)(0.367::0.456))
+                (IOPATH DI1 CO2 (0.151::0.188)(0.430::0.533))
+                (IOPATH DI1 CO3 (0.150::0.187)(0.419::0.520))
+                (IOPATH DI1 O2 (0.149::0.185)(0.441::0.547))
+                (IOPATH DI1 O3 (0.170::0.212)(0.492::0.610))
             )
         )
     )
@@ -608,59 +578,6 @@
         )
     )
     (CELL
-        (CELLTYPE "FF_INIT")
-        (INSTANCE SLICEM)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH CLK Q (0.102::0.127)(0.259::0.322))
-            )
-        )
-        (TIMINGCHECK
-            (HOLD CE (posedge CLK) (-0.007::-0.005))
-            (SETUP CE (posedge CLK) (0.088::0.109))
-        )
-    )
-    (CELL
-        (CELLTYPE "FF_INIT_QH")
-        (INSTANCE SLICEM)
-        (TIMINGCHECK
-            (RECOVERY SR (posedge CLK) (0.279::0.347))
-            (REMOVAL SR (posedge CLK) (-0.292::-0.238))
-        )
-    )
-    (CELL
-        (CELLTYPE "LUT_OR_MEM6LRAM")
-        (INSTANCE SLICEM)
-        (TIMINGCHECK
-            (HOLD WA1 (posedge CLK) (0.728::0.538))
-            (SETUP WA1 (posedge CLK) (0.184::0.066))
-            (HOLD WA2 (posedge CLK) (0.745::0.572))
-            (SETUP WA2 (posedge CLK) (0.181::0.068))
-            (HOLD CLK (posedge CLK) (0.579::0.460))
-            (SETUP CLK (posedge CLK) (0.214::0.147))
-            (HOLD CLK (posedge CLK) (0.507::0.411))
-            (SETUP CLK (posedge CLK) (0.248::0.208))
-            (HOLD WA5 (posedge CLK) (0.332::0.314))
-            (SETUP WA5 (posedge CLK) (0.236::0.245))
-            (HOLD CLK (posedge CLK) (0.213::0.244))
-            (SETUP CLK (posedge CLK) (0.302::0.362))
-            (HOLD WA7 (posedge CLK) (0.184::0.228))
-            (SETUP WA7 (posedge CLK) (0.496::0.616))
-            (HOLD WA8 (posedge CLK) (0.199::0.247))
-            (SETUP WA8 (posedge CLK) (0.511::0.633))
-            (HOLD WE (posedge CLK) (0.008::0.010))
-            (SETUP WE (posedge CLK) (0.527::0.654))
-        )
-    )
-    (CELL
-        (CELLTYPE "REG_INIT_FF_QH")
-        (INSTANCE SLICEM)
-        (TIMINGCHECK
-            (RECOVERY SR (posedge CLK) (0.314::0.389))
-            (REMOVAL SR (posedge CLK) (-0.292::-0.238))
-        )
-    )
-    (CELL
         (CELLTYPE "CARRY4_BX_LFF")
         (INSTANCE SLICEM)
         (DELAY
@@ -673,42 +590,87 @@
         )
     )
     (CELL
-        (CELLTYPE "FF_INIT_QL")
-        (INSTANCE SLICEM)
-        (TIMINGCHECK
-            (RECOVERY SR (posedge CLK) (0.314::0.389))
-            (REMOVAL SR (posedge CLK) (-0.285::-0.232))
-        )
-    )
-    (CELL
-        (CELLTYPE "LUT_OR_MEM5LRAM")
-        (INSTANCE SLICEM)
-        (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.728::0.538))
-            (SETUP CLK (posedge CLK) (0.184::0.066))
-            (HOLD WA2 (posedge CLK) (0.745::0.572))
-            (SETUP WA2 (posedge CLK) (0.181::0.068))
-            (HOLD CLK (posedge CLK) (0.579::0.460))
-            (SETUP CLK (posedge CLK) (0.214::0.147))
-            (HOLD CLK (posedge CLK) (0.507::0.411))
-            (SETUP CLK (posedge CLK) (0.248::0.208))
-            (HOLD WA5 (posedge CLK) (0.332::0.314))
-            (SETUP WA5 (posedge CLK) (0.236::0.245))
-            (HOLD WE (posedge CLK) (0.008::0.010))
-            (SETUP WE (posedge CLK) (0.527::0.654))
-        )
-    )
-    (CELL
-        (CELLTYPE "REG_INIT_FF")
+        (CELLTYPE "CARRY4_CX")
         (INSTANCE SLICEM)
         (DELAY
             (ABSOLUTE
-                (IOPATH CLK Q (0.118::0.147)(0.292::0.362))
+                (IOPATH DI2 CO2 (0.101::0.126)(0.295::0.366))
+                (IOPATH DI2 CO3 (0.119::0.148)(0.326::0.404))
+                (IOPATH DI2 O3 (0.129::0.161)(0.360::0.447))
             )
         )
-        (TIMINGCHECK
-            (HOLD CE (posedge CLK) (-0.007::-0.005))
-            (SETUP CE (posedge CLK) (0.088::0.109))
+    )
+    (CELL
+        (CELLTYPE "CARRY4_CX_LBOTH")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI2 CO2 (0.108::0.134)(0.315::0.391))
+                (IOPATH DI2 O3 (0.132::0.164)(0.373::0.463))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_CX_LFF")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI2 CO2 (0.101::0.126)(0.293::0.363))
+                (IOPATH DI2 O3 (0.129::0.161)(0.359::0.446))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_DX")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI3 CO3 (0.117::0.146)(0.319::0.396))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_LBOTH")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CIN CO0 (0.084::0.111)(0.214::0.281))
+                (IOPATH CIN CO1 (0.051::0.063)(0.144::0.179))
+                (IOPATH CIN CO2 (0.075::0.094)(0.203::0.252))
+                (IOPATH CIN O0 (0.057::0.084)(0.157::0.232))
+                (IOPATH CIN O1 (0.097::0.121)(0.272::0.337))
+                (IOPATH CIN O2 (0.072::0.089)(0.206::0.256))
+                (IOPATH CIN O3 (0.094::0.116)(0.267::0.331))
+                (IOPATH CYINIT CO0 (0.184::0.229)(0.476::0.591))
+                (IOPATH CYINIT CO1 (0.156::0.194)(0.440::0.546))
+                (IOPATH CYINIT CO2 (0.185::0.230)(0.510::0.632))
+                (IOPATH CYINIT O0 (0.161::0.201)(0.419::0.520))
+                (IOPATH CYINIT O1 (0.191::0.238)(0.519::0.644))
+                (IOPATH CYINIT O2 (0.178::0.222)(0.495::0.614))
+                (IOPATH CYINIT O3 (0.201::0.251)(0.547::0.678))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_LFF")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CIN CO0 (0.073::0.097)(0.190::0.250))
+                (IOPATH CIN CO1 (0.045::0.056)(0.125::0.155))
+                (IOPATH CIN CO2 (0.064::0.080)(0.184::0.228))
+                (IOPATH CIN O0 (0.053::0.079)(0.147::0.218))
+                (IOPATH CIN O1 (0.089::0.111)(0.260::0.323))
+                (IOPATH CIN O2 (0.066::0.082)(0.192::0.239))
+                (IOPATH CIN O3 (0.091::0.113)(0.253::0.314))
+                (IOPATH CYINIT CO0 (0.172::0.214)(0.450::0.558))
+                (IOPATH CYINIT CO1 (0.150::0.187)(0.409::0.508))
+                (IOPATH CYINIT CO2 (0.173::0.215)(0.489::0.606))
+                (IOPATH CYINIT O0 (0.158::0.197)(0.410::0.509))
+                (IOPATH CYINIT O1 (0.184::0.229)(0.509::0.631))
+                (IOPATH CYINIT O2 (0.172::0.214)(0.482::0.598))
+                (IOPATH CYINIT O3 (0.196::0.244)(0.533::0.662))
+            )
         )
     )
     (CELL
@@ -736,44 +698,111 @@
         )
     )
     (CELL
-        (CELLTYPE "CARRY4_CX_LFF")
+        (CELLTYPE "FF_INIT")
         (INSTANCE SLICEM)
         (DELAY
             (ABSOLUTE
-                (IOPATH DI2 CO2 (0.101::0.126)(0.293::0.363))
-                (IOPATH DI2 O3 (0.129::0.161)(0.359::0.446))
+                (IOPATH CLK Q (0.102::0.127)(0.259::0.322))
             )
+        )
+        (TIMINGCHECK
+            (HOLD CE (posedge CLK) (-0.007::-0.005))
+            (SETUP CE (posedge CLK) (0.088::0.109))
         )
     )
     (CELL
-        (CELLTYPE "CARRY4_LFF")
+        (CELLTYPE "FF_INIT_QH")
         (INSTANCE SLICEM)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH CIN CO0 (0.073::0.097)(0.190::0.250))
-                (IOPATH CIN CO1 (0.045::0.056)(0.125::0.155))
-                (IOPATH CIN CO2 (0.064::0.080)(0.184::0.228))
-                (IOPATH CIN O0 (0.053::0.079)(0.147::0.218))
-                (IOPATH CIN O1 (0.089::0.111)(0.260::0.323))
-                (IOPATH CIN O2 (0.066::0.082)(0.192::0.239))
-                (IOPATH CIN O3 (0.091::0.113)(0.253::0.314))
-                (IOPATH CYINIT CO0 (0.172::0.214)(0.450::0.558))
-                (IOPATH CYINIT CO1 (0.150::0.187)(0.409::0.508))
-                (IOPATH CYINIT CO2 (0.173::0.215)(0.489::0.606))
-                (IOPATH CYINIT O0 (0.158::0.197)(0.410::0.509))
-                (IOPATH CYINIT O1 (0.184::0.229)(0.509::0.631))
-                (IOPATH CYINIT O2 (0.172::0.214)(0.482::0.598))
-                (IOPATH CYINIT O3 (0.196::0.244)(0.533::0.662))
-            )
+        (TIMINGCHECK
+            (RECOVERY SR (posedge CLK) (0.279::0.347))
+            (REMOVAL SR (posedge CLK) (-0.292::-0.238))
         )
     )
     (CELL
-        (CELLTYPE "CARRY4_DX")
+        (CELLTYPE "FF_INIT_QL")
+        (INSTANCE SLICEM)
+        (TIMINGCHECK
+            (RECOVERY SR (posedge CLK) (0.314::0.389))
+            (REMOVAL SR (posedge CLK) (-0.285::-0.232))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5LRAM")
+        (INSTANCE SLICEM)
+        (TIMINGCHECK
+            (HOLD WA1 (posedge CLK) (0.728::0.538))
+            (SETUP WA1 (posedge CLK) (0.184::0.066))
+            (HOLD WA2 (posedge CLK) (0.745::0.572))
+            (SETUP WA2 (posedge CLK) (0.181::0.068))
+            (HOLD WA3 (posedge CLK) (0.579::0.460))
+            (SETUP WA3 (posedge CLK) (0.214::0.147))
+            (HOLD WA4 (posedge CLK) (0.507::0.411))
+            (SETUP WA4 (posedge CLK) (0.248::0.208))
+            (HOLD WA5 (posedge CLK) (0.332::0.314))
+            (SETUP WA5 (posedge CLK) (0.236::0.245))
+            (HOLD CLK (posedge CLK) (0.008::0.010))
+            (SETUP CLK (posedge CLK) (0.527::0.654))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5SHFREG")
+        (INSTANCE SLICEM)
+        (TIMINGCHECK
+            (HOLD CLK (posedge CLK) (0.011::0.014))
+            (SETUP CLK (posedge CLK) (0.514::0.638))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6LRAM")
+        (INSTANCE SLICEM)
+        (TIMINGCHECK
+            (HOLD WA1 (posedge CLK) (0.728::0.538))
+            (SETUP WA1 (posedge CLK) (0.184::0.066))
+            (HOLD WA2 (posedge CLK) (0.745::0.572))
+            (SETUP WA2 (posedge CLK) (0.181::0.068))
+            (HOLD WA3 (posedge CLK) (0.579::0.460))
+            (SETUP WA3 (posedge CLK) (0.214::0.147))
+            (HOLD WA4 (posedge CLK) (0.507::0.411))
+            (SETUP WA4 (posedge CLK) (0.248::0.208))
+            (HOLD WA5 (posedge CLK) (0.332::0.314))
+            (SETUP WA5 (posedge CLK) (0.236::0.245))
+            (HOLD CLK (posedge CLK) (0.213::0.244))
+            (SETUP CLK (posedge CLK) (0.302::0.362))
+            (HOLD WA7 (posedge CLK) (0.184::0.228))
+            (SETUP WA7 (posedge CLK) (0.496::0.616))
+            (HOLD CLK (posedge CLK) (0.199::0.247))
+            (SETUP CLK (posedge CLK) (0.511::0.633))
+            (HOLD CLK (posedge CLK) (0.008::0.010))
+            (SETUP CLK (posedge CLK) (0.527::0.654))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6SHFREG")
+        (INSTANCE SLICEM)
+        (TIMINGCHECK
+            (HOLD CLK (posedge CLK) (0.011::0.014))
+            (SETUP CLK (posedge CLK) (0.514::0.638))
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_FF")
         (INSTANCE SLICEM)
         (DELAY
             (ABSOLUTE
-                (IOPATH DI3 CO3 (0.117::0.146)(0.319::0.396))
+                (IOPATH CLK Q (0.118::0.147)(0.292::0.362))
             )
+        )
+        (TIMINGCHECK
+            (HOLD CE (posedge CLK) (-0.007::-0.005))
+            (SETUP CE (posedge CLK) (0.088::0.109))
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_FF_QH")
+        (INSTANCE SLICEM)
+        (TIMINGCHECK
+            (RECOVERY SR (posedge CLK) (0.314::0.389))
+            (REMOVAL SR (posedge CLK) (-0.292::-0.238))
         )
     )
     (CELL
@@ -785,45 +814,65 @@
         )
     )
     (CELL
-        (CELLTYPE "LUT_OR_MEM5LRAM")
-        (INSTANCE SLICEM/C5LUT)
+        (CELLTYPE "REG_INIT_LAT")
+        (INSTANCE SLICEM)
         (DELAY
             (ABSOLUTE
-                (IOPATH A1 O5 (0.044::0.055)(0.123::0.153))
-                (IOPATH A2 O5 (0.045::0.056)(0.123::0.153))
-                (IOPATH A3 O5 (0.043::0.053)(0.123::0.153))
-                (IOPATH A4 O5 (0.049::0.061)(0.123::0.153))
-                (IOPATH A5 O5 (0.049::0.061)(0.094::0.117))
-                (IOPATH CLK O5 (0.344::0.428)(0.952::1.180))
+                (IOPATH CE Q (0.129::0.161)(0.415::0.514))
+                (IOPATH CLK Q (0.132::0.164)(0.378::0.469))
+                (IOPATH D Q (0.075::0.094)(0.214::0.265))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_LAT_LOGIC_AND")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH D Q (0.104::0.129)(0.282::0.350))
+                (IOPATH SR Q (0.161::0.201)(0.645::0.800))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_LAT_LOGIC_OR")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH D Q (0.104::0.129)(0.282::0.350))
+                (IOPATH SR Q (0.161::0.201)(0.645::0.800))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5LRAM")
+        (INSTANCE SLICEM/A5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O5 (0.044::0.055)(0.121::0.150))
+                (IOPATH A2 O5 (0.044::0.055)(0.118::0.146))
+                (IOPATH A3 O5 (0.043::0.053)(0.120::0.148))
+                (IOPATH A4 O5 (0.046::0.057)(0.121::0.150))
+                (IOPATH A5 O5 (0.048::0.060)(0.093::0.116))
+                (IOPATH CLK O5 (0.446::0.555)(0.958::1.188))
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.152::0.189))
-            (SETUP CLK (posedge CLK) (0.243::0.301))
+            (HOLD CLK (posedge CLK) (0.155::0.192))
+            (SETUP CLK (posedge CLK) (0.231::0.287))
         )
     )
     (CELL
         (CELLTYPE "LUT_OR_MEM5SHFREG")
-        (INSTANCE SLICEM/C5LUT)
+        (INSTANCE SLICEM/A5LUT)
         (DELAY
             (ABSOLUTE
-                (IOPATH CLK O5 (0.442::0.550)(1.178::1.462))
+                (IOPATH CLK O5 (0.442::0.550)(1.177::1.461))
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.058::0.072))
-            (SETUP CLK (posedge CLK) (0.117::0.145))
-        )
-    )
-    (CELL
-        (CELLTYPE "SELMUX2_1")
-        (INSTANCE SLICEM/F7AMUX)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH 0 OUT (0.053::0.067)(0.152::0.189))
-                (IOPATH 1 OUT (0.054::0.068)(0.153::0.190))
-                (IOPATH S0 OUT (0.090::0.112)(0.235::0.292))
-            )
+            (HOLD CLK (posedge CLK) (0.075::0.093))
+            (SETUP CLK (posedge CLK) (0.137::0.170))
         )
     )
     (CELL
@@ -864,71 +913,102 @@
         )
     )
     (CELL
-        (CELLTYPE "SELMUX2_1")
-        (INSTANCE SLICEM/F8MUX)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH 0 OUT (0.022::0.027)(0.079::0.098))
-                (IOPATH 1 OUT (0.019::0.024)(0.071::0.088))
-                (IOPATH S0 OUT (0.081::0.101)(0.228::0.283))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "LUT5")
-        (INSTANCE SLICEL/D5LUT)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH A1 O5 (0.044::0.055)(0.120::0.149))
-                (IOPATH A2 O5 (0.043::0.054)(0.121::0.150))
-                (IOPATH A3 O5 (0.042::0.052)(0.120::0.149))
-                (IOPATH A4 O5 (0.044::0.055)(0.120::0.149))
-                (IOPATH A5 O5 (0.049::0.061)(0.094::0.117))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "LUT5")
-        (INSTANCE SLICEL/C5LUT)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH A1 O5 (0.044::0.055)(0.124::0.154))
-                (IOPATH A2 O5 (0.043::0.053)(0.124::0.154))
-                (IOPATH A3 O5 (0.042::0.052)(0.123::0.153))
-                (IOPATH A4 O5 (0.045::0.056)(0.123::0.153))
-                (IOPATH A5 O5 (0.051::0.063)(0.097::0.120))
-            )
-        )
-    )
-    (CELL
         (CELLTYPE "LUT_OR_MEM5LRAM")
-        (INSTANCE SLICEM/D5LUT)
+        (INSTANCE SLICEM/B5LUT)
         (DELAY
             (ABSOLUTE
-                (IOPATH A1 O5 (0.047::0.058)(0.126::0.156))
-                (IOPATH A2 O5 (0.046::0.057)(0.127::0.157))
-                (IOPATH A3 O5 (0.044::0.055)(0.121::0.150))
-                (IOPATH A4 O5 (0.048::0.059)(0.120::0.149))
-                (IOPATH A5 O5 (0.049::0.061)(0.096::0.119))
-                (IOPATH CLK O5 (0.352::0.438)(0.960::1.190))
+                (IOPATH A1 O5 (0.045::0.056)(0.122::0.152))
+                (IOPATH A2 O5 (0.044::0.055)(0.122::0.152))
+                (IOPATH A3 O5 (0.043::0.053)(0.121::0.150))
+                (IOPATH A4 O5 (0.047::0.058)(0.121::0.150))
+                (IOPATH A5 O5 (0.048::0.060)(0.094::0.117))
+                (IOPATH CLK O5 (0.348::0.434)(0.957::1.187))
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.153::0.190))
-            (SETUP CLK (posedge CLK) (0.111::0.137))
+            (HOLD CLK (posedge CLK) (0.154::0.191))
+            (SETUP CLK (posedge CLK) (0.250::0.311))
         )
     )
     (CELL
         (CELLTYPE "LUT_OR_MEM5SHFREG")
-        (INSTANCE SLICEM/D5LUT)
+        (INSTANCE SLICEM/B5LUT)
         (DELAY
             (ABSOLUTE
-                (IOPATH CLK O5 (0.441::0.549)(1.194::1.481))
+                (IOPATH CLK O5 (0.439::0.547)(1.190::1.476))
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.217::0.269))
-            (SETUP CLK (posedge CLK) (-0.040::-0.033))
+            (HOLD CLK (posedge CLK) (0.070::0.087))
+            (SETUP CLK (posedge CLK) (0.126::0.156))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6LRAM")
+        (INSTANCE SLICEM/B6LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A2 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A3 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A4 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A5 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH A6 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH CLK O6 (0.342::0.425)(0.936::1.161))
+            )
+        )
+        (TIMINGCHECK
+            (HOLD CLK (posedge CLK) (0.154::0.191))
+            (SETUP CLK (posedge CLK) (0.372::0.461))
+            (HOLD DI2 (posedge CLK) (0.107::0.133))
+            (SETUP DI2 (posedge CLK) (0.286::0.354))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6SHFREG")
+        (INSTANCE SLICEM/B6LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK MC31 (0.286::0.356)(0.789::0.979))
+                (IOPATH CLK O6 (0.438::0.545)(1.176::1.458))
+            )
+        )
+        (TIMINGCHECK
+            (HOLD CLK (posedge CLK) (0.070::0.087))
+            (SETUP CLK (posedge CLK) (0.126::0.156))
+            (HOLD DI2 (posedge CLK) (0.089::0.110))
+            (SETUP DI2 (posedge CLK) (0.143::0.178))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5LRAM")
+        (INSTANCE SLICEM/C5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O5 (0.044::0.055)(0.123::0.153))
+                (IOPATH A2 O5 (0.045::0.056)(0.123::0.153))
+                (IOPATH A3 O5 (0.043::0.053)(0.123::0.153))
+                (IOPATH A4 O5 (0.049::0.061)(0.123::0.153))
+                (IOPATH A5 O5 (0.049::0.061)(0.094::0.117))
+                (IOPATH CLK O5 (0.344::0.428)(0.952::1.180))
+            )
+        )
+        (TIMINGCHECK
+            (HOLD CLK (posedge CLK) (0.152::0.189))
+            (SETUP CLK (posedge CLK) (0.243::0.301))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5SHFREG")
+        (INSTANCE SLICEM/C5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK O5 (0.442::0.550)(1.178::1.462))
+            )
+        )
+        (TIMINGCHECK
+            (HOLD CLK (posedge CLK) (0.058::0.072))
+            (SETUP CLK (posedge CLK) (0.117::0.145))
         )
     )
     (CELL
@@ -969,83 +1049,34 @@
         )
     )
     (CELL
-        (CELLTYPE "SELMUX2_1")
-        (INSTANCE SLICEL/F8MUX)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH 0 OUT (0.023::0.028)(0.083::0.104))
-                (IOPATH 1 OUT (0.019::0.024)(0.076::0.094))
-                (IOPATH S0 OUT (0.080::0.100)(0.220::0.273))
-            )
-        )
-    )
-    (CELL
         (CELLTYPE "LUT_OR_MEM5LRAM")
-        (INSTANCE SLICEM/A5LUT)
+        (INSTANCE SLICEM/D5LUT)
         (DELAY
             (ABSOLUTE
-                (IOPATH A1 O5 (0.044::0.055)(0.121::0.150))
-                (IOPATH A2 O5 (0.044::0.055)(0.118::0.146))
-                (IOPATH A3 O5 (0.043::0.053)(0.120::0.148))
-                (IOPATH A4 O5 (0.046::0.057)(0.121::0.150))
-                (IOPATH A5 O5 (0.048::0.060)(0.093::0.116))
-                (IOPATH CLK O5 (0.446::0.555)(0.958::1.188))
+                (IOPATH A1 O5 (0.047::0.058)(0.126::0.156))
+                (IOPATH A2 O5 (0.046::0.057)(0.127::0.157))
+                (IOPATH A3 O5 (0.044::0.055)(0.121::0.150))
+                (IOPATH A4 O5 (0.048::0.059)(0.120::0.149))
+                (IOPATH A5 O5 (0.049::0.061)(0.096::0.119))
+                (IOPATH CLK O5 (0.352::0.438)(0.960::1.190))
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.155::0.192))
-            (SETUP CLK (posedge CLK) (0.231::0.287))
+            (HOLD CLK (posedge CLK) (0.153::0.190))
+            (SETUP CLK (posedge CLK) (0.111::0.137))
         )
     )
     (CELL
         (CELLTYPE "LUT_OR_MEM5SHFREG")
-        (INSTANCE SLICEM/A5LUT)
+        (INSTANCE SLICEM/D5LUT)
         (DELAY
             (ABSOLUTE
-                (IOPATH CLK O5 (0.442::0.550)(1.177::1.461))
+                (IOPATH CLK O5 (0.441::0.549)(1.194::1.481))
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.075::0.093))
-            (SETUP CLK (posedge CLK) (0.137::0.170))
-        )
-    )
-    (CELL
-        (CELLTYPE "LUT5")
-        (INSTANCE SLICEL/A5LUT)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH A1 O5 (0.044::0.055)(0.122::0.152))
-                (IOPATH A2 O5 (0.044::0.055)(0.122::0.152))
-                (IOPATH A3 O5 (0.042::0.052)(0.121::0.150))
-                (IOPATH A4 O5 (0.046::0.057)(0.121::0.150))
-                (IOPATH A5 O5 (0.048::0.060)(0.095::0.118))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "SELMUX2_1")
-        (INSTANCE SLICEM/F7BMUX)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH 0 OUT (0.064::0.080)(0.177::0.219))
-                (IOPATH 1 OUT (0.066::0.082)(0.181::0.225))
-                (IOPATH S0 OUT (0.096::0.120)(0.253::0.314))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "LUT6")
-        (INSTANCE SLICEL/B6LUT)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH A1 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A2 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A3 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A4 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A5 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A6 O6 (0.045::0.056)(0.100::0.124))
-            )
+            (HOLD CLK (posedge CLK) (0.217::0.269))
+            (SETUP CLK (posedge CLK) (-0.040::-0.033))
         )
     )
     (CELL
@@ -1086,67 +1117,36 @@
         )
     )
     (CELL
-        (CELLTYPE "LUT6")
-        (INSTANCE SLICEL/A6LUT)
+        (CELLTYPE "SELMUX2_1")
+        (INSTANCE SLICEM/F7AMUX)
         (DELAY
             (ABSOLUTE
-                (IOPATH A1 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A2 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A3 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A4 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A5 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A6 O6 (0.045::0.056)(0.100::0.124))
+                (IOPATH 0 OUT (0.053::0.067)(0.152::0.189))
+                (IOPATH 1 OUT (0.054::0.068)(0.153::0.190))
+                (IOPATH S0 OUT (0.090::0.112)(0.235::0.292))
             )
         )
     )
     (CELL
-        (CELLTYPE "LUT5")
-        (INSTANCE SLICEL/B5LUT)
+        (CELLTYPE "SELMUX2_1")
+        (INSTANCE SLICEM/F7BMUX)
         (DELAY
             (ABSOLUTE
-                (IOPATH A1 O5 (0.045::0.056)(0.122::0.152))
-                (IOPATH A2 O5 (0.043::0.054)(0.122::0.152))
-                (IOPATH A3 O5 (0.043::0.053)(0.122::0.152))
-                (IOPATH A4 O5 (0.045::0.056)(0.121::0.150))
-                (IOPATH A5 O5 (0.049::0.061)(0.096::0.119))
+                (IOPATH 0 OUT (0.064::0.080)(0.177::0.219))
+                (IOPATH 1 OUT (0.066::0.082)(0.181::0.225))
+                (IOPATH S0 OUT (0.096::0.120)(0.253::0.314))
             )
         )
     )
     (CELL
-        (CELLTYPE "LUT_OR_MEM6LRAM")
-        (INSTANCE SLICEM/B6LUT)
+        (CELLTYPE "SELMUX2_1")
+        (INSTANCE SLICEM/F8MUX)
         (DELAY
             (ABSOLUTE
-                (IOPATH A1 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A2 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A3 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A4 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A5 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH A6 O6 (0.045::0.056)(0.100::0.124))
-                (IOPATH CLK O6 (0.342::0.425)(0.936::1.161))
+                (IOPATH 0 OUT (0.022::0.027)(0.079::0.098))
+                (IOPATH 1 OUT (0.019::0.024)(0.071::0.088))
+                (IOPATH S0 OUT (0.081::0.101)(0.228::0.283))
             )
-        )
-        (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.154::0.191))
-            (SETUP CLK (posedge CLK) (0.372::0.461))
-            (HOLD DI2 (posedge CLK) (0.107::0.133))
-            (SETUP DI2 (posedge CLK) (0.286::0.354))
-        )
-    )
-    (CELL
-        (CELLTYPE "LUT_OR_MEM6SHFREG")
-        (INSTANCE SLICEM/B6LUT)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH CLK MC31 (0.286::0.356)(0.789::0.979))
-                (IOPATH CLK O6 (0.438::0.545)(1.176::1.458))
-            )
-        )
-        (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.070::0.087))
-            (SETUP CLK (posedge CLK) (0.126::0.156))
-            (HOLD DI2 (posedge CLK) (0.089::0.110))
-            (SETUP DI2 (posedge CLK) (0.143::0.178))
         )
     )
 )
