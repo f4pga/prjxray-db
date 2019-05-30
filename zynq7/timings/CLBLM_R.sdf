@@ -1,7 +1,7 @@
 
 (DELAYFILE
     (SDFVERSION "3.0")
-    (TIMESCALE 1ps)
+    (TIMESCALE 1ns)
 
     (CELL
         (CELLTYPE "CARRY4")
@@ -245,7 +245,11 @@
         )
         (TIMINGCHECK
             (HOLD CE (posedge CLK) (-0.011::-0.009))
+            (HOLD DIN (posedge CLK) (0.181::0.225))
+            (HOLD INIT (posedge CLK) (-0.074::-0.060))
             (SETUP CE (posedge CLK) (0.088::0.109))
+            (SETUP DIN (posedge CLK) (-0.057::-0.046))
+            (SETUP INIT (posedge CLK) (0.345::0.428))
         )
     )
     (CELL
@@ -274,7 +278,11 @@
         )
         (TIMINGCHECK
             (HOLD CE (posedge CLK) (-0.011::-0.009))
+            (HOLD DIN (posedge CLK) (0.194::0.241))
+            (HOLD INIT (posedge CLK) (-0.074::-0.060))
             (SETUP CE (posedge CLK) (0.088::0.109))
+            (SETUP DIN (posedge CLK) (-0.055::-0.045))
+            (SETUP INIT (posedge CLK) (0.345::0.428))
         )
     )
     (CELL
@@ -302,6 +310,10 @@
                 (IOPATH CLK Q (0.129::0.160)(0.357::0.443))
                 (IOPATH D Q (0.073::0.092)(0.213::0.264))
             )
+        )
+        (TIMINGCHECK
+            (HOLD DIN (posedge CLK) (0.194::0.241))
+            (SETUP DIN (posedge CLK) (-0.068::-0.056))
         )
     )
     (CELL
@@ -707,7 +719,11 @@
         )
         (TIMINGCHECK
             (HOLD CE (posedge CLK) (-0.007::-0.005))
+            (HOLD DIN (posedge CLK) (0.194::0.241))
+            (HOLD INIT (posedge CLK) (-0.050::-0.041))
             (SETUP CE (posedge CLK) (0.088::0.109))
+            (SETUP DIN (posedge CLK) (-0.074::-0.060))
+            (SETUP INIT (posedge CLK) (0.445::0.552))
         )
     )
     (CELL
@@ -734,10 +750,10 @@
             (SETUP WA1 (posedge CLK) (0.184::0.066))
             (HOLD WA2 (posedge CLK) (0.745::0.572))
             (SETUP WA2 (posedge CLK) (0.181::0.068))
-            (HOLD CLK (posedge CLK) (0.579::0.460))
-            (SETUP CLK (posedge CLK) (0.214::0.147))
-            (HOLD CLK (posedge CLK) (0.507::0.411))
-            (SETUP CLK (posedge CLK) (0.248::0.208))
+            (HOLD WA3 (posedge CLK) (0.579::0.460))
+            (SETUP WA3 (posedge CLK) (0.214::0.147))
+            (HOLD WA4 (posedge CLK) (0.507::0.411))
+            (SETUP WA4 (posedge CLK) (0.248::0.208))
             (HOLD WA5 (posedge CLK) (0.332::0.314))
             (SETUP WA5 (posedge CLK) (0.236::0.245))
             (HOLD WE (posedge CLK) (0.008::0.010))
@@ -768,10 +784,10 @@
             (SETUP WA5 (posedge CLK) (0.236::0.245))
             (HOLD WA6 (posedge CLK) (0.213::0.244))
             (SETUP WA6 (posedge CLK) (0.302::0.362))
-            (HOLD CLK (posedge CLK) (0.184::0.228))
-            (SETUP CLK (posedge CLK) (0.496::0.616))
-            (HOLD CLK (posedge CLK) (0.199::0.247))
-            (SETUP CLK (posedge CLK) (0.511::0.633))
+            (HOLD WA7 (posedge CLK) (0.184::0.228))
+            (SETUP WA7 (posedge CLK) (0.496::0.616))
+            (HOLD WA8 (posedge CLK) (0.199::0.247))
+            (SETUP WA8 (posedge CLK) (0.511::0.633))
             (HOLD WE (posedge CLK) (0.008::0.010))
             (SETUP WE (posedge CLK) (0.527::0.654))
         )
@@ -794,7 +810,11 @@
         )
         (TIMINGCHECK
             (HOLD CE (posedge CLK) (-0.007::-0.005))
+            (HOLD DIN (posedge CLK) (0.211::0.262))
+            (HOLD INIT (posedge CLK) (-0.050::-0.041))
             (SETUP CE (posedge CLK) (0.088::0.109))
+            (SETUP DIN (posedge CLK) (-0.074::-0.060))
+            (SETUP INIT (posedge CLK) (0.445::0.552))
         )
     )
     (CELL
@@ -822,6 +842,10 @@
                 (IOPATH CLK Q (0.132::0.164)(0.378::0.469))
                 (IOPATH D Q (0.075::0.094)(0.214::0.265))
             )
+        )
+        (TIMINGCHECK
+            (HOLD DIN (posedge CLK) (0.211::0.262))
+            (SETUP DIN (posedge CLK) (-0.078::-0.064))
         )
     )
     (CELL
@@ -858,8 +882,8 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.155::0.192))
-            (SETUP CLK (posedge CLK) (0.231::0.287))
+            (HOLD DI1 (posedge CLK) (0.155::0.192))
+            (SETUP DI1 (posedge CLK) (0.231::0.287))
         )
     )
     (CELL
@@ -871,8 +895,8 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.075::0.093))
-            (SETUP CLK (posedge CLK) (0.137::0.170))
+            (HOLD DI1 (posedge CLK) (0.075::0.093))
+            (SETUP DI1 (posedge CLK) (0.137::0.170))
         )
     )
     (CELL
@@ -890,10 +914,10 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.155::0.192))
-            (SETUP CLK (posedge CLK) (0.366::0.453))
-            (HOLD CLK (posedge CLK) (0.098::0.122))
-            (SETUP CLK (posedge CLK) (0.309::0.384))
+            (HOLD DI1 (posedge CLK) (0.155::0.192))
+            (SETUP DI1 (posedge CLK) (0.366::0.453))
+            (HOLD DI2 (posedge CLK) (0.098::0.122))
+            (SETUP DI2 (posedge CLK) (0.309::0.384))
         )
     )
     (CELL
@@ -906,10 +930,10 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.075::0.093))
-            (SETUP CLK (posedge CLK) (0.137::0.170))
-            (HOLD CLK (posedge CLK) (0.076::0.094))
-            (SETUP CLK (posedge CLK) (0.140::0.173))
+            (HOLD DI1 (posedge CLK) (0.075::0.093))
+            (SETUP DI1 (posedge CLK) (0.137::0.170))
+            (HOLD DI2 (posedge CLK) (0.076::0.094))
+            (SETUP DI2 (posedge CLK) (0.140::0.173))
         )
     )
     (CELL
@@ -926,8 +950,8 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.154::0.191))
-            (SETUP CLK (posedge CLK) (0.250::0.311))
+            (HOLD DI1 (posedge CLK) (0.154::0.191))
+            (SETUP DI1 (posedge CLK) (0.250::0.311))
         )
     )
     (CELL
@@ -939,8 +963,8 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.070::0.087))
-            (SETUP CLK (posedge CLK) (0.126::0.156))
+            (HOLD DI1 (posedge CLK) (0.070::0.087))
+            (SETUP DI1 (posedge CLK) (0.126::0.156))
         )
     )
     (CELL
@@ -958,10 +982,10 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.154::0.191))
-            (SETUP CLK (posedge CLK) (0.372::0.461))
-            (HOLD CLK (posedge CLK) (0.107::0.133))
-            (SETUP CLK (posedge CLK) (0.286::0.354))
+            (HOLD DI1 (posedge CLK) (0.154::0.191))
+            (SETUP DI1 (posedge CLK) (0.372::0.461))
+            (HOLD DI2 (posedge CLK) (0.107::0.133))
+            (SETUP DI2 (posedge CLK) (0.286::0.354))
         )
     )
     (CELL
@@ -974,10 +998,10 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.070::0.087))
-            (SETUP CLK (posedge CLK) (0.126::0.156))
-            (HOLD CLK (posedge CLK) (0.089::0.110))
-            (SETUP CLK (posedge CLK) (0.143::0.178))
+            (HOLD DI1 (posedge CLK) (0.070::0.087))
+            (SETUP DI1 (posedge CLK) (0.126::0.156))
+            (HOLD DI2 (posedge CLK) (0.089::0.110))
+            (SETUP DI2 (posedge CLK) (0.143::0.178))
         )
     )
     (CELL
@@ -994,8 +1018,8 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.152::0.189))
-            (SETUP CLK (posedge CLK) (0.243::0.301))
+            (HOLD DI1 (posedge CLK) (0.152::0.189))
+            (SETUP DI1 (posedge CLK) (0.243::0.301))
         )
     )
     (CELL
@@ -1007,8 +1031,8 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.058::0.072))
-            (SETUP CLK (posedge CLK) (0.117::0.145))
+            (HOLD DI1 (posedge CLK) (0.058::0.072))
+            (SETUP DI1 (posedge CLK) (0.117::0.145))
         )
     )
     (CELL
@@ -1026,10 +1050,10 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.152::0.189))
-            (SETUP CLK (posedge CLK) (0.368::0.457))
-            (HOLD CLK (posedge CLK) (0.091::0.113))
-            (SETUP CLK (posedge CLK) (0.302::0.375))
+            (HOLD DI1 (posedge CLK) (0.152::0.189))
+            (SETUP DI1 (posedge CLK) (0.368::0.457))
+            (HOLD DI2 (posedge CLK) (0.091::0.113))
+            (SETUP DI2 (posedge CLK) (0.302::0.375))
         )
     )
     (CELL
@@ -1042,10 +1066,10 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.058::0.072))
-            (SETUP CLK (posedge CLK) (0.117::0.145))
-            (HOLD CLK (posedge CLK) (0.062::0.077))
-            (SETUP CLK (posedge CLK) (0.116::0.144))
+            (HOLD DI1 (posedge CLK) (0.058::0.072))
+            (SETUP DI1 (posedge CLK) (0.117::0.145))
+            (HOLD DI2 (posedge CLK) (0.062::0.077))
+            (SETUP DI2 (posedge CLK) (0.116::0.144))
         )
     )
     (CELL
@@ -1062,8 +1086,8 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.153::0.190))
-            (SETUP CLK (posedge CLK) (0.111::0.137))
+            (HOLD DI1 (posedge CLK) (0.153::0.190))
+            (SETUP DI1 (posedge CLK) (0.111::0.137))
         )
     )
     (CELL
@@ -1075,8 +1099,8 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.217::0.269))
-            (SETUP CLK (posedge CLK) (-0.040::-0.033))
+            (HOLD DI1 (posedge CLK) (0.217::0.269))
+            (SETUP DI1 (posedge CLK) (-0.040::-0.033))
         )
     )
     (CELL
@@ -1094,10 +1118,10 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.153::0.190))
-            (SETUP CLK (posedge CLK) (0.250::0.310))
-            (HOLD CLK (posedge CLK) (0.106::0.132))
-            (SETUP CLK (posedge CLK) (0.269::0.334))
+            (HOLD DI1 (posedge CLK) (0.153::0.190))
+            (SETUP DI1 (posedge CLK) (0.250::0.310))
+            (HOLD DI2 (posedge CLK) (0.106::0.132))
+            (SETUP DI2 (posedge CLK) (0.269::0.334))
         )
     )
     (CELL
@@ -1110,10 +1134,10 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.217::0.269))
-            (SETUP CLK (posedge CLK) (-0.040::-0.033))
-            (HOLD CLK (posedge CLK) (0.091::0.112))
-            (SETUP CLK (posedge CLK) (0.133::0.165))
+            (HOLD DI1 (posedge CLK) (0.217::0.269))
+            (SETUP DI1 (posedge CLK) (-0.040::-0.033))
+            (HOLD DI2 (posedge CLK) (0.091::0.112))
+            (SETUP DI2 (posedge CLK) (0.133::0.165))
         )
     )
     (CELL
