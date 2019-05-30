@@ -37,7 +37,7 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Thu May 30 18:31:27 UTC 2019 (2019-05-30T18:31:27+00:00).
+Last updated on Thu May 30 18:43:40 UTC 2019 (2019-05-30T18:43:40+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [8cb7366](https://github.com/SymbiFlow/prjxray/commit/8cb7366fa2c361fd5c8eec0aa0cb976808a39752).
 
@@ -572,8 +572,8 @@ Results have checksums;
  * [`65c83253dc05bb790d71edc7f868f2f8c7e4d4c7817f073b9c853c1ac2e075b0  ./kintex7/segbits_hclk_cmt_l.db`](./kintex7/segbits_hclk_cmt_l.db)
  * [`1c2c7229781a4a1d51bbbdeea76238b10497c043aaadf2a76de783041a201878  ./kintex7/segbits_hclk_l.db`](./kintex7/segbits_hclk_l.db)
  * [`51288ec0be63172fcb2a12a92853150c62a21e894c2d42a2586046c462bf57a9  ./kintex7/segbits_hclk_r.db`](./kintex7/segbits_hclk_r.db)
- * [`ebcb17bbb3ae3ea76b20e86ad7efda9a36b2ee024c4b08e6d5e8bbf4bc7838cc  ./kintex7/segbits_int_l.db`](./kintex7/segbits_int_l.db)
- * [`90ac156ad102fd7f83f22f4cbbef5e1216b057c8c92fc1eec957f3c69c8b4368  ./kintex7/segbits_int_r.db`](./kintex7/segbits_int_r.db)
+ * [`0ea44e8dfaf97ed200f30b2afe117e94e1a68bdb26af2e09e69e855414779520  ./kintex7/segbits_int_l.db`](./kintex7/segbits_int_l.db)
+ * [`74677110ea4768e641743e8c1cf810c4ffb00c6ea4f09f41144d45f0e89416c7  ./kintex7/segbits_int_r.db`](./kintex7/segbits_int_r.db)
  * [`bed06fc405947c72a47a7fbac7adbc220efd2dc8d73f321ed70b8d2490ab745b  ./kintex7/segbits_liob33.db`](./kintex7/segbits_liob33.db)
  * [`8ec421f8f4ce1bab7e81bcbf0cbdc37fb3f6ed4715bc2fdf75db336805efc53e  ./kintex7/segbits_riob33.db`](./kintex7/segbits_riob33.db)
  * [`c4fe49753a5ba6b4abc688337d5df26f2101ccfca3dd4270ca77e39e5221bfe9  ./kintex7/settings.sh`](./kintex7/settings.sh)
