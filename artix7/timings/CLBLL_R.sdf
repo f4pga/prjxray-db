@@ -1,7 +1,7 @@
 
 (DELAYFILE
     (SDFVERSION "3.0")
-    (TIMESCALE 1ns)
+    (TIMESCALE 1ps)
 
     (CELL
         (CELLTYPE "CARRY4")
@@ -245,11 +245,7 @@
         )
         (TIMINGCHECK
             (HOLD CE (posedge CLK) (-0.011::-0.009))
-            (HOLD DIN (posedge CLK) (0.181::0.225))
-            (HOLD INIT (posedge CLK) (-0.074::-0.060))
             (SETUP CE (posedge CLK) (0.088::0.109))
-            (SETUP DIN (posedge CLK) (-0.057::-0.046))
-            (SETUP INIT (posedge CLK) (0.345::0.428))
         )
     )
     (CELL
@@ -278,11 +274,7 @@
         )
         (TIMINGCHECK
             (HOLD CE (posedge CLK) (-0.011::-0.009))
-            (HOLD DIN (posedge CLK) (0.194::0.241))
-            (HOLD INIT (posedge CLK) (-0.074::-0.060))
             (SETUP CE (posedge CLK) (0.088::0.109))
-            (SETUP DIN (posedge CLK) (-0.055::-0.045))
-            (SETUP INIT (posedge CLK) (0.345::0.428))
         )
     )
     (CELL
@@ -310,10 +302,6 @@
                 (IOPATH CLK Q (0.129::0.160)(0.357::0.443))
                 (IOPATH D Q (0.073::0.092)(0.213::0.264))
             )
-        )
-        (TIMINGCHECK
-            (HOLD DIN (posedge CLK) (0.194::0.241))
-            (SETUP DIN (posedge CLK) (-0.068::-0.056))
         )
     )
     (CELL

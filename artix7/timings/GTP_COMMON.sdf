@@ -1,13 +1,14 @@
 
 (DELAYFILE
     (SDFVERSION "3.0")
-    (TIMESCALE 1ns)
+    (TIMESCALE 1ps)
 
     (CELL
         (CELLTYPE "GTPE2_COMMON_GTPE2_COMMONGTPE2_COMMON")
         (INSTANCE GTPE2_COMMON)
         (DELAY
             (ABSOLUTE
+                (IOPATH DRPCLK DRPRDY (0.530::0.563)(0.836::0.888))
                 (IOPATH GTGREFCLK0 REFCLKOUTMONITOR0 (0.452::0.720)(1.657::2.640))
                 (IOPATH GTGREFCLK0 REFCLKOUTMONITOR1 (0.452::0.720)(1.657::2.640))
                 (IOPATH GTGREFCLK1 REFCLKOUTMONITOR0 (0.452::0.720)(1.657::2.640))
@@ -24,14 +25,26 @@
             )
         )
         (TIMINGCHECK
-            (HOLD DRPADDR (posedge DRPCLK) (0.172::0.183))
-            (SETUP DRPADDR (posedge DRPCLK) (0.380::0.403))
-            (HOLD DRPDI (posedge DRPCLK) (0.154::0.164))
-            (SETUP DRPDI (posedge DRPCLK) (0.380::0.403))
-            (HOLD DRPEN (posedge DRPCLK) (0.160::0.170))
-            (SETUP DRPEN (posedge DRPCLK) (0.380::0.403))
-            (HOLD DRPWE (posedge DRPCLK) (0.140::0.149))
-            (SETUP DRPWE (posedge DRPCLK) (0.380::0.403))
+            (HOLD DRPCLK (posedge DRPCLK) (0.160::0.170))
+            (SETUP DRPCLK (posedge DRPCLK) (0.380::0.403))
+            (HOLD DRPCLK (posedge DRPCLK) (0.140::0.149))
+            (SETUP DRPCLK (posedge DRPCLK) (0.380::0.403))
+        )
+    )
+    (CELL
+        (CELLTYPE "GTPE2_COMMON_GTPE2_COMMONGTPE2_COMMON_DRPADDR")
+        (INSTANCE GTPE2_COMMON)
+        (TIMINGCHECK
+            (HOLD DRPCLK (posedge DRPCLK) (0.172::0.183))
+            (SETUP DRPCLK (posedge DRPCLK) (0.380::0.403))
+        )
+    )
+    (CELL
+        (CELLTYPE "GTPE2_COMMON_GTPE2_COMMONGTPE2_COMMON_DRPDI")
+        (INSTANCE GTPE2_COMMON)
+        (TIMINGCHECK
+            (HOLD DRPCLK (posedge DRPCLK) (0.154::0.164))
+            (SETUP DRPCLK (posedge DRPCLK) (0.380::0.403))
         )
     )
     (CELL
