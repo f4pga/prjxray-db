@@ -1,7 +1,7 @@
 
 (DELAYFILE
     (SDFVERSION "3.0")
-    (TIMESCALE 1ps)
+    (TIMESCALE 1ns)
 
     (CELL
         (CELLTYPE "CAPTURE")
@@ -15,10 +15,10 @@
         (CELLTYPE "ICAP")
         (INSTANCE ICAP)
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.000::0.000))
-            (SETUP CLK (posedge CLK) (3.390::3.900))
-            (HOLD CLK (posedge CLK) (0.000::0.000))
-            (SETUP CLK (posedge CLK) (5.587::6.427))
+            (HOLD CSIB (posedge CLK) (0.000::0.000))
+            (SETUP CSIB (posedge CLK) (3.390::3.900))
+            (HOLD RDWRB (posedge CLK) (0.000::0.000))
+            (SETUP RDWRB (posedge CLK) (5.587::6.427))
         )
     )
     (CELL

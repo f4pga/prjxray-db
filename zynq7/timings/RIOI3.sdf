@@ -1,24 +1,8 @@
 
 (DELAYFILE
     (SDFVERSION "3.0")
-    (TIMESCALE 1ps)
+    (TIMESCALE 1ns)
 
-    (CELL
-        (CELLTYPE "IDELAYE2_CNTVALUEIN_IDELAY_TYPE_VAR_LOAD")
-        (INSTANCE IDELAYE2)
-        (TIMINGCHECK
-            (HOLD C (posedge C) (0.128::0.138))
-            (SETUP C (posedge C) (0.094::0.102))
-        )
-    )
-    (CELL
-        (CELLTYPE "IDELAYE2_CNTVALUEIN_IDELAY_TYPE_VAR_LOAD_PIPE")
-        (INSTANCE IDELAYE2)
-        (TIMINGCHECK
-            (HOLD C (posedge C) (0.258::0.280))
-            (SETUP C (posedge C) (-0.081::-0.075))
-        )
-    )
     (CELL
         (CELLTYPE "IDELAYE2_DELAY_SRC_DATAIN")
         (INSTANCE IDELAYE2)
@@ -43,8 +27,8 @@
         (TIMINGCHECK
             (HOLD CE (posedge C) (0.143::0.155))
             (SETUP CE (posedge C) (0.187::0.203))
-            (HOLD C (posedge C) (0.203::0.219))
-            (SETUP C (posedge C) (0.140::0.152))
+            (HOLD INC (posedge C) (0.203::0.219))
+            (SETUP INC (posedge C) (0.140::0.152))
             (HOLD LD (posedge C) (0.131::0.141))
             (SETUP LD (posedge C) (0.089::0.097))
         )
@@ -53,8 +37,8 @@
         (CELLTYPE "IDELAYE2_IDELAY_TYPE_VAR_LOAD_PIPE")
         (INSTANCE IDELAYE2)
         (TIMINGCHECK
-            (HOLD C (posedge C) (0.203::0.219))
-            (SETUP C (posedge C) (0.140::0.152))
+            (HOLD INC (posedge C) (0.203::0.219))
+            (SETUP INC (posedge C) (0.140::0.152))
             (HOLD LDPIPEEN (posedge C) (0.108::0.116))
             (SETUP LDPIPEEN (posedge C) (0.031::0.033))
             (HOLD REGRST (posedge C) (0.122::0.132))
@@ -67,10 +51,26 @@
         (TIMINGCHECK
             (HOLD CE (posedge C) (0.143::0.155))
             (SETUP CE (posedge C) (0.187::0.203))
-            (HOLD C (posedge C) (0.203::0.219))
-            (SETUP C (posedge C) (0.140::0.152))
+            (HOLD INC (posedge C) (0.203::0.219))
+            (SETUP INC (posedge C) (0.140::0.152))
             (HOLD LD (posedge C) (0.131::0.141))
             (SETUP LD (posedge C) (0.089::0.097))
+        )
+    )
+    (CELL
+        (CELLTYPE "IDELAYE2CNTVALUEIN_VAR_LOAD")
+        (INSTANCE IDELAYE2)
+        (TIMINGCHECK
+            (HOLD IDELAY_TYPE (posedge C) (0.128::0.138))
+            (SETUP IDELAY_TYPE (posedge C) (0.094::0.102))
+        )
+    )
+    (CELL
+        (CELLTYPE "IDELAYE2CNTVALUEIN_VAR_LOAD_PIPE")
+        (INSTANCE IDELAYE2)
+        (TIMINGCHECK
+            (HOLD IDELAY_TYPE (posedge C) (0.258::0.280))
+            (SETUP IDELAY_TYPE (posedge C) (-0.081::-0.075))
         )
     )
     (CELL
@@ -79,8 +79,8 @@
         (TIMINGCHECK
             (HOLD CE (posedge CK) (-0.076::-0.066))
             (SETUP CE (posedge CK) (0.430::0.726))
-            (HOLD CK (posedge CK) (-0.077::-0.066))
-            (SETUP CK (posedge CK) (0.764::0.922))
+            (HOLD SR (posedge CK) (-0.077::-0.066))
+            (SETUP SR (posedge CK) (0.764::0.922))
         )
     )
     (CELL
@@ -89,8 +89,8 @@
         (TIMINGCHECK
             (HOLD CE (posedge CKB) (-0.076::-0.066))
             (SETUP CE (posedge CKB) (0.430::0.726))
-            (HOLD CK (posedge CK) (0.022::0.026))
-            (SETUP CK (posedge CK) (0.091::0.105))
+            (HOLD D (posedge CK) (0.022::0.026))
+            (SETUP D (posedge CK) (0.091::0.105))
             (HOLD D (posedge CKB) (0.022::0.026))
             (SETUP D (posedge CKB) (0.091::0.105))
         )
@@ -105,15 +105,8 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CK (posedge CK) (0.022::0.026))
-            (SETUP CK (posedge CK) (0.091::0.105))
-        )
-    )
-    (CELL
-        (CELLTYPE "ILOGICE3_IFF_HOLD")
-        (INSTANCE ILOGICE3)
-        (TIMINGCHECK
-            (REMOVAL CK (posedge CK) (-0.409::-0.357))
+            (HOLD D (posedge CK) (0.022::0.026))
+            (SETUP D (posedge CK) (0.091::0.105))
         )
     )
     (CELL
@@ -127,8 +120,8 @@
             )
         )
         (TIMINGCHECK
-            (HOLD CK (posedge CK) (0.140::0.161))
-            (SETUP CK (posedge CK) (0.035::0.041))
+            (HOLD D (posedge CK) (0.140::0.161))
+            (SETUP D (posedge CK) (0.035::0.041))
         )
     )
     (CELL
@@ -156,6 +149,13 @@
         )
     )
     (CELL
+        (CELLTYPE "ILOGICE3_IFF_REMOV")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD SR (posedge CK) (-0.409::-0.357))
+        )
+    )
+    (CELL
         (CELLTYPE "ILOGICE3_IFF_SAMEEDGE")
         (INSTANCE ILOGICE3)
         (DELAY
@@ -171,7 +171,7 @@
         (CELLTYPE "ILOGICE3_IFF_SETUP")
         (INSTANCE ILOGICE3)
         (TIMINGCHECK
-            (RECOVERY CK (posedge CK) (0.518::0.596))
+            (RECOVERY SR (posedge CK) (0.518::0.596))
         )
     )
     (CELL
@@ -189,10 +189,12 @@
         (CELLTYPE "OLOGICE3_OUTFF")
         (INSTANCE OLOGICE3)
         (TIMINGCHECK
-            (HOLD CK (posedge CK) (-0.142::-0.124))
-            (RECOVERY CK (posedge CK) (0.261::0.300))
-            (REMOVAL CK (posedge CK) (0.000::0.000))
-            (SETUP CK (posedge CK) (0.651::0.798))
+            (HOLD OCE (posedge CK) (-0.059::-0.051))
+            (SETUP OCE (posedge CK) (0.380::0.504))
+            (HOLD SR (posedge CK) (-0.142::-0.124))
+            (RECOVERY SR (posedge CK) (0.261::0.300))
+            (REMOVAL SR (posedge CK) (0.000::0.000))
+            (SETUP SR (posedge CK) (0.651::0.798))
         )
     )
     (CELL
@@ -201,16 +203,26 @@
         (TIMINGCHECK
             (HOLD D1 (posedge CK) (-0.164::-0.143))
             (SETUP D1 (posedge CK) (0.689::0.834))
-            (HOLD CK (posedge CK) (-0.164::-0.143))
-            (SETUP CK (posedge CK) (0.689::0.834))
+            (HOLD D2 (posedge CK) (-0.164::-0.143))
+            (SETUP D2 (posedge CK) (0.689::0.834))
         )
     )
     (CELL
         (CELLTYPE "OLOGICE3_OUTFF_DDR_NEG")
         (INSTANCE OLOGICE3)
         (TIMINGCHECK
-            (HOLD CK (posedge CK) (-0.164::-0.143))
-            (SETUP CK (posedge CK) (0.689::0.834))
+            (HOLD D2 (posedge CK) (-0.164::-0.143))
+            (SETUP D2 (posedge CK) (0.689::0.834))
+            (HOLD OCE (posedge CK) (-0.124::-0.108))
+            (SETUP OCE (posedge CK) (0.380::0.482))
+        )
+    )
+    (CELL
+        (CELLTYPE "OLOGICE3_OUTFF_DDR_SAMEEDGE")
+        (INSTANCE OLOGICE3)
+        (TIMINGCHECK
+            (HOLD OCE (posedge CK) (-0.124::-0.108))
+            (SETUP OCE (posedge CK) (0.380::0.482))
         )
     )
     (CELL
@@ -243,30 +255,6 @@
         )
     )
     (CELL
-        (CELLTYPE "OLOGICE3_OUTFF_OCE")
-        (INSTANCE OLOGICE3)
-        (TIMINGCHECK
-            (HOLD CK (posedge CK) (-0.059::-0.051))
-            (SETUP CK (posedge CK) (0.380::0.504))
-        )
-    )
-    (CELL
-        (CELLTYPE "OLOGICE3_OUTFF_OCE_DDR_NEG")
-        (INSTANCE OLOGICE3)
-        (TIMINGCHECK
-            (HOLD CK (posedge CK) (-0.124::-0.108))
-            (SETUP CK (posedge CK) (0.380::0.482))
-        )
-    )
-    (CELL
-        (CELLTYPE "OLOGICE3_OUTFF_OCE_DDR_SAMEEDGE")
-        (INSTANCE OLOGICE3)
-        (TIMINGCHECK
-            (HOLD CK (posedge CK) (-0.124::-0.108))
-            (SETUP CK (posedge CK) (0.380::0.482))
-        )
-    )
-    (CELL
         (CELLTYPE "OLOGICE3_OUTFF_OPPEDGE")
         (INSTANCE OLOGICE3)
         (DELAY
@@ -290,10 +278,12 @@
         (CELLTYPE "OLOGICE3_TFF")
         (INSTANCE OLOGICE3)
         (TIMINGCHECK
-            (HOLD CK (posedge CK) (-0.318::-0.277))
-            (RECOVERY CK (posedge CK) (0.249::0.286))
-            (REMOVAL CK (posedge CK) (0.000::0.000))
-            (SETUP CK (posedge CK) (0.471::0.591))
+            (HOLD SR (posedge CK) (-0.318::-0.277))
+            (RECOVERY SR (posedge CK) (0.249::0.286))
+            (REMOVAL SR (posedge CK) (0.000::0.000))
+            (SETUP SR (posedge CK) (0.471::0.591))
+            (HOLD TCE (posedge CK) (-0.068::-0.060))
+            (SETUP TCE (posedge CK) (0.389::0.505))
         )
     )
     (CELL
@@ -302,16 +292,26 @@
         (TIMINGCHECK
             (HOLD D1 (posedge CK) (-0.302::-0.264))
             (SETUP D1 (posedge CK) (0.707::0.885))
-            (HOLD CK (posedge CK) (-0.302::-0.264))
-            (SETUP CK (posedge CK) (0.622::0.788))
+            (HOLD D2 (posedge CK) (-0.302::-0.264))
+            (SETUP D2 (posedge CK) (0.622::0.788))
         )
     )
     (CELL
         (CELLTYPE "OLOGICE3_TFF_DDR_NEG")
         (INSTANCE OLOGICE3)
         (TIMINGCHECK
-            (HOLD CK (posedge CK) (-0.302::-0.264))
-            (SETUP CK (posedge CK) (0.622::0.788))
+            (HOLD D2 (posedge CK) (-0.302::-0.264))
+            (SETUP D2 (posedge CK) (0.622::0.788))
+            (HOLD TCE (posedge CK) (-0.068::-0.060))
+            (SETUP TCE (posedge CK) (0.389::0.505))
+        )
+    )
+    (CELL
+        (CELLTYPE "OLOGICE3_TFF_DDR_SAMEEDGE")
+        (INSTANCE OLOGICE3)
+        (TIMINGCHECK
+            (HOLD TCE (posedge CK) (-0.068::-0.060))
+            (SETUP TCE (posedge CK) (0.389::0.505))
         )
     )
     (CELL
@@ -361,30 +361,6 @@
                 (IOPATH CLK Q (0.192::0.221)(0.480::0.552))
                 (IOPATH SR Q (0.328::0.377)(0.916::1.054))
             )
-        )
-    )
-    (CELL
-        (CELLTYPE "OLOGICE3_TFF_TCE")
-        (INSTANCE OLOGICE3)
-        (TIMINGCHECK
-            (HOLD CK (posedge CK) (-0.068::-0.060))
-            (SETUP CK (posedge CK) (0.389::0.505))
-        )
-    )
-    (CELL
-        (CELLTYPE "OLOGICE3_TFF_TCE_DDR_NEG")
-        (INSTANCE OLOGICE3)
-        (TIMINGCHECK
-            (HOLD CK (posedge CK) (-0.068::-0.060))
-            (SETUP CK (posedge CK) (0.389::0.505))
-        )
-    )
-    (CELL
-        (CELLTYPE "OLOGICE3_TFF_TCE_DDR_SAMEEDGE")
-        (INSTANCE OLOGICE3)
-        (TIMINGCHECK
-            (HOLD CK (posedge CK) (-0.068::-0.060))
-            (SETUP CK (posedge CK) (0.389::0.505))
         )
     )
 )
