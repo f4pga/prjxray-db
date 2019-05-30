@@ -1,14 +1,14 @@
 
 (DELAYFILE
     (SDFVERSION "3.0")
-    (TIMESCALE 1ps)
+    (TIMESCALE 1ns)
 
     (CELL
         (CELLTYPE "CAPTURE")
         (INSTANCE CAPTURE)
         (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.000::0.000))
-            (SETUP CLK (posedge CLK) (3.725::4.285))
+            (HOLD CAP (posedge CLK) (0.000::0.000))
+            (SETUP CAP (posedge CLK) (3.725::4.285))
         )
     )
     (CELL
