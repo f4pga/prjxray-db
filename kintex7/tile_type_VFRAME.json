@@ -2,228 +2,600 @@
     "pips": {},
     "sites": [],
     "tile_type": "VFRAME",
-    "wires": [
-        "VFRAME_BLOCK_OUTS_B0",
-        "VFRAME_BLOCK_OUTS_B1",
-        "VFRAME_BLOCK_OUTS_B2",
-        "VFRAME_BLOCK_OUTS_B3",
-        "VFRAME_BYP0",
-        "VFRAME_BYP1",
-        "VFRAME_BYP2",
-        "VFRAME_BYP3",
-        "VFRAME_BYP4",
-        "VFRAME_BYP5",
-        "VFRAME_BYP6",
-        "VFRAME_BYP7",
-        "VFRAME_CLK0",
-        "VFRAME_CLK1",
-        "VFRAME_CTRL0",
-        "VFRAME_CTRL1",
-        "VFRAME_EE2A0",
-        "VFRAME_EE2A1",
-        "VFRAME_EE2A2",
-        "VFRAME_EE2A3",
-        "VFRAME_EE2BEG0",
-        "VFRAME_EE2BEG1",
-        "VFRAME_EE2BEG2",
-        "VFRAME_EE2BEG3",
-        "VFRAME_EE4A0",
-        "VFRAME_EE4A1",
-        "VFRAME_EE4A2",
-        "VFRAME_EE4A3",
-        "VFRAME_EE4B0",
-        "VFRAME_EE4B1",
-        "VFRAME_EE4B2",
-        "VFRAME_EE4B3",
-        "VFRAME_EE4BEG0",
-        "VFRAME_EE4BEG1",
-        "VFRAME_EE4BEG2",
-        "VFRAME_EE4BEG3",
-        "VFRAME_EE4C0",
-        "VFRAME_EE4C1",
-        "VFRAME_EE4C2",
-        "VFRAME_EE4C3",
-        "VFRAME_EL1BEG0",
-        "VFRAME_EL1BEG1",
-        "VFRAME_EL1BEG2",
-        "VFRAME_EL1BEG3",
-        "VFRAME_ER1BEG0",
-        "VFRAME_ER1BEG1",
-        "VFRAME_ER1BEG2",
-        "VFRAME_ER1BEG3",
-        "VFRAME_FAN0",
-        "VFRAME_FAN1",
-        "VFRAME_FAN2",
-        "VFRAME_FAN3",
-        "VFRAME_FAN4",
-        "VFRAME_FAN5",
-        "VFRAME_FAN6",
-        "VFRAME_FAN7",
-        "VFRAME_IMUX0",
-        "VFRAME_IMUX1",
-        "VFRAME_IMUX10",
-        "VFRAME_IMUX11",
-        "VFRAME_IMUX12",
-        "VFRAME_IMUX13",
-        "VFRAME_IMUX14",
-        "VFRAME_IMUX15",
-        "VFRAME_IMUX16",
-        "VFRAME_IMUX17",
-        "VFRAME_IMUX18",
-        "VFRAME_IMUX19",
-        "VFRAME_IMUX2",
-        "VFRAME_IMUX20",
-        "VFRAME_IMUX21",
-        "VFRAME_IMUX22",
-        "VFRAME_IMUX23",
-        "VFRAME_IMUX24",
-        "VFRAME_IMUX25",
-        "VFRAME_IMUX26",
-        "VFRAME_IMUX27",
-        "VFRAME_IMUX28",
-        "VFRAME_IMUX29",
-        "VFRAME_IMUX3",
-        "VFRAME_IMUX30",
-        "VFRAME_IMUX31",
-        "VFRAME_IMUX32",
-        "VFRAME_IMUX33",
-        "VFRAME_IMUX34",
-        "VFRAME_IMUX35",
-        "VFRAME_IMUX36",
-        "VFRAME_IMUX37",
-        "VFRAME_IMUX38",
-        "VFRAME_IMUX39",
-        "VFRAME_IMUX4",
-        "VFRAME_IMUX40",
-        "VFRAME_IMUX41",
-        "VFRAME_IMUX42",
-        "VFRAME_IMUX43",
-        "VFRAME_IMUX44",
-        "VFRAME_IMUX45",
-        "VFRAME_IMUX46",
-        "VFRAME_IMUX47",
-        "VFRAME_IMUX5",
-        "VFRAME_IMUX6",
-        "VFRAME_IMUX7",
-        "VFRAME_IMUX8",
-        "VFRAME_IMUX9",
-        "VFRAME_LH1",
-        "VFRAME_LH10",
-        "VFRAME_LH11",
-        "VFRAME_LH12",
-        "VFRAME_LH2",
-        "VFRAME_LH3",
-        "VFRAME_LH4",
-        "VFRAME_LH5",
-        "VFRAME_LH6",
-        "VFRAME_LH7",
-        "VFRAME_LH8",
-        "VFRAME_LH9",
-        "VFRAME_LOGIC_OUTS_B0",
-        "VFRAME_LOGIC_OUTS_B1",
-        "VFRAME_LOGIC_OUTS_B10",
-        "VFRAME_LOGIC_OUTS_B11",
-        "VFRAME_LOGIC_OUTS_B12",
-        "VFRAME_LOGIC_OUTS_B13",
-        "VFRAME_LOGIC_OUTS_B14",
-        "VFRAME_LOGIC_OUTS_B15",
-        "VFRAME_LOGIC_OUTS_B16",
-        "VFRAME_LOGIC_OUTS_B17",
-        "VFRAME_LOGIC_OUTS_B18",
-        "VFRAME_LOGIC_OUTS_B19",
-        "VFRAME_LOGIC_OUTS_B2",
-        "VFRAME_LOGIC_OUTS_B20",
-        "VFRAME_LOGIC_OUTS_B21",
-        "VFRAME_LOGIC_OUTS_B22",
-        "VFRAME_LOGIC_OUTS_B23",
-        "VFRAME_LOGIC_OUTS_B3",
-        "VFRAME_LOGIC_OUTS_B4",
-        "VFRAME_LOGIC_OUTS_B5",
-        "VFRAME_LOGIC_OUTS_B6",
-        "VFRAME_LOGIC_OUTS_B7",
-        "VFRAME_LOGIC_OUTS_B8",
-        "VFRAME_LOGIC_OUTS_B9",
-        "VFRAME_MONITOR_N",
-        "VFRAME_MONITOR_P",
-        "VFRAME_NE2A0",
-        "VFRAME_NE2A1",
-        "VFRAME_NE2A2",
-        "VFRAME_NE2A3",
-        "VFRAME_NE4BEG0",
-        "VFRAME_NE4BEG1",
-        "VFRAME_NE4BEG2",
-        "VFRAME_NE4BEG3",
-        "VFRAME_NE4C0",
-        "VFRAME_NE4C1",
-        "VFRAME_NE4C2",
-        "VFRAME_NE4C3",
-        "VFRAME_NW2A0",
-        "VFRAME_NW2A1",
-        "VFRAME_NW2A2",
-        "VFRAME_NW2A3",
-        "VFRAME_NW4A0",
-        "VFRAME_NW4A1",
-        "VFRAME_NW4A2",
-        "VFRAME_NW4A3",
-        "VFRAME_NW4END0",
-        "VFRAME_NW4END1",
-        "VFRAME_NW4END2",
-        "VFRAME_NW4END3",
-        "VFRAME_SE2A0",
-        "VFRAME_SE2A1",
-        "VFRAME_SE2A2",
-        "VFRAME_SE2A3",
-        "VFRAME_SE4BEG0",
-        "VFRAME_SE4BEG1",
-        "VFRAME_SE4BEG2",
-        "VFRAME_SE4BEG3",
-        "VFRAME_SE4C0",
-        "VFRAME_SE4C1",
-        "VFRAME_SE4C2",
-        "VFRAME_SE4C3",
-        "VFRAME_SW2A0",
-        "VFRAME_SW2A1",
-        "VFRAME_SW2A2",
-        "VFRAME_SW2A3",
-        "VFRAME_SW4A0",
-        "VFRAME_SW4A1",
-        "VFRAME_SW4A2",
-        "VFRAME_SW4A3",
-        "VFRAME_SW4END0",
-        "VFRAME_SW4END1",
-        "VFRAME_SW4END2",
-        "VFRAME_SW4END3",
-        "VFRAME_WL1END0",
-        "VFRAME_WL1END1",
-        "VFRAME_WL1END2",
-        "VFRAME_WL1END3",
-        "VFRAME_WR1END0",
-        "VFRAME_WR1END1",
-        "VFRAME_WR1END2",
-        "VFRAME_WR1END3",
-        "VFRAME_WW2A0",
-        "VFRAME_WW2A1",
-        "VFRAME_WW2A2",
-        "VFRAME_WW2A3",
-        "VFRAME_WW2END0",
-        "VFRAME_WW2END1",
-        "VFRAME_WW2END2",
-        "VFRAME_WW2END3",
-        "VFRAME_WW4A0",
-        "VFRAME_WW4A1",
-        "VFRAME_WW4A2",
-        "VFRAME_WW4A3",
-        "VFRAME_WW4B0",
-        "VFRAME_WW4B1",
-        "VFRAME_WW4B2",
-        "VFRAME_WW4B3",
-        "VFRAME_WW4C0",
-        "VFRAME_WW4C1",
-        "VFRAME_WW4C2",
-        "VFRAME_WW4C3",
-        "VFRAME_WW4END0",
-        "VFRAME_WW4END1",
-        "VFRAME_WW4END2",
-        "VFRAME_WW4END3"
-    ]
+    "wires": {
+        "VFRAME_BLOCK_OUTS_B0": null,
+        "VFRAME_BLOCK_OUTS_B1": null,
+        "VFRAME_BLOCK_OUTS_B2": null,
+        "VFRAME_BLOCK_OUTS_B3": null,
+        "VFRAME_BYP0": null,
+        "VFRAME_BYP1": null,
+        "VFRAME_BYP2": null,
+        "VFRAME_BYP3": null,
+        "VFRAME_BYP4": null,
+        "VFRAME_BYP5": null,
+        "VFRAME_BYP6": null,
+        "VFRAME_BYP7": null,
+        "VFRAME_CLK0": null,
+        "VFRAME_CLK1": null,
+        "VFRAME_CTRL0": null,
+        "VFRAME_CTRL1": null,
+        "VFRAME_EE2A0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE2A1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE2A2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE2A3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE2BEG0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE2BEG1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE2BEG2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE2BEG3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4A0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4A1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4A2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4A3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4B0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4B1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4B2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4B3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4BEG0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4BEG1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4BEG2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4BEG3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4C0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4C1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4C2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EE4C3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EL1BEG0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EL1BEG1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EL1BEG2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_EL1BEG3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_ER1BEG0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_ER1BEG1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_ER1BEG2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_ER1BEG3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_FAN0": null,
+        "VFRAME_FAN1": null,
+        "VFRAME_FAN2": null,
+        "VFRAME_FAN3": null,
+        "VFRAME_FAN4": null,
+        "VFRAME_FAN5": null,
+        "VFRAME_FAN6": null,
+        "VFRAME_FAN7": null,
+        "VFRAME_IMUX0": null,
+        "VFRAME_IMUX1": null,
+        "VFRAME_IMUX10": null,
+        "VFRAME_IMUX11": null,
+        "VFRAME_IMUX12": null,
+        "VFRAME_IMUX13": null,
+        "VFRAME_IMUX14": null,
+        "VFRAME_IMUX15": null,
+        "VFRAME_IMUX16": null,
+        "VFRAME_IMUX17": null,
+        "VFRAME_IMUX18": null,
+        "VFRAME_IMUX19": null,
+        "VFRAME_IMUX2": null,
+        "VFRAME_IMUX20": null,
+        "VFRAME_IMUX21": null,
+        "VFRAME_IMUX22": null,
+        "VFRAME_IMUX23": null,
+        "VFRAME_IMUX24": null,
+        "VFRAME_IMUX25": null,
+        "VFRAME_IMUX26": null,
+        "VFRAME_IMUX27": null,
+        "VFRAME_IMUX28": null,
+        "VFRAME_IMUX29": null,
+        "VFRAME_IMUX3": null,
+        "VFRAME_IMUX30": null,
+        "VFRAME_IMUX31": null,
+        "VFRAME_IMUX32": null,
+        "VFRAME_IMUX33": null,
+        "VFRAME_IMUX34": null,
+        "VFRAME_IMUX35": null,
+        "VFRAME_IMUX36": null,
+        "VFRAME_IMUX37": null,
+        "VFRAME_IMUX38": null,
+        "VFRAME_IMUX39": null,
+        "VFRAME_IMUX4": null,
+        "VFRAME_IMUX40": null,
+        "VFRAME_IMUX41": null,
+        "VFRAME_IMUX42": null,
+        "VFRAME_IMUX43": null,
+        "VFRAME_IMUX44": null,
+        "VFRAME_IMUX45": null,
+        "VFRAME_IMUX46": null,
+        "VFRAME_IMUX47": null,
+        "VFRAME_IMUX5": null,
+        "VFRAME_IMUX6": null,
+        "VFRAME_IMUX7": null,
+        "VFRAME_IMUX8": null,
+        "VFRAME_IMUX9": null,
+        "VFRAME_LH1": {
+            "cap": "8.290",
+            "res": "2.090"
+        },
+        "VFRAME_LH10": {
+            "cap": "8.290",
+            "res": "2.090"
+        },
+        "VFRAME_LH11": {
+            "cap": "8.290",
+            "res": "2.090"
+        },
+        "VFRAME_LH12": {
+            "cap": "8.290",
+            "res": "2.090"
+        },
+        "VFRAME_LH2": {
+            "cap": "8.290",
+            "res": "2.090"
+        },
+        "VFRAME_LH3": {
+            "cap": "8.290",
+            "res": "2.090"
+        },
+        "VFRAME_LH4": {
+            "cap": "8.290",
+            "res": "2.090"
+        },
+        "VFRAME_LH5": {
+            "cap": "8.290",
+            "res": "2.090"
+        },
+        "VFRAME_LH6": {
+            "cap": "8.290",
+            "res": "2.090"
+        },
+        "VFRAME_LH7": {
+            "cap": "8.290",
+            "res": "2.090"
+        },
+        "VFRAME_LH8": {
+            "cap": "8.290",
+            "res": "2.090"
+        },
+        "VFRAME_LH9": {
+            "cap": "8.290",
+            "res": "2.090"
+        },
+        "VFRAME_LOGIC_OUTS_B0": null,
+        "VFRAME_LOGIC_OUTS_B1": null,
+        "VFRAME_LOGIC_OUTS_B10": null,
+        "VFRAME_LOGIC_OUTS_B11": null,
+        "VFRAME_LOGIC_OUTS_B12": null,
+        "VFRAME_LOGIC_OUTS_B13": null,
+        "VFRAME_LOGIC_OUTS_B14": null,
+        "VFRAME_LOGIC_OUTS_B15": null,
+        "VFRAME_LOGIC_OUTS_B16": null,
+        "VFRAME_LOGIC_OUTS_B17": null,
+        "VFRAME_LOGIC_OUTS_B18": null,
+        "VFRAME_LOGIC_OUTS_B19": null,
+        "VFRAME_LOGIC_OUTS_B2": null,
+        "VFRAME_LOGIC_OUTS_B20": null,
+        "VFRAME_LOGIC_OUTS_B21": null,
+        "VFRAME_LOGIC_OUTS_B22": null,
+        "VFRAME_LOGIC_OUTS_B23": null,
+        "VFRAME_LOGIC_OUTS_B3": null,
+        "VFRAME_LOGIC_OUTS_B4": null,
+        "VFRAME_LOGIC_OUTS_B5": null,
+        "VFRAME_LOGIC_OUTS_B6": null,
+        "VFRAME_LOGIC_OUTS_B7": null,
+        "VFRAME_LOGIC_OUTS_B8": null,
+        "VFRAME_LOGIC_OUTS_B9": null,
+        "VFRAME_MONITOR_N": null,
+        "VFRAME_MONITOR_P": null,
+        "VFRAME_NE2A0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NE2A1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NE2A2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NE2A3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NE4BEG0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NE4BEG1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NE4BEG2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NE4BEG3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NE4C0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NE4C1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NE4C2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NE4C3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NW2A0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NW2A1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NW2A2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NW2A3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NW4A0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NW4A1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NW4A2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NW4A3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NW4END0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NW4END1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NW4END2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_NW4END3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SE2A0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SE2A1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SE2A2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SE2A3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SE4BEG0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SE4BEG1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SE4BEG2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SE4BEG3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SE4C0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SE4C1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SE4C2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SE4C3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SW2A0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SW2A1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SW2A2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SW2A3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SW4A0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SW4A1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SW4A2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SW4A3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SW4END0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SW4END1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SW4END2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_SW4END3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WL1END0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WL1END1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WL1END2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WL1END3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WR1END0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WR1END1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WR1END2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WR1END3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW2A0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW2A1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW2A2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW2A3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW2END0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW2END1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW2END2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW2END3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4A0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4A1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4A2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4A3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4B0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4B1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4B2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4B3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4C0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4C1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4C2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4C3": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4END0": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4END1": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4END2": {
+            "cap": "5.840",
+            "res": "43.670"
+        },
+        "VFRAME_WW4END3": {
+            "cap": "5.840",
+            "res": "43.670"
+        }
+    }
 }
