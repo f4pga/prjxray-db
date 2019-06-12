@@ -37,7 +37,7 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Wed 12 Jun 2019 11:10:45 AM UTC (2019-06-12T11:10:45+00:00).
+Last updated on Wed 12 Jun 2019 11:15:19 AM UTC (2019-06-12T11:15:19+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [d31319cc](https://github.com/SymbiFlow/prjxray/commit/d31319ccaa6f6fc4d1106890f9d72d908fa03b52).
 
@@ -549,8 +549,8 @@ Results have checksums;
  * [`be757fb834be7ff84a2873c0ac6621c909a5e85362b397667760edde86616f84  ./kintex7/mask_hclk_cmt_l.db`](./kintex7/mask_hclk_cmt_l.db)
  * [`76d1e0bd4b7ad492cf3fe8698b2b5f46f7dcc5fe446984e5dccae373c63edafd  ./kintex7/mask_hclk_l.db`](./kintex7/mask_hclk_l.db)
  * [`76d1e0bd4b7ad492cf3fe8698b2b5f46f7dcc5fe446984e5dccae373c63edafd  ./kintex7/mask_hclk_r.db`](./kintex7/mask_hclk_r.db)
- * [`ed65abf0ca2a6f2c9ca8d7243d121c5f93d3b4eb82fe393c7ad6564d87ede677  ./kintex7/mask_liob33.db`](./kintex7/mask_liob33.db)
- * [`ed65abf0ca2a6f2c9ca8d7243d121c5f93d3b4eb82fe393c7ad6564d87ede677  ./kintex7/mask_riob33.db`](./kintex7/mask_riob33.db)
+ * [`39464f84a13099f9db621d59d5743451ace33769b48d2bc0c1f925ad55921fd9  ./kintex7/mask_liob33.db`](./kintex7/mask_liob33.db)
+ * [`39464f84a13099f9db621d59d5743451ace33769b48d2bc0c1f925ad55921fd9  ./kintex7/mask_riob33.db`](./kintex7/mask_riob33.db)
  * [`d94e4d13df16da498224f0e94deaa310fbf471b6f9ec0ec8b2308fe62fa2eeaf  ./kintex7/ppips_bram_int_interface_l.db`](./kintex7/ppips_bram_int_interface_l.db)
  * [`b48d766ac6f9dd0e21280d3a04dd448ea39016143309c0c7867fc00d730a59ae  ./kintex7/ppips_bram_int_interface_r.db`](./kintex7/ppips_bram_int_interface_r.db)
  * [`2c68f8b128aeb79197013c3a1774522143a3507a8fa595a98c22dba2553fd5ce  ./kintex7/ppips_bram_l.db`](./kintex7/ppips_bram_l.db)
@@ -615,9 +615,9 @@ Results have checksums;
  * [`51288ec0be63172fcb2a12a92853150c62a21e894c2d42a2586046c462bf57a9  ./kintex7/segbits_hclk_r.db`](./kintex7/segbits_hclk_r.db)
  * [`0e9b5da6def4776e2ca8dd59af8f4334bf5cfb88d99b323be25dd6ba2e3386f7  ./kintex7/segbits_hclk_r.origin_info.db`](./kintex7/segbits_hclk_r.origin_info.db)
  * [`0ea44e8dfaf97ed200f30b2afe117e94e1a68bdb26af2e09e69e855414779520  ./kintex7/segbits_int_l.db`](./kintex7/segbits_int_l.db)
- * [`49c069c16d523b004f057ea149f02bf9deb10f71d484be4b2d0a280668ebc45e  ./kintex7/segbits_int_l.origin_info.db`](./kintex7/segbits_int_l.origin_info.db)
- * [`74677110ea4768e641743e8c1cf810c4ffb00c6ea4f09f41144d45f0e89416c7  ./kintex7/segbits_int_r.db`](./kintex7/segbits_int_r.db)
- * [`fe0c624c0f306c1a67656b6abe2ff2d5946e574cf3870fc4aefcb71b4a7fb695  ./kintex7/segbits_int_r.origin_info.db`](./kintex7/segbits_int_r.origin_info.db)
+ * [`28ddaa813f0aefd5e712ba3c5cd49d044d34f7365b1b293d808b1a313e354ad3  ./kintex7/segbits_int_l.origin_info.db`](./kintex7/segbits_int_l.origin_info.db)
+ * [`1541c7832dd161c5b3b5745d08fe0ee6f92bfbd372b76c12f54afc032c888556  ./kintex7/segbits_int_r.db`](./kintex7/segbits_int_r.db)
+ * [`1d06c2bca4a250df7227374b75d8c55ae5abd09a1c0290f4e59f1d08ba86b05f  ./kintex7/segbits_int_r.origin_info.db`](./kintex7/segbits_int_r.origin_info.db)
  * [`bed06fc405947c72a47a7fbac7adbc220efd2dc8d73f321ed70b8d2490ab745b  ./kintex7/segbits_liob33.db`](./kintex7/segbits_liob33.db)
  * [`61fef185b5fd5aa46425d9e28b61f0d6b1b4c4a0577f1452801a6531c45bee7b  ./kintex7/segbits_liob33.origin_info.db`](./kintex7/segbits_liob33.origin_info.db)
  * [`8ec421f8f4ce1bab7e81bcbf0cbdc37fb3f6ed4715bc2fdf75db336805efc53e  ./kintex7/segbits_riob33.db`](./kintex7/segbits_riob33.db)
@@ -788,7 +788,7 @@ Results have checksums;
  * [`5fb8795e142a7bc6955e6c50089540c890aeb3b3a6c326e6e24a6e4983d91f62  ./kintex7/tile_type_VBRK_EXT.json`](./kintex7/tile_type_VBRK_EXT.json)
  * [`63851d7ed48855486ee7e04a6332935799e8d2f3524ec6d627ea6e5d2e7cbfa4  ./kintex7/tile_type_VFRAME.json`](./kintex7/tile_type_VFRAME.json)
  * [`77985c4643b2984db517096deb4fc80ae992794089aea91c21b456d81fcbadd2  ./kintex7/tileconn.json`](./kintex7/tileconn.json)
- * [`be96cc131b66806e957bb25142ff6a47dbc06894e49cd2c4beddf7a39ee814b1  ./kintex7/tilegrid.json`](./kintex7/tilegrid.json)
+ * [`ba5abaffef95482f5273f17f4ecc825e999318f4dcfe1c001c161e951edfac55  ./kintex7/tilegrid.json`](./kintex7/tilegrid.json)
  * [`916a9b924454c10b835d561d80434461c5a9a2824bf85c3cdeeee5f0dedfcb24  ./kintex7/xc7k70tfbg676-2.json`](./kintex7/xc7k70tfbg676-2.json)
  * [`44c1530cc9a184551c98face08bd4ab0a7ec3883623175a52da5c59fba9bfa38  ./kintex7/xc7k70tfbg676-2.yaml`](./kintex7/xc7k70tfbg676-2.yaml)
  * [`f7b5e70b102e1e3d624f61c470f77374f14136579f69a92c061485fddea92239  ./kintex7/xc7k70tfbg676-2_package_pins.csv`](./kintex7/xc7k70tfbg676-2_package_pins.csv)
