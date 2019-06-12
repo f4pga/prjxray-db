@@ -4513,7 +4513,14 @@
         "type": "CFG_CENTER_BOT"
     },
     "CFG_CENTER_MID_X67Y32": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401100",
+                "frames": 30,
+                "offset": 0,
+                "words": 101
+            }
+        },
         "grid_x": 67,
         "grid_y": 72,
         "sites": {

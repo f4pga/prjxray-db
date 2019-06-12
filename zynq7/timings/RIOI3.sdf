@@ -110,6 +110,13 @@
         )
     )
     (CELL
+        (CELLTYPE "ILOGICE3_IFF_HOLD")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (REMOVAL SR (posedge CK) (-0.409::-0.357))
+        )
+    )
+    (CELL
         (CELLTYPE "ILOGICE3_IFF_LAT")
         (INSTANCE ILOGICE3)
         (DELAY
@@ -149,10 +156,10 @@
         )
     )
     (CELL
-        (CELLTYPE "ILOGICE3_IFF_REMOV")
+        (CELLTYPE "ILOGICE3_IFF_RECOV")
         (INSTANCE ILOGICE3)
         (TIMINGCHECK
-            (HOLD SR (posedge CK) (-0.409::-0.357))
+            (SETUP SR (posedge CK) (0.518::0.596))
         )
     )
     (CELL
@@ -165,13 +172,6 @@
                 (IOPATH SR Q1 (0.200::0.230)(0.665::0.765))
                 (IOPATH SR Q2 (0.200::0.230)(0.665::0.765))
             )
-        )
-    )
-    (CELL
-        (CELLTYPE "ILOGICE3_IFF_SETUP")
-        (INSTANCE ILOGICE3)
-        (TIMINGCHECK
-            (RECOVERY SR (posedge CK) (0.518::0.596))
         )
     )
     (CELL
