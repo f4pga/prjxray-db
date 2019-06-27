@@ -667,9 +667,6 @@
         (TIMINGCHECK
                 (HOLD DIN (posedge CLK) (0.181::0.225))
         )
-        (TIMINGCHECK
-                (HOLD INIT (posedge CLK) (-0.074::-0.06))
-        )
         (DELAY
             (ABSOLUTE
                 (IOPATH CLK Q (0.099::0.124)(0.244::0.303))
@@ -681,13 +678,15 @@
         (TIMINGCHECK
                 (SETUP DIN (posedge CLK) (-0.057::-0.046))
         )
-        (TIMINGCHECK
-                (SETUP INIT (posedge CLK) (0.345::0.428))
-        )
     )
     (CELL
         (CELLTYPE "FF_INIT_QH")
         (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SR Q (0.182::0.227)(0.445::0.552))
+            )
+        )
         (TIMINGCHECK
                 (RECOVERY SR (posedge CLK) (0.288::0.358))
         )
@@ -698,6 +697,11 @@
     (CELL
         (CELLTYPE "FF_INIT_QL")
         (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SR Q (0.233::0.29)(0.616::0.764))
+            )
+        )
         (TIMINGCHECK
                 (RECOVERY SR (posedge CLK) (0.326::0.404))
         )
@@ -966,9 +970,6 @@
         (TIMINGCHECK
                 (HOLD DIN (posedge CLK) (0.194::0.241))
         )
-        (TIMINGCHECK
-                (HOLD INIT (posedge CLK) (-0.074::-0.06))
-        )
         (DELAY
             (ABSOLUTE
                 (IOPATH CLK Q (0.112::0.139)(0.274::0.34))
@@ -980,13 +981,15 @@
         (TIMINGCHECK
                 (SETUP DIN (posedge CLK) (-0.055::-0.045))
         )
-        (TIMINGCHECK
-                (SETUP INIT (posedge CLK) (0.345::0.428))
-        )
     )
     (CELL
         (CELLTYPE "REG_INIT_FF_QH")
         (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SR Q (0.195::0.243)(0.476::0.591))
+            )
+        )
         (TIMINGCHECK
                 (RECOVERY SR (posedge CLK) (0.288::0.358))
         )
@@ -997,6 +1000,11 @@
     (CELL
         (CELLTYPE "REG_INIT_FF_QL")
         (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SR Q (0.246::0.306)(0.662::0.821))
+            )
+        )
         (TIMINGCHECK
                 (RECOVERY SR (posedge CLK) (0.326::0.404))
         )
@@ -1054,6 +1062,24 @@
         (DELAY
             (ABSOLUTE
                 (IOPATH SR Q (0.164::0.204)(0.638::0.791))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_LAT_QH")
+        (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SR Q (0.164::0.204)(0.487::0.604))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_LAT_QL")
+        (INSTANCE SLICEL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SR Q (0.198::0.246)(0.638::0.791))
             )
         )
     )

@@ -65,6 +65,11 @@
                 (IOPATH MEMREFCLK DQSFOUND (0.204::0.217)(0.379::0.402))
                 (IOPATH RST DQSOUTOFRANGE (0.094::0.100)(0.186::0.198))
                 (IOPATH RST PHASELOCKED (0.094::0.100)(0.186::0.198))
+                (IOPATH SCANCLK SCANOUT (0.094::0.100)(0.186::0.198))
+                (IOPATH SYSCLK COUNTERREADVAL (0.132::0.140)(0.255::0.271))
+                (IOPATH SYSCLK FINEOVERFLOW (0.344::0.365)(0.667::0.708))
+                (IOPATH SYSCLK STG1OVERFLOW (0.230::0.244)(0.431::0.458))
+                (IOPATH SYSCLK STG1REGR (0.222::0.236)(0.459::0.487))
             )
         )
         (TIMINGCHECK
@@ -181,17 +186,6 @@
                 (IOPATH PHASEREFCLK ICLK (0.000::0.000)(0.000::0.000))
                 (IOPATH PHASEREFCLK ICLKDIV (0.000::0.000)(0.000::0.000))
                 (IOPATH PHASEREFCLK RCLK (0.000::0.000)(0.000::0.000))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "PHASER_OUT_PHY_PHASER_OUT_PHYPHASER_OUT_ADV")
-        (INSTANCE PHASER_OUT_PHY)
-        (DELAY
-            (ABSOLUTE
-                (IOPATH CTSBUS OCLK (0.351::0.373)(0.529::0.562))
-                (IOPATH DQSBUS OCLK (0.346::0.367)(0.518::0.550))
-                (IOPATH DTSBUS OCLK (0.137::0.145)(0.254::0.270))
             )
         )
     )
@@ -324,6 +318,14 @@
     (CELL
         (CELLTYPE "PHASER_OUT_PHY_PHASER_OUT_PHYPHASER_OUT_PHY")
         (INSTANCE PHASER_OUT_PHY)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SCANCLK SCANOUT (0.094::0.100)(0.186::0.198))
+                (IOPATH SYSCLK COARSEOVERFLOW (0.143::0.152)(0.274::0.291))
+                (IOPATH SYSCLK COUNTERREADVAL (0.123::0.131)(0.251::0.267))
+                (IOPATH SYSCLK FINEOVERFLOW (0.182::0.193)(0.337::0.358))
+            )
+        )
         (TIMINGCHECK
             (HOLD BURSTPENDING (posedge SYSCLK) (0.000::0.000))
             (SETUP BURSTPENDING (posedge SYSCLK) (0.126::0.134))
@@ -394,6 +396,9 @@
         (INSTANCE PHASER_OUT_PHY)
         (DELAY
             (ABSOLUTE
+                (IOPATH PHASEREFCLK CTSBUS (0.000::0.000)(0.000::0.000))
+                (IOPATH PHASEREFCLK DQSBUS (0.000::0.000)(0.000::0.000))
+                (IOPATH PHASEREFCLK DTSBUS (0.000::0.000)(0.000::0.000))
                 (IOPATH PHASEREFCLK OCLK (0.000::0.000)(0.000::0.000))
                 (IOPATH PHASEREFCLK OCLKDIV (0.000::0.000)(0.000::0.000))
                 (IOPATH PHASEREFCLK OSERDESRST (0.000::0.000)(0.000::0.000))
@@ -406,6 +411,9 @@
         (INSTANCE PHASER_OUT_PHY)
         (DELAY
             (ABSOLUTE
+                (IOPATH MEMREFCLK CTSBUS (0.000::0.000)(0.000::0.000))
+                (IOPATH MEMREFCLK DQSBUS (0.000::0.000)(0.000::0.000))
+                (IOPATH MEMREFCLK DTSBUS (0.000::0.000)(0.000::0.000))
                 (IOPATH MEMREFCLK OCLK (0.000::0.000)(0.000::0.000))
                 (IOPATH MEMREFCLK OCLKDIV (0.000::0.000)(0.000::0.000))
                 (IOPATH MEMREFCLK OSERDESRST (0.000::0.000)(0.000::0.000))
@@ -454,6 +462,9 @@
         (INSTANCE PHASER_OUT_PHY)
         (DELAY
             (ABSOLUTE
+                (IOPATH PHASEREFCLK CTSBUS (0.000::0.000)(0.000::0.000))
+                (IOPATH PHASEREFCLK DQSBUS (0.000::0.000)(0.000::0.000))
+                (IOPATH PHASEREFCLK DTSBUS (0.000::0.000)(0.000::0.000))
                 (IOPATH PHASEREFCLK OCLK (0.000::0.000)(0.000::0.000))
                 (IOPATH PHASEREFCLK OCLKDIV (0.000::0.000)(0.000::0.000))
                 (IOPATH PHASEREFCLK OSERDESRST (0.000::0.000)(0.000::0.000))
@@ -466,6 +477,9 @@
         (INSTANCE PHASER_OUT_PHY)
         (DELAY
             (ABSOLUTE
+                (IOPATH MEMREFCLK CTSBUS (0.000::0.000)(0.000::0.000))
+                (IOPATH MEMREFCLK DQSBUS (0.000::0.000)(0.000::0.000))
+                (IOPATH MEMREFCLK DTSBUS (0.000::0.000)(0.000::0.000))
                 (IOPATH MEMREFCLK OCLK (0.000::0.000)(0.000::0.000))
                 (IOPATH MEMREFCLK OCLKDIV (0.000::0.000)(0.000::0.000))
                 (IOPATH MEMREFCLK OSERDESRST (0.000::0.000)(0.000::0.000))
