@@ -139433,7 +139433,14 @@
         "type": "RIOB33"
     },
     "RIOI3_SING_X31Y0": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 0,
+                "words": 2
+            }
+        },
         "grid_x": 126,
         "grid_y": 103,
         "sites": {
@@ -139444,7 +139451,14 @@
         "type": "RIOI3_SING"
     },
     "RIOI3_SING_X31Y49": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 99,
+                "words": 2
+            }
+        },
         "grid_x": 126,
         "grid_y": 53,
         "sites": {
@@ -139455,7 +139469,14 @@
         "type": "RIOI3_SING"
     },
     "RIOI3_SING_X31Y50": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 0,
+                "words": 2
+            }
+        },
         "grid_x": 126,
         "grid_y": 51,
         "sites": {
@@ -139466,7 +139487,14 @@
         "type": "RIOI3_SING"
     },
     "RIOI3_SING_X31Y99": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 99,
+                "words": 2
+            }
+        },
         "grid_x": 126,
         "grid_y": 1,
         "sites": {
@@ -139477,7 +139505,14 @@
         "type": "RIOI3_SING"
     },
     "RIOI3_TBYTESRC_X31Y19": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 38,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 84,
         "sites": {
@@ -139491,7 +139526,14 @@
         "type": "RIOI3_TBYTESRC"
     },
     "RIOI3_TBYTESRC_X31Y31": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 63,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 71,
         "sites": {
@@ -139505,7 +139547,14 @@
         "type": "RIOI3_TBYTESRC"
     },
     "RIOI3_TBYTESRC_X31Y43": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 87,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 59,
         "sites": {
@@ -139519,7 +139568,14 @@
         "type": "RIOI3_TBYTESRC"
     },
     "RIOI3_TBYTESRC_X31Y57": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 14,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 44,
         "sites": {
@@ -139533,7 +139589,14 @@
         "type": "RIOI3_TBYTESRC"
     },
     "RIOI3_TBYTESRC_X31Y69": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 38,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 32,
         "sites": {
@@ -139547,7 +139610,14 @@
         "type": "RIOI3_TBYTESRC"
     },
     "RIOI3_TBYTESRC_X31Y7": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 14,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 96,
         "sites": {
@@ -139561,7 +139631,14 @@
         "type": "RIOI3_TBYTESRC"
     },
     "RIOI3_TBYTESRC_X31Y81": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 63,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 19,
         "sites": {
@@ -139575,7 +139652,14 @@
         "type": "RIOI3_TBYTESRC"
     },
     "RIOI3_TBYTESRC_X31Y93": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 87,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 7,
         "sites": {
@@ -139589,7 +139673,14 @@
         "type": "RIOI3_TBYTESRC"
     },
     "RIOI3_TBYTETERM_X31Y13": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 26,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 90,
         "sites": {
@@ -139603,7 +139694,14 @@
         "type": "RIOI3_TBYTETERM"
     },
     "RIOI3_TBYTETERM_X31Y37": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 75,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 65,
         "sites": {
@@ -139617,7 +139715,14 @@
         "type": "RIOI3_TBYTETERM"
     },
     "RIOI3_TBYTETERM_X31Y63": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 26,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 38,
         "sites": {
@@ -139631,7 +139736,14 @@
         "type": "RIOI3_TBYTETERM"
     },
     "RIOI3_TBYTETERM_X31Y87": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 75,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 13,
         "sites": {
@@ -139645,7 +139757,14 @@
         "type": "RIOI3_TBYTETERM"
     },
     "RIOI3_X31Y1": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 2,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 102,
         "sites": {
@@ -139659,7 +139778,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y11": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 22,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 92,
         "sites": {
@@ -139673,7 +139799,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y15": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 30,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 88,
         "sites": {
@@ -139687,7 +139820,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y17": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 34,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 86,
         "sites": {
@@ -139701,7 +139841,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y21": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 42,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 82,
         "sites": {
@@ -139715,7 +139862,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y23": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 46,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 80,
         "sites": {
@@ -139729,7 +139883,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y25": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 51,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 77,
         "sites": {
@@ -139743,7 +139904,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y27": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 55,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 75,
         "sites": {
@@ -139757,7 +139925,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y29": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 59,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 73,
         "sites": {
@@ -139771,7 +139946,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y3": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 6,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 100,
         "sites": {
@@ -139785,7 +139967,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y33": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 67,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 69,
         "sites": {
@@ -139799,7 +139988,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y35": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 71,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 67,
         "sites": {
@@ -139813,7 +140009,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y39": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 79,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 63,
         "sites": {
@@ -139827,7 +140030,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y41": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 83,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 61,
         "sites": {
@@ -139841,7 +140051,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y45": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 91,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 57,
         "sites": {
@@ -139855,7 +140072,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y47": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 95,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 55,
         "sites": {
@@ -139869,7 +140093,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y5": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 10,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 98,
         "sites": {
@@ -139883,7 +140114,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y51": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 2,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 50,
         "sites": {
@@ -139897,7 +140135,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y53": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 6,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 48,
         "sites": {
@@ -139911,7 +140156,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y55": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 10,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 46,
         "sites": {
@@ -139925,7 +140177,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y59": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 18,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 42,
         "sites": {
@@ -139939,7 +140198,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y61": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 22,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 40,
         "sites": {
@@ -139953,7 +140219,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y65": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 30,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 36,
         "sites": {
@@ -139967,7 +140240,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y67": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 34,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 34,
         "sites": {
@@ -139981,7 +140261,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y71": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 42,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 30,
         "sites": {
@@ -139995,7 +140282,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y73": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 46,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 28,
         "sites": {
@@ -140009,7 +140303,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y75": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 51,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 25,
         "sites": {
@@ -140023,7 +140324,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y77": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 55,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 23,
         "sites": {
@@ -140037,7 +140345,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y79": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 59,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 21,
         "sites": {
@@ -140051,7 +140366,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y83": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 67,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 17,
         "sites": {
@@ -140065,7 +140387,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y85": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 71,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 15,
         "sites": {
@@ -140079,7 +140408,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y89": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 79,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 11,
         "sites": {
@@ -140093,7 +140429,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y9": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 18,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 94,
         "sites": {
@@ -140107,7 +140450,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y91": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 83,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 9,
         "sites": {
@@ -140121,7 +140471,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y95": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 91,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 5,
         "sites": {
@@ -140135,7 +140492,14 @@
         "type": "RIOI3"
     },
     "RIOI3_X31Y97": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 95,
+                "words": 4
+            }
+        },
         "grid_x": 126,
         "grid_y": 3,
         "sites": {

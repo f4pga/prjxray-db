@@ -14,19 +14,18 @@
     (CELL
         (CELLTYPE "ICAP")
         (INSTANCE ICAP)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK O (3.616::4.160)(4.520::5.200))
+            )
+        )
         (TIMINGCHECK
             (HOLD CSIB (posedge CLK) (0.000::0.000))
             (SETUP CSIB (posedge CLK) (3.390::3.900))
+            (HOLD I (posedge CLK) (0.000::0.000))
+            (SETUP I (posedge CLK) (2.237::2.574))
             (HOLD RDWRB (posedge CLK) (0.000::0.000))
             (SETUP RDWRB (posedge CLK) (5.587::6.427))
-        )
-    )
-    (CELL
-        (CELLTYPE "ICAP_I")
-        (INSTANCE ICAP)
-        (TIMINGCHECK
-            (HOLD CLK (posedge CLK) (0.000::0.000))
-            (SETUP CLK (posedge CLK) (2.237::2.574))
         )
     )
 )

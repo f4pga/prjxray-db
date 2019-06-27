@@ -4883,6 +4883,7 @@ CLBLM_R.SLICEM_X0.ALUT.INIT[55]" onmousedown="location.href = '#b35_00'"><span s
 <a id="b00_52"/>
 <a id="b01_31"/>
 <a id="b31_32"/>
+<a id="b!00_52"/>
 <a id="b00_32"/>
 <p/>
 <h4>CLBLM_R.SLICEL_X1</h4>
@@ -4892,7 +4893,8 @@ CLBLM_R.SLICEM_X0.ALUT.INIT[55]" onmousedown="location.href = '#b35_00'"><span s
 <tr><td>CLBLM_R.SLICEL_X1.CLKINV</td><td>00_52</td></tr>
 <tr bgcolor="#dddddd"><td>CLBLM_R.SLICEL_X1.FFSYNC</td><td>01_31</td></tr>
 <tr><td>CLBLM_R.SLICEL_X1.LATCH</td><td>31_32</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_R.SLICEL_X1.SRUSEDMUX</td><td>00_32</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_R.SLICEL_X1.NOCLKINV</td><td>!00_52</td></tr>
+<tr><td>CLBLM_R.SLICEL_X1.SRUSEDMUX</td><td>00_32</td></tr>
 </table>
 <a id="b31_05"/>
 <a id="b01_03"/>
@@ -5515,6 +5517,7 @@ CLBLM_R.SLICEM_X0.ALUT.INIT[55]" onmousedown="location.href = '#b35_00'"><span s
 <a id="b01_51"/>
 <a id="b00_48"/>
 <a id="b30_32"/>
+<a id="b!01_51"/>
 <a id="b01_35"/>
 <a id="b00_40"/>
 <a id="b01_27"/>
@@ -5526,9 +5529,10 @@ CLBLM_R.SLICEM_X0.ALUT.INIT[55]" onmousedown="location.href = '#b35_00'"><span s
 <tr><td>CLBLM_R.SLICEM_X0.CLKINV</td><td>01_51</td></tr>
 <tr bgcolor="#dddddd"><td>CLBLM_R.SLICEM_X0.FFSYNC</td><td>00_48</td></tr>
 <tr><td>CLBLM_R.SLICEM_X0.LATCH</td><td>30_32</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_R.SLICEM_X0.SRUSEDMUX</td><td>01_35</td></tr>
-<tr><td>CLBLM_R.SLICEM_X0.WA7USED</td><td>00_40</td></tr>
-<tr bgcolor="#dddddd"><td>CLBLM_R.SLICEM_X0.WA8USED</td><td>01_27</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_R.SLICEM_X0.NOCLKINV</td><td>!01_51</td></tr>
+<tr><td>CLBLM_R.SLICEM_X0.SRUSEDMUX</td><td>01_35</td></tr>
+<tr bgcolor="#dddddd"><td>CLBLM_R.SLICEM_X0.WA7USED</td><td>00_40</td></tr>
+<tr><td>CLBLM_R.SLICEM_X0.WA8USED</td><td>01_27</td></tr>
 </table>
 <a id="b31_06"/>
 <a id="b01_07"/>
@@ -6537,7 +6541,8 @@ bit2grp['00_00'] = '00_00';
 <tr><th width="400" align="left">PIP</th>
 <th>&nbsp;00_00&nbsp;</th>
 </tr>
-<tr bgcolor="#dddddd"><!-- 1 --><td>CLBLM_R.SLICEM_X0.ALUT.DI1MUX.AI</td><td align="center">1</td></tr>
+<tr bgcolor="#dddddd"><!-- 0 --><td>CLBLM_R.SLICEM_X0.ALUT.DI1MUX.BDI1_BMC31</td><td align="center">0</td></tr>
+<tr><!-- 1 --><td>CLBLM_R.SLICEM_X0.ALUT.DI1MUX.AI</td><td align="center">1</td></tr>
 </table>
 <a id="b30_06"/>
 <a id="b30_07"/>
@@ -6621,7 +6626,8 @@ bit2grp['00_20'] = '00_20';
 <tr><th width="400" align="left">PIP</th>
 <th>&nbsp;00_20&nbsp;</th>
 </tr>
-<tr bgcolor="#dddddd"><!-- 1 --><td>CLBLM_R.SLICEM_X0.BLUT.DI1MUX.BI</td><td align="center">1</td></tr>
+<tr bgcolor="#dddddd"><!-- 0 --><td>CLBLM_R.SLICEM_X0.BLUT.DI1MUX.DI_CMC31</td><td align="center">0</td></tr>
+<tr><!-- 1 --><td>CLBLM_R.SLICEM_X0.BLUT.DI1MUX.BI</td><td align="center">1</td></tr>
 </table>
 <a id="b30_20"/>
 <a id="b30_21"/>
@@ -6705,7 +6711,8 @@ bit2grp['01_43'] = '01_43';
 <tr><th width="400" align="left">PIP</th>
 <th>&nbsp;01_43&nbsp;</th>
 </tr>
-<tr bgcolor="#dddddd"><!-- 1 --><td>CLBLM_R.SLICEM_X0.CLUT.DI1MUX.CI</td><td align="center">1</td></tr>
+<tr bgcolor="#dddddd"><!-- 0 --><td>CLBLM_R.SLICEM_X0.CLUT.DI1MUX.DI_DMC31</td><td align="center">0</td></tr>
+<tr><!-- 1 --><td>CLBLM_R.SLICEM_X0.CLUT.DI1MUX.CI</td><td align="center">1</td></tr>
 </table>
 <a id="b30_40"/>
 <a id="b30_43"/>
