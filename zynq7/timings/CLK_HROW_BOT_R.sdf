@@ -4,6 +4,15 @@
     (TIMESCALE 1ns)
 
     (CELL
+        (CELLTYPE "BUFHCE")
+        (INSTANCE BUFHCE)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH I O (0.020::0.043)(0.081::0.132))
+            )
+        )
+    )
+    (CELL
         (CELLTYPE "BUFHCE_CE_TYPE_ASYNC")
         (INSTANCE BUFHCE)
         (DELAY
