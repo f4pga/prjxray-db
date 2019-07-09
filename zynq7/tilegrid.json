@@ -44273,7 +44273,14 @@
         "type": "HCLK_IOB"
     },
     "HCLK_IOI3_X126Y26": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B80",
+                "frames": 42,
+                "offset": 45,
+                "words": 10
+            }
+        },
         "grid_x": 126,
         "grid_y": 78,
         "sites": {
@@ -44290,7 +44297,14 @@
         "type": "HCLK_IOI3"
     },
     "HCLK_IOI3_X126Y78": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B80",
+                "frames": 42,
+                "offset": 45,
+                "words": 10
+            }
+        },
         "grid_x": 126,
         "grid_y": 26,
         "sites": {
