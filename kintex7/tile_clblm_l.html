@@ -290,7 +290,7 @@ CLBLM_L.SLICEL_X1.DLUT.INIT[13]" onmousedown="location.href = '#b28_61'"><span s
 <td id="bit29_61" onmouseenter="ome('29_61');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="29_61
 CLBLM_L.SLICEL_X1.DLUT.INIT[12]" onmousedown="location.href = '#b29_61'"><span style="font-size:10px">D12</span></td>
 <td id="bit30_61" onmouseenter="ome('30_61');" onmouseleave="oml();" bgcolor="#88aaff" align="center" title="30_61
-CLBLM_L.SLICEM_X0.DFFMUX.DX" onmousedown="location.href = '#b30_61'"><span style="font-size:10px">DMX</span></td>
+CLBLM_L.SLICEM_X0.DFFMUX" onmousedown="location.href = '#b30_61'"><span style="font-size:10px">DMX</span></td>
 <td id="bit31_61" onmouseenter="ome('31_61');" onmouseleave="oml();" bgcolor="#88aaff" align="center" title="31_61
 CLBLM_L.SLICEL_X1.DFFMUX.DX" onmousedown="location.href = '#b31_61'"><span style="font-size:10px">DMX</span></td>
 <td id="bit32_61" onmouseenter="ome('32_61');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="32_61
@@ -590,7 +590,7 @@ CLBLM_L.SLICEL_X1.DLUT.INIT[29]" onmousedown="location.href = '#b28_57'"><span s
 <td id="bit29_57" onmouseenter="ome('29_57');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="29_57
 CLBLM_L.SLICEL_X1.DLUT.INIT[28]" onmousedown="location.href = '#b29_57'"><span style="font-size:10px">D28</span></td>
 <td id="bit30_57" onmouseenter="ome('30_57');" onmouseleave="oml();" bgcolor="#aa88ff" align="center" title="30_57
-CLBLM_L.SLICEM_X0.DOUTMUX.D5Q" onmousedown="location.href = '#b30_57'"><span style="font-size:10px">OMX</span></td>
+CLBLM_L.SLICEM_X0.DOUTMUX" onmousedown="location.href = '#b30_57'"><span style="font-size:10px">OMX</span></td>
 <td id="bit31_57" onmouseenter="ome('31_57');" onmouseleave="oml();" bgcolor="#aa88ff" align="center" title="31_57
 CLBLM_L.SLICEL_X1.DOUTMUX" onmousedown="location.href = '#b31_57'"><span style="font-size:10px">OMX</span></td>
 <td id="bit32_57" onmouseenter="ome('32_57');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="32_57
@@ -4115,7 +4115,7 @@ CLBLM_L.SLICEL_X1.ALUT.INIT[27]" onmousedown="location.href = '#b28_10'"><span s
 <td id="bit29_10" onmouseenter="ome('29_10');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="29_10
 CLBLM_L.SLICEL_X1.ALUT.INIT[26]" onmousedown="location.href = '#b29_10'"><span style="font-size:10px">A26</span></td>
 <td id="bit30_10" onmouseenter="ome('30_10');" onmouseleave="oml();" bgcolor="#88aaff" align="center" title="30_10
-CLBLM_L.SLICEM_X0.A5FFMUX.IN_B" onmousedown="location.href = '#b30_10'"><span style="font-size:10px">DMX</span></td>
+CLBLM_L.SLICEM_X0.A5FFMUX" onmousedown="location.href = '#b30_10'"><span style="font-size:10px">DMX</span></td>
 <td id="bit31_10" onmouseenter="ome('31_10');" onmouseleave="oml();" bgcolor="#aa88ff" align="center" title="31_10
 CLBLM_L.SLICEL_X1.AOUTMUX" onmousedown="location.href = '#b31_10'"><span style="font-size:10px">OMX</span></td>
 <td id="bit32_10" onmouseenter="ome('32_10');" onmouseleave="oml();" bgcolor="#ffffaa" align="center" title="32_10
@@ -6488,21 +6488,42 @@ bit2grp['31_13'] = '01_11';
 </table>
 <a id="b30_09"/>
 <a id="b30_10"/>
+<a id="b30_51"/>
+<a id="b30_52"/>
+<a id="b30_56"/>
+<a id="b30_57"/>
 <script><!--
-grp2bits['30_09'] = ['30_09', '30_10'];
+grp2bits['30_09'] = ['30_09', '30_10', '30_51', '30_52', '30_56', '30_57'];
 bit2grp['30_09'] = '30_09';
 bit2grp['30_10'] = '30_09';
+bit2grp['30_51'] = '30_09';
+bit2grp['30_52'] = '30_09';
+bit2grp['30_56'] = '30_09';
+bit2grp['30_57'] = '30_09';
 //--></script>
 <p/>
-<h4>PIPs driving CLBLM_L.SLICEM_X0.A5FFMUX</h4>
+<h4>PIPs driving CLBLM_L.SLICEM_X0.A5FFMUX, CLBLM_L.SLICEM_X0.DOUTMUX</h4>
 <table cellspacing=0>
 <tr><th width="400" align="left">PIP</th>
 <th>&nbsp;30_09&nbsp;</th>
 <th>&nbsp;30_10&nbsp;</th>
+<th>&nbsp;30_51&nbsp;</th>
+<th>&nbsp;30_52&nbsp;</th>
+<th>&nbsp;30_56&nbsp;</th>
+<th>&nbsp;30_57&nbsp;</th>
 </tr>
-<tr bgcolor="#dddddd"><!-- -1 --><td>CLBLM_L.SLICEM_X0.A5FFMUX.IN_A</td><td align="center">1</td><td align="center">-</td></tr>
-<tr><!-- 1- --><td>CLBLM_L.SLICEM_X0.A5FFMUX.IN_B</td><td align="center">-</td><td align="center">1</td></tr>
+<tr bgcolor="#dddddd"><!-- -----1 --><td>CLBLM_L.SLICEM_X0.A5FFMUX.IN_A</td><td align="center">1</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr><!-- ----1- --><td>CLBLM_L.SLICEM_X0.A5FFMUX.IN_B</td><td align="center">-</td><td align="center">1</td><td align="center">-</td><td align="center">-</td><td align="center">-</td><td align="center">-</td></tr>
+<tr bgcolor="#dddddd"><!-- 0001-- --><td>CLBLM_L.SLICEM_X0.DOUTMUX.XOR</td><td align="center">-</td><td align="center">-</td><td align="center">1</td><td align="center">0</td><td align="center">0</td><td align="center">0</td></tr>
+<tr><!-- 0011-- --><td>CLBLM_L.SLICEM_X0.DOUTMUX.CY</td><td align="center">-</td><td align="center">-</td><td align="center">1</td><td align="center">1</td><td align="center">0</td><td align="center">0</td></tr>
+<tr bgcolor="#dddddd"><!-- 0100-- --><td>CLBLM_L.SLICEM_X0.DOUTMUX.O6</td><td align="center">-</td><td align="center">-</td><td align="center">0</td><td align="center">0</td><td align="center">1</td><td align="center">0</td></tr>
+<tr><!-- 0110-- --><td>CLBLM_L.SLICEM_X0.DOUTMUX.O5</td><td align="center">-</td><td align="center">-</td><td align="center">0</td><td align="center">1</td><td align="center">1</td><td align="center">0</td></tr>
+<tr bgcolor="#dddddd"><!-- 1000-- --><td>CLBLM_L.SLICEM_X0.DOUTMUX.D5Q</td><td align="center">-</td><td align="center">-</td><td align="center">0</td><td align="center">0</td><td align="center">0</td><td align="center">1</td></tr>
+<tr><!-- 10101- --><td>CLBLM_L.SLICEM_X0.DOUTMUX.MC31</td><td align="center">-</td><td align="center">1</td><td align="center">0</td><td align="center">1</td><td align="center">0</td><td align="center">1</td></tr>
 </table>
+<p><b>Note(s):</b><br/>
+Groups sharing bit <b>30_10</b>: CLBLM_L.SLICEM_X0.A5FFMUX, CLBLM_L.SLICEM_X0.DOUTMUX.<br/>
+</p>
 <a id="b30_00"/>
 <a id="b30_01"/>
 <a id="b30_02"/>
@@ -6783,32 +6804,7 @@ bit2grp['30_62'] = '30_59';
 <tr bgcolor="#dddddd"><!-- 0100 --><td>CLBLM_L.SLICEM_X0.DFFMUX.DX</td><td align="center">0</td><td align="center">0</td><td align="center">1</td><td align="center">0</td></tr>
 <tr><!-- 1001 --><td>CLBLM_L.SLICEM_X0.DFFMUX.O5</td><td align="center">1</td><td align="center">0</td><td align="center">0</td><td align="center">1</td></tr>
 <tr bgcolor="#dddddd"><!-- 1010 --><td>CLBLM_L.SLICEM_X0.DFFMUX.CY</td><td align="center">0</td><td align="center">1</td><td align="center">0</td><td align="center">1</td></tr>
-</table>
-<a id="b30_51"/>
-<a id="b30_52"/>
-<a id="b30_56"/>
-<a id="b30_57"/>
-<script><!--
-grp2bits['30_51'] = ['30_51', '30_52', '30_56', '30_57'];
-bit2grp['30_51'] = '30_51';
-bit2grp['30_52'] = '30_51';
-bit2grp['30_56'] = '30_51';
-bit2grp['30_57'] = '30_51';
-//--></script>
-<p/>
-<h4>PIPs driving CLBLM_L.SLICEM_X0.DOUTMUX</h4>
-<table cellspacing=0>
-<tr><th width="400" align="left">PIP</th>
-<th>&nbsp;30_51&nbsp;</th>
-<th>&nbsp;30_52&nbsp;</th>
-<th>&nbsp;30_56&nbsp;</th>
-<th>&nbsp;30_57&nbsp;</th>
-</tr>
-<tr bgcolor="#dddddd"><!-- 0001 --><td>CLBLM_L.SLICEM_X0.DOUTMUX.XOR</td><td align="center">1</td><td align="center">0</td><td align="center">0</td><td align="center">0</td></tr>
-<tr><!-- 0011 --><td>CLBLM_L.SLICEM_X0.DOUTMUX.CY</td><td align="center">1</td><td align="center">1</td><td align="center">0</td><td align="center">0</td></tr>
-<tr bgcolor="#dddddd"><!-- 0100 --><td>CLBLM_L.SLICEM_X0.DOUTMUX.O6</td><td align="center">0</td><td align="center">0</td><td align="center">1</td><td align="center">0</td></tr>
-<tr><!-- 0110 --><td>CLBLM_L.SLICEM_X0.DOUTMUX.O5</td><td align="center">0</td><td align="center">1</td><td align="center">1</td><td align="center">0</td></tr>
-<tr bgcolor="#dddddd"><!-- 1000 --><td>CLBLM_L.SLICEM_X0.DOUTMUX.D5Q</td><td align="center">0</td><td align="center">0</td><td align="center">0</td><td align="center">1</td></tr>
+<tr><!-- 1100 --><td>CLBLM_L.SLICEM_X0.DFFMUX.MC31</td><td align="center">0</td><td align="center">0</td><td align="center">1</td><td align="center">1</td></tr>
 </table>
 <a id="b00_12"/>
 <a id="b30_13"/>
