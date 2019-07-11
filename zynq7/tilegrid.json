@@ -42794,7 +42794,14 @@
         "type": "CMT_TOP_L_UPPER_B"
     },
     "CMT_TOP_L_UPPER_T_X119Y44": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00401B00",
+                "frames": 30,
+                "offset": 75,
+                "words": 26
+            }
+        },
         "grid_x": 119,
         "grid_y": 60,
         "sites": {
@@ -42803,7 +42810,14 @@
         "type": "CMT_TOP_L_UPPER_T"
     },
     "CMT_TOP_L_UPPER_T_X119Y96": {
-        "bits": {},
+        "bits": {
+            "CLB_IO_CLK": {
+                "baseaddr": "0x00001B00",
+                "frames": 30,
+                "offset": 75,
+                "words": 26
+            }
+        },
         "grid_x": 119,
         "grid_y": 8,
         "sites": {
