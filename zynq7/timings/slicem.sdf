@@ -756,6 +756,15 @@
     )
     (CELL
         (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/ACY0)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ax di0 (0.111::0.111)(0.111::0.111))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
         (INSTANCE SLICEM/AFF)
         (DELAY
             (ABSOLUTE
@@ -899,6 +908,15 @@
                 (INTERCONNECT bi b6lut (0.0::0.0)(0.0::0.0))
                 (INTERCONNECT bx b6lut (0.0::0.0)(0.0::0.0))
                 (INTERCONNECT di b6lut (0.041::0.051)(0.083::0.102))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/BCY0)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT bx di1 (0.098::0.098)(0.098::0.098))
             )
         )
     )
@@ -1067,6 +1085,15 @@
     )
     (CELL
         (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/CCY0)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT cx di2 (0.105::0.105)(0.105::0.105))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
         (INSTANCE SLICEM/CFF)
         (DELAY
             (ABSOLUTE
@@ -1221,6 +1248,15 @@
             (ABSOLUTE
                 (INTERCONNECT di d6lut (0.0::0.0)(0.0::0.0))
                 (INTERCONNECT dx d6lut (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/DCY0)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT dx di3 (0.091::0.091)(0.091::0.091))
             )
         )
     )
