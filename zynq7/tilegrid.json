@@ -139463,6 +139463,11 @@
     "RIOI3_SING_X31Y0": {
         "bits": {
             "CLB_IO_CLK": {
+                "alias": {
+                    "sites": {},
+                    "start_offset": 2,
+                    "type": "RIOI3"
+                },
                 "baseaddr": "0x00401B80",
                 "frames": 42,
                 "offset": 0,
@@ -139481,6 +139486,11 @@
     "RIOI3_SING_X31Y49": {
         "bits": {
             "CLB_IO_CLK": {
+                "alias": {
+                    "sites": {},
+                    "start_offset": 0,
+                    "type": "RIOI3"
+                },
                 "baseaddr": "0x00401B80",
                 "frames": 42,
                 "offset": 99,
@@ -139499,6 +139509,11 @@
     "RIOI3_SING_X31Y50": {
         "bits": {
             "CLB_IO_CLK": {
+                "alias": {
+                    "sites": {},
+                    "start_offset": 2,
+                    "type": "RIOI3"
+                },
                 "baseaddr": "0x00001B80",
                 "frames": 42,
                 "offset": 0,
@@ -139517,6 +139532,11 @@
     "RIOI3_SING_X31Y99": {
         "bits": {
             "CLB_IO_CLK": {
+                "alias": {
+                    "sites": {},
+                    "start_offset": 0,
+                    "type": "RIOI3"
+                },
                 "baseaddr": "0x00001B80",
                 "frames": 42,
                 "offset": 99,
