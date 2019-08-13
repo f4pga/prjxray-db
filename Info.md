@@ -37,20 +37,20 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Fri 09 Aug 2019 11:31:49 PM UTC (2019-08-09T23:31:49+00:00).
+Last updated on Tue 13 Aug 2019 11:16:35 PM UTC (2019-08-13T23:16:35+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [e10b7c8](https://github.com/SymbiFlow/prjxray/commit/e10b7c8ff59b0865c8bfd5af4841b90405c1f813).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [f2ffff8](https://github.com/SymbiFlow/prjxray/commit/f2ffff8e73a3c2952f5cad70bd5b2f7c05504404).
 
 Latest commit was;
 ```
-commit e10b7c8ff59b0865c8bfd5af4841b90405c1f813
-Merge: 779a70c a575059
+commit f2ffff8e73a3c2952f5cad70bd5b2f7c05504404
+Merge: 1a3594d eeed1fb
 Author: litghost <537074+litghost@users.noreply.github.com>
-Date:   Thu Aug 8 16:33:08 2019 -0700
+Date:   Tue Aug 13 09:20:59 2019 -0700
 
-    Merge pull request #1014 from litghost/add_039
+    Merge pull request #1012 from antmicro/segbits-utils
     
-    Add 039 fuzzer to master makefile.
+    Segbits utils
 ```
 
 
@@ -59,7 +59,7 @@ Date:   Thu Aug 8 16:33:08 2019 -0700
 
 ### Settings
 
-Created using following [settings/artix7.sh (sha256: 26e1ff93657132928a3b583c95347267d7afeb18a7b7036f0d7a6ea3367ae803)](https://github.com/SymbiFlow/prjxray/blob/e10b7c8ff59b0865c8bfd5af4841b90405c1f813/settings/artix7.sh)
+Created using following [settings/artix7.sh (sha256: 26e1ff93657132928a3b583c95347267d7afeb18a7b7036f0d7a6ea3367ae803)](https://github.com/SymbiFlow/prjxray/blob/f2ffff8e73a3c2952f5cad70bd5b2f7c05504404/settings/artix7.sh)
 ```shell
 export XRAY_DATABASE="artix7"
 export XRAY_PART="xc7a50tfgg484-1"
@@ -113,6 +113,10 @@ Results have checksums;
  * [`9999fedf8801ba549238c7d3baf6244693a34d1f7e77a308a6b4cc1195b4ffbb  ./artix7/harness/basys3/swbut/design.dcp`](./artix7/harness/basys3/swbut/design.dcp)
  * [`7f97aec3d4804cd11a1e46a51e1f5da8cf4107701deb0708da1132369bda583c  ./artix7/harness/basys3/swbut/design.json`](./artix7/harness/basys3/swbut/design.json)
  * [`9df8eac3c11e57d81b4bf4a927ade787f881f0ef46c8ab610ca529f35e887689  ./artix7/harness/basys3/swbut/design.txt`](./artix7/harness/basys3/swbut/design.txt)
+ * [`29f314aad5ec0a152bf8acecd54583f829a52003051e754c20f8ee8957187cd7  ./artix7/harness/basys3/swbut_50/design.bit`](./artix7/harness/basys3/swbut_50/design.bit)
+ * [`c6d41209251db99c2752eef72efec012f1dd41061a4973d89ef69d3d22cbb468  ./artix7/harness/basys3/swbut_50/design.dcp`](./artix7/harness/basys3/swbut_50/design.dcp)
+ * [`3614288b4365a562631a035d9897b58b17755ac477c261598e4eca7fd9e5acda  ./artix7/harness/basys3/swbut_50/design.json`](./artix7/harness/basys3/swbut_50/design.json)
+ * [`9df8eac3c11e57d81b4bf4a927ade787f881f0ef46c8ab610ca529f35e887689  ./artix7/harness/basys3/swbut_50/design.txt`](./artix7/harness/basys3/swbut_50/design.txt)
  * [`fca753747fb1d583483e22980c4dae3a2de6451a326d46eab3581ea6f50f5b2d  ./artix7/mask_bram_l.block_ram.db`](./artix7/mask_bram_l.block_ram.db)
  * [`30b4cfe8b60ccde4423a0bd0d7ad5242bea58d54abf5d15601dd3f390465e821  ./artix7/mask_bram_l.db`](./artix7/mask_bram_l.db)
  * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./artix7/mask_bram_l.origin_info.db`](./artix7/mask_bram_l.origin_info.db)
@@ -483,7 +487,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/kintex7.sh (sha256: 794538b550d399255cbafeeb1b5ff183dc66ebc6cd8dc0f725e3f6a3977f757d)](https://github.com/SymbiFlow/prjxray/blob/e10b7c8ff59b0865c8bfd5af4841b90405c1f813/settings/kintex7.sh)
+Created using following [settings/kintex7.sh (sha256: 794538b550d399255cbafeeb1b5ff183dc66ebc6cd8dc0f725e3f6a3977f757d)](https://github.com/SymbiFlow/prjxray/blob/f2ffff8e73a3c2952f5cad70bd5b2f7c05504404/settings/kintex7.sh)
 ```shell
 export XRAY_DATABASE="kintex7"
 export XRAY_PART="xc7k70tfbg676-2"
@@ -839,7 +843,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/zynq7.sh (sha256: 61298e89dcc873eadba47f5c2f9f72a38fa022583b2c7ff89246b2e051585ad8)](https://github.com/SymbiFlow/prjxray/blob/e10b7c8ff59b0865c8bfd5af4841b90405c1f813/settings/zynq7.sh)
+Created using following [settings/zynq7.sh (sha256: 61298e89dcc873eadba47f5c2f9f72a38fa022583b2c7ff89246b2e051585ad8)](https://github.com/SymbiFlow/prjxray/blob/f2ffff8e73a3c2952f5cad70bd5b2f7c05504404/settings/zynq7.sh)
 ```shell
 export XRAY_DATABASE="zynq7"
 export XRAY_PART="xc7z010clg400-1"
