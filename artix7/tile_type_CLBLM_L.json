@@ -378,6 +378,150 @@
             },
             "src_wire": "CLBLM_IMUX1"
         },
+        "CLBLM_L.CLBLM_IMUX2->CLBLM_M_A2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_M_A2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_IMUX2"
+        },
+        "CLBLM_L.CLBLM_IMUX3->CLBLM_L_A2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_L_A2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_IMUX3"
+        },
+        "CLBLM_L.CLBLM_IMUX4->CLBLM_M_A6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_M_A6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_IMUX4"
+        },
+        "CLBLM_L.CLBLM_IMUX5->CLBLM_L_A6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_L_A6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_IMUX5"
+        },
+        "CLBLM_L.CLBLM_IMUX6->CLBLM_L_A1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_L_A1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_IMUX6"
+        },
+        "CLBLM_L.CLBLM_IMUX7->CLBLM_M_A1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_M_A1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_IMUX7"
+        },
+        "CLBLM_L.CLBLM_IMUX8->CLBLM_M_A5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_M_A5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_IMUX8"
+        },
+        "CLBLM_L.CLBLM_IMUX9->CLBLM_L_A5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_L_A5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_IMUX9"
+        },
         "CLBLM_L.CLBLM_IMUX10->CLBLM_L_A4": {
             "can_invert": "0",
             "dst_to_src": {
@@ -557,24 +701,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLM_IMUX19"
-        },
-        "CLBLM_L.CLBLM_IMUX2->CLBLM_M_A2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_M_A2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_IMUX2"
         },
         "CLBLM_L.CLBLM_IMUX20->CLBLM_L_C2": {
             "can_invert": "0",
@@ -756,24 +882,6 @@
             },
             "src_wire": "CLBLM_IMUX29"
         },
-        "CLBLM_L.CLBLM_IMUX3->CLBLM_L_A2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_L_A2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_IMUX3"
-        },
         "CLBLM_L.CLBLM_IMUX30->CLBLM_L_C5": {
             "can_invert": "0",
             "dst_to_src": {
@@ -954,24 +1062,6 @@
             },
             "src_wire": "CLBLM_IMUX39"
         },
-        "CLBLM_L.CLBLM_IMUX4->CLBLM_M_A6": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_M_A6",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_IMUX4"
-        },
         "CLBLM_L.CLBLM_IMUX40->CLBLM_M_D1": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1115,142 +1205,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLM_IMUX47"
-        },
-        "CLBLM_L.CLBLM_IMUX5->CLBLM_L_A6": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_L_A6",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_IMUX5"
-        },
-        "CLBLM_L.CLBLM_IMUX6->CLBLM_L_A1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_L_A1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_IMUX6"
-        },
-        "CLBLM_L.CLBLM_IMUX7->CLBLM_M_A1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_M_A1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_IMUX7"
-        },
-        "CLBLM_L.CLBLM_IMUX8->CLBLM_M_A5": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_M_A5",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_IMUX8"
-        },
-        "CLBLM_L.CLBLM_IMUX9->CLBLM_L_A5": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_L_A5",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_IMUX9"
-        },
-        "CLBLM_L.CLBLM_L_A->>CLBLM_L_AMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.071",
-                    "0.088",
-                    "0.168",
-                    "0.209"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLM_L_AMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.071",
-                    "0.088",
-                    "0.168",
-                    "0.209"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLM_L_A"
-        },
-        "CLBLM_L.CLBLM_L_A->CLBLM_LOGIC_OUTS8": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_LOGIC_OUTS8",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_L_A"
         },
         "CLBLM_L.CLBLM_L_A1->>CLBLM_L_A": {
             "can_invert": "0",
@@ -1420,6 +1374,52 @@
             },
             "src_wire": "CLBLM_L_A6"
         },
+        "CLBLM_L.CLBLM_L_A->>CLBLM_L_AMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.071",
+                    "0.088",
+                    "0.168",
+                    "0.209"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLM_L_AMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.071",
+                    "0.088",
+                    "0.168",
+                    "0.209"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLM_L_A"
+        },
+        "CLBLM_L.CLBLM_L_A->CLBLM_LOGIC_OUTS8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_LOGIC_OUTS8",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_L_A"
+        },
         "CLBLM_L.CLBLM_L_AMUX->CLBLM_LOGIC_OUTS16": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1455,52 +1455,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLM_L_AQ"
-        },
-        "CLBLM_L.CLBLM_L_B->>CLBLM_L_BMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.073",
-                    "0.091",
-                    "0.168",
-                    "0.208"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLM_L_BMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.073",
-                    "0.091",
-                    "0.168",
-                    "0.208"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLM_L_B"
-        },
-        "CLBLM_L.CLBLM_L_B->CLBLM_LOGIC_OUTS9": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_LOGIC_OUTS9",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_L_B"
         },
         "CLBLM_L.CLBLM_L_B1->>CLBLM_L_B": {
             "can_invert": "0",
@@ -1670,6 +1624,52 @@
             },
             "src_wire": "CLBLM_L_B6"
         },
+        "CLBLM_L.CLBLM_L_B->>CLBLM_L_BMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.073",
+                    "0.091",
+                    "0.168",
+                    "0.208"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLM_L_BMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.073",
+                    "0.091",
+                    "0.168",
+                    "0.208"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLM_L_B"
+        },
+        "CLBLM_L.CLBLM_L_B->CLBLM_LOGIC_OUTS9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_LOGIC_OUTS9",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_L_B"
+        },
         "CLBLM_L.CLBLM_L_BMUX->CLBLM_LOGIC_OUTS17": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1705,52 +1705,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLM_L_BQ"
-        },
-        "CLBLM_L.CLBLM_L_C->>CLBLM_L_CMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.069",
-                    "0.086",
-                    "0.166",
-                    "0.205"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLM_L_CMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.069",
-                    "0.086",
-                    "0.166",
-                    "0.205"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLM_L_C"
-        },
-        "CLBLM_L.CLBLM_L_C->CLBLM_LOGIC_OUTS10": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_LOGIC_OUTS10",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_L_C"
         },
         "CLBLM_L.CLBLM_L_C1->>CLBLM_L_C": {
             "can_invert": "0",
@@ -1920,6 +1874,52 @@
             },
             "src_wire": "CLBLM_L_C6"
         },
+        "CLBLM_L.CLBLM_L_C->>CLBLM_L_CMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.069",
+                    "0.086",
+                    "0.166",
+                    "0.205"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLM_L_CMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.069",
+                    "0.086",
+                    "0.166",
+                    "0.205"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLM_L_C"
+        },
+        "CLBLM_L.CLBLM_L_C->CLBLM_LOGIC_OUTS10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_LOGIC_OUTS10",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_L_C"
+        },
         "CLBLM_L.CLBLM_L_CMUX->CLBLM_LOGIC_OUTS18": {
             "can_invert": "0",
             "dst_to_src": {
@@ -2001,52 +2001,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLM_L_CQ"
-        },
-        "CLBLM_L.CLBLM_L_D->>CLBLM_L_DMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.075",
-                    "0.093",
-                    "0.170",
-                    "0.211"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLM_L_DMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.075",
-                    "0.093",
-                    "0.170",
-                    "0.211"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLM_L_D"
-        },
-        "CLBLM_L.CLBLM_L_D->CLBLM_LOGIC_OUTS11": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_LOGIC_OUTS11",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_L_D"
         },
         "CLBLM_L.CLBLM_L_D1->>CLBLM_L_D": {
             "can_invert": "0",
@@ -2216,6 +2170,52 @@
             },
             "src_wire": "CLBLM_L_D6"
         },
+        "CLBLM_L.CLBLM_L_D->>CLBLM_L_DMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.075",
+                    "0.093",
+                    "0.170",
+                    "0.211"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLM_L_DMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.075",
+                    "0.093",
+                    "0.170",
+                    "0.211"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLM_L_D"
+        },
+        "CLBLM_L.CLBLM_L_D->CLBLM_LOGIC_OUTS11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_LOGIC_OUTS11",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_L_D"
+        },
         "CLBLM_L.CLBLM_L_DMUX->CLBLM_LOGIC_OUTS19": {
             "can_invert": "0",
             "dst_to_src": {
@@ -2251,52 +2251,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLM_L_DQ"
-        },
-        "CLBLM_L.CLBLM_M_A->>CLBLM_M_AMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.071",
-                    "0.088",
-                    "0.166",
-                    "0.206"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLM_M_AMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.071",
-                    "0.088",
-                    "0.166",
-                    "0.206"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLM_M_A"
-        },
-        "CLBLM_L.CLBLM_M_A->CLBLM_LOGIC_OUTS12": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_LOGIC_OUTS12",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_M_A"
         },
         "CLBLM_L.CLBLM_M_A1->>CLBLM_M_A": {
             "can_invert": "0",
@@ -2466,6 +2420,52 @@
             },
             "src_wire": "CLBLM_M_A6"
         },
+        "CLBLM_L.CLBLM_M_A->>CLBLM_M_AMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.071",
+                    "0.088",
+                    "0.166",
+                    "0.206"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLM_M_AMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.071",
+                    "0.088",
+                    "0.166",
+                    "0.206"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLM_M_A"
+        },
+        "CLBLM_L.CLBLM_M_A->CLBLM_LOGIC_OUTS12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_LOGIC_OUTS12",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_M_A"
+        },
         "CLBLM_L.CLBLM_M_AMUX->CLBLM_LOGIC_OUTS20": {
             "can_invert": "0",
             "dst_to_src": {
@@ -2501,52 +2501,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLM_M_AQ"
-        },
-        "CLBLM_L.CLBLM_M_B->>CLBLM_M_BMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.077",
-                    "0.095",
-                    "0.172",
-                    "0.213"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLM_M_BMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.077",
-                    "0.095",
-                    "0.172",
-                    "0.213"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLM_M_B"
-        },
-        "CLBLM_L.CLBLM_M_B->CLBLM_LOGIC_OUTS13": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_LOGIC_OUTS13",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_M_B"
         },
         "CLBLM_L.CLBLM_M_B1->>CLBLM_M_B": {
             "can_invert": "0",
@@ -2716,6 +2670,52 @@
             },
             "src_wire": "CLBLM_M_B6"
         },
+        "CLBLM_L.CLBLM_M_B->>CLBLM_M_BMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.077",
+                    "0.095",
+                    "0.172",
+                    "0.213"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLM_M_BMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.077",
+                    "0.095",
+                    "0.172",
+                    "0.213"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLM_M_B"
+        },
+        "CLBLM_L.CLBLM_M_B->CLBLM_LOGIC_OUTS13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_LOGIC_OUTS13",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_M_B"
+        },
         "CLBLM_L.CLBLM_M_BMUX->CLBLM_LOGIC_OUTS21": {
             "can_invert": "0",
             "dst_to_src": {
@@ -2751,52 +2751,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLM_M_BQ"
-        },
-        "CLBLM_L.CLBLM_M_C->>CLBLM_M_CMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.070",
-                    "0.087",
-                    "0.166",
-                    "0.205"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLM_M_CMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.070",
-                    "0.087",
-                    "0.166",
-                    "0.205"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLM_M_C"
-        },
-        "CLBLM_L.CLBLM_M_C->CLBLM_LOGIC_OUTS14": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_LOGIC_OUTS14",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_M_C"
         },
         "CLBLM_L.CLBLM_M_C1->>CLBLM_M_C": {
             "can_invert": "0",
@@ -2966,6 +2920,52 @@
             },
             "src_wire": "CLBLM_M_C6"
         },
+        "CLBLM_L.CLBLM_M_C->>CLBLM_M_CMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.070",
+                    "0.087",
+                    "0.166",
+                    "0.205"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLM_M_CMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.070",
+                    "0.087",
+                    "0.166",
+                    "0.205"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLM_M_C"
+        },
+        "CLBLM_L.CLBLM_M_C->CLBLM_LOGIC_OUTS14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_LOGIC_OUTS14",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_M_C"
+        },
         "CLBLM_L.CLBLM_M_CMUX->CLBLM_LOGIC_OUTS22": {
             "can_invert": "0",
             "dst_to_src": {
@@ -3047,52 +3047,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLM_M_CQ"
-        },
-        "CLBLM_L.CLBLM_M_D->>CLBLM_M_DMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.077",
-                    "0.095",
-                    "0.173",
-                    "0.214"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLM_M_DMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.077",
-                    "0.095",
-                    "0.173",
-                    "0.214"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLM_M_D"
-        },
-        "CLBLM_L.CLBLM_M_D->CLBLM_LOGIC_OUTS15": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLM_LOGIC_OUTS15",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLM_M_D"
         },
         "CLBLM_L.CLBLM_M_D1->>CLBLM_M_D": {
             "can_invert": "0",
@@ -3261,6 +3215,52 @@
                 "res": "0.0"
             },
             "src_wire": "CLBLM_M_D6"
+        },
+        "CLBLM_L.CLBLM_M_D->>CLBLM_M_DMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.077",
+                    "0.095",
+                    "0.173",
+                    "0.214"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLM_M_DMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.077",
+                    "0.095",
+                    "0.173",
+                    "0.214"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLM_M_D"
+        },
+        "CLBLM_L.CLBLM_M_D->CLBLM_LOGIC_OUTS15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLM_LOGIC_OUTS15",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLM_M_D"
         },
         "CLBLM_L.CLBLM_M_DMUX->CLBLM_LOGIC_OUTS23": {
             "can_invert": "0",
@@ -4349,6 +4349,14 @@
         "CLBLM_FAN7": null,
         "CLBLM_IMUX0": null,
         "CLBLM_IMUX1": null,
+        "CLBLM_IMUX2": null,
+        "CLBLM_IMUX3": null,
+        "CLBLM_IMUX4": null,
+        "CLBLM_IMUX5": null,
+        "CLBLM_IMUX6": null,
+        "CLBLM_IMUX7": null,
+        "CLBLM_IMUX8": null,
+        "CLBLM_IMUX9": null,
         "CLBLM_IMUX10": null,
         "CLBLM_IMUX11": null,
         "CLBLM_IMUX12": null,
@@ -4359,7 +4367,6 @@
         "CLBLM_IMUX17": null,
         "CLBLM_IMUX18": null,
         "CLBLM_IMUX19": null,
-        "CLBLM_IMUX2": null,
         "CLBLM_IMUX20": null,
         "CLBLM_IMUX21": null,
         "CLBLM_IMUX22": null,
@@ -4370,7 +4377,6 @@
         "CLBLM_IMUX27": null,
         "CLBLM_IMUX28": null,
         "CLBLM_IMUX29": null,
-        "CLBLM_IMUX3": null,
         "CLBLM_IMUX30": null,
         "CLBLM_IMUX31": null,
         "CLBLM_IMUX32": null,
@@ -4381,7 +4387,6 @@
         "CLBLM_IMUX37": null,
         "CLBLM_IMUX38": null,
         "CLBLM_IMUX39": null,
-        "CLBLM_IMUX4": null,
         "CLBLM_IMUX40": null,
         "CLBLM_IMUX41": null,
         "CLBLM_IMUX42": null,
@@ -4390,15 +4395,7 @@
         "CLBLM_IMUX45": null,
         "CLBLM_IMUX46": null,
         "CLBLM_IMUX47": null,
-        "CLBLM_IMUX5": null,
-        "CLBLM_IMUX6": null,
-        "CLBLM_IMUX7": null,
-        "CLBLM_IMUX8": null,
-        "CLBLM_IMUX9": null,
         "CLBLM_LH1": null,
-        "CLBLM_LH10": null,
-        "CLBLM_LH11": null,
-        "CLBLM_LH12": null,
         "CLBLM_LH2": null,
         "CLBLM_LH3": null,
         "CLBLM_LH4": null,
@@ -4407,8 +4404,19 @@
         "CLBLM_LH7": null,
         "CLBLM_LH8": null,
         "CLBLM_LH9": null,
+        "CLBLM_LH10": null,
+        "CLBLM_LH11": null,
+        "CLBLM_LH12": null,
         "CLBLM_LOGIC_OUTS0": null,
         "CLBLM_LOGIC_OUTS1": null,
+        "CLBLM_LOGIC_OUTS2": null,
+        "CLBLM_LOGIC_OUTS3": null,
+        "CLBLM_LOGIC_OUTS4": null,
+        "CLBLM_LOGIC_OUTS5": null,
+        "CLBLM_LOGIC_OUTS6": null,
+        "CLBLM_LOGIC_OUTS7": null,
+        "CLBLM_LOGIC_OUTS8": null,
+        "CLBLM_LOGIC_OUTS9": null,
         "CLBLM_LOGIC_OUTS10": null,
         "CLBLM_LOGIC_OUTS11": null,
         "CLBLM_LOGIC_OUTS12": null,
@@ -4419,18 +4427,10 @@
         "CLBLM_LOGIC_OUTS17": null,
         "CLBLM_LOGIC_OUTS18": null,
         "CLBLM_LOGIC_OUTS19": null,
-        "CLBLM_LOGIC_OUTS2": null,
         "CLBLM_LOGIC_OUTS20": null,
         "CLBLM_LOGIC_OUTS21": null,
         "CLBLM_LOGIC_OUTS22": null,
         "CLBLM_LOGIC_OUTS23": null,
-        "CLBLM_LOGIC_OUTS3": null,
-        "CLBLM_LOGIC_OUTS4": null,
-        "CLBLM_LOGIC_OUTS5": null,
-        "CLBLM_LOGIC_OUTS6": null,
-        "CLBLM_LOGIC_OUTS7": null,
-        "CLBLM_LOGIC_OUTS8": null,
-        "CLBLM_LOGIC_OUTS9": null,
         "CLBLM_L_A": null,
         "CLBLM_L_A1": null,
         "CLBLM_L_A2": null,

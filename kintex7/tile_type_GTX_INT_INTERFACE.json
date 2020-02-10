@@ -112,6 +112,454 @@
             },
             "src_wire": "GTXE2_INT_INTERFACE_IMUX1"
         },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX2->>GTXE2_INT_INTERFACE_IMUX_DELAY2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX2"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX2->>GTXE2_INT_INTERFACE_IMUX_OUT2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX2"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX3->>GTXE2_INT_INTERFACE_IMUX_DELAY3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX3"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX3->>GTXE2_INT_INTERFACE_IMUX_OUT3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX3"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX4->>GTXE2_INT_INTERFACE_IMUX_DELAY4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX4"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX4->>GTXE2_INT_INTERFACE_IMUX_OUT4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX4"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX5->>GTXE2_INT_INTERFACE_IMUX_DELAY5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX5"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX5->>GTXE2_INT_INTERFACE_IMUX_OUT5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX5"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX6->>GTXE2_INT_INTERFACE_IMUX_DELAY6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX6"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX6->>GTXE2_INT_INTERFACE_IMUX_OUT6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX6"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX7->>GTXE2_INT_INTERFACE_IMUX_DELAY7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX7"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX7->>GTXE2_INT_INTERFACE_IMUX_OUT7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX7"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX8->>GTXE2_INT_INTERFACE_IMUX_DELAY8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY8",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX8"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX8->>GTXE2_INT_INTERFACE_IMUX_OUT8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT8",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX8"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX9->>GTXE2_INT_INTERFACE_IMUX_DELAY9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY9",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.291",
+                    "0.356",
+                    "0.481",
+                    "0.644"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX9"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX9->>GTXE2_INT_INTERFACE_IMUX_OUT9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT9",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.025",
+                    "0.030",
+                    "0.045",
+                    "0.054"
+                ],
+                "in_cap": "0.000",
+                "res": "878.41875"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX9"
+        },
         "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX10->>GTXE2_INT_INTERFACE_IMUX_DELAY10": {
             "can_invert": "0",
             "dst_to_src": {
@@ -671,62 +1119,6 @@
                 "res": "878.41875"
             },
             "src_wire": "GTXE2_INT_INTERFACE_IMUX19"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX2->>GTXE2_INT_INTERFACE_IMUX_DELAY2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY2",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX2"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX2->>GTXE2_INT_INTERFACE_IMUX_OUT2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT2",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX2"
         },
         "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX20->>GTXE2_INT_INTERFACE_IMUX_DELAY20": {
             "can_invert": "0",
@@ -1288,62 +1680,6 @@
             },
             "src_wire": "GTXE2_INT_INTERFACE_IMUX29"
         },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX3->>GTXE2_INT_INTERFACE_IMUX_DELAY3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY3",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX3"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX3->>GTXE2_INT_INTERFACE_IMUX_OUT3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT3",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX3"
-        },
         "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX30->>GTXE2_INT_INTERFACE_IMUX_DELAY30": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1904,62 +2240,6 @@
             },
             "src_wire": "GTXE2_INT_INTERFACE_IMUX39"
         },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX4->>GTXE2_INT_INTERFACE_IMUX_DELAY4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY4",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX4"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX4->>GTXE2_INT_INTERFACE_IMUX_OUT4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT4",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX4"
-        },
         "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX40->>GTXE2_INT_INTERFACE_IMUX_DELAY40": {
             "can_invert": "0",
             "dst_to_src": {
@@ -2408,286 +2688,6 @@
             },
             "src_wire": "GTXE2_INT_INTERFACE_IMUX47"
         },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX5->>GTXE2_INT_INTERFACE_IMUX_DELAY5": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY5",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX5"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX5->>GTXE2_INT_INTERFACE_IMUX_OUT5": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT5",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX5"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX6->>GTXE2_INT_INTERFACE_IMUX_DELAY6": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY6",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX6"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX6->>GTXE2_INT_INTERFACE_IMUX_OUT6": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT6",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX6"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX7->>GTXE2_INT_INTERFACE_IMUX_DELAY7": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY7",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX7"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX7->>GTXE2_INT_INTERFACE_IMUX_OUT7": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT7",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX7"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX8->>GTXE2_INT_INTERFACE_IMUX_DELAY8": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY8",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX8"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX8->>GTXE2_INT_INTERFACE_IMUX_OUT8": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT8",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX8"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX9->>GTXE2_INT_INTERFACE_IMUX_DELAY9": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY9",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.291",
-                    "0.356",
-                    "0.481",
-                    "0.644"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX9"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX9->>GTXE2_INT_INTERFACE_IMUX_OUT9": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT9",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.025",
-                    "0.030",
-                    "0.045",
-                    "0.054"
-                ],
-                "in_cap": "0.000",
-                "res": "878.41875"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX9"
-        },
         "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY0->GTXE2_INT_INTERFACE_IMUX_OUT0": {
             "can_invert": "0",
             "dst_to_src": {
@@ -2723,6 +2723,150 @@
                 "res": "0.000"
             },
             "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY1"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY2->GTXE2_INT_INTERFACE_IMUX_OUT2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY2"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY3->GTXE2_INT_INTERFACE_IMUX_OUT3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY3"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY4->GTXE2_INT_INTERFACE_IMUX_OUT4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY4"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY5->GTXE2_INT_INTERFACE_IMUX_OUT5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY5"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY6->GTXE2_INT_INTERFACE_IMUX_OUT6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY6"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY7->GTXE2_INT_INTERFACE_IMUX_OUT7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT7",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY7"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY8->GTXE2_INT_INTERFACE_IMUX_OUT8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT8",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY8"
+        },
+        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY9->GTXE2_INT_INTERFACE_IMUX_OUT9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT9",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY9"
         },
         "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY10->GTXE2_INT_INTERFACE_IMUX_OUT10": {
             "can_invert": "0",
@@ -2904,24 +3048,6 @@
             },
             "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY19"
         },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY2->GTXE2_INT_INTERFACE_IMUX_OUT2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY2"
-        },
         "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY20->GTXE2_INT_INTERFACE_IMUX_OUT20": {
             "can_invert": "0",
             "dst_to_src": {
@@ -3101,24 +3227,6 @@
                 "res": "0.000"
             },
             "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY29"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY3->GTXE2_INT_INTERFACE_IMUX_OUT3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY3"
         },
         "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY30->GTXE2_INT_INTERFACE_IMUX_OUT30": {
             "can_invert": "0",
@@ -3300,24 +3408,6 @@
             },
             "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY39"
         },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY4->GTXE2_INT_INTERFACE_IMUX_OUT4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT4",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY4"
-        },
         "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY40->GTXE2_INT_INTERFACE_IMUX_OUT40": {
             "can_invert": "0",
             "dst_to_src": {
@@ -3462,96 +3552,6 @@
             },
             "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY47"
         },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY5->GTXE2_INT_INTERFACE_IMUX_OUT5": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT5",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY5"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY6->GTXE2_INT_INTERFACE_IMUX_OUT6": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT6",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY6"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY7->GTXE2_INT_INTERFACE_IMUX_OUT7": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT7",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY7"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY8->GTXE2_INT_INTERFACE_IMUX_OUT8": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT8",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY8"
-        },
-        "GTX_INT_INTERFACE.GTXE2_INT_INTERFACE_IMUX_DELAY9->GTXE2_INT_INTERFACE_IMUX_OUT9": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_INT_INTERFACE_IMUX_OUT9",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_INT_INTERFACE_IMUX_DELAY9"
-        },
         "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B0->>INT_INTERFACE_LOGIC_OUTS0": {
             "can_invert": "0",
             "dst_to_src": {
@@ -3607,6 +3607,230 @@
                 "res": "922.18775"
             },
             "src_wire": "INT_INTERFACE_LOGIC_OUTS_B1"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B2->>INT_INTERFACE_LOGIC_OUTS2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B2"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B3->>INT_INTERFACE_LOGIC_OUTS3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B3"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B4->>INT_INTERFACE_LOGIC_OUTS4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B4"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B5->>INT_INTERFACE_LOGIC_OUTS5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B5"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B6->>INT_INTERFACE_LOGIC_OUTS6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B6"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B7->>INT_INTERFACE_LOGIC_OUTS7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B7"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B8->>INT_INTERFACE_LOGIC_OUTS8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS8",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B8"
+        },
+        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B9->>INT_INTERFACE_LOGIC_OUTS9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS9",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.047",
+                    "0.057",
+                    "0.085",
+                    "0.104"
+                ],
+                "in_cap": "5.296",
+                "res": "922.18775"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B9"
         },
         "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B10->>INT_INTERFACE_LOGIC_OUTS10": {
             "can_invert": "0",
@@ -3888,34 +4112,6 @@
             },
             "src_wire": "INT_INTERFACE_LOGIC_OUTS_B19"
         },
-        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B2->>INT_INTERFACE_LOGIC_OUTS2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "dst_wire": "INT_INTERFACE_LOGIC_OUTS2",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B2"
-        },
         "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B20->>INT_INTERFACE_LOGIC_OUTS20": {
             "can_invert": "0",
             "dst_to_src": {
@@ -4027,202 +4223,6 @@
                 "res": "922.18775"
             },
             "src_wire": "INT_INTERFACE_LOGIC_OUTS_B23"
-        },
-        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B3->>INT_INTERFACE_LOGIC_OUTS3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "dst_wire": "INT_INTERFACE_LOGIC_OUTS3",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B3"
-        },
-        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B4->>INT_INTERFACE_LOGIC_OUTS4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "dst_wire": "INT_INTERFACE_LOGIC_OUTS4",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B4"
-        },
-        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B5->>INT_INTERFACE_LOGIC_OUTS5": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "dst_wire": "INT_INTERFACE_LOGIC_OUTS5",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B5"
-        },
-        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B6->>INT_INTERFACE_LOGIC_OUTS6": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "dst_wire": "INT_INTERFACE_LOGIC_OUTS6",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B6"
-        },
-        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B7->>INT_INTERFACE_LOGIC_OUTS7": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "dst_wire": "INT_INTERFACE_LOGIC_OUTS7",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B7"
-        },
-        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B8->>INT_INTERFACE_LOGIC_OUTS8": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "dst_wire": "INT_INTERFACE_LOGIC_OUTS8",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B8"
-        },
-        "GTX_INT_INTERFACE.INT_INTERFACE_LOGIC_OUTS_B9->>INT_INTERFACE_LOGIC_OUTS9": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "dst_wire": "INT_INTERFACE_LOGIC_OUTS9",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.047",
-                    "0.057",
-                    "0.085",
-                    "0.104"
-                ],
-                "in_cap": "5.296",
-                "res": "922.18775"
-            },
-            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B9"
         }
     },
     "sites": [],
@@ -4233,6 +4233,38 @@
             "res": "0.000"
         },
         "GTXE2_INT_INTERFACE_IMUX1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_INT_INTERFACE_IMUX2": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_INT_INTERFACE_IMUX3": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_INT_INTERFACE_IMUX4": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_INT_INTERFACE_IMUX5": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_INT_INTERFACE_IMUX6": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_INT_INTERFACE_IMUX7": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_INT_INTERFACE_IMUX8": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_INT_INTERFACE_IMUX9": {
             "cap": "0.100",
             "res": "0.000"
         },
@@ -4276,10 +4308,6 @@
             "cap": "0.100",
             "res": "0.000"
         },
-        "GTXE2_INT_INTERFACE_IMUX2": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
         "GTXE2_INT_INTERFACE_IMUX20": {
             "cap": "0.100",
             "res": "0.000"
@@ -4317,10 +4345,6 @@
             "res": "0.000"
         },
         "GTXE2_INT_INTERFACE_IMUX29": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_INT_INTERFACE_IMUX3": {
             "cap": "0.100",
             "res": "0.000"
         },
@@ -4364,10 +4388,6 @@
             "cap": "0.100",
             "res": "0.000"
         },
-        "GTXE2_INT_INTERFACE_IMUX4": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
         "GTXE2_INT_INTERFACE_IMUX40": {
             "cap": "0.100",
             "res": "0.000"
@@ -4400,28 +4420,16 @@
             "cap": "0.100",
             "res": "0.000"
         },
-        "GTXE2_INT_INTERFACE_IMUX5": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_INT_INTERFACE_IMUX6": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_INT_INTERFACE_IMUX7": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_INT_INTERFACE_IMUX8": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_INT_INTERFACE_IMUX9": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
         "GTXE2_INT_INTERFACE_IMUX_DELAY0": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY1": null,
+        "GTXE2_INT_INTERFACE_IMUX_DELAY2": null,
+        "GTXE2_INT_INTERFACE_IMUX_DELAY3": null,
+        "GTXE2_INT_INTERFACE_IMUX_DELAY4": null,
+        "GTXE2_INT_INTERFACE_IMUX_DELAY5": null,
+        "GTXE2_INT_INTERFACE_IMUX_DELAY6": null,
+        "GTXE2_INT_INTERFACE_IMUX_DELAY7": null,
+        "GTXE2_INT_INTERFACE_IMUX_DELAY8": null,
+        "GTXE2_INT_INTERFACE_IMUX_DELAY9": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY10": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY11": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY12": null,
@@ -4432,7 +4440,6 @@
         "GTXE2_INT_INTERFACE_IMUX_DELAY17": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY18": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY19": null,
-        "GTXE2_INT_INTERFACE_IMUX_DELAY2": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY20": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY21": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY22": null,
@@ -4443,7 +4450,6 @@
         "GTXE2_INT_INTERFACE_IMUX_DELAY27": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY28": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY29": null,
-        "GTXE2_INT_INTERFACE_IMUX_DELAY3": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY30": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY31": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY32": null,
@@ -4454,7 +4460,6 @@
         "GTXE2_INT_INTERFACE_IMUX_DELAY37": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY38": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY39": null,
-        "GTXE2_INT_INTERFACE_IMUX_DELAY4": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY40": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY41": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY42": null,
@@ -4463,13 +4468,16 @@
         "GTXE2_INT_INTERFACE_IMUX_DELAY45": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY46": null,
         "GTXE2_INT_INTERFACE_IMUX_DELAY47": null,
-        "GTXE2_INT_INTERFACE_IMUX_DELAY5": null,
-        "GTXE2_INT_INTERFACE_IMUX_DELAY6": null,
-        "GTXE2_INT_INTERFACE_IMUX_DELAY7": null,
-        "GTXE2_INT_INTERFACE_IMUX_DELAY8": null,
-        "GTXE2_INT_INTERFACE_IMUX_DELAY9": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT0": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT1": null,
+        "GTXE2_INT_INTERFACE_IMUX_OUT2": null,
+        "GTXE2_INT_INTERFACE_IMUX_OUT3": null,
+        "GTXE2_INT_INTERFACE_IMUX_OUT4": null,
+        "GTXE2_INT_INTERFACE_IMUX_OUT5": null,
+        "GTXE2_INT_INTERFACE_IMUX_OUT6": null,
+        "GTXE2_INT_INTERFACE_IMUX_OUT7": null,
+        "GTXE2_INT_INTERFACE_IMUX_OUT8": null,
+        "GTXE2_INT_INTERFACE_IMUX_OUT9": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT10": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT11": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT12": null,
@@ -4480,7 +4488,6 @@
         "GTXE2_INT_INTERFACE_IMUX_OUT17": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT18": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT19": null,
-        "GTXE2_INT_INTERFACE_IMUX_OUT2": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT20": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT21": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT22": null,
@@ -4491,7 +4498,6 @@
         "GTXE2_INT_INTERFACE_IMUX_OUT27": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT28": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT29": null,
-        "GTXE2_INT_INTERFACE_IMUX_OUT3": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT30": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT31": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT32": null,
@@ -4502,7 +4508,6 @@
         "GTXE2_INT_INTERFACE_IMUX_OUT37": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT38": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT39": null,
-        "GTXE2_INT_INTERFACE_IMUX_OUT4": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT40": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT41": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT42": null,
@@ -4511,11 +4516,6 @@
         "GTXE2_INT_INTERFACE_IMUX_OUT45": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT46": null,
         "GTXE2_INT_INTERFACE_IMUX_OUT47": null,
-        "GTXE2_INT_INTERFACE_IMUX_OUT5": null,
-        "GTXE2_INT_INTERFACE_IMUX_OUT6": null,
-        "GTXE2_INT_INTERFACE_IMUX_OUT7": null,
-        "GTXE2_INT_INTERFACE_IMUX_OUT8": null,
-        "GTXE2_INT_INTERFACE_IMUX_OUT9": null,
         "INT_INTERFACE_BLOCK_OUTS_B0": null,
         "INT_INTERFACE_BLOCK_OUTS_B1": null,
         "INT_INTERFACE_BLOCK_OUTS_B2": null,
@@ -4573,9 +4573,6 @@
         "INT_INTERFACE_FAN6": null,
         "INT_INTERFACE_FAN7": null,
         "INT_INTERFACE_LH1": null,
-        "INT_INTERFACE_LH10": null,
-        "INT_INTERFACE_LH11": null,
-        "INT_INTERFACE_LH12": null,
         "INT_INTERFACE_LH2": null,
         "INT_INTERFACE_LH3": null,
         "INT_INTERFACE_LH4": null,
@@ -4584,8 +4581,19 @@
         "INT_INTERFACE_LH7": null,
         "INT_INTERFACE_LH8": null,
         "INT_INTERFACE_LH9": null,
+        "INT_INTERFACE_LH10": null,
+        "INT_INTERFACE_LH11": null,
+        "INT_INTERFACE_LH12": null,
         "INT_INTERFACE_LOGIC_OUTS0": null,
         "INT_INTERFACE_LOGIC_OUTS1": null,
+        "INT_INTERFACE_LOGIC_OUTS2": null,
+        "INT_INTERFACE_LOGIC_OUTS3": null,
+        "INT_INTERFACE_LOGIC_OUTS4": null,
+        "INT_INTERFACE_LOGIC_OUTS5": null,
+        "INT_INTERFACE_LOGIC_OUTS6": null,
+        "INT_INTERFACE_LOGIC_OUTS7": null,
+        "INT_INTERFACE_LOGIC_OUTS8": null,
+        "INT_INTERFACE_LOGIC_OUTS9": null,
         "INT_INTERFACE_LOGIC_OUTS10": null,
         "INT_INTERFACE_LOGIC_OUTS11": null,
         "INT_INTERFACE_LOGIC_OUTS12": null,
@@ -4596,20 +4604,20 @@
         "INT_INTERFACE_LOGIC_OUTS17": null,
         "INT_INTERFACE_LOGIC_OUTS18": null,
         "INT_INTERFACE_LOGIC_OUTS19": null,
-        "INT_INTERFACE_LOGIC_OUTS2": null,
         "INT_INTERFACE_LOGIC_OUTS20": null,
         "INT_INTERFACE_LOGIC_OUTS21": null,
         "INT_INTERFACE_LOGIC_OUTS22": null,
         "INT_INTERFACE_LOGIC_OUTS23": null,
-        "INT_INTERFACE_LOGIC_OUTS3": null,
-        "INT_INTERFACE_LOGIC_OUTS4": null,
-        "INT_INTERFACE_LOGIC_OUTS5": null,
-        "INT_INTERFACE_LOGIC_OUTS6": null,
-        "INT_INTERFACE_LOGIC_OUTS7": null,
-        "INT_INTERFACE_LOGIC_OUTS8": null,
-        "INT_INTERFACE_LOGIC_OUTS9": null,
         "INT_INTERFACE_LOGIC_OUTS_B0": null,
         "INT_INTERFACE_LOGIC_OUTS_B1": null,
+        "INT_INTERFACE_LOGIC_OUTS_B2": null,
+        "INT_INTERFACE_LOGIC_OUTS_B3": null,
+        "INT_INTERFACE_LOGIC_OUTS_B4": null,
+        "INT_INTERFACE_LOGIC_OUTS_B5": null,
+        "INT_INTERFACE_LOGIC_OUTS_B6": null,
+        "INT_INTERFACE_LOGIC_OUTS_B7": null,
+        "INT_INTERFACE_LOGIC_OUTS_B8": null,
+        "INT_INTERFACE_LOGIC_OUTS_B9": null,
         "INT_INTERFACE_LOGIC_OUTS_B10": null,
         "INT_INTERFACE_LOGIC_OUTS_B11": null,
         "INT_INTERFACE_LOGIC_OUTS_B12": null,
@@ -4620,18 +4628,10 @@
         "INT_INTERFACE_LOGIC_OUTS_B17": null,
         "INT_INTERFACE_LOGIC_OUTS_B18": null,
         "INT_INTERFACE_LOGIC_OUTS_B19": null,
-        "INT_INTERFACE_LOGIC_OUTS_B2": null,
         "INT_INTERFACE_LOGIC_OUTS_B20": null,
         "INT_INTERFACE_LOGIC_OUTS_B21": null,
         "INT_INTERFACE_LOGIC_OUTS_B22": null,
         "INT_INTERFACE_LOGIC_OUTS_B23": null,
-        "INT_INTERFACE_LOGIC_OUTS_B3": null,
-        "INT_INTERFACE_LOGIC_OUTS_B4": null,
-        "INT_INTERFACE_LOGIC_OUTS_B5": null,
-        "INT_INTERFACE_LOGIC_OUTS_B6": null,
-        "INT_INTERFACE_LOGIC_OUTS_B7": null,
-        "INT_INTERFACE_LOGIC_OUTS_B8": null,
-        "INT_INTERFACE_LOGIC_OUTS_B9": null,
         "INT_INTERFACE_MONITOR_N": null,
         "INT_INTERFACE_MONITOR_P": null,
         "INT_INTERFACE_NE2A0": null,

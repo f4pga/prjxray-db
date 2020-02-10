@@ -1,12 +1,21 @@
+DSP_L.DSP48.DSP_0.A_INPUT[0] origin:100-dsp-mskpat 27_84
 DSP_L.DSP48.DSP_0.AREG_0 origin:100-dsp-mskpat 26_113 26_137 27_111
 DSP_L.DSP48.DSP_0.AREG_2 origin:100-dsp-mskpat 27_136
 DSP_L.DSP48.DSP_0.AUTORESET_PATDET_RESET origin:100-dsp-mskpat 26_79
 DSP_L.DSP48.DSP_0.AUTORESET_PATDET_RESET_NOT_MATCH origin:100-dsp-mskpat 26_78
-DSP_L.DSP48.DSP_0.A_INPUT[0] origin:100-dsp-mskpat 27_84
+DSP_L.DSP48.DSP_0.B_INPUT[0] origin:100-dsp-mskpat 26_11
 DSP_L.DSP48.DSP_0.BREG_0 origin:100-dsp-mskpat 26_40 26_48 27_38
 DSP_L.DSP48.DSP_0.BREG_2 origin:100-dsp-mskpat 27_47
-DSP_L.DSP48.DSP_0.B_INPUT[0] origin:100-dsp-mskpat 26_11
 DSP_L.DSP48.DSP_0.MASK[0] origin:100-dsp-mskpat 27_01
+DSP_L.DSP48.DSP_0.MASK[1] origin:100-dsp-mskpat 26_03
+DSP_L.DSP48.DSP_0.MASK[2] origin:100-dsp-mskpat 27_06
+DSP_L.DSP48.DSP_0.MASK[3] origin:100-dsp-mskpat 26_07
+DSP_L.DSP48.DSP_0.MASK[4] origin:100-dsp-mskpat 26_10
+DSP_L.DSP48.DSP_0.MASK[5] origin:100-dsp-mskpat 27_11
+DSP_L.DSP48.DSP_0.MASK[6] origin:100-dsp-mskpat 26_18
+DSP_L.DSP48.DSP_0.MASK[7] origin:100-dsp-mskpat 27_19
+DSP_L.DSP48.DSP_0.MASK[8] origin:100-dsp-mskpat 26_22
+DSP_L.DSP48.DSP_0.MASK[9] origin:100-dsp-mskpat 27_23
 DSP_L.DSP48.DSP_0.MASK[10] origin:100-dsp-mskpat 27_26
 DSP_L.DSP48.DSP_0.MASK[11] origin:100-dsp-mskpat 26_28
 DSP_L.DSP48.DSP_0.MASK[12] origin:100-dsp-mskpat 26_41
@@ -17,7 +26,6 @@ DSP_L.DSP48.DSP_0.MASK[16] origin:100-dsp-mskpat 26_49
 DSP_L.DSP48.DSP_0.MASK[17] origin:100-dsp-mskpat 27_50
 DSP_L.DSP48.DSP_0.MASK[18] origin:100-dsp-mskpat 27_57
 DSP_L.DSP48.DSP_0.MASK[19] origin:100-dsp-mskpat 26_59
-DSP_L.DSP48.DSP_0.MASK[1] origin:100-dsp-mskpat 26_03
 DSP_L.DSP48.DSP_0.MASK[20] origin:100-dsp-mskpat 26_62
 DSP_L.DSP48.DSP_0.MASK[21] origin:100-dsp-mskpat 27_63
 DSP_L.DSP48.DSP_0.MASK[22] origin:100-dsp-mskpat 26_66
@@ -28,7 +36,6 @@ DSP_L.DSP48.DSP_0.MASK[26] origin:100-dsp-mskpat 27_90
 DSP_L.DSP48.DSP_0.MASK[27] origin:100-dsp-mskpat 26_92
 DSP_L.DSP48.DSP_0.MASK[28] origin:100-dsp-mskpat 27_94
 DSP_L.DSP48.DSP_0.MASK[29] origin:100-dsp-mskpat 26_96
-DSP_L.DSP48.DSP_0.MASK[2] origin:100-dsp-mskpat 27_06
 DSP_L.DSP48.DSP_0.MASK[30] origin:100-dsp-mskpat 27_102
 DSP_L.DSP48.DSP_0.MASK[31] origin:100-dsp-mskpat 26_104
 DSP_L.DSP48.DSP_0.MASK[32] origin:100-dsp-mskpat 27_106
@@ -39,7 +46,6 @@ DSP_L.DSP48.DSP_0.MASK[36] origin:100-dsp-mskpat 27_127
 DSP_L.DSP48.DSP_0.MASK[37] origin:100-dsp-mskpat 26_129
 DSP_L.DSP48.DSP_0.MASK[38] origin:100-dsp-mskpat 26_132
 DSP_L.DSP48.DSP_0.MASK[39] origin:100-dsp-mskpat 27_133
-DSP_L.DSP48.DSP_0.MASK[3] origin:100-dsp-mskpat 26_07
 DSP_L.DSP48.DSP_0.MASK[40] origin:100-dsp-mskpat 26_136
 DSP_L.DSP48.DSP_0.MASK[41] origin:100-dsp-mskpat 27_137
 DSP_L.DSP48.DSP_0.MASK[42] origin:100-dsp-mskpat 27_144
@@ -48,13 +54,16 @@ DSP_L.DSP48.DSP_0.MASK[44] origin:100-dsp-mskpat 26_149
 DSP_L.DSP48.DSP_0.MASK[45] origin:100-dsp-mskpat 27_150
 DSP_L.DSP48.DSP_0.MASK[46] origin:100-dsp-mskpat 26_153
 DSP_L.DSP48.DSP_0.MASK[47] origin:100-dsp-mskpat 26_154
-DSP_L.DSP48.DSP_0.MASK[4] origin:100-dsp-mskpat 26_10
-DSP_L.DSP48.DSP_0.MASK[5] origin:100-dsp-mskpat 27_11
-DSP_L.DSP48.DSP_0.MASK[6] origin:100-dsp-mskpat 26_18
-DSP_L.DSP48.DSP_0.MASK[7] origin:100-dsp-mskpat 27_19
-DSP_L.DSP48.DSP_0.MASK[8] origin:100-dsp-mskpat 26_22
-DSP_L.DSP48.DSP_0.MASK[9] origin:100-dsp-mskpat 27_23
 DSP_L.DSP48.DSP_0.PATTERN[0] origin:100-dsp-mskpat 26_01
+DSP_L.DSP48.DSP_0.PATTERN[1] origin:100-dsp-mskpat 26_04
+DSP_L.DSP48.DSP_0.PATTERN[2] origin:100-dsp-mskpat 26_05
+DSP_L.DSP48.DSP_0.PATTERN[3] origin:100-dsp-mskpat 27_08
+DSP_L.DSP48.DSP_0.PATTERN[4] origin:100-dsp-mskpat 26_09
+DSP_L.DSP48.DSP_0.PATTERN[5] origin:100-dsp-mskpat 26_12
+DSP_L.DSP48.DSP_0.PATTERN[6] origin:100-dsp-mskpat 27_17
+DSP_L.DSP48.DSP_0.PATTERN[7] origin:100-dsp-mskpat 26_20
+DSP_L.DSP48.DSP_0.PATTERN[8] origin:100-dsp-mskpat 27_21
+DSP_L.DSP48.DSP_0.PATTERN[9] origin:100-dsp-mskpat 27_24
 DSP_L.DSP48.DSP_0.PATTERN[10] origin:100-dsp-mskpat 26_26
 DSP_L.DSP48.DSP_0.PATTERN[11] origin:100-dsp-mskpat 26_29
 DSP_L.DSP48.DSP_0.PATTERN[12] origin:100-dsp-mskpat 27_40
@@ -65,7 +74,6 @@ DSP_L.DSP48.DSP_0.PATTERN[16] origin:100-dsp-mskpat 27_48
 DSP_L.DSP48.DSP_0.PATTERN[17] origin:100-dsp-mskpat 26_51
 DSP_L.DSP48.DSP_0.PATTERN[18] origin:100-dsp-mskpat 26_57
 DSP_L.DSP48.DSP_0.PATTERN[19] origin:100-dsp-mskpat 26_60
-DSP_L.DSP48.DSP_0.PATTERN[1] origin:100-dsp-mskpat 26_04
 DSP_L.DSP48.DSP_0.PATTERN[20] origin:100-dsp-mskpat 27_61
 DSP_L.DSP48.DSP_0.PATTERN[21] origin:100-dsp-mskpat 26_64
 DSP_L.DSP48.DSP_0.PATTERN[22] origin:100-dsp-mskpat 27_65
@@ -76,7 +84,6 @@ DSP_L.DSP48.DSP_0.PATTERN[26] origin:100-dsp-mskpat 26_90
 DSP_L.DSP48.DSP_0.PATTERN[27] origin:100-dsp-mskpat 27_92
 DSP_L.DSP48.DSP_0.PATTERN[28] origin:100-dsp-mskpat 26_94
 DSP_L.DSP48.DSP_0.PATTERN[29] origin:100-dsp-mskpat 26_97
-DSP_L.DSP48.DSP_0.PATTERN[2] origin:100-dsp-mskpat 26_05
 DSP_L.DSP48.DSP_0.PATTERN[30] origin:100-dsp-mskpat 27_101
 DSP_L.DSP48.DSP_0.PATTERN[31] origin:100-dsp-mskpat 27_104
 DSP_L.DSP48.DSP_0.PATTERN[32] origin:100-dsp-mskpat 26_106
@@ -87,7 +94,6 @@ DSP_L.DSP48.DSP_0.PATTERN[36] origin:100-dsp-mskpat 26_127
 DSP_L.DSP48.DSP_0.PATTERN[37] origin:100-dsp-mskpat 26_130
 DSP_L.DSP48.DSP_0.PATTERN[38] origin:100-dsp-mskpat 27_131
 DSP_L.DSP48.DSP_0.PATTERN[39] origin:100-dsp-mskpat 26_134
-DSP_L.DSP48.DSP_0.PATTERN[3] origin:100-dsp-mskpat 27_08
 DSP_L.DSP48.DSP_0.PATTERN[40] origin:100-dsp-mskpat 27_135
 DSP_L.DSP48.DSP_0.PATTERN[41] origin:100-dsp-mskpat 26_138
 DSP_L.DSP48.DSP_0.PATTERN[42] origin:100-dsp-mskpat 26_144
@@ -96,12 +102,6 @@ DSP_L.DSP48.DSP_0.PATTERN[44] origin:100-dsp-mskpat 26_148
 DSP_L.DSP48.DSP_0.PATTERN[45] origin:100-dsp-mskpat 26_151
 DSP_L.DSP48.DSP_0.PATTERN[46] origin:100-dsp-mskpat 27_152
 DSP_L.DSP48.DSP_0.PATTERN[47] origin:100-dsp-mskpat 26_155
-DSP_L.DSP48.DSP_0.PATTERN[4] origin:100-dsp-mskpat 26_09
-DSP_L.DSP48.DSP_0.PATTERN[5] origin:100-dsp-mskpat 26_12
-DSP_L.DSP48.DSP_0.PATTERN[6] origin:100-dsp-mskpat 27_17
-DSP_L.DSP48.DSP_0.PATTERN[7] origin:100-dsp-mskpat 26_20
-DSP_L.DSP48.DSP_0.PATTERN[8] origin:100-dsp-mskpat 27_21
-DSP_L.DSP48.DSP_0.PATTERN[9] origin:100-dsp-mskpat 27_24
 DSP_L.DSP48.DSP_0.SEL_MASK_C origin:100-dsp-mskpat 26_83
 DSP_L.DSP48.DSP_0.SEL_MASK_ROUNDING_MODE1 origin:100-dsp-mskpat 27_82
 DSP_L.DSP48.DSP_0.SEL_MASK_ROUNDING_MODE2 origin:100-dsp-mskpat 27_81 27_82
@@ -138,15 +138,24 @@ DSP_L.DSP48.DSP_0.ZIS_OPMODE_INVERTED[6] origin:100-dsp-mskpat 27_13
 DSP_L.DSP48.DSP_0.ZMREG[0] origin:100-dsp-mskpat 26_38
 DSP_L.DSP48.DSP_0.ZOPMODEREG[0] origin:100-dsp-mskpat 26_25
 DSP_L.DSP48.DSP_0.ZPREG[0] origin:100-dsp-mskpat 27_75
+DSP_L.DSP48.DSP_1.A_INPUT[0] origin:100-dsp-mskpat 27_244
 DSP_L.DSP48.DSP_1.AREG_0 origin:100-dsp-mskpat 26_273 26_297 27_271
 DSP_L.DSP48.DSP_1.AREG_2 origin:100-dsp-mskpat 27_296
 DSP_L.DSP48.DSP_1.AUTORESET_PATDET_RESET origin:100-dsp-mskpat 26_239
 DSP_L.DSP48.DSP_1.AUTORESET_PATDET_RESET_NOT_MATCH origin:100-dsp-mskpat 26_238
-DSP_L.DSP48.DSP_1.A_INPUT[0] origin:100-dsp-mskpat 27_244
+DSP_L.DSP48.DSP_1.B_INPUT[0] origin:100-dsp-mskpat 26_171
 DSP_L.DSP48.DSP_1.BREG_0 origin:100-dsp-mskpat 26_200 26_208 27_198
 DSP_L.DSP48.DSP_1.BREG_2 origin:100-dsp-mskpat 27_207
-DSP_L.DSP48.DSP_1.B_INPUT[0] origin:100-dsp-mskpat 26_171
 DSP_L.DSP48.DSP_1.MASK[0] origin:100-dsp-mskpat 27_161
+DSP_L.DSP48.DSP_1.MASK[1] origin:100-dsp-mskpat 26_163
+DSP_L.DSP48.DSP_1.MASK[2] origin:100-dsp-mskpat 27_166
+DSP_L.DSP48.DSP_1.MASK[3] origin:100-dsp-mskpat 26_167
+DSP_L.DSP48.DSP_1.MASK[4] origin:100-dsp-mskpat 26_170
+DSP_L.DSP48.DSP_1.MASK[5] origin:100-dsp-mskpat 27_171
+DSP_L.DSP48.DSP_1.MASK[6] origin:100-dsp-mskpat 26_178
+DSP_L.DSP48.DSP_1.MASK[7] origin:100-dsp-mskpat 27_179
+DSP_L.DSP48.DSP_1.MASK[8] origin:100-dsp-mskpat 26_182
+DSP_L.DSP48.DSP_1.MASK[9] origin:100-dsp-mskpat 27_183
 DSP_L.DSP48.DSP_1.MASK[10] origin:100-dsp-mskpat 27_186
 DSP_L.DSP48.DSP_1.MASK[11] origin:100-dsp-mskpat 26_188
 DSP_L.DSP48.DSP_1.MASK[12] origin:100-dsp-mskpat 26_201
@@ -157,7 +166,6 @@ DSP_L.DSP48.DSP_1.MASK[16] origin:100-dsp-mskpat 26_209
 DSP_L.DSP48.DSP_1.MASK[17] origin:100-dsp-mskpat 27_210
 DSP_L.DSP48.DSP_1.MASK[18] origin:100-dsp-mskpat 27_217
 DSP_L.DSP48.DSP_1.MASK[19] origin:100-dsp-mskpat 26_219
-DSP_L.DSP48.DSP_1.MASK[1] origin:100-dsp-mskpat 26_163
 DSP_L.DSP48.DSP_1.MASK[20] origin:100-dsp-mskpat 26_222
 DSP_L.DSP48.DSP_1.MASK[21] origin:100-dsp-mskpat 27_223
 DSP_L.DSP48.DSP_1.MASK[22] origin:100-dsp-mskpat 26_226
@@ -168,7 +176,6 @@ DSP_L.DSP48.DSP_1.MASK[26] origin:100-dsp-mskpat 27_250
 DSP_L.DSP48.DSP_1.MASK[27] origin:100-dsp-mskpat 26_252
 DSP_L.DSP48.DSP_1.MASK[28] origin:100-dsp-mskpat 27_254
 DSP_L.DSP48.DSP_1.MASK[29] origin:100-dsp-mskpat 26_256
-DSP_L.DSP48.DSP_1.MASK[2] origin:100-dsp-mskpat 27_166
 DSP_L.DSP48.DSP_1.MASK[30] origin:100-dsp-mskpat 27_262
 DSP_L.DSP48.DSP_1.MASK[31] origin:100-dsp-mskpat 26_264
 DSP_L.DSP48.DSP_1.MASK[32] origin:100-dsp-mskpat 27_266
@@ -179,7 +186,6 @@ DSP_L.DSP48.DSP_1.MASK[36] origin:100-dsp-mskpat 27_287
 DSP_L.DSP48.DSP_1.MASK[37] origin:100-dsp-mskpat 26_289
 DSP_L.DSP48.DSP_1.MASK[38] origin:100-dsp-mskpat 26_292
 DSP_L.DSP48.DSP_1.MASK[39] origin:100-dsp-mskpat 27_293
-DSP_L.DSP48.DSP_1.MASK[3] origin:100-dsp-mskpat 26_167
 DSP_L.DSP48.DSP_1.MASK[40] origin:100-dsp-mskpat 26_296
 DSP_L.DSP48.DSP_1.MASK[41] origin:100-dsp-mskpat 27_297
 DSP_L.DSP48.DSP_1.MASK[42] origin:100-dsp-mskpat 27_304
@@ -188,13 +194,16 @@ DSP_L.DSP48.DSP_1.MASK[44] origin:100-dsp-mskpat 26_309
 DSP_L.DSP48.DSP_1.MASK[45] origin:100-dsp-mskpat 27_310
 DSP_L.DSP48.DSP_1.MASK[46] origin:100-dsp-mskpat 26_313
 DSP_L.DSP48.DSP_1.MASK[47] origin:100-dsp-mskpat 26_314
-DSP_L.DSP48.DSP_1.MASK[4] origin:100-dsp-mskpat 26_170
-DSP_L.DSP48.DSP_1.MASK[5] origin:100-dsp-mskpat 27_171
-DSP_L.DSP48.DSP_1.MASK[6] origin:100-dsp-mskpat 26_178
-DSP_L.DSP48.DSP_1.MASK[7] origin:100-dsp-mskpat 27_179
-DSP_L.DSP48.DSP_1.MASK[8] origin:100-dsp-mskpat 26_182
-DSP_L.DSP48.DSP_1.MASK[9] origin:100-dsp-mskpat 27_183
 DSP_L.DSP48.DSP_1.PATTERN[0] origin:100-dsp-mskpat 26_161
+DSP_L.DSP48.DSP_1.PATTERN[1] origin:100-dsp-mskpat 26_164
+DSP_L.DSP48.DSP_1.PATTERN[2] origin:100-dsp-mskpat 26_165
+DSP_L.DSP48.DSP_1.PATTERN[3] origin:100-dsp-mskpat 27_168
+DSP_L.DSP48.DSP_1.PATTERN[4] origin:100-dsp-mskpat 26_169
+DSP_L.DSP48.DSP_1.PATTERN[5] origin:100-dsp-mskpat 26_172
+DSP_L.DSP48.DSP_1.PATTERN[6] origin:100-dsp-mskpat 27_177
+DSP_L.DSP48.DSP_1.PATTERN[7] origin:100-dsp-mskpat 26_180
+DSP_L.DSP48.DSP_1.PATTERN[8] origin:100-dsp-mskpat 27_181
+DSP_L.DSP48.DSP_1.PATTERN[9] origin:100-dsp-mskpat 27_184
 DSP_L.DSP48.DSP_1.PATTERN[10] origin:100-dsp-mskpat 26_186
 DSP_L.DSP48.DSP_1.PATTERN[11] origin:100-dsp-mskpat 26_189
 DSP_L.DSP48.DSP_1.PATTERN[12] origin:100-dsp-mskpat 27_200
@@ -205,7 +214,6 @@ DSP_L.DSP48.DSP_1.PATTERN[16] origin:100-dsp-mskpat 27_208
 DSP_L.DSP48.DSP_1.PATTERN[17] origin:100-dsp-mskpat 26_211
 DSP_L.DSP48.DSP_1.PATTERN[18] origin:100-dsp-mskpat 26_217
 DSP_L.DSP48.DSP_1.PATTERN[19] origin:100-dsp-mskpat 26_220
-DSP_L.DSP48.DSP_1.PATTERN[1] origin:100-dsp-mskpat 26_164
 DSP_L.DSP48.DSP_1.PATTERN[20] origin:100-dsp-mskpat 27_221
 DSP_L.DSP48.DSP_1.PATTERN[21] origin:100-dsp-mskpat 26_224
 DSP_L.DSP48.DSP_1.PATTERN[22] origin:100-dsp-mskpat 27_225
@@ -216,7 +224,6 @@ DSP_L.DSP48.DSP_1.PATTERN[26] origin:100-dsp-mskpat 26_250
 DSP_L.DSP48.DSP_1.PATTERN[27] origin:100-dsp-mskpat 27_252
 DSP_L.DSP48.DSP_1.PATTERN[28] origin:100-dsp-mskpat 26_254
 DSP_L.DSP48.DSP_1.PATTERN[29] origin:100-dsp-mskpat 26_257
-DSP_L.DSP48.DSP_1.PATTERN[2] origin:100-dsp-mskpat 26_165
 DSP_L.DSP48.DSP_1.PATTERN[30] origin:100-dsp-mskpat 27_261
 DSP_L.DSP48.DSP_1.PATTERN[31] origin:100-dsp-mskpat 27_264
 DSP_L.DSP48.DSP_1.PATTERN[32] origin:100-dsp-mskpat 26_266
@@ -227,7 +234,6 @@ DSP_L.DSP48.DSP_1.PATTERN[36] origin:100-dsp-mskpat 26_287
 DSP_L.DSP48.DSP_1.PATTERN[37] origin:100-dsp-mskpat 26_290
 DSP_L.DSP48.DSP_1.PATTERN[38] origin:100-dsp-mskpat 27_291
 DSP_L.DSP48.DSP_1.PATTERN[39] origin:100-dsp-mskpat 26_294
-DSP_L.DSP48.DSP_1.PATTERN[3] origin:100-dsp-mskpat 27_168
 DSP_L.DSP48.DSP_1.PATTERN[40] origin:100-dsp-mskpat 27_295
 DSP_L.DSP48.DSP_1.PATTERN[41] origin:100-dsp-mskpat 26_298
 DSP_L.DSP48.DSP_1.PATTERN[42] origin:100-dsp-mskpat 26_304
@@ -236,12 +242,6 @@ DSP_L.DSP48.DSP_1.PATTERN[44] origin:100-dsp-mskpat 26_308
 DSP_L.DSP48.DSP_1.PATTERN[45] origin:100-dsp-mskpat 26_311
 DSP_L.DSP48.DSP_1.PATTERN[46] origin:100-dsp-mskpat 27_312
 DSP_L.DSP48.DSP_1.PATTERN[47] origin:100-dsp-mskpat 26_315
-DSP_L.DSP48.DSP_1.PATTERN[4] origin:100-dsp-mskpat 26_169
-DSP_L.DSP48.DSP_1.PATTERN[5] origin:100-dsp-mskpat 26_172
-DSP_L.DSP48.DSP_1.PATTERN[6] origin:100-dsp-mskpat 27_177
-DSP_L.DSP48.DSP_1.PATTERN[7] origin:100-dsp-mskpat 26_180
-DSP_L.DSP48.DSP_1.PATTERN[8] origin:100-dsp-mskpat 27_181
-DSP_L.DSP48.DSP_1.PATTERN[9] origin:100-dsp-mskpat 27_184
 DSP_L.DSP48.DSP_1.SEL_MASK_C origin:100-dsp-mskpat 26_243
 DSP_L.DSP48.DSP_1.SEL_MASK_ROUNDING_MODE1 origin:100-dsp-mskpat 27_242
 DSP_L.DSP48.DSP_1.SEL_MASK_ROUNDING_MODE2 origin:100-dsp-mskpat 27_241 27_242

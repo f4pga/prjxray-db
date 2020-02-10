@@ -3238,34 +3238,6 @@
             },
             "src_wire": "CMT_PHASER_OUT_A_RDCLK_TOFIFO"
         },
-        "CMT_TOP_R_LOWER_T.CMT_PHASER_OUT_B_OCLK->>CMT_PHASER_B_OCLK_TOIOI": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.031",
-                    "0.035",
-                    "0.092",
-                    "0.097"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "CMT_PHASER_B_OCLK_TOIOI",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.031",
-                    "0.035",
-                    "0.092",
-                    "0.097"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "CMT_PHASER_OUT_B_OCLK"
-        },
         "CMT_TOP_R_LOWER_T.CMT_PHASER_OUT_B_OCLK1X_90->>CMT_PHASER_B_OCLK90_TOIOI": {
             "can_invert": "0",
             "dst_to_src": {
@@ -3293,6 +3265,34 @@
                 "res": "0.0"
             },
             "src_wire": "CMT_PHASER_OUT_B_OCLK1X_90"
+        },
+        "CMT_TOP_R_LOWER_T.CMT_PHASER_OUT_B_OCLK->>CMT_PHASER_B_OCLK_TOIOI": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.031",
+                    "0.035",
+                    "0.092",
+                    "0.097"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "CMT_PHASER_B_OCLK_TOIOI",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.031",
+                    "0.035",
+                    "0.092",
+                    "0.097"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "CMT_PHASER_OUT_B_OCLK"
         },
         "CMT_TOP_R_LOWER_T.CMT_PHASER_OUT_B_OCLKDIV->>CMT_PHASER_B_OCLKDIV_TOIOI": {
             "can_invert": "0",
@@ -4332,6 +4332,78 @@
             },
             "src_wire": "CMT_TOP_IMUX0_7"
         },
+        "CMT_TOP_R_LOWER_T.CMT_TOP_IMUX1_2->CMT_PHASER_OUT_CA_FINEENABLE": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CMT_PHASER_OUT_CA_FINEENABLE",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CMT_TOP_IMUX1_2"
+        },
+        "CMT_TOP_R_LOWER_T.CMT_TOP_IMUX2_2->CMT_PHASER_OUT_CA_EDGEADV": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CMT_PHASER_OUT_CA_EDGEADV",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CMT_TOP_IMUX2_2"
+        },
+        "CMT_TOP_R_LOWER_T.CMT_TOP_IMUX8_3->CMT_PHASER_IN_CA_RSTDQSFIND": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CMT_PHASER_IN_CA_RSTDQSFIND",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CMT_TOP_IMUX8_3"
+        },
+        "CMT_TOP_R_LOWER_T.CMT_TOP_IMUX9_2->CMT_PHASER_OUT_CA_COARSEINC": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CMT_PHASER_OUT_CA_COARSEINC",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CMT_TOP_IMUX9_2"
+        },
         "CMT_TOP_R_LOWER_T.CMT_TOP_IMUX11_3->CMT_PHASER_IN_CA_COUNTERLOADVAL0": {
             "can_invert": "0",
             "dst_to_src": {
@@ -4656,24 +4728,6 @@
             },
             "src_wire": "CMT_TOP_IMUX19_7"
         },
-        "CMT_TOP_R_LOWER_T.CMT_TOP_IMUX1_2->CMT_PHASER_OUT_CA_FINEENABLE": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CMT_PHASER_OUT_CA_FINEENABLE",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CMT_TOP_IMUX1_2"
-        },
         "CMT_TOP_R_LOWER_T.CMT_TOP_IMUX20_4->CMT_PHASER_OUT_DB_SELFINEOCLKDELAY": {
             "can_invert": "0",
             "dst_to_src": {
@@ -4961,24 +5015,6 @@
                 "res": "0.000"
             },
             "src_wire": "CMT_TOP_IMUX29_6"
-        },
-        "CMT_TOP_R_LOWER_T.CMT_TOP_IMUX2_2->CMT_PHASER_OUT_CA_EDGEADV": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CMT_PHASER_OUT_CA_EDGEADV",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CMT_TOP_IMUX2_2"
         },
         "CMT_TOP_R_LOWER_T.CMT_TOP_IMUX30_1->CMT_PHASER_OUT_CA_COUNTERLOADVAL4": {
             "can_invert": "0",
@@ -5483,42 +5519,6 @@
                 "res": "0.000"
             },
             "src_wire": "CMT_TOP_IMUX47_7"
-        },
-        "CMT_TOP_R_LOWER_T.CMT_TOP_IMUX8_3->CMT_PHASER_IN_CA_RSTDQSFIND": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CMT_PHASER_IN_CA_RSTDQSFIND",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CMT_TOP_IMUX8_3"
-        },
-        "CMT_TOP_R_LOWER_T.CMT_TOP_IMUX9_2->CMT_PHASER_OUT_CA_COARSEINC": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CMT_PHASER_OUT_CA_COARSEINC",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CMT_TOP_IMUX9_2"
         },
         "CMT_TOP_R_LOWER_T.MMCMOUT_CLK_FREQ_BB_REBUFIN0->>MMCMOUT_CLK_FREQ_BB_REBUFOUT0": {
             "can_invert": "0",
@@ -6082,785 +6082,6 @@
         }
     },
     "sites": [
-        {
-            "name": "X0Y0",
-            "prefix": "PHASER_OUT_PHY",
-            "site_pins": {
-                "BURSTPENDING": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_BURSTPENDING"
-                },
-                "BURSTPENDINGPHY": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_BURSTPENDINGPHY"
-                },
-                "COARSEENABLE": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COARSEENABLE"
-                },
-                "COARSEINC": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COARSEINC"
-                },
-                "COARSEOVERFLOW": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_COARSEOVERFLOW"
-                },
-                "COUNTERLOADEN": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADEN"
-                },
-                "COUNTERLOADVAL0": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL0"
-                },
-                "COUNTERLOADVAL1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL1"
-                },
-                "COUNTERLOADVAL2": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL2"
-                },
-                "COUNTERLOADVAL3": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL3"
-                },
-                "COUNTERLOADVAL4": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL4"
-                },
-                "COUNTERLOADVAL5": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL5"
-                },
-                "COUNTERLOADVAL6": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL6"
-                },
-                "COUNTERLOADVAL7": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL7"
-                },
-                "COUNTERLOADVAL8": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL8"
-                },
-                "COUNTERREADEN": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADEN"
-                },
-                "COUNTERREADVAL0": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL0"
-                },
-                "COUNTERREADVAL1": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL1"
-                },
-                "COUNTERREADVAL2": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL2"
-                },
-                "COUNTERREADVAL3": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL3"
-                },
-                "COUNTERREADVAL4": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL4"
-                },
-                "COUNTERREADVAL5": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL5"
-                },
-                "COUNTERREADVAL6": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL6"
-                },
-                "COUNTERREADVAL7": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL7"
-                },
-                "COUNTERREADVAL8": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL8"
-                },
-                "CTSBUS0": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_CTSBUS0"
-                },
-                "CTSBUS1": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_CTSBUS1"
-                },
-                "DIVIDERST": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_DIVIDERST"
-                },
-                "DQSBUS0": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_DQSBUS0"
-                },
-                "DQSBUS1": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_DQSBUS1"
-                },
-                "DTSBUS0": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_DTSBUS0"
-                },
-                "DTSBUS1": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_DTSBUS1"
-                },
-                "EDGEADV": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_EDGEADV"
-                },
-                "ENCALIB0": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_ENCALIB0"
-                },
-                "ENCALIB1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_ENCALIB1"
-                },
-                "ENCALIBPHY0": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_ENCALIBPHY0"
-                },
-                "ENCALIBPHY1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_ENCALIBPHY1"
-                },
-                "FINEENABLE": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_FINEENABLE"
-                },
-                "FINEINC": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_FINEINC"
-                },
-                "FINEOVERFLOW": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_FINEOVERFLOW"
-                },
-                "FREQREFCLK": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_FREQREFCLK"
-                },
-                "MEMREFCLK": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_MEMREFCLK"
-                },
-                "OCLK": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_OCLK"
-                },
-                "OCLKDELAYED": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_OCLKDELAYED"
-                },
-                "OCLKDIV": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_OCLKDIV"
-                },
-                "OSERDESRST": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_OSERDESRST"
-                },
-                "PHASEREFCLK": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_PHASEREFCLK"
-                },
-                "RDENABLE": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_RDENABLE"
-                },
-                "RST": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_RST"
-                },
-                "SCANCLK": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_SCANCLK"
-                },
-                "SCANENB": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_SCANENB"
-                },
-                "SCANIN": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_SCANIN"
-                },
-                "SCANMODEB": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_SCANMODEB"
-                },
-                "SCANOUT": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_SCANOUT"
-                },
-                "SELFINEOCLKDELAY": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_SELFINEOCLKDELAY"
-                },
-                "SYNCIN": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_SYNCIN"
-                },
-                "SYSCLK": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_SYSCLK"
-                },
-                "TESTIN0": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN0"
-                },
-                "TESTIN1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN1"
-                },
-                "TESTIN10": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN10"
-                },
-                "TESTIN11": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN11"
-                },
-                "TESTIN12": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN12"
-                },
-                "TESTIN13": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN13"
-                },
-                "TESTIN14": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN14"
-                },
-                "TESTIN15": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN15"
-                },
-                "TESTIN2": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN2"
-                },
-                "TESTIN3": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN3"
-                },
-                "TESTIN4": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN4"
-                },
-                "TESTIN5": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN5"
-                },
-                "TESTIN6": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN6"
-                },
-                "TESTIN7": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN7"
-                },
-                "TESTIN8": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN8"
-                },
-                "TESTIN9": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_CA_TESTIN9"
-                },
-                "TESTOUT0": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_TESTOUT0"
-                },
-                "TESTOUT1": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_TESTOUT1"
-                },
-                "TESTOUT2": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_TESTOUT2"
-                },
-                "TESTOUT3": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_CA_TESTOUT3"
-                }
-            },
-            "type": "PHASER_OUT_PHY",
-            "x_coord": 0,
-            "y_coord": 0
-        },
         {
             "name": "X0Y0",
             "prefix": "PHASER_IN_PHY",
@@ -7615,46 +6836,6 @@
                     ],
                     "wire": "CMT_PHASER_IN_CA_TESTIN1"
                 },
-                "TESTIN10": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_IN_CA_TESTIN10"
-                },
-                "TESTIN11": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_IN_CA_TESTIN11"
-                },
-                "TESTIN12": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_IN_CA_TESTIN12"
-                },
-                "TESTIN13": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_IN_CA_TESTIN13"
-                },
                 "TESTIN2": {
                     "cap": "0.000",
                     "delay": [
@@ -7735,6 +6916,46 @@
                     ],
                     "wire": "CMT_PHASER_IN_CA_TESTIN9"
                 },
+                "TESTIN10": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_IN_CA_TESTIN10"
+                },
+                "TESTIN11": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_IN_CA_TESTIN11"
+                },
+                "TESTIN12": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_IN_CA_TESTIN12"
+                },
+                "TESTIN13": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_IN_CA_TESTIN13"
+                },
                 "TESTOUT0": {
                     "delay": [
                         "0.000",
@@ -7791,7 +7012,7 @@
             "y_coord": 0
         },
         {
-            "name": "X0Y1",
+            "name": "X0Y0",
             "prefix": "PHASER_OUT_PHY",
             "site_pins": {
                 "BURSTPENDING": {
@@ -7802,7 +7023,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_BURSTPENDING"
+                    "wire": "CMT_PHASER_OUT_CA_BURSTPENDING"
                 },
                 "BURSTPENDINGPHY": {
                     "cap": "0.000",
@@ -7812,7 +7033,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_BURSTPENDINGPHY"
+                    "wire": "CMT_PHASER_OUT_CA_BURSTPENDINGPHY"
                 },
                 "COARSEENABLE": {
                     "cap": "0.000",
@@ -7822,7 +7043,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COARSEENABLE"
+                    "wire": "CMT_PHASER_OUT_CA_COARSEENABLE"
                 },
                 "COARSEINC": {
                     "cap": "0.000",
@@ -7832,7 +7053,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COARSEINC"
+                    "wire": "CMT_PHASER_OUT_CA_COARSEINC"
                 },
                 "COARSEOVERFLOW": {
                     "delay": [
@@ -7842,7 +7063,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_COARSEOVERFLOW"
+                    "wire": "CMT_PHASER_OUT_CA_COARSEOVERFLOW"
                 },
                 "COUNTERLOADEN": {
                     "cap": "0.000",
@@ -7852,7 +7073,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADEN"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADEN"
                 },
                 "COUNTERLOADVAL0": {
                     "cap": "0.000",
@@ -7862,7 +7083,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL0"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL0"
                 },
                 "COUNTERLOADVAL1": {
                     "cap": "0.000",
@@ -7872,7 +7093,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL1"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL1"
                 },
                 "COUNTERLOADVAL2": {
                     "cap": "0.000",
@@ -7882,7 +7103,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL2"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL2"
                 },
                 "COUNTERLOADVAL3": {
                     "cap": "0.000",
@@ -7892,7 +7113,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL3"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL3"
                 },
                 "COUNTERLOADVAL4": {
                     "cap": "0.000",
@@ -7902,7 +7123,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL4"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL4"
                 },
                 "COUNTERLOADVAL5": {
                     "cap": "0.000",
@@ -7912,7 +7133,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL5"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL5"
                 },
                 "COUNTERLOADVAL6": {
                     "cap": "0.000",
@@ -7922,7 +7143,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL6"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL6"
                 },
                 "COUNTERLOADVAL7": {
                     "cap": "0.000",
@@ -7932,7 +7153,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL7"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL7"
                 },
                 "COUNTERLOADVAL8": {
                     "cap": "0.000",
@@ -7942,7 +7163,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL8"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERLOADVAL8"
                 },
                 "COUNTERREADEN": {
                     "cap": "0.000",
@@ -7952,7 +7173,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADEN"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADEN"
                 },
                 "COUNTERREADVAL0": {
                     "delay": [
@@ -7962,7 +7183,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL0"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL0"
                 },
                 "COUNTERREADVAL1": {
                     "delay": [
@@ -7972,7 +7193,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL1"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL1"
                 },
                 "COUNTERREADVAL2": {
                     "delay": [
@@ -7982,7 +7203,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL2"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL2"
                 },
                 "COUNTERREADVAL3": {
                     "delay": [
@@ -7992,7 +7213,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL3"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL3"
                 },
                 "COUNTERREADVAL4": {
                     "delay": [
@@ -8002,7 +7223,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL4"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL4"
                 },
                 "COUNTERREADVAL5": {
                     "delay": [
@@ -8012,7 +7233,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL5"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL5"
                 },
                 "COUNTERREADVAL6": {
                     "delay": [
@@ -8022,7 +7243,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL6"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL6"
                 },
                 "COUNTERREADVAL7": {
                     "delay": [
@@ -8032,7 +7253,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL7"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL7"
                 },
                 "COUNTERREADVAL8": {
                     "delay": [
@@ -8042,7 +7263,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL8"
+                    "wire": "CMT_PHASER_OUT_CA_COUNTERREADVAL8"
                 },
                 "CTSBUS0": {
                     "delay": [
@@ -8052,7 +7273,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_CTSBUS0"
+                    "wire": "CMT_PHASER_OUT_CA_CTSBUS0"
                 },
                 "CTSBUS1": {
                     "delay": [
@@ -8062,7 +7283,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_CTSBUS1"
+                    "wire": "CMT_PHASER_OUT_CA_CTSBUS1"
                 },
                 "DIVIDERST": {
                     "cap": "0.000",
@@ -8072,7 +7293,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_DIVIDERST"
+                    "wire": "CMT_PHASER_OUT_CA_DIVIDERST"
                 },
                 "DQSBUS0": {
                     "delay": [
@@ -8082,7 +7303,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_DQSBUS0"
+                    "wire": "CMT_PHASER_OUT_CA_DQSBUS0"
                 },
                 "DQSBUS1": {
                     "delay": [
@@ -8092,7 +7313,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_DQSBUS1"
+                    "wire": "CMT_PHASER_OUT_CA_DQSBUS1"
                 },
                 "DTSBUS0": {
                     "delay": [
@@ -8102,7 +7323,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_DTSBUS0"
+                    "wire": "CMT_PHASER_OUT_CA_DTSBUS0"
                 },
                 "DTSBUS1": {
                     "delay": [
@@ -8112,7 +7333,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_DTSBUS1"
+                    "wire": "CMT_PHASER_OUT_CA_DTSBUS1"
                 },
                 "EDGEADV": {
                     "cap": "0.000",
@@ -8122,7 +7343,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_EDGEADV"
+                    "wire": "CMT_PHASER_OUT_CA_EDGEADV"
                 },
                 "ENCALIB0": {
                     "cap": "0.000",
@@ -8132,7 +7353,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_ENCALIB0"
+                    "wire": "CMT_PHASER_OUT_CA_ENCALIB0"
                 },
                 "ENCALIB1": {
                     "cap": "0.000",
@@ -8142,7 +7363,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_ENCALIB1"
+                    "wire": "CMT_PHASER_OUT_CA_ENCALIB1"
                 },
                 "ENCALIBPHY0": {
                     "cap": "0.000",
@@ -8152,7 +7373,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_ENCALIBPHY0"
+                    "wire": "CMT_PHASER_OUT_CA_ENCALIBPHY0"
                 },
                 "ENCALIBPHY1": {
                     "cap": "0.000",
@@ -8162,7 +7383,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_ENCALIBPHY1"
+                    "wire": "CMT_PHASER_OUT_CA_ENCALIBPHY1"
                 },
                 "FINEENABLE": {
                     "cap": "0.000",
@@ -8172,7 +7393,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_FINEENABLE"
+                    "wire": "CMT_PHASER_OUT_CA_FINEENABLE"
                 },
                 "FINEINC": {
                     "cap": "0.000",
@@ -8182,7 +7403,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_FINEINC"
+                    "wire": "CMT_PHASER_OUT_CA_FINEINC"
                 },
                 "FINEOVERFLOW": {
                     "delay": [
@@ -8192,7 +7413,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_FINEOVERFLOW"
+                    "wire": "CMT_PHASER_OUT_CA_FINEOVERFLOW"
                 },
                 "FREQREFCLK": {
                     "cap": "0.000",
@@ -8202,7 +7423,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_FREQREFCLK"
+                    "wire": "CMT_PHASER_OUT_CA_FREQREFCLK"
                 },
                 "MEMREFCLK": {
                     "cap": "0.000",
@@ -8212,7 +7433,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_MEMREFCLK"
+                    "wire": "CMT_PHASER_OUT_CA_MEMREFCLK"
                 },
                 "OCLK": {
                     "delay": [
@@ -8222,7 +7443,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_OCLK"
+                    "wire": "CMT_PHASER_OUT_CA_OCLK"
                 },
                 "OCLKDELAYED": {
                     "delay": [
@@ -8232,7 +7453,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_OCLKDELAYED"
+                    "wire": "CMT_PHASER_OUT_CA_OCLKDELAYED"
                 },
                 "OCLKDIV": {
                     "delay": [
@@ -8242,7 +7463,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_OCLKDIV"
+                    "wire": "CMT_PHASER_OUT_CA_OCLKDIV"
                 },
                 "OSERDESRST": {
                     "delay": [
@@ -8252,7 +7473,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_OSERDESRST"
+                    "wire": "CMT_PHASER_OUT_CA_OSERDESRST"
                 },
                 "PHASEREFCLK": {
                     "cap": "0.000",
@@ -8262,7 +7483,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_PHASEREFCLK"
+                    "wire": "CMT_PHASER_OUT_CA_PHASEREFCLK"
                 },
                 "RDENABLE": {
                     "delay": [
@@ -8272,7 +7493,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_RDENABLE"
+                    "wire": "CMT_PHASER_OUT_CA_RDENABLE"
                 },
                 "RST": {
                     "cap": "0.000",
@@ -8282,7 +7503,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_RST"
+                    "wire": "CMT_PHASER_OUT_CA_RST"
                 },
                 "SCANCLK": {
                     "cap": "0.000",
@@ -8292,7 +7513,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_SCANCLK"
+                    "wire": "CMT_PHASER_OUT_CA_SCANCLK"
                 },
                 "SCANENB": {
                     "cap": "0.000",
@@ -8302,7 +7523,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_SCANENB"
+                    "wire": "CMT_PHASER_OUT_CA_SCANENB"
                 },
                 "SCANIN": {
                     "cap": "0.000",
@@ -8312,7 +7533,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_SCANIN"
+                    "wire": "CMT_PHASER_OUT_CA_SCANIN"
                 },
                 "SCANMODEB": {
                     "cap": "0.000",
@@ -8322,7 +7543,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_SCANMODEB"
+                    "wire": "CMT_PHASER_OUT_CA_SCANMODEB"
                 },
                 "SCANOUT": {
                     "delay": [
@@ -8332,7 +7553,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_SCANOUT"
+                    "wire": "CMT_PHASER_OUT_CA_SCANOUT"
                 },
                 "SELFINEOCLKDELAY": {
                     "cap": "0.000",
@@ -8342,7 +7563,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_SELFINEOCLKDELAY"
+                    "wire": "CMT_PHASER_OUT_CA_SELFINEOCLKDELAY"
                 },
                 "SYNCIN": {
                     "cap": "0.000",
@@ -8352,7 +7573,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_SYNCIN"
+                    "wire": "CMT_PHASER_OUT_CA_SYNCIN"
                 },
                 "SYSCLK": {
                     "cap": "0.000",
@@ -8362,7 +7583,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_SYSCLK"
+                    "wire": "CMT_PHASER_OUT_CA_SYSCLK"
                 },
                 "TESTIN0": {
                     "cap": "0.000",
@@ -8372,7 +7593,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN0"
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN0"
                 },
                 "TESTIN1": {
                     "cap": "0.000",
@@ -8382,67 +7603,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN1"
-                },
-                "TESTIN10": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN10"
-                },
-                "TESTIN11": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN11"
-                },
-                "TESTIN12": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN12"
-                },
-                "TESTIN13": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN13"
-                },
-                "TESTIN14": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN14"
-                },
-                "TESTIN15": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN15"
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN1"
                 },
                 "TESTIN2": {
                     "cap": "0.000",
@@ -8452,7 +7613,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN2"
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN2"
                 },
                 "TESTIN3": {
                     "cap": "0.000",
@@ -8462,7 +7623,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN3"
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN3"
                 },
                 "TESTIN4": {
                     "cap": "0.000",
@@ -8472,7 +7633,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN4"
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN4"
                 },
                 "TESTIN5": {
                     "cap": "0.000",
@@ -8482,7 +7643,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN5"
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN5"
                 },
                 "TESTIN6": {
                     "cap": "0.000",
@@ -8492,7 +7653,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN6"
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN6"
                 },
                 "TESTIN7": {
                     "cap": "0.000",
@@ -8502,7 +7663,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN7"
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN7"
                 },
                 "TESTIN8": {
                     "cap": "0.000",
@@ -8512,7 +7673,7 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN8"
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN8"
                 },
                 "TESTIN9": {
                     "cap": "0.000",
@@ -8522,7 +7683,67 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "CMT_PHASER_OUT_DB_TESTIN9"
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN9"
+                },
+                "TESTIN10": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN10"
+                },
+                "TESTIN11": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN11"
+                },
+                "TESTIN12": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN12"
+                },
+                "TESTIN13": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN13"
+                },
+                "TESTIN14": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN14"
+                },
+                "TESTIN15": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_CA_TESTIN15"
                 },
                 "TESTOUT0": {
                     "delay": [
@@ -8532,7 +7753,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_TESTOUT0"
+                    "wire": "CMT_PHASER_OUT_CA_TESTOUT0"
                 },
                 "TESTOUT1": {
                     "delay": [
@@ -8542,7 +7763,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_TESTOUT1"
+                    "wire": "CMT_PHASER_OUT_CA_TESTOUT1"
                 },
                 "TESTOUT2": {
                     "delay": [
@@ -8552,7 +7773,7 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_TESTOUT2"
+                    "wire": "CMT_PHASER_OUT_CA_TESTOUT2"
                 },
                 "TESTOUT3": {
                     "delay": [
@@ -8562,12 +7783,12 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "CMT_PHASER_OUT_DB_TESTOUT3"
+                    "wire": "CMT_PHASER_OUT_CA_TESTOUT3"
                 }
             },
             "type": "PHASER_OUT_PHY",
             "x_coord": 0,
-            "y_coord": 1
+            "y_coord": 0
         },
         {
             "name": "X0Y1",
@@ -9323,46 +8544,6 @@
                     ],
                     "wire": "CMT_PHASER_IN_DB_TESTIN1"
                 },
-                "TESTIN10": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_IN_DB_TESTIN10"
-                },
-                "TESTIN11": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_IN_DB_TESTIN11"
-                },
-                "TESTIN12": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_IN_DB_TESTIN12"
-                },
-                "TESTIN13": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CMT_PHASER_IN_DB_TESTIN13"
-                },
                 "TESTIN2": {
                     "cap": "0.000",
                     "delay": [
@@ -9443,6 +8624,46 @@
                     ],
                     "wire": "CMT_PHASER_IN_DB_TESTIN9"
                 },
+                "TESTIN10": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_IN_DB_TESTIN10"
+                },
+                "TESTIN11": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_IN_DB_TESTIN11"
+                },
+                "TESTIN12": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_IN_DB_TESTIN12"
+                },
+                "TESTIN13": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_IN_DB_TESTIN13"
+                },
                 "TESTOUT0": {
                     "delay": [
                         "0.000",
@@ -9497,6 +8718,785 @@
             "type": "PHASER_IN_PHY",
             "x_coord": 0,
             "y_coord": 1
+        },
+        {
+            "name": "X0Y1",
+            "prefix": "PHASER_OUT_PHY",
+            "site_pins": {
+                "BURSTPENDING": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_BURSTPENDING"
+                },
+                "BURSTPENDINGPHY": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_BURSTPENDINGPHY"
+                },
+                "COARSEENABLE": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COARSEENABLE"
+                },
+                "COARSEINC": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COARSEINC"
+                },
+                "COARSEOVERFLOW": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_COARSEOVERFLOW"
+                },
+                "COUNTERLOADEN": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADEN"
+                },
+                "COUNTERLOADVAL0": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL0"
+                },
+                "COUNTERLOADVAL1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL1"
+                },
+                "COUNTERLOADVAL2": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL2"
+                },
+                "COUNTERLOADVAL3": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL3"
+                },
+                "COUNTERLOADVAL4": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL4"
+                },
+                "COUNTERLOADVAL5": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL5"
+                },
+                "COUNTERLOADVAL6": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL6"
+                },
+                "COUNTERLOADVAL7": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL7"
+                },
+                "COUNTERLOADVAL8": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERLOADVAL8"
+                },
+                "COUNTERREADEN": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADEN"
+                },
+                "COUNTERREADVAL0": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL0"
+                },
+                "COUNTERREADVAL1": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL1"
+                },
+                "COUNTERREADVAL2": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL2"
+                },
+                "COUNTERREADVAL3": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL3"
+                },
+                "COUNTERREADVAL4": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL4"
+                },
+                "COUNTERREADVAL5": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL5"
+                },
+                "COUNTERREADVAL6": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL6"
+                },
+                "COUNTERREADVAL7": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL7"
+                },
+                "COUNTERREADVAL8": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_COUNTERREADVAL8"
+                },
+                "CTSBUS0": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_CTSBUS0"
+                },
+                "CTSBUS1": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_CTSBUS1"
+                },
+                "DIVIDERST": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_DIVIDERST"
+                },
+                "DQSBUS0": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_DQSBUS0"
+                },
+                "DQSBUS1": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_DQSBUS1"
+                },
+                "DTSBUS0": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_DTSBUS0"
+                },
+                "DTSBUS1": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_DTSBUS1"
+                },
+                "EDGEADV": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_EDGEADV"
+                },
+                "ENCALIB0": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_ENCALIB0"
+                },
+                "ENCALIB1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_ENCALIB1"
+                },
+                "ENCALIBPHY0": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_ENCALIBPHY0"
+                },
+                "ENCALIBPHY1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_ENCALIBPHY1"
+                },
+                "FINEENABLE": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_FINEENABLE"
+                },
+                "FINEINC": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_FINEINC"
+                },
+                "FINEOVERFLOW": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_FINEOVERFLOW"
+                },
+                "FREQREFCLK": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_FREQREFCLK"
+                },
+                "MEMREFCLK": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_MEMREFCLK"
+                },
+                "OCLK": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_OCLK"
+                },
+                "OCLKDELAYED": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_OCLKDELAYED"
+                },
+                "OCLKDIV": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_OCLKDIV"
+                },
+                "OSERDESRST": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_OSERDESRST"
+                },
+                "PHASEREFCLK": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_PHASEREFCLK"
+                },
+                "RDENABLE": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_RDENABLE"
+                },
+                "RST": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_RST"
+                },
+                "SCANCLK": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_SCANCLK"
+                },
+                "SCANENB": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_SCANENB"
+                },
+                "SCANIN": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_SCANIN"
+                },
+                "SCANMODEB": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_SCANMODEB"
+                },
+                "SCANOUT": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_SCANOUT"
+                },
+                "SELFINEOCLKDELAY": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_SELFINEOCLKDELAY"
+                },
+                "SYNCIN": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_SYNCIN"
+                },
+                "SYSCLK": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_SYSCLK"
+                },
+                "TESTIN0": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN0"
+                },
+                "TESTIN1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN1"
+                },
+                "TESTIN2": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN2"
+                },
+                "TESTIN3": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN3"
+                },
+                "TESTIN4": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN4"
+                },
+                "TESTIN5": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN5"
+                },
+                "TESTIN6": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN6"
+                },
+                "TESTIN7": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN7"
+                },
+                "TESTIN8": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN8"
+                },
+                "TESTIN9": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN9"
+                },
+                "TESTIN10": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN10"
+                },
+                "TESTIN11": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN11"
+                },
+                "TESTIN12": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN12"
+                },
+                "TESTIN13": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN13"
+                },
+                "TESTIN14": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN14"
+                },
+                "TESTIN15": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CMT_PHASER_OUT_DB_TESTIN15"
+                },
+                "TESTOUT0": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_TESTOUT0"
+                },
+                "TESTOUT1": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_TESTOUT1"
+                },
+                "TESTOUT2": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_TESTOUT2"
+                },
+                "TESTOUT3": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "CMT_PHASER_OUT_DB_TESTOUT3"
+                }
+            },
+            "type": "PHASER_OUT_PHY",
+            "x_coord": 0,
+            "y_coord": 1
         }
     ],
     "tile_type": "CMT_TOP_R_LOWER_T",
@@ -9508,10 +9508,6 @@
         "CMT_LR_LOWER_T_CLK_IN3_HCLK": null,
         "CMT_LR_LOWER_T_CLK_MMCM0": null,
         "CMT_LR_LOWER_T_CLK_MMCM1": null,
-        "CMT_LR_LOWER_T_CLK_MMCM10": null,
-        "CMT_LR_LOWER_T_CLK_MMCM11": null,
-        "CMT_LR_LOWER_T_CLK_MMCM12": null,
-        "CMT_LR_LOWER_T_CLK_MMCM13": null,
         "CMT_LR_LOWER_T_CLK_MMCM2": null,
         "CMT_LR_LOWER_T_CLK_MMCM3": null,
         "CMT_LR_LOWER_T_CLK_MMCM4": null,
@@ -9520,6 +9516,10 @@
         "CMT_LR_LOWER_T_CLK_MMCM7": null,
         "CMT_LR_LOWER_T_CLK_MMCM8": null,
         "CMT_LR_LOWER_T_CLK_MMCM9": null,
+        "CMT_LR_LOWER_T_CLK_MMCM10": null,
+        "CMT_LR_LOWER_T_CLK_MMCM11": null,
+        "CMT_LR_LOWER_T_CLK_MMCM12": null,
+        "CMT_LR_LOWER_T_CLK_MMCM13": null,
         "CMT_LR_LOWER_T_CLK_PERF0": null,
         "CMT_LR_LOWER_T_CLK_PERF1": null,
         "CMT_LR_LOWER_T_CLK_PERF2": null,
@@ -9651,10 +9651,6 @@
         "CMT_PHASER_IN_CA_SYSCLK": null,
         "CMT_PHASER_IN_CA_TESTIN0": null,
         "CMT_PHASER_IN_CA_TESTIN1": null,
-        "CMT_PHASER_IN_CA_TESTIN10": null,
-        "CMT_PHASER_IN_CA_TESTIN11": null,
-        "CMT_PHASER_IN_CA_TESTIN12": null,
-        "CMT_PHASER_IN_CA_TESTIN13": null,
         "CMT_PHASER_IN_CA_TESTIN2": null,
         "CMT_PHASER_IN_CA_TESTIN3": null,
         "CMT_PHASER_IN_CA_TESTIN4": null,
@@ -9663,6 +9659,10 @@
         "CMT_PHASER_IN_CA_TESTIN7": null,
         "CMT_PHASER_IN_CA_TESTIN8": null,
         "CMT_PHASER_IN_CA_TESTIN9": null,
+        "CMT_PHASER_IN_CA_TESTIN10": null,
+        "CMT_PHASER_IN_CA_TESTIN11": null,
+        "CMT_PHASER_IN_CA_TESTIN12": null,
+        "CMT_PHASER_IN_CA_TESTIN13": null,
         "CMT_PHASER_IN_CA_TESTOUT0": null,
         "CMT_PHASER_IN_CA_TESTOUT1": null,
         "CMT_PHASER_IN_CA_TESTOUT2": null,
@@ -9743,10 +9743,6 @@
         "CMT_PHASER_IN_DB_SYSCLK": null,
         "CMT_PHASER_IN_DB_TESTIN0": null,
         "CMT_PHASER_IN_DB_TESTIN1": null,
-        "CMT_PHASER_IN_DB_TESTIN10": null,
-        "CMT_PHASER_IN_DB_TESTIN11": null,
-        "CMT_PHASER_IN_DB_TESTIN12": null,
-        "CMT_PHASER_IN_DB_TESTIN13": null,
         "CMT_PHASER_IN_DB_TESTIN2": null,
         "CMT_PHASER_IN_DB_TESTIN3": null,
         "CMT_PHASER_IN_DB_TESTIN4": null,
@@ -9755,6 +9751,10 @@
         "CMT_PHASER_IN_DB_TESTIN7": null,
         "CMT_PHASER_IN_DB_TESTIN8": null,
         "CMT_PHASER_IN_DB_TESTIN9": null,
+        "CMT_PHASER_IN_DB_TESTIN10": null,
+        "CMT_PHASER_IN_DB_TESTIN11": null,
+        "CMT_PHASER_IN_DB_TESTIN12": null,
+        "CMT_PHASER_IN_DB_TESTIN13": null,
         "CMT_PHASER_IN_DB_TESTOUT0": null,
         "CMT_PHASER_IN_DB_TESTOUT1": null,
         "CMT_PHASER_IN_DB_TESTOUT2": null,
@@ -9829,12 +9829,6 @@
         "CMT_PHASER_OUT_CA_SYSCLK": null,
         "CMT_PHASER_OUT_CA_TESTIN0": null,
         "CMT_PHASER_OUT_CA_TESTIN1": null,
-        "CMT_PHASER_OUT_CA_TESTIN10": null,
-        "CMT_PHASER_OUT_CA_TESTIN11": null,
-        "CMT_PHASER_OUT_CA_TESTIN12": null,
-        "CMT_PHASER_OUT_CA_TESTIN13": null,
-        "CMT_PHASER_OUT_CA_TESTIN14": null,
-        "CMT_PHASER_OUT_CA_TESTIN15": null,
         "CMT_PHASER_OUT_CA_TESTIN2": null,
         "CMT_PHASER_OUT_CA_TESTIN3": null,
         "CMT_PHASER_OUT_CA_TESTIN4": null,
@@ -9843,6 +9837,12 @@
         "CMT_PHASER_OUT_CA_TESTIN7": null,
         "CMT_PHASER_OUT_CA_TESTIN8": null,
         "CMT_PHASER_OUT_CA_TESTIN9": null,
+        "CMT_PHASER_OUT_CA_TESTIN10": null,
+        "CMT_PHASER_OUT_CA_TESTIN11": null,
+        "CMT_PHASER_OUT_CA_TESTIN12": null,
+        "CMT_PHASER_OUT_CA_TESTIN13": null,
+        "CMT_PHASER_OUT_CA_TESTIN14": null,
+        "CMT_PHASER_OUT_CA_TESTIN15": null,
         "CMT_PHASER_OUT_CA_TESTOUT0": null,
         "CMT_PHASER_OUT_CA_TESTOUT1": null,
         "CMT_PHASER_OUT_CA_TESTOUT2": null,
@@ -9906,12 +9906,6 @@
         "CMT_PHASER_OUT_DB_SYSCLK": null,
         "CMT_PHASER_OUT_DB_TESTIN0": null,
         "CMT_PHASER_OUT_DB_TESTIN1": null,
-        "CMT_PHASER_OUT_DB_TESTIN10": null,
-        "CMT_PHASER_OUT_DB_TESTIN11": null,
-        "CMT_PHASER_OUT_DB_TESTIN12": null,
-        "CMT_PHASER_OUT_DB_TESTIN13": null,
-        "CMT_PHASER_OUT_DB_TESTIN14": null,
-        "CMT_PHASER_OUT_DB_TESTIN15": null,
         "CMT_PHASER_OUT_DB_TESTIN2": null,
         "CMT_PHASER_OUT_DB_TESTIN3": null,
         "CMT_PHASER_OUT_DB_TESTIN4": null,
@@ -9920,6 +9914,12 @@
         "CMT_PHASER_OUT_DB_TESTIN7": null,
         "CMT_PHASER_OUT_DB_TESTIN8": null,
         "CMT_PHASER_OUT_DB_TESTIN9": null,
+        "CMT_PHASER_OUT_DB_TESTIN10": null,
+        "CMT_PHASER_OUT_DB_TESTIN11": null,
+        "CMT_PHASER_OUT_DB_TESTIN12": null,
+        "CMT_PHASER_OUT_DB_TESTIN13": null,
+        "CMT_PHASER_OUT_DB_TESTIN14": null,
+        "CMT_PHASER_OUT_DB_TESTIN15": null,
         "CMT_PHASER_OUT_DB_TESTOUT0": null,
         "CMT_PHASER_OUT_DB_TESTOUT1": null,
         "CMT_PHASER_OUT_DB_TESTOUT2": null,
@@ -11348,6 +11348,330 @@
             "cap": "34.000",
             "res": "0.000"
         },
+        "CMT_TOP_IMUX1_0": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX1_1": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX1_2": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX1_3": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX1_4": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX1_5": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX1_6": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX1_7": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX1_8": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX2_0": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX2_1": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX2_2": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX2_3": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX2_4": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX2_5": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX2_6": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX2_7": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX2_8": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX3_0": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX3_1": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX3_2": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX3_3": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX3_4": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX3_5": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX3_6": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX3_7": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX3_8": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX4_0": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX4_1": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX4_2": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX4_3": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX4_4": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX4_5": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX4_6": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX4_7": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX4_8": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX5_0": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX5_1": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX5_2": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX5_3": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX5_4": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX5_5": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX5_6": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX5_7": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX5_8": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX6_0": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX6_1": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX6_2": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX6_3": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX6_4": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX6_5": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX6_6": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX6_7": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX6_8": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX7_0": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX7_1": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX7_2": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX7_3": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX7_4": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX7_5": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX7_6": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX7_7": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX7_8": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX8_0": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX8_1": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX8_2": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX8_3": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX8_4": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX8_5": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX8_6": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX8_7": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX8_8": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX9_0": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX9_1": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX9_2": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX9_3": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX9_4": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX9_5": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX9_6": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX9_7": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
+        "CMT_TOP_IMUX9_8": {
+            "cap": "34.000",
+            "res": "0.000"
+        },
         "CMT_TOP_IMUX10_0": {
             "cap": "34.000",
             "res": "0.000"
@@ -11705,42 +12029,6 @@
             "res": "0.000"
         },
         "CMT_TOP_IMUX19_8": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX1_0": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX1_1": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX1_2": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX1_3": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX1_4": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX1_5": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX1_6": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX1_7": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX1_8": {
             "cap": "34.000",
             "res": "0.000"
         },
@@ -12104,42 +12392,6 @@
             "cap": "34.000",
             "res": "0.000"
         },
-        "CMT_TOP_IMUX2_0": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX2_1": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX2_2": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX2_3": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX2_4": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX2_5": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX2_6": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX2_7": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX2_8": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
         "CMT_TOP_IMUX30_0": {
             "cap": "34.000",
             "res": "0.000"
@@ -12500,42 +12752,6 @@
             "cap": "34.000",
             "res": "0.000"
         },
-        "CMT_TOP_IMUX3_0": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX3_1": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX3_2": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX3_3": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX3_4": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX3_5": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX3_6": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX3_7": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX3_8": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
         "CMT_TOP_IMUX40_0": {
             "cap": "34.000",
             "res": "0.000"
@@ -12823,330 +13039,6 @@
         "CMT_TOP_IMUX47_8": {
             "cap": "34.000",
             "res": "0.000"
-        },
-        "CMT_TOP_IMUX4_0": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX4_1": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX4_2": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX4_3": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX4_4": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX4_5": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX4_6": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX4_7": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX4_8": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX5_0": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX5_1": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX5_2": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX5_3": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX5_4": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX5_5": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX5_6": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX5_7": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX5_8": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX6_0": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX6_1": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX6_2": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX6_3": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX6_4": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX6_5": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX6_6": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX6_7": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX6_8": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX7_0": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX7_1": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX7_2": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX7_3": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX7_4": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX7_5": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX7_6": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX7_7": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX7_8": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX8_0": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX8_1": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX8_2": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX8_3": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX8_4": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX8_5": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX8_6": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX8_7": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX8_8": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX9_0": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX9_1": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX9_2": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX9_3": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX9_4": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX9_5": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX9_6": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX9_7": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_IMUX9_8": {
-            "cap": "34.000",
-            "res": "0.000"
-        },
-        "CMT_TOP_LH10_0": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH10_1": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH10_2": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH10_3": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH10_4": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH10_5": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH10_6": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH10_7": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH10_8": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH11_0": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH11_1": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH11_2": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH11_3": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH11_4": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH11_5": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH11_6": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH11_7": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH11_8": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH12_0": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH12_1": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH12_2": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH12_3": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH12_4": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH12_5": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH12_6": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH12_7": {
-            "cap": "60.260",
-            "res": "15.190"
-        },
-        "CMT_TOP_LH12_8": {
-            "cap": "60.260",
-            "res": "15.190"
         },
         "CMT_TOP_LH1_0": {
             "cap": "60.260",
@@ -13472,6 +13364,114 @@
             "cap": "60.260",
             "res": "15.190"
         },
+        "CMT_TOP_LH10_0": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH10_1": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH10_2": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH10_3": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH10_4": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH10_5": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH10_6": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH10_7": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH10_8": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH11_0": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH11_1": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH11_2": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH11_3": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH11_4": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH11_5": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH11_6": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH11_7": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH11_8": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH12_0": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH12_1": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH12_2": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH12_3": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH12_4": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH12_5": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH12_6": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH12_7": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_TOP_LH12_8": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
         "CMT_TOP_LOGIC_OUTS_L_B0_0": null,
         "CMT_TOP_LOGIC_OUTS_L_B0_1": null,
         "CMT_TOP_LOGIC_OUTS_L_B0_2": null,
@@ -13481,6 +13481,87 @@
         "CMT_TOP_LOGIC_OUTS_L_B0_6": null,
         "CMT_TOP_LOGIC_OUTS_L_B0_7": null,
         "CMT_TOP_LOGIC_OUTS_L_B0_8": null,
+        "CMT_TOP_LOGIC_OUTS_L_B1_0": null,
+        "CMT_TOP_LOGIC_OUTS_L_B1_1": null,
+        "CMT_TOP_LOGIC_OUTS_L_B1_2": null,
+        "CMT_TOP_LOGIC_OUTS_L_B1_3": null,
+        "CMT_TOP_LOGIC_OUTS_L_B1_4": null,
+        "CMT_TOP_LOGIC_OUTS_L_B1_5": null,
+        "CMT_TOP_LOGIC_OUTS_L_B1_6": null,
+        "CMT_TOP_LOGIC_OUTS_L_B1_7": null,
+        "CMT_TOP_LOGIC_OUTS_L_B1_8": null,
+        "CMT_TOP_LOGIC_OUTS_L_B2_0": null,
+        "CMT_TOP_LOGIC_OUTS_L_B2_1": null,
+        "CMT_TOP_LOGIC_OUTS_L_B2_2": null,
+        "CMT_TOP_LOGIC_OUTS_L_B2_3": null,
+        "CMT_TOP_LOGIC_OUTS_L_B2_4": null,
+        "CMT_TOP_LOGIC_OUTS_L_B2_5": null,
+        "CMT_TOP_LOGIC_OUTS_L_B2_6": null,
+        "CMT_TOP_LOGIC_OUTS_L_B2_7": null,
+        "CMT_TOP_LOGIC_OUTS_L_B2_8": null,
+        "CMT_TOP_LOGIC_OUTS_L_B3_0": null,
+        "CMT_TOP_LOGIC_OUTS_L_B3_1": null,
+        "CMT_TOP_LOGIC_OUTS_L_B3_2": null,
+        "CMT_TOP_LOGIC_OUTS_L_B3_3": null,
+        "CMT_TOP_LOGIC_OUTS_L_B3_4": null,
+        "CMT_TOP_LOGIC_OUTS_L_B3_5": null,
+        "CMT_TOP_LOGIC_OUTS_L_B3_6": null,
+        "CMT_TOP_LOGIC_OUTS_L_B3_7": null,
+        "CMT_TOP_LOGIC_OUTS_L_B3_8": null,
+        "CMT_TOP_LOGIC_OUTS_L_B4_0": null,
+        "CMT_TOP_LOGIC_OUTS_L_B4_1": null,
+        "CMT_TOP_LOGIC_OUTS_L_B4_2": null,
+        "CMT_TOP_LOGIC_OUTS_L_B4_3": null,
+        "CMT_TOP_LOGIC_OUTS_L_B4_4": null,
+        "CMT_TOP_LOGIC_OUTS_L_B4_5": null,
+        "CMT_TOP_LOGIC_OUTS_L_B4_6": null,
+        "CMT_TOP_LOGIC_OUTS_L_B4_7": null,
+        "CMT_TOP_LOGIC_OUTS_L_B4_8": null,
+        "CMT_TOP_LOGIC_OUTS_L_B5_0": null,
+        "CMT_TOP_LOGIC_OUTS_L_B5_1": null,
+        "CMT_TOP_LOGIC_OUTS_L_B5_2": null,
+        "CMT_TOP_LOGIC_OUTS_L_B5_3": null,
+        "CMT_TOP_LOGIC_OUTS_L_B5_4": null,
+        "CMT_TOP_LOGIC_OUTS_L_B5_5": null,
+        "CMT_TOP_LOGIC_OUTS_L_B5_6": null,
+        "CMT_TOP_LOGIC_OUTS_L_B5_7": null,
+        "CMT_TOP_LOGIC_OUTS_L_B5_8": null,
+        "CMT_TOP_LOGIC_OUTS_L_B6_0": null,
+        "CMT_TOP_LOGIC_OUTS_L_B6_1": null,
+        "CMT_TOP_LOGIC_OUTS_L_B6_2": null,
+        "CMT_TOP_LOGIC_OUTS_L_B6_3": null,
+        "CMT_TOP_LOGIC_OUTS_L_B6_4": null,
+        "CMT_TOP_LOGIC_OUTS_L_B6_5": null,
+        "CMT_TOP_LOGIC_OUTS_L_B6_6": null,
+        "CMT_TOP_LOGIC_OUTS_L_B6_7": null,
+        "CMT_TOP_LOGIC_OUTS_L_B6_8": null,
+        "CMT_TOP_LOGIC_OUTS_L_B7_0": null,
+        "CMT_TOP_LOGIC_OUTS_L_B7_1": null,
+        "CMT_TOP_LOGIC_OUTS_L_B7_2": null,
+        "CMT_TOP_LOGIC_OUTS_L_B7_3": null,
+        "CMT_TOP_LOGIC_OUTS_L_B7_4": null,
+        "CMT_TOP_LOGIC_OUTS_L_B7_5": null,
+        "CMT_TOP_LOGIC_OUTS_L_B7_6": null,
+        "CMT_TOP_LOGIC_OUTS_L_B7_7": null,
+        "CMT_TOP_LOGIC_OUTS_L_B7_8": null,
+        "CMT_TOP_LOGIC_OUTS_L_B8_0": null,
+        "CMT_TOP_LOGIC_OUTS_L_B8_1": null,
+        "CMT_TOP_LOGIC_OUTS_L_B8_2": null,
+        "CMT_TOP_LOGIC_OUTS_L_B8_3": null,
+        "CMT_TOP_LOGIC_OUTS_L_B8_4": null,
+        "CMT_TOP_LOGIC_OUTS_L_B8_5": null,
+        "CMT_TOP_LOGIC_OUTS_L_B8_6": null,
+        "CMT_TOP_LOGIC_OUTS_L_B8_7": null,
+        "CMT_TOP_LOGIC_OUTS_L_B8_8": null,
+        "CMT_TOP_LOGIC_OUTS_L_B9_0": null,
+        "CMT_TOP_LOGIC_OUTS_L_B9_1": null,
+        "CMT_TOP_LOGIC_OUTS_L_B9_2": null,
+        "CMT_TOP_LOGIC_OUTS_L_B9_3": null,
+        "CMT_TOP_LOGIC_OUTS_L_B9_4": null,
+        "CMT_TOP_LOGIC_OUTS_L_B9_5": null,
+        "CMT_TOP_LOGIC_OUTS_L_B9_6": null,
+        "CMT_TOP_LOGIC_OUTS_L_B9_7": null,
+        "CMT_TOP_LOGIC_OUTS_L_B9_8": null,
         "CMT_TOP_LOGIC_OUTS_L_B10_0": null,
         "CMT_TOP_LOGIC_OUTS_L_B10_1": null,
         "CMT_TOP_LOGIC_OUTS_L_B10_2": null,
@@ -13571,15 +13652,6 @@
         "CMT_TOP_LOGIC_OUTS_L_B19_6": null,
         "CMT_TOP_LOGIC_OUTS_L_B19_7": null,
         "CMT_TOP_LOGIC_OUTS_L_B19_8": null,
-        "CMT_TOP_LOGIC_OUTS_L_B1_0": null,
-        "CMT_TOP_LOGIC_OUTS_L_B1_1": null,
-        "CMT_TOP_LOGIC_OUTS_L_B1_2": null,
-        "CMT_TOP_LOGIC_OUTS_L_B1_3": null,
-        "CMT_TOP_LOGIC_OUTS_L_B1_4": null,
-        "CMT_TOP_LOGIC_OUTS_L_B1_5": null,
-        "CMT_TOP_LOGIC_OUTS_L_B1_6": null,
-        "CMT_TOP_LOGIC_OUTS_L_B1_7": null,
-        "CMT_TOP_LOGIC_OUTS_L_B1_8": null,
         "CMT_TOP_LOGIC_OUTS_L_B20_0": null,
         "CMT_TOP_LOGIC_OUTS_L_B20_1": null,
         "CMT_TOP_LOGIC_OUTS_L_B20_2": null,
@@ -13616,78 +13688,6 @@
         "CMT_TOP_LOGIC_OUTS_L_B23_6": null,
         "CMT_TOP_LOGIC_OUTS_L_B23_7": null,
         "CMT_TOP_LOGIC_OUTS_L_B23_8": null,
-        "CMT_TOP_LOGIC_OUTS_L_B2_0": null,
-        "CMT_TOP_LOGIC_OUTS_L_B2_1": null,
-        "CMT_TOP_LOGIC_OUTS_L_B2_2": null,
-        "CMT_TOP_LOGIC_OUTS_L_B2_3": null,
-        "CMT_TOP_LOGIC_OUTS_L_B2_4": null,
-        "CMT_TOP_LOGIC_OUTS_L_B2_5": null,
-        "CMT_TOP_LOGIC_OUTS_L_B2_6": null,
-        "CMT_TOP_LOGIC_OUTS_L_B2_7": null,
-        "CMT_TOP_LOGIC_OUTS_L_B2_8": null,
-        "CMT_TOP_LOGIC_OUTS_L_B3_0": null,
-        "CMT_TOP_LOGIC_OUTS_L_B3_1": null,
-        "CMT_TOP_LOGIC_OUTS_L_B3_2": null,
-        "CMT_TOP_LOGIC_OUTS_L_B3_3": null,
-        "CMT_TOP_LOGIC_OUTS_L_B3_4": null,
-        "CMT_TOP_LOGIC_OUTS_L_B3_5": null,
-        "CMT_TOP_LOGIC_OUTS_L_B3_6": null,
-        "CMT_TOP_LOGIC_OUTS_L_B3_7": null,
-        "CMT_TOP_LOGIC_OUTS_L_B3_8": null,
-        "CMT_TOP_LOGIC_OUTS_L_B4_0": null,
-        "CMT_TOP_LOGIC_OUTS_L_B4_1": null,
-        "CMT_TOP_LOGIC_OUTS_L_B4_2": null,
-        "CMT_TOP_LOGIC_OUTS_L_B4_3": null,
-        "CMT_TOP_LOGIC_OUTS_L_B4_4": null,
-        "CMT_TOP_LOGIC_OUTS_L_B4_5": null,
-        "CMT_TOP_LOGIC_OUTS_L_B4_6": null,
-        "CMT_TOP_LOGIC_OUTS_L_B4_7": null,
-        "CMT_TOP_LOGIC_OUTS_L_B4_8": null,
-        "CMT_TOP_LOGIC_OUTS_L_B5_0": null,
-        "CMT_TOP_LOGIC_OUTS_L_B5_1": null,
-        "CMT_TOP_LOGIC_OUTS_L_B5_2": null,
-        "CMT_TOP_LOGIC_OUTS_L_B5_3": null,
-        "CMT_TOP_LOGIC_OUTS_L_B5_4": null,
-        "CMT_TOP_LOGIC_OUTS_L_B5_5": null,
-        "CMT_TOP_LOGIC_OUTS_L_B5_6": null,
-        "CMT_TOP_LOGIC_OUTS_L_B5_7": null,
-        "CMT_TOP_LOGIC_OUTS_L_B5_8": null,
-        "CMT_TOP_LOGIC_OUTS_L_B6_0": null,
-        "CMT_TOP_LOGIC_OUTS_L_B6_1": null,
-        "CMT_TOP_LOGIC_OUTS_L_B6_2": null,
-        "CMT_TOP_LOGIC_OUTS_L_B6_3": null,
-        "CMT_TOP_LOGIC_OUTS_L_B6_4": null,
-        "CMT_TOP_LOGIC_OUTS_L_B6_5": null,
-        "CMT_TOP_LOGIC_OUTS_L_B6_6": null,
-        "CMT_TOP_LOGIC_OUTS_L_B6_7": null,
-        "CMT_TOP_LOGIC_OUTS_L_B6_8": null,
-        "CMT_TOP_LOGIC_OUTS_L_B7_0": null,
-        "CMT_TOP_LOGIC_OUTS_L_B7_1": null,
-        "CMT_TOP_LOGIC_OUTS_L_B7_2": null,
-        "CMT_TOP_LOGIC_OUTS_L_B7_3": null,
-        "CMT_TOP_LOGIC_OUTS_L_B7_4": null,
-        "CMT_TOP_LOGIC_OUTS_L_B7_5": null,
-        "CMT_TOP_LOGIC_OUTS_L_B7_6": null,
-        "CMT_TOP_LOGIC_OUTS_L_B7_7": null,
-        "CMT_TOP_LOGIC_OUTS_L_B7_8": null,
-        "CMT_TOP_LOGIC_OUTS_L_B8_0": null,
-        "CMT_TOP_LOGIC_OUTS_L_B8_1": null,
-        "CMT_TOP_LOGIC_OUTS_L_B8_2": null,
-        "CMT_TOP_LOGIC_OUTS_L_B8_3": null,
-        "CMT_TOP_LOGIC_OUTS_L_B8_4": null,
-        "CMT_TOP_LOGIC_OUTS_L_B8_5": null,
-        "CMT_TOP_LOGIC_OUTS_L_B8_6": null,
-        "CMT_TOP_LOGIC_OUTS_L_B8_7": null,
-        "CMT_TOP_LOGIC_OUTS_L_B8_8": null,
-        "CMT_TOP_LOGIC_OUTS_L_B9_0": null,
-        "CMT_TOP_LOGIC_OUTS_L_B9_1": null,
-        "CMT_TOP_LOGIC_OUTS_L_B9_2": null,
-        "CMT_TOP_LOGIC_OUTS_L_B9_3": null,
-        "CMT_TOP_LOGIC_OUTS_L_B9_4": null,
-        "CMT_TOP_LOGIC_OUTS_L_B9_5": null,
-        "CMT_TOP_LOGIC_OUTS_L_B9_6": null,
-        "CMT_TOP_LOGIC_OUTS_L_B9_7": null,
-        "CMT_TOP_LOGIC_OUTS_L_B9_8": null,
         "CMT_TOP_MONITOR_N_0": null,
         "CMT_TOP_MONITOR_N_1": null,
         "CMT_TOP_MONITOR_N_2": null,

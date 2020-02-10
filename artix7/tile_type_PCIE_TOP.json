@@ -180,1212 +180,6 @@
             },
             "src_wire": "PCIE_IMUX0_R_4"
         },
-        "PCIE_TOP.PCIE_IMUX10_L_0->PCIE_TOP_CFGDSN59": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDSN59",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX10_L_0"
-        },
-        "PCIE_TOP.PCIE_IMUX10_L_1->PCIE_TOP_CFGDSN63": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDSN63",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX10_L_1"
-        },
-        "PCIE_TOP.PCIE_IMUX10_L_2->PCIE_TOP_CFGDEVID3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDEVID3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX10_L_2"
-        },
-        "PCIE_TOP.PCIE_IMUX10_L_3->PCIE_TOP_CFGDEVID7": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDEVID7",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX10_L_3"
-        },
-        "PCIE_TOP.PCIE_IMUX10_L_4->PCIE_TOP_CFGDEVID11": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDEVID11",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX10_L_4"
-        },
-        "PCIE_TOP.PCIE_IMUX10_R_0->PCIE_TOP_TRNTD10": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD10",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX10_R_0"
-        },
-        "PCIE_TOP.PCIE_IMUX10_R_1->PCIE_TOP_TRNTD14": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD14",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX10_R_1"
-        },
-        "PCIE_TOP.PCIE_IMUX10_R_2->PCIE_TOP_TRNTD18": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD18",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX10_R_2"
-        },
-        "PCIE_TOP.PCIE_IMUX10_R_3->PCIE_TOP_TRNTD22": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD22",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX10_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX10_R_4->PCIE_TOP_PL2DIRECTEDLSTATE3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PL2DIRECTEDLSTATE3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX10_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX11_L_0->PCIE_TOP_CFGDSN60": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDSN60",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX11_L_0"
-        },
-        "PCIE_TOP.PCIE_IMUX11_L_1->PCIE_TOP_CFGDEVID0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDEVID0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX11_L_1"
-        },
-        "PCIE_TOP.PCIE_IMUX11_L_2->PCIE_TOP_CFGDEVID4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDEVID4",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX11_L_2"
-        },
-        "PCIE_TOP.PCIE_IMUX11_L_3->PCIE_TOP_CFGDEVID8": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDEVID8",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX11_L_3"
-        },
-        "PCIE_TOP.PCIE_IMUX11_L_4->PCIE_TOP_CFGDEVID12": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDEVID12",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX11_L_4"
-        },
-        "PCIE_TOP.PCIE_IMUX11_R_0->PCIE_TOP_TRNTD11": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD11",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX11_R_0"
-        },
-        "PCIE_TOP.PCIE_IMUX11_R_1->PCIE_TOP_TRNTD15": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD15",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX11_R_1"
-        },
-        "PCIE_TOP.PCIE_IMUX11_R_2->PCIE_TOP_TRNTD19": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD19",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX11_R_2"
-        },
-        "PCIE_TOP.PCIE_IMUX11_R_3->PCIE_TOP_TRNTD23": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD23",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX11_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX11_R_4->PCIE_TOP_PL2DIRECTEDLSTATE4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PL2DIRECTEDLSTATE4",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX11_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX12_L_0->PCIE_TOP_DRPADDR7": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPADDR7",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX12_L_0"
-        },
-        "PCIE_TOP.PCIE_IMUX12_L_1->PCIE_TOP_DRPDI0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX12_L_1"
-        },
-        "PCIE_TOP.PCIE_IMUX12_L_2->PCIE_TOP_DRPDI4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI4",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX12_L_2"
-        },
-        "PCIE_TOP.PCIE_IMUX12_L_3->PCIE_TOP_DRPDI8": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI8",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX12_L_3"
-        },
-        "PCIE_TOP.PCIE_IMUX12_L_4->PCIE_TOP_DRPDI12": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI12",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX12_L_4"
-        },
-        "PCIE_TOP.PCIE_IMUX12_R_0->PCIE_TOP_TRNTD40": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD40",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX12_R_0"
-        },
-        "PCIE_TOP.PCIE_IMUX12_R_1->PCIE_TOP_TRNTD36": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD36",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX12_R_1"
-        },
-        "PCIE_TOP.PCIE_IMUX12_R_2->PCIE_TOP_TRNTD32": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD32",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX12_R_2"
-        },
-        "PCIE_TOP.PCIE_IMUX12_R_3->PCIE_TOP_TRNTD28": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD28",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX12_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX13_L_0->PCIE_TOP_DRPADDR8": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPADDR8",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX13_L_0"
-        },
-        "PCIE_TOP.PCIE_IMUX13_L_1->PCIE_TOP_DRPDI1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX13_L_1"
-        },
-        "PCIE_TOP.PCIE_IMUX13_L_2->PCIE_TOP_DRPDI5": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI5",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX13_L_2"
-        },
-        "PCIE_TOP.PCIE_IMUX13_L_3->PCIE_TOP_DRPDI9": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI9",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX13_L_3"
-        },
-        "PCIE_TOP.PCIE_IMUX13_L_4->PCIE_TOP_DRPDI13": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI13",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX13_L_4"
-        },
-        "PCIE_TOP.PCIE_IMUX13_R_0->PCIE_TOP_TRNTD41": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD41",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX13_R_0"
-        },
-        "PCIE_TOP.PCIE_IMUX13_R_1->PCIE_TOP_TRNTD37": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD37",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX13_R_1"
-        },
-        "PCIE_TOP.PCIE_IMUX13_R_2->PCIE_TOP_TRNTD33": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD33",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX13_R_2"
-        },
-        "PCIE_TOP.PCIE_IMUX13_R_3->PCIE_TOP_TRNTD29": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD29",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX13_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX13_R_4->PCIE_TOP_CFGERRAERHEADERLOG6": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG6",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX13_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX14_L_1->PCIE_TOP_DRPDI2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX14_L_1"
-        },
-        "PCIE_TOP.PCIE_IMUX14_L_2->PCIE_TOP_DRPDI6": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI6",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX14_L_2"
-        },
-        "PCIE_TOP.PCIE_IMUX14_L_3->PCIE_TOP_DRPDI10": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI10",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX14_L_3"
-        },
-        "PCIE_TOP.PCIE_IMUX14_L_4->PCIE_TOP_DRPDI14": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI14",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX14_L_4"
-        },
-        "PCIE_TOP.PCIE_IMUX14_R_1->PCIE_TOP_TRNTD38": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD38",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX14_R_1"
-        },
-        "PCIE_TOP.PCIE_IMUX14_R_2->PCIE_TOP_TRNTD34": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD34",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX14_R_2"
-        },
-        "PCIE_TOP.PCIE_IMUX14_R_3->PCIE_TOP_TRNTD30": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD30",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX14_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX14_R_4->PCIE_TOP_CFGERRAERHEADERLOG7": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG7",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX14_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX15_L_1->PCIE_TOP_DRPDI3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX15_L_1"
-        },
-        "PCIE_TOP.PCIE_IMUX15_L_2->PCIE_TOP_DRPDI7": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI7",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX15_L_2"
-        },
-        "PCIE_TOP.PCIE_IMUX15_L_3->PCIE_TOP_DRPDI11": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI11",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX15_L_3"
-        },
-        "PCIE_TOP.PCIE_IMUX15_L_4->PCIE_TOP_DRPDI15": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DRPDI15",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX15_L_4"
-        },
-        "PCIE_TOP.PCIE_IMUX15_R_1->PCIE_TOP_TRNTD39": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD39",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX15_R_1"
-        },
-        "PCIE_TOP.PCIE_IMUX15_R_2->PCIE_TOP_TRNTD35": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD35",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX15_R_2"
-        },
-        "PCIE_TOP.PCIE_IMUX15_R_3->PCIE_TOP_TRNTD31": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TRNTD31",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX15_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX15_R_4->PCIE_TOP_CFGERRAERHEADERLOG8": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG8",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX15_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX16_L_1->PCIE_TOP_PIPERX0CHARISK0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX0CHARISK0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX16_L_1"
-        },
-        "PCIE_TOP.PCIE_IMUX16_R_1->PCIE_TOP_PIPERX4CHARISK0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX4CHARISK0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX16_R_1"
-        },
-        "PCIE_TOP.PCIE_IMUX16_R_3->PCIE_TOP_LL2SUSPENDNOW": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_LL2SUSPENDNOW",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX16_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX16_R_4->PCIE_TOP_CFGERRAERHEADERLOG9": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG9",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX16_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX17_R_2->PCIE_TOP_CFGERRLOCKEDN": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRLOCKEDN",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX17_R_2"
-        },
-        "PCIE_TOP.PCIE_IMUX17_R_3->PCIE_TOP_TL2PPMSUSPENDREQ": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TL2PPMSUSPENDREQ",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX17_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX17_R_4->PCIE_TOP_CFGERRTLPCPLHEADER46": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRTLPCPLHEADER46",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX17_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX18_R_2->PCIE_TOP_CFGERRNORECOVERYN": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRNORECOVERYN",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX18_R_2"
-        },
-        "PCIE_TOP.PCIE_IMUX18_R_3->PCIE_TOP_TL2ASPMSUSPENDCREDITCHECK": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_TL2ASPMSUSPENDCREDITCHECK",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX18_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX18_R_4->PCIE_TOP_CFGERRTLPCPLHEADER47": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRTLPCPLHEADER47",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX18_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX19_R_2->PCIE_TOP_CFGERRAERHEADERLOG0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX19_R_2"
-        },
-        "PCIE_TOP.PCIE_IMUX19_R_4->PCIE_TOP_CFGINTERRUPTN": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGINTERRUPTN",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX19_R_4"
-        },
         "PCIE_TOP.PCIE_IMUX1_L_0->PCIE_TOP_TRNTDLLPDATA20": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1566,240 +360,6 @@
             },
             "src_wire": "PCIE_IMUX1_R_4"
         },
-        "PCIE_TOP.PCIE_IMUX20_R_2->PCIE_TOP_CFGERRAERHEADERLOG1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX20_R_2"
-        },
-        "PCIE_TOP.PCIE_IMUX20_R_3->PCIE_TOP_CFGERRAERHEADERLOG2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX20_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX20_R_4->PCIE_TOP_CFGINTERRUPTDI0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGINTERRUPTDI0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX20_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX21_R_2->PCIE_TOP_CFGERRAERHEADERLOG11": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG11",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX21_R_2"
-        },
-        "PCIE_TOP.PCIE_IMUX21_R_3->PCIE_TOP_CFGERRAERHEADERLOG3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX21_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX21_R_4->PCIE_TOP_CFGDEVID13": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDEVID13",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX21_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX22_R_3->PCIE_TOP_CFGERRAERHEADERLOG4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG4",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX22_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX22_R_4->PCIE_TOP_CFGDEVID14": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDEVID14",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX22_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX23_R_3->PCIE_TOP_CFGERRAERHEADERLOG5": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG5",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX23_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX23_R_4->PCIE_TOP_CFGDEVID15": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGDEVID15",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX23_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX24_R_3->PCIE_TOP_CFGERRAERHEADERLOG10": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG10",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX24_R_3"
-        },
-        "PCIE_TOP.PCIE_IMUX24_R_4->PCIE_TOP_CFGVENDID0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_CFGVENDID0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX24_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX25_R_4->PCIE_TOP_DBGMODE0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_DBGMODE0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX25_R_4"
-        },
         "PCIE_TOP.PCIE_IMUX2_L_0->PCIE_TOP_TRNTDLLPDATA21": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1979,402 +539,6 @@
                 "res": "0.000"
             },
             "src_wire": "PCIE_IMUX2_R_4"
-        },
-        "PCIE_TOP.PCIE_IMUX32_L_1->PCIE_TOP_PIPERX0DATA3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX0DATA3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX32_L_1"
-        },
-        "PCIE_TOP.PCIE_IMUX32_R_1->PCIE_TOP_PIPERX4DATA3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX4DATA3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX32_R_1"
-        },
-        "PCIE_TOP.PCIE_IMUX33_L_0->PCIE_TOP_PIPERX0CHANISALIGNED": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX0CHANISALIGNED",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX33_L_0"
-        },
-        "PCIE_TOP.PCIE_IMUX33_L_1->PCIE_TOP_PIPERX0DATA2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX0DATA2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX33_L_1"
-        },
-        "PCIE_TOP.PCIE_IMUX33_R_0->PCIE_TOP_PIPERX4CHANISALIGNED": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX4CHANISALIGNED",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX33_R_0"
-        },
-        "PCIE_TOP.PCIE_IMUX33_R_1->PCIE_TOP_PIPERX4DATA2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX4DATA2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX33_R_1"
-        },
-        "PCIE_TOP.PCIE_IMUX34_L_0->PCIE_TOP_PIPERX0DATA7": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX0DATA7",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX34_L_0"
-        },
-        "PCIE_TOP.PCIE_IMUX34_R_0->PCIE_TOP_PIPERX4DATA7": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX4DATA7",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX34_R_0"
-        },
-        "PCIE_TOP.PCIE_IMUX35_L_0->PCIE_TOP_PIPERX0DATA6": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX0DATA6",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX35_L_0"
-        },
-        "PCIE_TOP.PCIE_IMUX35_R_0->PCIE_TOP_PIPERX4DATA6": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX4DATA6",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX35_R_0"
-        },
-        "PCIE_TOP.PCIE_IMUX36_L_0->PCIE_TOP_PIPERX0VALID": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX0VALID",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX36_L_0"
-        },
-        "PCIE_TOP.PCIE_IMUX36_L_1->PCIE_TOP_PIPERX0DATA1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX0DATA1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX36_L_1"
-        },
-        "PCIE_TOP.PCIE_IMUX36_R_0->PCIE_TOP_PIPERX4VALID": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX4VALID",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX36_R_0"
-        },
-        "PCIE_TOP.PCIE_IMUX36_R_1->PCIE_TOP_PIPERX4DATA1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX4DATA1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX36_R_1"
-        },
-        "PCIE_TOP.PCIE_IMUX37_L_0->PCIE_TOP_PIPERX0PHYSTATUS": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX0PHYSTATUS",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX37_L_0"
-        },
-        "PCIE_TOP.PCIE_IMUX37_L_1->PCIE_TOP_PIPERX0DATA0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX0DATA0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX37_L_1"
-        },
-        "PCIE_TOP.PCIE_IMUX37_R_0->PCIE_TOP_PIPERX4PHYSTATUS": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX4PHYSTATUS",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX37_R_0"
-        },
-        "PCIE_TOP.PCIE_IMUX37_R_1->PCIE_TOP_PIPERX4DATA0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX4DATA0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX37_R_1"
-        },
-        "PCIE_TOP.PCIE_IMUX38_L_0->PCIE_TOP_PIPERX0DATA5": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX0DATA5",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX38_L_0"
-        },
-        "PCIE_TOP.PCIE_IMUX38_R_0->PCIE_TOP_PIPERX4DATA5": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX4DATA5",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX38_R_0"
-        },
-        "PCIE_TOP.PCIE_IMUX39_L_0->PCIE_TOP_PIPERX0DATA4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX0DATA4",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX39_L_0"
-        },
-        "PCIE_TOP.PCIE_IMUX39_R_0->PCIE_TOP_PIPERX4DATA4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_TOP_PIPERX4DATA4",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_IMUX39_R_0"
         },
         "PCIE_TOP.PCIE_IMUX3_L_0->PCIE_TOP_TRNTDLLPDATA22": {
             "can_invert": "0",
@@ -3635,6 +1799,1842 @@
                 "res": "0.000"
             },
             "src_wire": "PCIE_IMUX9_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX10_L_0->PCIE_TOP_CFGDSN59": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDSN59",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX10_L_0"
+        },
+        "PCIE_TOP.PCIE_IMUX10_L_1->PCIE_TOP_CFGDSN63": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDSN63",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX10_L_1"
+        },
+        "PCIE_TOP.PCIE_IMUX10_L_2->PCIE_TOP_CFGDEVID3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDEVID3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX10_L_2"
+        },
+        "PCIE_TOP.PCIE_IMUX10_L_3->PCIE_TOP_CFGDEVID7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDEVID7",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX10_L_3"
+        },
+        "PCIE_TOP.PCIE_IMUX10_L_4->PCIE_TOP_CFGDEVID11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDEVID11",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX10_L_4"
+        },
+        "PCIE_TOP.PCIE_IMUX10_R_0->PCIE_TOP_TRNTD10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD10",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX10_R_0"
+        },
+        "PCIE_TOP.PCIE_IMUX10_R_1->PCIE_TOP_TRNTD14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD14",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX10_R_1"
+        },
+        "PCIE_TOP.PCIE_IMUX10_R_2->PCIE_TOP_TRNTD18": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD18",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX10_R_2"
+        },
+        "PCIE_TOP.PCIE_IMUX10_R_3->PCIE_TOP_TRNTD22": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD22",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX10_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX10_R_4->PCIE_TOP_PL2DIRECTEDLSTATE3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PL2DIRECTEDLSTATE3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX10_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX11_L_0->PCIE_TOP_CFGDSN60": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDSN60",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX11_L_0"
+        },
+        "PCIE_TOP.PCIE_IMUX11_L_1->PCIE_TOP_CFGDEVID0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDEVID0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX11_L_1"
+        },
+        "PCIE_TOP.PCIE_IMUX11_L_2->PCIE_TOP_CFGDEVID4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDEVID4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX11_L_2"
+        },
+        "PCIE_TOP.PCIE_IMUX11_L_3->PCIE_TOP_CFGDEVID8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDEVID8",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX11_L_3"
+        },
+        "PCIE_TOP.PCIE_IMUX11_L_4->PCIE_TOP_CFGDEVID12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDEVID12",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX11_L_4"
+        },
+        "PCIE_TOP.PCIE_IMUX11_R_0->PCIE_TOP_TRNTD11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD11",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX11_R_0"
+        },
+        "PCIE_TOP.PCIE_IMUX11_R_1->PCIE_TOP_TRNTD15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD15",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX11_R_1"
+        },
+        "PCIE_TOP.PCIE_IMUX11_R_2->PCIE_TOP_TRNTD19": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD19",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX11_R_2"
+        },
+        "PCIE_TOP.PCIE_IMUX11_R_3->PCIE_TOP_TRNTD23": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD23",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX11_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX11_R_4->PCIE_TOP_PL2DIRECTEDLSTATE4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PL2DIRECTEDLSTATE4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX11_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX12_L_0->PCIE_TOP_DRPADDR7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPADDR7",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX12_L_0"
+        },
+        "PCIE_TOP.PCIE_IMUX12_L_1->PCIE_TOP_DRPDI0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX12_L_1"
+        },
+        "PCIE_TOP.PCIE_IMUX12_L_2->PCIE_TOP_DRPDI4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX12_L_2"
+        },
+        "PCIE_TOP.PCIE_IMUX12_L_3->PCIE_TOP_DRPDI8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI8",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX12_L_3"
+        },
+        "PCIE_TOP.PCIE_IMUX12_L_4->PCIE_TOP_DRPDI12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI12",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX12_L_4"
+        },
+        "PCIE_TOP.PCIE_IMUX12_R_0->PCIE_TOP_TRNTD40": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD40",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX12_R_0"
+        },
+        "PCIE_TOP.PCIE_IMUX12_R_1->PCIE_TOP_TRNTD36": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD36",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX12_R_1"
+        },
+        "PCIE_TOP.PCIE_IMUX12_R_2->PCIE_TOP_TRNTD32": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD32",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX12_R_2"
+        },
+        "PCIE_TOP.PCIE_IMUX12_R_3->PCIE_TOP_TRNTD28": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD28",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX12_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX13_L_0->PCIE_TOP_DRPADDR8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPADDR8",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX13_L_0"
+        },
+        "PCIE_TOP.PCIE_IMUX13_L_1->PCIE_TOP_DRPDI1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX13_L_1"
+        },
+        "PCIE_TOP.PCIE_IMUX13_L_2->PCIE_TOP_DRPDI5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX13_L_2"
+        },
+        "PCIE_TOP.PCIE_IMUX13_L_3->PCIE_TOP_DRPDI9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI9",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX13_L_3"
+        },
+        "PCIE_TOP.PCIE_IMUX13_L_4->PCIE_TOP_DRPDI13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI13",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX13_L_4"
+        },
+        "PCIE_TOP.PCIE_IMUX13_R_0->PCIE_TOP_TRNTD41": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD41",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX13_R_0"
+        },
+        "PCIE_TOP.PCIE_IMUX13_R_1->PCIE_TOP_TRNTD37": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD37",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX13_R_1"
+        },
+        "PCIE_TOP.PCIE_IMUX13_R_2->PCIE_TOP_TRNTD33": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD33",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX13_R_2"
+        },
+        "PCIE_TOP.PCIE_IMUX13_R_3->PCIE_TOP_TRNTD29": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD29",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX13_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX13_R_4->PCIE_TOP_CFGERRAERHEADERLOG6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX13_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX14_L_1->PCIE_TOP_DRPDI2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX14_L_1"
+        },
+        "PCIE_TOP.PCIE_IMUX14_L_2->PCIE_TOP_DRPDI6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX14_L_2"
+        },
+        "PCIE_TOP.PCIE_IMUX14_L_3->PCIE_TOP_DRPDI10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI10",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX14_L_3"
+        },
+        "PCIE_TOP.PCIE_IMUX14_L_4->PCIE_TOP_DRPDI14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI14",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX14_L_4"
+        },
+        "PCIE_TOP.PCIE_IMUX14_R_1->PCIE_TOP_TRNTD38": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD38",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX14_R_1"
+        },
+        "PCIE_TOP.PCIE_IMUX14_R_2->PCIE_TOP_TRNTD34": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD34",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX14_R_2"
+        },
+        "PCIE_TOP.PCIE_IMUX14_R_3->PCIE_TOP_TRNTD30": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD30",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX14_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX14_R_4->PCIE_TOP_CFGERRAERHEADERLOG7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG7",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX14_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX15_L_1->PCIE_TOP_DRPDI3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX15_L_1"
+        },
+        "PCIE_TOP.PCIE_IMUX15_L_2->PCIE_TOP_DRPDI7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI7",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX15_L_2"
+        },
+        "PCIE_TOP.PCIE_IMUX15_L_3->PCIE_TOP_DRPDI11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI11",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX15_L_3"
+        },
+        "PCIE_TOP.PCIE_IMUX15_L_4->PCIE_TOP_DRPDI15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DRPDI15",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX15_L_4"
+        },
+        "PCIE_TOP.PCIE_IMUX15_R_1->PCIE_TOP_TRNTD39": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD39",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX15_R_1"
+        },
+        "PCIE_TOP.PCIE_IMUX15_R_2->PCIE_TOP_TRNTD35": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD35",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX15_R_2"
+        },
+        "PCIE_TOP.PCIE_IMUX15_R_3->PCIE_TOP_TRNTD31": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TRNTD31",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX15_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX15_R_4->PCIE_TOP_CFGERRAERHEADERLOG8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG8",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX15_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX16_L_1->PCIE_TOP_PIPERX0CHARISK0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX0CHARISK0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX16_L_1"
+        },
+        "PCIE_TOP.PCIE_IMUX16_R_1->PCIE_TOP_PIPERX4CHARISK0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX4CHARISK0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX16_R_1"
+        },
+        "PCIE_TOP.PCIE_IMUX16_R_3->PCIE_TOP_LL2SUSPENDNOW": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_LL2SUSPENDNOW",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX16_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX16_R_4->PCIE_TOP_CFGERRAERHEADERLOG9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG9",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX16_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX17_R_2->PCIE_TOP_CFGERRLOCKEDN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRLOCKEDN",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX17_R_2"
+        },
+        "PCIE_TOP.PCIE_IMUX17_R_3->PCIE_TOP_TL2PPMSUSPENDREQ": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TL2PPMSUSPENDREQ",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX17_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX17_R_4->PCIE_TOP_CFGERRTLPCPLHEADER46": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRTLPCPLHEADER46",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX17_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX18_R_2->PCIE_TOP_CFGERRNORECOVERYN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRNORECOVERYN",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX18_R_2"
+        },
+        "PCIE_TOP.PCIE_IMUX18_R_3->PCIE_TOP_TL2ASPMSUSPENDCREDITCHECK": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_TL2ASPMSUSPENDCREDITCHECK",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX18_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX18_R_4->PCIE_TOP_CFGERRTLPCPLHEADER47": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRTLPCPLHEADER47",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX18_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX19_R_2->PCIE_TOP_CFGERRAERHEADERLOG0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX19_R_2"
+        },
+        "PCIE_TOP.PCIE_IMUX19_R_4->PCIE_TOP_CFGINTERRUPTN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGINTERRUPTN",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX19_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX20_R_2->PCIE_TOP_CFGERRAERHEADERLOG1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX20_R_2"
+        },
+        "PCIE_TOP.PCIE_IMUX20_R_3->PCIE_TOP_CFGERRAERHEADERLOG2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX20_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX20_R_4->PCIE_TOP_CFGINTERRUPTDI0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGINTERRUPTDI0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX20_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX21_R_2->PCIE_TOP_CFGERRAERHEADERLOG11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG11",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX21_R_2"
+        },
+        "PCIE_TOP.PCIE_IMUX21_R_3->PCIE_TOP_CFGERRAERHEADERLOG3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX21_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX21_R_4->PCIE_TOP_CFGDEVID13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDEVID13",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX21_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX22_R_3->PCIE_TOP_CFGERRAERHEADERLOG4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX22_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX22_R_4->PCIE_TOP_CFGDEVID14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDEVID14",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX22_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX23_R_3->PCIE_TOP_CFGERRAERHEADERLOG5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX23_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX23_R_4->PCIE_TOP_CFGDEVID15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGDEVID15",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX23_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX24_R_3->PCIE_TOP_CFGERRAERHEADERLOG10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGERRAERHEADERLOG10",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX24_R_3"
+        },
+        "PCIE_TOP.PCIE_IMUX24_R_4->PCIE_TOP_CFGVENDID0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_CFGVENDID0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX24_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX25_R_4->PCIE_TOP_DBGMODE0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_DBGMODE0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX25_R_4"
+        },
+        "PCIE_TOP.PCIE_IMUX32_L_1->PCIE_TOP_PIPERX0DATA3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX0DATA3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX32_L_1"
+        },
+        "PCIE_TOP.PCIE_IMUX32_R_1->PCIE_TOP_PIPERX4DATA3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX4DATA3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX32_R_1"
+        },
+        "PCIE_TOP.PCIE_IMUX33_L_0->PCIE_TOP_PIPERX0CHANISALIGNED": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX0CHANISALIGNED",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX33_L_0"
+        },
+        "PCIE_TOP.PCIE_IMUX33_L_1->PCIE_TOP_PIPERX0DATA2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX0DATA2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX33_L_1"
+        },
+        "PCIE_TOP.PCIE_IMUX33_R_0->PCIE_TOP_PIPERX4CHANISALIGNED": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX4CHANISALIGNED",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX33_R_0"
+        },
+        "PCIE_TOP.PCIE_IMUX33_R_1->PCIE_TOP_PIPERX4DATA2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX4DATA2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX33_R_1"
+        },
+        "PCIE_TOP.PCIE_IMUX34_L_0->PCIE_TOP_PIPERX0DATA7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX0DATA7",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX34_L_0"
+        },
+        "PCIE_TOP.PCIE_IMUX34_R_0->PCIE_TOP_PIPERX4DATA7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX4DATA7",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX34_R_0"
+        },
+        "PCIE_TOP.PCIE_IMUX35_L_0->PCIE_TOP_PIPERX0DATA6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX0DATA6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX35_L_0"
+        },
+        "PCIE_TOP.PCIE_IMUX35_R_0->PCIE_TOP_PIPERX4DATA6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX4DATA6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX35_R_0"
+        },
+        "PCIE_TOP.PCIE_IMUX36_L_0->PCIE_TOP_PIPERX0VALID": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX0VALID",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX36_L_0"
+        },
+        "PCIE_TOP.PCIE_IMUX36_L_1->PCIE_TOP_PIPERX0DATA1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX0DATA1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX36_L_1"
+        },
+        "PCIE_TOP.PCIE_IMUX36_R_0->PCIE_TOP_PIPERX4VALID": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX4VALID",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX36_R_0"
+        },
+        "PCIE_TOP.PCIE_IMUX36_R_1->PCIE_TOP_PIPERX4DATA1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX4DATA1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX36_R_1"
+        },
+        "PCIE_TOP.PCIE_IMUX37_L_0->PCIE_TOP_PIPERX0PHYSTATUS": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX0PHYSTATUS",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX37_L_0"
+        },
+        "PCIE_TOP.PCIE_IMUX37_L_1->PCIE_TOP_PIPERX0DATA0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX0DATA0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX37_L_1"
+        },
+        "PCIE_TOP.PCIE_IMUX37_R_0->PCIE_TOP_PIPERX4PHYSTATUS": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX4PHYSTATUS",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX37_R_0"
+        },
+        "PCIE_TOP.PCIE_IMUX37_R_1->PCIE_TOP_PIPERX4DATA0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX4DATA0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX37_R_1"
+        },
+        "PCIE_TOP.PCIE_IMUX38_L_0->PCIE_TOP_PIPERX0DATA5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX0DATA5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX38_L_0"
+        },
+        "PCIE_TOP.PCIE_IMUX38_R_0->PCIE_TOP_PIPERX4DATA5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX4DATA5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX38_R_0"
+        },
+        "PCIE_TOP.PCIE_IMUX39_L_0->PCIE_TOP_PIPERX0DATA4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX0DATA4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX39_L_0"
+        },
+        "PCIE_TOP.PCIE_IMUX39_R_0->PCIE_TOP_PIPERX4DATA4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_TOP_PIPERX4DATA4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_IMUX39_R_0"
         },
         "PCIE_TOP.PCIE_TOP_CFGAERROOTERRCORRERRRECEIVED->PCIE_LOGIC_OUTS_B21_L_0": {
             "can_invert": "0",
@@ -4950,6 +4950,150 @@
             },
             "src_wire": "PCIE_TOP_DBGVECA1"
         },
+        "PCIE_TOP.PCIE_TOP_DBGVECA2->PCIE_LOGIC_OUTS_B23_L_2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B23_L_2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DBGVECA2"
+        },
+        "PCIE_TOP.PCIE_TOP_DBGVECA3->PCIE_LOGIC_OUTS_B20_L_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B20_L_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DBGVECA3"
+        },
+        "PCIE_TOP.PCIE_TOP_DBGVECA4->PCIE_LOGIC_OUTS_B21_L_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B21_L_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DBGVECA4"
+        },
+        "PCIE_TOP.PCIE_TOP_DBGVECA5->PCIE_LOGIC_OUTS_B22_L_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B22_L_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DBGVECA5"
+        },
+        "PCIE_TOP.PCIE_TOP_DBGVECA6->PCIE_LOGIC_OUTS_B23_L_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B23_L_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DBGVECA6"
+        },
+        "PCIE_TOP.PCIE_TOP_DBGVECA7->PCIE_LOGIC_OUTS_B20_L_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B20_L_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DBGVECA7"
+        },
+        "PCIE_TOP.PCIE_TOP_DBGVECA8->PCIE_LOGIC_OUTS_B21_L_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B21_L_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DBGVECA8"
+        },
+        "PCIE_TOP.PCIE_TOP_DBGVECA9->PCIE_LOGIC_OUTS_B22_L_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B22_L_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DBGVECA9"
+        },
         "PCIE_TOP.PCIE_TOP_DBGVECA10->PCIE_LOGIC_OUTS_B23_L_4": {
             "can_invert": "0",
             "dst_to_src": {
@@ -5130,24 +5274,6 @@
             },
             "src_wire": "PCIE_TOP_DBGVECA19"
         },
-        "PCIE_TOP.PCIE_TOP_DBGVECA2->PCIE_LOGIC_OUTS_B23_L_2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B23_L_2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DBGVECA2"
-        },
         "PCIE_TOP.PCIE_TOP_DBGVECA20->PCIE_LOGIC_OUTS_B20_R_0": {
             "can_invert": "0",
             "dst_to_src": {
@@ -5183,132 +5309,6 @@
                 "res": "0.000"
             },
             "src_wire": "PCIE_TOP_DBGVECA21"
-        },
-        "PCIE_TOP.PCIE_TOP_DBGVECA3->PCIE_LOGIC_OUTS_B20_L_3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B20_L_3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DBGVECA3"
-        },
-        "PCIE_TOP.PCIE_TOP_DBGVECA4->PCIE_LOGIC_OUTS_B21_L_3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B21_L_3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DBGVECA4"
-        },
-        "PCIE_TOP.PCIE_TOP_DBGVECA5->PCIE_LOGIC_OUTS_B22_L_3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B22_L_3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DBGVECA5"
-        },
-        "PCIE_TOP.PCIE_TOP_DBGVECA6->PCIE_LOGIC_OUTS_B23_L_3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B23_L_3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DBGVECA6"
-        },
-        "PCIE_TOP.PCIE_TOP_DBGVECA7->PCIE_LOGIC_OUTS_B20_L_4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B20_L_4",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DBGVECA7"
-        },
-        "PCIE_TOP.PCIE_TOP_DBGVECA8->PCIE_LOGIC_OUTS_B21_L_4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B21_L_4",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DBGVECA8"
-        },
-        "PCIE_TOP.PCIE_TOP_DBGVECA9->PCIE_LOGIC_OUTS_B22_L_4": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B22_L_4",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DBGVECA9"
         },
         "PCIE_TOP.PCIE_TOP_DBGVECB10->PCIE_LOGIC_OUTS_B22_R_0": {
             "can_invert": "0",
@@ -5363,96 +5363,6 @@
                 "res": "0.000"
             },
             "src_wire": "PCIE_TOP_DRPDO1"
-        },
-        "PCIE_TOP.PCIE_TOP_DRPDO11->PCIE_LOGIC_OUTS_B20_L_1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B20_L_1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DRPDO11"
-        },
-        "PCIE_TOP.PCIE_TOP_DRPDO12->PCIE_LOGIC_OUTS_B21_L_1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B21_L_1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DRPDO12"
-        },
-        "PCIE_TOP.PCIE_TOP_DRPDO13->PCIE_LOGIC_OUTS_B22_L_1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B22_L_1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DRPDO13"
-        },
-        "PCIE_TOP.PCIE_TOP_DRPDO14->PCIE_LOGIC_OUTS_B23_L_1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B23_L_1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DRPDO14"
-        },
-        "PCIE_TOP.PCIE_TOP_DRPDO15->PCIE_LOGIC_OUTS_B20_L_2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B20_L_2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_DRPDO15"
         },
         "PCIE_TOP.PCIE_TOP_DRPDO2->PCIE_LOGIC_OUTS_B19_L_3": {
             "can_invert": "0",
@@ -5544,6 +5454,96 @@
             },
             "src_wire": "PCIE_TOP_DRPDO6"
         },
+        "PCIE_TOP.PCIE_TOP_DRPDO11->PCIE_LOGIC_OUTS_B20_L_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B20_L_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DRPDO11"
+        },
+        "PCIE_TOP.PCIE_TOP_DRPDO12->PCIE_LOGIC_OUTS_B21_L_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B21_L_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DRPDO12"
+        },
+        "PCIE_TOP.PCIE_TOP_DRPDO13->PCIE_LOGIC_OUTS_B22_L_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B22_L_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DRPDO13"
+        },
+        "PCIE_TOP.PCIE_TOP_DRPDO14->PCIE_LOGIC_OUTS_B23_L_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B23_L_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DRPDO14"
+        },
+        "PCIE_TOP.PCIE_TOP_DRPDO15->PCIE_LOGIC_OUTS_B20_L_2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B20_L_2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_DRPDO15"
+        },
         "PCIE_TOP.PCIE_TOP_DRPRDY->PCIE_LOGIC_OUTS_B16_L_3": {
             "can_invert": "0",
             "dst_to_src": {
@@ -5634,42 +5634,6 @@
             },
             "src_wire": "PCIE_TOP_MIMRXRADDR1"
         },
-        "PCIE_TOP.PCIE_TOP_MIMRXRADDR10->PCIE_LOGIC_OUTS_B3_R_0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B3_R_0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_MIMRXRADDR10"
-        },
-        "PCIE_TOP.PCIE_TOP_MIMRXRADDR11->PCIE_LOGIC_OUTS_B10_R_0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B10_R_0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_MIMRXRADDR11"
-        },
         "PCIE_TOP.PCIE_TOP_MIMRXRADDR2->PCIE_LOGIC_OUTS_B12_R_2": {
             "can_invert": "0",
             "dst_to_src": {
@@ -5742,6 +5706,42 @@
             },
             "src_wire": "PCIE_TOP_MIMRXRADDR9"
         },
+        "PCIE_TOP.PCIE_TOP_MIMRXRADDR10->PCIE_LOGIC_OUTS_B3_R_0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B3_R_0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_MIMRXRADDR10"
+        },
+        "PCIE_TOP.PCIE_TOP_MIMRXRADDR11->PCIE_LOGIC_OUTS_B10_R_0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B10_R_0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_MIMRXRADDR11"
+        },
         "PCIE_TOP.PCIE_TOP_MIMRXREN->PCIE_LOGIC_OUTS_B12_R_1": {
             "can_invert": "0",
             "dst_to_src": {
@@ -5777,24 +5777,6 @@
                 "res": "0.000"
             },
             "src_wire": "PCIE_TOP_MIMRXWADDR1"
-        },
-        "PCIE_TOP.PCIE_TOP_MIMRXWADDR12->PCIE_LOGIC_OUTS_B1_R_0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B1_R_0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_MIMRXWADDR12"
         },
         "PCIE_TOP.PCIE_TOP_MIMRXWADDR2->PCIE_LOGIC_OUTS_B0_R_2": {
             "can_invert": "0",
@@ -5832,6 +5814,24 @@
             },
             "src_wire": "PCIE_TOP_MIMRXWADDR5"
         },
+        "PCIE_TOP.PCIE_TOP_MIMRXWADDR12->PCIE_LOGIC_OUTS_B1_R_0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B1_R_0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_MIMRXWADDR12"
+        },
         "PCIE_TOP.PCIE_TOP_MIMRXWDATA0->PCIE_LOGIC_OUTS_B11_R_0": {
             "can_invert": "0",
             "dst_to_src": {
@@ -5867,6 +5867,150 @@
                 "res": "0.000"
             },
             "src_wire": "PCIE_TOP_MIMRXWDATA1"
+        },
+        "PCIE_TOP.PCIE_TOP_MIMRXWDATA2->PCIE_LOGIC_OUTS_B18_R_0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B18_R_0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_MIMRXWDATA2"
+        },
+        "PCIE_TOP.PCIE_TOP_MIMRXWDATA3->PCIE_LOGIC_OUTS_B15_R_2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B15_R_2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_MIMRXWDATA3"
+        },
+        "PCIE_TOP.PCIE_TOP_MIMRXWDATA4->PCIE_LOGIC_OUTS_B9_R_0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B9_R_0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_MIMRXWDATA4"
+        },
+        "PCIE_TOP.PCIE_TOP_MIMRXWDATA5->PCIE_LOGIC_OUTS_B22_R_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B22_R_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_MIMRXWDATA5"
+        },
+        "PCIE_TOP.PCIE_TOP_MIMRXWDATA6->PCIE_LOGIC_OUTS_B16_R_0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B16_R_0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_MIMRXWDATA6"
+        },
+        "PCIE_TOP.PCIE_TOP_MIMRXWDATA7->PCIE_LOGIC_OUTS_B23_R_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B23_R_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_MIMRXWDATA7"
+        },
+        "PCIE_TOP.PCIE_TOP_MIMRXWDATA8->PCIE_LOGIC_OUTS_B8_R_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B8_R_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_MIMRXWDATA8"
+        },
+        "PCIE_TOP.PCIE_TOP_MIMRXWDATA9->PCIE_LOGIC_OUTS_B3_R_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_LOGIC_OUTS_B3_R_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_TOP_MIMRXWDATA9"
         },
         "PCIE_TOP.PCIE_TOP_MIMRXWDATA10->PCIE_LOGIC_OUTS_B19_R_1": {
             "can_invert": "0",
@@ -5993,24 +6137,6 @@
                 "res": "0.000"
             },
             "src_wire": "PCIE_TOP_MIMRXWDATA19"
-        },
-        "PCIE_TOP.PCIE_TOP_MIMRXWDATA2->PCIE_LOGIC_OUTS_B18_R_0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B18_R_0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_MIMRXWDATA2"
         },
         "PCIE_TOP.PCIE_TOP_MIMRXWDATA20->PCIE_LOGIC_OUTS_B0_R_0": {
             "can_invert": "0",
@@ -6192,24 +6318,6 @@
             },
             "src_wire": "PCIE_TOP_MIMRXWDATA29"
         },
-        "PCIE_TOP.PCIE_TOP_MIMRXWDATA3->PCIE_LOGIC_OUTS_B15_R_2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B15_R_2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_MIMRXWDATA3"
-        },
         "PCIE_TOP.PCIE_TOP_MIMRXWDATA30->PCIE_LOGIC_OUTS_B18_R_2": {
             "can_invert": "0",
             "dst_to_src": {
@@ -6318,24 +6426,6 @@
             },
             "src_wire": "PCIE_TOP_MIMRXWDATA35"
         },
-        "PCIE_TOP.PCIE_TOP_MIMRXWDATA4->PCIE_LOGIC_OUTS_B9_R_0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B9_R_0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_MIMRXWDATA4"
-        },
         "PCIE_TOP.PCIE_TOP_MIMRXWDATA49->PCIE_LOGIC_OUTS_B5_R_1": {
             "can_invert": "0",
             "dst_to_src": {
@@ -6354,24 +6444,6 @@
             },
             "src_wire": "PCIE_TOP_MIMRXWDATA49"
         },
-        "PCIE_TOP.PCIE_TOP_MIMRXWDATA5->PCIE_LOGIC_OUTS_B22_R_3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B22_R_3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_MIMRXWDATA5"
-        },
         "PCIE_TOP.PCIE_TOP_MIMRXWDATA51->PCIE_LOGIC_OUTS_B7_R_1": {
             "can_invert": "0",
             "dst_to_src": {
@@ -6389,78 +6461,6 @@
                 "res": "0.000"
             },
             "src_wire": "PCIE_TOP_MIMRXWDATA51"
-        },
-        "PCIE_TOP.PCIE_TOP_MIMRXWDATA6->PCIE_LOGIC_OUTS_B16_R_0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B16_R_0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_MIMRXWDATA6"
-        },
-        "PCIE_TOP.PCIE_TOP_MIMRXWDATA7->PCIE_LOGIC_OUTS_B23_R_3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B23_R_3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_MIMRXWDATA7"
-        },
-        "PCIE_TOP.PCIE_TOP_MIMRXWDATA8->PCIE_LOGIC_OUTS_B8_R_1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B8_R_1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_MIMRXWDATA8"
-        },
-        "PCIE_TOP.PCIE_TOP_MIMRXWDATA9->PCIE_LOGIC_OUTS_B3_R_3": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "PCIE_LOGIC_OUTS_B3_R_3",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "PCIE_TOP_MIMRXWDATA9"
         },
         "PCIE_TOP.PCIE_TOP_MIMRXWEN->PCIE_LOGIC_OUTS_B18_R_1": {
             "can_invert": "0",
@@ -8982,6 +8982,366 @@
             "cap": "2.000",
             "res": "0.000"
         },
+        "PCIE_IMUX1_L_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX1_L_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX1_L_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX1_L_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX1_L_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX1_R_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX1_R_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX1_R_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX1_R_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX1_R_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX2_L_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX2_L_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX2_L_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX2_L_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX2_L_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX2_R_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX2_R_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX2_R_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX2_R_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX2_R_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX3_L_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX3_L_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX3_L_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX3_L_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX3_L_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX3_R_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX3_R_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX3_R_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX3_R_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX3_R_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX4_L_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX4_L_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX4_L_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX4_L_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX4_L_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX4_R_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX4_R_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX4_R_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX4_R_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX4_R_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX5_L_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX5_L_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX5_L_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX5_L_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX5_L_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX5_R_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX5_R_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX5_R_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX5_R_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX5_R_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX6_L_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX6_L_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX6_L_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX6_L_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX6_L_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX6_R_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX6_R_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX6_R_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX6_R_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX6_R_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX7_L_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX7_L_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX7_L_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX7_L_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX7_L_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX7_R_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX7_R_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX7_R_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX7_R_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX7_R_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX8_L_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX8_L_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX8_L_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX8_L_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX8_L_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX8_R_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX8_R_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX8_R_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX8_R_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX8_R_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX9_L_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX9_L_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX9_L_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX9_L_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX9_L_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX9_R_0": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX9_R_1": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX9_R_2": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX9_R_3": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
+        "PCIE_IMUX9_R_4": {
+            "cap": "2.000",
+            "res": "0.000"
+        },
         "PCIE_IMUX10_L_0": {
             "cap": "2.000",
             "res": "0.000"
@@ -9379,46 +9739,6 @@
             "res": "0.000"
         },
         "PCIE_IMUX19_R_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX1_L_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX1_L_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX1_L_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX1_L_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX1_L_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX1_R_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX1_R_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX1_R_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX1_R_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX1_R_4": {
             "cap": "2.000",
             "res": "0.000"
         },
@@ -9822,46 +10142,6 @@
             "cap": "2.000",
             "res": "0.000"
         },
-        "PCIE_IMUX2_L_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX2_L_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX2_L_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX2_L_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX2_L_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX2_R_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX2_R_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX2_R_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX2_R_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX2_R_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
         "PCIE_IMUX30_L_0": {
             "cap": "2.000",
             "res": "0.000"
@@ -10262,46 +10542,6 @@
             "cap": "2.000",
             "res": "0.000"
         },
-        "PCIE_IMUX3_L_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX3_L_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX3_L_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX3_L_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX3_L_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX3_R_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX3_R_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX3_R_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX3_R_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX3_R_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
         "PCIE_IMUX40_L_0": {
             "cap": "2.000",
             "res": "0.000"
@@ -10622,306 +10862,6 @@
             "cap": "2.000",
             "res": "0.000"
         },
-        "PCIE_IMUX4_L_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX4_L_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX4_L_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX4_L_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX4_L_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX4_R_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX4_R_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX4_R_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX4_R_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX4_R_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX5_L_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX5_L_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX5_L_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX5_L_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX5_L_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX5_R_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX5_R_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX5_R_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX5_R_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX5_R_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX6_L_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX6_L_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX6_L_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX6_L_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX6_L_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX6_R_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX6_R_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX6_R_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX6_R_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX6_R_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX7_L_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX7_L_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX7_L_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX7_L_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX7_L_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX7_R_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX7_R_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX7_R_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX7_R_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX7_R_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX8_L_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX8_L_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX8_L_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX8_L_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX8_L_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX8_R_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX8_R_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX8_R_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX8_R_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX8_R_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX9_L_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX9_L_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX9_L_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX9_L_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX9_L_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX9_R_0": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX9_R_1": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX9_R_2": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX9_R_3": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_IMUX9_R_4": {
-            "cap": "2.000",
-            "res": "0.000"
-        },
-        "PCIE_LH10_0": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH10_1": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH10_2": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH10_3": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH10_4": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH11_0": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH11_1": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH11_2": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH11_3": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH11_4": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH12_0": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH12_1": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH12_2": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH12_3": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
-        "PCIE_LH12_4": {
-            "cap": "92.540",
-            "res": "23.320"
-        },
         "PCIE_LH1_0": {
             "cap": "92.540",
             "res": "23.320"
@@ -11102,6 +11042,66 @@
             "cap": "92.540",
             "res": "23.320"
         },
+        "PCIE_LH10_0": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH10_1": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH10_2": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH10_3": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH10_4": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH11_0": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH11_1": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH11_2": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH11_3": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH11_4": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH12_0": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH12_1": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH12_2": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH12_3": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
+        "PCIE_LH12_4": {
+            "cap": "92.540",
+            "res": "23.320"
+        },
         "PCIE_LOGIC_OUTS_B0_L_0": null,
         "PCIE_LOGIC_OUTS_B0_L_1": null,
         "PCIE_LOGIC_OUTS_B0_L_2": null,
@@ -11112,6 +11112,96 @@
         "PCIE_LOGIC_OUTS_B0_R_2": null,
         "PCIE_LOGIC_OUTS_B0_R_3": null,
         "PCIE_LOGIC_OUTS_B0_R_4": null,
+        "PCIE_LOGIC_OUTS_B1_L_0": null,
+        "PCIE_LOGIC_OUTS_B1_L_1": null,
+        "PCIE_LOGIC_OUTS_B1_L_2": null,
+        "PCIE_LOGIC_OUTS_B1_L_3": null,
+        "PCIE_LOGIC_OUTS_B1_L_4": null,
+        "PCIE_LOGIC_OUTS_B1_R_0": null,
+        "PCIE_LOGIC_OUTS_B1_R_1": null,
+        "PCIE_LOGIC_OUTS_B1_R_2": null,
+        "PCIE_LOGIC_OUTS_B1_R_3": null,
+        "PCIE_LOGIC_OUTS_B1_R_4": null,
+        "PCIE_LOGIC_OUTS_B2_L_0": null,
+        "PCIE_LOGIC_OUTS_B2_L_1": null,
+        "PCIE_LOGIC_OUTS_B2_L_2": null,
+        "PCIE_LOGIC_OUTS_B2_L_3": null,
+        "PCIE_LOGIC_OUTS_B2_L_4": null,
+        "PCIE_LOGIC_OUTS_B2_R_0": null,
+        "PCIE_LOGIC_OUTS_B2_R_1": null,
+        "PCIE_LOGIC_OUTS_B2_R_2": null,
+        "PCIE_LOGIC_OUTS_B2_R_3": null,
+        "PCIE_LOGIC_OUTS_B2_R_4": null,
+        "PCIE_LOGIC_OUTS_B3_L_0": null,
+        "PCIE_LOGIC_OUTS_B3_L_1": null,
+        "PCIE_LOGIC_OUTS_B3_L_2": null,
+        "PCIE_LOGIC_OUTS_B3_L_3": null,
+        "PCIE_LOGIC_OUTS_B3_L_4": null,
+        "PCIE_LOGIC_OUTS_B3_R_0": null,
+        "PCIE_LOGIC_OUTS_B3_R_1": null,
+        "PCIE_LOGIC_OUTS_B3_R_2": null,
+        "PCIE_LOGIC_OUTS_B3_R_3": null,
+        "PCIE_LOGIC_OUTS_B3_R_4": null,
+        "PCIE_LOGIC_OUTS_B4_L_0": null,
+        "PCIE_LOGIC_OUTS_B4_L_1": null,
+        "PCIE_LOGIC_OUTS_B4_L_2": null,
+        "PCIE_LOGIC_OUTS_B4_L_3": null,
+        "PCIE_LOGIC_OUTS_B4_L_4": null,
+        "PCIE_LOGIC_OUTS_B4_R_0": null,
+        "PCIE_LOGIC_OUTS_B4_R_1": null,
+        "PCIE_LOGIC_OUTS_B4_R_2": null,
+        "PCIE_LOGIC_OUTS_B4_R_3": null,
+        "PCIE_LOGIC_OUTS_B4_R_4": null,
+        "PCIE_LOGIC_OUTS_B5_L_0": null,
+        "PCIE_LOGIC_OUTS_B5_L_1": null,
+        "PCIE_LOGIC_OUTS_B5_L_2": null,
+        "PCIE_LOGIC_OUTS_B5_L_3": null,
+        "PCIE_LOGIC_OUTS_B5_L_4": null,
+        "PCIE_LOGIC_OUTS_B5_R_0": null,
+        "PCIE_LOGIC_OUTS_B5_R_1": null,
+        "PCIE_LOGIC_OUTS_B5_R_2": null,
+        "PCIE_LOGIC_OUTS_B5_R_3": null,
+        "PCIE_LOGIC_OUTS_B5_R_4": null,
+        "PCIE_LOGIC_OUTS_B6_L_0": null,
+        "PCIE_LOGIC_OUTS_B6_L_1": null,
+        "PCIE_LOGIC_OUTS_B6_L_2": null,
+        "PCIE_LOGIC_OUTS_B6_L_3": null,
+        "PCIE_LOGIC_OUTS_B6_L_4": null,
+        "PCIE_LOGIC_OUTS_B6_R_0": null,
+        "PCIE_LOGIC_OUTS_B6_R_1": null,
+        "PCIE_LOGIC_OUTS_B6_R_2": null,
+        "PCIE_LOGIC_OUTS_B6_R_3": null,
+        "PCIE_LOGIC_OUTS_B6_R_4": null,
+        "PCIE_LOGIC_OUTS_B7_L_0": null,
+        "PCIE_LOGIC_OUTS_B7_L_1": null,
+        "PCIE_LOGIC_OUTS_B7_L_2": null,
+        "PCIE_LOGIC_OUTS_B7_L_3": null,
+        "PCIE_LOGIC_OUTS_B7_L_4": null,
+        "PCIE_LOGIC_OUTS_B7_R_0": null,
+        "PCIE_LOGIC_OUTS_B7_R_1": null,
+        "PCIE_LOGIC_OUTS_B7_R_2": null,
+        "PCIE_LOGIC_OUTS_B7_R_3": null,
+        "PCIE_LOGIC_OUTS_B7_R_4": null,
+        "PCIE_LOGIC_OUTS_B8_L_0": null,
+        "PCIE_LOGIC_OUTS_B8_L_1": null,
+        "PCIE_LOGIC_OUTS_B8_L_2": null,
+        "PCIE_LOGIC_OUTS_B8_L_3": null,
+        "PCIE_LOGIC_OUTS_B8_L_4": null,
+        "PCIE_LOGIC_OUTS_B8_R_0": null,
+        "PCIE_LOGIC_OUTS_B8_R_1": null,
+        "PCIE_LOGIC_OUTS_B8_R_2": null,
+        "PCIE_LOGIC_OUTS_B8_R_3": null,
+        "PCIE_LOGIC_OUTS_B8_R_4": null,
+        "PCIE_LOGIC_OUTS_B9_L_0": null,
+        "PCIE_LOGIC_OUTS_B9_L_1": null,
+        "PCIE_LOGIC_OUTS_B9_L_2": null,
+        "PCIE_LOGIC_OUTS_B9_L_3": null,
+        "PCIE_LOGIC_OUTS_B9_L_4": null,
+        "PCIE_LOGIC_OUTS_B9_R_0": null,
+        "PCIE_LOGIC_OUTS_B9_R_1": null,
+        "PCIE_LOGIC_OUTS_B9_R_2": null,
+        "PCIE_LOGIC_OUTS_B9_R_3": null,
+        "PCIE_LOGIC_OUTS_B9_R_4": null,
         "PCIE_LOGIC_OUTS_B10_L_0": null,
         "PCIE_LOGIC_OUTS_B10_L_1": null,
         "PCIE_LOGIC_OUTS_B10_L_2": null,
@@ -11212,16 +11302,6 @@
         "PCIE_LOGIC_OUTS_B19_R_2": null,
         "PCIE_LOGIC_OUTS_B19_R_3": null,
         "PCIE_LOGIC_OUTS_B19_R_4": null,
-        "PCIE_LOGIC_OUTS_B1_L_0": null,
-        "PCIE_LOGIC_OUTS_B1_L_1": null,
-        "PCIE_LOGIC_OUTS_B1_L_2": null,
-        "PCIE_LOGIC_OUTS_B1_L_3": null,
-        "PCIE_LOGIC_OUTS_B1_L_4": null,
-        "PCIE_LOGIC_OUTS_B1_R_0": null,
-        "PCIE_LOGIC_OUTS_B1_R_1": null,
-        "PCIE_LOGIC_OUTS_B1_R_2": null,
-        "PCIE_LOGIC_OUTS_B1_R_3": null,
-        "PCIE_LOGIC_OUTS_B1_R_4": null,
         "PCIE_LOGIC_OUTS_B20_L_0": null,
         "PCIE_LOGIC_OUTS_B20_L_1": null,
         "PCIE_LOGIC_OUTS_B20_L_2": null,
@@ -11262,86 +11342,6 @@
         "PCIE_LOGIC_OUTS_B23_R_2": null,
         "PCIE_LOGIC_OUTS_B23_R_3": null,
         "PCIE_LOGIC_OUTS_B23_R_4": null,
-        "PCIE_LOGIC_OUTS_B2_L_0": null,
-        "PCIE_LOGIC_OUTS_B2_L_1": null,
-        "PCIE_LOGIC_OUTS_B2_L_2": null,
-        "PCIE_LOGIC_OUTS_B2_L_3": null,
-        "PCIE_LOGIC_OUTS_B2_L_4": null,
-        "PCIE_LOGIC_OUTS_B2_R_0": null,
-        "PCIE_LOGIC_OUTS_B2_R_1": null,
-        "PCIE_LOGIC_OUTS_B2_R_2": null,
-        "PCIE_LOGIC_OUTS_B2_R_3": null,
-        "PCIE_LOGIC_OUTS_B2_R_4": null,
-        "PCIE_LOGIC_OUTS_B3_L_0": null,
-        "PCIE_LOGIC_OUTS_B3_L_1": null,
-        "PCIE_LOGIC_OUTS_B3_L_2": null,
-        "PCIE_LOGIC_OUTS_B3_L_3": null,
-        "PCIE_LOGIC_OUTS_B3_L_4": null,
-        "PCIE_LOGIC_OUTS_B3_R_0": null,
-        "PCIE_LOGIC_OUTS_B3_R_1": null,
-        "PCIE_LOGIC_OUTS_B3_R_2": null,
-        "PCIE_LOGIC_OUTS_B3_R_3": null,
-        "PCIE_LOGIC_OUTS_B3_R_4": null,
-        "PCIE_LOGIC_OUTS_B4_L_0": null,
-        "PCIE_LOGIC_OUTS_B4_L_1": null,
-        "PCIE_LOGIC_OUTS_B4_L_2": null,
-        "PCIE_LOGIC_OUTS_B4_L_3": null,
-        "PCIE_LOGIC_OUTS_B4_L_4": null,
-        "PCIE_LOGIC_OUTS_B4_R_0": null,
-        "PCIE_LOGIC_OUTS_B4_R_1": null,
-        "PCIE_LOGIC_OUTS_B4_R_2": null,
-        "PCIE_LOGIC_OUTS_B4_R_3": null,
-        "PCIE_LOGIC_OUTS_B4_R_4": null,
-        "PCIE_LOGIC_OUTS_B5_L_0": null,
-        "PCIE_LOGIC_OUTS_B5_L_1": null,
-        "PCIE_LOGIC_OUTS_B5_L_2": null,
-        "PCIE_LOGIC_OUTS_B5_L_3": null,
-        "PCIE_LOGIC_OUTS_B5_L_4": null,
-        "PCIE_LOGIC_OUTS_B5_R_0": null,
-        "PCIE_LOGIC_OUTS_B5_R_1": null,
-        "PCIE_LOGIC_OUTS_B5_R_2": null,
-        "PCIE_LOGIC_OUTS_B5_R_3": null,
-        "PCIE_LOGIC_OUTS_B5_R_4": null,
-        "PCIE_LOGIC_OUTS_B6_L_0": null,
-        "PCIE_LOGIC_OUTS_B6_L_1": null,
-        "PCIE_LOGIC_OUTS_B6_L_2": null,
-        "PCIE_LOGIC_OUTS_B6_L_3": null,
-        "PCIE_LOGIC_OUTS_B6_L_4": null,
-        "PCIE_LOGIC_OUTS_B6_R_0": null,
-        "PCIE_LOGIC_OUTS_B6_R_1": null,
-        "PCIE_LOGIC_OUTS_B6_R_2": null,
-        "PCIE_LOGIC_OUTS_B6_R_3": null,
-        "PCIE_LOGIC_OUTS_B6_R_4": null,
-        "PCIE_LOGIC_OUTS_B7_L_0": null,
-        "PCIE_LOGIC_OUTS_B7_L_1": null,
-        "PCIE_LOGIC_OUTS_B7_L_2": null,
-        "PCIE_LOGIC_OUTS_B7_L_3": null,
-        "PCIE_LOGIC_OUTS_B7_L_4": null,
-        "PCIE_LOGIC_OUTS_B7_R_0": null,
-        "PCIE_LOGIC_OUTS_B7_R_1": null,
-        "PCIE_LOGIC_OUTS_B7_R_2": null,
-        "PCIE_LOGIC_OUTS_B7_R_3": null,
-        "PCIE_LOGIC_OUTS_B7_R_4": null,
-        "PCIE_LOGIC_OUTS_B8_L_0": null,
-        "PCIE_LOGIC_OUTS_B8_L_1": null,
-        "PCIE_LOGIC_OUTS_B8_L_2": null,
-        "PCIE_LOGIC_OUTS_B8_L_3": null,
-        "PCIE_LOGIC_OUTS_B8_L_4": null,
-        "PCIE_LOGIC_OUTS_B8_R_0": null,
-        "PCIE_LOGIC_OUTS_B8_R_1": null,
-        "PCIE_LOGIC_OUTS_B8_R_2": null,
-        "PCIE_LOGIC_OUTS_B8_R_3": null,
-        "PCIE_LOGIC_OUTS_B8_R_4": null,
-        "PCIE_LOGIC_OUTS_B9_L_0": null,
-        "PCIE_LOGIC_OUTS_B9_L_1": null,
-        "PCIE_LOGIC_OUTS_B9_L_2": null,
-        "PCIE_LOGIC_OUTS_B9_L_3": null,
-        "PCIE_LOGIC_OUTS_B9_L_4": null,
-        "PCIE_LOGIC_OUTS_B9_R_0": null,
-        "PCIE_LOGIC_OUTS_B9_R_1": null,
-        "PCIE_LOGIC_OUTS_B9_R_2": null,
-        "PCIE_LOGIC_OUTS_B9_R_3": null,
-        "PCIE_LOGIC_OUTS_B9_R_4": null,
         "PCIE_MONITOR_N_0": null,
         "PCIE_MONITOR_N_1": null,
         "PCIE_MONITOR_N_2": null,
@@ -12334,12 +12334,6 @@
         "PCIE_TOP_CFGDEVCONTROL2LTREN": null,
         "PCIE_TOP_CFGDEVID0": null,
         "PCIE_TOP_CFGDEVID1": null,
-        "PCIE_TOP_CFGDEVID10": null,
-        "PCIE_TOP_CFGDEVID11": null,
-        "PCIE_TOP_CFGDEVID12": null,
-        "PCIE_TOP_CFGDEVID13": null,
-        "PCIE_TOP_CFGDEVID14": null,
-        "PCIE_TOP_CFGDEVID15": null,
         "PCIE_TOP_CFGDEVID2": null,
         "PCIE_TOP_CFGDEVID3": null,
         "PCIE_TOP_CFGDEVID4": null,
@@ -12348,6 +12342,12 @@
         "PCIE_TOP_CFGDEVID7": null,
         "PCIE_TOP_CFGDEVID8": null,
         "PCIE_TOP_CFGDEVID9": null,
+        "PCIE_TOP_CFGDEVID10": null,
+        "PCIE_TOP_CFGDEVID11": null,
+        "PCIE_TOP_CFGDEVID12": null,
+        "PCIE_TOP_CFGDEVID13": null,
+        "PCIE_TOP_CFGDEVID14": null,
+        "PCIE_TOP_CFGDEVID15": null,
         "PCIE_TOP_CFGDSN57": null,
         "PCIE_TOP_CFGDSN58": null,
         "PCIE_TOP_CFGDSN59": null,
@@ -12357,8 +12357,6 @@
         "PCIE_TOP_CFGDSN63": null,
         "PCIE_TOP_CFGERRAERHEADERLOG0": null,
         "PCIE_TOP_CFGERRAERHEADERLOG1": null,
-        "PCIE_TOP_CFGERRAERHEADERLOG10": null,
-        "PCIE_TOP_CFGERRAERHEADERLOG11": null,
         "PCIE_TOP_CFGERRAERHEADERLOG2": null,
         "PCIE_TOP_CFGERRAERHEADERLOG3": null,
         "PCIE_TOP_CFGERRAERHEADERLOG4": null,
@@ -12367,6 +12365,8 @@
         "PCIE_TOP_CFGERRAERHEADERLOG7": null,
         "PCIE_TOP_CFGERRAERHEADERLOG8": null,
         "PCIE_TOP_CFGERRAERHEADERLOG9": null,
+        "PCIE_TOP_CFGERRAERHEADERLOG10": null,
+        "PCIE_TOP_CFGERRAERHEADERLOG11": null,
         "PCIE_TOP_CFGERRLOCKEDN": null,
         "PCIE_TOP_CFGERRNORECOVERYN": null,
         "PCIE_TOP_CFGERRTLPCPLHEADER26": null,
@@ -12448,6 +12448,14 @@
         "PCIE_TOP_DBGMODE0": null,
         "PCIE_TOP_DBGVECA0": null,
         "PCIE_TOP_DBGVECA1": null,
+        "PCIE_TOP_DBGVECA2": null,
+        "PCIE_TOP_DBGVECA3": null,
+        "PCIE_TOP_DBGVECA4": null,
+        "PCIE_TOP_DBGVECA5": null,
+        "PCIE_TOP_DBGVECA6": null,
+        "PCIE_TOP_DBGVECA7": null,
+        "PCIE_TOP_DBGVECA8": null,
+        "PCIE_TOP_DBGVECA9": null,
         "PCIE_TOP_DBGVECA10": null,
         "PCIE_TOP_DBGVECA11": null,
         "PCIE_TOP_DBGVECA12": null,
@@ -12458,27 +12466,13 @@
         "PCIE_TOP_DBGVECA17": null,
         "PCIE_TOP_DBGVECA18": null,
         "PCIE_TOP_DBGVECA19": null,
-        "PCIE_TOP_DBGVECA2": null,
         "PCIE_TOP_DBGVECA20": null,
         "PCIE_TOP_DBGVECA21": null,
-        "PCIE_TOP_DBGVECA3": null,
-        "PCIE_TOP_DBGVECA4": null,
-        "PCIE_TOP_DBGVECA5": null,
-        "PCIE_TOP_DBGVECA6": null,
-        "PCIE_TOP_DBGVECA7": null,
-        "PCIE_TOP_DBGVECA8": null,
-        "PCIE_TOP_DBGVECA9": null,
         "PCIE_TOP_DBGVECB10": null,
         "PCIE_TOP_DRPADDR7": null,
         "PCIE_TOP_DRPADDR8": null,
         "PCIE_TOP_DRPDI0": null,
         "PCIE_TOP_DRPDI1": null,
-        "PCIE_TOP_DRPDI10": null,
-        "PCIE_TOP_DRPDI11": null,
-        "PCIE_TOP_DRPDI12": null,
-        "PCIE_TOP_DRPDI13": null,
-        "PCIE_TOP_DRPDI14": null,
-        "PCIE_TOP_DRPDI15": null,
         "PCIE_TOP_DRPDI2": null,
         "PCIE_TOP_DRPDI3": null,
         "PCIE_TOP_DRPDI4": null,
@@ -12487,18 +12481,24 @@
         "PCIE_TOP_DRPDI7": null,
         "PCIE_TOP_DRPDI8": null,
         "PCIE_TOP_DRPDI9": null,
+        "PCIE_TOP_DRPDI10": null,
+        "PCIE_TOP_DRPDI11": null,
+        "PCIE_TOP_DRPDI12": null,
+        "PCIE_TOP_DRPDI13": null,
+        "PCIE_TOP_DRPDI14": null,
+        "PCIE_TOP_DRPDI15": null,
         "PCIE_TOP_DRPDO0": null,
         "PCIE_TOP_DRPDO1": null,
-        "PCIE_TOP_DRPDO11": null,
-        "PCIE_TOP_DRPDO12": null,
-        "PCIE_TOP_DRPDO13": null,
-        "PCIE_TOP_DRPDO14": null,
-        "PCIE_TOP_DRPDO15": null,
         "PCIE_TOP_DRPDO2": null,
         "PCIE_TOP_DRPDO3": null,
         "PCIE_TOP_DRPDO4": null,
         "PCIE_TOP_DRPDO5": null,
         "PCIE_TOP_DRPDO6": null,
+        "PCIE_TOP_DRPDO11": null,
+        "PCIE_TOP_DRPDO12": null,
+        "PCIE_TOP_DRPDO13": null,
+        "PCIE_TOP_DRPDO14": null,
+        "PCIE_TOP_DRPDO15": null,
         "PCIE_TOP_DRPRDY": null,
         "PCIE_TOP_EDTBYPASS": null,
         "PCIE_TOP_EDTCONFIGURATION": null,
@@ -12513,12 +12513,12 @@
         "PCIE_TOP_LL2TLPRCV": null,
         "PCIE_TOP_MIMRXRADDR0": null,
         "PCIE_TOP_MIMRXRADDR1": null,
-        "PCIE_TOP_MIMRXRADDR10": null,
-        "PCIE_TOP_MIMRXRADDR11": null,
         "PCIE_TOP_MIMRXRADDR2": null,
         "PCIE_TOP_MIMRXRADDR4": null,
         "PCIE_TOP_MIMRXRADDR8": null,
         "PCIE_TOP_MIMRXRADDR9": null,
+        "PCIE_TOP_MIMRXRADDR10": null,
+        "PCIE_TOP_MIMRXRADDR11": null,
         "PCIE_TOP_MIMRXRDATA20": null,
         "PCIE_TOP_MIMRXRDATA21": null,
         "PCIE_TOP_MIMRXRDATA22": null,
@@ -12557,11 +12557,19 @@
         "PCIE_TOP_MIMRXRDATA55": null,
         "PCIE_TOP_MIMRXREN": null,
         "PCIE_TOP_MIMRXWADDR1": null,
-        "PCIE_TOP_MIMRXWADDR12": null,
         "PCIE_TOP_MIMRXWADDR2": null,
         "PCIE_TOP_MIMRXWADDR5": null,
+        "PCIE_TOP_MIMRXWADDR12": null,
         "PCIE_TOP_MIMRXWDATA0": null,
         "PCIE_TOP_MIMRXWDATA1": null,
+        "PCIE_TOP_MIMRXWDATA2": null,
+        "PCIE_TOP_MIMRXWDATA3": null,
+        "PCIE_TOP_MIMRXWDATA4": null,
+        "PCIE_TOP_MIMRXWDATA5": null,
+        "PCIE_TOP_MIMRXWDATA6": null,
+        "PCIE_TOP_MIMRXWDATA7": null,
+        "PCIE_TOP_MIMRXWDATA8": null,
+        "PCIE_TOP_MIMRXWDATA9": null,
         "PCIE_TOP_MIMRXWDATA10": null,
         "PCIE_TOP_MIMRXWDATA11": null,
         "PCIE_TOP_MIMRXWDATA12": null,
@@ -12569,7 +12577,6 @@
         "PCIE_TOP_MIMRXWDATA15": null,
         "PCIE_TOP_MIMRXWDATA17": null,
         "PCIE_TOP_MIMRXWDATA19": null,
-        "PCIE_TOP_MIMRXWDATA2": null,
         "PCIE_TOP_MIMRXWDATA20": null,
         "PCIE_TOP_MIMRXWDATA21": null,
         "PCIE_TOP_MIMRXWDATA22": null,
@@ -12580,21 +12587,14 @@
         "PCIE_TOP_MIMRXWDATA27": null,
         "PCIE_TOP_MIMRXWDATA28": null,
         "PCIE_TOP_MIMRXWDATA29": null,
-        "PCIE_TOP_MIMRXWDATA3": null,
         "PCIE_TOP_MIMRXWDATA30": null,
         "PCIE_TOP_MIMRXWDATA31": null,
         "PCIE_TOP_MIMRXWDATA32": null,
         "PCIE_TOP_MIMRXWDATA33": null,
         "PCIE_TOP_MIMRXWDATA34": null,
         "PCIE_TOP_MIMRXWDATA35": null,
-        "PCIE_TOP_MIMRXWDATA4": null,
         "PCIE_TOP_MIMRXWDATA49": null,
-        "PCIE_TOP_MIMRXWDATA5": null,
         "PCIE_TOP_MIMRXWDATA51": null,
-        "PCIE_TOP_MIMRXWDATA6": null,
-        "PCIE_TOP_MIMRXWDATA7": null,
-        "PCIE_TOP_MIMRXWDATA8": null,
-        "PCIE_TOP_MIMRXWDATA9": null,
         "PCIE_TOP_MIMRXWEN": null,
         "PCIE_TOP_PIPERX0CHANISALIGNED": null,
         "PCIE_TOP_PIPERX0CHARISK0": null,
@@ -12709,6 +12709,8 @@
         "PCIE_TOP_TRNRDLLPDATA63": null,
         "PCIE_TOP_TRNRDLLPSRCRDY0": null,
         "PCIE_TOP_TRNRDLLPSRCRDY1": null,
+        "PCIE_TOP_TRNTD8": null,
+        "PCIE_TOP_TRNTD9": null,
         "PCIE_TOP_TRNTD10": null,
         "PCIE_TOP_TRNTD11": null,
         "PCIE_TOP_TRNTD12": null,
@@ -12741,8 +12743,6 @@
         "PCIE_TOP_TRNTD39": null,
         "PCIE_TOP_TRNTD40": null,
         "PCIE_TOP_TRNTD41": null,
-        "PCIE_TOP_TRNTD8": null,
-        "PCIE_TOP_TRNTD9": null,
         "PCIE_TOP_TRNTDLLPDATA19": null,
         "PCIE_TOP_TRNTDLLPDATA20": null,
         "PCIE_TOP_TRNTDLLPDATA21": null,
