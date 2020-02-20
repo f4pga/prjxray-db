@@ -27479,45 +27479,6 @@
     },
     "sites": [
         {
-            "name": "X0Y1",
-            "prefix": "BUFMRCE",
-            "site_pins": {
-                "CE": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "HCLK_CMT_BUFMRCE_CEINP1"
-                },
-                "I": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "HCLK_CMT_BUFMR_INP1"
-                },
-                "O": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "HCLK_CMT_BUFMRCE_O1"
-                }
-            },
-            "type": "BUFMRCE",
-            "x_coord": 0,
-            "y_coord": 1
-        },
-        {
             "name": "X0Y0",
             "prefix": "BUFMRCE",
             "site_pins": {
@@ -27555,6 +27516,45 @@
             "type": "BUFMRCE",
             "x_coord": 0,
             "y_coord": 0
+        },
+        {
+            "name": "X0Y1",
+            "prefix": "BUFMRCE",
+            "site_pins": {
+                "CE": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "HCLK_CMT_BUFMRCE_CEINP1"
+                },
+                "I": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "HCLK_CMT_BUFMR_INP1"
+                },
+                "O": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "HCLK_CMT_BUFMRCE_O1"
+                }
+            },
+            "type": "BUFMRCE",
+            "x_coord": 0,
+            "y_coord": 1
         }
     ],
     "tile_type": "HCLK_CMT_L",
