@@ -1837,12 +1837,8 @@
         (INSTANCE DSP48E1)
         (DELAY
             (ABSOLUTE
-                (IOPATH CLK CARRYCASCOUT (0.705::2.375)(1.531::5.650))
                 (IOPATH CLK CARRYOUT (0.688::2.241)(1.522::5.297))
-                (IOPATH CLK MULTSIGNOUT (0.700::2.248)(1.510::5.279))
                 (IOPATH CLK P (0.696::2.251)(1.533::5.320))
-                (IOPATH CLK PATTERNBDETECT (0.736::2.447)(1.618::5.885))
-                (IOPATH CLK PATTERNDETECT (0.736::2.447)(1.618::5.885))
                 (IOPATH CLK PCOUT (0.717::2.334)(1.575::5.515))
             )
         )
@@ -1852,13 +1848,33 @@
         (INSTANCE DSP48E1)
         (DELAY
             (ABSOLUTE
-                (IOPATH CLK CARRYCASCOUT (0.705::2.375)(1.531::5.650))
                 (IOPATH CLK CARRYOUT (0.688::2.241)(1.522::5.297))
-                (IOPATH CLK MULTSIGNOUT (0.700::2.248)(1.510::5.279))
                 (IOPATH CLK P (0.696::2.251)(1.533::5.320))
+                (IOPATH CLK PCOUT (0.717::2.334)(1.575::5.515))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1DREG_1_A_ADREG_0_DREG_0_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.705::2.375)(1.531::5.650))
+                (IOPATH CLK MULTSIGNOUT (0.700::2.248)(1.510::5.279))
                 (IOPATH CLK PATTERNBDETECT (0.736::2.447)(1.618::5.885))
                 (IOPATH CLK PATTERNDETECT (0.736::2.447)(1.618::5.885))
-                (IOPATH CLK PCOUT (0.717::2.334)(1.575::5.515))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1DREG_1_A_ADREG_0_DREG_0_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.705::2.375)(1.531::5.650))
+                (IOPATH CLK MULTSIGNOUT (0.700::2.248)(1.510::5.279))
+                (IOPATH CLK PATTERNBDETECT (0.736::2.447)(1.618::5.885))
+                (IOPATH CLK PATTERNDETECT (0.736::2.447)(1.618::5.885))
             )
         )
     )
