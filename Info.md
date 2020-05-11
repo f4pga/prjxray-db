@@ -37,7 +37,7 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Mon 11 May 2020 11:45:04 PM UTC (2020-05-11T23:45:04+00:00).
+Last updated on Mon 11 May 2020 11:47:34 PM UTC (2020-05-11T23:47:34+00:00).
 
 Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [7ddd5f88](https://github.com/SymbiFlow/prjxray/commit/7ddd5f88e60c9876a6d7171b343c1c855239dc85).
 
@@ -504,6 +504,16 @@ Results have checksums;
  * [`626d9e188a1c4874f7ac657e82c64df8d52f819624e8ee4f9ed9e557d85ad3f2  ./artix7/timings/carry4_slicem.sdf`](./artix7/timings/carry4_slicem.sdf)
  * [`fd31d66077f869d01f13d9fabbd0dcd38b4aab0322179ecf9ac190a3b70c5456  ./artix7/timings/slicel.sdf`](./artix7/timings/slicel.sdf)
  * [`3d2da5714d8c81165fa51403fb719b3ddd9e7ea7ab79280ae4e157d11a29172e  ./artix7/timings/slicem.sdf`](./artix7/timings/slicem.sdf)
+ * [`3f202fefbd0f36761f08eb58737a42754c65c965968174421df0374198e31daa  ./artix7/xc7a100tcsg324-1/package_pins.csv`](./artix7/xc7a100tcsg324-1/package_pins.csv)
+ * [`277906907e43846ac8a52115983cd0ece673b2310d8d10c9b2253d6537bf1a02  ./artix7/xc7a100tcsg324-1/part.json`](./artix7/xc7a100tcsg324-1/part.json)
+ * [`4e1f153303270ed3727ca40af3179020f74271ff63c4d771556020b1d3037b92  ./artix7/xc7a100tcsg324-1/part.yaml`](./artix7/xc7a100tcsg324-1/part.yaml)
+ * [`9cf701615e6f9ed6e89d86738f10ebb9d5bf1a233f1e3251315b2f9159f73391  ./artix7/xc7a100tcsg324-1/tileconn.json`](./artix7/xc7a100tcsg324-1/tileconn.json)
+ * [`58d35b8327cb31c6db0333149f48a833956d9e03738ff31a8e47aa426fbe545f  ./artix7/xc7a100tcsg324-1/tilegrid.json`](./artix7/xc7a100tcsg324-1/tilegrid.json)
+ * [`bf25d62e58330960eb582f0b3b99196bd59df046db0d7de5330634b64cd397ad  ./artix7/xc7a100tfgg676-1/package_pins.csv`](./artix7/xc7a100tfgg676-1/package_pins.csv)
+ * [`78909bda2084de19e6095258ab1b1ad549c2db376abdd8699235a7bdc3aa19fb  ./artix7/xc7a100tfgg676-1/part.json`](./artix7/xc7a100tfgg676-1/part.json)
+ * [`4e1f153303270ed3727ca40af3179020f74271ff63c4d771556020b1d3037b92  ./artix7/xc7a100tfgg676-1/part.yaml`](./artix7/xc7a100tfgg676-1/part.yaml)
+ * [`9cf701615e6f9ed6e89d86738f10ebb9d5bf1a233f1e3251315b2f9159f73391  ./artix7/xc7a100tfgg676-1/tileconn.json`](./artix7/xc7a100tfgg676-1/tileconn.json)
+ * [`58d35b8327cb31c6db0333149f48a833956d9e03738ff31a8e47aa426fbe545f  ./artix7/xc7a100tfgg676-1/tilegrid.json`](./artix7/xc7a100tfgg676-1/tilegrid.json)
  * [`72dd638f5c8f6c36e74765915c01b2fa28e3c28b2c0afd91871ab7b0490a14f3  ./artix7/xc7a200tffg1156-1/package_pins.csv`](./artix7/xc7a200tffg1156-1/package_pins.csv)
  * [`fe44ca57c10c7b804357ded2cdea392c008b7b4d5a82ad917fa3148a756e4e42  ./artix7/xc7a200tffg1156-1/part.json`](./artix7/xc7a200tffg1156-1/part.json)
  * [`a3d493aef436b9978b2ed1c98c4e1364ab9eb096f824e19acd7cce3f7d920e97  ./artix7/xc7a200tffg1156-1/part.yaml`](./artix7/xc7a200tffg1156-1/part.yaml)
