@@ -321,16 +321,16 @@
         (CELLTYPE "DSP48E1_ADREG_0_DREG_0_MREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
         (INSTANCE DSP48E1)
         (TIMINGCHECK
-            (HOLD D (posedge CLK) (-3.158::-0.249))
-            (SETUP D (posedge CLK) (0.249::3.158))
+            (HOLD A (posedge CLK) (-3.158::-0.249))
+            (SETUP A (posedge CLK) (0.249::3.158))
         )
     )
     (CELL
         (CELLTYPE "DSP48E1_ADREG_0_DREG_0_MREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
         (INSTANCE DSP48E1)
         (TIMINGCHECK
-            (HOLD D (posedge CLK) (-3.158::-0.249))
-            (SETUP D (posedge CLK) (0.249::3.158))
+            (HOLD A (posedge CLK) (-3.158::-0.249))
+            (SETUP A (posedge CLK) (0.249::3.158))
         )
     )
     (CELL
