@@ -10,12 +10,14 @@
             "name": "clk",
             "node": "CLK_HROW_TOP_R_X60Y130/CLK_HROW_CK_BUFHCLK_L0",
             "pin": "E3",
+            "type": "clk",
             "wire": "HCLK_VBRK_X34Y130/HCLK_VBRK_CK_BUFHCLK0"
         },
         {
             "name": "din[0]",
             "node": "INT_R_X25Y126/WW2BEG1",
             "pin": "C2",
+            "type": "in",
             "wire": "VBRK_X61Y132/VBRK_WW2END1",
             "wires_outside_roi": [
                 "BRAM_INT_INTERFACE_R_X37Y87/INT_INTERFACE_LH6",
@@ -151,6 +153,7 @@
             "name": "din[1]",
             "node": "INT_L_X0Y102/EE2BEG2",
             "pin": "A9",
+            "type": "in",
             "wire": "VBRK_X9Y107/VBRK_EE2A2",
             "wires_outside_roi": [
                 "CMT_FIFO_R_X7Y112/CMT_FIFO_EE2A2_1",
@@ -213,6 +216,7 @@
             "name": "dout[0]",
             "node": "INT_L_X2Y145/SW6BEG0",
             "pin": "T10",
+            "type": "out",
             "wire": "VBRK_X9Y151/VBRK_SW4A0",
             "wires_outside_roi": [
                 "CMT_FIFO_R_X7Y149/CMT_FIFO_SW4A0_8",
@@ -231,6 +235,7 @@
             "name": "dout[1]",
             "node": "INT_L_X2Y147/SW6BEG0",
             "pin": "D10",
+            "type": "out",
             "wire": "VBRK_X9Y153/VBRK_SW4A0",
             "wires_outside_roi": [
                 "CMT_FIFO_R_X7Y149/CMT_FIFO_SW4A0_10",

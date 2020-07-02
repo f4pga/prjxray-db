@@ -701,213 +701,10 @@
     )
     (CELL
         (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/A)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a6lut a (0.0::0.0)(0.0::0.0))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/A5FF)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a5lut a5ff (0.023::0.028)(0.054::0.068))
-                (INTERCONNECT ax a5ff (0.094::0.118)(0.163::0.202))
-                (INTERCONNECT ce a5ff (0.041::0.051)(0.15::0.186))
-                (INTERCONNECT clk a5ff (0.046::0.057)(0.126::0.156))
-                (INTERCONNECT sr a5ff (0.031::0.038)(0.079::0.098))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/A5FFL)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a5lut a5ffl (0.03::0.037)(0.086::0.107))
-                (INTERCONNECT ax a5ffl (0.094::0.118)(0.163::0.202))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/A5LUT)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT ai a5lut (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT bi a5lut (0.08::0.1)(0.199::0.246))
-                (INTERCONNECT di a5lut (0.121::0.151)(0.288::0.358))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/A6LUT)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT ai a6lut (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT ax a6lut (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT bi a6lut (0.095::0.119)(0.238::0.295))
-                (INTERCONNECT di a6lut (0.136::0.17)(0.321::0.398))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
         (INSTANCE SLICEM/ACY0)
         (DELAY
             (ABSOLUTE
                 (INTERCONNECT ax di0 (0.111::0.111)(0.111::0.111))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/AFF)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a5lut aff (0.026::0.032)(0.075::0.094))
-                (INTERCONNECT a6lut aff (0.039::0.048)(0.088::0.109))
-                (INTERCONNECT ax aff (0.1::0.125)(0.175::0.217))
-                (INTERCONNECT carry4_co0 aff (0.03::0.037)(0.074::0.092))
-                (INTERCONNECT carry4_o0 aff (0.025::0.031)(0.062::0.077))
-                (INTERCONNECT ce aff (0.041::0.051)(0.15::0.186))
-                (INTERCONNECT clk aff (0.046::0.057)(0.126::0.156))
-                (INTERCONNECT f7amux aff (0.025::0.031)(0.059::0.073))
-                (INTERCONNECT o5 aff (0.023::0.028)(0.054::0.068))
-                (INTERCONNECT o6 aff (0.029::0.036)(0.069::0.085))
-                (INTERCONNECT sr aff (0.031::0.038)(0.079::0.098))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/AFFL)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a6lut affl (0.044::0.055)(0.1::0.124))
-                (INTERCONNECT ax affl (0.103::0.128)(0.181::0.225))
-                (INTERCONNECT carry4_co0 affl (0.039::0.049)(0.097::0.12))
-                (INTERCONNECT carry4_o0 affl (0.029::0.036)(0.07::0.087))
-                (INTERCONNECT f7amux affl (0.029::0.036)(0.068::0.084))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/AFFL1)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a5lut affl1 (0.036::0.045)(0.097::0.12))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/AFFL2)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a5lut affl2 (0.036::0.045)(0.097::0.12))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/AMUX)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a5ff amux (0.053::0.066)(0.138::0.171))
-                (INTERCONNECT a5lut amux (0.066::0.082)(0.164::0.204))
-                (INTERCONNECT a6lut amux (0.071::0.088)(0.166::0.206))
-                (INTERCONNECT carry4_co0 amux (0.079::0.099)(0.196::0.243))
-                (INTERCONNECT carry4_o0 amux (0.06::0.075)(0.138::0.171))
-                (INTERCONNECT f7amux amux (0.063::0.078)(0.14::0.173))
-                (INTERCONNECT o5 amux (0.063::0.078)(0.143::0.178))
-                (INTERCONNECT o6 amux (0.061::0.076)(0.147::0.182))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/AMUXL)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a5lut amuxl (0.07::0.087)(0.174::0.216))
-                (INTERCONNECT a6lut amuxl (0.075::0.093)(0.171::0.213))
-                (INTERCONNECT carry4_co0 amuxl (0.079::0.099)(0.196::0.243))
-                (INTERCONNECT carry4_o0 amuxl (0.06::0.075)(0.138::0.171))
-                (INTERCONNECT f7amux amuxl (0.063::0.078)(0.14::0.173))
-                (INTERCONNECT o5 amuxl (0.067::0.083)(0.153::0.19))
-                (INTERCONNECT o6 amuxl (0.065::0.081)(0.152::0.189))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/AQ)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT aff aq (0.0::0.0)(0.0::0.0))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/B)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT b6lut b (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT clk_aff b (0.049::0.061)(0.131::0.162))
-                (INTERCONNECT clk_bff b (0.049::0.061)(0.131::0.162))
-                (INTERCONNECT clk_cff b (0.049::0.061)(0.131::0.162))
-                (INTERCONNECT clk_clkinv b (0.049::0.061)(0.131::0.162))
-                (INTERCONNECT clk_dff b (0.049::0.061)(0.131::0.162))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/B5FF)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT b5lut b5ff (0.023::0.028)(0.054::0.068))
-                (INTERCONNECT bx b5ff (0.101::0.126)(0.174::0.216))
-                (INTERCONNECT ce b5ff (0.041::0.051)(0.15::0.186))
-                (INTERCONNECT clk b5ff (0.046::0.057)(0.126::0.156))
-                (INTERCONNECT sr b5ff (0.031::0.038)(0.079::0.098))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/B5FFL)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT b5lut b5ffl (0.03::0.037)(0.087::0.108))
-                (INTERCONNECT bx b5ffl (0.101::0.126)(0.174::0.216))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/B5LUT)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT bi b5lut (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT di b5lut (0.028::0.035)(0.053::0.065))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/B6LUT)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT bi b6lut (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT bx b6lut (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT di b6lut (0.041::0.051)(0.083::0.102))
             )
         )
     )
@@ -922,169 +719,6 @@
     )
     (CELL
         (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/BFF)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT b5lut bff (0.026::0.032)(0.076::0.095))
-                (INTERCONNECT b6lut bff (0.038::0.047)(0.085::0.105))
-                (INTERCONNECT bx bff (0.107::0.133)(0.186::0.231))
-                (INTERCONNECT carry4_co1 bff (0.03::0.037)(0.074::0.092))
-                (INTERCONNECT carry4_o1 bff (0.025::0.031)(0.062::0.077))
-                (INTERCONNECT ce bff (0.041::0.051)(0.15::0.186))
-                (INTERCONNECT clk bff (0.046::0.057)(0.126::0.156))
-                (INTERCONNECT f8mux bff (0.025::0.031)(0.059::0.073))
-                (INTERCONNECT o5 bff (0.023::0.028)(0.054::0.068))
-                (INTERCONNECT o6 bff (0.029::0.036)(0.069::0.085))
-                (INTERCONNECT sr bff (0.031::0.038)(0.079::0.098))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/BFFL)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT b6lut bffl (0.043::0.054)(0.097::0.12))
-                (INTERCONNECT bx bffl (0.109::0.136)(0.192::0.239))
-                (INTERCONNECT carry4_co1 bffl (0.039::0.049)(0.097::0.12))
-                (INTERCONNECT carry4_o1 bffl (0.029::0.036)(0.07::0.087))
-                (INTERCONNECT f8mux bffl (0.029::0.036)(0.068::0.084))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/BFFL1)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT b5lut bffl1 (0.036::0.045)(0.098::0.121))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/BFFL2)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT b5lut bffl2 (0.036::0.045)(0.098::0.121))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/BMUX)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT b5ff bmux (0.054::0.068)(0.142::0.177))
-                (INTERCONNECT b5lut bmux (0.073::0.091)(0.181::0.224))
-                (INTERCONNECT b6lut bmux (0.077::0.095)(0.172::0.213))
-                (INTERCONNECT carry4_co1 bmux (0.071::0.088)(0.168::0.208))
-                (INTERCONNECT carry4_o1 bmux (0.063::0.079)(0.147::0.182))
-                (INTERCONNECT f8mux bmux (0.068::0.085)(0.157::0.195))
-                (INTERCONNECT o5 bmux (0.07::0.087)(0.159::0.197))
-                (INTERCONNECT o6 bmux (0.068::0.084)(0.156::0.193))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/BMUXL)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT b5lut bmuxl (0.073::0.091)(0.181::0.224))
-                (INTERCONNECT b6lut bmuxl (0.077::0.095)(0.172::0.213))
-                (INTERCONNECT carry4_co1 bmuxl (0.071::0.088)(0.168::0.208))
-                (INTERCONNECT carry4_o1 bmuxl (0.063::0.079)(0.147::0.182))
-                (INTERCONNECT f8mux bmuxl (0.068::0.085)(0.157::0.195))
-                (INTERCONNECT o5 bmuxl (0.07::0.087)(0.159::0.197))
-                (INTERCONNECT o6 bmuxl (0.068::0.084)(0.156::0.193))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/BQ)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT bff bq (0.0::0.0)(0.0::0.0))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/C)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT c6lut c (0.0::0.0)(0.0::0.0))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/C5FF)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT c5lut c5ff (0.023::0.028)(0.054::0.068))
-                (INTERCONNECT ce c5ff (0.041::0.051)(0.15::0.186))
-                (INTERCONNECT clk c5ff (0.046::0.057)(0.126::0.156))
-                (INTERCONNECT cx c5ff (0.09::0.112)(0.161::0.199))
-                (INTERCONNECT sr c5ff (0.031::0.038)(0.079::0.098))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/C5FFL)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT c5lut c5ffl (0.031::0.038)(0.088::0.109))
-                (INTERCONNECT cx c5ffl (0.09::0.112)(0.161::0.199))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/C5LUT)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT ci c5lut (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT di c5lut (0.027::0.033)(0.051::0.063))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/C6LUT)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT ci c6lut (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT cx c6lut (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT di c6lut (0.043::0.053)(0.086::0.107))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/CARRY4)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a5lut carry4 (0.003::0.004)(0.021::0.026))
-                (INTERCONNECT a6lut carry4 (0.01::0.012)(0.019::0.024))
-                (INTERCONNECT ax carry4 (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT b5lut carry4 (0.003::0.004)(0.022::0.027))
-                (INTERCONNECT b6lut carry4 (0.009::0.011)(0.016::0.02))
-                (INTERCONNECT bx carry4 (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT c5lut carry4 (0.004::0.005)(0.023::0.028))
-                (INTERCONNECT c6lut carry4 (0.009::0.011)(0.018::0.022))
-                (INTERCONNECT cx carry4 (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT d5lut carry4 (0.004::0.005)(0.026::0.033))
-                (INTERCONNECT d6lut carry4 (0.009::0.011)(0.018::0.022))
-                (INTERCONNECT dx carry4 (0.0::0.0)(0.0::0.0))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
         (INSTANCE SLICEM/CCY0)
         (DELAY
             (ABSOLUTE
@@ -1094,322 +728,10 @@
     )
     (CELL
         (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/CFF)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT c5lut cff (0.027::0.033)(0.077::0.096))
-                (INTERCONNECT c6lut cff (0.038::0.047)(0.087::0.107))
-                (INTERCONNECT carry4_co2 cff (0.03::0.037)(0.074::0.092))
-                (INTERCONNECT carry4_o2 cff (0.025::0.031)(0.062::0.077))
-                (INTERCONNECT ce cff (0.041::0.051)(0.15::0.186))
-                (INTERCONNECT clk cff (0.046::0.057)(0.126::0.156))
-                (INTERCONNECT cx cff (0.096::0.12)(0.172::0.214))
-                (INTERCONNECT f7bmux cff (0.025::0.031)(0.059::0.073))
-                (INTERCONNECT o5 cff (0.023::0.028)(0.054::0.068))
-                (INTERCONNECT o6 cff (0.029::0.036)(0.069::0.085))
-                (INTERCONNECT sr cff (0.031::0.038)(0.079::0.098))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/CFFL)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT c6lut cffl (0.043::0.054)(0.098::0.122))
-                (INTERCONNECT carry4_co2 cffl (0.039::0.049)(0.097::0.12))
-                (INTERCONNECT carry4_o2 cffl (0.029::0.036)(0.07::0.087))
-                (INTERCONNECT cx cffl (0.099::0.123)(0.179::0.222))
-                (INTERCONNECT f7bmux cffl (0.029::0.036)(0.068::0.084))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/CFFL1)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT c5lut cffl1 (0.037::0.046)(0.098::0.122))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/CFFL2)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT c5lut cffl2 (0.037::0.046)(0.098::0.122))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/CLKINV)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT clk clkinv (0.046::0.057)(0.126::0.156))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/CMUX)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT c5ff cmux (0.053::0.066)(0.139::0.172))
-                (INTERCONNECT c5lut cmux (0.068::0.085)(0.167::0.207))
-                (INTERCONNECT c6lut cmux (0.07::0.087)(0.166::0.205))
-                (INTERCONNECT carry4_co2 cmux (0.065::0.081)(0.15::0.186))
-                (INTERCONNECT carry4_o2 cmux (0.063::0.079)(0.142::0.177))
-                (INTERCONNECT f7bmux cmux (0.063::0.078)(0.141::0.174))
-                (INTERCONNECT o5 cmux (0.064::0.08)(0.144::0.179))
-                (INTERCONNECT o6 cmux (0.061::0.076)(0.148::0.183))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/CMUXL)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT c5lut cmuxl (0.072::0.089)(0.179::0.222))
-                (INTERCONNECT c6lut cmuxl (0.075::0.093)(0.171::0.212))
-                (INTERCONNECT carry4_co2 cmuxl (0.065::0.081)(0.15::0.186))
-                (INTERCONNECT carry4_o2 cmuxl (0.063::0.079)(0.142::0.177))
-                (INTERCONNECT f7bmux cmuxl (0.063::0.078)(0.141::0.174))
-                (INTERCONNECT o5 cmuxl (0.068::0.084)(0.156::0.194))
-                (INTERCONNECT o6 cmuxl (0.066::0.082)(0.153::0.19))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/COUT)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT carry4_co3 cout (0.0::0.0)(0.0::0.0))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/CQ)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT cff cq (0.0::0.0)(0.0::0.0))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/D)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT d6lut d (0.0::0.0)(0.0::0.0))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/D5FF)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT ce d5ff (0.041::0.051)(0.15::0.186))
-                (INTERCONNECT clk d5ff (0.046::0.057)(0.126::0.156))
-                (INTERCONNECT d5lut d5ff (0.023::0.028)(0.054::0.068))
-                (INTERCONNECT dx d5ff (0.09::0.112)(0.161::0.199))
-                (INTERCONNECT sr d5ff (0.031::0.038)(0.079::0.098))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/D5FFL)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT d5lut d5ffl (0.031::0.038)(0.091::0.113))
-                (INTERCONNECT dx d5ffl (0.09::0.112)(0.161::0.199))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/D5LUT)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT di d5lut (0.0::0.0)(0.0::0.0))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/D6LUT)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT di d6lut (0.0::0.0)(0.0::0.0))
-                (INTERCONNECT dx d6lut (0.0::0.0)(0.0::0.0))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
         (INSTANCE SLICEM/DCY0)
         (DELAY
             (ABSOLUTE
                 (INTERCONNECT dx di3 (0.091::0.091)(0.091::0.091))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/DFF)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a6lut dff (0.028::0.034)(0.055::0.069))
-                (INTERCONNECT carry4_co3 dff (0.104::0.129)(0.271::0.336))
-                (INTERCONNECT carry4_o3 dff (0.025::0.031)(0.062::0.077))
-                (INTERCONNECT ce dff (0.041::0.051)(0.15::0.186))
-                (INTERCONNECT clk dff (0.046::0.057)(0.126::0.156))
-                (INTERCONNECT d5lut dff (0.027::0.033)(0.08::0.101))
-                (INTERCONNECT d6lut dff (0.038::0.047)(0.087::0.107))
-                (INTERCONNECT dx dff (0.096::0.12)(0.172::0.214))
-                (INTERCONNECT o5 dff (0.023::0.028)(0.054::0.068))
-                (INTERCONNECT o6 dff (0.029::0.036)(0.069::0.085))
-                (INTERCONNECT sr dff (0.031::0.038)(0.079::0.098))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/DFFL)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a6lut dffl (0.028::0.034)(0.055::0.069))
-                (INTERCONNECT carry4_co3 dffl (0.126::0.157)(0.323::0.401))
-                (INTERCONNECT carry4_o3 dffl (0.029::0.036)(0.07::0.087))
-                (INTERCONNECT d6lut dffl (0.043::0.054)(0.098::0.122))
-                (INTERCONNECT dx dffl (0.099::0.123)(0.179::0.222))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/DFFL1)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT d5lut dffl1 (0.037::0.046)(0.102::0.126))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/DFFL2)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT d5lut dffl2 (0.037::0.046)(0.102::0.126))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/DIFF)
-        (DELAY
-            (ABSOLUTE
-                (DEVICE a6lut_a5lut_diff (0.003::0.004)(0.021::0.026))
-                (DEVICE a6lut_int_diff (0.01::0.012)(0.019::0.024))
-                (DEVICE b6lut_b5lut_diff (0.003::0.004)(0.022::0.027))
-                (DEVICE b6lut_int_diff (0.009::0.011)(0.016::0.02))
-                (DEVICE c6lut_c5lut_diff (0.004::0.005)(0.023::0.028))
-                (DEVICE c6lut_int_diff (0.009::0.011)(0.018::0.022))
-                (DEVICE d6lut_d5lut_diff (0.004::0.005)(0.026::0.033))
-                (DEVICE d6lut_int_diff (0.009::0.011)(0.018::0.022))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/DMUX)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a6lut dmux (0.061::0.076)(0.14::0.173))
-                (INTERCONNECT carry4_co3 dmux (0.104::0.13)(0.242::0.3))
-                (INTERCONNECT carry4_o3 dmux (0.066::0.082)(0.148::0.183))
-                (INTERCONNECT d5ff dmux (0.053::0.066)(0.141::0.174))
-                (INTERCONNECT d5lut dmux (0.074::0.092)(0.186::0.231))
-                (INTERCONNECT d6lut dmux (0.077::0.095)(0.173::0.214))
-                (INTERCONNECT o5 dmux (0.07::0.087)(0.16::0.198))
-                (INTERCONNECT o6 dmux (0.068::0.084)(0.155::0.192))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/DMUXL)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a6lut dmuxl (0.068::0.084)(0.15::0.186))
-                (INTERCONNECT carry4_co3 dmuxl (0.104::0.13)(0.242::0.3))
-                (INTERCONNECT carry4_o3 dmuxl (0.066::0.082)(0.148::0.183))
-                (INTERCONNECT d5lut dmuxl (0.074::0.092)(0.186::0.231))
-                (INTERCONNECT d6lut dmuxl (0.077::0.095)(0.173::0.214))
-                (INTERCONNECT o5 dmuxl (0.07::0.087)(0.16::0.198))
-                (INTERCONNECT o6 dmuxl (0.068::0.084)(0.155::0.192))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/DQ)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT dff dq (0.0::0.0)(0.0::0.0))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/F7AMUX)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT a6lut f7amux (0.01::0.012)(0.019::0.024))
-                (INTERCONNECT b6lut f7amux (0.009::0.011)(0.016::0.02))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/F7BMUX)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT c6lut f7bmux (0.009::0.011)(0.018::0.022))
-                (INTERCONNECT d6lut f7bmux (0.009::0.011)(0.018::0.022))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/F8MUX)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT bx f8mux (0.0::0.0)(0.0::0.0))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/LUT)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT ce lut (0.001::0.001)(0.004::0.005))
-            )
-        )
-    )
-    (CELL
-        (CELLTYPE "ROUTING_BEL")
-        (INSTANCE SLICEM/WEMUX)
-        (DELAY
-            (ABSOLUTE
-                (INTERCONNECT we wemux (0.0::0.0)(0.0::0.0))
             )
         )
     )
@@ -1443,6 +765,684 @@
                 (IOPATH 0 OUT (0.022::0.027)(0.079::0.098))
                 (IOPATH 1 OUT (0.019::0.024)(0.071::0.088))
                 (IOPATH S0 OUT (0.081::0.101)(0.228::0.283))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/A)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut a (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/A5FF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut a5ff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT ax a5ff (0.094::0.118)(0.163::0.202))
+                (INTERCONNECT ce a5ff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk a5ff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT sr a5ff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/A5FFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut a5ffl (0.03::0.037)(0.086::0.107))
+                (INTERCONNECT ax a5ffl (0.094::0.118)(0.163::0.202))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/A5LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ai a5lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT bi a5lut (0.08::0.1)(0.199::0.246))
+                (INTERCONNECT di a5lut (0.121::0.151)(0.288::0.358))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/A6LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ai a6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT ax a6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT bi a6lut (0.095::0.119)(0.238::0.295))
+                (INTERCONNECT di a6lut (0.136::0.17)(0.321::0.398))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/AFF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut aff (0.026::0.032)(0.075::0.094))
+                (INTERCONNECT a6lut aff (0.039::0.048)(0.088::0.109))
+                (INTERCONNECT ax aff (0.1::0.125)(0.175::0.217))
+                (INTERCONNECT carry4_co0 aff (0.03::0.037)(0.074::0.092))
+                (INTERCONNECT carry4_o0 aff (0.025::0.031)(0.062::0.077))
+                (INTERCONNECT ce aff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk aff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT f7amux aff (0.025::0.031)(0.059::0.073))
+                (INTERCONNECT o5 aff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT o6 aff (0.029::0.036)(0.069::0.085))
+                (INTERCONNECT sr aff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/AFFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut affl (0.044::0.055)(0.1::0.124))
+                (INTERCONNECT ax affl (0.103::0.128)(0.181::0.225))
+                (INTERCONNECT carry4_co0 affl (0.039::0.049)(0.097::0.12))
+                (INTERCONNECT carry4_o0 affl (0.029::0.036)(0.07::0.087))
+                (INTERCONNECT f7amux affl (0.029::0.036)(0.068::0.084))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/AFFL1)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut affl1 (0.036::0.045)(0.097::0.12))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/AFFL2)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut affl2 (0.036::0.045)(0.097::0.12))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/AMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5ff amux (0.053::0.066)(0.138::0.171))
+                (INTERCONNECT a5lut amux (0.066::0.082)(0.164::0.204))
+                (INTERCONNECT a6lut amux (0.071::0.088)(0.166::0.206))
+                (INTERCONNECT carry4_co0 amux (0.079::0.099)(0.196::0.243))
+                (INTERCONNECT carry4_o0 amux (0.06::0.075)(0.138::0.171))
+                (INTERCONNECT f7amux amux (0.063::0.078)(0.14::0.173))
+                (INTERCONNECT o5 amux (0.063::0.078)(0.143::0.178))
+                (INTERCONNECT o6 amux (0.061::0.076)(0.147::0.182))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/AMUXL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut amuxl (0.07::0.087)(0.174::0.216))
+                (INTERCONNECT a6lut amuxl (0.075::0.093)(0.171::0.213))
+                (INTERCONNECT carry4_co0 amuxl (0.079::0.099)(0.196::0.243))
+                (INTERCONNECT carry4_o0 amuxl (0.06::0.075)(0.138::0.171))
+                (INTERCONNECT f7amux amuxl (0.063::0.078)(0.14::0.173))
+                (INTERCONNECT o5 amuxl (0.067::0.083)(0.153::0.19))
+                (INTERCONNECT o6 amuxl (0.065::0.081)(0.152::0.189))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/AQ)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT aff aq (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/B)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b6lut b (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT clk_aff b (0.049::0.061)(0.131::0.162))
+                (INTERCONNECT clk_bff b (0.049::0.061)(0.131::0.162))
+                (INTERCONNECT clk_cff b (0.049::0.061)(0.131::0.162))
+                (INTERCONNECT clk_clkinv b (0.049::0.061)(0.131::0.162))
+                (INTERCONNECT clk_dff b (0.049::0.061)(0.131::0.162))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/B5FF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5lut b5ff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT bx b5ff (0.101::0.126)(0.174::0.216))
+                (INTERCONNECT ce b5ff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk b5ff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT sr b5ff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/B5FFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5lut b5ffl (0.03::0.037)(0.087::0.108))
+                (INTERCONNECT bx b5ffl (0.101::0.126)(0.174::0.216))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/B5LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT bi b5lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT di b5lut (0.028::0.035)(0.053::0.065))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/B6LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT bi b6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT bx b6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT di b6lut (0.041::0.051)(0.083::0.102))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/BFF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5lut bff (0.026::0.032)(0.076::0.095))
+                (INTERCONNECT b6lut bff (0.038::0.047)(0.085::0.105))
+                (INTERCONNECT bx bff (0.107::0.133)(0.186::0.231))
+                (INTERCONNECT carry4_co1 bff (0.03::0.037)(0.074::0.092))
+                (INTERCONNECT carry4_o1 bff (0.025::0.031)(0.062::0.077))
+                (INTERCONNECT ce bff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk bff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT f8mux bff (0.025::0.031)(0.059::0.073))
+                (INTERCONNECT o5 bff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT o6 bff (0.029::0.036)(0.069::0.085))
+                (INTERCONNECT sr bff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/BFFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b6lut bffl (0.043::0.054)(0.097::0.12))
+                (INTERCONNECT bx bffl (0.109::0.136)(0.192::0.239))
+                (INTERCONNECT carry4_co1 bffl (0.039::0.049)(0.097::0.12))
+                (INTERCONNECT carry4_o1 bffl (0.029::0.036)(0.07::0.087))
+                (INTERCONNECT f8mux bffl (0.029::0.036)(0.068::0.084))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/BFFL1)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5lut bffl1 (0.036::0.045)(0.098::0.121))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/BFFL2)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5lut bffl2 (0.036::0.045)(0.098::0.121))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/BMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5ff bmux (0.054::0.068)(0.142::0.177))
+                (INTERCONNECT b5lut bmux (0.073::0.091)(0.181::0.224))
+                (INTERCONNECT b6lut bmux (0.077::0.095)(0.172::0.213))
+                (INTERCONNECT carry4_co1 bmux (0.071::0.088)(0.168::0.208))
+                (INTERCONNECT carry4_o1 bmux (0.063::0.079)(0.147::0.182))
+                (INTERCONNECT f8mux bmux (0.068::0.085)(0.157::0.195))
+                (INTERCONNECT o5 bmux (0.07::0.087)(0.159::0.197))
+                (INTERCONNECT o6 bmux (0.068::0.084)(0.156::0.193))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/BMUXL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5lut bmuxl (0.073::0.091)(0.181::0.224))
+                (INTERCONNECT b6lut bmuxl (0.077::0.095)(0.172::0.213))
+                (INTERCONNECT carry4_co1 bmuxl (0.071::0.088)(0.168::0.208))
+                (INTERCONNECT carry4_o1 bmuxl (0.063::0.079)(0.147::0.182))
+                (INTERCONNECT f8mux bmuxl (0.068::0.085)(0.157::0.195))
+                (INTERCONNECT o5 bmuxl (0.07::0.087)(0.159::0.197))
+                (INTERCONNECT o6 bmuxl (0.068::0.084)(0.156::0.193))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/BQ)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT bff bq (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/C)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c6lut c (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/C5FF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5lut c5ff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT ce c5ff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk c5ff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT cx c5ff (0.09::0.112)(0.161::0.199))
+                (INTERCONNECT sr c5ff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/C5FFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5lut c5ffl (0.031::0.038)(0.088::0.109))
+                (INTERCONNECT cx c5ffl (0.09::0.112)(0.161::0.199))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/C5LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ci c5lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT di c5lut (0.027::0.033)(0.051::0.063))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/C6LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ci c6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT cx c6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT di c6lut (0.043::0.053)(0.086::0.107))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/CARRY4)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut carry4 (0.003::0.004)(0.021::0.026))
+                (INTERCONNECT a6lut carry4 (0.01::0.012)(0.019::0.024))
+                (INTERCONNECT ax carry4 (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT b5lut carry4 (0.003::0.004)(0.022::0.027))
+                (INTERCONNECT b6lut carry4 (0.009::0.011)(0.016::0.02))
+                (INTERCONNECT bx carry4 (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT c5lut carry4 (0.004::0.005)(0.023::0.028))
+                (INTERCONNECT c6lut carry4 (0.009::0.011)(0.018::0.022))
+                (INTERCONNECT cx carry4 (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT d5lut carry4 (0.004::0.005)(0.026::0.033))
+                (INTERCONNECT d6lut carry4 (0.009::0.011)(0.018::0.022))
+                (INTERCONNECT dx carry4 (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/CFF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5lut cff (0.027::0.033)(0.077::0.096))
+                (INTERCONNECT c6lut cff (0.038::0.047)(0.087::0.107))
+                (INTERCONNECT carry4_co2 cff (0.03::0.037)(0.074::0.092))
+                (INTERCONNECT carry4_o2 cff (0.025::0.031)(0.062::0.077))
+                (INTERCONNECT ce cff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk cff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT cx cff (0.096::0.12)(0.172::0.214))
+                (INTERCONNECT f7bmux cff (0.025::0.031)(0.059::0.073))
+                (INTERCONNECT o5 cff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT o6 cff (0.029::0.036)(0.069::0.085))
+                (INTERCONNECT sr cff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/CFFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c6lut cffl (0.043::0.054)(0.098::0.122))
+                (INTERCONNECT carry4_co2 cffl (0.039::0.049)(0.097::0.12))
+                (INTERCONNECT carry4_o2 cffl (0.029::0.036)(0.07::0.087))
+                (INTERCONNECT cx cffl (0.099::0.123)(0.179::0.222))
+                (INTERCONNECT f7bmux cffl (0.029::0.036)(0.068::0.084))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/CFFL1)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5lut cffl1 (0.037::0.046)(0.098::0.122))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/CFFL2)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5lut cffl2 (0.037::0.046)(0.098::0.122))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/CLKINV)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT clk clkinv (0.046::0.057)(0.126::0.156))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/CMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5ff cmux (0.053::0.066)(0.139::0.172))
+                (INTERCONNECT c5lut cmux (0.068::0.085)(0.167::0.207))
+                (INTERCONNECT c6lut cmux (0.07::0.087)(0.166::0.205))
+                (INTERCONNECT carry4_co2 cmux (0.065::0.081)(0.15::0.186))
+                (INTERCONNECT carry4_o2 cmux (0.063::0.079)(0.142::0.177))
+                (INTERCONNECT f7bmux cmux (0.063::0.078)(0.141::0.174))
+                (INTERCONNECT o5 cmux (0.064::0.08)(0.144::0.179))
+                (INTERCONNECT o6 cmux (0.061::0.076)(0.148::0.183))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/CMUXL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5lut cmuxl (0.072::0.089)(0.179::0.222))
+                (INTERCONNECT c6lut cmuxl (0.075::0.093)(0.171::0.212))
+                (INTERCONNECT carry4_co2 cmuxl (0.065::0.081)(0.15::0.186))
+                (INTERCONNECT carry4_o2 cmuxl (0.063::0.079)(0.142::0.177))
+                (INTERCONNECT f7bmux cmuxl (0.063::0.078)(0.141::0.174))
+                (INTERCONNECT o5 cmuxl (0.068::0.084)(0.156::0.194))
+                (INTERCONNECT o6 cmuxl (0.066::0.082)(0.153::0.19))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/COUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT carry4_co3 cout (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/CQ)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT cff cq (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/D)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT d6lut d (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/D5FF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ce d5ff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk d5ff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT d5lut d5ff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT dx d5ff (0.09::0.112)(0.161::0.199))
+                (INTERCONNECT sr d5ff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/D5FFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT d5lut d5ffl (0.031::0.038)(0.091::0.113))
+                (INTERCONNECT dx d5ffl (0.09::0.112)(0.161::0.199))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/D5LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT di d5lut (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/D6LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT di d6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT dx d6lut (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/DFF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut dff (0.028::0.034)(0.055::0.069))
+                (INTERCONNECT carry4_co3 dff (0.104::0.129)(0.271::0.336))
+                (INTERCONNECT carry4_o3 dff (0.025::0.031)(0.062::0.077))
+                (INTERCONNECT ce dff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk dff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT d5lut dff (0.027::0.033)(0.08::0.101))
+                (INTERCONNECT d6lut dff (0.038::0.047)(0.087::0.107))
+                (INTERCONNECT dx dff (0.096::0.12)(0.172::0.214))
+                (INTERCONNECT o5 dff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT o6 dff (0.029::0.036)(0.069::0.085))
+                (INTERCONNECT sr dff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/DFFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut dffl (0.028::0.034)(0.055::0.069))
+                (INTERCONNECT carry4_co3 dffl (0.126::0.157)(0.323::0.401))
+                (INTERCONNECT carry4_o3 dffl (0.029::0.036)(0.07::0.087))
+                (INTERCONNECT d6lut dffl (0.043::0.054)(0.098::0.122))
+                (INTERCONNECT dx dffl (0.099::0.123)(0.179::0.222))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/DFFL1)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT d5lut dffl1 (0.037::0.046)(0.102::0.126))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/DFFL2)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT d5lut dffl2 (0.037::0.046)(0.102::0.126))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/DIFF)
+        (DELAY
+            (ABSOLUTE
+                (DEVICE a6lut_a5lut_diff (0.003::0.004)(0.021::0.026))
+                (DEVICE a6lut_int_diff (0.01::0.012)(0.019::0.024))
+                (DEVICE b6lut_b5lut_diff (0.003::0.004)(0.022::0.027))
+                (DEVICE b6lut_int_diff (0.009::0.011)(0.016::0.02))
+                (DEVICE c6lut_c5lut_diff (0.004::0.005)(0.023::0.028))
+                (DEVICE c6lut_int_diff (0.009::0.011)(0.018::0.022))
+                (DEVICE d6lut_d5lut_diff (0.004::0.005)(0.026::0.033))
+                (DEVICE d6lut_int_diff (0.009::0.011)(0.018::0.022))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/DMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut dmux (0.061::0.076)(0.14::0.173))
+                (INTERCONNECT carry4_co3 dmux (0.104::0.13)(0.242::0.3))
+                (INTERCONNECT carry4_o3 dmux (0.066::0.082)(0.148::0.183))
+                (INTERCONNECT d5ff dmux (0.053::0.066)(0.141::0.174))
+                (INTERCONNECT d5lut dmux (0.074::0.092)(0.186::0.231))
+                (INTERCONNECT d6lut dmux (0.077::0.095)(0.173::0.214))
+                (INTERCONNECT o5 dmux (0.07::0.087)(0.16::0.198))
+                (INTERCONNECT o6 dmux (0.068::0.084)(0.155::0.192))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/DMUXL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut dmuxl (0.068::0.084)(0.15::0.186))
+                (INTERCONNECT carry4_co3 dmuxl (0.104::0.13)(0.242::0.3))
+                (INTERCONNECT carry4_o3 dmuxl (0.066::0.082)(0.148::0.183))
+                (INTERCONNECT d5lut dmuxl (0.074::0.092)(0.186::0.231))
+                (INTERCONNECT d6lut dmuxl (0.077::0.095)(0.173::0.214))
+                (INTERCONNECT o5 dmuxl (0.07::0.087)(0.16::0.198))
+                (INTERCONNECT o6 dmuxl (0.068::0.084)(0.155::0.192))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/DQ)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT dff dq (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/F7AMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut f7amux (0.01::0.012)(0.019::0.024))
+                (INTERCONNECT b6lut f7amux (0.009::0.011)(0.016::0.02))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/F7BMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c6lut f7bmux (0.009::0.011)(0.018::0.022))
+                (INTERCONNECT d6lut f7bmux (0.009::0.011)(0.018::0.022))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/F8MUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT bx f8mux (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ce lut (0.001::0.001)(0.004::0.005))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "routing_bel")
+        (INSTANCE SLICEM/WEMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT we wemux (0.0::0.0)(0.0::0.0))
             )
         )
     )
