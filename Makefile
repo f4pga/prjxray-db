@@ -27,13 +27,19 @@ clean-zynq7-db:
 	rm -rf zynq7/harness/
 	rm -rf $(addprefix zynq7/,$(PART_DIRECTORIES))
 
-clean-db: clean-artix7-db clean-kintex7-db clean-zynq7-db
+clean-spartan7-db:
+	rm -f $(addprefix spartan7/,$(DATABASE_FILES))
+	rm -f $(addprefix spartan7/timings/,$(TIMINGS_FILES))
+	rm -rf spartan7/harness/
+	rm -rf $(addprefix spartan7/,$(PART_DIRECTORIES))
+
+clean-db: clean-artix7-db clean-kintex7-db clean-zynq7-db clean-spartan7-db
 	@true
 
 clean: clean-db
 	@true
 
-.PHONY: clean-artix7-db clean-kintex7-db clean-zynq7-db clean-db clean
+.PHONY: clean-artix7-db clean-kintex7-db clean-zynq7-db clean-spartan7-db clean-db clean
 
 reset:
 	git reset --hard
