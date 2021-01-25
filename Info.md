@@ -37,20 +37,20 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Mon 25 Jan 2021 08:13:26 PM UTC (2021-01-25T20:13:26+00:00).
+Last updated on Mon 25 Jan 2021 08:15:39 PM UTC (2021-01-25T20:15:39+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [30890e0e](https://github.com/SymbiFlow/prjxray/commit/30890e0e041f7533ee669da5b88f99b4932a6e42).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [6e3f0537](https://github.com/SymbiFlow/prjxray/commit/6e3f05370102d3b93760120741ca75c14599e7e2).
 
 Latest commit was;
 ```
-commit 30890e0e041f7533ee669da5b88f99b4932a6e42
-Merge: 905a6b5b b8ff7326
+commit 6e3f05370102d3b93760120741ca75c14599e7e2
+Merge: 14d2c2b9 b81df3fe
 Author: litghost <537074+litghost@users.noreply.github.com>
-Date:   Thu Jan 14 08:16:43 2021 -0800
+Date:   Fri Jan 22 12:36:55 2021 -0800
 
-    Merge pull request #1539 from dnltz/WIP/dnltz/refactory_database
+    Merge pull request #1558 from antmicro/add-gtp-channel-conf
     
-    Refactor fabric data in database
+    Add GTP_CHANNEL fuzzer
 ```
 
 
@@ -59,7 +59,7 @@ Date:   Thu Jan 14 08:16:43 2021 -0800
 
 ### Settings
 
-Created using following [settings/artix7.sh (sha256: 98f0e8a28de014f0e40c23763e053c55d789770a5850dc591d7aef73f9c64204)](https://github.com/SymbiFlow/prjxray/blob/30890e0e041f7533ee669da5b88f99b4932a6e42/settings/artix7.sh)
+Created using following [settings/artix7.sh (sha256: 00d45bf1672d3460e8d452cda8e747fa713eed629aa086b219162886452013e4)](https://github.com/SymbiFlow/prjxray/blob/6e3f05370102d3b93760120741ca75c14599e7e2/settings/artix7.sh)
 ```shell
 #!/bin/bash
 # Copyright (C) 2017-2020  The Project X-Ray Authors.
@@ -95,6 +95,8 @@ export XRAY_ROI_GRID_Y1="0"
 export XRAY_ROI_GRID_Y2="51"
 
 source $(dirname ${BASH_SOURCE[0]})/../utils/environment.sh
+
+eval $(python3 ${XRAY_UTILS_DIR}/create_environment.py)
 
 ```
 
@@ -150,6 +152,21 @@ Results have checksums;
  * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./artix7/mask_dsp_l.origin_info.db`](./artix7/mask_dsp_l.origin_info.db)
  * [`0ea9fc3ec271604c27b850f84ec3811fd366c0897dfb8728bdb96d7f170a8a27  ./artix7/mask_dsp_r.db`](./artix7/mask_dsp_r.db)
  * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./artix7/mask_dsp_r.origin_info.db`](./artix7/mask_dsp_r.origin_info.db)
+ * [`2ad5834b0de909d9645f57caa13bbe7a8a2d68ad36adeda8ef8f59ecaa6f92bf  ./artix7/mask_gtp_channel_0.db`](./artix7/mask_gtp_channel_0.db)
+ * [`2ad5834b0de909d9645f57caa13bbe7a8a2d68ad36adeda8ef8f59ecaa6f92bf  ./artix7/mask_gtp_channel_0_mid_left.db`](./artix7/mask_gtp_channel_0_mid_left.db)
+ * [`2ad5834b0de909d9645f57caa13bbe7a8a2d68ad36adeda8ef8f59ecaa6f92bf  ./artix7/mask_gtp_channel_0_mid_right.db`](./artix7/mask_gtp_channel_0_mid_right.db)
+ * [`2ad5834b0de909d9645f57caa13bbe7a8a2d68ad36adeda8ef8f59ecaa6f92bf  ./artix7/mask_gtp_channel_1.db`](./artix7/mask_gtp_channel_1.db)
+ * [`2ad5834b0de909d9645f57caa13bbe7a8a2d68ad36adeda8ef8f59ecaa6f92bf  ./artix7/mask_gtp_channel_1_mid_left.db`](./artix7/mask_gtp_channel_1_mid_left.db)
+ * [`2ad5834b0de909d9645f57caa13bbe7a8a2d68ad36adeda8ef8f59ecaa6f92bf  ./artix7/mask_gtp_channel_1_mid_right.db`](./artix7/mask_gtp_channel_1_mid_right.db)
+ * [`2ad5834b0de909d9645f57caa13bbe7a8a2d68ad36adeda8ef8f59ecaa6f92bf  ./artix7/mask_gtp_channel_2.db`](./artix7/mask_gtp_channel_2.db)
+ * [`2ad5834b0de909d9645f57caa13bbe7a8a2d68ad36adeda8ef8f59ecaa6f92bf  ./artix7/mask_gtp_channel_2_mid_left.db`](./artix7/mask_gtp_channel_2_mid_left.db)
+ * [`2ad5834b0de909d9645f57caa13bbe7a8a2d68ad36adeda8ef8f59ecaa6f92bf  ./artix7/mask_gtp_channel_2_mid_right.db`](./artix7/mask_gtp_channel_2_mid_right.db)
+ * [`2ad5834b0de909d9645f57caa13bbe7a8a2d68ad36adeda8ef8f59ecaa6f92bf  ./artix7/mask_gtp_channel_3.db`](./artix7/mask_gtp_channel_3.db)
+ * [`2ad5834b0de909d9645f57caa13bbe7a8a2d68ad36adeda8ef8f59ecaa6f92bf  ./artix7/mask_gtp_channel_3_mid_left.db`](./artix7/mask_gtp_channel_3_mid_left.db)
+ * [`2ad5834b0de909d9645f57caa13bbe7a8a2d68ad36adeda8ef8f59ecaa6f92bf  ./artix7/mask_gtp_channel_3_mid_right.db`](./artix7/mask_gtp_channel_3_mid_right.db)
+ * [`5a3a0bab93d2e2df22e1245c38d2e1a62f6d6cb1d6ad358099402d9c89aa13bc  ./artix7/mask_gtp_common.db`](./artix7/mask_gtp_common.db)
+ * [`60e4aed5bb9e864d2cd815281cf2bcf296b462d5e0982eabf9c582a4e2f89afc  ./artix7/mask_gtp_common_mid_left.db`](./artix7/mask_gtp_common_mid_left.db)
+ * [`60e4aed5bb9e864d2cd815281cf2bcf296b462d5e0982eabf9c582a4e2f89afc  ./artix7/mask_gtp_common_mid_right.db`](./artix7/mask_gtp_common_mid_right.db)
  * [`c714c25d06cc5d3b7947e638f55c5268b01792cb2d86320a5411d00387ada404  ./artix7/mask_hclk_cmt.db`](./artix7/mask_hclk_cmt.db)
  * [`c714c25d06cc5d3b7947e638f55c5268b01792cb2d86320a5411d00387ada404  ./artix7/mask_hclk_cmt_l.db`](./artix7/mask_hclk_cmt_l.db)
  * [`d0914443ac28056e840aee431bd51933a7cdc6504eefb052113d7e33e8b08e83  ./artix7/mask_hclk_ioi.db`](./artix7/mask_hclk_ioi.db)
@@ -162,6 +179,7 @@ Results have checksums;
  * [`e189322ecc5395aaff1b7100fc3ef5f259b7f1425a05a4464835eacc509a2576  ./artix7/mask_lioi3.db`](./artix7/mask_lioi3.db)
  * [`e189322ecc5395aaff1b7100fc3ef5f259b7f1425a05a4464835eacc509a2576  ./artix7/mask_lioi3_tbytesrc.db`](./artix7/mask_lioi3_tbytesrc.db)
  * [`e189322ecc5395aaff1b7100fc3ef5f259b7f1425a05a4464835eacc509a2576  ./artix7/mask_lioi3_tbyteterm.db`](./artix7/mask_lioi3_tbyteterm.db)
+ * [`454a16b8e9d2e0d38ee8c4af979a7bb1dd0757e5edb90d7b4f9489f094e7b162  ./artix7/mask_pcie_bot.db`](./artix7/mask_pcie_bot.db)
  * [`a0777dc0808e70052a6f6b2e1056f6e9dd225032c01195919d927be7ba1b97d6  ./artix7/mask_riob33.db`](./artix7/mask_riob33.db)
  * [`e189322ecc5395aaff1b7100fc3ef5f259b7f1425a05a4464835eacc509a2576  ./artix7/mask_rioi3.db`](./artix7/mask_rioi3.db)
  * [`e189322ecc5395aaff1b7100fc3ef5f259b7f1425a05a4464835eacc509a2576  ./artix7/mask_rioi3_tbytesrc.db`](./artix7/mask_rioi3_tbytesrc.db)
@@ -261,6 +279,36 @@ Results have checksums;
  * [`10a6e47f7b26f0d21cf0a011d4a5f2a4266538bb8d028a07fd981323dc1f0da0  ./artix7/segbits_dsp_l.origin_info.db`](./artix7/segbits_dsp_l.origin_info.db)
  * [`f81459ae1c84e0e73815c4577a7d0b19b497dd7f16029763c3fc4f3b8410dcc2  ./artix7/segbits_dsp_r.db`](./artix7/segbits_dsp_r.db)
  * [`76965c2e6ba2acab8f809a3d947b100fd322ba5b6d88c358bf816699348b07bf  ./artix7/segbits_dsp_r.origin_info.db`](./artix7/segbits_dsp_r.origin_info.db)
+ * [`43e958853f10cd658ae0af26f78469bdac9b2bd1abb5dbee83f4e9dfad40eaeb  ./artix7/segbits_gtp_channel_0.db`](./artix7/segbits_gtp_channel_0.db)
+ * [`23f87065aec5f4f22dd0c3c0b5e73a50e13e28b3c494f07becf435f219030b30  ./artix7/segbits_gtp_channel_0.origin_info.db`](./artix7/segbits_gtp_channel_0.origin_info.db)
+ * [`fffd49cbef2952247233e2128b2752bf28f91f05e194495c6b044d125902191e  ./artix7/segbits_gtp_channel_0_mid_left.db`](./artix7/segbits_gtp_channel_0_mid_left.db)
+ * [`3c51cce7195efee2655f0d8bdddbcebd9f7424fc531958a503ce700a209833f4  ./artix7/segbits_gtp_channel_0_mid_left.origin_info.db`](./artix7/segbits_gtp_channel_0_mid_left.origin_info.db)
+ * [`cf590acfaf96e259c464dd05b6d9728724941aff4926bf8bd57794c07c6931b7  ./artix7/segbits_gtp_channel_0_mid_right.db`](./artix7/segbits_gtp_channel_0_mid_right.db)
+ * [`a9c772ded5981040e503509abde4e9dc48619655c4dc75eb6950ca7641a70af3  ./artix7/segbits_gtp_channel_0_mid_right.origin_info.db`](./artix7/segbits_gtp_channel_0_mid_right.origin_info.db)
+ * [`ed22f29d7ea7180e50160b86da8c10e081ed9c3c399b7ff5b11f5e3c272d11a3  ./artix7/segbits_gtp_channel_1.db`](./artix7/segbits_gtp_channel_1.db)
+ * [`4c212e5ad3ac869e0b8e9927a97f32b75d5f5b166eb4a37af83738cb4ea2e95d  ./artix7/segbits_gtp_channel_1.origin_info.db`](./artix7/segbits_gtp_channel_1.origin_info.db)
+ * [`efc28e01454541111a2517802814f6afd6c8d6f44d9ed9bbd79923e547cd2668  ./artix7/segbits_gtp_channel_1_mid_left.db`](./artix7/segbits_gtp_channel_1_mid_left.db)
+ * [`e3ff98c549a159a928e34d7bccca8a5c513401019d0f2c3f476f56322db4bd3e  ./artix7/segbits_gtp_channel_1_mid_left.origin_info.db`](./artix7/segbits_gtp_channel_1_mid_left.origin_info.db)
+ * [`0d004b9755465b0d0c937f06d8ee3cfe83b6651810f766e8d2e63fbbccb6cab3  ./artix7/segbits_gtp_channel_1_mid_right.db`](./artix7/segbits_gtp_channel_1_mid_right.db)
+ * [`f15d88b953d32c73fbebe87a72bbae9a89b7e9f1e8fb53c45898a08f8c390dbc  ./artix7/segbits_gtp_channel_1_mid_right.origin_info.db`](./artix7/segbits_gtp_channel_1_mid_right.origin_info.db)
+ * [`9a689135198dfacb307687415b086aef5a49e69eb39e331b6238e802907e3088  ./artix7/segbits_gtp_channel_2.db`](./artix7/segbits_gtp_channel_2.db)
+ * [`f5801a6809eb80627a630a988bc319d65e6b2fa2e56b2d612f07d98060cf6105  ./artix7/segbits_gtp_channel_2.origin_info.db`](./artix7/segbits_gtp_channel_2.origin_info.db)
+ * [`697dda8e24472fdfc92a94a31f9b6abac78e41b25fcb46303db9cef0016778f5  ./artix7/segbits_gtp_channel_2_mid_left.db`](./artix7/segbits_gtp_channel_2_mid_left.db)
+ * [`2fa375cc1c9b59a885e4c42764ac7fe816ec550df1dd694dbe55550e9ac495f5  ./artix7/segbits_gtp_channel_2_mid_left.origin_info.db`](./artix7/segbits_gtp_channel_2_mid_left.origin_info.db)
+ * [`e4eaec32de51c26916143be6fb83d005652b2dbdc82083f6dbfd6837dd8e6a46  ./artix7/segbits_gtp_channel_2_mid_right.db`](./artix7/segbits_gtp_channel_2_mid_right.db)
+ * [`d5bcd83a26fcc62bda3d7dffc5e54813fca2098c1a6c2294300f94c5f20b86ee  ./artix7/segbits_gtp_channel_2_mid_right.origin_info.db`](./artix7/segbits_gtp_channel_2_mid_right.origin_info.db)
+ * [`7e13681d1a2435db935e800c9e8db3e17e1922c167cf470dc2172af733bc95ef  ./artix7/segbits_gtp_channel_3.db`](./artix7/segbits_gtp_channel_3.db)
+ * [`2b7728a26ab3a151e08f27cfa88582d661fc96900c227d5ab6ab6a4ff362e358  ./artix7/segbits_gtp_channel_3.origin_info.db`](./artix7/segbits_gtp_channel_3.origin_info.db)
+ * [`2d8634163b632d2030104a8c090e0dd935cdd5afd78b7491d3bfd83e1e81887d  ./artix7/segbits_gtp_channel_3_mid_left.db`](./artix7/segbits_gtp_channel_3_mid_left.db)
+ * [`290ca89106b61311978f9b7a9650fddb4dd5fb2b249612f66abdbe5a0a102f75  ./artix7/segbits_gtp_channel_3_mid_left.origin_info.db`](./artix7/segbits_gtp_channel_3_mid_left.origin_info.db)
+ * [`4cda734eeec2bfdcd7eab62628b5577277f820aae7ba01c85fa7dbe2389ada1d  ./artix7/segbits_gtp_channel_3_mid_right.db`](./artix7/segbits_gtp_channel_3_mid_right.db)
+ * [`e8357be2f52886f7160aafa6495791ab890808f99a1e396077e17c30e49e6700  ./artix7/segbits_gtp_channel_3_mid_right.origin_info.db`](./artix7/segbits_gtp_channel_3_mid_right.origin_info.db)
+ * [`eca0e9e36b3e9f6e2584ee31e10a4104d5e128aac610da8236c94d49ebd02b3c  ./artix7/segbits_gtp_common.db`](./artix7/segbits_gtp_common.db)
+ * [`ddfdf641009197804217c42635638c4d797355684584051939ed9b48558b4494  ./artix7/segbits_gtp_common.origin_info.db`](./artix7/segbits_gtp_common.origin_info.db)
+ * [`0e52cfd32e766dafe42f2d2c7a2ff5c4a9195dce8a1d7cd019f49dd01d0ce818  ./artix7/segbits_gtp_common_mid_left.db`](./artix7/segbits_gtp_common_mid_left.db)
+ * [`225f0089d42a1d565d8335a053998a98a11120535255834c259df5cf2e921c85  ./artix7/segbits_gtp_common_mid_left.origin_info.db`](./artix7/segbits_gtp_common_mid_left.origin_info.db)
+ * [`c4b5b9477acc4e6220cb4e28604eecf205b2864cfd310edd9246f9182c90f451  ./artix7/segbits_gtp_common_mid_right.db`](./artix7/segbits_gtp_common_mid_right.db)
+ * [`1371addf23574533d237282c8651987089d3fa705fb7c7192dc5567ac80db8d6  ./artix7/segbits_gtp_common_mid_right.origin_info.db`](./artix7/segbits_gtp_common_mid_right.origin_info.db)
  * [`5d9063c8d4a35b5458573358459ec5e273cf242a97e5d7f1f0c1bf351edf2c63  ./artix7/segbits_hclk_cmt.db`](./artix7/segbits_hclk_cmt.db)
  * [`01b36f7757bee52cd1bdd78ecefed58b8215732678cef9eec629c21e4e89d7c5  ./artix7/segbits_hclk_cmt.origin_info.db`](./artix7/segbits_hclk_cmt.origin_info.db)
  * [`92eab3f79b39609fcd131300a63ddca51200ff4bd23b7b759d1e9bbf99543862  ./artix7/segbits_hclk_cmt_l.db`](./artix7/segbits_hclk_cmt_l.db)
@@ -272,9 +320,9 @@ Results have checksums;
  * [`51288ec0be63172fcb2a12a92853150c62a21e894c2d42a2586046c462bf57a9  ./artix7/segbits_hclk_r.db`](./artix7/segbits_hclk_r.db)
  * [`61d05145f3613042e8f0c1d97d63f6c185cfb66df609b621b44422ebb27c77a0  ./artix7/segbits_hclk_r.origin_info.db`](./artix7/segbits_hclk_r.origin_info.db)
  * [`0ea44e8dfaf97ed200f30b2afe117e94e1a68bdb26af2e09e69e855414779520  ./artix7/segbits_int_l.db`](./artix7/segbits_int_l.db)
- * [`32c3c91fc4dd17387aa991aa76276fb3e9932625cdcabc4e591eff388171d705  ./artix7/segbits_int_l.origin_info.db`](./artix7/segbits_int_l.origin_info.db)
+ * [`6afcb554d32a59c99417f454c93d1b38b4b7fe17e0c2822f8d04b81fc0c2225f  ./artix7/segbits_int_l.origin_info.db`](./artix7/segbits_int_l.origin_info.db)
  * [`1541c7832dd161c5b3b5745d08fe0ee6f92bfbd372b76c12f54afc032c888556  ./artix7/segbits_int_r.db`](./artix7/segbits_int_r.db)
- * [`ede9d35118f59bd01258a97af53288963a33afaec1000bc6c1f04bc88e5daf70  ./artix7/segbits_int_r.origin_info.db`](./artix7/segbits_int_r.origin_info.db)
+ * [`ced6c489ab1bae4823f259b65c90453d753b6b05c1ab8c00b959e2ca86504a8d  ./artix7/segbits_int_r.origin_info.db`](./artix7/segbits_int_r.origin_info.db)
  * [`392e91def4df6eebb3ce5ed15570c01f6090be793a79054e1880549082eb6f23  ./artix7/segbits_liob33.db`](./artix7/segbits_liob33.db)
  * [`6ffdf37ae2c6625eed093d59458f3319928bab0ac268abfdeed04c92c4673cfb  ./artix7/segbits_liob33.origin_info.db`](./artix7/segbits_liob33.origin_info.db)
  * [`d369c1e614ef6ab1a464c0ab01d07456f73e88ca5a0c3c0dc524bb3b4f4364ff  ./artix7/segbits_lioi3.db`](./artix7/segbits_lioi3.db)
@@ -283,6 +331,8 @@ Results have checksums;
  * [`cbc24997471fa0a4cc59db46589a3daea9f59b4d599ca802a1f62b730090c89c  ./artix7/segbits_lioi3_tbytesrc.origin_info.db`](./artix7/segbits_lioi3_tbytesrc.origin_info.db)
  * [`e81ad6e17e179647d06b9dc193588c8297af448e8eb7bd6c4b807a832631e07b  ./artix7/segbits_lioi3_tbyteterm.db`](./artix7/segbits_lioi3_tbyteterm.db)
  * [`bf79280a339e566244220050232020c5d3b8dceed7bd80bcf23da7b4a53cb250  ./artix7/segbits_lioi3_tbyteterm.origin_info.db`](./artix7/segbits_lioi3_tbyteterm.origin_info.db)
+ * [`5d3619d34977c6fc9a2e25e0b7db002af348bf35747b99fba89072778c943c5c  ./artix7/segbits_pcie_bot.db`](./artix7/segbits_pcie_bot.db)
+ * [`f2a3c7410f318cb6906c49916104864894d0d2daba55a2173dc2033c8037bae7  ./artix7/segbits_pcie_bot.origin_info.db`](./artix7/segbits_pcie_bot.origin_info.db)
  * [`ded5f7b0cdadb7558470dbca9102d7293e4237ecb563b5f69821e01b41e4aad1  ./artix7/segbits_riob33.db`](./artix7/segbits_riob33.db)
  * [`49456622ba534f8a616fe6e8bb0e3006c3ca292f2439f190ef07f82743f09613  ./artix7/segbits_riob33.origin_info.db`](./artix7/segbits_riob33.origin_info.db)
  * [`712cc4b66ff35ea6033cb76e41d8dde1225857836f4b799834925ab5c3e8575a  ./artix7/segbits_rioi3.db`](./artix7/segbits_rioi3.db)
@@ -516,7 +566,7 @@ Results have checksums;
  * [`3d2da5714d8c81165fa51403fb719b3ddd9e7ea7ab79280ae4e157d11a29172e  ./artix7/timings/slicem.sdf`](./artix7/timings/slicem.sdf)
  * [`9aaa711d29833f53f765caa74f1e43ac288803d9af8030ce1694b3e3137c4078  ./artix7/xc7a100t/node_wires.json`](./artix7/xc7a100t/node_wires.json)
  * [`9cf701615e6f9ed6e89d86738f10ebb9d5bf1a233f1e3251315b2f9159f73391  ./artix7/xc7a100t/tileconn.json`](./artix7/xc7a100t/tileconn.json)
- * [`4adf96ae90772ca15b796b453dc5cde970f6dea1ced130271fe042e6993ba085  ./artix7/xc7a100t/tilegrid.json`](./artix7/xc7a100t/tilegrid.json)
+ * [`7af806f357beceb592e1ada7f4c582a5bef2e5ac708779e5813fa3f49ffa2a63  ./artix7/xc7a100t/tilegrid.json`](./artix7/xc7a100t/tilegrid.json)
  * [`3f202fefbd0f36761f08eb58737a42754c65c965968174421df0374198e31daa  ./artix7/xc7a100tcsg324-1/package_pins.csv`](./artix7/xc7a100tcsg324-1/package_pins.csv)
  * [`277906907e43846ac8a52115983cd0ece673b2310d8d10c9b2253d6537bf1a02  ./artix7/xc7a100tcsg324-1/part.json`](./artix7/xc7a100tcsg324-1/part.json)
  * [`4e1f153303270ed3727ca40af3179020f74271ff63c4d771556020b1d3037b92  ./artix7/xc7a100tcsg324-1/part.yaml`](./artix7/xc7a100tcsg324-1/part.yaml)
@@ -525,7 +575,7 @@ Results have checksums;
  * [`4e1f153303270ed3727ca40af3179020f74271ff63c4d771556020b1d3037b92  ./artix7/xc7a100tfgg676-1/part.yaml`](./artix7/xc7a100tfgg676-1/part.yaml)
  * [`f25057c3f5f1273ab0e21bddafcb4499e219d84f7b5a00764b48bcb64dcd4bd2  ./artix7/xc7a200t/node_wires.json`](./artix7/xc7a200t/node_wires.json)
  * [`bed4bf8553b0faa4a63964100e6b4a8b5f9ac77dbcac474a2d2cbe7240aa4617  ./artix7/xc7a200t/tileconn.json`](./artix7/xc7a200t/tileconn.json)
- * [`9e8dc925a9534e26596989b489ccafa82ce8995c1ddbd507b57f6600936a5315  ./artix7/xc7a200t/tilegrid.json`](./artix7/xc7a200t/tilegrid.json)
+ * [`9a88cc6c4a07e1ebed4ffcd1d7683a1f9394a68567b4f90c5c236ad9c670ba03  ./artix7/xc7a200t/tilegrid.json`](./artix7/xc7a200t/tilegrid.json)
  * [`72dd638f5c8f6c36e74765915c01b2fa28e3c28b2c0afd91871ab7b0490a14f3  ./artix7/xc7a200tffg1156-1/package_pins.csv`](./artix7/xc7a200tffg1156-1/package_pins.csv)
  * [`fe44ca57c10c7b804357ded2cdea392c008b7b4d5a82ad917fa3148a756e4e42  ./artix7/xc7a200tffg1156-1/part.json`](./artix7/xc7a200tffg1156-1/part.json)
  * [`a3d493aef436b9978b2ed1c98c4e1364ab9eb096f824e19acd7cce3f7d920e97  ./artix7/xc7a200tffg1156-1/part.yaml`](./artix7/xc7a200tffg1156-1/part.yaml)
@@ -543,7 +593,7 @@ Results have checksums;
  * [`ef0724733da87455426a0f833642d96e9d206d047f4eb97072c3093f80c40d7d  ./artix7/xc7a35tftg256-1/part.yaml`](./artix7/xc7a35tftg256-1/part.yaml)
  * [`b60e01fef4c8c8d47fc646190d2d17fc63210cd0e82613624761e7463a7c35a6  ./artix7/xc7a50t/node_wires.json`](./artix7/xc7a50t/node_wires.json)
  * [`1604d48580815e26069c2b4909fcc50e8e8f974ad0beb349ced2329c302bb06b  ./artix7/xc7a50t/tileconn.json`](./artix7/xc7a50t/tileconn.json)
- * [`20ace148a3ee47cdb0d14bb0c35ef0aa426bf411d8f8b60f3fa5677fbbce83a8  ./artix7/xc7a50t/tilegrid.json`](./artix7/xc7a50t/tilegrid.json)
+ * [`5a3025cb7acf62e401c8b0a29e8f61cf35239574acdb4671157a27716f749fb4  ./artix7/xc7a50t/tilegrid.json`](./artix7/xc7a50t/tilegrid.json)
  * [`1b01a06e9bae479981698cdb89fff971c825c75266b3b529cd69cd54815ce805  ./artix7/xc7a50tfgg484-1/package_pins.csv`](./artix7/xc7a50tfgg484-1/package_pins.csv)
  * [`6f58dc1e7f454bb28592ecfc9b343541283593d596dba555d0088d0bff9ca1ae  ./artix7/xc7a50tfgg484-1/part.json`](./artix7/xc7a50tfgg484-1/part.json)
  * [`41c360b1e2f7e08b9051f1160a34954ce4c05a445a07f226f1f4059caf1fa1d3  ./artix7/xc7a50tfgg484-1/part.yaml`](./artix7/xc7a50tfgg484-1/part.yaml)
@@ -553,7 +603,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/kintex7.sh (sha256: 98cd036b10e049706983791abd2817952b0e0d379f848e24a341169844b98790)](https://github.com/SymbiFlow/prjxray/blob/30890e0e041f7533ee669da5b88f99b4932a6e42/settings/kintex7.sh)
+Created using following [settings/kintex7.sh (sha256: f04c23dee2bff14bf48a04f60034d3f3d674bb3e40182cc88201265679ac42fb)](https://github.com/SymbiFlow/prjxray/blob/6e3f05370102d3b93760120741ca75c14599e7e2/settings/kintex7.sh)
 ```shell
 # Copyright (C) 2017-2020  The Project X-Ray Authors.
 #
@@ -583,6 +633,8 @@ export XRAY_ROI_GRID_Y1="104"
 export XRAY_ROI_GRID_Y2="156"
 
 source $(dirname ${BASH_SOURCE[0]})/../utils/environment.sh
+
+eval $(python3 ${XRAY_UTILS_DIR}/create_environment.py)
 
 ```
 
@@ -734,9 +786,9 @@ Results have checksums;
  * [`51288ec0be63172fcb2a12a92853150c62a21e894c2d42a2586046c462bf57a9  ./kintex7/segbits_hclk_r.db`](./kintex7/segbits_hclk_r.db)
  * [`61d05145f3613042e8f0c1d97d63f6c185cfb66df609b621b44422ebb27c77a0  ./kintex7/segbits_hclk_r.origin_info.db`](./kintex7/segbits_hclk_r.origin_info.db)
  * [`0ea44e8dfaf97ed200f30b2afe117e94e1a68bdb26af2e09e69e855414779520  ./kintex7/segbits_int_l.db`](./kintex7/segbits_int_l.db)
- * [`66c9451631fbcde9a417fa19168a60a8bae3a991823d6773ffa1543396dde30e  ./kintex7/segbits_int_l.origin_info.db`](./kintex7/segbits_int_l.origin_info.db)
+ * [`b635b86e0c7171123c853dee145cf57f7a1f411b82d7a368ed69f659f765b54b  ./kintex7/segbits_int_l.origin_info.db`](./kintex7/segbits_int_l.origin_info.db)
  * [`1541c7832dd161c5b3b5745d08fe0ee6f92bfbd372b76c12f54afc032c888556  ./kintex7/segbits_int_r.db`](./kintex7/segbits_int_r.db)
- * [`f074bf5dcf90a014cd2534b21677c94550baa64bbce918e12fb3d370210e33c2  ./kintex7/segbits_int_r.origin_info.db`](./kintex7/segbits_int_r.origin_info.db)
+ * [`0fc9c0513eb861f945057bf695b6b4e3026bd1b5a38953872b1c7ae3ab6f3468  ./kintex7/segbits_int_r.origin_info.db`](./kintex7/segbits_int_r.origin_info.db)
  * [`392e91def4df6eebb3ce5ed15570c01f6090be793a79054e1880549082eb6f23  ./kintex7/segbits_liob33.db`](./kintex7/segbits_liob33.db)
  * [`6ffdf37ae2c6625eed093d59458f3319928bab0ac268abfdeed04c92c4673cfb  ./kintex7/segbits_liob33.origin_info.db`](./kintex7/segbits_liob33.origin_info.db)
  * [`d369c1e614ef6ab1a464c0ab01d07456f73e88ca5a0c3c0dc524bb3b4f4364ff  ./kintex7/segbits_lioi3.db`](./kintex7/segbits_lioi3.db)
@@ -930,7 +982,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/zynq7.sh (sha256: d043754dce270046665b600960905864cd490ca1e1aea2dbc0bbd113d0901433)](https://github.com/SymbiFlow/prjxray/blob/30890e0e041f7533ee669da5b88f99b4932a6e42/settings/zynq7.sh)
+Created using following [settings/zynq7.sh (sha256: 241ebc54a73b6a3cb3eacea09b798fe9887d955ccdfe7b48994a9a10928837c2)](https://github.com/SymbiFlow/prjxray/blob/6e3f05370102d3b93760120741ca75c14599e7e2/settings/zynq7.sh)
 ```shell
 # Copyright (C) 2017-2020  The Project X-Ray Authors.
 #
@@ -962,6 +1014,8 @@ export XRAY_ROI_GRID_Y1="105"
 export XRAY_ROI_GRID_Y2="155"
 
 source $(dirname ${BASH_SOURCE[0]})/../utils/environment.sh
+
+eval $(python3 ${XRAY_UTILS_DIR}/create_environment.py)
 
 ```
 
@@ -1129,9 +1183,9 @@ Results have checksums;
  * [`51288ec0be63172fcb2a12a92853150c62a21e894c2d42a2586046c462bf57a9  ./zynq7/segbits_hclk_r.db`](./zynq7/segbits_hclk_r.db)
  * [`61d05145f3613042e8f0c1d97d63f6c185cfb66df609b621b44422ebb27c77a0  ./zynq7/segbits_hclk_r.origin_info.db`](./zynq7/segbits_hclk_r.origin_info.db)
  * [`0ea44e8dfaf97ed200f30b2afe117e94e1a68bdb26af2e09e69e855414779520  ./zynq7/segbits_int_l.db`](./zynq7/segbits_int_l.db)
- * [`9f1bc39f477dc15719584221debbc0b3ebfc45541fb510d8c52d7d4875d3ba66  ./zynq7/segbits_int_l.origin_info.db`](./zynq7/segbits_int_l.origin_info.db)
+ * [`505898cbef5f62b7e4d1274c49dad1a373bae12af7825b14e52f053bf42217fe  ./zynq7/segbits_int_l.origin_info.db`](./zynq7/segbits_int_l.origin_info.db)
  * [`1541c7832dd161c5b3b5745d08fe0ee6f92bfbd372b76c12f54afc032c888556  ./zynq7/segbits_int_r.db`](./zynq7/segbits_int_r.db)
- * [`1b8775f4768d295252094ab935632665a8ce1d50a2077685c3ac74d796425958  ./zynq7/segbits_int_r.origin_info.db`](./zynq7/segbits_int_r.origin_info.db)
+ * [`769ba4269774fca078ed64a0acaf380ae9532753b6cfb9378457e6485adbe15c  ./zynq7/segbits_int_r.origin_info.db`](./zynq7/segbits_int_r.origin_info.db)
  * [`392e91def4df6eebb3ce5ed15570c01f6090be793a79054e1880549082eb6f23  ./zynq7/segbits_liob33.db`](./zynq7/segbits_liob33.db)
  * [`6ffdf37ae2c6625eed093d59458f3319928bab0ac268abfdeed04c92c4673cfb  ./zynq7/segbits_liob33.origin_info.db`](./zynq7/segbits_liob33.origin_info.db)
  * [`d369c1e614ef6ab1a464c0ab01d07456f73e88ca5a0c3c0dc524bb3b4f4364ff  ./zynq7/segbits_lioi3.db`](./zynq7/segbits_lioi3.db)
