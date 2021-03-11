@@ -1,0 +1,177 @@
+{
+    "BIAS_CFG": {
+        "digits": 64,
+        "type": "BIN",
+        "values": [
+            18445618199572250625
+        ]
+    },
+    "COMMON_CFG": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294836225
+        ]
+    },
+    "PLL0_CFG": {
+        "digits": 27,
+        "type": "BIN",
+        "values": [
+            134150145
+        ]
+    },
+    "PLL0_DMON_CFG": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "PLL0_FBDIV": {
+        "digits": 6,
+        "encoding": [
+            16,
+            0,
+            1,
+            2,
+            3
+        ],
+        "type": "INT",
+        "values": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "PLL0_FBDIV_45": {
+        "digits": 1,
+        "encoding": [
+            0,
+            1
+        ],
+        "type": "INT",
+        "values": [
+            4,
+            5
+        ]
+    },
+    "PLL0_INIT_CFG": {
+        "digits": 24,
+        "type": "BIN",
+        "values": [
+            16711425
+        ]
+    },
+    "PLL0_LOCK_CFG": {
+        "digits": 9,
+        "type": "BIN",
+        "values": [
+            511
+        ]
+    },
+    "PLL0_REFCLK_DIV": {
+        "digits": 5,
+        "encoding": [
+            16,
+            0
+        ],
+        "type": "INT",
+        "values": [
+            1,
+            2
+        ]
+    },
+    "PLL1_CFG": {
+        "digits": 27,
+        "type": "BIN",
+        "values": [
+            134150145
+        ]
+    },
+    "PLL1_DMON_CFG": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "PLL1_FBDIV": {
+        "digits": 6,
+        "encoding": [
+            16,
+            0,
+            1,
+            2,
+            3
+        ],
+        "type": "INT",
+        "values": [
+            1,
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    "PLL1_FBDIV_45": {
+        "digits": 1,
+        "encoding": [
+            0,
+            1
+        ],
+        "type": "INT",
+        "values": [
+            4,
+            5
+        ]
+    },
+    "PLL1_INIT_CFG": {
+        "digits": 24,
+        "type": "BIN",
+        "values": [
+            16711425
+        ]
+    },
+    "PLL1_LOCK_CFG": {
+        "digits": 9,
+        "type": "BIN",
+        "values": [
+            511
+        ]
+    },
+    "PLL1_REFCLK_DIV": {
+        "digits": 5,
+        "encoding": [
+            16,
+            0
+        ],
+        "type": "INT",
+        "values": [
+            1,
+            2
+        ]
+    },
+    "PLL_CLKOUT_CFG": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "RSVD_ATTR0": {
+        "digits": 16,
+        "type": "BIN",
+        "values": [
+            65535
+        ]
+    },
+    "RSVD_ATTR1": {
+        "digits": 16,
+        "type": "BIN",
+        "values": [
+            65535
+        ]
+    }
+}
