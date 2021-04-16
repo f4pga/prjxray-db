@@ -688,7 +688,7 @@
         "width": 9
     },
     "DRPCLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "DRPDI": {
@@ -836,7 +836,7 @@
         "width": 1
     },
     "PIPECLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "PIPERX0CHANISALIGNED": {
@@ -1620,11 +1620,11 @@
         "width": 1
     },
     "USERCLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "USERCLK2": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "USERRSTN": {

@@ -28,7 +28,7 @@
         "width": 8
     },
     "DRPCLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "DRPDI": {
@@ -84,7 +84,7 @@
         "width": 1
     },
     "PLL0LOCKDETCLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "PLL0LOCKEN": {
@@ -124,7 +124,7 @@
         "width": 1
     },
     "PLL1LOCKDETCLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "PLL1LOCKEN": {

@@ -16,7 +16,7 @@
         "width": 1
     },
     "DMONITORCLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "DMONITOROUT": {
@@ -28,7 +28,7 @@
         "width": 9
     },
     "DRPCLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "DRPDI": {
@@ -116,7 +116,7 @@
         "width": 1
     },
     "PLL0CLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "PLL0REFCLK": {
@@ -124,7 +124,7 @@
         "width": 1
     },
     "PLL1CLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "PLL1REFCLK": {
@@ -580,11 +580,11 @@
         "width": 1
     },
     "RXUSRCLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "RXUSRCLK2": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "RXVALID": {
@@ -596,7 +596,7 @@
         "width": 1
     },
     "SIGVALIDCLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "TSTIN": {
@@ -768,7 +768,7 @@
         "width": 1
     },
     "TXPHDLYTSTCLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "TXPHINIT": {
@@ -900,11 +900,11 @@
         "width": 1
     },
     "TXUSRCLK": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     },
     "TXUSRCLK2": {
-        "direction": "input",
+        "direction": "clock",
         "width": 1
     }
 }
