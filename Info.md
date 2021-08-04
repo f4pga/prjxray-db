@@ -37,20 +37,20 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Wed 23 Jun 2021 04:57:09 PM UTC (2021-06-23T16:57:09+00:00).
+Last updated on Wed 04 Aug 2021 03:32:51 PM UTC (2021-08-04T15:32:51+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [6e6bff0b](https://github.com/SymbiFlow/prjxray/commit/6e6bff0b160e6417da1bd9332f1ebf7ed52bc913).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [f7f06896](https://github.com/SymbiFlow/prjxray/commit/f7f06896ad26bb7c94680dc323d4b871eded1f4e).
 
 Latest commit was;
 ```
-commit 6e6bff0b160e6417da1bd9332f1ebf7ed52bc913
-Merge: da7bf6a0 769645f0
+commit f7f06896ad26bb7c94680dc323d4b871eded1f4e
+Merge: 6e6bff0b ceb0eadf
 Author: Alessandro Comodi <44773360+acomodi@users.noreply.github.com>
-Date:   Wed Jun 16 09:42:17 2021 +0200
+Date:   Thu Jul 8 14:45:27 2021 +0200
 
-    Merge pull request #1692 from antmicro/fix-pll-clkfb
+    Merge pull request #1705 from antmicro/fix-iob-ppips
     
-    034-cmt: fix conflicting PIPs
+    071-ppips: add LIOB33 and RIOB33 ppips
 ```
 
 
@@ -59,7 +59,7 @@ Date:   Wed Jun 16 09:42:17 2021 +0200
 
 ### Settings
 
-Created using following [settings/artix7.sh (sha256: fc677f338196f4cecea5f963feb41c09d281505828d0cde9740f2a4bb305532a)](https://github.com/SymbiFlow/prjxray/blob/6e6bff0b160e6417da1bd9332f1ebf7ed52bc913/settings/artix7.sh)
+Created using following [settings/artix7.sh (sha256: fc677f338196f4cecea5f963feb41c09d281505828d0cde9740f2a4bb305532a)](https://github.com/SymbiFlow/prjxray/blob/f7f06896ad26bb7c94680dc323d4b871eded1f4e/settings/artix7.sh)
 ```shell
 #!/bin/bash
 # Copyright (C) 2017-2020  The Project X-Ray Authors.
@@ -256,6 +256,8 @@ Results have checksums;
  * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./artix7/ppips_int_r.origin_info.db`](./artix7/ppips_int_r.origin_info.db)
  * [`916e3cea00e0bf8291ae24083696833dc1ff09f06562eccba6f2c73afd267ccb  ./artix7/ppips_io_int_interface_l.db`](./artix7/ppips_io_int_interface_l.db)
  * [`01526db954ab19098931424b8203c98803894b5563b5272fad665f3a75f0bb3b  ./artix7/ppips_io_int_interface_r.db`](./artix7/ppips_io_int_interface_r.db)
+ * [`6d2cad87bbee45d55d9758141573ceb6ab8c73b9c24153fb077c442010ee1f07  ./artix7/ppips_liob33.db`](./artix7/ppips_liob33.db)
+ * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./artix7/ppips_liob33_sing.db`](./artix7/ppips_liob33_sing.db)
  * [`ac23765307613b28b2a294e5ebbea583280bcb84511237000c788c9834730323  ./artix7/ppips_lioi3.db`](./artix7/ppips_lioi3.db)
  * [`f87e449ccf9c605acad950269bfe104bc3a45daf79c5b7fe21042169feb7a428  ./artix7/ppips_lioi3_sing.db`](./artix7/ppips_lioi3_sing.db)
  * [`1046256199fd3c54a5f3ee7e5ec7fd72863882e01cc8da326e487c763159e2f8  ./artix7/ppips_lioi3_tbytesrc.db`](./artix7/ppips_lioi3_tbytesrc.db)
@@ -264,6 +266,8 @@ Results have checksums;
  * [`8331488bf2a6d7e5dbbcb934fcfb63f83568811acd1e8568846c93dbbec3e47b  ./artix7/ppips_pcie_int_interface_l.db`](./artix7/ppips_pcie_int_interface_l.db)
  * [`d567a4f88177faf2045ac769e4435608c6ad1d486fc39488f753c9c4af75fdad  ./artix7/ppips_pcie_int_interface_r.db`](./artix7/ppips_pcie_int_interface_r.db)
  * [`5684a64e33378f61f7b92cee7011c2fc4f85be16762919a86103dc8652c73d63  ./artix7/ppips_pcie_top.db`](./artix7/ppips_pcie_top.db)
+ * [`2c7291f39e9277346b128297d90b46ee618d907686158b0f23a88bab08c7ac85  ./artix7/ppips_riob33.db`](./artix7/ppips_riob33.db)
+ * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./artix7/ppips_riob33_sing.db`](./artix7/ppips_riob33_sing.db)
  * [`5c818ae170303c8f215cb08e33f6682eb18e4c1b142da8c86e209d80199f6512  ./artix7/ppips_rioi3.db`](./artix7/ppips_rioi3.db)
  * [`bb65252c9f425d9b6eee636057f458b5b7548ee47228127f29afe0e7e5878682  ./artix7/ppips_rioi3_sing.db`](./artix7/ppips_rioi3_sing.db)
  * [`fe8fe52b167f239f3d28ffc0c1f4dd35de5ad2572526ad79500ac2cf89a5dfb2  ./artix7/ppips_rioi3_tbytesrc.db`](./artix7/ppips_rioi3_tbytesrc.db)
@@ -355,9 +359,9 @@ Results have checksums;
  * [`51288ec0be63172fcb2a12a92853150c62a21e894c2d42a2586046c462bf57a9  ./artix7/segbits_hclk_r.db`](./artix7/segbits_hclk_r.db)
  * [`61d05145f3613042e8f0c1d97d63f6c185cfb66df609b621b44422ebb27c77a0  ./artix7/segbits_hclk_r.origin_info.db`](./artix7/segbits_hclk_r.origin_info.db)
  * [`0ea44e8dfaf97ed200f30b2afe117e94e1a68bdb26af2e09e69e855414779520  ./artix7/segbits_int_l.db`](./artix7/segbits_int_l.db)
- * [`20c5e98e8cdcc702225d020f94cc067c03f80e8fcc974769354e6932ca407c98  ./artix7/segbits_int_l.origin_info.db`](./artix7/segbits_int_l.origin_info.db)
+ * [`6df56b759e71d6b5ec87f340a7885e5a35cc1a26293db2e85dd3a37f24e735ae  ./artix7/segbits_int_l.origin_info.db`](./artix7/segbits_int_l.origin_info.db)
  * [`1541c7832dd161c5b3b5745d08fe0ee6f92bfbd372b76c12f54afc032c888556  ./artix7/segbits_int_r.db`](./artix7/segbits_int_r.db)
- * [`ec2b8db5e39fb545b0364e32d5101ca6cdd47b6c8533e37eb53ec7f26c50270f  ./artix7/segbits_int_r.origin_info.db`](./artix7/segbits_int_r.origin_info.db)
+ * [`9ea55e76360f32dc3f46b04d8c17123dcf4918af1627c83e9e88ba669e9db1ef  ./artix7/segbits_int_r.origin_info.db`](./artix7/segbits_int_r.origin_info.db)
  * [`432e956da48016ba647631ff91975eb501f98e3961330bdaa35c686d780300d9  ./artix7/segbits_liob33.db`](./artix7/segbits_liob33.db)
  * [`606867ace72307cf773d819f40696862301419fda3d6d748746d2bfc58579731  ./artix7/segbits_liob33.origin_info.db`](./artix7/segbits_liob33.origin_info.db)
  * [`d369c1e614ef6ab1a464c0ab01d07456f73e88ca5a0c3c0dc524bb3b4f4364ff  ./artix7/segbits_lioi3.db`](./artix7/segbits_lioi3.db)
@@ -882,7 +886,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/kintex7.sh (sha256: 26dfa36e49b4528298fc43411d654aa647076ce8160f4d8cfe71727594eb3848)](https://github.com/SymbiFlow/prjxray/blob/6e6bff0b160e6417da1bd9332f1ebf7ed52bc913/settings/kintex7.sh)
+Created using following [settings/kintex7.sh (sha256: 26dfa36e49b4528298fc43411d654aa647076ce8160f4d8cfe71727594eb3848)](https://github.com/SymbiFlow/prjxray/blob/f7f06896ad26bb7c94680dc323d4b871eded1f4e/settings/kintex7.sh)
 ```shell
 # Copyright (C) 2017-2020  The Project X-Ray Authors.
 #
@@ -1015,6 +1019,8 @@ Results have checksums;
  * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./kintex7/ppips_int_r.origin_info.db`](./kintex7/ppips_int_r.origin_info.db)
  * [`916e3cea00e0bf8291ae24083696833dc1ff09f06562eccba6f2c73afd267ccb  ./kintex7/ppips_io_int_interface_l.db`](./kintex7/ppips_io_int_interface_l.db)
  * [`01526db954ab19098931424b8203c98803894b5563b5272fad665f3a75f0bb3b  ./kintex7/ppips_io_int_interface_r.db`](./kintex7/ppips_io_int_interface_r.db)
+ * [`6d2cad87bbee45d55d9758141573ceb6ab8c73b9c24153fb077c442010ee1f07  ./kintex7/ppips_liob33.db`](./kintex7/ppips_liob33.db)
+ * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./kintex7/ppips_liob33_sing.db`](./kintex7/ppips_liob33_sing.db)
  * [`ac23765307613b28b2a294e5ebbea583280bcb84511237000c788c9834730323  ./kintex7/ppips_lioi3.db`](./kintex7/ppips_lioi3.db)
  * [`f87e449ccf9c605acad950269bfe104bc3a45daf79c5b7fe21042169feb7a428  ./kintex7/ppips_lioi3_sing.db`](./kintex7/ppips_lioi3_sing.db)
  * [`1046256199fd3c54a5f3ee7e5ec7fd72863882e01cc8da326e487c763159e2f8  ./kintex7/ppips_lioi3_tbytesrc.db`](./kintex7/ppips_lioi3_tbytesrc.db)
@@ -1074,9 +1080,9 @@ Results have checksums;
  * [`51288ec0be63172fcb2a12a92853150c62a21e894c2d42a2586046c462bf57a9  ./kintex7/segbits_hclk_r.db`](./kintex7/segbits_hclk_r.db)
  * [`61d05145f3613042e8f0c1d97d63f6c185cfb66df609b621b44422ebb27c77a0  ./kintex7/segbits_hclk_r.origin_info.db`](./kintex7/segbits_hclk_r.origin_info.db)
  * [`0ea44e8dfaf97ed200f30b2afe117e94e1a68bdb26af2e09e69e855414779520  ./kintex7/segbits_int_l.db`](./kintex7/segbits_int_l.db)
- * [`032cd8747af65ede08cf07e3f0d53c218e5cf1623003f2411dd9fa57e56c2649  ./kintex7/segbits_int_l.origin_info.db`](./kintex7/segbits_int_l.origin_info.db)
+ * [`0fe437e3cd8f81f61756e0e5316907774ff5363328ef993ce141571e8b5bcb3b  ./kintex7/segbits_int_l.origin_info.db`](./kintex7/segbits_int_l.origin_info.db)
  * [`1541c7832dd161c5b3b5745d08fe0ee6f92bfbd372b76c12f54afc032c888556  ./kintex7/segbits_int_r.db`](./kintex7/segbits_int_r.db)
- * [`d0ba2a1820b865c6bc448646495a582b055a0f7c2d75eb5d6330f4003208b259  ./kintex7/segbits_int_r.origin_info.db`](./kintex7/segbits_int_r.origin_info.db)
+ * [`d5a9d6df925fe74e7fe100205107ee7a829d7981ca708c38303fc9f9c36354be  ./kintex7/segbits_int_r.origin_info.db`](./kintex7/segbits_int_r.origin_info.db)
  * [`432e956da48016ba647631ff91975eb501f98e3961330bdaa35c686d780300d9  ./kintex7/segbits_liob33.db`](./kintex7/segbits_liob33.db)
  * [`606867ace72307cf773d819f40696862301419fda3d6d748746d2bfc58579731  ./kintex7/segbits_liob33.origin_info.db`](./kintex7/segbits_liob33.origin_info.db)
  * [`d369c1e614ef6ab1a464c0ab01d07456f73e88ca5a0c3c0dc524bb3b4f4364ff  ./kintex7/segbits_lioi3.db`](./kintex7/segbits_lioi3.db)
@@ -1315,7 +1321,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/zynq7.sh (sha256: d3953bf67abbbaa760df1dd60a71f2edf66da37e2bf63220a70fada25188d3c9)](https://github.com/SymbiFlow/prjxray/blob/6e6bff0b160e6417da1bd9332f1ebf7ed52bc913/settings/zynq7.sh)
+Created using following [settings/zynq7.sh (sha256: d3953bf67abbbaa760df1dd60a71f2edf66da37e2bf63220a70fada25188d3c9)](https://github.com/SymbiFlow/prjxray/blob/f7f06896ad26bb7c94680dc323d4b871eded1f4e/settings/zynq7.sh)
 ```shell
 # Copyright (C) 2017-2020  The Project X-Ray Authors.
 #
@@ -1451,6 +1457,8 @@ Results have checksums;
  * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./zynq7/ppips_int_r.origin_info.db`](./zynq7/ppips_int_r.origin_info.db)
  * [`916e3cea00e0bf8291ae24083696833dc1ff09f06562eccba6f2c73afd267ccb  ./zynq7/ppips_io_int_interface_l.db`](./zynq7/ppips_io_int_interface_l.db)
  * [`01526db954ab19098931424b8203c98803894b5563b5272fad665f3a75f0bb3b  ./zynq7/ppips_io_int_interface_r.db`](./zynq7/ppips_io_int_interface_r.db)
+ * [`bdf786ee147f8491a0eac44d67bf24a85621db451876f5ca81fd02b9769981a2  ./zynq7/ppips_liob33.db`](./zynq7/ppips_liob33.db)
+ * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./zynq7/ppips_liob33_sing.db`](./zynq7/ppips_liob33_sing.db)
  * [`ac23765307613b28b2a294e5ebbea583280bcb84511237000c788c9834730323  ./zynq7/ppips_lioi3.db`](./zynq7/ppips_lioi3.db)
  * [`f87e449ccf9c605acad950269bfe104bc3a45daf79c5b7fe21042169feb7a428  ./zynq7/ppips_lioi3_sing.db`](./zynq7/ppips_lioi3_sing.db)
  * [`1046256199fd3c54a5f3ee7e5ec7fd72863882e01cc8da326e487c763159e2f8  ./zynq7/ppips_lioi3_tbytesrc.db`](./zynq7/ppips_lioi3_tbytesrc.db)
@@ -1460,6 +1468,8 @@ Results have checksums;
  * [`6dfc78075a25c31e34d54e19fc6bdcb693fca1d55f6e6544c7bd6077c74ee9ed  ./zynq7/ppips_pss2.db`](./zynq7/ppips_pss2.db)
  * [`a37b23b956aaa5a1049bfcd72f38f3cda2e82fbd952da8c33a74e5aa8b715530  ./zynq7/ppips_pss3.db`](./zynq7/ppips_pss3.db)
  * [`f21bf25fc70945747e89a5e712f99f50ab9ff2cafc3e9fa921ae56289aa9cc21  ./zynq7/ppips_pss4.db`](./zynq7/ppips_pss4.db)
+ * [`2c7291f39e9277346b128297d90b46ee618d907686158b0f23a88bab08c7ac85  ./zynq7/ppips_riob33.db`](./zynq7/ppips_riob33.db)
+ * [`e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855  ./zynq7/ppips_riob33_sing.db`](./zynq7/ppips_riob33_sing.db)
  * [`5c818ae170303c8f215cb08e33f6682eb18e4c1b142da8c86e209d80199f6512  ./zynq7/ppips_rioi3.db`](./zynq7/ppips_rioi3.db)
  * [`bb65252c9f425d9b6eee636057f458b5b7548ee47228127f29afe0e7e5878682  ./zynq7/ppips_rioi3_sing.db`](./zynq7/ppips_rioi3_sing.db)
  * [`fe8fe52b167f239f3d28ffc0c1f4dd35de5ad2572526ad79500ac2cf89a5dfb2  ./zynq7/ppips_rioi3_tbytesrc.db`](./zynq7/ppips_rioi3_tbytesrc.db)
@@ -1516,9 +1526,9 @@ Results have checksums;
  * [`51288ec0be63172fcb2a12a92853150c62a21e894c2d42a2586046c462bf57a9  ./zynq7/segbits_hclk_r.db`](./zynq7/segbits_hclk_r.db)
  * [`61d05145f3613042e8f0c1d97d63f6c185cfb66df609b621b44422ebb27c77a0  ./zynq7/segbits_hclk_r.origin_info.db`](./zynq7/segbits_hclk_r.origin_info.db)
  * [`0ea44e8dfaf97ed200f30b2afe117e94e1a68bdb26af2e09e69e855414779520  ./zynq7/segbits_int_l.db`](./zynq7/segbits_int_l.db)
- * [`55d9d49fac005b3df70e0bbf6fe869be9c7887918def9d0d1bd109158e4cc0e4  ./zynq7/segbits_int_l.origin_info.db`](./zynq7/segbits_int_l.origin_info.db)
+ * [`552c6e93557f2b5c56d36e9f569ba2ff56da8b4193662c57ca240b7ed8f9f367  ./zynq7/segbits_int_l.origin_info.db`](./zynq7/segbits_int_l.origin_info.db)
  * [`1541c7832dd161c5b3b5745d08fe0ee6f92bfbd372b76c12f54afc032c888556  ./zynq7/segbits_int_r.db`](./zynq7/segbits_int_r.db)
- * [`8d45bc41d7f4217c9eee35d6f44058d15fd6bda822c0b76ba24f34c679dc7863  ./zynq7/segbits_int_r.origin_info.db`](./zynq7/segbits_int_r.origin_info.db)
+ * [`d2925d923bccccf7b494e57e765246d4c9d508c056c435b074455b5ea890b8c3  ./zynq7/segbits_int_r.origin_info.db`](./zynq7/segbits_int_r.origin_info.db)
  * [`432e956da48016ba647631ff91975eb501f98e3961330bdaa35c686d780300d9  ./zynq7/segbits_liob33.db`](./zynq7/segbits_liob33.db)
  * [`606867ace72307cf773d819f40696862301419fda3d6d748746d2bfc58579731  ./zynq7/segbits_liob33.origin_info.db`](./zynq7/segbits_liob33.origin_info.db)
  * [`d369c1e614ef6ab1a464c0ab01d07456f73e88ca5a0c3c0dc524bb3b4f4364ff  ./zynq7/segbits_lioi3.db`](./zynq7/segbits_lioi3.db)
