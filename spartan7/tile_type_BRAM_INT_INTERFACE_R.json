@@ -1,0 +1,980 @@
+{
+    "pips": {
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B0->>INT_INTERFACE_LOGIC_OUTS0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B0"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B1->>INT_INTERFACE_LOGIC_OUTS1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B1"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B2->>INT_INTERFACE_LOGIC_OUTS2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B2"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B3->>INT_INTERFACE_LOGIC_OUTS3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B3"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B4->>INT_INTERFACE_LOGIC_OUTS4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B4"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B5->>INT_INTERFACE_LOGIC_OUTS5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B5"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B6->>INT_INTERFACE_LOGIC_OUTS6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B6"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B7->>INT_INTERFACE_LOGIC_OUTS7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B7"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B8->>INT_INTERFACE_LOGIC_OUTS8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS8",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B8"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B9->>INT_INTERFACE_LOGIC_OUTS9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS9",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B9"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B10->>INT_INTERFACE_LOGIC_OUTS10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS10",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B10"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B11->>INT_INTERFACE_LOGIC_OUTS11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS11",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B11"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B12->>INT_INTERFACE_LOGIC_OUTS12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS12",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B12"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B13->>INT_INTERFACE_LOGIC_OUTS13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS13",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B13"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B14->>INT_INTERFACE_LOGIC_OUTS14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS14",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B14"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B15->>INT_INTERFACE_LOGIC_OUTS15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS15",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B15"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B16->>INT_INTERFACE_LOGIC_OUTS16": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS16",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B16"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B17->>INT_INTERFACE_LOGIC_OUTS17": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS17",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B17"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B18->>INT_INTERFACE_LOGIC_OUTS18": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS18",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B18"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B19->>INT_INTERFACE_LOGIC_OUTS19": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS19",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B19"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B20->>INT_INTERFACE_LOGIC_OUTS20": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS20",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B20"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B21->>INT_INTERFACE_LOGIC_OUTS21": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS21",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B21"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B22->>INT_INTERFACE_LOGIC_OUTS22": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS22",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B22"
+        },
+        "BRAM_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B23->>INT_INTERFACE_LOGIC_OUTS23": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS23",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B23"
+        }
+    },
+    "sites": [],
+    "tile_type": "BRAM_INT_INTERFACE_R",
+    "wires": {
+        "INT_INTERFACE_BLOCK_OUTS_B0": null,
+        "INT_INTERFACE_BLOCK_OUTS_B1": null,
+        "INT_INTERFACE_BLOCK_OUTS_B2": null,
+        "INT_INTERFACE_BLOCK_OUTS_B3": null,
+        "INT_INTERFACE_BRAM_IMUX0": null,
+        "INT_INTERFACE_BRAM_IMUX1": null,
+        "INT_INTERFACE_BRAM_IMUX2": null,
+        "INT_INTERFACE_BRAM_IMUX3": null,
+        "INT_INTERFACE_BRAM_IMUX4": null,
+        "INT_INTERFACE_BRAM_IMUX5": null,
+        "INT_INTERFACE_BRAM_IMUX6": null,
+        "INT_INTERFACE_BRAM_IMUX7": null,
+        "INT_INTERFACE_BRAM_IMUX8": null,
+        "INT_INTERFACE_BRAM_IMUX9": null,
+        "INT_INTERFACE_BRAM_IMUX10": null,
+        "INT_INTERFACE_BRAM_IMUX11": null,
+        "INT_INTERFACE_BRAM_IMUX12": null,
+        "INT_INTERFACE_BRAM_IMUX13": null,
+        "INT_INTERFACE_BRAM_IMUX14": null,
+        "INT_INTERFACE_BRAM_IMUX15": null,
+        "INT_INTERFACE_BRAM_IMUX16": null,
+        "INT_INTERFACE_BRAM_IMUX17": null,
+        "INT_INTERFACE_BRAM_IMUX18": null,
+        "INT_INTERFACE_BRAM_IMUX19": null,
+        "INT_INTERFACE_BRAM_IMUX20": null,
+        "INT_INTERFACE_BRAM_IMUX21": null,
+        "INT_INTERFACE_BRAM_IMUX22": null,
+        "INT_INTERFACE_BRAM_IMUX23": null,
+        "INT_INTERFACE_BRAM_IMUX24": null,
+        "INT_INTERFACE_BRAM_IMUX25": null,
+        "INT_INTERFACE_BRAM_IMUX26": null,
+        "INT_INTERFACE_BRAM_IMUX27": null,
+        "INT_INTERFACE_BRAM_IMUX28": null,
+        "INT_INTERFACE_BRAM_IMUX29": null,
+        "INT_INTERFACE_BRAM_IMUX30": null,
+        "INT_INTERFACE_BRAM_IMUX31": null,
+        "INT_INTERFACE_BRAM_IMUX32": null,
+        "INT_INTERFACE_BRAM_IMUX33": null,
+        "INT_INTERFACE_BRAM_IMUX34": null,
+        "INT_INTERFACE_BRAM_IMUX35": null,
+        "INT_INTERFACE_BRAM_IMUX36": null,
+        "INT_INTERFACE_BRAM_IMUX37": null,
+        "INT_INTERFACE_BRAM_IMUX38": null,
+        "INT_INTERFACE_BRAM_IMUX39": null,
+        "INT_INTERFACE_BRAM_IMUX40": null,
+        "INT_INTERFACE_BRAM_IMUX41": null,
+        "INT_INTERFACE_BRAM_IMUX42": null,
+        "INT_INTERFACE_BRAM_IMUX43": null,
+        "INT_INTERFACE_BRAM_IMUX44": null,
+        "INT_INTERFACE_BRAM_IMUX45": null,
+        "INT_INTERFACE_BRAM_IMUX46": null,
+        "INT_INTERFACE_BRAM_IMUX47": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX0": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX1": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX2": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX3": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX4": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX5": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX6": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX7": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX8": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX9": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX10": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX11": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX12": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX13": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX14": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX15": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX16": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX17": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX18": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX19": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX20": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX21": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX22": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX23": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX24": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX25": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX26": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX27": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX28": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX29": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX30": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX31": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX32": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX33": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX34": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX35": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX36": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX37": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX38": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX39": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX40": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX41": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX42": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX43": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX44": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX45": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX46": null,
+        "INT_INTERFACE_BRAM_UTURN_R_IMUX47": null,
+        "INT_INTERFACE_BYP0": null,
+        "INT_INTERFACE_BYP1": null,
+        "INT_INTERFACE_BYP2": null,
+        "INT_INTERFACE_BYP3": null,
+        "INT_INTERFACE_BYP4": null,
+        "INT_INTERFACE_BYP5": null,
+        "INT_INTERFACE_BYP6": null,
+        "INT_INTERFACE_BYP7": null,
+        "INT_INTERFACE_CLK0": null,
+        "INT_INTERFACE_CLK1": null,
+        "INT_INTERFACE_CTRL0": null,
+        "INT_INTERFACE_CTRL1": null,
+        "INT_INTERFACE_EE2A0": null,
+        "INT_INTERFACE_EE2A1": null,
+        "INT_INTERFACE_EE2A2": null,
+        "INT_INTERFACE_EE2A3": null,
+        "INT_INTERFACE_EE2BEG0": null,
+        "INT_INTERFACE_EE2BEG1": null,
+        "INT_INTERFACE_EE2BEG2": null,
+        "INT_INTERFACE_EE2BEG3": null,
+        "INT_INTERFACE_EE4A0": null,
+        "INT_INTERFACE_EE4A1": null,
+        "INT_INTERFACE_EE4A2": null,
+        "INT_INTERFACE_EE4A3": null,
+        "INT_INTERFACE_EE4B0": null,
+        "INT_INTERFACE_EE4B1": null,
+        "INT_INTERFACE_EE4B2": null,
+        "INT_INTERFACE_EE4B3": null,
+        "INT_INTERFACE_EE4BEG0": null,
+        "INT_INTERFACE_EE4BEG1": null,
+        "INT_INTERFACE_EE4BEG2": null,
+        "INT_INTERFACE_EE4BEG3": null,
+        "INT_INTERFACE_EE4C0": null,
+        "INT_INTERFACE_EE4C1": null,
+        "INT_INTERFACE_EE4C2": null,
+        "INT_INTERFACE_EE4C3": null,
+        "INT_INTERFACE_EL1BEG0": null,
+        "INT_INTERFACE_EL1BEG1": null,
+        "INT_INTERFACE_EL1BEG2": null,
+        "INT_INTERFACE_EL1BEG3": null,
+        "INT_INTERFACE_ER1BEG0": null,
+        "INT_INTERFACE_ER1BEG1": null,
+        "INT_INTERFACE_ER1BEG2": null,
+        "INT_INTERFACE_ER1BEG3": null,
+        "INT_INTERFACE_FAN0": null,
+        "INT_INTERFACE_FAN1": null,
+        "INT_INTERFACE_FAN2": null,
+        "INT_INTERFACE_FAN3": null,
+        "INT_INTERFACE_FAN4": null,
+        "INT_INTERFACE_FAN5": null,
+        "INT_INTERFACE_FAN6": null,
+        "INT_INTERFACE_FAN7": null,
+        "INT_INTERFACE_LH1": null,
+        "INT_INTERFACE_LH2": null,
+        "INT_INTERFACE_LH3": null,
+        "INT_INTERFACE_LH4": null,
+        "INT_INTERFACE_LH5": null,
+        "INT_INTERFACE_LH6": null,
+        "INT_INTERFACE_LH7": null,
+        "INT_INTERFACE_LH8": null,
+        "INT_INTERFACE_LH9": null,
+        "INT_INTERFACE_LH10": null,
+        "INT_INTERFACE_LH11": null,
+        "INT_INTERFACE_LH12": null,
+        "INT_INTERFACE_LOGIC_OUTS0": null,
+        "INT_INTERFACE_LOGIC_OUTS1": null,
+        "INT_INTERFACE_LOGIC_OUTS2": null,
+        "INT_INTERFACE_LOGIC_OUTS3": null,
+        "INT_INTERFACE_LOGIC_OUTS4": null,
+        "INT_INTERFACE_LOGIC_OUTS5": null,
+        "INT_INTERFACE_LOGIC_OUTS6": null,
+        "INT_INTERFACE_LOGIC_OUTS7": null,
+        "INT_INTERFACE_LOGIC_OUTS8": null,
+        "INT_INTERFACE_LOGIC_OUTS9": null,
+        "INT_INTERFACE_LOGIC_OUTS10": null,
+        "INT_INTERFACE_LOGIC_OUTS11": null,
+        "INT_INTERFACE_LOGIC_OUTS12": null,
+        "INT_INTERFACE_LOGIC_OUTS13": null,
+        "INT_INTERFACE_LOGIC_OUTS14": null,
+        "INT_INTERFACE_LOGIC_OUTS15": null,
+        "INT_INTERFACE_LOGIC_OUTS16": null,
+        "INT_INTERFACE_LOGIC_OUTS17": null,
+        "INT_INTERFACE_LOGIC_OUTS18": null,
+        "INT_INTERFACE_LOGIC_OUTS19": null,
+        "INT_INTERFACE_LOGIC_OUTS20": null,
+        "INT_INTERFACE_LOGIC_OUTS21": null,
+        "INT_INTERFACE_LOGIC_OUTS22": null,
+        "INT_INTERFACE_LOGIC_OUTS23": null,
+        "INT_INTERFACE_LOGIC_OUTS_B0": null,
+        "INT_INTERFACE_LOGIC_OUTS_B1": null,
+        "INT_INTERFACE_LOGIC_OUTS_B2": null,
+        "INT_INTERFACE_LOGIC_OUTS_B3": null,
+        "INT_INTERFACE_LOGIC_OUTS_B4": null,
+        "INT_INTERFACE_LOGIC_OUTS_B5": null,
+        "INT_INTERFACE_LOGIC_OUTS_B6": null,
+        "INT_INTERFACE_LOGIC_OUTS_B7": null,
+        "INT_INTERFACE_LOGIC_OUTS_B8": null,
+        "INT_INTERFACE_LOGIC_OUTS_B9": null,
+        "INT_INTERFACE_LOGIC_OUTS_B10": null,
+        "INT_INTERFACE_LOGIC_OUTS_B11": null,
+        "INT_INTERFACE_LOGIC_OUTS_B12": null,
+        "INT_INTERFACE_LOGIC_OUTS_B13": null,
+        "INT_INTERFACE_LOGIC_OUTS_B14": null,
+        "INT_INTERFACE_LOGIC_OUTS_B15": null,
+        "INT_INTERFACE_LOGIC_OUTS_B16": null,
+        "INT_INTERFACE_LOGIC_OUTS_B17": null,
+        "INT_INTERFACE_LOGIC_OUTS_B18": null,
+        "INT_INTERFACE_LOGIC_OUTS_B19": null,
+        "INT_INTERFACE_LOGIC_OUTS_B20": null,
+        "INT_INTERFACE_LOGIC_OUTS_B21": null,
+        "INT_INTERFACE_LOGIC_OUTS_B22": null,
+        "INT_INTERFACE_LOGIC_OUTS_B23": null,
+        "INT_INTERFACE_MONITOR_N": null,
+        "INT_INTERFACE_MONITOR_P": null,
+        "INT_INTERFACE_NE2A0": null,
+        "INT_INTERFACE_NE2A1": null,
+        "INT_INTERFACE_NE2A2": null,
+        "INT_INTERFACE_NE2A3": null,
+        "INT_INTERFACE_NE4BEG0": null,
+        "INT_INTERFACE_NE4BEG1": null,
+        "INT_INTERFACE_NE4BEG2": null,
+        "INT_INTERFACE_NE4BEG3": null,
+        "INT_INTERFACE_NE4C0": null,
+        "INT_INTERFACE_NE4C1": null,
+        "INT_INTERFACE_NE4C2": null,
+        "INT_INTERFACE_NE4C3": null,
+        "INT_INTERFACE_NW2A0": null,
+        "INT_INTERFACE_NW2A1": null,
+        "INT_INTERFACE_NW2A2": null,
+        "INT_INTERFACE_NW2A3": null,
+        "INT_INTERFACE_NW4A0": null,
+        "INT_INTERFACE_NW4A1": null,
+        "INT_INTERFACE_NW4A2": null,
+        "INT_INTERFACE_NW4A3": null,
+        "INT_INTERFACE_NW4END0": null,
+        "INT_INTERFACE_NW4END1": null,
+        "INT_INTERFACE_NW4END2": null,
+        "INT_INTERFACE_NW4END3": null,
+        "INT_INTERFACE_PHASER_TO_IO_ICLK": null,
+        "INT_INTERFACE_PHASER_TO_IO_ICLKDIV": null,
+        "INT_INTERFACE_PHASER_TO_IO_OCLK": null,
+        "INT_INTERFACE_PHASER_TO_IO_OCLK1X_90": null,
+        "INT_INTERFACE_PHASER_TO_IO_OCLKDIV": null,
+        "INT_INTERFACE_SE2A0": null,
+        "INT_INTERFACE_SE2A1": null,
+        "INT_INTERFACE_SE2A2": null,
+        "INT_INTERFACE_SE2A3": null,
+        "INT_INTERFACE_SE4BEG0": null,
+        "INT_INTERFACE_SE4BEG1": null,
+        "INT_INTERFACE_SE4BEG2": null,
+        "INT_INTERFACE_SE4BEG3": null,
+        "INT_INTERFACE_SE4C0": null,
+        "INT_INTERFACE_SE4C1": null,
+        "INT_INTERFACE_SE4C2": null,
+        "INT_INTERFACE_SE4C3": null,
+        "INT_INTERFACE_SW2A0": null,
+        "INT_INTERFACE_SW2A1": null,
+        "INT_INTERFACE_SW2A2": null,
+        "INT_INTERFACE_SW2A3": null,
+        "INT_INTERFACE_SW4A0": null,
+        "INT_INTERFACE_SW4A1": null,
+        "INT_INTERFACE_SW4A2": null,
+        "INT_INTERFACE_SW4A3": null,
+        "INT_INTERFACE_SW4END0": null,
+        "INT_INTERFACE_SW4END1": null,
+        "INT_INTERFACE_SW4END2": null,
+        "INT_INTERFACE_SW4END3": null,
+        "INT_INTERFACE_WL1END0": null,
+        "INT_INTERFACE_WL1END1": null,
+        "INT_INTERFACE_WL1END2": null,
+        "INT_INTERFACE_WL1END3": null,
+        "INT_INTERFACE_WR1END0": null,
+        "INT_INTERFACE_WR1END1": null,
+        "INT_INTERFACE_WR1END2": null,
+        "INT_INTERFACE_WR1END3": null,
+        "INT_INTERFACE_WW2A0": null,
+        "INT_INTERFACE_WW2A1": null,
+        "INT_INTERFACE_WW2A2": null,
+        "INT_INTERFACE_WW2A3": null,
+        "INT_INTERFACE_WW2END0": null,
+        "INT_INTERFACE_WW2END1": null,
+        "INT_INTERFACE_WW2END2": null,
+        "INT_INTERFACE_WW2END3": null,
+        "INT_INTERFACE_WW4A0": null,
+        "INT_INTERFACE_WW4A1": null,
+        "INT_INTERFACE_WW4A2": null,
+        "INT_INTERFACE_WW4A3": null,
+        "INT_INTERFACE_WW4B0": null,
+        "INT_INTERFACE_WW4B1": null,
+        "INT_INTERFACE_WW4B2": null,
+        "INT_INTERFACE_WW4B3": null,
+        "INT_INTERFACE_WW4C0": null,
+        "INT_INTERFACE_WW4C1": null,
+        "INT_INTERFACE_WW4C2": null,
+        "INT_INTERFACE_WW4C3": null,
+        "INT_INTERFACE_WW4END0": null,
+        "INT_INTERFACE_WW4END1": null,
+        "INT_INTERFACE_WW4END2": null,
+        "INT_INTERFACE_WW4END3": null,
+        "L_INT_INTER_DQS_IOTOPHASER": null
+    }
+}

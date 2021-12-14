@@ -1,0 +1,15 @@
+
+(DELAYFILE
+    (SDFVERSION "3.0")
+    (TIMESCALE 1ns)
+
+    (CELL
+        (CELLTYPE "BUFGCTRL")
+        (INSTANCE BUFGCTRL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH I O (0.026::0.029)(0.091::0.096))
+            )
+        )
+    )
+)

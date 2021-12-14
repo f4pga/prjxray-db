@@ -1,0 +1,4574 @@
+{
+    "pips": {
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B0->>INT_INTERFACE_LOGIC_OUTS0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B0"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B1->>INT_INTERFACE_LOGIC_OUTS1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B1"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B2->>INT_INTERFACE_LOGIC_OUTS2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B2"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B3->>INT_INTERFACE_LOGIC_OUTS3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B3"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B4->>INT_INTERFACE_LOGIC_OUTS4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B4"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B5->>INT_INTERFACE_LOGIC_OUTS5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B5"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B6->>INT_INTERFACE_LOGIC_OUTS6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B6"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B7->>INT_INTERFACE_LOGIC_OUTS7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B7"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B8->>INT_INTERFACE_LOGIC_OUTS8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS8",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B8"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B9->>INT_INTERFACE_LOGIC_OUTS9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS9",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B9"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B10->>INT_INTERFACE_LOGIC_OUTS10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS10",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B10"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B11->>INT_INTERFACE_LOGIC_OUTS11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS11",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B11"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B12->>INT_INTERFACE_LOGIC_OUTS12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS12",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B12"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B13->>INT_INTERFACE_LOGIC_OUTS13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS13",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B13"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B14->>INT_INTERFACE_LOGIC_OUTS14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS14",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B14"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B15->>INT_INTERFACE_LOGIC_OUTS15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS15",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B15"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B16->>INT_INTERFACE_LOGIC_OUTS16": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS16",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B16"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B17->>INT_INTERFACE_LOGIC_OUTS17": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS17",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B17"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B18->>INT_INTERFACE_LOGIC_OUTS18": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS18",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B18"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B19->>INT_INTERFACE_LOGIC_OUTS19": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS19",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B19"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B20->>INT_INTERFACE_LOGIC_OUTS20": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS20",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B20"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B21->>INT_INTERFACE_LOGIC_OUTS21": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS21",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B21"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B22->>INT_INTERFACE_LOGIC_OUTS22": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS22",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B22"
+        },
+        "PCIE_INT_INTERFACE_R.INT_INTERFACE_LOGIC_OUTS_B23->>INT_INTERFACE_LOGIC_OUTS23": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "INT_INTERFACE_LOGIC_OUTS23",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_B23"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX0->>PCIE_INT_INTERFACE_IMUX_DELAY0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX0"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX0->>PCIE_INT_INTERFACE_IMUX_OUT0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX0"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX1->>PCIE_INT_INTERFACE_IMUX_DELAY1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX1"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX1->>PCIE_INT_INTERFACE_IMUX_OUT1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX1"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX2->>PCIE_INT_INTERFACE_IMUX_DELAY2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX2"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX2->>PCIE_INT_INTERFACE_IMUX_OUT2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX2"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX3->>PCIE_INT_INTERFACE_IMUX_DELAY3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX3"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX3->>PCIE_INT_INTERFACE_IMUX_OUT3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX3"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX4->>PCIE_INT_INTERFACE_IMUX_DELAY4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX4"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX4->>PCIE_INT_INTERFACE_IMUX_OUT4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX4"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX5->>PCIE_INT_INTERFACE_IMUX_DELAY5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX5"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX5->>PCIE_INT_INTERFACE_IMUX_OUT5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX5"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX6->>PCIE_INT_INTERFACE_IMUX_DELAY6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX6"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX6->>PCIE_INT_INTERFACE_IMUX_OUT6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX6"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX7->>PCIE_INT_INTERFACE_IMUX_DELAY7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX7"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX7->>PCIE_INT_INTERFACE_IMUX_OUT7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX7"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX8->>PCIE_INT_INTERFACE_IMUX_DELAY8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY8",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX8"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX8->>PCIE_INT_INTERFACE_IMUX_OUT8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT8",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX8"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX9->>PCIE_INT_INTERFACE_IMUX_DELAY9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY9",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX9"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX9->>PCIE_INT_INTERFACE_IMUX_OUT9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT9",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX9"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX10->>PCIE_INT_INTERFACE_IMUX_DELAY10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY10",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX10"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX10->>PCIE_INT_INTERFACE_IMUX_OUT10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT10",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX10"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX11->>PCIE_INT_INTERFACE_IMUX_DELAY11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY11",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX11"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX11->>PCIE_INT_INTERFACE_IMUX_OUT11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT11",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX11"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX12->>PCIE_INT_INTERFACE_IMUX_DELAY12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY12",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX12"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX12->>PCIE_INT_INTERFACE_IMUX_OUT12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT12",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX12"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX13->>PCIE_INT_INTERFACE_IMUX_DELAY13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY13",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX13"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX13->>PCIE_INT_INTERFACE_IMUX_OUT13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT13",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX13"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX14->>PCIE_INT_INTERFACE_IMUX_DELAY14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY14",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX14"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX14->>PCIE_INT_INTERFACE_IMUX_OUT14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT14",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX14"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX15->>PCIE_INT_INTERFACE_IMUX_DELAY15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY15",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX15"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX15->>PCIE_INT_INTERFACE_IMUX_OUT15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT15",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX15"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX16->>PCIE_INT_INTERFACE_IMUX_DELAY16": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY16",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX16"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX16->>PCIE_INT_INTERFACE_IMUX_OUT16": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT16",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX16"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX17->>PCIE_INT_INTERFACE_IMUX_DELAY17": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY17",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX17"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX17->>PCIE_INT_INTERFACE_IMUX_OUT17": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT17",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX17"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX18->>PCIE_INT_INTERFACE_IMUX_DELAY18": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY18",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX18"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX18->>PCIE_INT_INTERFACE_IMUX_OUT18": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT18",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX18"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX19->>PCIE_INT_INTERFACE_IMUX_DELAY19": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY19",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX19"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX19->>PCIE_INT_INTERFACE_IMUX_OUT19": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT19",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX19"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX20->>PCIE_INT_INTERFACE_IMUX_DELAY20": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY20",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX20"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX20->>PCIE_INT_INTERFACE_IMUX_OUT20": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT20",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX20"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX21->>PCIE_INT_INTERFACE_IMUX_DELAY21": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY21",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX21"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX21->>PCIE_INT_INTERFACE_IMUX_OUT21": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT21",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX21"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX22->>PCIE_INT_INTERFACE_IMUX_DELAY22": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY22",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX22"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX22->>PCIE_INT_INTERFACE_IMUX_OUT22": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT22",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX22"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX23->>PCIE_INT_INTERFACE_IMUX_DELAY23": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY23",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX23"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX23->>PCIE_INT_INTERFACE_IMUX_OUT23": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT23",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX23"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX24->>PCIE_INT_INTERFACE_IMUX_DELAY24": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY24",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX24"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX24->>PCIE_INT_INTERFACE_IMUX_OUT24": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT24",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX24"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX25->>PCIE_INT_INTERFACE_IMUX_DELAY25": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY25",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX25"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX25->>PCIE_INT_INTERFACE_IMUX_OUT25": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT25",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX25"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX26->>PCIE_INT_INTERFACE_IMUX_DELAY26": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY26",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX26"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX26->>PCIE_INT_INTERFACE_IMUX_OUT26": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT26",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX26"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX27->>PCIE_INT_INTERFACE_IMUX_DELAY27": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY27",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX27"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX27->>PCIE_INT_INTERFACE_IMUX_OUT27": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT27",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX27"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX28->>PCIE_INT_INTERFACE_IMUX_DELAY28": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY28",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX28"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX28->>PCIE_INT_INTERFACE_IMUX_OUT28": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT28",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX28"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX29->>PCIE_INT_INTERFACE_IMUX_DELAY29": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY29",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX29"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX29->>PCIE_INT_INTERFACE_IMUX_OUT29": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT29",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX29"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX30->>PCIE_INT_INTERFACE_IMUX_DELAY30": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY30",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX30"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX30->>PCIE_INT_INTERFACE_IMUX_OUT30": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT30",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX30"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX31->>PCIE_INT_INTERFACE_IMUX_DELAY31": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY31",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX31"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX31->>PCIE_INT_INTERFACE_IMUX_OUT31": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT31",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX31"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX32->>PCIE_INT_INTERFACE_IMUX_DELAY32": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY32",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX32"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX32->>PCIE_INT_INTERFACE_IMUX_OUT32": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT32",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX32"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX33->>PCIE_INT_INTERFACE_IMUX_DELAY33": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY33",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX33"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX33->>PCIE_INT_INTERFACE_IMUX_OUT33": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT33",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX33"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX34->>PCIE_INT_INTERFACE_IMUX_DELAY34": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY34",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX34"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX34->>PCIE_INT_INTERFACE_IMUX_OUT34": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT34",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX34"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX35->>PCIE_INT_INTERFACE_IMUX_DELAY35": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY35",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX35"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX35->>PCIE_INT_INTERFACE_IMUX_OUT35": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT35",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX35"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX36->>PCIE_INT_INTERFACE_IMUX_DELAY36": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY36",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX36"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX36->>PCIE_INT_INTERFACE_IMUX_OUT36": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT36",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX36"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX37->>PCIE_INT_INTERFACE_IMUX_DELAY37": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY37",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX37"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX37->>PCIE_INT_INTERFACE_IMUX_OUT37": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT37",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX37"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX38->>PCIE_INT_INTERFACE_IMUX_DELAY38": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY38",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX38"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX38->>PCIE_INT_INTERFACE_IMUX_OUT38": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT38",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX38"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX39->>PCIE_INT_INTERFACE_IMUX_DELAY39": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY39",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX39"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX39->>PCIE_INT_INTERFACE_IMUX_OUT39": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT39",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX39"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX40->>PCIE_INT_INTERFACE_IMUX_DELAY40": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY40",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX40"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX40->>PCIE_INT_INTERFACE_IMUX_OUT40": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT40",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX40"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX41->>PCIE_INT_INTERFACE_IMUX_DELAY41": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY41",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX41"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX41->>PCIE_INT_INTERFACE_IMUX_OUT41": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT41",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX41"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX42->>PCIE_INT_INTERFACE_IMUX_DELAY42": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY42",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX42"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX42->>PCIE_INT_INTERFACE_IMUX_OUT42": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT42",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX42"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX43->>PCIE_INT_INTERFACE_IMUX_DELAY43": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY43",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX43"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX43->>PCIE_INT_INTERFACE_IMUX_OUT43": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT43",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX43"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX44->>PCIE_INT_INTERFACE_IMUX_DELAY44": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY44",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX44"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX44->>PCIE_INT_INTERFACE_IMUX_OUT44": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT44",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX44"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX45->>PCIE_INT_INTERFACE_IMUX_DELAY45": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY45",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX45"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX45->>PCIE_INT_INTERFACE_IMUX_OUT45": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT45",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX45"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX46->>PCIE_INT_INTERFACE_IMUX_DELAY46": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY46",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX46"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX46->>PCIE_INT_INTERFACE_IMUX_OUT46": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT46",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX46"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX47->>PCIE_INT_INTERFACE_IMUX_DELAY47": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_DELAY47",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX47"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX47->>PCIE_INT_INTERFACE_IMUX_OUT47": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT47",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX47"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY0->PCIE_INT_INTERFACE_IMUX_OUT0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY0"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY1->PCIE_INT_INTERFACE_IMUX_OUT1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY1"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY2->PCIE_INT_INTERFACE_IMUX_OUT2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY2"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY3->PCIE_INT_INTERFACE_IMUX_OUT3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY3"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY4->PCIE_INT_INTERFACE_IMUX_OUT4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY4"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY5->PCIE_INT_INTERFACE_IMUX_OUT5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY5"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY6->PCIE_INT_INTERFACE_IMUX_OUT6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY6"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY7->PCIE_INT_INTERFACE_IMUX_OUT7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT7",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY7"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY8->PCIE_INT_INTERFACE_IMUX_OUT8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT8",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY8"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY9->PCIE_INT_INTERFACE_IMUX_OUT9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT9",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY9"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY10->PCIE_INT_INTERFACE_IMUX_OUT10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT10",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY10"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY11->PCIE_INT_INTERFACE_IMUX_OUT11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT11",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY11"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY12->PCIE_INT_INTERFACE_IMUX_OUT12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT12",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY12"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY13->PCIE_INT_INTERFACE_IMUX_OUT13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT13",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY13"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY14->PCIE_INT_INTERFACE_IMUX_OUT14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT14",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY14"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY15->PCIE_INT_INTERFACE_IMUX_OUT15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT15",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY15"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY16->PCIE_INT_INTERFACE_IMUX_OUT16": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT16",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY16"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY17->PCIE_INT_INTERFACE_IMUX_OUT17": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT17",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY17"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY18->PCIE_INT_INTERFACE_IMUX_OUT18": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT18",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY18"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY19->PCIE_INT_INTERFACE_IMUX_OUT19": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT19",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY19"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY20->PCIE_INT_INTERFACE_IMUX_OUT20": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT20",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY20"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY21->PCIE_INT_INTERFACE_IMUX_OUT21": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT21",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY21"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY22->PCIE_INT_INTERFACE_IMUX_OUT22": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT22",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY22"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY23->PCIE_INT_INTERFACE_IMUX_OUT23": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT23",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY23"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY24->PCIE_INT_INTERFACE_IMUX_OUT24": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT24",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY24"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY25->PCIE_INT_INTERFACE_IMUX_OUT25": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT25",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY25"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY26->PCIE_INT_INTERFACE_IMUX_OUT26": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT26",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY26"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY27->PCIE_INT_INTERFACE_IMUX_OUT27": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT27",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY27"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY28->PCIE_INT_INTERFACE_IMUX_OUT28": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT28",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY28"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY29->PCIE_INT_INTERFACE_IMUX_OUT29": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT29",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY29"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY30->PCIE_INT_INTERFACE_IMUX_OUT30": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT30",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY30"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY31->PCIE_INT_INTERFACE_IMUX_OUT31": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT31",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY31"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY32->PCIE_INT_INTERFACE_IMUX_OUT32": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT32",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY32"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY33->PCIE_INT_INTERFACE_IMUX_OUT33": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT33",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY33"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY34->PCIE_INT_INTERFACE_IMUX_OUT34": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT34",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY34"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY35->PCIE_INT_INTERFACE_IMUX_OUT35": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT35",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY35"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY36->PCIE_INT_INTERFACE_IMUX_OUT36": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT36",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY36"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY37->PCIE_INT_INTERFACE_IMUX_OUT37": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT37",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY37"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY38->PCIE_INT_INTERFACE_IMUX_OUT38": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT38",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY38"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY39->PCIE_INT_INTERFACE_IMUX_OUT39": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT39",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY39"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY40->PCIE_INT_INTERFACE_IMUX_OUT40": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT40",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY40"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY41->PCIE_INT_INTERFACE_IMUX_OUT41": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT41",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY41"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY42->PCIE_INT_INTERFACE_IMUX_OUT42": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT42",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY42"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY43->PCIE_INT_INTERFACE_IMUX_OUT43": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT43",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY43"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY44->PCIE_INT_INTERFACE_IMUX_OUT44": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT44",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY44"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY45->PCIE_INT_INTERFACE_IMUX_OUT45": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT45",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY45"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY46->PCIE_INT_INTERFACE_IMUX_OUT46": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT46",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY46"
+        },
+        "PCIE_INT_INTERFACE_R.PCIE_INT_INTERFACE_IMUX_DELAY47->PCIE_INT_INTERFACE_IMUX_OUT47": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "PCIE_INT_INTERFACE_IMUX_OUT47",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "PCIE_INT_INTERFACE_IMUX_DELAY47"
+        }
+    },
+    "sites": [],
+    "tile_type": "PCIE_INT_INTERFACE_R",
+    "wires": {
+        "INT_INTERFACE_BLOCK_OUTS_B0": null,
+        "INT_INTERFACE_BLOCK_OUTS_B1": null,
+        "INT_INTERFACE_BLOCK_OUTS_B2": null,
+        "INT_INTERFACE_BLOCK_OUTS_B3": null,
+        "INT_INTERFACE_BYP0": null,
+        "INT_INTERFACE_BYP1": null,
+        "INT_INTERFACE_BYP2": null,
+        "INT_INTERFACE_BYP3": null,
+        "INT_INTERFACE_BYP4": null,
+        "INT_INTERFACE_BYP5": null,
+        "INT_INTERFACE_BYP6": null,
+        "INT_INTERFACE_BYP7": null,
+        "INT_INTERFACE_CLK0": null,
+        "INT_INTERFACE_CLK1": null,
+        "INT_INTERFACE_CTRL0": null,
+        "INT_INTERFACE_CTRL1": null,
+        "INT_INTERFACE_EE2A0": null,
+        "INT_INTERFACE_EE2A1": null,
+        "INT_INTERFACE_EE2A2": null,
+        "INT_INTERFACE_EE2A3": null,
+        "INT_INTERFACE_EE2BEG0": null,
+        "INT_INTERFACE_EE2BEG1": null,
+        "INT_INTERFACE_EE2BEG2": null,
+        "INT_INTERFACE_EE2BEG3": null,
+        "INT_INTERFACE_EE4A0": null,
+        "INT_INTERFACE_EE4A1": null,
+        "INT_INTERFACE_EE4A2": null,
+        "INT_INTERFACE_EE4A3": null,
+        "INT_INTERFACE_EE4B0": null,
+        "INT_INTERFACE_EE4B1": null,
+        "INT_INTERFACE_EE4B2": null,
+        "INT_INTERFACE_EE4B3": null,
+        "INT_INTERFACE_EE4BEG0": null,
+        "INT_INTERFACE_EE4BEG1": null,
+        "INT_INTERFACE_EE4BEG2": null,
+        "INT_INTERFACE_EE4BEG3": null,
+        "INT_INTERFACE_EE4C0": null,
+        "INT_INTERFACE_EE4C1": null,
+        "INT_INTERFACE_EE4C2": null,
+        "INT_INTERFACE_EE4C3": null,
+        "INT_INTERFACE_EL1BEG0": null,
+        "INT_INTERFACE_EL1BEG1": null,
+        "INT_INTERFACE_EL1BEG2": null,
+        "INT_INTERFACE_EL1BEG3": null,
+        "INT_INTERFACE_ER1BEG0": null,
+        "INT_INTERFACE_ER1BEG1": null,
+        "INT_INTERFACE_ER1BEG2": null,
+        "INT_INTERFACE_ER1BEG3": null,
+        "INT_INTERFACE_FAN0": null,
+        "INT_INTERFACE_FAN1": null,
+        "INT_INTERFACE_FAN2": null,
+        "INT_INTERFACE_FAN3": null,
+        "INT_INTERFACE_FAN4": null,
+        "INT_INTERFACE_FAN5": null,
+        "INT_INTERFACE_FAN6": null,
+        "INT_INTERFACE_FAN7": null,
+        "INT_INTERFACE_LH1": null,
+        "INT_INTERFACE_LH2": null,
+        "INT_INTERFACE_LH3": null,
+        "INT_INTERFACE_LH4": null,
+        "INT_INTERFACE_LH5": null,
+        "INT_INTERFACE_LH6": null,
+        "INT_INTERFACE_LH7": null,
+        "INT_INTERFACE_LH8": null,
+        "INT_INTERFACE_LH9": null,
+        "INT_INTERFACE_LH10": null,
+        "INT_INTERFACE_LH11": null,
+        "INT_INTERFACE_LH12": null,
+        "INT_INTERFACE_LOGIC_OUTS0": null,
+        "INT_INTERFACE_LOGIC_OUTS1": null,
+        "INT_INTERFACE_LOGIC_OUTS2": null,
+        "INT_INTERFACE_LOGIC_OUTS3": null,
+        "INT_INTERFACE_LOGIC_OUTS4": null,
+        "INT_INTERFACE_LOGIC_OUTS5": null,
+        "INT_INTERFACE_LOGIC_OUTS6": null,
+        "INT_INTERFACE_LOGIC_OUTS7": null,
+        "INT_INTERFACE_LOGIC_OUTS8": null,
+        "INT_INTERFACE_LOGIC_OUTS9": null,
+        "INT_INTERFACE_LOGIC_OUTS10": null,
+        "INT_INTERFACE_LOGIC_OUTS11": null,
+        "INT_INTERFACE_LOGIC_OUTS12": null,
+        "INT_INTERFACE_LOGIC_OUTS13": null,
+        "INT_INTERFACE_LOGIC_OUTS14": null,
+        "INT_INTERFACE_LOGIC_OUTS15": null,
+        "INT_INTERFACE_LOGIC_OUTS16": null,
+        "INT_INTERFACE_LOGIC_OUTS17": null,
+        "INT_INTERFACE_LOGIC_OUTS18": null,
+        "INT_INTERFACE_LOGIC_OUTS19": null,
+        "INT_INTERFACE_LOGIC_OUTS20": null,
+        "INT_INTERFACE_LOGIC_OUTS21": null,
+        "INT_INTERFACE_LOGIC_OUTS22": null,
+        "INT_INTERFACE_LOGIC_OUTS23": null,
+        "INT_INTERFACE_LOGIC_OUTS_B0": null,
+        "INT_INTERFACE_LOGIC_OUTS_B1": null,
+        "INT_INTERFACE_LOGIC_OUTS_B2": null,
+        "INT_INTERFACE_LOGIC_OUTS_B3": null,
+        "INT_INTERFACE_LOGIC_OUTS_B4": null,
+        "INT_INTERFACE_LOGIC_OUTS_B5": null,
+        "INT_INTERFACE_LOGIC_OUTS_B6": null,
+        "INT_INTERFACE_LOGIC_OUTS_B7": null,
+        "INT_INTERFACE_LOGIC_OUTS_B8": null,
+        "INT_INTERFACE_LOGIC_OUTS_B9": null,
+        "INT_INTERFACE_LOGIC_OUTS_B10": null,
+        "INT_INTERFACE_LOGIC_OUTS_B11": null,
+        "INT_INTERFACE_LOGIC_OUTS_B12": null,
+        "INT_INTERFACE_LOGIC_OUTS_B13": null,
+        "INT_INTERFACE_LOGIC_OUTS_B14": null,
+        "INT_INTERFACE_LOGIC_OUTS_B15": null,
+        "INT_INTERFACE_LOGIC_OUTS_B16": null,
+        "INT_INTERFACE_LOGIC_OUTS_B17": null,
+        "INT_INTERFACE_LOGIC_OUTS_B18": null,
+        "INT_INTERFACE_LOGIC_OUTS_B19": null,
+        "INT_INTERFACE_LOGIC_OUTS_B20": null,
+        "INT_INTERFACE_LOGIC_OUTS_B21": null,
+        "INT_INTERFACE_LOGIC_OUTS_B22": null,
+        "INT_INTERFACE_LOGIC_OUTS_B23": null,
+        "INT_INTERFACE_MONITOR_N": null,
+        "INT_INTERFACE_MONITOR_P": null,
+        "INT_INTERFACE_NE2A0": null,
+        "INT_INTERFACE_NE2A1": null,
+        "INT_INTERFACE_NE2A2": null,
+        "INT_INTERFACE_NE2A3": null,
+        "INT_INTERFACE_NE4BEG0": null,
+        "INT_INTERFACE_NE4BEG1": null,
+        "INT_INTERFACE_NE4BEG2": null,
+        "INT_INTERFACE_NE4BEG3": null,
+        "INT_INTERFACE_NE4C0": null,
+        "INT_INTERFACE_NE4C1": null,
+        "INT_INTERFACE_NE4C2": null,
+        "INT_INTERFACE_NE4C3": null,
+        "INT_INTERFACE_NW2A0": null,
+        "INT_INTERFACE_NW2A1": null,
+        "INT_INTERFACE_NW2A2": null,
+        "INT_INTERFACE_NW2A3": null,
+        "INT_INTERFACE_NW4A0": null,
+        "INT_INTERFACE_NW4A1": null,
+        "INT_INTERFACE_NW4A2": null,
+        "INT_INTERFACE_NW4A3": null,
+        "INT_INTERFACE_NW4END0": null,
+        "INT_INTERFACE_NW4END1": null,
+        "INT_INTERFACE_NW4END2": null,
+        "INT_INTERFACE_NW4END3": null,
+        "INT_INTERFACE_SE2A0": null,
+        "INT_INTERFACE_SE2A1": null,
+        "INT_INTERFACE_SE2A2": null,
+        "INT_INTERFACE_SE2A3": null,
+        "INT_INTERFACE_SE4BEG0": null,
+        "INT_INTERFACE_SE4BEG1": null,
+        "INT_INTERFACE_SE4BEG2": null,
+        "INT_INTERFACE_SE4BEG3": null,
+        "INT_INTERFACE_SE4C0": null,
+        "INT_INTERFACE_SE4C1": null,
+        "INT_INTERFACE_SE4C2": null,
+        "INT_INTERFACE_SE4C3": null,
+        "INT_INTERFACE_SW2A0": null,
+        "INT_INTERFACE_SW2A1": null,
+        "INT_INTERFACE_SW2A2": null,
+        "INT_INTERFACE_SW2A3": null,
+        "INT_INTERFACE_SW4A0": null,
+        "INT_INTERFACE_SW4A1": null,
+        "INT_INTERFACE_SW4A2": null,
+        "INT_INTERFACE_SW4A3": null,
+        "INT_INTERFACE_SW4END0": null,
+        "INT_INTERFACE_SW4END1": null,
+        "INT_INTERFACE_SW4END2": null,
+        "INT_INTERFACE_SW4END3": null,
+        "INT_INTERFACE_WL1END0": null,
+        "INT_INTERFACE_WL1END1": null,
+        "INT_INTERFACE_WL1END2": null,
+        "INT_INTERFACE_WL1END3": null,
+        "INT_INTERFACE_WR1END0": null,
+        "INT_INTERFACE_WR1END1": null,
+        "INT_INTERFACE_WR1END2": null,
+        "INT_INTERFACE_WR1END3": null,
+        "INT_INTERFACE_WW2A0": null,
+        "INT_INTERFACE_WW2A1": null,
+        "INT_INTERFACE_WW2A2": null,
+        "INT_INTERFACE_WW2A3": null,
+        "INT_INTERFACE_WW2END0": null,
+        "INT_INTERFACE_WW2END1": null,
+        "INT_INTERFACE_WW2END2": null,
+        "INT_INTERFACE_WW2END3": null,
+        "INT_INTERFACE_WW4A0": null,
+        "INT_INTERFACE_WW4A1": null,
+        "INT_INTERFACE_WW4A2": null,
+        "INT_INTERFACE_WW4A3": null,
+        "INT_INTERFACE_WW4B0": null,
+        "INT_INTERFACE_WW4B1": null,
+        "INT_INTERFACE_WW4B2": null,
+        "INT_INTERFACE_WW4B3": null,
+        "INT_INTERFACE_WW4C0": null,
+        "INT_INTERFACE_WW4C1": null,
+        "INT_INTERFACE_WW4C2": null,
+        "INT_INTERFACE_WW4C3": null,
+        "INT_INTERFACE_WW4END0": null,
+        "INT_INTERFACE_WW4END1": null,
+        "INT_INTERFACE_WW4END2": null,
+        "INT_INTERFACE_WW4END3": null,
+        "PCIE_INT_INTERFACE_IMUX0": null,
+        "PCIE_INT_INTERFACE_IMUX1": null,
+        "PCIE_INT_INTERFACE_IMUX2": null,
+        "PCIE_INT_INTERFACE_IMUX3": null,
+        "PCIE_INT_INTERFACE_IMUX4": null,
+        "PCIE_INT_INTERFACE_IMUX5": null,
+        "PCIE_INT_INTERFACE_IMUX6": null,
+        "PCIE_INT_INTERFACE_IMUX7": null,
+        "PCIE_INT_INTERFACE_IMUX8": null,
+        "PCIE_INT_INTERFACE_IMUX9": null,
+        "PCIE_INT_INTERFACE_IMUX10": null,
+        "PCIE_INT_INTERFACE_IMUX11": null,
+        "PCIE_INT_INTERFACE_IMUX12": null,
+        "PCIE_INT_INTERFACE_IMUX13": null,
+        "PCIE_INT_INTERFACE_IMUX14": null,
+        "PCIE_INT_INTERFACE_IMUX15": null,
+        "PCIE_INT_INTERFACE_IMUX16": null,
+        "PCIE_INT_INTERFACE_IMUX17": null,
+        "PCIE_INT_INTERFACE_IMUX18": null,
+        "PCIE_INT_INTERFACE_IMUX19": null,
+        "PCIE_INT_INTERFACE_IMUX20": null,
+        "PCIE_INT_INTERFACE_IMUX21": null,
+        "PCIE_INT_INTERFACE_IMUX22": null,
+        "PCIE_INT_INTERFACE_IMUX23": null,
+        "PCIE_INT_INTERFACE_IMUX24": null,
+        "PCIE_INT_INTERFACE_IMUX25": null,
+        "PCIE_INT_INTERFACE_IMUX26": null,
+        "PCIE_INT_INTERFACE_IMUX27": null,
+        "PCIE_INT_INTERFACE_IMUX28": null,
+        "PCIE_INT_INTERFACE_IMUX29": null,
+        "PCIE_INT_INTERFACE_IMUX30": null,
+        "PCIE_INT_INTERFACE_IMUX31": null,
+        "PCIE_INT_INTERFACE_IMUX32": null,
+        "PCIE_INT_INTERFACE_IMUX33": null,
+        "PCIE_INT_INTERFACE_IMUX34": null,
+        "PCIE_INT_INTERFACE_IMUX35": null,
+        "PCIE_INT_INTERFACE_IMUX36": null,
+        "PCIE_INT_INTERFACE_IMUX37": null,
+        "PCIE_INT_INTERFACE_IMUX38": null,
+        "PCIE_INT_INTERFACE_IMUX39": null,
+        "PCIE_INT_INTERFACE_IMUX40": null,
+        "PCIE_INT_INTERFACE_IMUX41": null,
+        "PCIE_INT_INTERFACE_IMUX42": null,
+        "PCIE_INT_INTERFACE_IMUX43": null,
+        "PCIE_INT_INTERFACE_IMUX44": null,
+        "PCIE_INT_INTERFACE_IMUX45": null,
+        "PCIE_INT_INTERFACE_IMUX46": null,
+        "PCIE_INT_INTERFACE_IMUX47": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY0": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY1": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY2": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY3": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY4": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY5": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY6": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY7": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY8": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY9": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY10": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY11": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY12": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY13": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY14": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY15": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY16": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY17": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY18": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY19": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY20": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY21": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY22": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY23": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY24": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY25": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY26": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY27": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY28": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY29": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY30": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY31": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY32": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY33": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY34": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY35": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY36": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY37": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY38": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY39": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY40": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY41": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY42": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY43": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY44": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY45": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY46": null,
+        "PCIE_INT_INTERFACE_IMUX_DELAY47": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT0": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT1": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT2": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT3": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT4": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT5": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT6": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT7": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT8": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT9": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT10": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT11": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT12": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT13": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT14": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT15": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT16": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT17": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT18": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT19": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT20": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT21": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT22": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT23": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT24": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT25": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT26": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT27": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT28": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT29": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT30": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT31": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT32": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT33": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT34": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT35": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT36": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT37": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT38": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT39": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT40": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT41": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT42": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT43": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT44": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT45": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT46": null,
+        "PCIE_INT_INTERFACE_IMUX_OUT47": null
+    }
+}

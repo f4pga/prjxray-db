@@ -1,0 +1,493 @@
+{
+    "site_pins": {
+        "CLKFBIN": {
+            "direction": "IN"
+        },
+        "CLKFBOUT": {
+            "direction": "OUT"
+        },
+        "CLKIN1": {
+            "direction": "IN"
+        },
+        "CLKIN2": {
+            "direction": "IN"
+        },
+        "CLKINSEL": {
+            "direction": "IN"
+        },
+        "CLKOUT0": {
+            "direction": "OUT"
+        },
+        "CLKOUT1": {
+            "direction": "OUT"
+        },
+        "CLKOUT2": {
+            "direction": "OUT"
+        },
+        "CLKOUT3": {
+            "direction": "OUT"
+        },
+        "CLKOUT4": {
+            "direction": "OUT"
+        },
+        "CLKOUT5": {
+            "direction": "OUT"
+        },
+        "DADDR0": {
+            "direction": "IN"
+        },
+        "DADDR1": {
+            "direction": "IN"
+        },
+        "DADDR2": {
+            "direction": "IN"
+        },
+        "DADDR3": {
+            "direction": "IN"
+        },
+        "DADDR4": {
+            "direction": "IN"
+        },
+        "DADDR5": {
+            "direction": "IN"
+        },
+        "DADDR6": {
+            "direction": "IN"
+        },
+        "DCLK": {
+            "direction": "IN"
+        },
+        "DEN": {
+            "direction": "IN"
+        },
+        "DI0": {
+            "direction": "IN"
+        },
+        "DI1": {
+            "direction": "IN"
+        },
+        "DI2": {
+            "direction": "IN"
+        },
+        "DI3": {
+            "direction": "IN"
+        },
+        "DI4": {
+            "direction": "IN"
+        },
+        "DI5": {
+            "direction": "IN"
+        },
+        "DI6": {
+            "direction": "IN"
+        },
+        "DI7": {
+            "direction": "IN"
+        },
+        "DI8": {
+            "direction": "IN"
+        },
+        "DI9": {
+            "direction": "IN"
+        },
+        "DI10": {
+            "direction": "IN"
+        },
+        "DI11": {
+            "direction": "IN"
+        },
+        "DI12": {
+            "direction": "IN"
+        },
+        "DI13": {
+            "direction": "IN"
+        },
+        "DI14": {
+            "direction": "IN"
+        },
+        "DI15": {
+            "direction": "IN"
+        },
+        "DO0": {
+            "direction": "OUT"
+        },
+        "DO1": {
+            "direction": "OUT"
+        },
+        "DO2": {
+            "direction": "OUT"
+        },
+        "DO3": {
+            "direction": "OUT"
+        },
+        "DO4": {
+            "direction": "OUT"
+        },
+        "DO5": {
+            "direction": "OUT"
+        },
+        "DO6": {
+            "direction": "OUT"
+        },
+        "DO7": {
+            "direction": "OUT"
+        },
+        "DO8": {
+            "direction": "OUT"
+        },
+        "DO9": {
+            "direction": "OUT"
+        },
+        "DO10": {
+            "direction": "OUT"
+        },
+        "DO11": {
+            "direction": "OUT"
+        },
+        "DO12": {
+            "direction": "OUT"
+        },
+        "DO13": {
+            "direction": "OUT"
+        },
+        "DO14": {
+            "direction": "OUT"
+        },
+        "DO15": {
+            "direction": "OUT"
+        },
+        "DRDY": {
+            "direction": "OUT"
+        },
+        "DWE": {
+            "direction": "IN"
+        },
+        "LOCKED": {
+            "direction": "OUT"
+        },
+        "PWRDWN": {
+            "direction": "IN"
+        },
+        "RST": {
+            "direction": "IN"
+        },
+        "TESTIN0": {
+            "direction": "IN"
+        },
+        "TESTIN1": {
+            "direction": "IN"
+        },
+        "TESTIN2": {
+            "direction": "IN"
+        },
+        "TESTIN3": {
+            "direction": "IN"
+        },
+        "TESTIN4": {
+            "direction": "IN"
+        },
+        "TESTIN5": {
+            "direction": "IN"
+        },
+        "TESTIN6": {
+            "direction": "IN"
+        },
+        "TESTIN7": {
+            "direction": "IN"
+        },
+        "TESTIN8": {
+            "direction": "IN"
+        },
+        "TESTIN9": {
+            "direction": "IN"
+        },
+        "TESTIN10": {
+            "direction": "IN"
+        },
+        "TESTIN11": {
+            "direction": "IN"
+        },
+        "TESTIN12": {
+            "direction": "IN"
+        },
+        "TESTIN13": {
+            "direction": "IN"
+        },
+        "TESTIN14": {
+            "direction": "IN"
+        },
+        "TESTIN15": {
+            "direction": "IN"
+        },
+        "TESTIN16": {
+            "direction": "IN"
+        },
+        "TESTIN17": {
+            "direction": "IN"
+        },
+        "TESTIN18": {
+            "direction": "IN"
+        },
+        "TESTIN19": {
+            "direction": "IN"
+        },
+        "TESTIN20": {
+            "direction": "IN"
+        },
+        "TESTIN21": {
+            "direction": "IN"
+        },
+        "TESTIN22": {
+            "direction": "IN"
+        },
+        "TESTIN23": {
+            "direction": "IN"
+        },
+        "TESTIN24": {
+            "direction": "IN"
+        },
+        "TESTIN25": {
+            "direction": "IN"
+        },
+        "TESTIN26": {
+            "direction": "IN"
+        },
+        "TESTIN27": {
+            "direction": "IN"
+        },
+        "TESTIN28": {
+            "direction": "IN"
+        },
+        "TESTIN29": {
+            "direction": "IN"
+        },
+        "TESTIN30": {
+            "direction": "IN"
+        },
+        "TESTIN31": {
+            "direction": "IN"
+        },
+        "TESTOUT0": {
+            "direction": "OUT"
+        },
+        "TESTOUT1": {
+            "direction": "OUT"
+        },
+        "TESTOUT2": {
+            "direction": "OUT"
+        },
+        "TESTOUT3": {
+            "direction": "OUT"
+        },
+        "TESTOUT4": {
+            "direction": "OUT"
+        },
+        "TESTOUT5": {
+            "direction": "OUT"
+        },
+        "TESTOUT6": {
+            "direction": "OUT"
+        },
+        "TESTOUT7": {
+            "direction": "OUT"
+        },
+        "TESTOUT8": {
+            "direction": "OUT"
+        },
+        "TESTOUT9": {
+            "direction": "OUT"
+        },
+        "TESTOUT10": {
+            "direction": "OUT"
+        },
+        "TESTOUT11": {
+            "direction": "OUT"
+        },
+        "TESTOUT12": {
+            "direction": "OUT"
+        },
+        "TESTOUT13": {
+            "direction": "OUT"
+        },
+        "TESTOUT14": {
+            "direction": "OUT"
+        },
+        "TESTOUT15": {
+            "direction": "OUT"
+        },
+        "TESTOUT16": {
+            "direction": "OUT"
+        },
+        "TESTOUT17": {
+            "direction": "OUT"
+        },
+        "TESTOUT18": {
+            "direction": "OUT"
+        },
+        "TESTOUT19": {
+            "direction": "OUT"
+        },
+        "TESTOUT20": {
+            "direction": "OUT"
+        },
+        "TESTOUT21": {
+            "direction": "OUT"
+        },
+        "TESTOUT22": {
+            "direction": "OUT"
+        },
+        "TESTOUT23": {
+            "direction": "OUT"
+        },
+        "TESTOUT24": {
+            "direction": "OUT"
+        },
+        "TESTOUT25": {
+            "direction": "OUT"
+        },
+        "TESTOUT26": {
+            "direction": "OUT"
+        },
+        "TESTOUT27": {
+            "direction": "OUT"
+        },
+        "TESTOUT28": {
+            "direction": "OUT"
+        },
+        "TESTOUT29": {
+            "direction": "OUT"
+        },
+        "TESTOUT30": {
+            "direction": "OUT"
+        },
+        "TESTOUT31": {
+            "direction": "OUT"
+        },
+        "TESTOUT32": {
+            "direction": "OUT"
+        },
+        "TESTOUT33": {
+            "direction": "OUT"
+        },
+        "TESTOUT34": {
+            "direction": "OUT"
+        },
+        "TESTOUT35": {
+            "direction": "OUT"
+        },
+        "TESTOUT36": {
+            "direction": "OUT"
+        },
+        "TESTOUT37": {
+            "direction": "OUT"
+        },
+        "TESTOUT38": {
+            "direction": "OUT"
+        },
+        "TESTOUT39": {
+            "direction": "OUT"
+        },
+        "TESTOUT40": {
+            "direction": "OUT"
+        },
+        "TESTOUT41": {
+            "direction": "OUT"
+        },
+        "TESTOUT42": {
+            "direction": "OUT"
+        },
+        "TESTOUT43": {
+            "direction": "OUT"
+        },
+        "TESTOUT44": {
+            "direction": "OUT"
+        },
+        "TESTOUT45": {
+            "direction": "OUT"
+        },
+        "TESTOUT46": {
+            "direction": "OUT"
+        },
+        "TESTOUT47": {
+            "direction": "OUT"
+        },
+        "TESTOUT48": {
+            "direction": "OUT"
+        },
+        "TESTOUT49": {
+            "direction": "OUT"
+        },
+        "TESTOUT50": {
+            "direction": "OUT"
+        },
+        "TESTOUT51": {
+            "direction": "OUT"
+        },
+        "TESTOUT52": {
+            "direction": "OUT"
+        },
+        "TESTOUT53": {
+            "direction": "OUT"
+        },
+        "TESTOUT54": {
+            "direction": "OUT"
+        },
+        "TESTOUT55": {
+            "direction": "OUT"
+        },
+        "TESTOUT56": {
+            "direction": "OUT"
+        },
+        "TESTOUT57": {
+            "direction": "OUT"
+        },
+        "TESTOUT58": {
+            "direction": "OUT"
+        },
+        "TESTOUT59": {
+            "direction": "OUT"
+        },
+        "TESTOUT60": {
+            "direction": "OUT"
+        },
+        "TESTOUT61": {
+            "direction": "OUT"
+        },
+        "TESTOUT62": {
+            "direction": "OUT"
+        },
+        "TESTOUT63": {
+            "direction": "OUT"
+        },
+        "TMUXOUT": {
+            "direction": "OUT"
+        }
+    },
+    "site_pips": {
+        "CLKINSELINV:CLKINSEL": {
+            "from_pin": "CLKINSEL",
+            "to_pin": "OUT"
+        },
+        "CLKINSELINV:CLKINSEL_B": {
+            "from_pin": "CLKINSEL_B",
+            "to_pin": "OUT"
+        },
+        "PWRDWNINV:PWRDWN": {
+            "from_pin": "PWRDWN",
+            "to_pin": "OUT"
+        },
+        "PWRDWNINV:PWRDWN_B": {
+            "from_pin": "PWRDWN_B",
+            "to_pin": "OUT"
+        },
+        "RSTINV:RST": {
+            "from_pin": "RST",
+            "to_pin": "OUT"
+        },
+        "RSTINV:RST_B": {
+            "from_pin": "RST_B",
+            "to_pin": "OUT"
+        }
+    },
+    "type": "PLLE2_ADV"
+}

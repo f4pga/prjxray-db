@@ -1,0 +1,602 @@
+{
+    "pips": {},
+    "sites": [],
+    "tile_type": "CMT_PMV",
+    "wires": {
+        "CMT_PMV_BYP0": null,
+        "CMT_PMV_BYP1": null,
+        "CMT_PMV_BYP2": null,
+        "CMT_PMV_BYP3": null,
+        "CMT_PMV_BYP4": null,
+        "CMT_PMV_BYP5": null,
+        "CMT_PMV_BYP6": null,
+        "CMT_PMV_BYP7": null,
+        "CMT_PMV_CLK0": null,
+        "CMT_PMV_CLK1": null,
+        "CMT_PMV_CTRL0": null,
+        "CMT_PMV_CTRL1": null,
+        "CMT_PMV_EE2A0": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE2A1": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE2A2": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE2A3": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE2BEG0": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE2BEG1": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE2BEG2": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE2BEG3": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4A0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4A1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4A2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4A3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4B0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4B1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4B2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4B3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4BEG0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4BEG1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4BEG2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4BEG3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4C0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4C1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4C2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EE4C3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EL1BEG0": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EL1BEG1": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EL1BEG2": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_EL1BEG3": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_ER1BEG0": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_ER1BEG1": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_ER1BEG2": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_ER1BEG3": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_FAN0": null,
+        "CMT_PMV_FAN1": null,
+        "CMT_PMV_FAN2": null,
+        "CMT_PMV_FAN3": null,
+        "CMT_PMV_FAN4": null,
+        "CMT_PMV_FAN5": null,
+        "CMT_PMV_FAN6": null,
+        "CMT_PMV_FAN7": null,
+        "CMT_PMV_IMUX0": null,
+        "CMT_PMV_IMUX1": null,
+        "CMT_PMV_IMUX2": null,
+        "CMT_PMV_IMUX3": null,
+        "CMT_PMV_IMUX4": null,
+        "CMT_PMV_IMUX5": null,
+        "CMT_PMV_IMUX6": null,
+        "CMT_PMV_IMUX7": null,
+        "CMT_PMV_IMUX8": null,
+        "CMT_PMV_IMUX9": null,
+        "CMT_PMV_IMUX10": null,
+        "CMT_PMV_IMUX11": null,
+        "CMT_PMV_IMUX12": null,
+        "CMT_PMV_IMUX13": null,
+        "CMT_PMV_IMUX14": null,
+        "CMT_PMV_IMUX15": null,
+        "CMT_PMV_IMUX16": null,
+        "CMT_PMV_IMUX17": null,
+        "CMT_PMV_IMUX18": null,
+        "CMT_PMV_IMUX19": null,
+        "CMT_PMV_IMUX20": null,
+        "CMT_PMV_IMUX21": null,
+        "CMT_PMV_IMUX22": null,
+        "CMT_PMV_IMUX23": null,
+        "CMT_PMV_IMUX24": null,
+        "CMT_PMV_IMUX25": null,
+        "CMT_PMV_IMUX26": null,
+        "CMT_PMV_IMUX27": null,
+        "CMT_PMV_IMUX28": null,
+        "CMT_PMV_IMUX29": null,
+        "CMT_PMV_IMUX30": null,
+        "CMT_PMV_IMUX31": null,
+        "CMT_PMV_IMUX32": null,
+        "CMT_PMV_IMUX33": null,
+        "CMT_PMV_IMUX34": null,
+        "CMT_PMV_IMUX35": null,
+        "CMT_PMV_IMUX36": null,
+        "CMT_PMV_IMUX37": null,
+        "CMT_PMV_IMUX38": null,
+        "CMT_PMV_IMUX39": null,
+        "CMT_PMV_IMUX40": null,
+        "CMT_PMV_IMUX41": null,
+        "CMT_PMV_IMUX42": null,
+        "CMT_PMV_IMUX43": null,
+        "CMT_PMV_IMUX44": null,
+        "CMT_PMV_IMUX45": null,
+        "CMT_PMV_IMUX46": null,
+        "CMT_PMV_IMUX47": null,
+        "CMT_PMV_LH1": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_PMV_LH2": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_PMV_LH3": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_PMV_LH4": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_PMV_LH5": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_PMV_LH6": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_PMV_LH7": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_PMV_LH8": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_PMV_LH9": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_PMV_LH10": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_PMV_LH11": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_PMV_LH12": {
+            "cap": "60.260",
+            "res": "15.190"
+        },
+        "CMT_PMV_LOGIC_OUTS0": null,
+        "CMT_PMV_LOGIC_OUTS1": null,
+        "CMT_PMV_LOGIC_OUTS2": null,
+        "CMT_PMV_LOGIC_OUTS3": null,
+        "CMT_PMV_LOGIC_OUTS4": null,
+        "CMT_PMV_LOGIC_OUTS5": null,
+        "CMT_PMV_LOGIC_OUTS6": null,
+        "CMT_PMV_LOGIC_OUTS7": null,
+        "CMT_PMV_LOGIC_OUTS8": null,
+        "CMT_PMV_LOGIC_OUTS9": null,
+        "CMT_PMV_LOGIC_OUTS10": null,
+        "CMT_PMV_LOGIC_OUTS11": null,
+        "CMT_PMV_LOGIC_OUTS12": null,
+        "CMT_PMV_LOGIC_OUTS13": null,
+        "CMT_PMV_LOGIC_OUTS14": null,
+        "CMT_PMV_LOGIC_OUTS15": null,
+        "CMT_PMV_LOGIC_OUTS16": null,
+        "CMT_PMV_LOGIC_OUTS17": null,
+        "CMT_PMV_LOGIC_OUTS18": null,
+        "CMT_PMV_LOGIC_OUTS19": null,
+        "CMT_PMV_LOGIC_OUTS20": null,
+        "CMT_PMV_LOGIC_OUTS21": null,
+        "CMT_PMV_LOGIC_OUTS22": null,
+        "CMT_PMV_LOGIC_OUTS23": null,
+        "CMT_PMV_MONITOR_N": null,
+        "CMT_PMV_MONITOR_P": null,
+        "CMT_PMV_NE2A0": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_NE2A1": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_NE2A2": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_NE2A3": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_NE4BEG0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NE4BEG1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NE4BEG2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NE4BEG3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NE4C0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NE4C1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NE4C2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NE4C3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NW2A0": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_NW2A1": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_NW2A2": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_NW2A3": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_NW4A0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NW4A1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NW4A2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NW4A3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NW4END0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NW4END1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NW4END2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_NW4END3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SE2A0": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_SE2A1": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_SE2A2": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_SE2A3": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_SE4BEG0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SE4BEG1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SE4BEG2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SE4BEG3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SE4C0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SE4C1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SE4C2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SE4C3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SW2A0": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_SW2A1": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_SW2A2": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_SW2A3": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_SW4A0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SW4A1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SW4A2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SW4A3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SW4END0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SW4END1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SW4END2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_SW4END3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WL1END0": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WL1END1": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WL1END2": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WL1END3": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WR1END0": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WR1END1": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WR1END2": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WR1END3": {
+            "cap": "25.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW2A0": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW2A1": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW2A2": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW2A3": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW2END0": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW2END1": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW2END2": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW2END3": {
+            "cap": "22.067",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4A0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4A1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4A2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4A3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4B0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4B1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4B2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4B3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4C0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4C1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4C2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4C3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4END0": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4END1": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4END2": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "CMT_PMV_WW4END3": {
+            "cap": "18.000",
+            "res": "317.510"
+        },
+        "L_TERM_INT_PHASER_TO_IO_ICLK": null,
+        "L_TERM_INT_PHASER_TO_IO_ICLKDIV": null,
+        "L_TERM_INT_PHASER_TO_IO_OCLK": null,
+        "L_TERM_INT_PHASER_TO_IO_OCLK1X_90": null,
+        "L_TERM_INT_PHASER_TO_IO_OCLKDIV": null
+    }
+}

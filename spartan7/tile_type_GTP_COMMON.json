@@ -1,0 +1,5336 @@
+{
+    "pips": {
+        "GTP_COMMON.GTPE2_CLK0_1->GTPE2_COMMON_PLL0LOCKDETCLK": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL0LOCKDETCLK",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_CLK0_1"
+        },
+        "GTP_COMMON.GTPE2_CLK0_5->GTPE2_COMMON_GTGREFCLK0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_GTGREFCLK0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_CLK0_5"
+        },
+        "GTP_COMMON.GTPE2_CLK1_1->GTPE2_COMMON_PLL1LOCKDETCLK": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL1LOCKDETCLK",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_CLK1_1"
+        },
+        "GTP_COMMON.GTPE2_CLK1_4->GTPE2_COMMON_GTGREFCLK1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_GTGREFCLK1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_CLK1_4"
+        },
+        "GTP_COMMON.GTPE2_CLK1_5->GTPE2_COMMON_DRPCLK": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPCLK",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_CLK1_5"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DMONITOROUT0->GTPE2_LOGIC_OUTS_B8_5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B8_5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DMONITOROUT0"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DMONITOROUT1->GTPE2_LOGIC_OUTS_B8_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B8_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DMONITOROUT1"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DMONITOROUT2->GTPE2_LOGIC_OUTS_B8_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B8_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DMONITOROUT2"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DMONITOROUT3->GTPE2_LOGIC_OUTS_B8_2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B8_2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DMONITOROUT3"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DMONITOROUT4->GTPE2_LOGIC_OUTS_B8_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B8_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DMONITOROUT4"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DMONITOROUT5->GTPE2_LOGIC_OUTS_B14_5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B14_5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DMONITOROUT5"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DMONITOROUT6->GTPE2_LOGIC_OUTS_B14_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B14_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DMONITOROUT6"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DMONITOROUT7->GTPE2_LOGIC_OUTS_B14_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B14_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DMONITOROUT7"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO0->GTPE2_LOGIC_OUTS_B9_5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B9_5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO0"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO1->GTPE2_LOGIC_OUTS_B9_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B9_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO1"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO2->GTPE2_LOGIC_OUTS_B9_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B9_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO2"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO3->GTPE2_LOGIC_OUTS_B9_2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B9_2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO3"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO4->GTPE2_LOGIC_OUTS_B9_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B9_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO4"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO5->GTPE2_LOGIC_OUTS_B16_5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B16_5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO5"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO6->GTPE2_LOGIC_OUTS_B16_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B16_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO6"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO7->GTPE2_LOGIC_OUTS_B16_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B16_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO7"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO8->GTPE2_LOGIC_OUTS_B16_2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B16_2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO8"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO9->GTPE2_LOGIC_OUTS_B16_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B16_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO9"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO10->GTPE2_LOGIC_OUTS_B10_5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B10_5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO10"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO11->GTPE2_LOGIC_OUTS_B10_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B10_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO11"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO12->GTPE2_LOGIC_OUTS_B10_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B10_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO12"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO13->GTPE2_LOGIC_OUTS_B10_2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B10_2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO13"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO14->GTPE2_LOGIC_OUTS_B10_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B10_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO14"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPDO15->GTPE2_LOGIC_OUTS_B18_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B18_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPDO15"
+        },
+        "GTP_COMMON.GTPE2_COMMON_DRPRDY->GTPE2_LOGIC_OUTS_B17_5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B17_5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_DRPRDY"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PLL0FBCLKLOST->GTPE2_LOGIC_OUTS_B17_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B17_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PLL0FBCLKLOST"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PLL0LOCK->GTPE2_LOGIC_OUTS_B17_2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B17_2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PLL0LOCK"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PLL0OUTCLK->GTPE2_COMMON_PLLOUTCLK0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLOUTCLK0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PLL0OUTCLK"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PLL0REFCLK->GTPE2_COMMON_PLLREFCLK0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLREFCLK0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PLL0REFCLK"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PLL0REFCLKLOST->GTPE2_LOGIC_OUTS_B17_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B17_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PLL0REFCLKLOST"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PLL1FBCLKLOST->GTPE2_LOGIC_OUTS_B18_5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B18_5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PLL1FBCLKLOST"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PLL1LOCK->GTPE2_LOGIC_OUTS_B11_5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B11_5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PLL1LOCK"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PLL1OUTCLK->GTPE2_COMMON_PLLOUTCLK1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLOUTCLK1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PLL1OUTCLK"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PLL1REFCLK->GTPE2_COMMON_PLLREFCLK1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLREFCLK1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PLL1REFCLK"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PLL1REFCLKLOST->GTPE2_LOGIC_OUTS_B11_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B11_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PLL1REFCLKLOST"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT0->GTPE2_LOGIC_OUTS_B13_5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B13_5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT0"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT1->GTPE2_LOGIC_OUTS_B13_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B13_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT1"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT2->GTPE2_LOGIC_OUTS_B13_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B13_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT2"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT3->GTPE2_LOGIC_OUTS_B13_2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B13_2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT3"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT4->GTPE2_LOGIC_OUTS_B13_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B13_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT4"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT5->GTPE2_LOGIC_OUTS_B19_5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B19_5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT5"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT6->GTPE2_LOGIC_OUTS_B19_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B19_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT6"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT7->GTPE2_LOGIC_OUTS_B19_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B19_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT7"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT8->GTPE2_LOGIC_OUTS_B19_2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B19_2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT8"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT9->GTPE2_LOGIC_OUTS_B19_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B19_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT9"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT10->GTPE2_LOGIC_OUTS_B20_5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B20_5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT10"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT11->GTPE2_LOGIC_OUTS_B20_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B20_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT11"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT12->GTPE2_LOGIC_OUTS_B20_3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B20_3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT12"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT13->GTPE2_LOGIC_OUTS_B20_2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B20_2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT13"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT14->GTPE2_LOGIC_OUTS_B20_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B20_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT14"
+        },
+        "GTP_COMMON.GTPE2_COMMON_PMARSVDOUT15->GTPE2_LOGIC_OUTS_B18_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B18_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_PMARSVDOUT15"
+        },
+        "GTP_COMMON.GTPE2_COMMON_REFCLK0->>GTPE2_COMMON_GTREFCLK0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "GTPE2_COMMON_GTREFCLK0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GTPE2_COMMON_REFCLK0"
+        },
+        "GTP_COMMON.GTPE2_COMMON_REFCLK1->>GTPE2_COMMON_GTREFCLK1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "GTPE2_COMMON_GTREFCLK1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GTPE2_COMMON_REFCLK1"
+        },
+        "GTP_COMMON.GTPE2_COMMON_REFCLKOUTMONITOR0->GTPE2_LOGIC_OUTS_B17_4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B17_4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_REFCLKOUTMONITOR0"
+        },
+        "GTP_COMMON.GTPE2_COMMON_REFCLKOUTMONITOR1->GTPE2_LOGIC_OUTS_B18_2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_LOGIC_OUTS_B18_2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_COMMON_REFCLKOUTMONITOR1"
+        },
+        "GTP_COMMON.GTPE2_COMMON_RXOUTCLK_0->>GTPE2_COMMON_MGT_CLK0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "GTPE2_COMMON_MGT_CLK0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GTPE2_COMMON_RXOUTCLK_0"
+        },
+        "GTP_COMMON.GTPE2_COMMON_RXOUTCLK_1->>GTPE2_COMMON_MGT_CLK1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "GTPE2_COMMON_MGT_CLK1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GTPE2_COMMON_RXOUTCLK_1"
+        },
+        "GTP_COMMON.GTPE2_COMMON_RXOUTCLK_2->>GTPE2_COMMON_MGT_CLK6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "GTPE2_COMMON_MGT_CLK6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GTPE2_COMMON_RXOUTCLK_2"
+        },
+        "GTP_COMMON.GTPE2_COMMON_RXOUTCLK_3->>GTPE2_COMMON_MGT_CLK7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "GTPE2_COMMON_MGT_CLK7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GTPE2_COMMON_RXOUTCLK_3"
+        },
+        "GTP_COMMON.GTPE2_COMMON_TXOUTCLK_0->>GTPE2_COMMON_MGT_CLK2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "GTPE2_COMMON_MGT_CLK2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GTPE2_COMMON_TXOUTCLK_0"
+        },
+        "GTP_COMMON.GTPE2_COMMON_TXOUTCLK_1->>GTPE2_COMMON_MGT_CLK3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "GTPE2_COMMON_MGT_CLK3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GTPE2_COMMON_TXOUTCLK_1"
+        },
+        "GTP_COMMON.GTPE2_COMMON_TXOUTCLK_2->>GTPE2_COMMON_MGT_CLK8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "GTPE2_COMMON_MGT_CLK8",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GTPE2_COMMON_TXOUTCLK_2"
+        },
+        "GTP_COMMON.GTPE2_COMMON_TXOUTCLK_3->>GTPE2_COMMON_MGT_CLK9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "GTPE2_COMMON_MGT_CLK9",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GTPE2_COMMON_TXOUTCLK_3"
+        },
+        "GTP_COMMON.GTPE2_CTRL0_3->GTPE2_COMMON_PLL0RESET": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL0RESET",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_CTRL0_3"
+        },
+        "GTP_COMMON.GTPE2_CTRL1_3->GTPE2_COMMON_PLL1RESET": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL1RESET",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_CTRL1_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX0_1->IBUFDS_GTPE2_1_CEB": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IBUFDS_GTPE2_1_CEB",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX0_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX0_2->GTPE2_COMMON_PLLRSVD115": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD115",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX0_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX0_3->GTPE2_COMMON_PLLRSVD114": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD114",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX0_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX0_4->GTPE2_COMMON_PLLRSVD113": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD113",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX0_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX0_5->GTPE2_COMMON_PLLRSVD112": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD112",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX0_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX2_1->GTPE2_COMMON_PLL1REFCLKSEL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL1REFCLKSEL1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX2_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX2_2->GTPE2_COMMON_PLL1REFCLKSEL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL1REFCLKSEL0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX2_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX2_3->GTPE2_COMMON_PLL0REFCLKSEL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL0REFCLKSEL2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX2_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX2_4->GTPE2_COMMON_PLL0REFCLKSEL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL0REFCLKSEL1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX2_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX2_5->GTPE2_COMMON_PLL0REFCLKSEL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL0REFCLKSEL0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX2_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX3_1->IBUFDS_GTPE2_0_CEB": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IBUFDS_GTPE2_0_CEB",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX3_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX3_3->GTPE2_COMMON_BGPDB": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_BGPDB",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX3_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX3_5->GTPE2_COMMON_RCALENB": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_RCALENB",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX3_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX5_1->GTPE2_COMMON_PLLRSVD24": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD24",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX5_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX5_2->GTPE2_COMMON_PLLRSVD23": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD23",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX5_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX5_3->GTPE2_COMMON_PLLRSVD22": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD22",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX5_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX5_4->GTPE2_COMMON_PLLRSVD21": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD21",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX5_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX5_5->GTPE2_COMMON_PLLRSVD20": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD20",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX5_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX14_2->GTPE2_COMMON_DRPDI11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI11",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX14_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX14_4->GTPE2_COMMON_DRPDI15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI15",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX14_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX14_5->GTPE2_COMMON_DRPDI13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI13",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX14_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX20_1->GTPE2_COMMON_PMARSVD4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PMARSVD4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX20_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX20_2->GTPE2_COMMON_PMARSVD3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PMARSVD3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX20_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX20_3->GTPE2_COMMON_PMARSVD2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PMARSVD2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX20_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX20_4->GTPE2_COMMON_PMARSVD1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PMARSVD1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX20_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX20_5->GTPE2_COMMON_PMARSVD0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PMARSVD0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX20_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX22_1->GTPE2_COMMON_BGMONITORENB": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_BGMONITORENB",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX22_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX22_2->GTPE2_COMMON_DRPDI10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI10",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX22_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX22_3->GTPE2_COMMON_DRPEN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPEN",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX22_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX22_4->GTPE2_COMMON_DRPDI14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI14",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX22_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX22_5->GTPE2_COMMON_DRPDI12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI12",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX22_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX24_1->GTPE2_COMMON_PLLRSVD19": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD19",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX24_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX24_2->GTPE2_COMMON_PLLRSVD17": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD17",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX24_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX24_3->GTPE2_COMMON_PLLRSVD15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD15",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX24_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX24_4->GTPE2_COMMON_PLLRSVD13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD13",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX24_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX24_5->GTPE2_COMMON_PLLRSVD11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD11",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX24_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX27_1->GTPE2_COMMON_BGBYPASSB": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_BGBYPASSB",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX27_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX27_2->GTPE2_COMMON_DRPADDR7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPADDR7",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX27_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX27_3->GTPE2_COMMON_DRPADDR5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPADDR5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX27_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX27_4->GTPE2_COMMON_DRPADDR3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPADDR3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX27_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX27_5->GTPE2_COMMON_DRPADDR1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPADDR1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX27_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX30_1->GTPE2_COMMON_DRPDI9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI9",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX30_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX30_2->GTPE2_COMMON_DRPDI7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI7",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX30_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX30_3->GTPE2_COMMON_DRPDI5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX30_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX30_4->GTPE2_COMMON_DRPDI3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX30_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX30_5->GTPE2_COMMON_DRPDI1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX30_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX32_1->GTPE2_COMMON_PLLRSVD18": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD18",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX32_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX32_2->GTPE2_COMMON_PLLRSVD16": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD16",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX32_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX32_3->GTPE2_COMMON_PLLRSVD14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD14",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX32_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX32_4->GTPE2_COMMON_PLLRSVD12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD12",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX32_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX32_5->GTPE2_COMMON_PLLRSVD10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD10",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX32_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX35_1->GTPE2_COMMON_DRPWE": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPWE",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX35_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX35_2->GTPE2_COMMON_DRPADDR6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPADDR6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX35_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX35_3->GTPE2_COMMON_DRPADDR4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPADDR4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX35_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX35_4->GTPE2_COMMON_DRPADDR2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPADDR2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX35_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX35_5->GTPE2_COMMON_DRPADDR0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPADDR0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX35_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX38_1->GTPE2_COMMON_DRPDI8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI8",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX38_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX38_2->GTPE2_COMMON_DRPDI6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX38_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX38_3->GTPE2_COMMON_DRPDI4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX38_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX38_4->GTPE2_COMMON_DRPDI2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX38_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX38_5->GTPE2_COMMON_DRPDI0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_DRPDI0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX38_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX40_4->GTPE2_COMMON_PLLRSVD111": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD111",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX40_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX40_5->GTPE2_COMMON_PLLRSVD110": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLLRSVD110",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX40_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX41_2->GTPE2_COMMON_PMARSVD7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PMARSVD7",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX41_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX41_3->GTPE2_COMMON_PLL1REFCLKSEL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL1REFCLKSEL2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX41_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX41_4->GTPE2_COMMON_PMARSVD6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PMARSVD6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX41_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX41_5->GTPE2_COMMON_PMARSVD5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PMARSVD5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX41_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX42_1->GTPE2_COMMON_PLL1PD": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL1PD",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX42_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX42_2->GTPE2_COMMON_PLL1LOCKEN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL1LOCKEN",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX42_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX42_3->GTPE2_COMMON_PLL0PD": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL0PD",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX42_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX42_4->GTPE2_COMMON_PLL0LOCKEN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_PLL0LOCKEN",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX42_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX42_5->GTPE2_COMMON_BGRCALOVRDENB": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_BGRCALOVRDENB",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX42_5"
+        },
+        "GTP_COMMON.GTPE2_IMUX45_1->GTPE2_COMMON_BGRCALOVRD4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_BGRCALOVRD4",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX45_1"
+        },
+        "GTP_COMMON.GTPE2_IMUX45_2->GTPE2_COMMON_BGRCALOVRD3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_BGRCALOVRD3",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX45_2"
+        },
+        "GTP_COMMON.GTPE2_IMUX45_3->GTPE2_COMMON_BGRCALOVRD2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_BGRCALOVRD2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX45_3"
+        },
+        "GTP_COMMON.GTPE2_IMUX45_4->GTPE2_COMMON_BGRCALOVRD1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_BGRCALOVRD1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX45_4"
+        },
+        "GTP_COMMON.GTPE2_IMUX45_5->GTPE2_COMMON_BGRCALOVRD0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_BGRCALOVRD0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTPE2_IMUX45_5"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_0_CLKTESTSIG_SEG->IBUFDS_GTPE2_0_CLKTESTSIG": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IBUFDS_GTPE2_0_CLKTESTSIG",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IBUFDS_GTPE2_0_CLKTESTSIG_SEG"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_0_I->IBUFDS_GTPE2_0_I_SEG": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IBUFDS_GTPE2_0_I_SEG",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IBUFDS_GTPE2_0_I"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_0_IB->IBUFDS_GTPE2_0_IB_SEG": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IBUFDS_GTPE2_0_IB_SEG",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IBUFDS_GTPE2_0_IB"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_0_MGTCLKOUT->>GTPE2_COMMON_MGT_CLK4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "GTPE2_COMMON_MGT_CLK4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "IBUFDS_GTPE2_0_MGTCLKOUT"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_0_O->GTPE2_COMMON_REFCLK0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_REFCLK0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IBUFDS_GTPE2_0_O"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_0_O->IBUFDS_GTPE2_0_MGTCLKOUT": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IBUFDS_GTPE2_0_MGTCLKOUT",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IBUFDS_GTPE2_0_O"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_0_ODIV2->IBUFDS_GTPE2_0_MGTCLKOUT": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IBUFDS_GTPE2_0_MGTCLKOUT",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IBUFDS_GTPE2_0_ODIV2"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_1_CLKTESTSIG_SEG->IBUFDS_GTPE2_1_CLKTESTSIG": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IBUFDS_GTPE2_1_CLKTESTSIG",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IBUFDS_GTPE2_1_CLKTESTSIG_SEG"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_1_I->IBUFDS_GTPE2_1_I_SEG": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IBUFDS_GTPE2_1_I_SEG",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IBUFDS_GTPE2_1_I"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_1_IB->IBUFDS_GTPE2_1_IB_SEG": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IBUFDS_GTPE2_1_IB_SEG",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IBUFDS_GTPE2_1_IB"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_1_MGTCLKOUT->>GTPE2_COMMON_MGT_CLK5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "GTPE2_COMMON_MGT_CLK5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "IBUFDS_GTPE2_1_MGTCLKOUT"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_1_O->GTPE2_COMMON_REFCLK1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTPE2_COMMON_REFCLK1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IBUFDS_GTPE2_1_O"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_1_O->IBUFDS_GTPE2_1_MGTCLKOUT": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IBUFDS_GTPE2_1_MGTCLKOUT",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IBUFDS_GTPE2_1_O"
+        },
+        "GTP_COMMON.IBUFDS_GTPE2_1_ODIV2->IBUFDS_GTPE2_1_MGTCLKOUT": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IBUFDS_GTPE2_1_MGTCLKOUT",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IBUFDS_GTPE2_1_ODIV2"
+        }
+    },
+    "sites": [],
+    "tile_type": "GTP_COMMON",
+    "wires": {
+        "GTPE2_BYP0_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP0_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP0_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP0_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP0_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP0_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP1_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP1_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP1_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP1_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP1_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP1_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP2_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP2_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP2_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP2_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP2_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP2_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP3_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP3_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP3_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP3_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP3_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP3_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP4_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP4_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP4_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP4_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP4_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP4_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP5_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP5_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP5_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP5_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP5_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP5_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP6_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP6_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP6_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP6_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP6_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP6_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP7_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP7_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP7_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP7_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP7_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_BYP7_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CLK0_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CLK0_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CLK0_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CLK0_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CLK0_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CLK0_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CLK1_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CLK1_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CLK1_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CLK1_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CLK1_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CLK1_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_BGBYPASSB": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_BGMONITORENB": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_BGPDB": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_BGRCALOVRD0": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_BGRCALOVRD1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_BGRCALOVRD2": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_BGRCALOVRD3": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_BGRCALOVRD4": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_BGRCALOVRDENB": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DMONITOROUT0": null,
+        "GTPE2_COMMON_DMONITOROUT1": null,
+        "GTPE2_COMMON_DMONITOROUT2": null,
+        "GTPE2_COMMON_DMONITOROUT3": null,
+        "GTPE2_COMMON_DMONITOROUT4": null,
+        "GTPE2_COMMON_DMONITOROUT5": null,
+        "GTPE2_COMMON_DMONITOROUT6": null,
+        "GTPE2_COMMON_DMONITOROUT7": null,
+        "GTPE2_COMMON_DRPADDR0": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPADDR1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPADDR2": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPADDR3": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPADDR4": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPADDR5": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPADDR6": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPADDR7": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPCLK": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI0": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI2": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI3": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI4": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI5": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI6": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI7": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI8": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI9": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI10": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI11": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI12": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI13": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI14": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDI15": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPDO0": null,
+        "GTPE2_COMMON_DRPDO1": null,
+        "GTPE2_COMMON_DRPDO2": null,
+        "GTPE2_COMMON_DRPDO3": null,
+        "GTPE2_COMMON_DRPDO4": null,
+        "GTPE2_COMMON_DRPDO5": null,
+        "GTPE2_COMMON_DRPDO6": null,
+        "GTPE2_COMMON_DRPDO7": null,
+        "GTPE2_COMMON_DRPDO8": null,
+        "GTPE2_COMMON_DRPDO9": null,
+        "GTPE2_COMMON_DRPDO10": null,
+        "GTPE2_COMMON_DRPDO11": null,
+        "GTPE2_COMMON_DRPDO12": null,
+        "GTPE2_COMMON_DRPDO13": null,
+        "GTPE2_COMMON_DRPDO14": null,
+        "GTPE2_COMMON_DRPDO15": null,
+        "GTPE2_COMMON_DRPEN": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_DRPRDY": null,
+        "GTPE2_COMMON_DRPWE": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_GTEASTREFCLK0_STUB": null,
+        "GTPE2_COMMON_GTEASTREFCLK1_STUB": null,
+        "GTPE2_COMMON_GTGREFCLK0": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_GTGREFCLK1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_GTREFCLK0": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_GTREFCLK1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_GTWESTREFCLK0_STUB": null,
+        "GTPE2_COMMON_GTWESTREFCLK1_STUB": null,
+        "GTPE2_COMMON_MGT_CLK0": null,
+        "GTPE2_COMMON_MGT_CLK1": null,
+        "GTPE2_COMMON_MGT_CLK2": null,
+        "GTPE2_COMMON_MGT_CLK3": null,
+        "GTPE2_COMMON_MGT_CLK4": null,
+        "GTPE2_COMMON_MGT_CLK5": null,
+        "GTPE2_COMMON_MGT_CLK6": null,
+        "GTPE2_COMMON_MGT_CLK7": null,
+        "GTPE2_COMMON_MGT_CLK8": null,
+        "GTPE2_COMMON_MGT_CLK9": null,
+        "GTPE2_COMMON_PLL0FBCLKLOST": null,
+        "GTPE2_COMMON_PLL0LOCK": null,
+        "GTPE2_COMMON_PLL0LOCKDETCLK": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL0LOCKEN": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL0OUTCLK": null,
+        "GTPE2_COMMON_PLL0PD": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL0REFCLK": null,
+        "GTPE2_COMMON_PLL0REFCLKLOST": null,
+        "GTPE2_COMMON_PLL0REFCLKSEL0": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL0REFCLKSEL1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL0REFCLKSEL2": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL0RESET": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL1FBCLKLOST": null,
+        "GTPE2_COMMON_PLL1LOCK": null,
+        "GTPE2_COMMON_PLL1LOCKDETCLK": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL1LOCKEN": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL1OUTCLK": null,
+        "GTPE2_COMMON_PLL1PD": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL1REFCLK": null,
+        "GTPE2_COMMON_PLL1REFCLKLOST": null,
+        "GTPE2_COMMON_PLL1REFCLKSEL0": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL1REFCLKSEL1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL1REFCLKSEL2": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLL1RESET": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLCLKSPARE": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLOUTCLK0": null,
+        "GTPE2_COMMON_PLLOUTCLK1": null,
+        "GTPE2_COMMON_PLLREFCLK0": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLREFCLK1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD10": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD11": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD12": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD13": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD14": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD15": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD16": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD17": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD18": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD19": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD20": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD21": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD22": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD23": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD24": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD110": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD111": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD112": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD113": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD114": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PLLRSVD115": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMARSVD0": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMARSVD1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMARSVD2": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMARSVD3": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMARSVD4": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMARSVD5": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMARSVD6": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMARSVD7": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMARSVDOUT0": null,
+        "GTPE2_COMMON_PMARSVDOUT1": null,
+        "GTPE2_COMMON_PMARSVDOUT2": null,
+        "GTPE2_COMMON_PMARSVDOUT3": null,
+        "GTPE2_COMMON_PMARSVDOUT4": null,
+        "GTPE2_COMMON_PMARSVDOUT5": null,
+        "GTPE2_COMMON_PMARSVDOUT6": null,
+        "GTPE2_COMMON_PMARSVDOUT7": null,
+        "GTPE2_COMMON_PMARSVDOUT8": null,
+        "GTPE2_COMMON_PMARSVDOUT9": null,
+        "GTPE2_COMMON_PMARSVDOUT10": null,
+        "GTPE2_COMMON_PMARSVDOUT11": null,
+        "GTPE2_COMMON_PMARSVDOUT12": null,
+        "GTPE2_COMMON_PMARSVDOUT13": null,
+        "GTPE2_COMMON_PMARSVDOUT14": null,
+        "GTPE2_COMMON_PMARSVDOUT15": null,
+        "GTPE2_COMMON_PMASCANCLK0": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMASCANCLK1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMASCANENB": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMASCANIN0": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMASCANIN1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMASCANIN2": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMASCANIN3": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMASCANIN4": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_PMASCANOUT0": null,
+        "GTPE2_COMMON_PMASCANOUT1": null,
+        "GTPE2_COMMON_PMASCANOUT2": null,
+        "GTPE2_COMMON_PMASCANOUT3": null,
+        "GTPE2_COMMON_PMASCANOUT4": null,
+        "GTPE2_COMMON_QDPMASCANMODEB": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_QDPMASCANRSTEN": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_RCALENB": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_REFCLK0": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_REFCLK1": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTPE2_COMMON_REFCLKOUTMONITOR0": null,
+        "GTPE2_COMMON_REFCLKOUTMONITOR1": null,
+        "GTPE2_COMMON_RXOUTCLK_0": null,
+        "GTPE2_COMMON_RXOUTCLK_1": null,
+        "GTPE2_COMMON_RXOUTCLK_2": null,
+        "GTPE2_COMMON_RXOUTCLK_3": null,
+        "GTPE2_COMMON_TXOUTCLK_0": null,
+        "GTPE2_COMMON_TXOUTCLK_1": null,
+        "GTPE2_COMMON_TXOUTCLK_2": null,
+        "GTPE2_COMMON_TXOUTCLK_3": null,
+        "GTPE2_CTRL0_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CTRL0_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CTRL0_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CTRL0_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CTRL0_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CTRL0_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CTRL1_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CTRL1_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CTRL1_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CTRL1_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CTRL1_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_CTRL1_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN0_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN0_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN0_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN0_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN0_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN0_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN1_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN1_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN1_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN1_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN1_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN1_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN2_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN2_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN2_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN2_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN2_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN2_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN3_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN3_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN3_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN3_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN3_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN3_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN4_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN4_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN4_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN4_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN4_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN4_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN5_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN5_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN5_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN5_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN5_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN5_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN6_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN6_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN6_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN6_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN6_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN6_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN7_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN7_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN7_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN7_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN7_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_FAN7_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX0_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX0_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX0_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX0_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX0_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX0_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX1_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX1_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX1_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX1_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX1_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX1_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX2_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX2_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX2_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX2_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX2_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX2_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX3_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX3_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX3_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX3_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX3_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX3_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX4_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX4_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX4_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX4_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX4_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX4_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX5_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX5_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX5_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX5_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX5_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX5_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX6_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX6_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX6_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX6_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX6_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX6_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX7_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX7_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX7_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX7_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX7_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX7_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX8_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX8_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX8_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX8_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX8_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX8_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX9_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX9_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX9_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX9_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX9_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX9_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX10_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX10_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX10_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX10_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX10_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX10_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX11_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX11_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX11_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX11_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX11_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX11_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX12_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX12_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX12_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX12_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX12_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX12_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX13_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX13_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX13_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX13_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX13_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX13_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX14_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX14_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX14_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX14_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX14_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX14_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX15_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX15_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX15_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX15_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX15_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX15_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX16_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX16_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX16_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX16_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX16_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX16_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX17_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX17_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX17_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX17_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX17_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX17_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX18_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX18_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX18_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX18_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX18_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX18_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX19_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX19_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX19_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX19_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX19_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX19_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX20_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX20_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX20_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX20_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX20_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX20_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX21_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX21_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX21_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX21_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX21_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX21_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX22_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX22_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX22_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX22_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX22_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX22_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX23_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX23_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX23_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX23_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX23_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX23_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX24_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX24_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX24_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX24_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX24_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX24_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX25_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX25_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX25_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX25_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX25_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX25_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX26_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX26_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX26_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX26_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX26_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX26_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX27_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX27_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX27_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX27_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX27_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX27_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX28_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX28_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX28_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX28_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX28_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX28_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX29_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX29_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX29_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX29_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX29_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX29_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX30_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX30_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX30_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX30_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX30_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX30_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX31_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX31_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX31_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX31_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX31_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX31_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX32_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX32_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX32_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX32_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX32_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX32_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX33_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX33_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX33_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX33_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX33_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX33_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX34_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX34_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX34_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX34_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX34_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX34_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX35_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX35_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX35_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX35_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX35_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX35_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX36_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX36_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX36_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX36_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX36_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX36_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX37_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX37_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX37_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX37_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX37_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX37_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX38_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX38_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX38_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX38_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX38_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX38_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX39_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX39_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX39_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX39_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX39_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX39_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX40_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX40_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX40_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX40_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX40_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX40_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX41_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX41_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX41_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX41_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX41_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX41_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX42_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX42_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX42_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX42_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX42_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX42_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX43_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX43_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX43_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX43_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX43_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX43_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX44_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX44_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX44_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX44_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX44_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX44_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX45_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX45_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX45_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX45_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX45_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX45_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX46_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX46_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX46_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX46_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX46_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX46_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX47_0": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX47_1": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX47_2": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX47_3": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX47_4": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_IMUX47_5": {
+            "cap": "127.700",
+            "res": "0.000"
+        },
+        "GTPE2_LOGIC_OUTS_B0_0": null,
+        "GTPE2_LOGIC_OUTS_B0_1": null,
+        "GTPE2_LOGIC_OUTS_B0_2": null,
+        "GTPE2_LOGIC_OUTS_B0_3": null,
+        "GTPE2_LOGIC_OUTS_B0_4": null,
+        "GTPE2_LOGIC_OUTS_B0_5": null,
+        "GTPE2_LOGIC_OUTS_B1_0": null,
+        "GTPE2_LOGIC_OUTS_B1_1": null,
+        "GTPE2_LOGIC_OUTS_B1_2": null,
+        "GTPE2_LOGIC_OUTS_B1_3": null,
+        "GTPE2_LOGIC_OUTS_B1_4": null,
+        "GTPE2_LOGIC_OUTS_B1_5": null,
+        "GTPE2_LOGIC_OUTS_B2_0": null,
+        "GTPE2_LOGIC_OUTS_B2_1": null,
+        "GTPE2_LOGIC_OUTS_B2_2": null,
+        "GTPE2_LOGIC_OUTS_B2_3": null,
+        "GTPE2_LOGIC_OUTS_B2_4": null,
+        "GTPE2_LOGIC_OUTS_B2_5": null,
+        "GTPE2_LOGIC_OUTS_B3_0": null,
+        "GTPE2_LOGIC_OUTS_B3_1": null,
+        "GTPE2_LOGIC_OUTS_B3_2": null,
+        "GTPE2_LOGIC_OUTS_B3_3": null,
+        "GTPE2_LOGIC_OUTS_B3_4": null,
+        "GTPE2_LOGIC_OUTS_B3_5": null,
+        "GTPE2_LOGIC_OUTS_B4_0": null,
+        "GTPE2_LOGIC_OUTS_B4_1": null,
+        "GTPE2_LOGIC_OUTS_B4_2": null,
+        "GTPE2_LOGIC_OUTS_B4_3": null,
+        "GTPE2_LOGIC_OUTS_B4_4": null,
+        "GTPE2_LOGIC_OUTS_B4_5": null,
+        "GTPE2_LOGIC_OUTS_B5_0": null,
+        "GTPE2_LOGIC_OUTS_B5_1": null,
+        "GTPE2_LOGIC_OUTS_B5_2": null,
+        "GTPE2_LOGIC_OUTS_B5_3": null,
+        "GTPE2_LOGIC_OUTS_B5_4": null,
+        "GTPE2_LOGIC_OUTS_B5_5": null,
+        "GTPE2_LOGIC_OUTS_B6_0": null,
+        "GTPE2_LOGIC_OUTS_B6_1": null,
+        "GTPE2_LOGIC_OUTS_B6_2": null,
+        "GTPE2_LOGIC_OUTS_B6_3": null,
+        "GTPE2_LOGIC_OUTS_B6_4": null,
+        "GTPE2_LOGIC_OUTS_B6_5": null,
+        "GTPE2_LOGIC_OUTS_B7_0": null,
+        "GTPE2_LOGIC_OUTS_B7_1": null,
+        "GTPE2_LOGIC_OUTS_B7_2": null,
+        "GTPE2_LOGIC_OUTS_B7_3": null,
+        "GTPE2_LOGIC_OUTS_B7_4": null,
+        "GTPE2_LOGIC_OUTS_B7_5": null,
+        "GTPE2_LOGIC_OUTS_B8_0": null,
+        "GTPE2_LOGIC_OUTS_B8_1": null,
+        "GTPE2_LOGIC_OUTS_B8_2": null,
+        "GTPE2_LOGIC_OUTS_B8_3": null,
+        "GTPE2_LOGIC_OUTS_B8_4": null,
+        "GTPE2_LOGIC_OUTS_B8_5": null,
+        "GTPE2_LOGIC_OUTS_B9_0": null,
+        "GTPE2_LOGIC_OUTS_B9_1": null,
+        "GTPE2_LOGIC_OUTS_B9_2": null,
+        "GTPE2_LOGIC_OUTS_B9_3": null,
+        "GTPE2_LOGIC_OUTS_B9_4": null,
+        "GTPE2_LOGIC_OUTS_B9_5": null,
+        "GTPE2_LOGIC_OUTS_B10_0": null,
+        "GTPE2_LOGIC_OUTS_B10_1": null,
+        "GTPE2_LOGIC_OUTS_B10_2": null,
+        "GTPE2_LOGIC_OUTS_B10_3": null,
+        "GTPE2_LOGIC_OUTS_B10_4": null,
+        "GTPE2_LOGIC_OUTS_B10_5": null,
+        "GTPE2_LOGIC_OUTS_B11_0": null,
+        "GTPE2_LOGIC_OUTS_B11_1": null,
+        "GTPE2_LOGIC_OUTS_B11_2": null,
+        "GTPE2_LOGIC_OUTS_B11_3": null,
+        "GTPE2_LOGIC_OUTS_B11_4": null,
+        "GTPE2_LOGIC_OUTS_B11_5": null,
+        "GTPE2_LOGIC_OUTS_B12_0": null,
+        "GTPE2_LOGIC_OUTS_B12_1": null,
+        "GTPE2_LOGIC_OUTS_B12_2": null,
+        "GTPE2_LOGIC_OUTS_B12_3": null,
+        "GTPE2_LOGIC_OUTS_B12_4": null,
+        "GTPE2_LOGIC_OUTS_B12_5": null,
+        "GTPE2_LOGIC_OUTS_B13_0": null,
+        "GTPE2_LOGIC_OUTS_B13_1": null,
+        "GTPE2_LOGIC_OUTS_B13_2": null,
+        "GTPE2_LOGIC_OUTS_B13_3": null,
+        "GTPE2_LOGIC_OUTS_B13_4": null,
+        "GTPE2_LOGIC_OUTS_B13_5": null,
+        "GTPE2_LOGIC_OUTS_B14_0": null,
+        "GTPE2_LOGIC_OUTS_B14_1": null,
+        "GTPE2_LOGIC_OUTS_B14_2": null,
+        "GTPE2_LOGIC_OUTS_B14_3": null,
+        "GTPE2_LOGIC_OUTS_B14_4": null,
+        "GTPE2_LOGIC_OUTS_B14_5": null,
+        "GTPE2_LOGIC_OUTS_B15_0": null,
+        "GTPE2_LOGIC_OUTS_B15_1": null,
+        "GTPE2_LOGIC_OUTS_B15_2": null,
+        "GTPE2_LOGIC_OUTS_B15_3": null,
+        "GTPE2_LOGIC_OUTS_B15_4": null,
+        "GTPE2_LOGIC_OUTS_B15_5": null,
+        "GTPE2_LOGIC_OUTS_B16_0": null,
+        "GTPE2_LOGIC_OUTS_B16_1": null,
+        "GTPE2_LOGIC_OUTS_B16_2": null,
+        "GTPE2_LOGIC_OUTS_B16_3": null,
+        "GTPE2_LOGIC_OUTS_B16_4": null,
+        "GTPE2_LOGIC_OUTS_B16_5": null,
+        "GTPE2_LOGIC_OUTS_B17_0": null,
+        "GTPE2_LOGIC_OUTS_B17_1": null,
+        "GTPE2_LOGIC_OUTS_B17_2": null,
+        "GTPE2_LOGIC_OUTS_B17_3": null,
+        "GTPE2_LOGIC_OUTS_B17_4": null,
+        "GTPE2_LOGIC_OUTS_B17_5": null,
+        "GTPE2_LOGIC_OUTS_B18_0": null,
+        "GTPE2_LOGIC_OUTS_B18_1": null,
+        "GTPE2_LOGIC_OUTS_B18_2": null,
+        "GTPE2_LOGIC_OUTS_B18_3": null,
+        "GTPE2_LOGIC_OUTS_B18_4": null,
+        "GTPE2_LOGIC_OUTS_B18_5": null,
+        "GTPE2_LOGIC_OUTS_B19_0": null,
+        "GTPE2_LOGIC_OUTS_B19_1": null,
+        "GTPE2_LOGIC_OUTS_B19_2": null,
+        "GTPE2_LOGIC_OUTS_B19_3": null,
+        "GTPE2_LOGIC_OUTS_B19_4": null,
+        "GTPE2_LOGIC_OUTS_B19_5": null,
+        "GTPE2_LOGIC_OUTS_B20_0": null,
+        "GTPE2_LOGIC_OUTS_B20_1": null,
+        "GTPE2_LOGIC_OUTS_B20_2": null,
+        "GTPE2_LOGIC_OUTS_B20_3": null,
+        "GTPE2_LOGIC_OUTS_B20_4": null,
+        "GTPE2_LOGIC_OUTS_B20_5": null,
+        "GTPE2_LOGIC_OUTS_B21_0": null,
+        "GTPE2_LOGIC_OUTS_B21_1": null,
+        "GTPE2_LOGIC_OUTS_B21_2": null,
+        "GTPE2_LOGIC_OUTS_B21_3": null,
+        "GTPE2_LOGIC_OUTS_B21_4": null,
+        "GTPE2_LOGIC_OUTS_B21_5": null,
+        "GTPE2_LOGIC_OUTS_B22_0": null,
+        "GTPE2_LOGIC_OUTS_B22_1": null,
+        "GTPE2_LOGIC_OUTS_B22_2": null,
+        "GTPE2_LOGIC_OUTS_B22_3": null,
+        "GTPE2_LOGIC_OUTS_B22_4": null,
+        "GTPE2_LOGIC_OUTS_B22_5": null,
+        "GTPE2_LOGIC_OUTS_B23_0": null,
+        "GTPE2_LOGIC_OUTS_B23_1": null,
+        "GTPE2_LOGIC_OUTS_B23_2": null,
+        "GTPE2_LOGIC_OUTS_B23_3": null,
+        "GTPE2_LOGIC_OUTS_B23_4": null,
+        "GTPE2_LOGIC_OUTS_B23_5": null,
+        "IBUFDS_GTPE2_0_CEB": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "IBUFDS_GTPE2_0_CLKTESTSIG": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "IBUFDS_GTPE2_0_CLKTESTSIG_SEG": null,
+        "IBUFDS_GTPE2_0_I": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "IBUFDS_GTPE2_0_IB": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "IBUFDS_GTPE2_0_IB_SEG": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "IBUFDS_GTPE2_0_I_SEG": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "IBUFDS_GTPE2_0_MGTCLKOUT": null,
+        "IBUFDS_GTPE2_0_O": null,
+        "IBUFDS_GTPE2_0_ODIV2": null,
+        "IBUFDS_GTPE2_1_CEB": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "IBUFDS_GTPE2_1_CLKTESTSIG": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "IBUFDS_GTPE2_1_CLKTESTSIG_SEG": null,
+        "IBUFDS_GTPE2_1_I": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "IBUFDS_GTPE2_1_IB": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "IBUFDS_GTPE2_1_IB_SEG": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "IBUFDS_GTPE2_1_I_SEG": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "IBUFDS_GTPE2_1_MGTCLKOUT": null,
+        "IBUFDS_GTPE2_1_O": null,
+        "IBUFDS_GTPE2_1_ODIV2": null
+    }
+}

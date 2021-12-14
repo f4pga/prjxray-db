@@ -1,0 +1,246 @@
+{
+    "site_pins": {
+        "BURSTPENDING": {
+            "direction": "IN"
+        },
+        "BURSTPENDINGPHY": {
+            "direction": "IN"
+        },
+        "COARSEENABLE": {
+            "direction": "IN"
+        },
+        "COARSEINC": {
+            "direction": "IN"
+        },
+        "COARSEOVERFLOW": {
+            "direction": "OUT"
+        },
+        "COUNTERLOADEN": {
+            "direction": "IN"
+        },
+        "COUNTERLOADVAL0": {
+            "direction": "IN"
+        },
+        "COUNTERLOADVAL1": {
+            "direction": "IN"
+        },
+        "COUNTERLOADVAL2": {
+            "direction": "IN"
+        },
+        "COUNTERLOADVAL3": {
+            "direction": "IN"
+        },
+        "COUNTERLOADVAL4": {
+            "direction": "IN"
+        },
+        "COUNTERLOADVAL5": {
+            "direction": "IN"
+        },
+        "COUNTERLOADVAL6": {
+            "direction": "IN"
+        },
+        "COUNTERLOADVAL7": {
+            "direction": "IN"
+        },
+        "COUNTERLOADVAL8": {
+            "direction": "IN"
+        },
+        "COUNTERREADEN": {
+            "direction": "IN"
+        },
+        "COUNTERREADVAL0": {
+            "direction": "OUT"
+        },
+        "COUNTERREADVAL1": {
+            "direction": "OUT"
+        },
+        "COUNTERREADVAL2": {
+            "direction": "OUT"
+        },
+        "COUNTERREADVAL3": {
+            "direction": "OUT"
+        },
+        "COUNTERREADVAL4": {
+            "direction": "OUT"
+        },
+        "COUNTERREADVAL5": {
+            "direction": "OUT"
+        },
+        "COUNTERREADVAL6": {
+            "direction": "OUT"
+        },
+        "COUNTERREADVAL7": {
+            "direction": "OUT"
+        },
+        "COUNTERREADVAL8": {
+            "direction": "OUT"
+        },
+        "CTSBUS0": {
+            "direction": "OUT"
+        },
+        "CTSBUS1": {
+            "direction": "OUT"
+        },
+        "DIVIDERST": {
+            "direction": "IN"
+        },
+        "DQSBUS0": {
+            "direction": "OUT"
+        },
+        "DQSBUS1": {
+            "direction": "OUT"
+        },
+        "DTSBUS0": {
+            "direction": "OUT"
+        },
+        "DTSBUS1": {
+            "direction": "OUT"
+        },
+        "EDGEADV": {
+            "direction": "IN"
+        },
+        "ENCALIB0": {
+            "direction": "IN"
+        },
+        "ENCALIB1": {
+            "direction": "IN"
+        },
+        "ENCALIBPHY0": {
+            "direction": "IN"
+        },
+        "ENCALIBPHY1": {
+            "direction": "IN"
+        },
+        "FINEENABLE": {
+            "direction": "IN"
+        },
+        "FINEINC": {
+            "direction": "IN"
+        },
+        "FINEOVERFLOW": {
+            "direction": "OUT"
+        },
+        "FREQREFCLK": {
+            "direction": "IN"
+        },
+        "MEMREFCLK": {
+            "direction": "IN"
+        },
+        "OCLK": {
+            "direction": "OUT"
+        },
+        "OCLKDELAYED": {
+            "direction": "OUT"
+        },
+        "OCLKDIV": {
+            "direction": "OUT"
+        },
+        "OSERDESRST": {
+            "direction": "OUT"
+        },
+        "PHASEREFCLK": {
+            "direction": "IN"
+        },
+        "RDENABLE": {
+            "direction": "OUT"
+        },
+        "RST": {
+            "direction": "IN"
+        },
+        "SCANCLK": {
+            "direction": "IN"
+        },
+        "SCANENB": {
+            "direction": "IN"
+        },
+        "SCANIN": {
+            "direction": "IN"
+        },
+        "SCANMODEB": {
+            "direction": "IN"
+        },
+        "SCANOUT": {
+            "direction": "OUT"
+        },
+        "SELFINEOCLKDELAY": {
+            "direction": "IN"
+        },
+        "SYNCIN": {
+            "direction": "IN"
+        },
+        "SYSCLK": {
+            "direction": "IN"
+        },
+        "TESTIN0": {
+            "direction": "IN"
+        },
+        "TESTIN1": {
+            "direction": "IN"
+        },
+        "TESTIN2": {
+            "direction": "IN"
+        },
+        "TESTIN3": {
+            "direction": "IN"
+        },
+        "TESTIN4": {
+            "direction": "IN"
+        },
+        "TESTIN5": {
+            "direction": "IN"
+        },
+        "TESTIN6": {
+            "direction": "IN"
+        },
+        "TESTIN7": {
+            "direction": "IN"
+        },
+        "TESTIN8": {
+            "direction": "IN"
+        },
+        "TESTIN9": {
+            "direction": "IN"
+        },
+        "TESTIN10": {
+            "direction": "IN"
+        },
+        "TESTIN11": {
+            "direction": "IN"
+        },
+        "TESTIN12": {
+            "direction": "IN"
+        },
+        "TESTIN13": {
+            "direction": "IN"
+        },
+        "TESTIN14": {
+            "direction": "IN"
+        },
+        "TESTIN15": {
+            "direction": "IN"
+        },
+        "TESTOUT0": {
+            "direction": "OUT"
+        },
+        "TESTOUT1": {
+            "direction": "OUT"
+        },
+        "TESTOUT2": {
+            "direction": "OUT"
+        },
+        "TESTOUT3": {
+            "direction": "OUT"
+        }
+    },
+    "site_pips": {
+        "RSTINV:RST": {
+            "from_pin": "RST",
+            "to_pin": "OUT"
+        },
+        "RSTINV:RST_B": {
+            "from_pin": "RST_B",
+            "to_pin": "OUT"
+        }
+    },
+    "type": "PHASER_OUT_PHY"
+}

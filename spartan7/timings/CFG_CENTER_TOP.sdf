@@ -1,0 +1,23 @@
+
+(DELAYFILE
+    (SDFVERSION "3.0")
+    (TIMESCALE 1ns)
+
+    (CELL
+        (CELLTYPE "DNA_PORT_DNA_PORTDNA_PORT")
+        (INSTANCE DNA_PORT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK DOUT (1.862::2.142)(2.793::3.214))
+            )
+        )
+        (TIMINGCHECK
+            (HOLD DIN (posedge CLK) (0.000::0.000))
+            (SETUP DIN (posedge CLK) (2.793::3.214))
+            (HOLD READ (posedge CLK) (0.000::0.000))
+            (SETUP READ (posedge CLK) (4.656::5.356))
+            (HOLD SHIFT (posedge CLK) (0.000::0.000))
+            (SETUP SHIFT (posedge CLK) (4.656::5.356))
+        )
+    )
+)

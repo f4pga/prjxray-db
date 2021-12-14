@@ -1,0 +1,6546 @@
+{
+    "pips": {
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_CK_INOUT_L0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "HCLK_CK_INOUT_L0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK8->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK8"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_CK_INOUT_L1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "HCLK_CK_INOUT_L1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK9->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK9"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_CK_INOUT_L2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "HCLK_CK_INOUT_L2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK10->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK10"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_CK_INOUT_L3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "HCLK_CK_INOUT_L3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFHCLK11->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFHCLK11"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_CK_INOUT_L4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "HCLK_CK_INOUT_L4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK0->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK0"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_CK_INOUT_L5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "HCLK_CK_INOUT_L5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK1->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK1"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_CK_INOUT_L6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "HCLK_CK_INOUT_L6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK2->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK2"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_CK_INOUT_L7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "HCLK_CK_INOUT_L7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_BUFRCLK3->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_BUFRCLK3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L0->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L0"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L0->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L0"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L0->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L0"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L0->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L0"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L0->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L0"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L0->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L0"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L0->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L0"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L0->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L0"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L0->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L0"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L0->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L0"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L0->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L0"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L0->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L0"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L1->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L1"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L1->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L1"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L1->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L1"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L1->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L1"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L1->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L1"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L1->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L1"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L1->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L1"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L1->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L1"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L1->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L1"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L1->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L1"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L1->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L1"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L1->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L1"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L2->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L2"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L2->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L2"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L2->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L2"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L2->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L2"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L2->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L2"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L2->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L2"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L2->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L2"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L2->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L2"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L2->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L2"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L2->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L2"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L2->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L2"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L2->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L2"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L3->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L3->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L3->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L3->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L3->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L3->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L3->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L3->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L3->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L3->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L3->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L3->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L3"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L4->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L4"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L4->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L4"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L4->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L4"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L4->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L4"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L4->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L4"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L4->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L4"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L4->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L4"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L4->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L4"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L4->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L4"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L4->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L4"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L4->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L4"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L4->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L4"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L5->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L5"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L5->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L5"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L5->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L5"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L5->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L5"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L5->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L5"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L5->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L5"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L5->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L5"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L5->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L5"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L5->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L5"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L5->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L5"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L5->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L5"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L5->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L5"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L6->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L6"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L6->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L6"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L6->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L6"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L6->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L6"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L6->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L6"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L6->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L6"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L6->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L6"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L6->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L6"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L6->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L6"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L6->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L6"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L6->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L6"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L6->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L6"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L7->>HCLK_LEAF_CLK_B_BOTL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L7"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L7->>HCLK_LEAF_CLK_B_BOTL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L7"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L7->>HCLK_LEAF_CLK_B_BOTL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L7"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L7->>HCLK_LEAF_CLK_B_BOTL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L7"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L7->>HCLK_LEAF_CLK_B_BOTL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L7"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L7->>HCLK_LEAF_CLK_B_BOTL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_BOTL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L7"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L7->>HCLK_LEAF_CLK_B_TOPL0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L7"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L7->>HCLK_LEAF_CLK_B_TOPL1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L7"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L7->>HCLK_LEAF_CLK_B_TOPL2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L7"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L7->>HCLK_LEAF_CLK_B_TOPL3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L7"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L7->>HCLK_LEAF_CLK_B_TOPL4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L7"
+        },
+        "HCLK_L.HCLK_CK_OUTIN_L7->>HCLK_LEAF_CLK_B_TOPL5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "HCLK_LEAF_CLK_B_TOPL5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.072",
+                    "0.074",
+                    "0.191",
+                    "0.193"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "HCLK_CK_OUTIN_L7"
+        }
+    },
+    "sites": [],
+    "tile_type": "HCLK_L",
+    "wires": {
+        "HCLK_BYP_BOUNCE2": {
+            "cap": "29.530",
+            "res": "0.000"
+        },
+        "HCLK_BYP_BOUNCE3": {
+            "cap": "29.530",
+            "res": "0.000"
+        },
+        "HCLK_BYP_BOUNCE6": {
+            "cap": "29.530",
+            "res": "0.000"
+        },
+        "HCLK_BYP_BOUNCE7": {
+            "cap": "29.530",
+            "res": "0.000"
+        },
+        "HCLK_CCIO0": null,
+        "HCLK_CCIO1": null,
+        "HCLK_CCIO2": null,
+        "HCLK_CCIO3": null,
+        "HCLK_CK_BUFHCLK0": null,
+        "HCLK_CK_BUFHCLK1": null,
+        "HCLK_CK_BUFHCLK2": null,
+        "HCLK_CK_BUFHCLK3": null,
+        "HCLK_CK_BUFHCLK4": null,
+        "HCLK_CK_BUFHCLK5": null,
+        "HCLK_CK_BUFHCLK6": null,
+        "HCLK_CK_BUFHCLK7": null,
+        "HCLK_CK_BUFHCLK8": null,
+        "HCLK_CK_BUFHCLK9": null,
+        "HCLK_CK_BUFHCLK10": null,
+        "HCLK_CK_BUFHCLK11": null,
+        "HCLK_CK_BUFRCLK0": null,
+        "HCLK_CK_BUFRCLK1": null,
+        "HCLK_CK_BUFRCLK2": null,
+        "HCLK_CK_BUFRCLK3": null,
+        "HCLK_CK_IN0": null,
+        "HCLK_CK_IN1": null,
+        "HCLK_CK_IN2": null,
+        "HCLK_CK_IN3": null,
+        "HCLK_CK_IN4": null,
+        "HCLK_CK_IN5": null,
+        "HCLK_CK_IN6": null,
+        "HCLK_CK_IN7": null,
+        "HCLK_CK_IN8": null,
+        "HCLK_CK_IN9": null,
+        "HCLK_CK_IN10": null,
+        "HCLK_CK_IN11": null,
+        "HCLK_CK_IN12": null,
+        "HCLK_CK_IN13": null,
+        "HCLK_CK_INOUT_L0": null,
+        "HCLK_CK_INOUT_L1": null,
+        "HCLK_CK_INOUT_L2": null,
+        "HCLK_CK_INOUT_L3": null,
+        "HCLK_CK_INOUT_L4": null,
+        "HCLK_CK_INOUT_L5": null,
+        "HCLK_CK_INOUT_L6": null,
+        "HCLK_CK_INOUT_L7": null,
+        "HCLK_CK_OUTIN_L0": null,
+        "HCLK_CK_OUTIN_L1": null,
+        "HCLK_CK_OUTIN_L2": null,
+        "HCLK_CK_OUTIN_L3": null,
+        "HCLK_CK_OUTIN_L4": null,
+        "HCLK_CK_OUTIN_L5": null,
+        "HCLK_CK_OUTIN_L6": null,
+        "HCLK_CK_OUTIN_L7": null,
+        "HCLK_EL1BEG3": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_EL1END_S3_0": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_ER1BEG_S0": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_ER1END3": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_FAN_BOUNCE_S3_0": {
+            "cap": "29.530",
+            "res": "0.000"
+        },
+        "HCLK_FAN_BOUNCE_S3_2": {
+            "cap": "29.530",
+            "res": "0.000"
+        },
+        "HCLK_FAN_BOUNCE_S3_4": {
+            "cap": "29.530",
+            "res": "0.000"
+        },
+        "HCLK_FAN_BOUNCE_S3_6": {
+            "cap": "29.530",
+            "res": "0.000"
+        },
+        "HCLK_INT_PERFCLK0": null,
+        "HCLK_INT_PERFCLK1": null,
+        "HCLK_INT_PERFCLK2": null,
+        "HCLK_INT_PERFCLK3": null,
+        "HCLK_LEAF_CLK_B_BOTL0": null,
+        "HCLK_LEAF_CLK_B_BOTL1": null,
+        "HCLK_LEAF_CLK_B_BOTL2": null,
+        "HCLK_LEAF_CLK_B_BOTL3": null,
+        "HCLK_LEAF_CLK_B_BOTL4": null,
+        "HCLK_LEAF_CLK_B_BOTL5": null,
+        "HCLK_LEAF_CLK_B_TOPL0": null,
+        "HCLK_LEAF_CLK_B_TOPL1": null,
+        "HCLK_LEAF_CLK_B_TOPL2": null,
+        "HCLK_LEAF_CLK_B_TOPL3": null,
+        "HCLK_LEAF_CLK_B_TOPL4": null,
+        "HCLK_LEAF_CLK_B_TOPL5": null,
+        "HCLK_LV0": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV1": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV2": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV3": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV4": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV5": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV6": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV7": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV8": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV9": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV10": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV11": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV12": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV13": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV14": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV15": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV16": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LV17": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LVB1": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LVB2": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LVB3": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LVB4": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LVB5": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LVB6": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LVB7": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LVB8": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LVB9": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LVB10": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LVB11": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_LVB12": {
+            "cap": "13.000",
+            "res": "2.800"
+        },
+        "HCLK_NE2BEG0": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NE2BEG1": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NE2BEG2": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NE2BEG3": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NE2END_S3_0": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NE6A0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6A1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6A2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6A3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6B0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6B1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6B2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6B3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6C0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6C1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6C2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6C3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6D0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6D1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6D2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NE6D3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NL1BEG0": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_NL1BEG1": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_NL1BEG2": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_NL1END_S3_0": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_NN2A0": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NN2A1": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NN2A2": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NN2A3": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NN2BEG0": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NN2BEG1": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NN2BEG2": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NN2BEG3": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NN2END_S2_0": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NN6A0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6A1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6A2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6A3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6B0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6B1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6B2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6B3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6BEG0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6BEG1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6BEG2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6BEG3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6C0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6C1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6C2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6C3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6D0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6D1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6D2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6D3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6E0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6E1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6E2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6E3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NN6END_S1_0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NR1BEG0": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_NR1BEG1": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_NR1BEG2": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_NR1BEG3": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_NW2A0": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NW2A1": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NW2A2": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NW2A3": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NW2END_S0_0": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_NW6A0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6A1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6A2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6A3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6B0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6B1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6B2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6B3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6C0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6C1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6C2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6C3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6D0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6D1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6D2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6D3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_NW6END_S0_0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_REFCK_EASTCLK0": null,
+        "HCLK_REFCK_EASTCLK1": null,
+        "HCLK_REFCK_WESTCLK0": null,
+        "HCLK_REFCK_WESTCLK1": null,
+        "HCLK_SE2A0": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SE2A1": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SE2A2": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SE2A3": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SE6B0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6B1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6B2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6B3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6C0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6C1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6C2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6C3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6D0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6D1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6D2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6D3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6E0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6E1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6E2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SE6E3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SL1END0": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_SL1END1": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_SL1END2": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_SL1END3": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_SR1BEG3": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_SR1END1": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_SR1END2": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_SR1END_N3_3": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_SS2A0": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SS2A1": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SS2A2": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SS2A3": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SS2BEG3": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SS2END0": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SS2END1": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SS2END2": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SS2END_N0_3": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SS6A0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6A1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6A2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6A3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6B0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6B1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6B2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6B3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6C0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6C1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6C2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6C3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6D0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6D1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6D2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6D3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6E0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6E1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6E2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6E3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6END0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6END1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6END2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6END3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SS6END_N0_3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW2A3": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SW2END0": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SW2END1": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SW2END2": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SW2END_N0_3": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_SW6B0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6B1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6B2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6B3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6C0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6C1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6C2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6C3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6D0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6D1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6D2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6D3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6E0": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6E1": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6E2": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6E3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_SW6END3": {
+            "cap": "16.660",
+            "res": "154.960"
+        },
+        "HCLK_WL1BEG3": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_WL1END3": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_WR1BEG_S0": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_WR1END_S1_0": {
+            "cap": "21.478",
+            "res": "154.960"
+        },
+        "HCLK_WW2END3": {
+            "cap": "22.944",
+            "res": "154.960"
+        },
+        "HCLK_WW4END_S0_0": {
+            "cap": "17.411",
+            "res": "154.960"
+        }
+    }
+}
