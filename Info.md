@@ -37,18 +37,20 @@ These files are released under the very permissive [CC0 1.0 Universal](COPYING).
 
 # Details
 
-Last updated on Mon Dec 13 15:06:10 UTC 2021 (2021-12-13T15:06:10+00:00).
+Last updated on Tue Dec 14 07:31:38 PM UTC 2021 (2021-12-14T19:31:38+00:00).
 
-Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [3d1a0052](https://github.com/SymbiFlow/prjxray/commit/3d1a00527cf8f406d75f462d6cbb3487f8699668).
+Created using [Project X-Ray](https://github.com/SymbiFlow/prjxray) version [4c157493](https://github.com/SymbiFlow/prjxray/commit/4c157493ec9f13caea4ad3f0c02f8f318f198846).
 
 Latest commit was;
 ```
-commit 3d1a00527cf8f406d75f462d6cbb3487f8699668
+commit 4c157493ec9f13caea4ad3f0c02f8f318f198846
 Merge: 60168e9b f3474a26
-Author: Steve <steve.bohan.liu@outlook.com>
-Date:   Mon Dec 13 11:39:52 2021 +0100
+Author: Alessandro Comodi <44773360+acomodi@users.noreply.github.com>
+Date:   Tue Dec 14 18:11:46 2021 +0100
 
-    Merge f3474a2625ec320b4245e174cb9943192f83c121 into 60168e9b7e89956ce8a197f3cfdf6d4bc80926d3
+    Merge pull request #1802 from MidsummerNight/xc7s50
+    
+    Add support for xc7s50
 ```
 
 
@@ -57,7 +59,7 @@ Date:   Mon Dec 13 11:39:52 2021 +0100
 
 ### Settings
 
-Created using following [settings/artix7.sh (sha256: fc677f338196f4cecea5f963feb41c09d281505828d0cde9740f2a4bb305532a)](https://github.com/SymbiFlow/prjxray/blob/3d1a00527cf8f406d75f462d6cbb3487f8699668/settings/artix7.sh)
+Created using following [settings/artix7.sh (sha256: fc677f338196f4cecea5f963feb41c09d281505828d0cde9740f2a4bb305532a)](https://github.com/SymbiFlow/prjxray/blob/4c157493ec9f13caea4ad3f0c02f8f318f198846/settings/artix7.sh)
 ```shell
 #!/bin/bash
 # Copyright (C) 2017-2020  The Project X-Ray Authors.
@@ -884,7 +886,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/kintex7.sh (sha256: 26dfa36e49b4528298fc43411d654aa647076ce8160f4d8cfe71727594eb3848)](https://github.com/SymbiFlow/prjxray/blob/3d1a00527cf8f406d75f462d6cbb3487f8699668/settings/kintex7.sh)
+Created using following [settings/kintex7.sh (sha256: 26dfa36e49b4528298fc43411d654aa647076ce8160f4d8cfe71727594eb3848)](https://github.com/SymbiFlow/prjxray/blob/4c157493ec9f13caea4ad3f0c02f8f318f198846/settings/kintex7.sh)
 ```shell
 # Copyright (C) 2017-2020  The Project X-Ray Authors.
 #
@@ -1319,7 +1321,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/spartan7.sh (sha256: e4e716c51468b214347a8dd026a137f81a56295441095d6dfcd71973d4ca812d)](https://github.com/SymbiFlow/prjxray/blob/3d1a00527cf8f406d75f462d6cbb3487f8699668/settings/spartan7.sh)
+Created using following [settings/spartan7.sh (sha256: e4e716c51468b214347a8dd026a137f81a56295441095d6dfcd71973d4ca812d)](https://github.com/SymbiFlow/prjxray/blob/4c157493ec9f13caea4ad3f0c02f8f318f198846/settings/spartan7.sh)
 ```shell
 #!/bin/bash
 # Copyright (C) 2017-2021  The Project X-Ray Authors.
@@ -1803,7 +1805,7 @@ Results have checksums;
 
 ### Settings
 
-Created using following [settings/zynq7.sh (sha256: d3953bf67abbbaa760df1dd60a71f2edf66da37e2bf63220a70fada25188d3c9)](https://github.com/SymbiFlow/prjxray/blob/3d1a00527cf8f406d75f462d6cbb3487f8699668/settings/zynq7.sh)
+Created using following [settings/zynq7.sh (sha256: d3953bf67abbbaa760df1dd60a71f2edf66da37e2bf63220a70fada25188d3c9)](https://github.com/SymbiFlow/prjxray/blob/4c157493ec9f13caea4ad3f0c02f8f318f198846/settings/zynq7.sh)
 ```shell
 # Copyright (C) 2017-2020  The Project X-Ray Authors.
 #
