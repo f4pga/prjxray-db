@@ -25,7 +25,7 @@ TMPDIR=$(mktemp -d)
 
 	# Clone the destination
 	echo
-	echo "Cloning GitHub pages"
+	echo "::group::Cloning GitHub pages"
 	echo "--------------------------------------------"
 	ssh-add -l
 	ssh -v github.com || true
@@ -37,9 +37,10 @@ TMPDIR=$(mktemp -d)
 		find -type f | grep -v .git | sort
 	)
 	echo "--------------------------------------------"
+	echo "::endgroup::"
 
 	echo
-	echo "Updating html"
+	echo "::group::Updating html"
 	echo "--------------------------------------------"
 	rm -rf html/*
 	cp -a $SRCDIR/html/* html/
@@ -48,11 +49,12 @@ TMPDIR=$(mktemp -d)
 		git add --all .
 	)
 	echo "--------------------------------------------"
+	echo "::endgroup::"
 
 	(
 		cd html
 		echo
-		echo "Committing"
+		echo "::group::Committing"
 		echo "--------------------------------------------"
 		git status
 		echo "--------------------------------------------"
@@ -69,11 +71,15 @@ TMPDIR=$(mktemp -d)
 				-m "" \
 				-m "$CURRENT_MESSAGE"
 		fi
+		echo "--------------------------------------------"
+		echo "::endgroup::"
+
 		echo
-		echo "Pushing"
+		echo "::group::Pushing"
 		echo "--------------------------------------------"
 		git push origin
 		echo "--------------------------------------------"
+		echo "::endgroup::"
 	)
 )
 

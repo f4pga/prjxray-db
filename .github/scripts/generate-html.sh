@@ -13,10 +13,11 @@ PYTHONHASHSEED=0
 PRJXRAY_INFO_REVISION=$(grep "prjxray/commit" Info.md | sed -e's-.*/prjxray/commit/--' -e's/\([0-9a-fA-F]*\).*$/\1/')
 
 echo
-echo "Project X-Ray Database Revision $(git describe --long --tags --always)"
+echo "::group::Project X-Ray Database Revision $(git describe --long --tags --always)"
 echo "--------------------------------------------"
 git log -1
 echo "--------------------------------------------"
+echo "::endgroup::"
 echo
 
 # Remove any pre-existing html output.
@@ -55,7 +56,7 @@ fi
 	# Reset to the right revision
 	git reset --hard $PRJXRAY_INFO_REVISION
 	echo
-	echo "Project X-Ray Revision $(git describe --long --tags --always)"
+	echo "::group::Project X-Ray Revision $(git describe --long --tags --always)"
 	echo "--------------------------------------------"
 	echo "Info says version should be $(git describe --long --tags --always $PRJXRAY_INFO_REVISION) ($PRJXRAY_INFO_REVISION)"
 	echo "--------------------------------------------"
@@ -66,6 +67,7 @@ fi
 	echo
 	rm -rf database
 	ln -s $DBDIR database
+	echo "::endgroup::"
 )
 
 # Generate the HTML for each device we have a settings file for.
@@ -75,7 +77,7 @@ for SETTINGS in $(ls $TMPDIR/prjxray/settings/*.sh | grep '7.sh$'); do
 	export PYTHONPATH=$PYTHONPATH:$TMPDIR/prjxray
 
 	echo
-	echo "Generating for $DEVICE"
+	echo "::group::Generating for $DEVICE"
 	echo "--------------------------------------------"
 	echo "settings.sh $(sha256sum $SETTINGS)"
 	cat $SETTINGS
@@ -103,6 +105,7 @@ for SETTINGS in $(ls $TMPDIR/prjxray/settings/*.sh | grep '7.sh$'); do
 			echo "--------------------------------------------"
 		done
 	fi
+	echo "::endgroup::"
 
 done
 
@@ -119,9 +122,10 @@ python3 -m markdown \
 # Output a summary of the generated stuff
 (
 	echo
-	echo "HTML Results"
+	echo "::group::HTML Results"
 	echo "--------------------------------------------"
 	sha256sum $(find html -type f | sort)
 	echo "--------------------------------------------"
+	echo "::endgroup::"
 	echo
 )
