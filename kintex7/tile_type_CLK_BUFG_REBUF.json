@@ -56,6 +56,510 @@
             },
             "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK0_BOT"
         },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK1_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK1_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK1_TOP",
+            "is_directional": "0",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK1_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK1_TOP->>GCLK1_0_UP_TEST_RING_IN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GCLK1_0_UP_TEST_RING_IN",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK1_TOP"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK2_BOT->>GCLK2_3_DN_TEST_RING_IN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GCLK2_3_DN_TEST_RING_IN",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK2_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK2_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK2_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK2_TOP",
+            "is_directional": "0",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK2_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK3_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK3_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK3_TOP",
+            "is_directional": "0",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK3_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK3_TOP->>GCLK3_2_UP_TEST_RING_IN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GCLK3_2_UP_TEST_RING_IN",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK3_TOP"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK4_BOT->>GCLK4_5_DN_TEST_RING_IN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GCLK4_5_DN_TEST_RING_IN",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK4_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK4_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK4_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK4_TOP",
+            "is_directional": "0",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK4_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK5_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK5_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK5_TOP",
+            "is_directional": "0",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK5_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK5_TOP->>GCLK5_4_UP_TEST_RING_IN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GCLK5_4_UP_TEST_RING_IN",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK5_TOP"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK6_BOT->>GCLK6_7_DN_TEST_RING_IN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GCLK6_7_DN_TEST_RING_IN",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK6_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK6_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK6_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK6_TOP",
+            "is_directional": "0",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK6_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK7_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK7_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK7_TOP",
+            "is_directional": "0",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK7_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK7_TOP->>GCLK7_6_UP_TEST_RING_IN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GCLK7_6_UP_TEST_RING_IN",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK7_TOP"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK8_BOT->>GCLK8_9_DN_TEST_RING_IN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GCLK8_9_DN_TEST_RING_IN",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK8_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK8_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK8_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK8_TOP",
+            "is_directional": "0",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK8_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK9_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK9_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK9_TOP",
+            "is_directional": "0",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK9_BOT"
+        },
+        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK9_TOP->>GCLK9_8_UP_TEST_RING_IN": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GCLK9_8_UP_TEST_RING_IN",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK9_TOP"
+        },
         "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK10_BOT->>GCLK10_11_DN_TEST_RING_IN": {
             "can_invert": "0",
             "dst_to_src": {
@@ -615,62 +1119,6 @@
                 "res": "0.0"
             },
             "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK19_TOP"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK1_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK1_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK1_TOP",
-            "is_directional": "0",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK1_BOT"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK1_TOP->>GCLK1_0_UP_TEST_RING_IN": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "GCLK1_0_UP_TEST_RING_IN",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK1_TOP"
         },
         "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK20_BOT->>GCLK20_21_DN_TEST_RING_IN": {
             "can_invert": "0",
@@ -1232,62 +1680,6 @@
             },
             "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK29_TOP"
         },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK2_BOT->>GCLK2_3_DN_TEST_RING_IN": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "GCLK2_3_DN_TEST_RING_IN",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK2_BOT"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK2_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK2_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK2_TOP",
-            "is_directional": "0",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK2_BOT"
-        },
         "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK30_BOT->>GCLK30_31_DN_TEST_RING_IN": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1400,398 +1792,6 @@
             },
             "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK31_TOP"
         },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK3_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK3_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK3_TOP",
-            "is_directional": "0",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK3_BOT"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK3_TOP->>GCLK3_2_UP_TEST_RING_IN": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "GCLK3_2_UP_TEST_RING_IN",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK3_TOP"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK4_BOT->>GCLK4_5_DN_TEST_RING_IN": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "GCLK4_5_DN_TEST_RING_IN",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK4_BOT"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK4_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK4_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK4_TOP",
-            "is_directional": "0",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK4_BOT"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK5_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK5_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK5_TOP",
-            "is_directional": "0",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK5_BOT"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK5_TOP->>GCLK5_4_UP_TEST_RING_IN": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "GCLK5_4_UP_TEST_RING_IN",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK5_TOP"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK6_BOT->>GCLK6_7_DN_TEST_RING_IN": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "GCLK6_7_DN_TEST_RING_IN",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK6_BOT"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK6_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK6_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK6_TOP",
-            "is_directional": "0",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK6_BOT"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK7_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK7_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK7_TOP",
-            "is_directional": "0",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK7_BOT"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK7_TOP->>GCLK7_6_UP_TEST_RING_IN": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "GCLK7_6_UP_TEST_RING_IN",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK7_TOP"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK8_BOT->>GCLK8_9_DN_TEST_RING_IN": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "GCLK8_9_DN_TEST_RING_IN",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK8_BOT"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK8_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK8_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK8_TOP",
-            "is_directional": "0",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK8_BOT"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK9_BOT<<->>CLK_BUFG_REBUF_R_CK_GCLK9_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK9_TOP",
-            "is_directional": "0",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK9_BOT"
-        },
-        "CLK_BUFG_REBUF.CLK_BUFG_REBUF_R_CK_GCLK9_TOP->>GCLK9_8_UP_TEST_RING_IN": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "GCLK9_8_UP_TEST_RING_IN",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "CLK_BUFG_REBUF_R_CK_GCLK9_TOP"
-        },
         "CLK_BUFG_REBUF.GCLK0_1_DN_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK1_BOT": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1819,6 +1819,258 @@
                 "res": null
             },
             "src_wire": "GCLK0_1_DN_TEST_RING_OUT"
+        },
+        "CLK_BUFG_REBUF.GCLK1_0_UP_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK0_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK0_TOP",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GCLK1_0_UP_TEST_RING_OUT"
+        },
+        "CLK_BUFG_REBUF.GCLK2_3_DN_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK3_BOT": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK3_BOT",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GCLK2_3_DN_TEST_RING_OUT"
+        },
+        "CLK_BUFG_REBUF.GCLK3_2_UP_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK2_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK2_TOP",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GCLK3_2_UP_TEST_RING_OUT"
+        },
+        "CLK_BUFG_REBUF.GCLK4_5_DN_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK5_BOT": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK5_BOT",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GCLK4_5_DN_TEST_RING_OUT"
+        },
+        "CLK_BUFG_REBUF.GCLK5_4_UP_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK4_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK4_TOP",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GCLK5_4_UP_TEST_RING_OUT"
+        },
+        "CLK_BUFG_REBUF.GCLK6_7_DN_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK7_BOT": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK7_BOT",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GCLK6_7_DN_TEST_RING_OUT"
+        },
+        "CLK_BUFG_REBUF.GCLK7_6_UP_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK6_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK6_TOP",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GCLK7_6_UP_TEST_RING_OUT"
+        },
+        "CLK_BUFG_REBUF.GCLK8_9_DN_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK9_BOT": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK9_BOT",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GCLK8_9_DN_TEST_RING_OUT"
+        },
+        "CLK_BUFG_REBUF.GCLK9_8_UP_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK8_TOP": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK8_TOP",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": null,
+                "res": null
+            },
+            "src_wire": "GCLK9_8_UP_TEST_RING_OUT"
         },
         "CLK_BUFG_REBUF.GCLK10_11_DN_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK11_BOT": {
             "can_invert": "0",
@@ -2100,34 +2352,6 @@
             },
             "src_wire": "GCLK19_18_UP_TEST_RING_OUT"
         },
-        "CLK_BUFG_REBUF.GCLK1_0_UP_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK0_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK0_TOP",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "GCLK1_0_UP_TEST_RING_OUT"
-        },
         "CLK_BUFG_REBUF.GCLK20_21_DN_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK21_BOT": {
             "can_invert": "0",
             "dst_to_src": {
@@ -2408,34 +2632,6 @@
             },
             "src_wire": "GCLK29_28_UP_TEST_RING_OUT"
         },
-        "CLK_BUFG_REBUF.GCLK2_3_DN_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK3_BOT": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK3_BOT",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "GCLK2_3_DN_TEST_RING_OUT"
-        },
         "CLK_BUFG_REBUF.GCLK30_31_DN_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK31_BOT": {
             "can_invert": "0",
             "dst_to_src": {
@@ -2491,202 +2687,6 @@
                 "res": null
             },
             "src_wire": "GCLK31_30_UP_TEST_RING_OUT"
-        },
-        "CLK_BUFG_REBUF.GCLK3_2_UP_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK2_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK2_TOP",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "GCLK3_2_UP_TEST_RING_OUT"
-        },
-        "CLK_BUFG_REBUF.GCLK4_5_DN_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK5_BOT": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK5_BOT",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "GCLK4_5_DN_TEST_RING_OUT"
-        },
-        "CLK_BUFG_REBUF.GCLK5_4_UP_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK4_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK4_TOP",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "GCLK5_4_UP_TEST_RING_OUT"
-        },
-        "CLK_BUFG_REBUF.GCLK6_7_DN_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK7_BOT": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK7_BOT",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "GCLK6_7_DN_TEST_RING_OUT"
-        },
-        "CLK_BUFG_REBUF.GCLK7_6_UP_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK6_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK6_TOP",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "GCLK7_6_UP_TEST_RING_OUT"
-        },
-        "CLK_BUFG_REBUF.GCLK8_9_DN_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK9_BOT": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK9_BOT",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "GCLK8_9_DN_TEST_RING_OUT"
-        },
-        "CLK_BUFG_REBUF.GCLK9_8_UP_TEST_RING_OUT->>CLK_BUFG_REBUF_R_CK_GCLK8_TOP": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "dst_wire": "CLK_BUFG_REBUF_R_CK_GCLK8_TOP",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.000",
-                    "0.000",
-                    "0.000",
-                    "0.000"
-                ],
-                "in_cap": null,
-                "res": null
-            },
-            "src_wire": "GCLK9_8_UP_TEST_RING_OUT"
         }
     },
     "sites": [],
@@ -2694,6 +2694,14 @@
     "wires": {
         "CLK_BUFG_REBUF_CK_BUFG_CASC0": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC1": null,
+        "CLK_BUFG_REBUF_CK_BUFG_CASC2": null,
+        "CLK_BUFG_REBUF_CK_BUFG_CASC3": null,
+        "CLK_BUFG_REBUF_CK_BUFG_CASC4": null,
+        "CLK_BUFG_REBUF_CK_BUFG_CASC5": null,
+        "CLK_BUFG_REBUF_CK_BUFG_CASC6": null,
+        "CLK_BUFG_REBUF_CK_BUFG_CASC7": null,
+        "CLK_BUFG_REBUF_CK_BUFG_CASC8": null,
+        "CLK_BUFG_REBUF_CK_BUFG_CASC9": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC10": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC11": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC12": null,
@@ -2704,7 +2712,6 @@
         "CLK_BUFG_REBUF_CK_BUFG_CASC17": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC18": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC19": null,
-        "CLK_BUFG_REBUF_CK_BUFG_CASC2": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC20": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC21": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC22": null,
@@ -2715,17 +2722,28 @@
         "CLK_BUFG_REBUF_CK_BUFG_CASC27": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC28": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC29": null,
-        "CLK_BUFG_REBUF_CK_BUFG_CASC3": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC30": null,
         "CLK_BUFG_REBUF_CK_BUFG_CASC31": null,
-        "CLK_BUFG_REBUF_CK_BUFG_CASC4": null,
-        "CLK_BUFG_REBUF_CK_BUFG_CASC5": null,
-        "CLK_BUFG_REBUF_CK_BUFG_CASC6": null,
-        "CLK_BUFG_REBUF_CK_BUFG_CASC7": null,
-        "CLK_BUFG_REBUF_CK_BUFG_CASC8": null,
-        "CLK_BUFG_REBUF_CK_BUFG_CASC9": null,
         "CLK_BUFG_REBUF_CK_GCLK0_BOT": null,
         "CLK_BUFG_REBUF_CK_GCLK0_TOP": null,
+        "CLK_BUFG_REBUF_CK_GCLK1_BOT": null,
+        "CLK_BUFG_REBUF_CK_GCLK1_TOP": null,
+        "CLK_BUFG_REBUF_CK_GCLK2_BOT": null,
+        "CLK_BUFG_REBUF_CK_GCLK2_TOP": null,
+        "CLK_BUFG_REBUF_CK_GCLK3_BOT": null,
+        "CLK_BUFG_REBUF_CK_GCLK3_TOP": null,
+        "CLK_BUFG_REBUF_CK_GCLK4_BOT": null,
+        "CLK_BUFG_REBUF_CK_GCLK4_TOP": null,
+        "CLK_BUFG_REBUF_CK_GCLK5_BOT": null,
+        "CLK_BUFG_REBUF_CK_GCLK5_TOP": null,
+        "CLK_BUFG_REBUF_CK_GCLK6_BOT": null,
+        "CLK_BUFG_REBUF_CK_GCLK6_TOP": null,
+        "CLK_BUFG_REBUF_CK_GCLK7_BOT": null,
+        "CLK_BUFG_REBUF_CK_GCLK7_TOP": null,
+        "CLK_BUFG_REBUF_CK_GCLK8_BOT": null,
+        "CLK_BUFG_REBUF_CK_GCLK8_TOP": null,
+        "CLK_BUFG_REBUF_CK_GCLK9_BOT": null,
+        "CLK_BUFG_REBUF_CK_GCLK9_TOP": null,
         "CLK_BUFG_REBUF_CK_GCLK10_BOT": null,
         "CLK_BUFG_REBUF_CK_GCLK10_TOP": null,
         "CLK_BUFG_REBUF_CK_GCLK11_BOT": null,
@@ -2746,8 +2764,6 @@
         "CLK_BUFG_REBUF_CK_GCLK18_TOP": null,
         "CLK_BUFG_REBUF_CK_GCLK19_BOT": null,
         "CLK_BUFG_REBUF_CK_GCLK19_TOP": null,
-        "CLK_BUFG_REBUF_CK_GCLK1_BOT": null,
-        "CLK_BUFG_REBUF_CK_GCLK1_TOP": null,
         "CLK_BUFG_REBUF_CK_GCLK20_BOT": null,
         "CLK_BUFG_REBUF_CK_GCLK20_TOP": null,
         "CLK_BUFG_REBUF_CK_GCLK21_BOT": null,
@@ -2768,26 +2784,10 @@
         "CLK_BUFG_REBUF_CK_GCLK28_TOP": null,
         "CLK_BUFG_REBUF_CK_GCLK29_BOT": null,
         "CLK_BUFG_REBUF_CK_GCLK29_TOP": null,
-        "CLK_BUFG_REBUF_CK_GCLK2_BOT": null,
-        "CLK_BUFG_REBUF_CK_GCLK2_TOP": null,
         "CLK_BUFG_REBUF_CK_GCLK30_BOT": null,
         "CLK_BUFG_REBUF_CK_GCLK30_TOP": null,
         "CLK_BUFG_REBUF_CK_GCLK31_BOT": null,
         "CLK_BUFG_REBUF_CK_GCLK31_TOP": null,
-        "CLK_BUFG_REBUF_CK_GCLK3_BOT": null,
-        "CLK_BUFG_REBUF_CK_GCLK3_TOP": null,
-        "CLK_BUFG_REBUF_CK_GCLK4_BOT": null,
-        "CLK_BUFG_REBUF_CK_GCLK4_TOP": null,
-        "CLK_BUFG_REBUF_CK_GCLK5_BOT": null,
-        "CLK_BUFG_REBUF_CK_GCLK5_TOP": null,
-        "CLK_BUFG_REBUF_CK_GCLK6_BOT": null,
-        "CLK_BUFG_REBUF_CK_GCLK6_TOP": null,
-        "CLK_BUFG_REBUF_CK_GCLK7_BOT": null,
-        "CLK_BUFG_REBUF_CK_GCLK7_TOP": null,
-        "CLK_BUFG_REBUF_CK_GCLK8_BOT": null,
-        "CLK_BUFG_REBUF_CK_GCLK8_TOP": null,
-        "CLK_BUFG_REBUF_CK_GCLK9_BOT": null,
-        "CLK_BUFG_REBUF_CK_GCLK9_TOP": null,
         "CLK_BUFG_REBUF_EE2A0_0": null,
         "CLK_BUFG_REBUF_EE2A0_1": null,
         "CLK_BUFG_REBUF_EE2A1_0": null,
@@ -2852,12 +2852,6 @@
         "CLK_BUFG_REBUF_ER1BEG2_1": null,
         "CLK_BUFG_REBUF_ER1BEG3_0": null,
         "CLK_BUFG_REBUF_ER1BEG3_1": null,
-        "CLK_BUFG_REBUF_LH10_0": null,
-        "CLK_BUFG_REBUF_LH10_1": null,
-        "CLK_BUFG_REBUF_LH11_0": null,
-        "CLK_BUFG_REBUF_LH11_1": null,
-        "CLK_BUFG_REBUF_LH12_0": null,
-        "CLK_BUFG_REBUF_LH12_1": null,
         "CLK_BUFG_REBUF_LH1_0": null,
         "CLK_BUFG_REBUF_LH1_1": null,
         "CLK_BUFG_REBUF_LH2_0": null,
@@ -2876,6 +2870,12 @@
         "CLK_BUFG_REBUF_LH8_1": null,
         "CLK_BUFG_REBUF_LH9_0": null,
         "CLK_BUFG_REBUF_LH9_1": null,
+        "CLK_BUFG_REBUF_LH10_0": null,
+        "CLK_BUFG_REBUF_LH10_1": null,
+        "CLK_BUFG_REBUF_LH11_0": null,
+        "CLK_BUFG_REBUF_LH11_1": null,
+        "CLK_BUFG_REBUF_LH12_0": null,
+        "CLK_BUFG_REBUF_LH12_1": null,
         "CLK_BUFG_REBUF_MONITOR_N_0": null,
         "CLK_BUFG_REBUF_MONITOR_N_1": null,
         "CLK_BUFG_REBUF_MONITOR_P_0": null,
@@ -2930,6 +2930,14 @@
         "CLK_BUFG_REBUF_NW4END3_1": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC0": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC1": null,
+        "CLK_BUFG_REBUF_R_CK_BUFG_CASC2": null,
+        "CLK_BUFG_REBUF_R_CK_BUFG_CASC3": null,
+        "CLK_BUFG_REBUF_R_CK_BUFG_CASC4": null,
+        "CLK_BUFG_REBUF_R_CK_BUFG_CASC5": null,
+        "CLK_BUFG_REBUF_R_CK_BUFG_CASC6": null,
+        "CLK_BUFG_REBUF_R_CK_BUFG_CASC7": null,
+        "CLK_BUFG_REBUF_R_CK_BUFG_CASC8": null,
+        "CLK_BUFG_REBUF_R_CK_BUFG_CASC9": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC10": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC11": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC12": null,
@@ -2940,7 +2948,6 @@
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC17": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC18": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC19": null,
-        "CLK_BUFG_REBUF_R_CK_BUFG_CASC2": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC20": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC21": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC22": null,
@@ -2951,17 +2958,28 @@
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC27": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC28": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC29": null,
-        "CLK_BUFG_REBUF_R_CK_BUFG_CASC3": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC30": null,
         "CLK_BUFG_REBUF_R_CK_BUFG_CASC31": null,
-        "CLK_BUFG_REBUF_R_CK_BUFG_CASC4": null,
-        "CLK_BUFG_REBUF_R_CK_BUFG_CASC5": null,
-        "CLK_BUFG_REBUF_R_CK_BUFG_CASC6": null,
-        "CLK_BUFG_REBUF_R_CK_BUFG_CASC7": null,
-        "CLK_BUFG_REBUF_R_CK_BUFG_CASC8": null,
-        "CLK_BUFG_REBUF_R_CK_BUFG_CASC9": null,
         "CLK_BUFG_REBUF_R_CK_GCLK0_BOT": null,
         "CLK_BUFG_REBUF_R_CK_GCLK0_TOP": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK1_BOT": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK1_TOP": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK2_BOT": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK2_TOP": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK3_BOT": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK3_TOP": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK4_BOT": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK4_TOP": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK5_BOT": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK5_TOP": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK6_BOT": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK6_TOP": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK7_BOT": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK7_TOP": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK8_BOT": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK8_TOP": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK9_BOT": null,
+        "CLK_BUFG_REBUF_R_CK_GCLK9_TOP": null,
         "CLK_BUFG_REBUF_R_CK_GCLK10_BOT": null,
         "CLK_BUFG_REBUF_R_CK_GCLK10_TOP": null,
         "CLK_BUFG_REBUF_R_CK_GCLK11_BOT": null,
@@ -2982,8 +3000,6 @@
         "CLK_BUFG_REBUF_R_CK_GCLK18_TOP": null,
         "CLK_BUFG_REBUF_R_CK_GCLK19_BOT": null,
         "CLK_BUFG_REBUF_R_CK_GCLK19_TOP": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK1_BOT": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK1_TOP": null,
         "CLK_BUFG_REBUF_R_CK_GCLK20_BOT": null,
         "CLK_BUFG_REBUF_R_CK_GCLK20_TOP": null,
         "CLK_BUFG_REBUF_R_CK_GCLK21_BOT": null,
@@ -3004,26 +3020,10 @@
         "CLK_BUFG_REBUF_R_CK_GCLK28_TOP": null,
         "CLK_BUFG_REBUF_R_CK_GCLK29_BOT": null,
         "CLK_BUFG_REBUF_R_CK_GCLK29_TOP": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK2_BOT": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK2_TOP": null,
         "CLK_BUFG_REBUF_R_CK_GCLK30_BOT": null,
         "CLK_BUFG_REBUF_R_CK_GCLK30_TOP": null,
         "CLK_BUFG_REBUF_R_CK_GCLK31_BOT": null,
         "CLK_BUFG_REBUF_R_CK_GCLK31_TOP": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK3_BOT": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK3_TOP": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK4_BOT": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK4_TOP": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK5_BOT": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK5_TOP": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK6_BOT": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK6_TOP": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK7_BOT": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK7_TOP": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK8_BOT": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK8_TOP": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK9_BOT": null,
-        "CLK_BUFG_REBUF_R_CK_GCLK9_TOP": null,
         "CLK_BUFG_REBUF_SE2A0_0": null,
         "CLK_BUFG_REBUF_SE2A0_1": null,
         "CLK_BUFG_REBUF_SE2A1_0": null,
@@ -3138,6 +3138,24 @@
         "CLK_BUFG_REBUF_WW4END3_1": null,
         "GCLK0_1_DN_TEST_RING_IN": null,
         "GCLK0_1_DN_TEST_RING_OUT": null,
+        "GCLK1_0_UP_TEST_RING_IN": null,
+        "GCLK1_0_UP_TEST_RING_OUT": null,
+        "GCLK2_3_DN_TEST_RING_IN": null,
+        "GCLK2_3_DN_TEST_RING_OUT": null,
+        "GCLK3_2_UP_TEST_RING_IN": null,
+        "GCLK3_2_UP_TEST_RING_OUT": null,
+        "GCLK4_5_DN_TEST_RING_IN": null,
+        "GCLK4_5_DN_TEST_RING_OUT": null,
+        "GCLK5_4_UP_TEST_RING_IN": null,
+        "GCLK5_4_UP_TEST_RING_OUT": null,
+        "GCLK6_7_DN_TEST_RING_IN": null,
+        "GCLK6_7_DN_TEST_RING_OUT": null,
+        "GCLK7_6_UP_TEST_RING_IN": null,
+        "GCLK7_6_UP_TEST_RING_OUT": null,
+        "GCLK8_9_DN_TEST_RING_IN": null,
+        "GCLK8_9_DN_TEST_RING_OUT": null,
+        "GCLK9_8_UP_TEST_RING_IN": null,
+        "GCLK9_8_UP_TEST_RING_OUT": null,
         "GCLK10_11_DN_TEST_RING_IN": null,
         "GCLK10_11_DN_TEST_RING_OUT": null,
         "GCLK11_10_UP_TEST_RING_IN": null,
@@ -3158,8 +3176,6 @@
         "GCLK18_19_DN_TEST_RING_OUT": null,
         "GCLK19_18_UP_TEST_RING_IN": null,
         "GCLK19_18_UP_TEST_RING_OUT": null,
-        "GCLK1_0_UP_TEST_RING_IN": null,
-        "GCLK1_0_UP_TEST_RING_OUT": null,
         "GCLK20_21_DN_TEST_RING_IN": null,
         "GCLK20_21_DN_TEST_RING_OUT": null,
         "GCLK21_20_UP_TEST_RING_IN": null,
@@ -3180,25 +3196,9 @@
         "GCLK28_29_DN_TEST_RING_OUT": null,
         "GCLK29_28_UP_TEST_RING_IN": null,
         "GCLK29_28_UP_TEST_RING_OUT": null,
-        "GCLK2_3_DN_TEST_RING_IN": null,
-        "GCLK2_3_DN_TEST_RING_OUT": null,
         "GCLK30_31_DN_TEST_RING_IN": null,
         "GCLK30_31_DN_TEST_RING_OUT": null,
         "GCLK31_30_UP_TEST_RING_IN": null,
-        "GCLK31_30_UP_TEST_RING_OUT": null,
-        "GCLK3_2_UP_TEST_RING_IN": null,
-        "GCLK3_2_UP_TEST_RING_OUT": null,
-        "GCLK4_5_DN_TEST_RING_IN": null,
-        "GCLK4_5_DN_TEST_RING_OUT": null,
-        "GCLK5_4_UP_TEST_RING_IN": null,
-        "GCLK5_4_UP_TEST_RING_OUT": null,
-        "GCLK6_7_DN_TEST_RING_IN": null,
-        "GCLK6_7_DN_TEST_RING_OUT": null,
-        "GCLK7_6_UP_TEST_RING_IN": null,
-        "GCLK7_6_UP_TEST_RING_OUT": null,
-        "GCLK8_9_DN_TEST_RING_IN": null,
-        "GCLK8_9_DN_TEST_RING_OUT": null,
-        "GCLK9_8_UP_TEST_RING_IN": null,
-        "GCLK9_8_UP_TEST_RING_OUT": null
+        "GCLK31_30_UP_TEST_RING_OUT": null
     }
 }

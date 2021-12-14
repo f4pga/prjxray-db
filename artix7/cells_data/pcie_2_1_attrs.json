@@ -1,0 +1,2086 @@
+{
+    "AER_BASE_PTR": {
+        "digits": 12,
+        "type": "BIN",
+        "values": [
+            4095
+        ]
+    },
+    "AER_CAP_ECRC_CHECK_CAPABLE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "AER_CAP_ECRC_GEN_CAPABLE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "AER_CAP_ID": {
+        "digits": 16,
+        "type": "BIN",
+        "values": [
+            65535
+        ]
+    },
+    "AER_CAP_MULTIHEADER": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "AER_CAP_NEXTPTR": {
+        "digits": 12,
+        "type": "BIN",
+        "values": [
+            4095
+        ]
+    },
+    "AER_CAP_ON": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "AER_CAP_OPTIONAL_ERR_SUPPORT": {
+        "digits": 24,
+        "type": "BIN",
+        "values": [
+            16777215
+        ]
+    },
+    "AER_CAP_PERMIT_ROOTERR_UPDATE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "AER_CAP_VERSION": {
+        "digits": 4,
+        "type": "BIN",
+        "values": [
+            15
+        ]
+    },
+    "ALLOW_X8_GEN2": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "BAR0": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "BAR1": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "BAR2": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "BAR3": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "BAR4": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "BAR5": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "CAPABILITIES_PTR": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "CARDBUS_CIS_POINTER": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "CFG_ECRC_ERR_CPLSTAT": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "CLASS_CODE": {
+        "digits": 24,
+        "type": "BIN",
+        "values": [
+            16777215
+        ]
+    },
+    "CMD_INTX_IMPLEMENTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "CPL_TIMEOUT_DISABLE_SUPPORTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "CPL_TIMEOUT_RANGES_SUPPORTED": {
+        "digits": 4,
+        "type": "BIN",
+        "values": [
+            15
+        ]
+    },
+    "CRM_MODULE_RSTS": {
+        "digits": 7,
+        "type": "BIN",
+        "values": [
+            127
+        ]
+    },
+    "DEV_CAP2_ARI_FORWARDING_SUPPORTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP2_ATOMICOP32_COMPLETER_SUPPORTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP2_ATOMICOP64_COMPLETER_SUPPORTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP2_ATOMICOP_ROUTING_SUPPORTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP2_CAS128_COMPLETER_SUPPORTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP2_ENDEND_TLP_PREFIX_SUPPORTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP2_EXTENDED_FMT_FIELD_SUPPORTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP2_LTR_MECHANISM_SUPPORTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP2_MAX_ENDEND_TLP_PREFIXES": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "DEV_CAP2_NO_RO_ENABLED_PRPR_PASSING": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP2_TPH_COMPLETER_SUPPORTED": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "DEV_CAP_ENABLE_SLOT_PWR_LIMIT_SCALE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP_ENABLE_SLOT_PWR_LIMIT_VALUE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP_ENDPOINT_L0S_LATENCY": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "DEV_CAP_ENDPOINT_L1_LATENCY": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "DEV_CAP_EXT_TAG_SUPPORTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP_FUNCTION_LEVEL_RESET_CAPABLE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP_MAX_PAYLOAD_SUPPORTED": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "DEV_CAP_PHANTOM_FUNCTIONS_SUPPORT": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "DEV_CAP_ROLE_BASED_ERROR": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CAP_RSVD_14_12": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "DEV_CAP_RSVD_17_16": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "DEV_CAP_RSVD_31_29": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "DEV_CONTROL_AUX_POWER_SUPPORTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DEV_CONTROL_EXT_TAG_DEFAULT": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DISABLE_ASPM_L1_TIMER": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DISABLE_BAR_FILTERING": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DISABLE_ERR_MSG": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DISABLE_ID_CHECK": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DISABLE_LANE_REVERSAL": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DISABLE_LOCKED_FILTER": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DISABLE_PPM_FILTER": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DISABLE_RX_POISONED_RESP": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DISABLE_RX_TC_FILTER": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DISABLE_SCRAMBLING": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DNSTREAM_LINK_NUM": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "DSN_BASE_PTR": {
+        "digits": 12,
+        "type": "BIN",
+        "values": [
+            4095
+        ]
+    },
+    "DSN_CAP_ID": {
+        "digits": 16,
+        "type": "BIN",
+        "values": [
+            65535
+        ]
+    },
+    "DSN_CAP_NEXTPTR": {
+        "digits": 12,
+        "type": "BIN",
+        "values": [
+            4095
+        ]
+    },
+    "DSN_CAP_ON": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "DSN_CAP_VERSION": {
+        "digits": 4,
+        "type": "BIN",
+        "values": [
+            15
+        ]
+    },
+    "ENABLE_MSG_ROUTE": {
+        "digits": 11,
+        "type": "BIN",
+        "values": [
+            2047
+        ]
+    },
+    "ENABLE_RX_TD_ECRC_TRIM": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "ENDEND_TLP_PREFIX_FORWARDING_SUPPORTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "ENTER_RVRY_EI_L0": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "EXIT_LOOPBACK_ON_EI": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "EXPANSION_ROM": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "EXT_CFG_CAP_PTR": {
+        "digits": 6,
+        "type": "BIN",
+        "values": [
+            63
+        ]
+    },
+    "EXT_CFG_XP_CAP_PTR": {
+        "digits": 10,
+        "type": "BIN",
+        "values": [
+            1023
+        ]
+    },
+    "HEADER_TYPE": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "INFER_EI": {
+        "digits": 5,
+        "type": "BIN",
+        "values": [
+            31
+        ]
+    },
+    "INTERRUPT_PIN": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "INTERRUPT_STAT_AUTO": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "IS_SWITCH": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "LAST_CONFIG_DWORD": {
+        "digits": 10,
+        "type": "BIN",
+        "values": [
+            1023
+        ]
+    },
+    "LINK_CAP_ASPM_OPTIONALITY": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "LINK_CAP_ASPM_SUPPORT": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "LINK_CAP_CLOCK_POWER_MANAGEMENT": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "LINK_CAP_DLL_LINK_ACTIVE_REPORTING_CAP": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "LINK_CAP_L0S_EXIT_LATENCY_COMCLK_GEN1": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "LINK_CAP_L0S_EXIT_LATENCY_COMCLK_GEN2": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "LINK_CAP_L0S_EXIT_LATENCY_GEN1": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "LINK_CAP_L0S_EXIT_LATENCY_GEN2": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "LINK_CAP_L1_EXIT_LATENCY_COMCLK_GEN1": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "LINK_CAP_L1_EXIT_LATENCY_COMCLK_GEN2": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "LINK_CAP_L1_EXIT_LATENCY_GEN1": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "LINK_CAP_L1_EXIT_LATENCY_GEN2": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "LINK_CAP_LINK_BANDWIDTH_NOTIFICATION_CAP": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "LINK_CAP_MAX_LINK_SPEED": {
+        "digits": 4,
+        "type": "BIN",
+        "values": [
+            15
+        ]
+    },
+    "LINK_CAP_MAX_LINK_WIDTH": {
+        "digits": 6,
+        "type": "BIN",
+        "values": [
+            63
+        ]
+    },
+    "LINK_CAP_RSVD_23": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "LINK_CAP_SURPRISE_DOWN_ERROR_CAPABLE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "LINK_CONTROL_RCB": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "LINK_CTRL2_DEEMPHASIS": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "LINK_CTRL2_HW_AUTONOMOUS_SPEED_DISABLE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "LINK_CTRL2_TARGET_LINK_SPEED": {
+        "digits": 4,
+        "type": "BIN",
+        "values": [
+            15
+        ]
+    },
+    "LINK_STATUS_SLOT_CLOCK_CONFIG": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "LL_ACK_TIMEOUT": {
+        "digits": 15,
+        "type": "BIN",
+        "values": [
+            32767
+        ]
+    },
+    "LL_ACK_TIMEOUT_EN": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "LL_ACK_TIMEOUT_FUNC": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "LL_REPLAY_TIMEOUT": {
+        "digits": 15,
+        "type": "BIN",
+        "values": [
+            32767
+        ]
+    },
+    "LL_REPLAY_TIMEOUT_EN": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "LL_REPLAY_TIMEOUT_FUNC": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "LTSSM_MAX_LINK_WIDTH": {
+        "digits": 6,
+        "type": "BIN",
+        "values": [
+            63
+        ]
+    },
+    "MPS_FORCE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "MSIX_BASE_PTR": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "MSIX_CAP_ID": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "MSIX_CAP_NEXTPTR": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "MSIX_CAP_ON": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "MSIX_CAP_PBA_BIR": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "MSIX_CAP_PBA_OFFSET": {
+        "digits": 29,
+        "type": "BIN",
+        "values": [
+            536870911
+        ]
+    },
+    "MSIX_CAP_TABLE_BIR": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "MSIX_CAP_TABLE_OFFSET": {
+        "digits": 29,
+        "type": "BIN",
+        "values": [
+            536870911
+        ]
+    },
+    "MSIX_CAP_TABLE_SIZE": {
+        "digits": 11,
+        "type": "BIN",
+        "values": [
+            2047
+        ]
+    },
+    "MSI_BASE_PTR": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "MSI_CAP_64_BIT_ADDR_CAPABLE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "MSI_CAP_ID": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "MSI_CAP_MULTIMSGCAP": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "MSI_CAP_MULTIMSG_EXTENSION": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "MSI_CAP_NEXTPTR": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "MSI_CAP_ON": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "MSI_CAP_PER_VECTOR_MASKING_CAPABLE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "N_FTS_COMCLK_GEN1": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "N_FTS_COMCLK_GEN2": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "N_FTS_GEN1": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "N_FTS_GEN2": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PCIE_BASE_PTR": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PCIE_CAP_CAPABILITY_ID": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PCIE_CAP_CAPABILITY_VERSION": {
+        "digits": 4,
+        "type": "BIN",
+        "values": [
+            15
+        ]
+    },
+    "PCIE_CAP_DEVICE_PORT_TYPE": {
+        "digits": 4,
+        "type": "BIN",
+        "values": [
+            15
+        ]
+    },
+    "PCIE_CAP_NEXTPTR": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PCIE_CAP_ON": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PCIE_CAP_RSVD_15_14": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "PCIE_CAP_SLOT_IMPLEMENTED": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PCIE_REVISION": {
+        "digits": 4,
+        "type": "BIN",
+        "values": [
+            15
+        ]
+    },
+    "PL_AUTO_CONFIG": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "PL_FAST_TRAIN": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PM_ASPML0S_TIMEOUT": {
+        "digits": 15,
+        "type": "BIN",
+        "values": [
+            32767
+        ]
+    },
+    "PM_ASPML0S_TIMEOUT_EN": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PM_ASPML0S_TIMEOUT_FUNC": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "PM_ASPM_FASTEXIT": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PM_BASE_PTR": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PM_CAP_AUXCURRENT": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "PM_CAP_D1SUPPORT": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PM_CAP_D2SUPPORT": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PM_CAP_DSI": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PM_CAP_ID": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PM_CAP_NEXTPTR": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PM_CAP_ON": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PM_CAP_PMESUPPORT": {
+        "digits": 5,
+        "type": "BIN",
+        "values": [
+            31
+        ]
+    },
+    "PM_CAP_PME_CLOCK": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PM_CAP_RSVD_04": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "PM_CAP_VERSION": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "PM_CSR_B2B3": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PM_CSR_BPCCEN": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PM_CSR_NOSOFTRST": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "PM_DATA0": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PM_DATA1": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PM_DATA2": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PM_DATA3": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PM_DATA4": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PM_DATA5": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PM_DATA6": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PM_DATA7": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "PM_DATA_SCALE0": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "PM_DATA_SCALE1": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "PM_DATA_SCALE2": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "PM_DATA_SCALE3": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "PM_DATA_SCALE4": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "PM_DATA_SCALE5": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "PM_DATA_SCALE6": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "PM_DATA_SCALE7": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "PM_MF": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "RBAR_BASE_PTR": {
+        "digits": 12,
+        "type": "BIN",
+        "values": [
+            4095
+        ]
+    },
+    "RBAR_CAP_CONTROL_ENCODEDBAR0": {
+        "digits": 5,
+        "type": "BIN",
+        "values": [
+            31
+        ]
+    },
+    "RBAR_CAP_CONTROL_ENCODEDBAR1": {
+        "digits": 5,
+        "type": "BIN",
+        "values": [
+            31
+        ]
+    },
+    "RBAR_CAP_CONTROL_ENCODEDBAR2": {
+        "digits": 5,
+        "type": "BIN",
+        "values": [
+            31
+        ]
+    },
+    "RBAR_CAP_CONTROL_ENCODEDBAR3": {
+        "digits": 5,
+        "type": "BIN",
+        "values": [
+            31
+        ]
+    },
+    "RBAR_CAP_CONTROL_ENCODEDBAR4": {
+        "digits": 5,
+        "type": "BIN",
+        "values": [
+            31
+        ]
+    },
+    "RBAR_CAP_CONTROL_ENCODEDBAR5": {
+        "digits": 5,
+        "type": "BIN",
+        "values": [
+            31
+        ]
+    },
+    "RBAR_CAP_ID": {
+        "digits": 16,
+        "type": "BIN",
+        "values": [
+            65535
+        ]
+    },
+    "RBAR_CAP_INDEX0": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "RBAR_CAP_INDEX1": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "RBAR_CAP_INDEX2": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "RBAR_CAP_INDEX3": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "RBAR_CAP_INDEX4": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "RBAR_CAP_INDEX5": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "RBAR_CAP_NEXTPTR": {
+        "digits": 12,
+        "type": "BIN",
+        "values": [
+            4095
+        ]
+    },
+    "RBAR_CAP_ON": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "RBAR_CAP_SUP0": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "RBAR_CAP_SUP1": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "RBAR_CAP_SUP2": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "RBAR_CAP_SUP3": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "RBAR_CAP_SUP4": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "RBAR_CAP_SUP5": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "RBAR_CAP_VERSION": {
+        "digits": 4,
+        "type": "BIN",
+        "values": [
+            15
+        ]
+    },
+    "RBAR_NUM": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "RECRC_CHK": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "RECRC_CHK_TRIM": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "ROOT_CAP_CRS_SW_VISIBILITY": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "RP_AUTO_SPD": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "RP_AUTO_SPD_LOOPCNT": {
+        "digits": 5,
+        "type": "BIN",
+        "values": [
+            31
+        ]
+    },
+    "SELECT_DLL_IF": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "SLOT_CAP_ATT_BUTTON_PRESENT": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "SLOT_CAP_ATT_INDICATOR_PRESENT": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "SLOT_CAP_ELEC_INTERLOCK_PRESENT": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "SLOT_CAP_HOTPLUG_CAPABLE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "SLOT_CAP_HOTPLUG_SURPRISE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "SLOT_CAP_MRL_SENSOR_PRESENT": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "SLOT_CAP_NO_CMD_COMPLETED_SUPPORT": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "SLOT_CAP_PHYSICAL_SLOT_NUM": {
+        "digits": 13,
+        "type": "BIN",
+        "values": [
+            8191
+        ]
+    },
+    "SLOT_CAP_POWER_CONTROLLER_PRESENT": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "SLOT_CAP_POWER_INDICATOR_PRESENT": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "SLOT_CAP_SLOT_POWER_LIMIT_SCALE": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "SLOT_CAP_SLOT_POWER_LIMIT_VALUE": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "SPARE_BIT0": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "SPARE_BIT1": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "SPARE_BIT2": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "SPARE_BIT3": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "SPARE_BIT4": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "SPARE_BIT5": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "SPARE_BIT6": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "SPARE_BIT7": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "SPARE_BIT8": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "SPARE_BYTE0": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "SPARE_BYTE1": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "SPARE_BYTE2": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "SPARE_BYTE3": {
+        "digits": 8,
+        "type": "BIN",
+        "values": [
+            255
+        ]
+    },
+    "SPARE_WORD0": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "SPARE_WORD1": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "SPARE_WORD2": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "SPARE_WORD3": {
+        "digits": 32,
+        "type": "BIN",
+        "values": [
+            4294967295
+        ]
+    },
+    "SSL_MESSAGE_AUTO": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "TECRC_EP_INV": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "TL_RBYPASS": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "TL_RX_RAM_RADDR_LATENCY": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "TL_RX_RAM_RDATA_LATENCY": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "TL_RX_RAM_WRITE_LATENCY": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "TL_TFC_DISABLE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "TL_TX_CHECKS_DISABLE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "TL_TX_RAM_RADDR_LATENCY": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "TL_TX_RAM_RDATA_LATENCY": {
+        "digits": 2,
+        "type": "BIN",
+        "values": [
+            3
+        ]
+    },
+    "TL_TX_RAM_WRITE_LATENCY": {
+        "digits": 1,
+        "type": "BIN",
+        "values": [
+            1
+        ]
+    },
+    "TRN_DW": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "TRN_NP_FC": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "UPCONFIG_CAPABLE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "UPSTREAM_FACING": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "UR_ATOMIC": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "UR_CFG1": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "UR_INV_REQ": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "UR_PRS_RESPONSE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "USER_CLK2_DIV2": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "USER_CLK_FREQ": {
+        "digits": 3,
+        "type": "BIN",
+        "values": [
+            7
+        ]
+    },
+    "USE_RID_PINS": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "VC0_CPL_INFINITE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "VC0_RX_RAM_LIMIT": {
+        "digits": 13,
+        "type": "BIN",
+        "values": [
+            8191
+        ]
+    },
+    "VC0_TOTAL_CREDITS_CD": {
+        "digits": 11,
+        "type": "BIN",
+        "values": [
+            2047
+        ]
+    },
+    "VC0_TOTAL_CREDITS_CH": {
+        "digits": 7,
+        "type": "BIN",
+        "values": [
+            127
+        ]
+    },
+    "VC0_TOTAL_CREDITS_NPD": {
+        "digits": 11,
+        "type": "BIN",
+        "values": [
+            2047
+        ]
+    },
+    "VC0_TOTAL_CREDITS_NPH": {
+        "digits": 7,
+        "type": "BIN",
+        "values": [
+            127
+        ]
+    },
+    "VC0_TOTAL_CREDITS_PD": {
+        "digits": 11,
+        "type": "BIN",
+        "values": [
+            2047
+        ]
+    },
+    "VC0_TOTAL_CREDITS_PH": {
+        "digits": 7,
+        "type": "BIN",
+        "values": [
+            127
+        ]
+    },
+    "VC0_TX_LASTPACKET": {
+        "digits": 5,
+        "type": "BIN",
+        "values": [
+            31
+        ]
+    },
+    "VC_BASE_PTR": {
+        "digits": 12,
+        "type": "BIN",
+        "values": [
+            4095
+        ]
+    },
+    "VC_CAP_ID": {
+        "digits": 16,
+        "type": "BIN",
+        "values": [
+            65535
+        ]
+    },
+    "VC_CAP_NEXTPTR": {
+        "digits": 12,
+        "type": "BIN",
+        "values": [
+            4095
+        ]
+    },
+    "VC_CAP_ON": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "VC_CAP_REJECT_SNOOP_TRANSACTIONS": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "VC_CAP_VERSION": {
+        "digits": 4,
+        "type": "BIN",
+        "values": [
+            15
+        ]
+    },
+    "VSEC_BASE_PTR": {
+        "digits": 12,
+        "type": "BIN",
+        "values": [
+            4095
+        ]
+    },
+    "VSEC_CAP_HDR_ID": {
+        "digits": 16,
+        "type": "BIN",
+        "values": [
+            65535
+        ]
+    },
+    "VSEC_CAP_HDR_LENGTH": {
+        "digits": 12,
+        "type": "BIN",
+        "values": [
+            4095
+        ]
+    },
+    "VSEC_CAP_HDR_REVISION": {
+        "digits": 4,
+        "type": "BIN",
+        "values": [
+            15
+        ]
+    },
+    "VSEC_CAP_ID": {
+        "digits": 16,
+        "type": "BIN",
+        "values": [
+            65535
+        ]
+    },
+    "VSEC_CAP_IS_LINK_VISIBLE": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "VSEC_CAP_NEXTPTR": {
+        "digits": 12,
+        "type": "BIN",
+        "values": [
+            4095
+        ]
+    },
+    "VSEC_CAP_ON": {
+        "digits": 1,
+        "type": "BOOL",
+        "values": [
+            "FALSE",
+            "TRUE"
+        ]
+    },
+    "VSEC_CAP_VERSION": {
+        "digits": 4,
+        "type": "BIN",
+        "values": [
+            15
+        ]
+    }
+}

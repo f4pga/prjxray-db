@@ -90,114 +90,6 @@
             },
             "src_wire": "GTXE2_COMMON_DRPDO1"
         },
-        "GTX_COMMON.GTXE2_COMMON_DRPDO10->GTXE2_LOGIC_OUTS_B13_1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_LOGIC_OUTS_B13_1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_COMMON_DRPDO10"
-        },
-        "GTX_COMMON.GTXE2_COMMON_DRPDO11->GTXE2_LOGIC_OUTS_B9_1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_LOGIC_OUTS_B9_1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_COMMON_DRPDO11"
-        },
-        "GTX_COMMON.GTXE2_COMMON_DRPDO12->GTXE2_LOGIC_OUTS_B10_1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_LOGIC_OUTS_B10_1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_COMMON_DRPDO12"
-        },
-        "GTX_COMMON.GTXE2_COMMON_DRPDO13->GTXE2_LOGIC_OUTS_B14_1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_LOGIC_OUTS_B14_1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_COMMON_DRPDO13"
-        },
-        "GTX_COMMON.GTXE2_COMMON_DRPDO14->GTXE2_LOGIC_OUTS_B8_1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_LOGIC_OUTS_B8_1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_COMMON_DRPDO14"
-        },
-        "GTX_COMMON.GTXE2_COMMON_DRPDO15->GTXE2_LOGIC_OUTS_B12_1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "GTXE2_LOGIC_OUTS_B12_1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "GTXE2_COMMON_DRPDO15"
-        },
         "GTX_COMMON.GTXE2_COMMON_DRPDO2->GTXE2_LOGIC_OUTS_B13_0": {
             "can_invert": "0",
             "dst_to_src": {
@@ -341,6 +233,114 @@
                 "res": "0.000"
             },
             "src_wire": "GTXE2_COMMON_DRPDO9"
+        },
+        "GTX_COMMON.GTXE2_COMMON_DRPDO10->GTXE2_LOGIC_OUTS_B13_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_LOGIC_OUTS_B13_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_COMMON_DRPDO10"
+        },
+        "GTX_COMMON.GTXE2_COMMON_DRPDO11->GTXE2_LOGIC_OUTS_B9_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_LOGIC_OUTS_B9_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_COMMON_DRPDO11"
+        },
+        "GTX_COMMON.GTXE2_COMMON_DRPDO12->GTXE2_LOGIC_OUTS_B10_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_LOGIC_OUTS_B10_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_COMMON_DRPDO12"
+        },
+        "GTX_COMMON.GTXE2_COMMON_DRPDO13->GTXE2_LOGIC_OUTS_B14_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_LOGIC_OUTS_B14_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_COMMON_DRPDO13"
+        },
+        "GTX_COMMON.GTXE2_COMMON_DRPDO14->GTXE2_LOGIC_OUTS_B8_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_LOGIC_OUTS_B8_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_COMMON_DRPDO14"
+        },
+        "GTX_COMMON.GTXE2_COMMON_DRPDO15->GTXE2_LOGIC_OUTS_B12_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "GTXE2_LOGIC_OUTS_B12_1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "GTXE2_COMMON_DRPDO15"
         },
         "GTX_COMMON.GTXE2_COMMON_DRPRDY->GTXE2_LOGIC_OUTS_B21_0": {
             "can_invert": "0",
@@ -2750,66 +2750,6 @@
                     ],
                     "wire": "GTXE2_COMMON_DRPDI1"
                 },
-                "DRPDI10": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "GTXE2_COMMON_DRPDI10"
-                },
-                "DRPDI11": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "GTXE2_COMMON_DRPDI11"
-                },
-                "DRPDI12": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "GTXE2_COMMON_DRPDI12"
-                },
-                "DRPDI13": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "GTXE2_COMMON_DRPDI13"
-                },
-                "DRPDI14": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "GTXE2_COMMON_DRPDI14"
-                },
-                "DRPDI15": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "GTXE2_COMMON_DRPDI15"
-                },
                 "DRPDI2": {
                     "cap": "0.000",
                     "delay": [
@@ -2890,6 +2830,66 @@
                     ],
                     "wire": "GTXE2_COMMON_DRPDI9"
                 },
+                "DRPDI10": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "GTXE2_COMMON_DRPDI10"
+                },
+                "DRPDI11": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "GTXE2_COMMON_DRPDI11"
+                },
+                "DRPDI12": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "GTXE2_COMMON_DRPDI12"
+                },
+                "DRPDI13": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "GTXE2_COMMON_DRPDI13"
+                },
+                "DRPDI14": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "GTXE2_COMMON_DRPDI14"
+                },
+                "DRPDI15": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "GTXE2_COMMON_DRPDI15"
+                },
                 "DRPDO0": {
                     "delay": [
                         "0.000",
@@ -2909,66 +2909,6 @@
                     ],
                     "res": "0.0",
                     "wire": "GTXE2_COMMON_DRPDO1"
-                },
-                "DRPDO10": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "GTXE2_COMMON_DRPDO10"
-                },
-                "DRPDO11": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "GTXE2_COMMON_DRPDO11"
-                },
-                "DRPDO12": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "GTXE2_COMMON_DRPDO12"
-                },
-                "DRPDO13": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "GTXE2_COMMON_DRPDO13"
-                },
-                "DRPDO14": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "GTXE2_COMMON_DRPDO14"
-                },
-                "DRPDO15": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "GTXE2_COMMON_DRPDO15"
                 },
                 "DRPDO2": {
                     "delay": [
@@ -3049,6 +2989,66 @@
                     ],
                     "res": "0.0",
                     "wire": "GTXE2_COMMON_DRPDO9"
+                },
+                "DRPDO10": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "GTXE2_COMMON_DRPDO10"
+                },
+                "DRPDO11": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "GTXE2_COMMON_DRPDO11"
+                },
+                "DRPDO12": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "GTXE2_COMMON_DRPDO12"
+                },
+                "DRPDO13": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "GTXE2_COMMON_DRPDO13"
+                },
+                "DRPDO14": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "GTXE2_COMMON_DRPDO14"
+                },
+                "DRPDO15": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "GTXE2_COMMON_DRPDO15"
                 },
                 "DRPEN": {
                     "cap": "0.000",
@@ -3630,66 +3630,6 @@
                     ],
                     "wire": "GTXE2_COMMON_QPLLRSVD11"
                 },
-                "QPLLRSVD110": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "GTXE2_COMMON_QPLLRSVD110"
-                },
-                "QPLLRSVD111": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "GTXE2_COMMON_QPLLRSVD111"
-                },
-                "QPLLRSVD112": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "GTXE2_COMMON_QPLLRSVD112"
-                },
-                "QPLLRSVD113": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "GTXE2_COMMON_QPLLRSVD113"
-                },
-                "QPLLRSVD114": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "GTXE2_COMMON_QPLLRSVD114"
-                },
-                "QPLLRSVD115": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "GTXE2_COMMON_QPLLRSVD115"
-                },
                 "QPLLRSVD12": {
                     "cap": "0.000",
                     "delay": [
@@ -3820,6 +3760,66 @@
                     ],
                     "wire": "GTXE2_COMMON_QPLLRSVD24"
                 },
+                "QPLLRSVD110": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "GTXE2_COMMON_QPLLRSVD110"
+                },
+                "QPLLRSVD111": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "GTXE2_COMMON_QPLLRSVD111"
+                },
+                "QPLLRSVD112": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "GTXE2_COMMON_QPLLRSVD112"
+                },
+                "QPLLRSVD113": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "GTXE2_COMMON_QPLLRSVD113"
+                },
+                "QPLLRSVD114": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "GTXE2_COMMON_QPLLRSVD114"
+                },
+                "QPLLRSVD115": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "GTXE2_COMMON_QPLLRSVD115"
+                },
                 "RCALENB": {
                     "cap": "0.000",
                     "delay": [
@@ -3844,82 +3844,6 @@
             "type": "GTXE2_COMMON",
             "x_coord": 0,
             "y_coord": 0
-        },
-        {
-            "name": "X0Y1",
-            "prefix": "IPAD",
-            "site_pins": {
-                "O": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IBUFDS_GTE2_0_IB"
-                }
-            },
-            "type": "IPAD",
-            "x_coord": 0,
-            "y_coord": 1
-        },
-        {
-            "name": "X0Y0",
-            "prefix": "IPAD",
-            "site_pins": {
-                "O": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IBUFDS_GTE2_0_I"
-                }
-            },
-            "type": "IPAD",
-            "x_coord": 0,
-            "y_coord": 0
-        },
-        {
-            "name": "X0Y3",
-            "prefix": "IPAD",
-            "site_pins": {
-                "O": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IBUFDS_GTE2_1_IB"
-                }
-            },
-            "type": "IPAD",
-            "x_coord": 0,
-            "y_coord": 3
-        },
-        {
-            "name": "X0Y2",
-            "prefix": "IPAD",
-            "site_pins": {
-                "O": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IBUFDS_GTE2_1_I"
-                }
-            },
-            "type": "IPAD",
-            "x_coord": 0,
-            "y_coord": 2
         },
         {
             "name": "X0Y0",
@@ -3991,6 +3915,25 @@
             "y_coord": 0
         },
         {
+            "name": "X0Y0",
+            "prefix": "IPAD",
+            "site_pins": {
+                "O": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IBUFDS_GTE2_0_I"
+                }
+            },
+            "type": "IPAD",
+            "x_coord": 0,
+            "y_coord": 0
+        },
+        {
             "name": "X0Y1",
             "prefix": "IBUFDS_GTE2",
             "site_pins": {
@@ -4058,6 +4001,63 @@
             "type": "IBUFDS_GTE2",
             "x_coord": 0,
             "y_coord": 1
+        },
+        {
+            "name": "X0Y1",
+            "prefix": "IPAD",
+            "site_pins": {
+                "O": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IBUFDS_GTE2_0_IB"
+                }
+            },
+            "type": "IPAD",
+            "x_coord": 0,
+            "y_coord": 1
+        },
+        {
+            "name": "X0Y2",
+            "prefix": "IPAD",
+            "site_pins": {
+                "O": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IBUFDS_GTE2_1_I"
+                }
+            },
+            "type": "IPAD",
+            "x_coord": 0,
+            "y_coord": 2
+        },
+        {
+            "name": "X0Y3",
+            "prefix": "IPAD",
+            "site_pins": {
+                "O": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IBUFDS_GTE2_1_IB"
+                }
+            },
+            "type": "IPAD",
+            "x_coord": 0,
+            "y_coord": 3
         }
     ],
     "tile_type": "GTX_COMMON",
@@ -4378,30 +4378,6 @@
             "cap": "0.100",
             "res": "0.000"
         },
-        "GTXE2_COMMON_DRPDI10": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_COMMON_DRPDI11": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_COMMON_DRPDI12": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_COMMON_DRPDI13": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_COMMON_DRPDI14": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_COMMON_DRPDI15": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
         "GTXE2_COMMON_DRPDI2": {
             "cap": "0.100",
             "res": "0.000"
@@ -4434,14 +4410,32 @@
             "cap": "0.100",
             "res": "0.000"
         },
+        "GTXE2_COMMON_DRPDI10": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_COMMON_DRPDI11": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_COMMON_DRPDI12": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_COMMON_DRPDI13": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_COMMON_DRPDI14": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_COMMON_DRPDI15": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
         "GTXE2_COMMON_DRPDO0": null,
         "GTXE2_COMMON_DRPDO1": null,
-        "GTXE2_COMMON_DRPDO10": null,
-        "GTXE2_COMMON_DRPDO11": null,
-        "GTXE2_COMMON_DRPDO12": null,
-        "GTXE2_COMMON_DRPDO13": null,
-        "GTXE2_COMMON_DRPDO14": null,
-        "GTXE2_COMMON_DRPDO15": null,
         "GTXE2_COMMON_DRPDO2": null,
         "GTXE2_COMMON_DRPDO3": null,
         "GTXE2_COMMON_DRPDO4": null,
@@ -4450,6 +4444,12 @@
         "GTXE2_COMMON_DRPDO7": null,
         "GTXE2_COMMON_DRPDO8": null,
         "GTXE2_COMMON_DRPDO9": null,
+        "GTXE2_COMMON_DRPDO10": null,
+        "GTXE2_COMMON_DRPDO11": null,
+        "GTXE2_COMMON_DRPDO12": null,
+        "GTXE2_COMMON_DRPDO13": null,
+        "GTXE2_COMMON_DRPDO14": null,
+        "GTXE2_COMMON_DRPDO15": null,
         "GTXE2_COMMON_DRPEN": {
             "cap": "0.100",
             "res": "0.000"
@@ -4645,30 +4645,6 @@
             "cap": "0.100",
             "res": "0.000"
         },
-        "GTXE2_COMMON_QPLLRSVD110": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_COMMON_QPLLRSVD111": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_COMMON_QPLLRSVD112": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_COMMON_QPLLRSVD113": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_COMMON_QPLLRSVD114": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
-        "GTXE2_COMMON_QPLLRSVD115": {
-            "cap": "0.100",
-            "res": "0.000"
-        },
         "GTXE2_COMMON_QPLLRSVD12": {
             "cap": "0.100",
             "res": "0.000"
@@ -4718,6 +4694,30 @@
             "res": "0.000"
         },
         "GTXE2_COMMON_QPLLRSVD24": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_COMMON_QPLLRSVD110": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_COMMON_QPLLRSVD111": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_COMMON_QPLLRSVD112": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_COMMON_QPLLRSVD113": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_COMMON_QPLLRSVD114": {
+            "cap": "0.100",
+            "res": "0.000"
+        },
+        "GTXE2_COMMON_QPLLRSVD115": {
             "cap": "0.100",
             "res": "0.000"
         },
@@ -5014,6 +5014,222 @@
             "cap": "127.500",
             "res": "0.000"
         },
+        "GTXE2_IMUX1_0": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX1_1": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX1_2": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX1_3": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX1_4": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX1_5": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX2_0": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX2_1": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX2_2": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX2_3": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX2_4": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX2_5": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX3_0": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX3_1": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX3_2": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX3_3": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX3_4": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX3_5": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX4_0": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX4_1": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX4_2": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX4_3": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX4_4": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX4_5": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX5_0": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX5_1": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX5_2": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX5_3": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX5_4": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX5_5": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX6_0": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX6_1": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX6_2": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX6_3": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX6_4": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX6_5": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX7_0": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX7_1": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX7_2": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX7_3": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX7_4": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX7_5": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX8_0": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX8_1": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX8_2": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX8_3": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX8_4": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX8_5": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX9_0": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX9_1": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX9_2": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX9_3": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX9_4": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
+        "GTXE2_IMUX9_5": {
+            "cap": "127.500",
+            "res": "0.000"
+        },
         "GTXE2_IMUX10_0": {
             "cap": "127.500",
             "res": "0.000"
@@ -5251,30 +5467,6 @@
             "res": "0.000"
         },
         "GTXE2_IMUX19_5": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX1_0": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX1_1": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX1_2": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX1_3": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX1_4": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX1_5": {
             "cap": "127.500",
             "res": "0.000"
         },
@@ -5518,30 +5710,6 @@
             "cap": "127.500",
             "res": "0.000"
         },
-        "GTXE2_IMUX2_0": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX2_1": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX2_2": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX2_3": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX2_4": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX2_5": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
         "GTXE2_IMUX30_0": {
             "cap": "127.500",
             "res": "0.000"
@@ -5782,30 +5950,6 @@
             "cap": "127.500",
             "res": "0.000"
         },
-        "GTXE2_IMUX3_0": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX3_1": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX3_2": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX3_3": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX3_4": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX3_5": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
         "GTXE2_IMUX40_0": {
             "cap": "127.500",
             "res": "0.000"
@@ -5998,156 +6142,66 @@
             "cap": "127.500",
             "res": "0.000"
         },
-        "GTXE2_IMUX4_0": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX4_1": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX4_2": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX4_3": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX4_4": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX4_5": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX5_0": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX5_1": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX5_2": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX5_3": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX5_4": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX5_5": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX6_0": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX6_1": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX6_2": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX6_3": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX6_4": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX6_5": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX7_0": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX7_1": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX7_2": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX7_3": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX7_4": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX7_5": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX8_0": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX8_1": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX8_2": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX8_3": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX8_4": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX8_5": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX9_0": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX9_1": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX9_2": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX9_3": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX9_4": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
-        "GTXE2_IMUX9_5": {
-            "cap": "127.500",
-            "res": "0.000"
-        },
         "GTXE2_LOGIC_OUTS_B0_0": null,
         "GTXE2_LOGIC_OUTS_B0_1": null,
         "GTXE2_LOGIC_OUTS_B0_2": null,
         "GTXE2_LOGIC_OUTS_B0_3": null,
         "GTXE2_LOGIC_OUTS_B0_4": null,
         "GTXE2_LOGIC_OUTS_B0_5": null,
+        "GTXE2_LOGIC_OUTS_B1_0": null,
+        "GTXE2_LOGIC_OUTS_B1_1": null,
+        "GTXE2_LOGIC_OUTS_B1_2": null,
+        "GTXE2_LOGIC_OUTS_B1_3": null,
+        "GTXE2_LOGIC_OUTS_B1_4": null,
+        "GTXE2_LOGIC_OUTS_B1_5": null,
+        "GTXE2_LOGIC_OUTS_B2_0": null,
+        "GTXE2_LOGIC_OUTS_B2_1": null,
+        "GTXE2_LOGIC_OUTS_B2_2": null,
+        "GTXE2_LOGIC_OUTS_B2_3": null,
+        "GTXE2_LOGIC_OUTS_B2_4": null,
+        "GTXE2_LOGIC_OUTS_B2_5": null,
+        "GTXE2_LOGIC_OUTS_B3_0": null,
+        "GTXE2_LOGIC_OUTS_B3_1": null,
+        "GTXE2_LOGIC_OUTS_B3_2": null,
+        "GTXE2_LOGIC_OUTS_B3_3": null,
+        "GTXE2_LOGIC_OUTS_B3_4": null,
+        "GTXE2_LOGIC_OUTS_B3_5": null,
+        "GTXE2_LOGIC_OUTS_B4_0": null,
+        "GTXE2_LOGIC_OUTS_B4_1": null,
+        "GTXE2_LOGIC_OUTS_B4_2": null,
+        "GTXE2_LOGIC_OUTS_B4_3": null,
+        "GTXE2_LOGIC_OUTS_B4_4": null,
+        "GTXE2_LOGIC_OUTS_B4_5": null,
+        "GTXE2_LOGIC_OUTS_B5_0": null,
+        "GTXE2_LOGIC_OUTS_B5_1": null,
+        "GTXE2_LOGIC_OUTS_B5_2": null,
+        "GTXE2_LOGIC_OUTS_B5_3": null,
+        "GTXE2_LOGIC_OUTS_B5_4": null,
+        "GTXE2_LOGIC_OUTS_B5_5": null,
+        "GTXE2_LOGIC_OUTS_B6_0": null,
+        "GTXE2_LOGIC_OUTS_B6_1": null,
+        "GTXE2_LOGIC_OUTS_B6_2": null,
+        "GTXE2_LOGIC_OUTS_B6_3": null,
+        "GTXE2_LOGIC_OUTS_B6_4": null,
+        "GTXE2_LOGIC_OUTS_B6_5": null,
+        "GTXE2_LOGIC_OUTS_B7_0": null,
+        "GTXE2_LOGIC_OUTS_B7_1": null,
+        "GTXE2_LOGIC_OUTS_B7_2": null,
+        "GTXE2_LOGIC_OUTS_B7_3": null,
+        "GTXE2_LOGIC_OUTS_B7_4": null,
+        "GTXE2_LOGIC_OUTS_B7_5": null,
+        "GTXE2_LOGIC_OUTS_B8_0": null,
+        "GTXE2_LOGIC_OUTS_B8_1": null,
+        "GTXE2_LOGIC_OUTS_B8_2": null,
+        "GTXE2_LOGIC_OUTS_B8_3": null,
+        "GTXE2_LOGIC_OUTS_B8_4": null,
+        "GTXE2_LOGIC_OUTS_B8_5": null,
+        "GTXE2_LOGIC_OUTS_B9_0": null,
+        "GTXE2_LOGIC_OUTS_B9_1": null,
+        "GTXE2_LOGIC_OUTS_B9_2": null,
+        "GTXE2_LOGIC_OUTS_B9_3": null,
+        "GTXE2_LOGIC_OUTS_B9_4": null,
+        "GTXE2_LOGIC_OUTS_B9_5": null,
         "GTXE2_LOGIC_OUTS_B10_0": null,
         "GTXE2_LOGIC_OUTS_B10_1": null,
         "GTXE2_LOGIC_OUTS_B10_2": null,
@@ -6208,12 +6262,6 @@
         "GTXE2_LOGIC_OUTS_B19_3": null,
         "GTXE2_LOGIC_OUTS_B19_4": null,
         "GTXE2_LOGIC_OUTS_B19_5": null,
-        "GTXE2_LOGIC_OUTS_B1_0": null,
-        "GTXE2_LOGIC_OUTS_B1_1": null,
-        "GTXE2_LOGIC_OUTS_B1_2": null,
-        "GTXE2_LOGIC_OUTS_B1_3": null,
-        "GTXE2_LOGIC_OUTS_B1_4": null,
-        "GTXE2_LOGIC_OUTS_B1_5": null,
         "GTXE2_LOGIC_OUTS_B20_0": null,
         "GTXE2_LOGIC_OUTS_B20_1": null,
         "GTXE2_LOGIC_OUTS_B20_2": null,
@@ -6238,54 +6286,6 @@
         "GTXE2_LOGIC_OUTS_B23_3": null,
         "GTXE2_LOGIC_OUTS_B23_4": null,
         "GTXE2_LOGIC_OUTS_B23_5": null,
-        "GTXE2_LOGIC_OUTS_B2_0": null,
-        "GTXE2_LOGIC_OUTS_B2_1": null,
-        "GTXE2_LOGIC_OUTS_B2_2": null,
-        "GTXE2_LOGIC_OUTS_B2_3": null,
-        "GTXE2_LOGIC_OUTS_B2_4": null,
-        "GTXE2_LOGIC_OUTS_B2_5": null,
-        "GTXE2_LOGIC_OUTS_B3_0": null,
-        "GTXE2_LOGIC_OUTS_B3_1": null,
-        "GTXE2_LOGIC_OUTS_B3_2": null,
-        "GTXE2_LOGIC_OUTS_B3_3": null,
-        "GTXE2_LOGIC_OUTS_B3_4": null,
-        "GTXE2_LOGIC_OUTS_B3_5": null,
-        "GTXE2_LOGIC_OUTS_B4_0": null,
-        "GTXE2_LOGIC_OUTS_B4_1": null,
-        "GTXE2_LOGIC_OUTS_B4_2": null,
-        "GTXE2_LOGIC_OUTS_B4_3": null,
-        "GTXE2_LOGIC_OUTS_B4_4": null,
-        "GTXE2_LOGIC_OUTS_B4_5": null,
-        "GTXE2_LOGIC_OUTS_B5_0": null,
-        "GTXE2_LOGIC_OUTS_B5_1": null,
-        "GTXE2_LOGIC_OUTS_B5_2": null,
-        "GTXE2_LOGIC_OUTS_B5_3": null,
-        "GTXE2_LOGIC_OUTS_B5_4": null,
-        "GTXE2_LOGIC_OUTS_B5_5": null,
-        "GTXE2_LOGIC_OUTS_B6_0": null,
-        "GTXE2_LOGIC_OUTS_B6_1": null,
-        "GTXE2_LOGIC_OUTS_B6_2": null,
-        "GTXE2_LOGIC_OUTS_B6_3": null,
-        "GTXE2_LOGIC_OUTS_B6_4": null,
-        "GTXE2_LOGIC_OUTS_B6_5": null,
-        "GTXE2_LOGIC_OUTS_B7_0": null,
-        "GTXE2_LOGIC_OUTS_B7_1": null,
-        "GTXE2_LOGIC_OUTS_B7_2": null,
-        "GTXE2_LOGIC_OUTS_B7_3": null,
-        "GTXE2_LOGIC_OUTS_B7_4": null,
-        "GTXE2_LOGIC_OUTS_B7_5": null,
-        "GTXE2_LOGIC_OUTS_B8_0": null,
-        "GTXE2_LOGIC_OUTS_B8_1": null,
-        "GTXE2_LOGIC_OUTS_B8_2": null,
-        "GTXE2_LOGIC_OUTS_B8_3": null,
-        "GTXE2_LOGIC_OUTS_B8_4": null,
-        "GTXE2_LOGIC_OUTS_B8_5": null,
-        "GTXE2_LOGIC_OUTS_B9_0": null,
-        "GTXE2_LOGIC_OUTS_B9_1": null,
-        "GTXE2_LOGIC_OUTS_B9_2": null,
-        "GTXE2_LOGIC_OUTS_B9_3": null,
-        "GTXE2_LOGIC_OUTS_B9_4": null,
-        "GTXE2_LOGIC_OUTS_B9_5": null,
         "IBUFDS_GTE2_0_CEB": {
             "cap": "0.100",
             "res": "0.000"

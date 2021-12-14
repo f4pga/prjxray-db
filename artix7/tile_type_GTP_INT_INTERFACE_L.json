@@ -1,0 +1,5320 @@
+{
+    "pips": {
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY0->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY0"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY1->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY1"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY2->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY2"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY3->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY3"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY4->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY4"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY5->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY5"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY6->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY6"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY7->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY7"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY8->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT8",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY8"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY9->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT9",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY9"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY10->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT10",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY10"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY11->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT11",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY11"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY12->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT12",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY12"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY13->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT13",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY13"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY14->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT14",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY14"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY15->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT15",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY15"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY16->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT16": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT16",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY16"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY17->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT17": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT17",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY17"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY18->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT18": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT18",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY18"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY19->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT19": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT19",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY19"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY20->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT20": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT20",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY20"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY21->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT21": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT21",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY21"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY22->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT22": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT22",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY22"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY23->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT23": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT23",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY23"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY24->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT24": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT24",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY24"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY25->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT25": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT25",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY25"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY26->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT26": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT26",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY26"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY27->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT27": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT27",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY27"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY28->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT28": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT28",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY28"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY29->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT29": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT29",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY29"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY30->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT30": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT30",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY30"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY31->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT31": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT31",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY31"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY32->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT32": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT32",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY32"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY33->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT33": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT33",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY33"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY34->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT34": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT34",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY34"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY35->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT35": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT35",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY35"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY36->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT36": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT36",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY36"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY37->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT37": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT37",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY37"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY38->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT38": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT38",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY38"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY39->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT39": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT39",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY39"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY40->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT40": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT40",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY40"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY41->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT41": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT41",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY41"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY42->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT42": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT42",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY42"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY43->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT43": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT43",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY43"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY44->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT44": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT44",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY44"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY45->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT45": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT45",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY45"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY46->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT46": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT46",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY46"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_INT_INTERFACE_IMUX_DELAY47->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT47": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT47",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.000",
+                    "0.000",
+                    "0.000",
+                    "0.000"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY47"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX0->>GTPE2_INT_INTERFACE_IMUX_DELAY0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX0"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX0->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX0"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX1->>GTPE2_INT_INTERFACE_IMUX_DELAY1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX1"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX1->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX1"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX2->>GTPE2_INT_INTERFACE_IMUX_DELAY2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX2"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX2->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX2"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX3->>GTPE2_INT_INTERFACE_IMUX_DELAY3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX3"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX3->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX3"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX4->>GTPE2_INT_INTERFACE_IMUX_DELAY4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX4"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX4->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX4"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX5->>GTPE2_INT_INTERFACE_IMUX_DELAY5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX5"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX5->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX5"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX6->>GTPE2_INT_INTERFACE_IMUX_DELAY6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX6"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX6->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX6"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX7->>GTPE2_INT_INTERFACE_IMUX_DELAY7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX7"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX7->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX7"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX8->>GTPE2_INT_INTERFACE_IMUX_DELAY8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY8",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX8"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX8->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT8",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX8"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX9->>GTPE2_INT_INTERFACE_IMUX_DELAY9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY9",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX9"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX9->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT9",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX9"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX10->>GTPE2_INT_INTERFACE_IMUX_DELAY10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY10",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX10"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX10->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT10",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX10"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX11->>GTPE2_INT_INTERFACE_IMUX_DELAY11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY11",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX11"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX11->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT11",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX11"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX12->>GTPE2_INT_INTERFACE_IMUX_DELAY12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY12",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX12"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX12->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT12",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX12"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX13->>GTPE2_INT_INTERFACE_IMUX_DELAY13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY13",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX13"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX13->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT13",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX13"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX14->>GTPE2_INT_INTERFACE_IMUX_DELAY14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY14",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX14"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX14->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT14",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX14"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX15->>GTPE2_INT_INTERFACE_IMUX_DELAY15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY15",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX15"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX15->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT15",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX15"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX16->>GTPE2_INT_INTERFACE_IMUX_DELAY16": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY16",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX16"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX16->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT16": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT16",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX16"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX17->>GTPE2_INT_INTERFACE_IMUX_DELAY17": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY17",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX17"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX17->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT17": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT17",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX17"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX18->>GTPE2_INT_INTERFACE_IMUX_DELAY18": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY18",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX18"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX18->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT18": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT18",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX18"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX19->>GTPE2_INT_INTERFACE_IMUX_DELAY19": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY19",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX19"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX19->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT19": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT19",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX19"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX20->>GTPE2_INT_INTERFACE_IMUX_DELAY20": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY20",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX20"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX20->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT20": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT20",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX20"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX21->>GTPE2_INT_INTERFACE_IMUX_DELAY21": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY21",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX21"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX21->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT21": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT21",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX21"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX22->>GTPE2_INT_INTERFACE_IMUX_DELAY22": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY22",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX22"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX22->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT22": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT22",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX22"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX23->>GTPE2_INT_INTERFACE_IMUX_DELAY23": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY23",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX23"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX23->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT23": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT23",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX23"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX24->>GTPE2_INT_INTERFACE_IMUX_DELAY24": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY24",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX24"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX24->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT24": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT24",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX24"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX25->>GTPE2_INT_INTERFACE_IMUX_DELAY25": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY25",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX25"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX25->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT25": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT25",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX25"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX26->>GTPE2_INT_INTERFACE_IMUX_DELAY26": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY26",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX26"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX26->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT26": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT26",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX26"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX27->>GTPE2_INT_INTERFACE_IMUX_DELAY27": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY27",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX27"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX27->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT27": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT27",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX27"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX28->>GTPE2_INT_INTERFACE_IMUX_DELAY28": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY28",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX28"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX28->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT28": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT28",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX28"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX29->>GTPE2_INT_INTERFACE_IMUX_DELAY29": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY29",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX29"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX29->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT29": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT29",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX29"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX30->>GTPE2_INT_INTERFACE_IMUX_DELAY30": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY30",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX30"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX30->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT30": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT30",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX30"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX31->>GTPE2_INT_INTERFACE_IMUX_DELAY31": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY31",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX31"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX31->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT31": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT31",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX31"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX32->>GTPE2_INT_INTERFACE_IMUX_DELAY32": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY32",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX32"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX32->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT32": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT32",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX32"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX33->>GTPE2_INT_INTERFACE_IMUX_DELAY33": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY33",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX33"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX33->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT33": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT33",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX33"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX34->>GTPE2_INT_INTERFACE_IMUX_DELAY34": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY34",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX34"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX34->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT34": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT34",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX34"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX35->>GTPE2_INT_INTERFACE_IMUX_DELAY35": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY35",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX35"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX35->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT35": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT35",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX35"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX36->>GTPE2_INT_INTERFACE_IMUX_DELAY36": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY36",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX36"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX36->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT36": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT36",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX36"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX37->>GTPE2_INT_INTERFACE_IMUX_DELAY37": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY37",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX37"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX37->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT37": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT37",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX37"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX38->>GTPE2_INT_INTERFACE_IMUX_DELAY38": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY38",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX38"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX38->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT38": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT38",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX38"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX39->>GTPE2_INT_INTERFACE_IMUX_DELAY39": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY39",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX39"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX39->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT39": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT39",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX39"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX40->>GTPE2_INT_INTERFACE_IMUX_DELAY40": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY40",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX40"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX40->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT40": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT40",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX40"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX41->>GTPE2_INT_INTERFACE_IMUX_DELAY41": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY41",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX41"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX41->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT41": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT41",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX41"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX42->>GTPE2_INT_INTERFACE_IMUX_DELAY42": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY42",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX42"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX42->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT42": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT42",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX42"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX43->>GTPE2_INT_INTERFACE_IMUX_DELAY43": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY43",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX43"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX43->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT43": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT43",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX43"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX44->>GTPE2_INT_INTERFACE_IMUX_DELAY44": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY44",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX44"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX44->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT44": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT44",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX44"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX45->>GTPE2_INT_INTERFACE_IMUX_DELAY45": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY45",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX45"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX45->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT45": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT45",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX45"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX46->>GTPE2_INT_INTERFACE_IMUX_DELAY46": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY46",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX46"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX46->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT46": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT46",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX46"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX47->>GTPE2_INT_INTERFACE_IMUX_DELAY47": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_IMUX_DELAY47",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.289",
+                    "0.350",
+                    "0.655",
+                    "0.791"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX47"
+        },
+        "GTP_INT_INTERFACE_L.GTPE2_LEFT_INT_INTERFACE_IMUX47->>GTPE2_LEFT_INT_INTERFACE_IMUX_OUT47": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "dst_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT47",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.026",
+                    "0.031",
+                    "0.070",
+                    "0.085"
+                ],
+                "in_cap": "0.000",
+                "res": "1040.11875"
+            },
+            "src_wire": "GTPE2_LEFT_INT_INTERFACE_IMUX47"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B0->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B0"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B1->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B1"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B2->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L2",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B2"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B3->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L3": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L3",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B3"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B4->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L4": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L4",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B4"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B5->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L5",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B5"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B6->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L6",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B6"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B7->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L7": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L7",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B7"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B8->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L8",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B8"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B9->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L9",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B9"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B10->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L10",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B10"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B11->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L11",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B11"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B12->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L12",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B12"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B13->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L13",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B13"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B14->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L14",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B14"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B15->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L15",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B15"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B16->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L16": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L16",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B16"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B17->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L17": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L17",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B17"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B18->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L18": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L18",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B18"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B19->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L19": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L19",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B19"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B20->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L20": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L20",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B20"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B21->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L21": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L21",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B21"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B22->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L22": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L22",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B22"
+        },
+        "GTP_INT_INTERFACE_L.INT_INTERFACE_LOGIC_OUTS_L_B23->>GTPE2_INT_INTERFACE_LOGIC_OUTS_L23": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "dst_wire": "GTPE2_INT_INTERFACE_LOGIC_OUTS_L23",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.057",
+                    "0.070",
+                    "0.154",
+                    "0.186"
+                ],
+                "in_cap": "5.962",
+                "res": "1325.8925625"
+            },
+            "src_wire": "INT_INTERFACE_LOGIC_OUTS_L_B23"
+        }
+    },
+    "sites": [],
+    "tile_type": "GTP_INT_INTERFACE_L",
+    "wires": {
+        "GTPE2_INT_INTERFACE_IMUX_DELAY0": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY1": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY2": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY3": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY4": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY5": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY6": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY7": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY8": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY9": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY10": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY11": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY12": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY13": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY14": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY15": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY16": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY17": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY18": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY19": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY20": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY21": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY22": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY23": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY24": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY25": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY26": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY27": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY28": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY29": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY30": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY31": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY32": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY33": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY34": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY35": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY36": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY37": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY38": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY39": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY40": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY41": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY42": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY43": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY44": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY45": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY46": null,
+        "GTPE2_INT_INTERFACE_IMUX_DELAY47": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L0": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L1": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L2": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L3": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L4": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L5": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L6": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L7": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L8": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L9": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L10": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L11": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L12": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L13": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L14": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L15": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L16": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L17": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L18": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L19": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L20": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L21": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L22": null,
+        "GTPE2_INT_INTERFACE_LOGIC_OUTS_L23": null,
+        "GTPE2_LEFT_INT_INTERFACE_BYP0": null,
+        "GTPE2_LEFT_INT_INTERFACE_BYP1": null,
+        "GTPE2_LEFT_INT_INTERFACE_BYP2": null,
+        "GTPE2_LEFT_INT_INTERFACE_BYP3": null,
+        "GTPE2_LEFT_INT_INTERFACE_BYP4": null,
+        "GTPE2_LEFT_INT_INTERFACE_BYP5": null,
+        "GTPE2_LEFT_INT_INTERFACE_BYP6": null,
+        "GTPE2_LEFT_INT_INTERFACE_BYP7": null,
+        "GTPE2_LEFT_INT_INTERFACE_CLK0": null,
+        "GTPE2_LEFT_INT_INTERFACE_CLK1": null,
+        "GTPE2_LEFT_INT_INTERFACE_CTRL0": null,
+        "GTPE2_LEFT_INT_INTERFACE_CTRL1": null,
+        "GTPE2_LEFT_INT_INTERFACE_FAN0": null,
+        "GTPE2_LEFT_INT_INTERFACE_FAN1": null,
+        "GTPE2_LEFT_INT_INTERFACE_FAN2": null,
+        "GTPE2_LEFT_INT_INTERFACE_FAN3": null,
+        "GTPE2_LEFT_INT_INTERFACE_FAN4": null,
+        "GTPE2_LEFT_INT_INTERFACE_FAN5": null,
+        "GTPE2_LEFT_INT_INTERFACE_FAN6": null,
+        "GTPE2_LEFT_INT_INTERFACE_FAN7": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX0": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX1": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX2": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX3": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX4": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX5": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX6": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX7": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX8": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX9": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX10": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX11": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX12": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX13": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX14": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX15": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX16": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX17": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX18": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX19": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX20": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX21": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX22": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX23": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX24": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX25": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX26": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX27": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX28": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX29": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX30": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX31": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX32": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX33": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX34": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX35": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX36": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX37": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX38": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX39": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX40": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX41": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX42": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX43": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX44": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX45": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX46": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX47": {
+            "cap": "0.109",
+            "res": "0.000"
+        },
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT0": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT1": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT2": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT3": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT4": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT5": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT6": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT7": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT8": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT9": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT10": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT11": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT12": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT13": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT14": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT15": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT16": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT17": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT18": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT19": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT20": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT21": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT22": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT23": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT24": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT25": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT26": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT27": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT28": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT29": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT30": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT31": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT32": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT33": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT34": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT35": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT36": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT37": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT38": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT39": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT40": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT41": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT42": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT43": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT44": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT45": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT46": null,
+        "GTPE2_LEFT_INT_INTERFACE_IMUX_OUT47": null,
+        "INT_INTERFACE_BLOCK_OUTS_L_B0": null,
+        "INT_INTERFACE_BLOCK_OUTS_L_B1": null,
+        "INT_INTERFACE_BLOCK_OUTS_L_B2": null,
+        "INT_INTERFACE_BLOCK_OUTS_L_B3": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B0": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B1": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B2": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B3": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B4": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B5": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B6": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B7": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B8": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B9": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B10": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B11": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B12": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B13": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B14": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B15": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B16": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B17": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B18": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B19": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B20": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B21": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B22": null,
+        "INT_INTERFACE_LOGIC_OUTS_L_B23": null,
+        "L_TERM_INT_LH0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_LH1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_LH2": {
+            "cap": "13.120",
+            "res": "4.520"
+        },
+        "L_TERM_INT_LH3": {
+            "cap": "13.120",
+            "res": "4.520"
+        },
+        "L_TERM_INT_LH4": {
+            "cap": "13.120",
+            "res": "4.520"
+        },
+        "L_TERM_INT_LH5": {
+            "cap": "13.120",
+            "res": "4.520"
+        },
+        "L_TERM_INT_NW2BEG0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_NW2BEG1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_NW2BEG2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_NW2BEG3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_NW4BEG0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_NW4BEG1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_NW4BEG2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_NW4BEG3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_NW4C0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_NW4C1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_NW4C2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_NW4C3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_SW2BEG0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_SW2BEG1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_SW2BEG2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_SW2BEG3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_SW4BEG0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_SW4BEG1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_SW4BEG2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_SW4BEG3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_SW4C0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_SW4C1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_SW4C2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_SW4C3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WL1BEG0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WL1BEG1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WL1BEG2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WL1BEG3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WR1BEG0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WR1BEG1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WR1BEG2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WR1BEG3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW2A0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW2A1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW2A2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW2A3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW2BEG0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW2BEG1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW2BEG2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW2BEG3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4A0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4A1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4A2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4A3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4B0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4B1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4B2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4B3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4BEG0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4BEG1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4BEG2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4BEG3": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4C0": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4C1": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4C2": {
+            "cap": "4.200",
+            "res": "87.290"
+        },
+        "L_TERM_INT_WW4C3": {
+            "cap": "4.200",
+            "res": "87.290"
+        }
+    }
+}

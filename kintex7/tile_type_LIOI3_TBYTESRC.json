@@ -725,8 +725,8 @@
             "dst_to_src": {
                 "delay": [
                     "0.033",
-                    "0.039",
                     "0.060",
+                    "0.039",
                     "0.089"
                 ],
                 "in_cap": "0.000",
@@ -739,8 +739,8 @@
             "src_to_dst": {
                 "delay": [
                     "0.033",
-                    "0.039",
                     "0.060",
+                    "0.039",
                     "0.089"
                 ],
                 "in_cap": "0.000",
@@ -915,8 +915,8 @@
             "dst_to_src": {
                 "delay": [
                     "0.033",
-                    "0.039",
                     "0.060",
+                    "0.039",
                     "0.089"
                 ],
                 "in_cap": "0.000",
@@ -929,8 +929,8 @@
             "src_to_dst": {
                 "delay": [
                     "0.033",
-                    "0.039",
                     "0.060",
+                    "0.039",
                     "0.089"
                 ],
                 "in_cap": "0.000",
@@ -1118,6 +1118,406 @@
             },
             "src_wire": "IOI_IMUX0_1"
         },
+        "LIOI3_TBYTESRC.IOI_IMUX1_0->IOI_OLOGIC1_TCE": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IOI_OLOGIC1_TCE",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX1_0"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX1_1->IOI_OLOGIC0_TCE": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IOI_OLOGIC0_TCE",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX1_1"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX4_0->IOI_ILOGIC1_DYNCLKDIVSEL": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IOI_ILOGIC1_DYNCLKDIVSEL",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX4_0"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX4_1->IOI_ILOGIC0_DYNCLKDIVSEL": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IOI_ILOGIC0_DYNCLKDIVSEL",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX4_1"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX5_0->IOI_ILOGIC1_CE1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IOI_ILOGIC1_CE1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX5_0"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX5_1->IOI_ILOGIC0_CE1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IOI_ILOGIC0_CE1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX5_1"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX6_0->LIOI_DCI_T_TERM1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "LIOI_DCI_T_TERM1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX6_0"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX6_1->LIOI_DCI_T_TERM0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "LIOI_DCI_T_TERM0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX6_1"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX7_0->IOI_OLOGIC1_T2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IOI_OLOGIC1_T2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX7_0"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX7_1->IOI_OLOGIC0_T2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IOI_OLOGIC0_T2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX7_1"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX8_0->>IOI_OLOGIC1_CLKDIV": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.134",
+                    "0.154",
+                    "0.247",
+                    "0.284"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "IOI_OLOGIC1_CLKDIV",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.134",
+                    "0.154",
+                    "0.247",
+                    "0.284"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "IOI_IMUX8_0"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX8_0->>IOI_OLOGIC1_CLKDIVB": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.134",
+                    "0.154",
+                    "0.247",
+                    "0.284"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "IOI_OLOGIC1_CLKDIVB",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.134",
+                    "0.154",
+                    "0.247",
+                    "0.284"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "IOI_IMUX8_0"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX8_0->IOI_OLOGIC1_CLKDIVFB": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX8_0"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX8_0->LIOI_OLOGIC1_CLKDIVF": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "LIOI_OLOGIC1_CLKDIVF",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX8_0"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX8_1->>IOI_OLOGIC0_CLKDIV": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.134",
+                    "0.154",
+                    "0.247",
+                    "0.284"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "IOI_OLOGIC0_CLKDIV",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.134",
+                    "0.154",
+                    "0.247",
+                    "0.284"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "IOI_IMUX8_1"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX8_1->>IOI_OLOGIC0_CLKDIVB": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.134",
+                    "0.154",
+                    "0.247",
+                    "0.284"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "IOI_OLOGIC0_CLKDIVB",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.134",
+                    "0.154",
+                    "0.247",
+                    "0.284"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "IOI_IMUX8_1"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX8_1->IOI_OLOGIC0_CLKDIVFB": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX8_1"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX8_1->LIOI_OLOGIC0_CLKDIVF": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "LIOI_OLOGIC0_CLKDIVF",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX8_1"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX9_0->LIOI_IBUF_DISABLE1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "LIOI_IBUF_DISABLE1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX9_0"
+        },
+        "LIOI3_TBYTESRC.IOI_IMUX9_1->LIOI_IBUF_DISABLE0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "LIOI_IBUF_DISABLE0",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "IOI_IMUX9_1"
+        },
         "LIOI3_TBYTESRC.IOI_IMUX10_0->IOI_ILOGIC1_DYNCLKDIVPSEL": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1297,42 +1697,6 @@
                 "res": "0.000"
             },
             "src_wire": "IOI_IMUX15_1"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX1_0->IOI_OLOGIC1_TCE": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "IOI_OLOGIC1_TCE",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX1_0"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX1_1->IOI_OLOGIC0_TCE": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "IOI_OLOGIC0_TCE",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX1_1"
         },
         "LIOI3_TBYTESRC.IOI_IMUX20_0->>IOI_ILOGIC1_CLK": {
             "can_invert": "0",
@@ -2425,370 +2789,6 @@
                 "res": "0.000"
             },
             "src_wire": "IOI_IMUX47_1"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX4_0->IOI_ILOGIC1_DYNCLKDIVSEL": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "IOI_ILOGIC1_DYNCLKDIVSEL",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX4_0"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX4_1->IOI_ILOGIC0_DYNCLKDIVSEL": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "IOI_ILOGIC0_DYNCLKDIVSEL",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX4_1"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX5_0->IOI_ILOGIC1_CE1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "IOI_ILOGIC1_CE1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX5_0"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX5_1->IOI_ILOGIC0_CE1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "IOI_ILOGIC0_CE1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX5_1"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX6_0->LIOI_DCI_T_TERM1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "LIOI_DCI_T_TERM1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX6_0"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX6_1->LIOI_DCI_T_TERM0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "LIOI_DCI_T_TERM0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX6_1"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX7_0->IOI_OLOGIC1_T2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "IOI_OLOGIC1_T2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX7_0"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX7_1->IOI_OLOGIC0_T2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "IOI_OLOGIC0_T2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX7_1"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX8_0->>IOI_OLOGIC1_CLKDIV": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.134",
-                    "0.154",
-                    "0.247",
-                    "0.284"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "IOI_OLOGIC1_CLKDIV",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.134",
-                    "0.154",
-                    "0.247",
-                    "0.284"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "IOI_IMUX8_0"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX8_0->>IOI_OLOGIC1_CLKDIVB": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.134",
-                    "0.154",
-                    "0.247",
-                    "0.284"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "IOI_OLOGIC1_CLKDIVB",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.134",
-                    "0.154",
-                    "0.247",
-                    "0.284"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "IOI_IMUX8_0"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX8_0->IOI_OLOGIC1_CLKDIVFB": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "IOI_OLOGIC1_CLKDIVFB",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX8_0"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX8_0->LIOI_OLOGIC1_CLKDIVF": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "LIOI_OLOGIC1_CLKDIVF",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX8_0"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX8_1->>IOI_OLOGIC0_CLKDIV": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.134",
-                    "0.154",
-                    "0.247",
-                    "0.284"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "IOI_OLOGIC0_CLKDIV",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.134",
-                    "0.154",
-                    "0.247",
-                    "0.284"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "IOI_IMUX8_1"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX8_1->>IOI_OLOGIC0_CLKDIVB": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.134",
-                    "0.154",
-                    "0.247",
-                    "0.284"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "IOI_OLOGIC0_CLKDIVB",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.134",
-                    "0.154",
-                    "0.247",
-                    "0.284"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "IOI_IMUX8_1"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX8_1->IOI_OLOGIC0_CLKDIVFB": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "IOI_OLOGIC0_CLKDIVFB",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX8_1"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX8_1->LIOI_OLOGIC0_CLKDIVF": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "LIOI_OLOGIC0_CLKDIVF",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX8_1"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX9_0->LIOI_IBUF_DISABLE1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "LIOI_IBUF_DISABLE1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX9_0"
-        },
-        "LIOI3_TBYTESRC.IOI_IMUX9_1->LIOI_IBUF_DISABLE0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "LIOI_IBUF_DISABLE0",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "IOI_IMUX9_1"
         },
         "LIOI3_TBYTESRC.IOI_IOCLK0->>IOI_ILOGIC0_CLK": {
             "can_invert": "0",
@@ -7046,6 +7046,62 @@
             },
             "src_wire": "IOI_PHASER_TO_IO_ICLK_0"
         },
+        "LIOI3_TBYTESRC.IOI_PHASER_TO_IO_OCLK1X_90->>IOI_OCLK_1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.031",
+                    "0.035",
+                    "0.058",
+                    "0.066"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "IOI_OCLK_1",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.031",
+                    "0.035",
+                    "0.058",
+                    "0.066"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "IOI_PHASER_TO_IO_OCLK1X_90"
+        },
+        "LIOI3_TBYTESRC.IOI_PHASER_TO_IO_OCLK1X_90_0->>IOI_OCLK_0": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.031",
+                    "0.035",
+                    "0.058",
+                    "0.066"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "dst_wire": "IOI_OCLK_0",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": [
+                    "0.031",
+                    "0.035",
+                    "0.058",
+                    "0.066"
+                ],
+                "in_cap": "0.000",
+                "res": "0.0"
+            },
+            "src_wire": "IOI_PHASER_TO_IO_OCLK1X_90_0"
+        },
         "LIOI3_TBYTESRC.IOI_PHASER_TO_IO_OCLK->>IOI_ILOGIC1_CLK": {
             "can_invert": "0",
             "dst_to_src": {
@@ -7157,62 +7213,6 @@
                 "res": "0.0"
             },
             "src_wire": "IOI_PHASER_TO_IO_OCLK"
-        },
-        "LIOI3_TBYTESRC.IOI_PHASER_TO_IO_OCLK1X_90->>IOI_OCLK_1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.031",
-                    "0.035",
-                    "0.058",
-                    "0.066"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "IOI_OCLK_1",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.031",
-                    "0.035",
-                    "0.058",
-                    "0.066"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "IOI_PHASER_TO_IO_OCLK1X_90"
-        },
-        "LIOI3_TBYTESRC.IOI_PHASER_TO_IO_OCLK1X_90_0->>IOI_OCLK_0": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.031",
-                    "0.035",
-                    "0.058",
-                    "0.066"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "dst_wire": "IOI_OCLK_0",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": [
-                    "0.031",
-                    "0.035",
-                    "0.058",
-                    "0.066"
-                ],
-                "in_cap": "0.000",
-                "res": "0.0"
-            },
-            "src_wire": "IOI_PHASER_TO_IO_OCLK1X_90_0"
         },
         "LIOI3_TBYTESRC.IOI_PHASER_TO_IO_OCLKDIV->>IOI_OLOGIC1_CLKDIV": {
             "can_invert": "0",
@@ -10042,9 +10042,9 @@
     "sites": [
         {
             "name": "X0Y0",
-            "prefix": "OLOGIC",
+            "prefix": "IDELAY",
             "site_pins": {
-                "CLK": {
+                "C": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10052,9 +10052,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_CLK"
+                    "wire": "IOI_IDELAY1_C"
                 },
-                "CLKB": {
+                "CE": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10062,9 +10062,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_CLKB"
+                    "wire": "IOI_IDELAY1_CE"
                 },
-                "CLKDIV": {
+                "CINVCTRL": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10072,9 +10072,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_CLKDIV"
+                    "wire": "IOI_IDELAY1_CINVCTRL"
                 },
-                "CLKDIVB": {
+                "CNTVALUEIN0": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10082,9 +10082,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_CLKDIVB"
+                    "wire": "IOI_IDELAY1_CNTVALUEIN0"
                 },
-                "CLKDIVF": {
+                "CNTVALUEIN1": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10092,9 +10092,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "LIOI_OLOGIC1_CLKDIVF"
+                    "wire": "IOI_IDELAY1_CNTVALUEIN1"
                 },
-                "CLKDIVFB": {
+                "CNTVALUEIN2": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10102,9 +10102,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_CLKDIVFB"
+                    "wire": "IOI_IDELAY1_CNTVALUEIN2"
                 },
-                "D1": {
+                "CNTVALUEIN3": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10112,9 +10112,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_D1"
+                    "wire": "IOI_IDELAY1_CNTVALUEIN3"
                 },
-                "D2": {
+                "CNTVALUEIN4": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10122,112 +10122,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_D2"
+                    "wire": "IOI_IDELAY1_CNTVALUEIN4"
                 },
-                "D3": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_OLOGIC1_D3"
-                },
-                "D4": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_OLOGIC1_D4"
-                },
-                "D5": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_OLOGIC1_D5"
-                },
-                "D6": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_OLOGIC1_D6"
-                },
-                "D7": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_OLOGIC1_D7"
-                },
-                "D8": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_OLOGIC1_D8"
-                },
-                "IOCLKGLITCH": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IOI_OLOGIC1_IOCLKGLITCH"
-                },
-                "OCE": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_OLOGIC1_OCE"
-                },
-                "OFB": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "LIOI_OLOGIC1_OFB"
-                },
-                "OQ": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "LIOI_OLOGIC1_OQ"
-                },
-                "REV": null,
-                "SHIFTIN1": null,
-                "SHIFTIN2": null,
-                "SHIFTOUT1": {
+                "CNTVALUEOUT0": {
                     "delay": [
                         "0.000",
                         "0.000",
@@ -10235,9 +10132,9 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "LIOI_OSOUT11"
+                    "wire": "IOI_IDELAY1_CNTVALUEOUT0"
                 },
-                "SHIFTOUT2": {
+                "CNTVALUEOUT1": {
                     "delay": [
                         "0.000",
                         "0.000",
@@ -10245,9 +10142,39 @@
                         "0.000"
                     ],
                     "res": "0.0",
-                    "wire": "LIOI_OSOUT21"
+                    "wire": "IOI_IDELAY1_CNTVALUEOUT1"
                 },
-                "SR": {
+                "CNTVALUEOUT2": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "IOI_IDELAY1_CNTVALUEOUT2"
+                },
+                "CNTVALUEOUT3": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "IOI_IDELAY1_CNTVALUEOUT3"
+                },
+                "CNTVALUEOUT4": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "IOI_IDELAY1_CNTVALUEOUT4"
+                },
+                "DATAIN": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10255,9 +10182,19 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_SR"
+                    "wire": "IOI_IDELAY1_DATAIN"
                 },
-                "T1": {
+                "DATAOUT": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "LIOI_IDELAY1_DATAOUT"
+                },
+                "IDATAIN": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10265,9 +10202,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_T1"
+                    "wire": "LIOI_IDELAY1_IDATAIN"
                 },
-                "T2": {
+                "IFDLY0": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10275,9 +10212,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_T2"
+                    "wire": "LIOI3_IDELAY1_IFDLY0"
                 },
-                "T3": {
+                "IFDLY1": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10285,9 +10222,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_T3"
+                    "wire": "LIOI3_IDELAY1_IFDLY1"
                 },
-                "T4": {
+                "IFDLY2": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10295,9 +10232,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_T4"
+                    "wire": "LIOI3_IDELAY1_IFDLY2"
                 },
-                "TBYTEIN": {
+                "INC": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10305,19 +10242,9 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_TBYTEIN"
+                    "wire": "IOI_IDELAY1_INC"
                 },
-                "TBYTEOUT": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IOI_OLOGIC1_TBYTEOUT"
-                },
-                "TCE": {
+                "LD": {
                     "cap": "0.000",
                     "delay": [
                         "0.000",
@@ -10325,30 +10252,30 @@
                         "0.000",
                         "0.000"
                     ],
-                    "wire": "IOI_OLOGIC1_TCE"
+                    "wire": "IOI_IDELAY1_LD"
                 },
-                "TFB": {
+                "LDPIPEEN": {
+                    "cap": "0.000",
                     "delay": [
                         "0.000",
                         "0.000",
                         "0.000",
                         "0.000"
                     ],
-                    "res": "687.5",
-                    "wire": "LIOI_OLOGIC1_TFB"
+                    "wire": "IOI_IDELAY1_LDPIPEEN"
                 },
-                "TQ": {
+                "REGRST": {
+                    "cap": "0.000",
                     "delay": [
                         "0.000",
                         "0.000",
                         "0.000",
                         "0.000"
                     ],
-                    "res": "687.5",
-                    "wire": "LIOI_OLOGIC1_TQ"
+                    "wire": "IOI_IDELAY1_REGRST"
                 }
             },
-            "type": "OLOGICE3",
+            "type": "IDELAYE2",
             "x_coord": 0,
             "y_coord": 0
         },
@@ -10661,6 +10588,849 @@
             "type": "ILOGICE3",
             "x_coord": 0,
             "y_coord": 0
+        },
+        {
+            "name": "X0Y0",
+            "prefix": "OLOGIC",
+            "site_pins": {
+                "CLK": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_CLK"
+                },
+                "CLKB": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_CLKB"
+                },
+                "CLKDIV": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_CLKDIV"
+                },
+                "CLKDIVB": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_CLKDIVB"
+                },
+                "CLKDIVF": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "LIOI_OLOGIC1_CLKDIVF"
+                },
+                "CLKDIVFB": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_CLKDIVFB"
+                },
+                "D1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_D1"
+                },
+                "D2": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_D2"
+                },
+                "D3": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_D3"
+                },
+                "D4": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_D4"
+                },
+                "D5": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_D5"
+                },
+                "D6": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_D6"
+                },
+                "D7": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_D7"
+                },
+                "D8": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_D8"
+                },
+                "IOCLKGLITCH": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IOI_OLOGIC1_IOCLKGLITCH"
+                },
+                "OCE": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_OCE"
+                },
+                "OFB": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "LIOI_OLOGIC1_OFB"
+                },
+                "OQ": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "LIOI_OLOGIC1_OQ"
+                },
+                "REV": null,
+                "SHIFTIN1": null,
+                "SHIFTIN2": null,
+                "SHIFTOUT1": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "LIOI_OSOUT11"
+                },
+                "SHIFTOUT2": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "LIOI_OSOUT21"
+                },
+                "SR": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_SR"
+                },
+                "T1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_T1"
+                },
+                "T2": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_T2"
+                },
+                "T3": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_T3"
+                },
+                "T4": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_T4"
+                },
+                "TBYTEIN": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_TBYTEIN"
+                },
+                "TBYTEOUT": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IOI_OLOGIC1_TBYTEOUT"
+                },
+                "TCE": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_OLOGIC1_TCE"
+                },
+                "TFB": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "LIOI_OLOGIC1_TFB"
+                },
+                "TQ": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "LIOI_OLOGIC1_TQ"
+                }
+            },
+            "type": "OLOGICE3",
+            "x_coord": 0,
+            "y_coord": 0
+        },
+        {
+            "name": "X0Y1",
+            "prefix": "IDELAY",
+            "site_pins": {
+                "C": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_C"
+                },
+                "CE": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_CE"
+                },
+                "CINVCTRL": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_CINVCTRL"
+                },
+                "CNTVALUEIN0": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_CNTVALUEIN0"
+                },
+                "CNTVALUEIN1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_CNTVALUEIN1"
+                },
+                "CNTVALUEIN2": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_CNTVALUEIN2"
+                },
+                "CNTVALUEIN3": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_CNTVALUEIN3"
+                },
+                "CNTVALUEIN4": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_CNTVALUEIN4"
+                },
+                "CNTVALUEOUT0": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "IOI_IDELAY0_CNTVALUEOUT0"
+                },
+                "CNTVALUEOUT1": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "IOI_IDELAY0_CNTVALUEOUT1"
+                },
+                "CNTVALUEOUT2": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "IOI_IDELAY0_CNTVALUEOUT2"
+                },
+                "CNTVALUEOUT3": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "IOI_IDELAY0_CNTVALUEOUT3"
+                },
+                "CNTVALUEOUT4": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "IOI_IDELAY0_CNTVALUEOUT4"
+                },
+                "DATAIN": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_DATAIN"
+                },
+                "DATAOUT": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "LIOI_IDELAY0_DATAOUT"
+                },
+                "IDATAIN": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "LIOI_IDELAY0_IDATAIN"
+                },
+                "IFDLY0": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "LIOI3_IDELAY0_IFDLY0"
+                },
+                "IFDLY1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "LIOI3_IDELAY0_IFDLY1"
+                },
+                "IFDLY2": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "LIOI3_IDELAY0_IFDLY2"
+                },
+                "INC": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_INC"
+                },
+                "LD": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_LD"
+                },
+                "LDPIPEEN": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_LDPIPEEN"
+                },
+                "REGRST": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_IDELAY0_REGRST"
+                }
+            },
+            "type": "IDELAYE2",
+            "x_coord": 0,
+            "y_coord": 1
+        },
+        {
+            "name": "X0Y1",
+            "prefix": "ILOGIC",
+            "site_pins": {
+                "BITSLIP": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_BITSLIP"
+                },
+                "CE1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_CE1"
+                },
+                "CE2": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_CE2"
+                },
+                "CLK": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_CLK"
+                },
+                "CLKB": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_CLKB"
+                },
+                "CLKDIV": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_CLKDIV"
+                },
+                "CLKDIVP": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_CLKDIVP"
+                },
+                "D": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "LIOI_ILOGIC0_D"
+                },
+                "DDLY": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "LIOI_ILOGIC0_DDLY"
+                },
+                "DYNCLKDIVPSEL": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_DYNCLKDIVPSEL"
+                },
+                "DYNCLKDIVSEL": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_DYNCLKDIVSEL"
+                },
+                "DYNCLKSEL": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_DYNCLKSEL"
+                },
+                "O": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "0.0",
+                    "wire": "IOI_ILOGIC0_O"
+                },
+                "OCLK": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_OCLK"
+                },
+                "OCLKB": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_OCLKB"
+                },
+                "OFB": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "LIOI_ILOGIC0_OFB"
+                },
+                "Q1": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IOI_ILOGIC0_Q1"
+                },
+                "Q2": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IOI_ILOGIC0_Q2"
+                },
+                "Q3": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IOI_ILOGIC0_Q3"
+                },
+                "Q4": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IOI_ILOGIC0_Q4"
+                },
+                "Q5": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IOI_ILOGIC0_Q5"
+                },
+                "Q6": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IOI_ILOGIC0_Q6"
+                },
+                "Q7": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IOI_ILOGIC0_Q7"
+                },
+                "Q8": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "IOI_ILOGIC0_Q8"
+                },
+                "REV": null,
+                "SHIFTIN1": null,
+                "SHIFTIN2": null,
+                "SHIFTOUT1": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "LIOI_ISOUT10"
+                },
+                "SHIFTOUT2": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "LIOI_ISOUT20"
+                },
+                "SR": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "IOI_ILOGIC0_SR"
+                },
+                "TFB": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "LIOI_ILOGIC0_TFB"
+                }
+            },
+            "type": "ILOGICE3",
+            "x_coord": 0,
+            "y_coord": 1
         },
         {
             "name": "X0Y1",
@@ -10991,776 +11761,6 @@
             "type": "OLOGICE3",
             "x_coord": 0,
             "y_coord": 1
-        },
-        {
-            "name": "X0Y1",
-            "prefix": "ILOGIC",
-            "site_pins": {
-                "BITSLIP": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_BITSLIP"
-                },
-                "CE1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_CE1"
-                },
-                "CE2": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_CE2"
-                },
-                "CLK": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_CLK"
-                },
-                "CLKB": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_CLKB"
-                },
-                "CLKDIV": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_CLKDIV"
-                },
-                "CLKDIVP": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_CLKDIVP"
-                },
-                "D": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "LIOI_ILOGIC0_D"
-                },
-                "DDLY": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "LIOI_ILOGIC0_DDLY"
-                },
-                "DYNCLKDIVPSEL": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_DYNCLKDIVPSEL"
-                },
-                "DYNCLKDIVSEL": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_DYNCLKDIVSEL"
-                },
-                "DYNCLKSEL": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_DYNCLKSEL"
-                },
-                "O": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "IOI_ILOGIC0_O"
-                },
-                "OCLK": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_OCLK"
-                },
-                "OCLKB": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_OCLKB"
-                },
-                "OFB": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "LIOI_ILOGIC0_OFB"
-                },
-                "Q1": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IOI_ILOGIC0_Q1"
-                },
-                "Q2": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IOI_ILOGIC0_Q2"
-                },
-                "Q3": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IOI_ILOGIC0_Q3"
-                },
-                "Q4": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IOI_ILOGIC0_Q4"
-                },
-                "Q5": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IOI_ILOGIC0_Q5"
-                },
-                "Q6": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IOI_ILOGIC0_Q6"
-                },
-                "Q7": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IOI_ILOGIC0_Q7"
-                },
-                "Q8": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "IOI_ILOGIC0_Q8"
-                },
-                "REV": null,
-                "SHIFTIN1": null,
-                "SHIFTIN2": null,
-                "SHIFTOUT1": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "LIOI_ISOUT10"
-                },
-                "SHIFTOUT2": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "LIOI_ISOUT20"
-                },
-                "SR": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_ILOGIC0_SR"
-                },
-                "TFB": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "LIOI_ILOGIC0_TFB"
-                }
-            },
-            "type": "ILOGICE3",
-            "x_coord": 0,
-            "y_coord": 1
-        },
-        {
-            "name": "X0Y0",
-            "prefix": "IDELAY",
-            "site_pins": {
-                "C": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_C"
-                },
-                "CE": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_CE"
-                },
-                "CINVCTRL": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_CINVCTRL"
-                },
-                "CNTVALUEIN0": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_CNTVALUEIN0"
-                },
-                "CNTVALUEIN1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_CNTVALUEIN1"
-                },
-                "CNTVALUEIN2": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_CNTVALUEIN2"
-                },
-                "CNTVALUEIN3": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_CNTVALUEIN3"
-                },
-                "CNTVALUEIN4": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_CNTVALUEIN4"
-                },
-                "CNTVALUEOUT0": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "IOI_IDELAY1_CNTVALUEOUT0"
-                },
-                "CNTVALUEOUT1": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "IOI_IDELAY1_CNTVALUEOUT1"
-                },
-                "CNTVALUEOUT2": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "IOI_IDELAY1_CNTVALUEOUT2"
-                },
-                "CNTVALUEOUT3": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "IOI_IDELAY1_CNTVALUEOUT3"
-                },
-                "CNTVALUEOUT4": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "IOI_IDELAY1_CNTVALUEOUT4"
-                },
-                "DATAIN": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_DATAIN"
-                },
-                "DATAOUT": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "LIOI_IDELAY1_DATAOUT"
-                },
-                "IDATAIN": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "LIOI_IDELAY1_IDATAIN"
-                },
-                "IFDLY0": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "LIOI3_IDELAY1_IFDLY0"
-                },
-                "IFDLY1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "LIOI3_IDELAY1_IFDLY1"
-                },
-                "IFDLY2": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "LIOI3_IDELAY1_IFDLY2"
-                },
-                "INC": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_INC"
-                },
-                "LD": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_LD"
-                },
-                "LDPIPEEN": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_LDPIPEEN"
-                },
-                "REGRST": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY1_REGRST"
-                }
-            },
-            "type": "IDELAYE2",
-            "x_coord": 0,
-            "y_coord": 0
-        },
-        {
-            "name": "X0Y1",
-            "prefix": "IDELAY",
-            "site_pins": {
-                "C": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_C"
-                },
-                "CE": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_CE"
-                },
-                "CINVCTRL": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_CINVCTRL"
-                },
-                "CNTVALUEIN0": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_CNTVALUEIN0"
-                },
-                "CNTVALUEIN1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_CNTVALUEIN1"
-                },
-                "CNTVALUEIN2": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_CNTVALUEIN2"
-                },
-                "CNTVALUEIN3": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_CNTVALUEIN3"
-                },
-                "CNTVALUEIN4": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_CNTVALUEIN4"
-                },
-                "CNTVALUEOUT0": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "IOI_IDELAY0_CNTVALUEOUT0"
-                },
-                "CNTVALUEOUT1": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "IOI_IDELAY0_CNTVALUEOUT1"
-                },
-                "CNTVALUEOUT2": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "IOI_IDELAY0_CNTVALUEOUT2"
-                },
-                "CNTVALUEOUT3": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "IOI_IDELAY0_CNTVALUEOUT3"
-                },
-                "CNTVALUEOUT4": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "IOI_IDELAY0_CNTVALUEOUT4"
-                },
-                "DATAIN": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_DATAIN"
-                },
-                "DATAOUT": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "0.0",
-                    "wire": "LIOI_IDELAY0_DATAOUT"
-                },
-                "IDATAIN": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "LIOI_IDELAY0_IDATAIN"
-                },
-                "IFDLY0": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "LIOI3_IDELAY0_IFDLY0"
-                },
-                "IFDLY1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "LIOI3_IDELAY0_IFDLY1"
-                },
-                "IFDLY2": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "LIOI3_IDELAY0_IFDLY2"
-                },
-                "INC": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_INC"
-                },
-                "LD": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_LD"
-                },
-                "LDPIPEEN": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_LDPIPEEN"
-                },
-                "REGRST": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "IOI_IDELAY0_REGRST"
-                }
-            },
-            "type": "IDELAYE2",
-            "x_coord": 0,
-            "y_coord": 1
         }
     ],
     "tile_type": "LIOI3_TBYTESRC",
@@ -11973,6 +11973,24 @@
         "IOI_ILOGIC1_SR": null,
         "IOI_IMUX0_0": null,
         "IOI_IMUX0_1": null,
+        "IOI_IMUX1_0": null,
+        "IOI_IMUX1_1": null,
+        "IOI_IMUX2_0": null,
+        "IOI_IMUX2_1": null,
+        "IOI_IMUX3_0": null,
+        "IOI_IMUX3_1": null,
+        "IOI_IMUX4_0": null,
+        "IOI_IMUX4_1": null,
+        "IOI_IMUX5_0": null,
+        "IOI_IMUX5_1": null,
+        "IOI_IMUX6_0": null,
+        "IOI_IMUX6_1": null,
+        "IOI_IMUX7_0": null,
+        "IOI_IMUX7_1": null,
+        "IOI_IMUX8_0": null,
+        "IOI_IMUX8_1": null,
+        "IOI_IMUX9_0": null,
+        "IOI_IMUX9_1": null,
         "IOI_IMUX10_0": null,
         "IOI_IMUX10_1": null,
         "IOI_IMUX11_0": null,
@@ -11993,8 +12011,6 @@
         "IOI_IMUX18_1": null,
         "IOI_IMUX19_0": null,
         "IOI_IMUX19_1": null,
-        "IOI_IMUX1_0": null,
-        "IOI_IMUX1_1": null,
         "IOI_IMUX20_0": null,
         "IOI_IMUX20_1": null,
         "IOI_IMUX21_0": null,
@@ -12015,8 +12031,6 @@
         "IOI_IMUX28_1": null,
         "IOI_IMUX29_0": null,
         "IOI_IMUX29_1": null,
-        "IOI_IMUX2_0": null,
-        "IOI_IMUX2_1": null,
         "IOI_IMUX30_0": null,
         "IOI_IMUX30_1": null,
         "IOI_IMUX31_0": null,
@@ -12037,8 +12051,6 @@
         "IOI_IMUX38_1": null,
         "IOI_IMUX39_0": null,
         "IOI_IMUX39_1": null,
-        "IOI_IMUX3_0": null,
-        "IOI_IMUX3_1": null,
         "IOI_IMUX40_0": null,
         "IOI_IMUX40_1": null,
         "IOI_IMUX41_0": null,
@@ -12055,18 +12067,6 @@
         "IOI_IMUX46_1": null,
         "IOI_IMUX47_0": null,
         "IOI_IMUX47_1": null,
-        "IOI_IMUX4_0": null,
-        "IOI_IMUX4_1": null,
-        "IOI_IMUX5_0": null,
-        "IOI_IMUX5_1": null,
-        "IOI_IMUX6_0": null,
-        "IOI_IMUX6_1": null,
-        "IOI_IMUX7_0": null,
-        "IOI_IMUX7_1": null,
-        "IOI_IMUX8_0": null,
-        "IOI_IMUX8_1": null,
-        "IOI_IMUX9_0": null,
-        "IOI_IMUX9_1": null,
         "IOI_IMUX_RC0": null,
         "IOI_IMUX_RC1": null,
         "IOI_IMUX_RC2": null,
@@ -12082,12 +12082,6 @@
         "IOI_LEAF_GCLK3": null,
         "IOI_LEAF_GCLK4": null,
         "IOI_LEAF_GCLK5": null,
-        "IOI_LH10_0": null,
-        "IOI_LH10_1": null,
-        "IOI_LH11_0": null,
-        "IOI_LH11_1": null,
-        "IOI_LH12_0": null,
-        "IOI_LH12_1": null,
         "IOI_LH1_0": null,
         "IOI_LH1_1": null,
         "IOI_LH2_0": null,
@@ -12106,8 +12100,32 @@
         "IOI_LH8_1": null,
         "IOI_LH9_0": null,
         "IOI_LH9_1": null,
+        "IOI_LH10_0": null,
+        "IOI_LH10_1": null,
+        "IOI_LH11_0": null,
+        "IOI_LH11_1": null,
+        "IOI_LH12_0": null,
+        "IOI_LH12_1": null,
         "IOI_LOGIC_OUTS0_0": null,
         "IOI_LOGIC_OUTS0_1": null,
+        "IOI_LOGIC_OUTS1_0": null,
+        "IOI_LOGIC_OUTS1_1": null,
+        "IOI_LOGIC_OUTS2_0": null,
+        "IOI_LOGIC_OUTS2_1": null,
+        "IOI_LOGIC_OUTS3_0": null,
+        "IOI_LOGIC_OUTS3_1": null,
+        "IOI_LOGIC_OUTS4_0": null,
+        "IOI_LOGIC_OUTS4_1": null,
+        "IOI_LOGIC_OUTS5_0": null,
+        "IOI_LOGIC_OUTS5_1": null,
+        "IOI_LOGIC_OUTS6_0": null,
+        "IOI_LOGIC_OUTS6_1": null,
+        "IOI_LOGIC_OUTS7_0": null,
+        "IOI_LOGIC_OUTS7_1": null,
+        "IOI_LOGIC_OUTS8_0": null,
+        "IOI_LOGIC_OUTS8_1": null,
+        "IOI_LOGIC_OUTS9_0": null,
+        "IOI_LOGIC_OUTS9_1": null,
         "IOI_LOGIC_OUTS10_0": null,
         "IOI_LOGIC_OUTS10_1": null,
         "IOI_LOGIC_OUTS11_0": null,
@@ -12128,8 +12146,6 @@
         "IOI_LOGIC_OUTS18_1": null,
         "IOI_LOGIC_OUTS19_0": null,
         "IOI_LOGIC_OUTS19_1": null,
-        "IOI_LOGIC_OUTS1_0": null,
-        "IOI_LOGIC_OUTS1_1": null,
         "IOI_LOGIC_OUTS20_0": null,
         "IOI_LOGIC_OUTS20_1": null,
         "IOI_LOGIC_OUTS21_0": null,
@@ -12138,22 +12154,6 @@
         "IOI_LOGIC_OUTS22_1": null,
         "IOI_LOGIC_OUTS23_0": null,
         "IOI_LOGIC_OUTS23_1": null,
-        "IOI_LOGIC_OUTS2_0": null,
-        "IOI_LOGIC_OUTS2_1": null,
-        "IOI_LOGIC_OUTS3_0": null,
-        "IOI_LOGIC_OUTS3_1": null,
-        "IOI_LOGIC_OUTS4_0": null,
-        "IOI_LOGIC_OUTS4_1": null,
-        "IOI_LOGIC_OUTS5_0": null,
-        "IOI_LOGIC_OUTS5_1": null,
-        "IOI_LOGIC_OUTS6_0": null,
-        "IOI_LOGIC_OUTS6_1": null,
-        "IOI_LOGIC_OUTS7_0": null,
-        "IOI_LOGIC_OUTS7_1": null,
-        "IOI_LOGIC_OUTS8_0": null,
-        "IOI_LOGIC_OUTS8_1": null,
-        "IOI_LOGIC_OUTS9_0": null,
-        "IOI_LOGIC_OUTS9_1": null,
         "IOI_MONITOR_N": null,
         "IOI_MONITOR_P": null,
         "IOI_NE2A0_0": null,

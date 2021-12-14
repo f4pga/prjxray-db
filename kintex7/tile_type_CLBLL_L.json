@@ -288,6 +288,150 @@
             },
             "src_wire": "CLBLL_IMUX1"
         },
+        "CLBLL_L.CLBLL_IMUX2->CLBLL_LL_A2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_LL_A2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_IMUX2"
+        },
+        "CLBLL_L.CLBLL_IMUX3->CLBLL_L_A2": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_L_A2",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_IMUX3"
+        },
+        "CLBLL_L.CLBLL_IMUX4->CLBLL_LL_A6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_LL_A6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_IMUX4"
+        },
+        "CLBLL_L.CLBLL_IMUX5->CLBLL_L_A6": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_L_A6",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_IMUX5"
+        },
+        "CLBLL_L.CLBLL_IMUX6->CLBLL_L_A1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_L_A1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_IMUX6"
+        },
+        "CLBLL_L.CLBLL_IMUX7->CLBLL_LL_A1": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_LL_A1",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_IMUX7"
+        },
+        "CLBLL_L.CLBLL_IMUX8->CLBLL_LL_A5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_LL_A5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_IMUX8"
+        },
+        "CLBLL_L.CLBLL_IMUX9->CLBLL_L_A5": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_L_A5",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_IMUX9"
+        },
         "CLBLL_L.CLBLL_IMUX10->CLBLL_L_A4": {
             "can_invert": "0",
             "dst_to_src": {
@@ -467,24 +611,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLL_IMUX19"
-        },
-        "CLBLL_L.CLBLL_IMUX2->CLBLL_LL_A2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_LL_A2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_IMUX2"
         },
         "CLBLL_L.CLBLL_IMUX20->CLBLL_L_C2": {
             "can_invert": "0",
@@ -666,24 +792,6 @@
             },
             "src_wire": "CLBLL_IMUX29"
         },
-        "CLBLL_L.CLBLL_IMUX3->CLBLL_L_A2": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_L_A2",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_IMUX3"
-        },
         "CLBLL_L.CLBLL_IMUX30->CLBLL_L_C5": {
             "can_invert": "0",
             "dst_to_src": {
@@ -864,24 +972,6 @@
             },
             "src_wire": "CLBLL_IMUX39"
         },
-        "CLBLL_L.CLBLL_IMUX4->CLBLL_LL_A6": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_LL_A6",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_IMUX4"
-        },
         "CLBLL_L.CLBLL_IMUX40->CLBLL_LL_D1": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1025,142 +1115,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLL_IMUX47"
-        },
-        "CLBLL_L.CLBLL_IMUX5->CLBLL_L_A6": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_L_A6",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_IMUX5"
-        },
-        "CLBLL_L.CLBLL_IMUX6->CLBLL_L_A1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_L_A1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_IMUX6"
-        },
-        "CLBLL_L.CLBLL_IMUX7->CLBLL_LL_A1": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_LL_A1",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_IMUX7"
-        },
-        "CLBLL_L.CLBLL_IMUX8->CLBLL_LL_A5": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_LL_A5",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_IMUX8"
-        },
-        "CLBLL_L.CLBLL_IMUX9->CLBLL_L_A5": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_L_A5",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_IMUX9"
-        },
-        "CLBLL_L.CLBLL_LL_A->>CLBLL_LL_AMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.047",
-                    "0.058",
-                    "0.075",
-                    "0.095"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLL_LL_AMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.047",
-                    "0.058",
-                    "0.075",
-                    "0.095"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLL_LL_A"
-        },
-        "CLBLL_L.CLBLL_LL_A->CLBLL_LOGIC_OUTS12": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_LOGIC_OUTS12",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_LL_A"
         },
         "CLBLL_L.CLBLL_LL_A1->>CLBLL_LL_A": {
             "can_invert": "0",
@@ -1330,6 +1284,52 @@
             },
             "src_wire": "CLBLL_LL_A6"
         },
+        "CLBLL_L.CLBLL_LL_A->>CLBLL_LL_AMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.047",
+                    "0.058",
+                    "0.075",
+                    "0.095"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLL_LL_AMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.047",
+                    "0.058",
+                    "0.075",
+                    "0.095"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLL_LL_A"
+        },
+        "CLBLL_L.CLBLL_LL_A->CLBLL_LOGIC_OUTS12": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_LOGIC_OUTS12",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_LL_A"
+        },
         "CLBLL_L.CLBLL_LL_AMUX->CLBLL_LOGIC_OUTS20": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1365,52 +1365,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLL_LL_AQ"
-        },
-        "CLBLL_L.CLBLL_LL_B->>CLBLL_LL_BMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.047",
-                    "0.058",
-                    "0.074",
-                    "0.094"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLL_LL_BMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.047",
-                    "0.058",
-                    "0.074",
-                    "0.094"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLL_LL_B"
-        },
-        "CLBLL_L.CLBLL_LL_B->CLBLL_LOGIC_OUTS13": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_LOGIC_OUTS13",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_LL_B"
         },
         "CLBLL_L.CLBLL_LL_B1->>CLBLL_LL_B": {
             "can_invert": "0",
@@ -1580,6 +1534,52 @@
             },
             "src_wire": "CLBLL_LL_B6"
         },
+        "CLBLL_L.CLBLL_LL_B->>CLBLL_LL_BMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.047",
+                    "0.058",
+                    "0.074",
+                    "0.094"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLL_LL_BMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.047",
+                    "0.058",
+                    "0.074",
+                    "0.094"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLL_LL_B"
+        },
+        "CLBLL_L.CLBLL_LL_B->CLBLL_LOGIC_OUTS13": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_LOGIC_OUTS13",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_LL_B"
+        },
         "CLBLL_L.CLBLL_LL_BMUX->CLBLL_LOGIC_OUTS21": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1615,52 +1615,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLL_LL_BQ"
-        },
-        "CLBLL_L.CLBLL_LL_C->>CLBLL_LL_CMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.045",
-                    "0.055",
-                    "0.073",
-                    "0.092"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLL_LL_CMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.045",
-                    "0.055",
-                    "0.073",
-                    "0.092"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLL_LL_C"
-        },
-        "CLBLL_L.CLBLL_LL_C->CLBLL_LOGIC_OUTS14": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_LOGIC_OUTS14",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_LL_C"
         },
         "CLBLL_L.CLBLL_LL_C1->>CLBLL_LL_C": {
             "can_invert": "0",
@@ -1830,6 +1784,52 @@
             },
             "src_wire": "CLBLL_LL_C6"
         },
+        "CLBLL_L.CLBLL_LL_C->>CLBLL_LL_CMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.045",
+                    "0.055",
+                    "0.073",
+                    "0.092"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLL_LL_CMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.045",
+                    "0.055",
+                    "0.073",
+                    "0.092"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLL_LL_C"
+        },
+        "CLBLL_L.CLBLL_LL_C->CLBLL_LOGIC_OUTS14": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_LOGIC_OUTS14",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_LL_C"
+        },
         "CLBLL_L.CLBLL_LL_CMUX->CLBLL_LOGIC_OUTS22": {
             "can_invert": "0",
             "dst_to_src": {
@@ -1911,52 +1911,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLL_LL_CQ"
-        },
-        "CLBLL_L.CLBLL_LL_D->>CLBLL_LL_DMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.045",
-                    "0.056",
-                    "0.073",
-                    "0.093"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLL_LL_DMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.045",
-                    "0.056",
-                    "0.073",
-                    "0.093"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLL_LL_D"
-        },
-        "CLBLL_L.CLBLL_LL_D->CLBLL_LOGIC_OUTS15": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_LOGIC_OUTS15",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_LL_D"
         },
         "CLBLL_L.CLBLL_LL_D1->>CLBLL_LL_D": {
             "can_invert": "0",
@@ -2126,6 +2080,52 @@
             },
             "src_wire": "CLBLL_LL_D6"
         },
+        "CLBLL_L.CLBLL_LL_D->>CLBLL_LL_DMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.045",
+                    "0.056",
+                    "0.073",
+                    "0.093"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLL_LL_DMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.045",
+                    "0.056",
+                    "0.073",
+                    "0.093"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLL_LL_D"
+        },
+        "CLBLL_L.CLBLL_LL_D->CLBLL_LOGIC_OUTS15": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_LOGIC_OUTS15",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_LL_D"
+        },
         "CLBLL_L.CLBLL_LL_DMUX->CLBLL_LOGIC_OUTS23": {
             "can_invert": "0",
             "dst_to_src": {
@@ -2161,52 +2161,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLL_LL_DQ"
-        },
-        "CLBLL_L.CLBLL_L_A->>CLBLL_L_AMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.047",
-                    "0.058",
-                    "0.075",
-                    "0.095"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLL_L_AMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.047",
-                    "0.058",
-                    "0.075",
-                    "0.095"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLL_L_A"
-        },
-        "CLBLL_L.CLBLL_L_A->CLBLL_LOGIC_OUTS8": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_LOGIC_OUTS8",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_L_A"
         },
         "CLBLL_L.CLBLL_L_A1->>CLBLL_L_A": {
             "can_invert": "0",
@@ -2376,6 +2330,52 @@
             },
             "src_wire": "CLBLL_L_A6"
         },
+        "CLBLL_L.CLBLL_L_A->>CLBLL_L_AMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.047",
+                    "0.058",
+                    "0.075",
+                    "0.095"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLL_L_AMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.047",
+                    "0.058",
+                    "0.075",
+                    "0.095"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLL_L_A"
+        },
+        "CLBLL_L.CLBLL_L_A->CLBLL_LOGIC_OUTS8": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_LOGIC_OUTS8",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_L_A"
+        },
         "CLBLL_L.CLBLL_L_AMUX->CLBLL_LOGIC_OUTS16": {
             "can_invert": "0",
             "dst_to_src": {
@@ -2411,52 +2411,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLL_L_AQ"
-        },
-        "CLBLL_L.CLBLL_L_B->>CLBLL_L_BMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.047",
-                    "0.058",
-                    "0.074",
-                    "0.094"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLL_L_BMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.047",
-                    "0.058",
-                    "0.074",
-                    "0.094"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLL_L_B"
-        },
-        "CLBLL_L.CLBLL_L_B->CLBLL_LOGIC_OUTS9": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_LOGIC_OUTS9",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_L_B"
         },
         "CLBLL_L.CLBLL_L_B1->>CLBLL_L_B": {
             "can_invert": "0",
@@ -2626,6 +2580,52 @@
             },
             "src_wire": "CLBLL_L_B6"
         },
+        "CLBLL_L.CLBLL_L_B->>CLBLL_L_BMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.047",
+                    "0.058",
+                    "0.074",
+                    "0.094"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLL_L_BMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.047",
+                    "0.058",
+                    "0.074",
+                    "0.094"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLL_L_B"
+        },
+        "CLBLL_L.CLBLL_L_B->CLBLL_LOGIC_OUTS9": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_LOGIC_OUTS9",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_L_B"
+        },
         "CLBLL_L.CLBLL_L_BMUX->CLBLL_LOGIC_OUTS17": {
             "can_invert": "0",
             "dst_to_src": {
@@ -2661,52 +2661,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLL_L_BQ"
-        },
-        "CLBLL_L.CLBLL_L_C->>CLBLL_L_CMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.045",
-                    "0.055",
-                    "0.073",
-                    "0.092"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLL_L_CMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.045",
-                    "0.055",
-                    "0.073",
-                    "0.092"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLL_L_C"
-        },
-        "CLBLL_L.CLBLL_L_C->CLBLL_LOGIC_OUTS10": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_LOGIC_OUTS10",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_L_C"
         },
         "CLBLL_L.CLBLL_L_C1->>CLBLL_L_C": {
             "can_invert": "0",
@@ -2876,6 +2830,52 @@
             },
             "src_wire": "CLBLL_L_C6"
         },
+        "CLBLL_L.CLBLL_L_C->>CLBLL_L_CMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.045",
+                    "0.055",
+                    "0.073",
+                    "0.092"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLL_L_CMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.045",
+                    "0.055",
+                    "0.073",
+                    "0.092"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLL_L_C"
+        },
+        "CLBLL_L.CLBLL_L_C->CLBLL_LOGIC_OUTS10": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_LOGIC_OUTS10",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_L_C"
+        },
         "CLBLL_L.CLBLL_L_CMUX->CLBLL_LOGIC_OUTS18": {
             "can_invert": "0",
             "dst_to_src": {
@@ -2957,52 +2957,6 @@
                 "res": "0.000"
             },
             "src_wire": "CLBLL_L_CQ"
-        },
-        "CLBLL_L.CLBLL_L_D->>CLBLL_L_DMUX": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": [
-                    "0.045",
-                    "0.056",
-                    "0.073",
-                    "0.093"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "dst_wire": "CLBLL_L_DMUX",
-            "is_directional": "1",
-            "is_pass_transistor": 0,
-            "is_pseudo": "1",
-            "src_to_dst": {
-                "delay": [
-                    "0.045",
-                    "0.056",
-                    "0.073",
-                    "0.093"
-                ],
-                "in_cap": null,
-                "res": "0.0"
-            },
-            "src_wire": "CLBLL_L_D"
-        },
-        "CLBLL_L.CLBLL_L_D->CLBLL_LOGIC_OUTS11": {
-            "can_invert": "0",
-            "dst_to_src": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "dst_wire": "CLBLL_LOGIC_OUTS11",
-            "is_directional": "1",
-            "is_pass_transistor": 1,
-            "is_pseudo": "0",
-            "src_to_dst": {
-                "delay": null,
-                "in_cap": null,
-                "res": "0.000"
-            },
-            "src_wire": "CLBLL_L_D"
         },
         "CLBLL_L.CLBLL_L_D1->>CLBLL_L_D": {
             "can_invert": "0",
@@ -3172,6 +3126,52 @@
             },
             "src_wire": "CLBLL_L_D6"
         },
+        "CLBLL_L.CLBLL_L_D->>CLBLL_L_DMUX": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": [
+                    "0.045",
+                    "0.056",
+                    "0.073",
+                    "0.093"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "dst_wire": "CLBLL_L_DMUX",
+            "is_directional": "1",
+            "is_pass_transistor": 0,
+            "is_pseudo": "1",
+            "src_to_dst": {
+                "delay": [
+                    "0.045",
+                    "0.056",
+                    "0.073",
+                    "0.093"
+                ],
+                "in_cap": null,
+                "res": "0.0"
+            },
+            "src_wire": "CLBLL_L_D"
+        },
+        "CLBLL_L.CLBLL_L_D->CLBLL_LOGIC_OUTS11": {
+            "can_invert": "0",
+            "dst_to_src": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "dst_wire": "CLBLL_LOGIC_OUTS11",
+            "is_directional": "1",
+            "is_pass_transistor": 1,
+            "is_pseudo": "0",
+            "src_to_dst": {
+                "delay": null,
+                "in_cap": null,
+                "res": "0.000"
+            },
+            "src_wire": "CLBLL_L_D"
+        },
         "CLBLL_L.CLBLL_L_DMUX->CLBLL_LOGIC_OUTS19": {
             "can_invert": "0",
             "dst_to_src": {
@@ -3210,465 +3210,6 @@
         }
     },
     "sites": [
-        {
-            "name": "X1Y0",
-            "prefix": "SLICE",
-            "site_pins": {
-                "A": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "835.1804999999999",
-                    "wire": "CLBLL_L_A"
-                },
-                "A1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.133",
-                        "0.165",
-                        "0.217",
-                        "0.257"
-                    ],
-                    "wire": "CLBLL_L_A1"
-                },
-                "A2": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.130",
-                        "0.162",
-                        "0.212",
-                        "0.250"
-                    ],
-                    "wire": "CLBLL_L_A2"
-                },
-                "A3": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.078",
-                        "0.097",
-                        "0.138",
-                        "0.163"
-                    ],
-                    "wire": "CLBLL_L_A3"
-                },
-                "A4": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.064",
-                        "0.080",
-                        "0.113",
-                        "0.134"
-                    ],
-                    "wire": "CLBLL_L_A4"
-                },
-                "A5": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.026",
-                        "0.032",
-                        "0.042",
-                        "0.050"
-                    ],
-                    "wire": "CLBLL_L_A5"
-                },
-                "A6": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.002",
-                        "0.002",
-                        "0.002",
-                        "0.003"
-                    ],
-                    "wire": "CLBLL_L_A6"
-                },
-                "AMUX": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "894.144625",
-                    "wire": "CLBLL_L_AMUX"
-                },
-                "AQ": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "982.5915",
-                    "wire": "CLBLL_L_AQ"
-                },
-                "AX": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CLBLL_L_AX"
-                },
-                "B": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "810.616125",
-                    "wire": "CLBLL_L_B"
-                },
-                "B1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.133",
-                        "0.165",
-                        "0.217",
-                        "0.257"
-                    ],
-                    "wire": "CLBLL_L_B1"
-                },
-                "B2": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.129",
-                        "0.161",
-                        "0.213",
-                        "0.251"
-                    ],
-                    "wire": "CLBLL_L_B2"
-                },
-                "B3": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.080",
-                        "0.100",
-                        "0.142",
-                        "0.168"
-                    ],
-                    "wire": "CLBLL_L_B3"
-                },
-                "B4": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.065",
-                        "0.081",
-                        "0.113",
-                        "0.134"
-                    ],
-                    "wire": "CLBLL_L_B4"
-                },
-                "B5": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.027",
-                        "0.033",
-                        "0.043",
-                        "0.051"
-                    ],
-                    "wire": "CLBLL_L_B5"
-                },
-                "B6": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.001",
-                        "0.001",
-                        "0.001",
-                        "0.001"
-                    ],
-                    "wire": "CLBLL_L_B6"
-                },
-                "BMUX": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "884.3346875000001",
-                    "wire": "CLBLL_L_BMUX"
-                },
-                "BQ": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "982.5915",
-                    "wire": "CLBLL_L_BQ"
-                },
-                "BX": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CLBLL_L_BX"
-                },
-                "C": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "808.31575",
-                    "wire": "CLBLL_L_C"
-                },
-                "C1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.133",
-                        "0.165",
-                        "0.217",
-                        "0.257"
-                    ],
-                    "wire": "CLBLL_L_C1"
-                },
-                "C2": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.129",
-                        "0.161",
-                        "0.212",
-                        "0.250"
-                    ],
-                    "wire": "CLBLL_L_C2"
-                },
-                "C3": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.080",
-                        "0.100",
-                        "0.142",
-                        "0.168"
-                    ],
-                    "wire": "CLBLL_L_C3"
-                },
-                "C4": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.065",
-                        "0.081",
-                        "0.114",
-                        "0.135"
-                    ],
-                    "wire": "CLBLL_L_C4"
-                },
-                "C5": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.026",
-                        "0.032",
-                        "0.044",
-                        "0.052"
-                    ],
-                    "wire": "CLBLL_L_C5"
-                },
-                "C6": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CLBLL_L_C6"
-                },
-                "CE": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CLBLL_L_CE"
-                },
-                "CIN": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CLBLL_L_CIN"
-                },
-                "CLK": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CLBLL_L_CLK"
-                },
-                "CMUX": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "858.1766875000001",
-                    "wire": "CLBLL_L_CMUX"
-                },
-                "COUT": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "687.5",
-                    "wire": "CLBLL_L_COUT"
-                },
-                "CQ": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "982.5915",
-                    "wire": "CLBLL_L_CQ"
-                },
-                "CX": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CLBLL_L_CX"
-                },
-                "D": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "810.3796249999999",
-                    "wire": "CLBLL_L_D"
-                },
-                "D1": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.135",
-                        "0.168",
-                        "0.221",
-                        "0.262"
-                    ],
-                    "wire": "CLBLL_L_D1"
-                },
-                "D2": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.131",
-                        "0.163",
-                        "0.213",
-                        "0.252"
-                    ],
-                    "wire": "CLBLL_L_D2"
-                },
-                "D3": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.079",
-                        "0.099",
-                        "0.141",
-                        "0.167"
-                    ],
-                    "wire": "CLBLL_L_D3"
-                },
-                "D4": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.066",
-                        "0.082",
-                        "0.116",
-                        "0.138"
-                    ],
-                    "wire": "CLBLL_L_D4"
-                },
-                "D5": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.026",
-                        "0.032",
-                        "0.042",
-                        "0.050"
-                    ],
-                    "wire": "CLBLL_L_D5"
-                },
-                "D6": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.002",
-                        "0.002",
-                        "0.002",
-                        "0.003"
-                    ],
-                    "wire": "CLBLL_L_D6"
-                },
-                "DMUX": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "825.0027499999999",
-                    "wire": "CLBLL_L_DMUX"
-                },
-                "DQ": {
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "res": "982.5915",
-                    "wire": "CLBLL_L_DQ"
-                },
-                "DX": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CLBLL_L_DX"
-                },
-                "SR": {
-                    "cap": "0.000",
-                    "delay": [
-                        "0.000",
-                        "0.000",
-                        "0.000",
-                        "0.000"
-                    ],
-                    "wire": "CLBLL_L_SR"
-                }
-            },
-            "type": "SLICEL",
-            "x_coord": 1,
-            "y_coord": 0
-        },
         {
             "name": "X0Y0",
             "prefix": "SLICE",
@@ -4127,6 +3668,465 @@
             "type": "SLICEL",
             "x_coord": 0,
             "y_coord": 0
+        },
+        {
+            "name": "X1Y0",
+            "prefix": "SLICE",
+            "site_pins": {
+                "A": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "835.1804999999999",
+                    "wire": "CLBLL_L_A"
+                },
+                "A1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.133",
+                        "0.165",
+                        "0.217",
+                        "0.257"
+                    ],
+                    "wire": "CLBLL_L_A1"
+                },
+                "A2": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.130",
+                        "0.162",
+                        "0.212",
+                        "0.250"
+                    ],
+                    "wire": "CLBLL_L_A2"
+                },
+                "A3": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.078",
+                        "0.097",
+                        "0.138",
+                        "0.163"
+                    ],
+                    "wire": "CLBLL_L_A3"
+                },
+                "A4": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.064",
+                        "0.080",
+                        "0.113",
+                        "0.134"
+                    ],
+                    "wire": "CLBLL_L_A4"
+                },
+                "A5": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.026",
+                        "0.032",
+                        "0.042",
+                        "0.050"
+                    ],
+                    "wire": "CLBLL_L_A5"
+                },
+                "A6": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.002",
+                        "0.002",
+                        "0.002",
+                        "0.003"
+                    ],
+                    "wire": "CLBLL_L_A6"
+                },
+                "AMUX": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "894.144625",
+                    "wire": "CLBLL_L_AMUX"
+                },
+                "AQ": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "982.5915",
+                    "wire": "CLBLL_L_AQ"
+                },
+                "AX": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CLBLL_L_AX"
+                },
+                "B": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "810.616125",
+                    "wire": "CLBLL_L_B"
+                },
+                "B1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.133",
+                        "0.165",
+                        "0.217",
+                        "0.257"
+                    ],
+                    "wire": "CLBLL_L_B1"
+                },
+                "B2": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.129",
+                        "0.161",
+                        "0.213",
+                        "0.251"
+                    ],
+                    "wire": "CLBLL_L_B2"
+                },
+                "B3": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.080",
+                        "0.100",
+                        "0.142",
+                        "0.168"
+                    ],
+                    "wire": "CLBLL_L_B3"
+                },
+                "B4": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.065",
+                        "0.081",
+                        "0.113",
+                        "0.134"
+                    ],
+                    "wire": "CLBLL_L_B4"
+                },
+                "B5": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.027",
+                        "0.033",
+                        "0.043",
+                        "0.051"
+                    ],
+                    "wire": "CLBLL_L_B5"
+                },
+                "B6": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.001",
+                        "0.001",
+                        "0.001",
+                        "0.001"
+                    ],
+                    "wire": "CLBLL_L_B6"
+                },
+                "BMUX": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "884.3346875000001",
+                    "wire": "CLBLL_L_BMUX"
+                },
+                "BQ": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "982.5915",
+                    "wire": "CLBLL_L_BQ"
+                },
+                "BX": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CLBLL_L_BX"
+                },
+                "C": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "808.31575",
+                    "wire": "CLBLL_L_C"
+                },
+                "C1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.133",
+                        "0.165",
+                        "0.217",
+                        "0.257"
+                    ],
+                    "wire": "CLBLL_L_C1"
+                },
+                "C2": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.129",
+                        "0.161",
+                        "0.212",
+                        "0.250"
+                    ],
+                    "wire": "CLBLL_L_C2"
+                },
+                "C3": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.080",
+                        "0.100",
+                        "0.142",
+                        "0.168"
+                    ],
+                    "wire": "CLBLL_L_C3"
+                },
+                "C4": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.065",
+                        "0.081",
+                        "0.114",
+                        "0.135"
+                    ],
+                    "wire": "CLBLL_L_C4"
+                },
+                "C5": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.026",
+                        "0.032",
+                        "0.044",
+                        "0.052"
+                    ],
+                    "wire": "CLBLL_L_C5"
+                },
+                "C6": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CLBLL_L_C6"
+                },
+                "CE": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CLBLL_L_CE"
+                },
+                "CIN": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CLBLL_L_CIN"
+                },
+                "CLK": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CLBLL_L_CLK"
+                },
+                "CMUX": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "858.1766875000001",
+                    "wire": "CLBLL_L_CMUX"
+                },
+                "COUT": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "687.5",
+                    "wire": "CLBLL_L_COUT"
+                },
+                "CQ": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "982.5915",
+                    "wire": "CLBLL_L_CQ"
+                },
+                "CX": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CLBLL_L_CX"
+                },
+                "D": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "810.3796249999999",
+                    "wire": "CLBLL_L_D"
+                },
+                "D1": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.135",
+                        "0.168",
+                        "0.221",
+                        "0.262"
+                    ],
+                    "wire": "CLBLL_L_D1"
+                },
+                "D2": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.131",
+                        "0.163",
+                        "0.213",
+                        "0.252"
+                    ],
+                    "wire": "CLBLL_L_D2"
+                },
+                "D3": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.079",
+                        "0.099",
+                        "0.141",
+                        "0.167"
+                    ],
+                    "wire": "CLBLL_L_D3"
+                },
+                "D4": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.066",
+                        "0.082",
+                        "0.116",
+                        "0.138"
+                    ],
+                    "wire": "CLBLL_L_D4"
+                },
+                "D5": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.026",
+                        "0.032",
+                        "0.042",
+                        "0.050"
+                    ],
+                    "wire": "CLBLL_L_D5"
+                },
+                "D6": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.002",
+                        "0.002",
+                        "0.002",
+                        "0.003"
+                    ],
+                    "wire": "CLBLL_L_D6"
+                },
+                "DMUX": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "825.0027499999999",
+                    "wire": "CLBLL_L_DMUX"
+                },
+                "DQ": {
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "res": "982.5915",
+                    "wire": "CLBLL_L_DQ"
+                },
+                "DX": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CLBLL_L_DX"
+                },
+                "SR": {
+                    "cap": "0.000",
+                    "delay": [
+                        "0.000",
+                        "0.000",
+                        "0.000",
+                        "0.000"
+                    ],
+                    "wire": "CLBLL_L_SR"
+                }
+            },
+            "type": "SLICEL",
+            "x_coord": 1,
+            "y_coord": 0
         }
     ],
     "tile_type": "CLBLL_L",
@@ -4209,6 +4209,14 @@
         "CLBLL_FAN7": null,
         "CLBLL_IMUX0": null,
         "CLBLL_IMUX1": null,
+        "CLBLL_IMUX2": null,
+        "CLBLL_IMUX3": null,
+        "CLBLL_IMUX4": null,
+        "CLBLL_IMUX5": null,
+        "CLBLL_IMUX6": null,
+        "CLBLL_IMUX7": null,
+        "CLBLL_IMUX8": null,
+        "CLBLL_IMUX9": null,
         "CLBLL_IMUX10": null,
         "CLBLL_IMUX11": null,
         "CLBLL_IMUX12": null,
@@ -4219,7 +4227,6 @@
         "CLBLL_IMUX17": null,
         "CLBLL_IMUX18": null,
         "CLBLL_IMUX19": null,
-        "CLBLL_IMUX2": null,
         "CLBLL_IMUX20": null,
         "CLBLL_IMUX21": null,
         "CLBLL_IMUX22": null,
@@ -4230,7 +4237,6 @@
         "CLBLL_IMUX27": null,
         "CLBLL_IMUX28": null,
         "CLBLL_IMUX29": null,
-        "CLBLL_IMUX3": null,
         "CLBLL_IMUX30": null,
         "CLBLL_IMUX31": null,
         "CLBLL_IMUX32": null,
@@ -4241,7 +4247,6 @@
         "CLBLL_IMUX37": null,
         "CLBLL_IMUX38": null,
         "CLBLL_IMUX39": null,
-        "CLBLL_IMUX4": null,
         "CLBLL_IMUX40": null,
         "CLBLL_IMUX41": null,
         "CLBLL_IMUX42": null,
@@ -4250,15 +4255,7 @@
         "CLBLL_IMUX45": null,
         "CLBLL_IMUX46": null,
         "CLBLL_IMUX47": null,
-        "CLBLL_IMUX5": null,
-        "CLBLL_IMUX6": null,
-        "CLBLL_IMUX7": null,
-        "CLBLL_IMUX8": null,
-        "CLBLL_IMUX9": null,
         "CLBLL_LH1": null,
-        "CLBLL_LH10": null,
-        "CLBLL_LH11": null,
-        "CLBLL_LH12": null,
         "CLBLL_LH2": null,
         "CLBLL_LH3": null,
         "CLBLL_LH4": null,
@@ -4267,6 +4264,9 @@
         "CLBLL_LH7": null,
         "CLBLL_LH8": null,
         "CLBLL_LH9": null,
+        "CLBLL_LH10": null,
+        "CLBLL_LH11": null,
+        "CLBLL_LH12": null,
         "CLBLL_LL_A": null,
         "CLBLL_LL_A1": {
             "cap": "6.628",
@@ -4393,6 +4393,14 @@
         },
         "CLBLL_LOGIC_OUTS0": null,
         "CLBLL_LOGIC_OUTS1": null,
+        "CLBLL_LOGIC_OUTS2": null,
+        "CLBLL_LOGIC_OUTS3": null,
+        "CLBLL_LOGIC_OUTS4": null,
+        "CLBLL_LOGIC_OUTS5": null,
+        "CLBLL_LOGIC_OUTS6": null,
+        "CLBLL_LOGIC_OUTS7": null,
+        "CLBLL_LOGIC_OUTS8": null,
+        "CLBLL_LOGIC_OUTS9": null,
         "CLBLL_LOGIC_OUTS10": null,
         "CLBLL_LOGIC_OUTS11": null,
         "CLBLL_LOGIC_OUTS12": null,
@@ -4403,18 +4411,10 @@
         "CLBLL_LOGIC_OUTS17": null,
         "CLBLL_LOGIC_OUTS18": null,
         "CLBLL_LOGIC_OUTS19": null,
-        "CLBLL_LOGIC_OUTS2": null,
         "CLBLL_LOGIC_OUTS20": null,
         "CLBLL_LOGIC_OUTS21": null,
         "CLBLL_LOGIC_OUTS22": null,
         "CLBLL_LOGIC_OUTS23": null,
-        "CLBLL_LOGIC_OUTS3": null,
-        "CLBLL_LOGIC_OUTS4": null,
-        "CLBLL_LOGIC_OUTS5": null,
-        "CLBLL_LOGIC_OUTS6": null,
-        "CLBLL_LOGIC_OUTS7": null,
-        "CLBLL_LOGIC_OUTS8": null,
-        "CLBLL_LOGIC_OUTS9": null,
         "CLBLL_L_A": null,
         "CLBLL_L_A1": null,
         "CLBLL_L_A2": null,

@@ -1,0 +1,910 @@
+{
+    "CFGRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "CLKRSVD0": {
+        "direction": "input",
+        "width": 1
+    },
+    "CLKRSVD1": {
+        "direction": "input",
+        "width": 1
+    },
+    "DMONFIFORESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "DMONITORCLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "DMONITOROUT": {
+        "direction": "output",
+        "width": 15
+    },
+    "DRPADDR": {
+        "direction": "input",
+        "width": 9
+    },
+    "DRPCLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "DRPDI": {
+        "direction": "input",
+        "width": 16
+    },
+    "DRPDO": {
+        "direction": "output",
+        "width": 16
+    },
+    "DRPEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "DRPRDY": {
+        "direction": "output",
+        "width": 1
+    },
+    "DRPWE": {
+        "direction": "input",
+        "width": 1
+    },
+    "EYESCANDATAERROR": {
+        "direction": "output",
+        "width": 1
+    },
+    "EYESCANMODE": {
+        "direction": "input",
+        "width": 1
+    },
+    "EYESCANRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "EYESCANTRIGGER": {
+        "direction": "input",
+        "width": 1
+    },
+    "GTPRXN": {
+        "direction": "input",
+        "width": 1
+    },
+    "GTPRXP": {
+        "direction": "input",
+        "width": 1
+    },
+    "GTPTXN": {
+        "direction": "output",
+        "width": 1
+    },
+    "GTPTXP": {
+        "direction": "output",
+        "width": 1
+    },
+    "GTRESETSEL": {
+        "direction": "input",
+        "width": 1
+    },
+    "GTRSVD": {
+        "direction": "input",
+        "width": 16
+    },
+    "GTRXRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "GTTXRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "LOOPBACK": {
+        "direction": "input",
+        "width": 3
+    },
+    "PCSRSVDIN": {
+        "direction": "input",
+        "width": 16
+    },
+    "PCSRSVDOUT": {
+        "direction": "output",
+        "width": 16
+    },
+    "PHYSTATUS": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLL0CLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "PLL0REFCLK": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLL1CLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "PLL1REFCLK": {
+        "direction": "input",
+        "width": 1
+    },
+    "PMARSVDIN0": {
+        "direction": "input",
+        "width": 1
+    },
+    "PMARSVDIN1": {
+        "direction": "input",
+        "width": 1
+    },
+    "PMARSVDIN2": {
+        "direction": "input",
+        "width": 1
+    },
+    "PMARSVDIN3": {
+        "direction": "input",
+        "width": 1
+    },
+    "PMARSVDIN4": {
+        "direction": "input",
+        "width": 1
+    },
+    "PMARSVDOUT0": {
+        "direction": "output",
+        "width": 1
+    },
+    "PMARSVDOUT1": {
+        "direction": "output",
+        "width": 1
+    },
+    "RESETOVRD": {
+        "direction": "input",
+        "width": 1
+    },
+    "RX8B10BEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXADAPTSELTEST": {
+        "direction": "input",
+        "width": 14
+    },
+    "RXBUFRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXBUFSTATUS": {
+        "direction": "output",
+        "width": 3
+    },
+    "RXBYTEISALIGNED": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXBYTEREALIGN": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXCDRFREQRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXCDRHOLD": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXCDRLOCK": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXCDROVRDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXCDRRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXCDRRESETRSV": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXCHANBONDSEQ": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXCHANISALIGNED": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXCHANREALIGN": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXCHARISCOMMA": {
+        "direction": "output",
+        "width": 4
+    },
+    "RXCHARISK": {
+        "direction": "output",
+        "width": 4
+    },
+    "RXCHBONDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXCHBONDI": {
+        "direction": "input",
+        "width": 4
+    },
+    "RXCHBONDLEVEL": {
+        "direction": "input",
+        "width": 3
+    },
+    "RXCHBONDMASTER": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXCHBONDO": {
+        "direction": "output",
+        "width": 4
+    },
+    "RXCHBONDSLAVE": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXCLKCORCNT": {
+        "direction": "output",
+        "width": 2
+    },
+    "RXCOMINITDET": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXCOMMADET": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXCOMMADETEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXCOMSASDET": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXCOMWAKEDET": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXDATA": {
+        "direction": "output",
+        "width": 32
+    },
+    "RXDATAVALID": {
+        "direction": "output",
+        "width": 2
+    },
+    "RXDDIEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXDFEXYDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXDISPERR": {
+        "direction": "output",
+        "width": 4
+    },
+    "RXDLYBYPASS": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXDLYEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXDLYOVRDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXDLYSRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXDLYSRESETDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXELECIDLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXELECIDLEMODE": {
+        "direction": "input",
+        "width": 2
+    },
+    "RXGEARBOXSLIP": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXHEADER": {
+        "direction": "output",
+        "width": 3
+    },
+    "RXHEADERVALID": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXLPMHFHOLD": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXLPMHFOVRDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXLPMLFHOLD": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXLPMLFOVRDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXLPMOSINTNTRLEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXLPMRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXMCOMMAALIGNEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXNOTINTABLE": {
+        "direction": "output",
+        "width": 4
+    },
+    "RXOOBRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXOSCALRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXOSHOLD": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXOSINTCFG": {
+        "direction": "input",
+        "width": 4
+    },
+    "RXOSINTDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXOSINTEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXOSINTHOLD": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXOSINTID0": {
+        "direction": "input",
+        "width": 4
+    },
+    "RXOSINTNTRLEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXOSINTOVRDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXOSINTPD": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXOSINTSTARTED": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXOSINTSTROBE": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXOSINTSTROBEDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXOSINTSTROBESTARTED": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXOSINTTESTOVRDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXOSOVRDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXOUTCLK": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXOUTCLKFABRIC": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXOUTCLKPCS": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXOUTCLKSEL": {
+        "direction": "input",
+        "width": 3
+    },
+    "RXPCOMMAALIGNEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXPCSRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXPD": {
+        "direction": "input",
+        "width": 2
+    },
+    "RXPHALIGN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXPHALIGNDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXPHALIGNEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXPHDLYPD": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXPHDLYRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXPHMONITOR": {
+        "direction": "output",
+        "width": 5
+    },
+    "RXPHOVRDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXPHSLIPMONITOR": {
+        "direction": "output",
+        "width": 5
+    },
+    "RXPMARESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXPMARESETDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXPOLARITY": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXPRBSCNTRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXPRBSERR": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXPRBSSEL": {
+        "direction": "input",
+        "width": 3
+    },
+    "RXRATE": {
+        "direction": "input",
+        "width": 3
+    },
+    "RXRATEDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXRATEMODE": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXRESETDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXSLIDE": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXSTARTOFSEQ": {
+        "direction": "output",
+        "width": 2
+    },
+    "RXSTATUS": {
+        "direction": "output",
+        "width": 3
+    },
+    "RXSYNCALLIN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXSYNCDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXSYNCIN": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXSYNCMODE": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXSYNCOUT": {
+        "direction": "output",
+        "width": 1
+    },
+    "RXSYSCLKSEL": {
+        "direction": "input",
+        "width": 2
+    },
+    "RXUSERRDY": {
+        "direction": "input",
+        "width": 1
+    },
+    "RXUSRCLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "RXUSRCLK2": {
+        "direction": "clock",
+        "width": 1
+    },
+    "RXVALID": {
+        "direction": "output",
+        "width": 1
+    },
+    "SETERRSTATUS": {
+        "direction": "input",
+        "width": 1
+    },
+    "SIGVALIDCLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "TSTIN": {
+        "direction": "input",
+        "width": 20
+    },
+    "TX8B10BBYPASS": {
+        "direction": "input",
+        "width": 4
+    },
+    "TX8B10BEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXBUFDIFFCTRL": {
+        "direction": "input",
+        "width": 3
+    },
+    "TXBUFSTATUS": {
+        "direction": "output",
+        "width": 2
+    },
+    "TXCHARDISPMODE": {
+        "direction": "input",
+        "width": 4
+    },
+    "TXCHARDISPVAL": {
+        "direction": "input",
+        "width": 4
+    },
+    "TXCHARISK": {
+        "direction": "input",
+        "width": 4
+    },
+    "TXCOMFINISH": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXCOMINIT": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXCOMSAS": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXCOMWAKE": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXDATA": {
+        "direction": "input",
+        "width": 32
+    },
+    "TXDEEMPH": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXDETECTRX": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXDIFFCTRL": {
+        "direction": "input",
+        "width": 4
+    },
+    "TXDIFFPD": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXDLYBYPASS": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXDLYEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXDLYHOLD": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXDLYOVRDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXDLYSRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXDLYSRESETDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXDLYUPDOWN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXELECIDLE": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXGEARBOXREADY": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXHEADER": {
+        "direction": "input",
+        "width": 3
+    },
+    "TXINHIBIT": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXMAINCURSOR": {
+        "direction": "input",
+        "width": 7
+    },
+    "TXMARGIN": {
+        "direction": "input",
+        "width": 3
+    },
+    "TXOUTCLK": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXOUTCLKFABRIC": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXOUTCLKPCS": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXOUTCLKSEL": {
+        "direction": "input",
+        "width": 3
+    },
+    "TXPCSRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPD": {
+        "direction": "input",
+        "width": 2
+    },
+    "TXPDELECIDLEMODE": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPHALIGN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPHALIGNDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXPHALIGNEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPHDLYPD": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPHDLYRESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPHDLYTSTCLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "TXPHINIT": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPHINITDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXPHOVRDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPIPPMEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPIPPMOVRDEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPIPPMPD": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPIPPMSEL": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPIPPMSTEPSIZE": {
+        "direction": "input",
+        "width": 5
+    },
+    "TXPISOPD": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPMARESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPMARESETDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXPOLARITY": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPOSTCURSOR": {
+        "direction": "input",
+        "width": 5
+    },
+    "TXPOSTCURSORINV": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPRBSFORCEERR": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXPRBSSEL": {
+        "direction": "input",
+        "width": 3
+    },
+    "TXPRECURSOR": {
+        "direction": "input",
+        "width": 5
+    },
+    "TXPRECURSORINV": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXRATE": {
+        "direction": "input",
+        "width": 3
+    },
+    "TXRATEDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXRATEMODE": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXRESETDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXSEQUENCE": {
+        "direction": "input",
+        "width": 7
+    },
+    "TXSTARTSEQ": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXSWING": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXSYNCALLIN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXSYNCDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXSYNCIN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXSYNCMODE": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXSYNCOUT": {
+        "direction": "output",
+        "width": 1
+    },
+    "TXSYSCLKSEL": {
+        "direction": "input",
+        "width": 2
+    },
+    "TXUSERRDY": {
+        "direction": "input",
+        "width": 1
+    },
+    "TXUSRCLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "TXUSRCLK2": {
+        "direction": "clock",
+        "width": 1
+    }
+}

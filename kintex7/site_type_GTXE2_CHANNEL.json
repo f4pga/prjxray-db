@@ -105,24 +105,6 @@
         "DRPDI1": {
             "direction": "IN"
         },
-        "DRPDI10": {
-            "direction": "IN"
-        },
-        "DRPDI11": {
-            "direction": "IN"
-        },
-        "DRPDI12": {
-            "direction": "IN"
-        },
-        "DRPDI13": {
-            "direction": "IN"
-        },
-        "DRPDI14": {
-            "direction": "IN"
-        },
-        "DRPDI15": {
-            "direction": "IN"
-        },
         "DRPDI2": {
             "direction": "IN"
         },
@@ -147,28 +129,28 @@
         "DRPDI9": {
             "direction": "IN"
         },
+        "DRPDI10": {
+            "direction": "IN"
+        },
+        "DRPDI11": {
+            "direction": "IN"
+        },
+        "DRPDI12": {
+            "direction": "IN"
+        },
+        "DRPDI13": {
+            "direction": "IN"
+        },
+        "DRPDI14": {
+            "direction": "IN"
+        },
+        "DRPDI15": {
+            "direction": "IN"
+        },
         "DRPDO0": {
             "direction": "OUT"
         },
         "DRPDO1": {
-            "direction": "OUT"
-        },
-        "DRPDO10": {
-            "direction": "OUT"
-        },
-        "DRPDO11": {
-            "direction": "OUT"
-        },
-        "DRPDO12": {
-            "direction": "OUT"
-        },
-        "DRPDO13": {
-            "direction": "OUT"
-        },
-        "DRPDO14": {
-            "direction": "OUT"
-        },
-        "DRPDO15": {
             "direction": "OUT"
         },
         "DRPDO2": {
@@ -193,6 +175,24 @@
             "direction": "OUT"
         },
         "DRPDO9": {
+            "direction": "OUT"
+        },
+        "DRPDO10": {
+            "direction": "OUT"
+        },
+        "DRPDO11": {
+            "direction": "OUT"
+        },
+        "DRPDO12": {
+            "direction": "OUT"
+        },
+        "DRPDO13": {
+            "direction": "OUT"
+        },
+        "DRPDO14": {
+            "direction": "OUT"
+        },
+        "DRPDO15": {
             "direction": "OUT"
         },
         "DRPEN": {
@@ -258,24 +258,6 @@
         "GTRSVD1": {
             "direction": "IN"
         },
-        "GTRSVD10": {
-            "direction": "IN"
-        },
-        "GTRSVD11": {
-            "direction": "IN"
-        },
-        "GTRSVD12": {
-            "direction": "IN"
-        },
-        "GTRSVD13": {
-            "direction": "IN"
-        },
-        "GTRSVD14": {
-            "direction": "IN"
-        },
-        "GTRSVD15": {
-            "direction": "IN"
-        },
         "GTRSVD2": {
             "direction": "IN"
         },
@@ -298,6 +280,24 @@
             "direction": "IN"
         },
         "GTRSVD9": {
+            "direction": "IN"
+        },
+        "GTRSVD10": {
+            "direction": "IN"
+        },
+        "GTRSVD11": {
+            "direction": "IN"
+        },
+        "GTRSVD12": {
+            "direction": "IN"
+        },
+        "GTRSVD13": {
+            "direction": "IN"
+        },
+        "GTRSVD14": {
+            "direction": "IN"
+        },
+        "GTRSVD15": {
             "direction": "IN"
         },
         "GTRXRESET": {
@@ -339,40 +339,7 @@
         "PCSRSVDIN1": {
             "direction": "IN"
         },
-        "PCSRSVDIN10": {
-            "direction": "IN"
-        },
-        "PCSRSVDIN11": {
-            "direction": "IN"
-        },
-        "PCSRSVDIN12": {
-            "direction": "IN"
-        },
-        "PCSRSVDIN13": {
-            "direction": "IN"
-        },
-        "PCSRSVDIN14": {
-            "direction": "IN"
-        },
-        "PCSRSVDIN15": {
-            "direction": "IN"
-        },
         "PCSRSVDIN2": {
-            "direction": "IN"
-        },
-        "PCSRSVDIN20": {
-            "direction": "IN"
-        },
-        "PCSRSVDIN21": {
-            "direction": "IN"
-        },
-        "PCSRSVDIN22": {
-            "direction": "IN"
-        },
-        "PCSRSVDIN23": {
-            "direction": "IN"
-        },
-        "PCSRSVDIN24": {
             "direction": "IN"
         },
         "PCSRSVDIN3": {
@@ -396,28 +363,43 @@
         "PCSRSVDIN9": {
             "direction": "IN"
         },
+        "PCSRSVDIN10": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN11": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN12": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN13": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN14": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN15": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN20": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN21": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN22": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN23": {
+            "direction": "IN"
+        },
+        "PCSRSVDIN24": {
+            "direction": "IN"
+        },
         "PCSRSVDOUT0": {
             "direction": "OUT"
         },
         "PCSRSVDOUT1": {
-            "direction": "OUT"
-        },
-        "PCSRSVDOUT10": {
-            "direction": "OUT"
-        },
-        "PCSRSVDOUT11": {
-            "direction": "OUT"
-        },
-        "PCSRSVDOUT12": {
-            "direction": "OUT"
-        },
-        "PCSRSVDOUT13": {
-            "direction": "OUT"
-        },
-        "PCSRSVDOUT14": {
-            "direction": "OUT"
-        },
-        "PCSRSVDOUT15": {
             "direction": "OUT"
         },
         "PCSRSVDOUT2": {
@@ -444,6 +426,24 @@
         "PCSRSVDOUT9": {
             "direction": "OUT"
         },
+        "PCSRSVDOUT10": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT11": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT12": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT13": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT14": {
+            "direction": "OUT"
+        },
+        "PCSRSVDOUT15": {
+            "direction": "OUT"
+        },
         "PHYSTATUS": {
             "direction": "OUT"
         },
@@ -454,6 +454,12 @@
             "direction": "IN"
         },
         "PMARSVDIN2": {
+            "direction": "IN"
+        },
+        "PMARSVDIN3": {
+            "direction": "IN"
+        },
+        "PMARSVDIN4": {
             "direction": "IN"
         },
         "PMARSVDIN20": {
@@ -469,12 +475,6 @@
             "direction": "IN"
         },
         "PMARSVDIN24": {
-            "direction": "IN"
-        },
-        "PMARSVDIN3": {
-            "direction": "IN"
-        },
-        "PMARSVDIN4": {
             "direction": "IN"
         },
         "PMASCANCLK0": {
@@ -711,6 +711,30 @@
         "RXDATA1": {
             "direction": "OUT"
         },
+        "RXDATA2": {
+            "direction": "OUT"
+        },
+        "RXDATA3": {
+            "direction": "OUT"
+        },
+        "RXDATA4": {
+            "direction": "OUT"
+        },
+        "RXDATA5": {
+            "direction": "OUT"
+        },
+        "RXDATA6": {
+            "direction": "OUT"
+        },
+        "RXDATA7": {
+            "direction": "OUT"
+        },
+        "RXDATA8": {
+            "direction": "OUT"
+        },
+        "RXDATA9": {
+            "direction": "OUT"
+        },
         "RXDATA10": {
             "direction": "OUT"
         },
@@ -739,9 +763,6 @@
             "direction": "OUT"
         },
         "RXDATA19": {
-            "direction": "OUT"
-        },
-        "RXDATA2": {
             "direction": "OUT"
         },
         "RXDATA20": {
@@ -774,9 +795,6 @@
         "RXDATA29": {
             "direction": "OUT"
         },
-        "RXDATA3": {
-            "direction": "OUT"
-        },
         "RXDATA30": {
             "direction": "OUT"
         },
@@ -805,9 +823,6 @@
             "direction": "OUT"
         },
         "RXDATA39": {
-            "direction": "OUT"
-        },
-        "RXDATA4": {
             "direction": "OUT"
         },
         "RXDATA40": {
@@ -840,9 +855,6 @@
         "RXDATA49": {
             "direction": "OUT"
         },
-        "RXDATA5": {
-            "direction": "OUT"
-        },
         "RXDATA50": {
             "direction": "OUT"
         },
@@ -873,9 +885,6 @@
         "RXDATA59": {
             "direction": "OUT"
         },
-        "RXDATA6": {
-            "direction": "OUT"
-        },
         "RXDATA60": {
             "direction": "OUT"
         },
@@ -886,15 +895,6 @@
             "direction": "OUT"
         },
         "RXDATA63": {
-            "direction": "OUT"
-        },
-        "RXDATA7": {
-            "direction": "OUT"
-        },
-        "RXDATA8": {
-            "direction": "OUT"
-        },
-        "RXDATA9": {
             "direction": "OUT"
         },
         "RXDATAVALID": {
@@ -1329,6 +1329,30 @@
         "TSTIN1": {
             "direction": "IN"
         },
+        "TSTIN2": {
+            "direction": "IN"
+        },
+        "TSTIN3": {
+            "direction": "IN"
+        },
+        "TSTIN4": {
+            "direction": "IN"
+        },
+        "TSTIN5": {
+            "direction": "IN"
+        },
+        "TSTIN6": {
+            "direction": "IN"
+        },
+        "TSTIN7": {
+            "direction": "IN"
+        },
+        "TSTIN8": {
+            "direction": "IN"
+        },
+        "TSTIN9": {
+            "direction": "IN"
+        },
         "TSTIN10": {
             "direction": "IN"
         },
@@ -1357,30 +1381,6 @@
             "direction": "IN"
         },
         "TSTIN19": {
-            "direction": "IN"
-        },
-        "TSTIN2": {
-            "direction": "IN"
-        },
-        "TSTIN3": {
-            "direction": "IN"
-        },
-        "TSTIN4": {
-            "direction": "IN"
-        },
-        "TSTIN5": {
-            "direction": "IN"
-        },
-        "TSTIN6": {
-            "direction": "IN"
-        },
-        "TSTIN7": {
-            "direction": "IN"
-        },
-        "TSTIN8": {
-            "direction": "IN"
-        },
-        "TSTIN9": {
             "direction": "IN"
         },
         "TSTOUT0": {
@@ -1563,6 +1563,30 @@
         "TXDATA1": {
             "direction": "IN"
         },
+        "TXDATA2": {
+            "direction": "IN"
+        },
+        "TXDATA3": {
+            "direction": "IN"
+        },
+        "TXDATA4": {
+            "direction": "IN"
+        },
+        "TXDATA5": {
+            "direction": "IN"
+        },
+        "TXDATA6": {
+            "direction": "IN"
+        },
+        "TXDATA7": {
+            "direction": "IN"
+        },
+        "TXDATA8": {
+            "direction": "IN"
+        },
+        "TXDATA9": {
+            "direction": "IN"
+        },
         "TXDATA10": {
             "direction": "IN"
         },
@@ -1591,9 +1615,6 @@
             "direction": "IN"
         },
         "TXDATA19": {
-            "direction": "IN"
-        },
-        "TXDATA2": {
             "direction": "IN"
         },
         "TXDATA20": {
@@ -1626,9 +1647,6 @@
         "TXDATA29": {
             "direction": "IN"
         },
-        "TXDATA3": {
-            "direction": "IN"
-        },
         "TXDATA30": {
             "direction": "IN"
         },
@@ -1657,9 +1675,6 @@
             "direction": "IN"
         },
         "TXDATA39": {
-            "direction": "IN"
-        },
-        "TXDATA4": {
             "direction": "IN"
         },
         "TXDATA40": {
@@ -1692,9 +1707,6 @@
         "TXDATA49": {
             "direction": "IN"
         },
-        "TXDATA5": {
-            "direction": "IN"
-        },
         "TXDATA50": {
             "direction": "IN"
         },
@@ -1725,9 +1737,6 @@
         "TXDATA59": {
             "direction": "IN"
         },
-        "TXDATA6": {
-            "direction": "IN"
-        },
         "TXDATA60": {
             "direction": "IN"
         },
@@ -1738,15 +1747,6 @@
             "direction": "IN"
         },
         "TXDATA63": {
-            "direction": "IN"
-        },
-        "TXDATA7": {
-            "direction": "IN"
-        },
-        "TXDATA8": {
-            "direction": "IN"
-        },
-        "TXDATA9": {
             "direction": "IN"
         },
         "TXDEEMPH": {

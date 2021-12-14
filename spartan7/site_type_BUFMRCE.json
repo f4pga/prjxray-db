@@ -1,0 +1,24 @@
+{
+    "site_pins": {
+        "CE": {
+            "direction": "IN"
+        },
+        "I": {
+            "direction": "IN"
+        },
+        "O": {
+            "direction": "OUT"
+        }
+    },
+    "site_pips": {
+        "CEINV:CE": {
+            "from_pin": "CE",
+            "to_pin": "OUT"
+        },
+        "CEINV:CE_B": {
+            "from_pin": "CE_B",
+            "to_pin": "OUT"
+        }
+    },
+    "type": "BUFMRCE"
+}

@@ -1,0 +1,1634 @@
+{
+    "CFGAERECRCCHECKEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGAERECRCGENEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGAERINTERRUPTMSGNUM": {
+        "direction": "input",
+        "width": 5
+    },
+    "CFGAERROOTERRCORRERRRECEIVED": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGAERROOTERRCORRERRREPORTINGEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGAERROOTERRFATALERRRECEIVED": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGAERROOTERRFATALERRREPORTINGEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGAERROOTERRNONFATALERRRECEIVED": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGAERROOTERRNONFATALERRREPORTINGEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGBRIDGESERREN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGCOMMANDBUSMASTERENABLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGCOMMANDINTERRUPTDISABLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGCOMMANDIOENABLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGCOMMANDMEMENABLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGCOMMANDSERREN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROL2ARIFORWARDEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROL2ATOMICEGRESSBLOCK": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROL2ATOMICREQUESTEREN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROL2CPLTIMEOUTDIS": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROL2CPLTIMEOUTVAL": {
+        "direction": "output",
+        "width": 4
+    },
+    "CFGDEVCONTROL2IDOCPLEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROL2IDOREQEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROL2LTREN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROL2TLPPREFIXBLOCK": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROLAUXPOWEREN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROLCORRERRREPORTINGEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROLENABLERO": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROLEXTTAGEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROLFATALERRREPORTINGEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROLMAXPAYLOAD": {
+        "direction": "output",
+        "width": 3
+    },
+    "CFGDEVCONTROLMAXREADREQ": {
+        "direction": "output",
+        "width": 3
+    },
+    "CFGDEVCONTROLNONFATALREPORTINGEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROLNOSNOOPEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROLPHANTOMEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVCONTROLURERRREPORTINGEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVID": {
+        "direction": "input",
+        "width": 16
+    },
+    "CFGDEVSTATUSCORRERRDETECTED": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVSTATUSFATALERRDETECTED": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVSTATUSNONFATALERRDETECTED": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDEVSTATUSURDETECTED": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGDSBUSNUMBER": {
+        "direction": "input",
+        "width": 8
+    },
+    "CFGDSDEVICENUMBER": {
+        "direction": "input",
+        "width": 5
+    },
+    "CFGDSFUNCTIONNUMBER": {
+        "direction": "input",
+        "width": 3
+    },
+    "CFGDSN": {
+        "direction": "input",
+        "width": 64
+    },
+    "CFGERRACSN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRAERHEADERLOG": {
+        "direction": "input",
+        "width": 128
+    },
+    "CFGERRAERHEADERLOGSETN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGERRATOMICEGRESSBLOCKEDN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRCORN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRCPLABORTN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRCPLRDYN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGERRCPLTIMEOUTN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRCPLUNEXPECTN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRECRCN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRINTERNALCORN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRINTERNALUNCORN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRLOCKEDN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRMALFORMEDN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRMCBLOCKEDN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRNORECOVERYN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRPOISONEDN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRPOSTEDN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGERRTLPCPLHEADER": {
+        "direction": "input",
+        "width": 48
+    },
+    "CFGERRURN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGFORCECOMMONCLOCKOFF": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGFORCEEXTENDEDSYNCON": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGFORCEMPS": {
+        "direction": "input",
+        "width": 3
+    },
+    "CFGINTERRUPTASSERTN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGINTERRUPTDI": {
+        "direction": "input",
+        "width": 8
+    },
+    "CFGINTERRUPTDO": {
+        "direction": "output",
+        "width": 8
+    },
+    "CFGINTERRUPTMMENABLE": {
+        "direction": "output",
+        "width": 3
+    },
+    "CFGINTERRUPTMSIENABLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGINTERRUPTMSIXENABLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGINTERRUPTMSIXFM": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGINTERRUPTN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGINTERRUPTRDYN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGINTERRUPTSTATN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGLINKCONTROLASPMCONTROL": {
+        "direction": "output",
+        "width": 2
+    },
+    "CFGLINKCONTROLAUTOBANDWIDTHINTEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKCONTROLBANDWIDTHINTEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKCONTROLCLOCKPMEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKCONTROLCOMMONCLOCK": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKCONTROLEXTENDEDSYNC": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKCONTROLHWAUTOWIDTHDIS": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKCONTROLLINKDISABLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKCONTROLRCB": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKCONTROLRETRAINLINK": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKSTATUSAUTOBANDWIDTHSTATUS": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKSTATUSBANDWIDTHSTATUS": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKSTATUSCURRENTSPEED": {
+        "direction": "output",
+        "width": 2
+    },
+    "CFGLINKSTATUSDLLACTIVE": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKSTATUSLINKTRAINING": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGLINKSTATUSNEGOTIATEDWIDTH": {
+        "direction": "output",
+        "width": 4
+    },
+    "CFGMGMTBYTEENN": {
+        "direction": "input",
+        "width": 4
+    },
+    "CFGMGMTDI": {
+        "direction": "input",
+        "width": 32
+    },
+    "CFGMGMTDO": {
+        "direction": "output",
+        "width": 32
+    },
+    "CFGMGMTDWADDR": {
+        "direction": "input",
+        "width": 10
+    },
+    "CFGMGMTRDENN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGMGMTRDWRDONEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMGMTWRENN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGMGMTWRREADONLYN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGMGMTWRRW1CASRWN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGMSGDATA": {
+        "direction": "output",
+        "width": 16
+    },
+    "CFGMSGRECEIVED": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDASSERTINTA": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDASSERTINTB": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDASSERTINTC": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDASSERTINTD": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDDEASSERTINTA": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDDEASSERTINTB": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDDEASSERTINTC": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDDEASSERTINTD": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDERRCOR": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDERRFATAL": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDERRNONFATAL": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDPMASNAK": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDPMETO": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDPMETOACK": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDPMPME": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDSETSLOTPOWERLIMIT": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGMSGRECEIVEDUNLOCK": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGPCIECAPINTERRUPTMSGNUM": {
+        "direction": "input",
+        "width": 5
+    },
+    "CFGPCIELINKSTATE": {
+        "direction": "output",
+        "width": 3
+    },
+    "CFGPMCSRPMEEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGPMCSRPMESTATUS": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGPMCSRPOWERSTATE": {
+        "direction": "output",
+        "width": 2
+    },
+    "CFGPMFORCESTATE": {
+        "direction": "input",
+        "width": 2
+    },
+    "CFGPMFORCESTATEENN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGPMHALTASPML0SN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGPMHALTASPML1N": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGPMRCVASREQL1N": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGPMRCVENTERL1N": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGPMRCVENTERL23N": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGPMRCVREQACKN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGPMSENDPMETON": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGPMTURNOFFOKN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGPMWAKEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGPORTNUMBER": {
+        "direction": "input",
+        "width": 8
+    },
+    "CFGREVID": {
+        "direction": "input",
+        "width": 8
+    },
+    "CFGROOTCONTROLPMEINTEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGROOTCONTROLSYSERRCORRERREN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGROOTCONTROLSYSERRFATALERREN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGROOTCONTROLSYSERRNONFATALERREN": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGSLOTCONTROLELECTROMECHILCTLPULSE": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGSUBSYSID": {
+        "direction": "input",
+        "width": 16
+    },
+    "CFGSUBSYSVENDID": {
+        "direction": "input",
+        "width": 16
+    },
+    "CFGTRANSACTION": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGTRANSACTIONADDR": {
+        "direction": "output",
+        "width": 7
+    },
+    "CFGTRANSACTIONTYPE": {
+        "direction": "output",
+        "width": 1
+    },
+    "CFGTRNPENDINGN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CFGVCTCVCMAP": {
+        "direction": "output",
+        "width": 7
+    },
+    "CFGVENDID": {
+        "direction": "input",
+        "width": 16
+    },
+    "CMRSTN": {
+        "direction": "input",
+        "width": 1
+    },
+    "CMSTICKYRSTN": {
+        "direction": "input",
+        "width": 1
+    },
+    "DBGMODE": {
+        "direction": "input",
+        "width": 2
+    },
+    "DBGSCLRA": {
+        "direction": "output",
+        "width": 1
+    },
+    "DBGSCLRB": {
+        "direction": "output",
+        "width": 1
+    },
+    "DBGSCLRC": {
+        "direction": "output",
+        "width": 1
+    },
+    "DBGSCLRD": {
+        "direction": "output",
+        "width": 1
+    },
+    "DBGSCLRE": {
+        "direction": "output",
+        "width": 1
+    },
+    "DBGSCLRF": {
+        "direction": "output",
+        "width": 1
+    },
+    "DBGSCLRG": {
+        "direction": "output",
+        "width": 1
+    },
+    "DBGSCLRH": {
+        "direction": "output",
+        "width": 1
+    },
+    "DBGSCLRI": {
+        "direction": "output",
+        "width": 1
+    },
+    "DBGSCLRJ": {
+        "direction": "output",
+        "width": 1
+    },
+    "DBGSCLRK": {
+        "direction": "output",
+        "width": 1
+    },
+    "DBGSUBMODE": {
+        "direction": "input",
+        "width": 1
+    },
+    "DBGVECA": {
+        "direction": "output",
+        "width": 64
+    },
+    "DBGVECB": {
+        "direction": "output",
+        "width": 64
+    },
+    "DBGVECC": {
+        "direction": "output",
+        "width": 12
+    },
+    "DLRSTN": {
+        "direction": "input",
+        "width": 1
+    },
+    "DRPADDR": {
+        "direction": "input",
+        "width": 9
+    },
+    "DRPCLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "DRPDI": {
+        "direction": "input",
+        "width": 16
+    },
+    "DRPDO": {
+        "direction": "output",
+        "width": 16
+    },
+    "DRPEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "DRPRDY": {
+        "direction": "output",
+        "width": 1
+    },
+    "DRPWE": {
+        "direction": "input",
+        "width": 1
+    },
+    "FUNCLVLRSTN": {
+        "direction": "input",
+        "width": 1
+    },
+    "LL2BADDLLPERR": {
+        "direction": "output",
+        "width": 1
+    },
+    "LL2BADTLPERR": {
+        "direction": "output",
+        "width": 1
+    },
+    "LL2LINKSTATUS": {
+        "direction": "output",
+        "width": 5
+    },
+    "LL2PROTOCOLERR": {
+        "direction": "output",
+        "width": 1
+    },
+    "LL2RECEIVERERR": {
+        "direction": "output",
+        "width": 1
+    },
+    "LL2REPLAYROERR": {
+        "direction": "output",
+        "width": 1
+    },
+    "LL2REPLAYTOERR": {
+        "direction": "output",
+        "width": 1
+    },
+    "LL2SENDASREQL1": {
+        "direction": "input",
+        "width": 1
+    },
+    "LL2SENDENTERL1": {
+        "direction": "input",
+        "width": 1
+    },
+    "LL2SENDENTERL23": {
+        "direction": "input",
+        "width": 1
+    },
+    "LL2SENDPMACK": {
+        "direction": "input",
+        "width": 1
+    },
+    "LL2SUSPENDNOW": {
+        "direction": "input",
+        "width": 1
+    },
+    "LL2SUSPENDOK": {
+        "direction": "output",
+        "width": 1
+    },
+    "LL2TFCINIT1SEQ": {
+        "direction": "output",
+        "width": 1
+    },
+    "LL2TFCINIT2SEQ": {
+        "direction": "output",
+        "width": 1
+    },
+    "LL2TLPRCV": {
+        "direction": "input",
+        "width": 1
+    },
+    "LL2TXIDLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "LNKCLKEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "MIMRXRADDR": {
+        "direction": "output",
+        "width": 13
+    },
+    "MIMRXRDATA": {
+        "direction": "input",
+        "width": 68
+    },
+    "MIMRXREN": {
+        "direction": "output",
+        "width": 1
+    },
+    "MIMRXWADDR": {
+        "direction": "output",
+        "width": 13
+    },
+    "MIMRXWDATA": {
+        "direction": "output",
+        "width": 68
+    },
+    "MIMRXWEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "MIMTXRADDR": {
+        "direction": "output",
+        "width": 13
+    },
+    "MIMTXRDATA": {
+        "direction": "input",
+        "width": 69
+    },
+    "MIMTXREN": {
+        "direction": "output",
+        "width": 1
+    },
+    "MIMTXWADDR": {
+        "direction": "output",
+        "width": 13
+    },
+    "MIMTXWDATA": {
+        "direction": "output",
+        "width": 69
+    },
+    "MIMTXWEN": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPECLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "PIPERX0CHANISALIGNED": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX0CHARISK": {
+        "direction": "input",
+        "width": 2
+    },
+    "PIPERX0DATA": {
+        "direction": "input",
+        "width": 16
+    },
+    "PIPERX0ELECIDLE": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX0PHYSTATUS": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX0POLARITY": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPERX0STATUS": {
+        "direction": "input",
+        "width": 3
+    },
+    "PIPERX0VALID": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX1CHANISALIGNED": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX1CHARISK": {
+        "direction": "input",
+        "width": 2
+    },
+    "PIPERX1DATA": {
+        "direction": "input",
+        "width": 16
+    },
+    "PIPERX1ELECIDLE": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX1PHYSTATUS": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX1POLARITY": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPERX1STATUS": {
+        "direction": "input",
+        "width": 3
+    },
+    "PIPERX1VALID": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX2CHANISALIGNED": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX2CHARISK": {
+        "direction": "input",
+        "width": 2
+    },
+    "PIPERX2DATA": {
+        "direction": "input",
+        "width": 16
+    },
+    "PIPERX2ELECIDLE": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX2PHYSTATUS": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX2POLARITY": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPERX2STATUS": {
+        "direction": "input",
+        "width": 3
+    },
+    "PIPERX2VALID": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX3CHANISALIGNED": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX3CHARISK": {
+        "direction": "input",
+        "width": 2
+    },
+    "PIPERX3DATA": {
+        "direction": "input",
+        "width": 16
+    },
+    "PIPERX3ELECIDLE": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX3PHYSTATUS": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX3POLARITY": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPERX3STATUS": {
+        "direction": "input",
+        "width": 3
+    },
+    "PIPERX3VALID": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX4CHANISALIGNED": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX4CHARISK": {
+        "direction": "input",
+        "width": 2
+    },
+    "PIPERX4DATA": {
+        "direction": "input",
+        "width": 16
+    },
+    "PIPERX4ELECIDLE": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX4PHYSTATUS": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX4POLARITY": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPERX4STATUS": {
+        "direction": "input",
+        "width": 3
+    },
+    "PIPERX4VALID": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX5CHANISALIGNED": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX5CHARISK": {
+        "direction": "input",
+        "width": 2
+    },
+    "PIPERX5DATA": {
+        "direction": "input",
+        "width": 16
+    },
+    "PIPERX5ELECIDLE": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX5PHYSTATUS": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX5POLARITY": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPERX5STATUS": {
+        "direction": "input",
+        "width": 3
+    },
+    "PIPERX5VALID": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX6CHANISALIGNED": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX6CHARISK": {
+        "direction": "input",
+        "width": 2
+    },
+    "PIPERX6DATA": {
+        "direction": "input",
+        "width": 16
+    },
+    "PIPERX6ELECIDLE": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX6PHYSTATUS": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX6POLARITY": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPERX6STATUS": {
+        "direction": "input",
+        "width": 3
+    },
+    "PIPERX6VALID": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX7CHANISALIGNED": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX7CHARISK": {
+        "direction": "input",
+        "width": 2
+    },
+    "PIPERX7DATA": {
+        "direction": "input",
+        "width": 16
+    },
+    "PIPERX7ELECIDLE": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX7PHYSTATUS": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPERX7POLARITY": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPERX7STATUS": {
+        "direction": "input",
+        "width": 3
+    },
+    "PIPERX7VALID": {
+        "direction": "input",
+        "width": 1
+    },
+    "PIPETX0CHARISK": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX0COMPLIANCE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX0DATA": {
+        "direction": "output",
+        "width": 16
+    },
+    "PIPETX0ELECIDLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX0POWERDOWN": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX1CHARISK": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX1COMPLIANCE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX1DATA": {
+        "direction": "output",
+        "width": 16
+    },
+    "PIPETX1ELECIDLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX1POWERDOWN": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX2CHARISK": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX2COMPLIANCE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX2DATA": {
+        "direction": "output",
+        "width": 16
+    },
+    "PIPETX2ELECIDLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX2POWERDOWN": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX3CHARISK": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX3COMPLIANCE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX3DATA": {
+        "direction": "output",
+        "width": 16
+    },
+    "PIPETX3ELECIDLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX3POWERDOWN": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX4CHARISK": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX4COMPLIANCE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX4DATA": {
+        "direction": "output",
+        "width": 16
+    },
+    "PIPETX4ELECIDLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX4POWERDOWN": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX5CHARISK": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX5COMPLIANCE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX5DATA": {
+        "direction": "output",
+        "width": 16
+    },
+    "PIPETX5ELECIDLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX5POWERDOWN": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX6CHARISK": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX6COMPLIANCE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX6DATA": {
+        "direction": "output",
+        "width": 16
+    },
+    "PIPETX6ELECIDLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX6POWERDOWN": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX7CHARISK": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETX7COMPLIANCE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX7DATA": {
+        "direction": "output",
+        "width": 16
+    },
+    "PIPETX7ELECIDLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETX7POWERDOWN": {
+        "direction": "output",
+        "width": 2
+    },
+    "PIPETXDEEMPH": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETXMARGIN": {
+        "direction": "output",
+        "width": 3
+    },
+    "PIPETXRATE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETXRCVRDET": {
+        "direction": "output",
+        "width": 1
+    },
+    "PIPETXRESET": {
+        "direction": "output",
+        "width": 1
+    },
+    "PL2DIRECTEDLSTATE": {
+        "direction": "input",
+        "width": 5
+    },
+    "PL2L0REQ": {
+        "direction": "output",
+        "width": 1
+    },
+    "PL2LINKUP": {
+        "direction": "output",
+        "width": 1
+    },
+    "PL2RECEIVERERR": {
+        "direction": "output",
+        "width": 1
+    },
+    "PL2RECOVERY": {
+        "direction": "output",
+        "width": 1
+    },
+    "PL2RXELECIDLE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PL2RXPMSTATE": {
+        "direction": "output",
+        "width": 2
+    },
+    "PL2SUSPENDOK": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLDBGMODE": {
+        "direction": "input",
+        "width": 3
+    },
+    "PLDBGVEC": {
+        "direction": "output",
+        "width": 12
+    },
+    "PLDIRECTEDCHANGEDONE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLDIRECTEDLINKAUTON": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLDIRECTEDLINKCHANGE": {
+        "direction": "input",
+        "width": 2
+    },
+    "PLDIRECTEDLINKSPEED": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLDIRECTEDLINKWIDTH": {
+        "direction": "input",
+        "width": 2
+    },
+    "PLDIRECTEDLTSSMNEW": {
+        "direction": "input",
+        "width": 6
+    },
+    "PLDIRECTEDLTSSMNEWVLD": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLDIRECTEDLTSSMSTALL": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLDOWNSTREAMDEEMPHSOURCE": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLINITIALLINKWIDTH": {
+        "direction": "output",
+        "width": 3
+    },
+    "PLLANEREVERSALMODE": {
+        "direction": "output",
+        "width": 2
+    },
+    "PLLINKGEN2CAP": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLLINKPARTNERGEN2SUPPORTED": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLLINKUPCFGCAP": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLLTSSMSTATE": {
+        "direction": "output",
+        "width": 6
+    },
+    "PLPHYLNKUPN": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLRECEIVEDHOTRST": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLRSTN": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLRXPMSTATE": {
+        "direction": "output",
+        "width": 2
+    },
+    "PLSELLNKRATE": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLSELLNKWIDTH": {
+        "direction": "output",
+        "width": 2
+    },
+    "PLTRANSMITHOTRST": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLTXPMSTATE": {
+        "direction": "output",
+        "width": 3
+    },
+    "PLUPSTREAMPREFERDEEMPH": {
+        "direction": "input",
+        "width": 1
+    },
+    "RECEIVEDFUNCLVLRSTN": {
+        "direction": "output",
+        "width": 1
+    },
+    "SYSRSTN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TL2ASPMSUSPENDCREDITCHECK": {
+        "direction": "input",
+        "width": 1
+    },
+    "TL2ASPMSUSPENDCREDITCHECKOK": {
+        "direction": "output",
+        "width": 1
+    },
+    "TL2ASPMSUSPENDREQ": {
+        "direction": "output",
+        "width": 1
+    },
+    "TL2ERRFCPE": {
+        "direction": "output",
+        "width": 1
+    },
+    "TL2ERRHDR": {
+        "direction": "output",
+        "width": 64
+    },
+    "TL2ERRMALFORMED": {
+        "direction": "output",
+        "width": 1
+    },
+    "TL2ERRRXOVERFLOW": {
+        "direction": "output",
+        "width": 1
+    },
+    "TL2PPMSUSPENDOK": {
+        "direction": "output",
+        "width": 1
+    },
+    "TL2PPMSUSPENDREQ": {
+        "direction": "input",
+        "width": 1
+    },
+    "TLRSTN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNFCCPLD": {
+        "direction": "output",
+        "width": 12
+    },
+    "TRNFCCPLH": {
+        "direction": "output",
+        "width": 8
+    },
+    "TRNFCNPD": {
+        "direction": "output",
+        "width": 12
+    },
+    "TRNFCNPH": {
+        "direction": "output",
+        "width": 8
+    },
+    "TRNFCPD": {
+        "direction": "output",
+        "width": 12
+    },
+    "TRNFCPH": {
+        "direction": "output",
+        "width": 8
+    },
+    "TRNFCSEL": {
+        "direction": "input",
+        "width": 3
+    },
+    "TRNLNKUP": {
+        "direction": "output",
+        "width": 1
+    },
+    "TRNRBARHIT": {
+        "direction": "output",
+        "width": 8
+    },
+    "TRNRD": {
+        "direction": "output",
+        "width": 128
+    },
+    "TRNRDLLPDATA": {
+        "direction": "output",
+        "width": 64
+    },
+    "TRNRDLLPSRCRDY": {
+        "direction": "output",
+        "width": 2
+    },
+    "TRNRDSTRDY": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNRECRCERR": {
+        "direction": "output",
+        "width": 1
+    },
+    "TRNREOF": {
+        "direction": "output",
+        "width": 1
+    },
+    "TRNRERRFWD": {
+        "direction": "output",
+        "width": 1
+    },
+    "TRNRFCPRET": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNRNPOK": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNRNPREQ": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNRREM": {
+        "direction": "output",
+        "width": 2
+    },
+    "TRNRSOF": {
+        "direction": "output",
+        "width": 1
+    },
+    "TRNRSRCDSC": {
+        "direction": "output",
+        "width": 1
+    },
+    "TRNRSRCRDY": {
+        "direction": "output",
+        "width": 1
+    },
+    "TRNTBUFAV": {
+        "direction": "output",
+        "width": 6
+    },
+    "TRNTCFGGNT": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNTCFGREQ": {
+        "direction": "output",
+        "width": 1
+    },
+    "TRNTD": {
+        "direction": "input",
+        "width": 128
+    },
+    "TRNTDLLPDATA": {
+        "direction": "input",
+        "width": 32
+    },
+    "TRNTDLLPDSTRDY": {
+        "direction": "output",
+        "width": 1
+    },
+    "TRNTDLLPSRCRDY": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNTDSTRDY": {
+        "direction": "output",
+        "width": 4
+    },
+    "TRNTECRCGEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNTEOF": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNTERRDROP": {
+        "direction": "output",
+        "width": 1
+    },
+    "TRNTERRFWD": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNTREM": {
+        "direction": "input",
+        "width": 2
+    },
+    "TRNTSOF": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNTSRCDSC": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNTSRCRDY": {
+        "direction": "input",
+        "width": 1
+    },
+    "TRNTSTR": {
+        "direction": "input",
+        "width": 1
+    },
+    "USERCLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "USERCLK2": {
+        "direction": "clock",
+        "width": 1
+    },
+    "USERRSTN": {
+        "direction": "output",
+        "width": 1
+    }
+}

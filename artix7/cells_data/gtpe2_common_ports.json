@@ -1,0 +1,186 @@
+{
+    "BGBYPASSB": {
+        "direction": "input",
+        "width": 1
+    },
+    "BGMONITORENB": {
+        "direction": "input",
+        "width": 1
+    },
+    "BGPDB": {
+        "direction": "input",
+        "width": 1
+    },
+    "BGRCALOVRD": {
+        "direction": "input",
+        "width": 5
+    },
+    "BGRCALOVRDENB": {
+        "direction": "input",
+        "width": 1
+    },
+    "DMONITOROUT": {
+        "direction": "output",
+        "width": 8
+    },
+    "DRPADDR": {
+        "direction": "input",
+        "width": 8
+    },
+    "DRPCLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "DRPDI": {
+        "direction": "input",
+        "width": 16
+    },
+    "DRPDO": {
+        "direction": "output",
+        "width": 16
+    },
+    "DRPEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "DRPRDY": {
+        "direction": "output",
+        "width": 1
+    },
+    "DRPWE": {
+        "direction": "input",
+        "width": 1
+    },
+    "GTGREFCLK0": {
+        "direction": "input",
+        "width": 1
+    },
+    "GTGREFCLK1": {
+        "direction": "input",
+        "width": 1
+    },
+    "GTREFCLK0": {
+        "direction": "input",
+        "width": 1
+    },
+    "GTREFCLK1": {
+        "direction": "input",
+        "width": 1
+    },
+    "GTWESTREFCLK0": {
+        "direction": "input",
+        "width": 1
+    },
+    "GTWESTREFCLK1": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLL0FBCLKLOST": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLL0LOCK": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLL0LOCKDETCLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "PLL0LOCKEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLL0OUTCLK": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLL0OUTREFCLK": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLL0PD": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLL0REFCLKLOST": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLL0REFCLKSEL": {
+        "direction": "input",
+        "width": 3
+    },
+    "PLL0RESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLL1FBCLKLOST": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLL1LOCK": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLL1LOCKDETCLK": {
+        "direction": "clock",
+        "width": 1
+    },
+    "PLL1LOCKEN": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLL1OUTCLK": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLL1OUTREFCLK": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLL1PD": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLL1REFCLKLOST": {
+        "direction": "output",
+        "width": 1
+    },
+    "PLL1REFCLKSEL": {
+        "direction": "input",
+        "width": 3
+    },
+    "PLL1RESET": {
+        "direction": "input",
+        "width": 1
+    },
+    "PLLRSVD1": {
+        "direction": "input",
+        "width": 16
+    },
+    "PLLRSVD2": {
+        "direction": "input",
+        "width": 5
+    },
+    "PMARSVD": {
+        "direction": "input",
+        "width": 8
+    },
+    "PMARSVDOUT": {
+        "direction": "output",
+        "width": 16
+    },
+    "RCALENB": {
+        "direction": "input",
+        "width": 1
+    },
+    "REFCLKOUTMONITOR0": {
+        "direction": "output",
+        "width": 1
+    },
+    "REFCLKOUTMONITOR1": {
+        "direction": "output",
+        "width": 1
+    }
+}

@@ -1,0 +1,1449 @@
+(DELAYFILE
+    (SDFVERSION "3.0")
+    (TIMESCALE 1ns)
+
+    (CELL
+        (CELLTYPE "CARRY4")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CIN CO0 (0.073::0.097)(0.193::0.254))
+                (IOPATH CIN CO1 (0.045::0.056)(0.127::0.157))
+                (IOPATH CIN CO2 (0.066::0.082)(0.185::0.229))
+                (IOPATH CIN CO3 (0.04::0.05)(0.094::0.117))
+                (IOPATH CIN O0 (0.053::0.079)(0.148::0.219))
+                (IOPATH CIN O1 (0.09::0.112)(0.26::0.323))
+                (IOPATH CIN O2 (0.066::0.082)(0.192::0.239))
+                (IOPATH CIN O3 (0.092::0.114)(0.254::0.315))
+                (IOPATH CYINIT CO0 (0.172::0.214)(0.453::0.561))
+                (IOPATH CYINIT CO1 (0.15::0.187)(0.412::0.511))
+                (IOPATH CYINIT CO2 (0.175::0.217)(0.49::0.608))
+                (IOPATH CYINIT CO3 (0.179::0.223)(0.48::0.595))
+                (IOPATH CYINIT O0 (0.158::0.197)(0.411::0.51))
+                (IOPATH CYINIT O1 (0.185::0.23)(0.508::0.63))
+                (IOPATH CYINIT O2 (0.173::0.215)(0.485::0.602))
+                (IOPATH CYINIT O3 (0.197::0.245)(0.533::0.662))
+                (IOPATH S0 CO0 (0.087::0.115)(0.258::0.34))
+                (IOPATH S0 CO1 (0.118::0.156)(0.33::0.434))
+                (IOPATH S0 CO2 (0.144::0.19)(0.391::0.514))
+                (IOPATH S0 CO3 (0.135::0.179)(0.372::0.489))
+                (IOPATH S0 O0 (0.06::0.079)(0.173::0.228))
+                (IOPATH S0 O1 (0.095::0.126)(0.306::0.403))
+                (IOPATH S0 O2 (0.135::0.178)(0.395::0.52))
+                (IOPATH S0 O3 (0.155::0.205)(0.444::0.584))
+                (IOPATH S1 CO1 (0.126::0.166)(0.359::0.472))
+                (IOPATH S1 CO2 (0.153::0.202)(0.421::0.554))
+                (IOPATH S1 CO3 (0.143::0.189)(0.39::0.513))
+                (IOPATH S1 O1 (0.057::0.075)(0.16::0.21))
+                (IOPATH S1 O2 (0.142::0.188)(0.424::0.558))
+                (IOPATH S1 O3 (0.163::0.215)(0.474::0.623))
+                (IOPATH S2 CO2 (0.072::0.096)(0.225::0.296))
+                (IOPATH S2 CO3 (0.102::0.134)(0.272::0.358))
+                (IOPATH S2 O2 (0.056::0.074)(0.173::0.228))
+                (IOPATH S2 O3 (0.092::0.122)(0.251::0.33))
+                (IOPATH S3 CO3 (0.1::0.132)(0.269::0.354))
+                (IOPATH S3 O3 (0.055::0.073)(0.177::0.233))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_AX")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI0 CO0 (0.117::0.146)(0.317::0.393))
+                (IOPATH DI0 CO1 (0.141::0.176)(0.394::0.488))
+                (IOPATH DI0 CO2 (0.167::0.208)(0.454::0.564))
+                (IOPATH DI0 CO3 (0.169::0.21)(0.444::0.55))
+                (IOPATH DI0 O1 (0.129::0.161)(0.34::0.422))
+                (IOPATH DI0 O2 (0.164::0.204)(0.467::0.579))
+                (IOPATH DI0 O3 (0.187::0.233)(0.518::0.642))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_AX_LBOTH")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI0 CO0 (0.127::0.158)(0.353::0.438))
+                (IOPATH DI0 CO1 (0.149::0.185)(0.412::0.511))
+                (IOPATH DI0 CO2 (0.177::0.22)(0.475::0.59))
+                (IOPATH DI0 O1 (0.136::0.17)(0.351::0.436))
+                (IOPATH DI0 O2 (0.168::0.209)(0.481::0.596))
+                (IOPATH DI0 O3 (0.191::0.238)(0.532::0.659))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_AX_LFF")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI0 CO0 (0.117::0.146)(0.311::0.386))
+                (IOPATH DI0 CO1 (0.141::0.176)(0.391::0.485))
+                (IOPATH DI0 CO2 (0.165::0.206)(0.452::0.56))
+                (IOPATH DI0 O1 (0.129::0.16)(0.339::0.421))
+                (IOPATH DI0 O2 (0.165::0.205)(0.467::0.579))
+                (IOPATH DI0 O3 (0.186::0.232)(0.518::0.642))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_BX")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI1 CO1 (0.125::0.156)(0.367::0.456))
+                (IOPATH DI1 CO2 (0.151::0.188)(0.43::0.533))
+                (IOPATH DI1 CO3 (0.15::0.187)(0.419::0.52))
+                (IOPATH DI1 O2 (0.149::0.185)(0.441::0.547))
+                (IOPATH DI1 O3 (0.17::0.212)(0.492::0.61))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_BX_LBOTH")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI1 CO1 (0.134::0.166)(0.387::0.48))
+                (IOPATH DI1 CO2 (0.161::0.201)(0.451::0.559))
+                (IOPATH DI1 O2 (0.151::0.188)(0.456::0.566))
+                (IOPATH DI1 O3 (0.173::0.215)(0.507::0.629))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_BX_LFF")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI1 CO1 (0.124::0.155)(0.364::0.451))
+                (IOPATH DI1 CO2 (0.15::0.187)(0.426::0.529))
+                (IOPATH DI1 O2 (0.149::0.185)(0.44::0.546))
+                (IOPATH DI1 O3 (0.17::0.212)(0.492::0.61))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_CX")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI2 CO2 (0.101::0.126)(0.295::0.366))
+                (IOPATH DI2 CO3 (0.119::0.148)(0.326::0.404))
+                (IOPATH DI2 O3 (0.129::0.161)(0.36::0.447))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_CX_LBOTH")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI2 CO2 (0.108::0.134)(0.315::0.391))
+                (IOPATH DI2 O3 (0.132::0.164)(0.373::0.463))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_CX_LFF")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI2 CO2 (0.101::0.126)(0.293::0.363))
+                (IOPATH DI2 O3 (0.129::0.161)(0.359::0.446))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_DX")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI3 CO3 (0.117::0.146)(0.319::0.396))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_LBOTH")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CIN CO0 (0.084::0.111)(0.214::0.281))
+                (IOPATH CIN CO1 (0.051::0.063)(0.144::0.179))
+                (IOPATH CIN CO2 (0.075::0.094)(0.203::0.252))
+                (IOPATH CIN O0 (0.057::0.084)(0.157::0.232))
+                (IOPATH CIN O1 (0.097::0.121)(0.272::0.337))
+                (IOPATH CIN O2 (0.072::0.089)(0.206::0.256))
+                (IOPATH CIN O3 (0.094::0.116)(0.267::0.331))
+                (IOPATH CYINIT CO0 (0.184::0.229)(0.476::0.591))
+                (IOPATH CYINIT CO1 (0.156::0.194)(0.44::0.546))
+                (IOPATH CYINIT CO2 (0.185::0.23)(0.51::0.632))
+                (IOPATH CYINIT O0 (0.161::0.201)(0.419::0.52))
+                (IOPATH CYINIT O1 (0.191::0.238)(0.519::0.644))
+                (IOPATH CYINIT O2 (0.178::0.222)(0.495::0.614))
+                (IOPATH CYINIT O3 (0.201::0.251)(0.547::0.678))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_LFF")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CIN CO0 (0.073::0.097)(0.19::0.25))
+                (IOPATH CIN CO1 (0.045::0.056)(0.125::0.155))
+                (IOPATH CIN CO2 (0.064::0.08)(0.184::0.228))
+                (IOPATH CIN O0 (0.053::0.079)(0.147::0.218))
+                (IOPATH CIN O1 (0.089::0.111)(0.26::0.323))
+                (IOPATH CIN O2 (0.066::0.082)(0.192::0.239))
+                (IOPATH CIN O3 (0.091::0.113)(0.253::0.314))
+                (IOPATH CYINIT CO0 (0.172::0.214)(0.45::0.558))
+                (IOPATH CYINIT CO1 (0.15::0.187)(0.409::0.508))
+                (IOPATH CYINIT CO2 (0.173::0.215)(0.489::0.606))
+                (IOPATH CYINIT O0 (0.158::0.197)(0.41::0.509))
+                (IOPATH CYINIT O1 (0.184::0.229)(0.509::0.631))
+                (IOPATH CYINIT O2 (0.172::0.214)(0.482::0.598))
+                (IOPATH CYINIT O3 (0.196::0.244)(0.533::0.662))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "CARRY4_O5")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DI0 CO0 (0.084::0.111)(0.248::0.327))
+                (IOPATH DI0 CO1 (0.105::0.138)(0.306::0.403))
+                (IOPATH DI0 CO2 (0.131::0.174)(0.366::0.482))
+                (IOPATH DI0 CO3 (0.124::0.164)(0.338::0.445))
+                (IOPATH DI0 O1 (0.092::0.122)(0.247::0.325))
+                (IOPATH DI0 O2 (0.123::0.162)(0.371::0.488))
+                (IOPATH DI0 O3 (0.145::0.191)(0.418::0.55))
+                (IOPATH DI1 CO1 (0.091::0.121)(0.29::0.382))
+                (IOPATH DI1 CO2 (0.118::0.156)(0.352::0.463))
+                (IOPATH DI1 CO3 (0.108::0.142)(0.325::0.427))
+                (IOPATH DI1 O2 (0.108::0.142)(0.357::0.47))
+                (IOPATH DI1 O3 (0.13::0.172)(0.404::0.532))
+                (IOPATH DI2 CO2 (0.069::0.092)(0.222::0.292))
+                (IOPATH DI2 CO3 (0.08::0.105)(0.227::0.299))
+                (IOPATH DI2 O3 (0.092::0.122)(0.279::0.367))
+                (IOPATH DI3 CO3 (0.087::0.114)(0.232::0.305))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "FF_INIT")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK Q (0.102::0.127)(0.259::0.322))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD CE (posedge CLK) (-0.007::-0.005))
+                (HOLD DIN (posedge CLK) (0.194::0.241))
+                (SETUP CE (posedge CLK) (0.088::0.109))
+                (SETUP DIN (posedge CLK) (-0.074::-0.06))
+        )
+    )
+    (CELL
+        (CELLTYPE "FF_INIT_QH")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SR Q (0.184::0.229)(0.455::0.565))
+            )
+        )
+        (TIMINGCHECK
+                (RECOVERY SR (posedge CLK) (0.279::0.347))
+                (REMOVAL SR (posedge CLK) (-0.292::-0.238))
+        )
+    )
+    (CELL
+        (CELLTYPE "FF_INIT_QL")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SR Q (0.233::0.29)(0.648::0.804))
+            )
+        )
+        (TIMINGCHECK
+                (RECOVERY SR (posedge CLK) (0.314::0.389))
+                (REMOVAL SR (posedge CLK) (-0.285::-0.232))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5LRAM")
+        (INSTANCE SLICEM)
+        (TIMINGCHECK
+                (HOLD WA1 (posedge CLK) (0.728::0.538))
+                (HOLD WA2 (posedge CLK) (0.745::0.572))
+                (HOLD WA3 (posedge CLK) (0.579::0.46))
+                (HOLD WA4 (posedge CLK) (0.507::0.411))
+                (HOLD WA5 (posedge CLK) (0.332::0.314))
+                (HOLD WE (posedge CLK) (0.008::0.01))
+                (SETUP WA1 (posedge CLK) (0.184::0.066))
+                (SETUP WA2 (posedge CLK) (0.181::0.068))
+                (SETUP WA3 (posedge CLK) (0.214::0.147))
+                (SETUP WA4 (posedge CLK) (0.248::0.208))
+                (SETUP WA5 (posedge CLK) (0.236::0.245))
+                (SETUP WE (posedge CLK) (0.527::0.654))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5LRAM")
+        (INSTANCE SLICEM/A5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O5 (0.044::0.055)(0.121::0.15))
+                (IOPATH A2 O5 (0.044::0.055)(0.118::0.146))
+                (IOPATH A3 O5 (0.043::0.053)(0.12::0.148))
+                (IOPATH A4 O5 (0.046::0.057)(0.121::0.15))
+                (IOPATH A5 O5 (0.048::0.06)(0.093::0.116))
+                (IOPATH CLK O5 (0.446::0.555)(0.958::1.188))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.155::0.192))
+                (SETUP DI1 (posedge CLK) (0.231::0.287))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5LRAM")
+        (INSTANCE SLICEM/B5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O5 (0.045::0.056)(0.122::0.152))
+                (IOPATH A2 O5 (0.044::0.055)(0.122::0.152))
+                (IOPATH A3 O5 (0.043::0.053)(0.121::0.15))
+                (IOPATH A4 O5 (0.047::0.058)(0.121::0.15))
+                (IOPATH A5 O5 (0.048::0.06)(0.094::0.117))
+                (IOPATH CLK O5 (0.348::0.434)(0.957::1.187))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.154::0.191))
+                (SETUP DI1 (posedge CLK) (0.25::0.311))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5LRAM")
+        (INSTANCE SLICEM/C5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O5 (0.044::0.055)(0.123::0.153))
+                (IOPATH A2 O5 (0.045::0.056)(0.123::0.153))
+                (IOPATH A3 O5 (0.043::0.053)(0.123::0.153))
+                (IOPATH A4 O5 (0.049::0.061)(0.123::0.153))
+                (IOPATH A5 O5 (0.049::0.061)(0.094::0.117))
+                (IOPATH CLK O5 (0.344::0.428)(0.952::1.18))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.152::0.189))
+                (SETUP DI1 (posedge CLK) (0.243::0.301))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5LRAM")
+        (INSTANCE SLICEM/D5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O5 (0.047::0.058)(0.126::0.156))
+                (IOPATH A2 O5 (0.046::0.057)(0.127::0.157))
+                (IOPATH A3 O5 (0.044::0.055)(0.121::0.15))
+                (IOPATH A4 O5 (0.048::0.059)(0.12::0.149))
+                (IOPATH A5 O5 (0.049::0.061)(0.096::0.119))
+                (IOPATH CLK O5 (0.352::0.438)(0.96::1.19))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.153::0.19))
+                (SETUP DI1 (posedge CLK) (0.111::0.137))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5SHFREG")
+        (INSTANCE SLICEM)
+        (TIMINGCHECK
+                (HOLD WE (posedge CLK) (0.011::0.014))
+                (SETUP WE (posedge CLK) (0.514::0.638))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5SHFREG")
+        (INSTANCE SLICEM/A5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK O5 (0.442::0.55)(1.177::1.461))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.075::0.093))
+                (SETUP DI1 (posedge CLK) (0.137::0.17))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5SHFREG")
+        (INSTANCE SLICEM/B5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK O5 (0.439::0.547)(1.19::1.476))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.07::0.087))
+                (SETUP DI1 (posedge CLK) (0.126::0.156))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5SHFREG")
+        (INSTANCE SLICEM/C5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK O5 (0.442::0.55)(1.178::1.462))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.058::0.072))
+                (SETUP DI1 (posedge CLK) (0.117::0.145))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM5SHFREG")
+        (INSTANCE SLICEM/D5LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK O5 (0.441::0.549)(1.194::1.481))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.217::0.269))
+                (SETUP DI1 (posedge CLK) (-0.04::-0.033))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6LRAM")
+        (INSTANCE SLICEM)
+        (TIMINGCHECK
+                (HOLD WA1 (posedge CLK) (0.728::0.538))
+                (HOLD WA2 (posedge CLK) (0.745::0.572))
+                (HOLD WA3 (posedge CLK) (0.579::0.46))
+                (HOLD WA4 (posedge CLK) (0.507::0.411))
+                (HOLD WA5 (posedge CLK) (0.332::0.314))
+                (HOLD WA6 (posedge CLK) (0.213::0.244))
+                (HOLD WA7 (posedge CLK) (0.184::0.228))
+                (HOLD WA8 (posedge CLK) (0.199::0.247))
+                (HOLD WE (posedge CLK) (0.008::0.01))
+                (SETUP WA1 (posedge CLK) (0.184::0.066))
+                (SETUP WA2 (posedge CLK) (0.181::0.068))
+                (SETUP WA3 (posedge CLK) (0.214::0.147))
+                (SETUP WA4 (posedge CLK) (0.248::0.208))
+                (SETUP WA5 (posedge CLK) (0.236::0.245))
+                (SETUP WA6 (posedge CLK) (0.302::0.362))
+                (SETUP WA7 (posedge CLK) (0.496::0.616))
+                (SETUP WA8 (posedge CLK) (0.511::0.633))
+                (SETUP WE (posedge CLK) (0.527::0.654))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6LRAM")
+        (INSTANCE SLICEM/A6LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A2 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A3 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A4 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A5 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A6 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH CLK O6 (0.432::0.538)(0.93::1.153))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.155::0.192))
+                (HOLD DI2 (posedge CLK) (0.098::0.122))
+                (SETUP DI1 (posedge CLK) (0.366::0.453))
+                (SETUP DI2 (posedge CLK) (0.309::0.384))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6LRAM")
+        (INSTANCE SLICEM/B6LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A2 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A3 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A4 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A5 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A6 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH CLK O6 (0.342::0.425)(0.936::1.161))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.154::0.191))
+                (HOLD DI2 (posedge CLK) (0.107::0.133))
+                (SETUP DI1 (posedge CLK) (0.372::0.461))
+                (SETUP DI2 (posedge CLK) (0.286::0.354))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6LRAM")
+        (INSTANCE SLICEM/C6LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A2 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A3 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A4 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A5 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A6 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH CLK O6 (0.34::0.423)(0.933::1.158))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.152::0.189))
+                (HOLD DI2 (posedge CLK) (0.091::0.113))
+                (SETUP DI1 (posedge CLK) (0.368::0.457))
+                (SETUP DI2 (posedge CLK) (0.302::0.375))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6LRAM")
+        (INSTANCE SLICEM/D6LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A1 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A2 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A3 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A4 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A5 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH A6 O6 (0.045::0.056)(0.1::0.124))
+                (IOPATH CLK O6 (0.347::0.432)(0.938::1.163))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.153::0.19))
+                (HOLD DI2 (posedge CLK) (0.106::0.132))
+                (SETUP DI1 (posedge CLK) (0.25::0.31))
+                (SETUP DI2 (posedge CLK) (0.269::0.334))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6SHFREG")
+        (INSTANCE SLICEM)
+        (TIMINGCHECK
+                (HOLD WE (posedge CLK) (0.011::0.014))
+                (SETUP WE (posedge CLK) (0.514::0.638))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6SHFREG")
+        (INSTANCE SLICEM/A6LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK MC31 (0.332::0.414)(0.898::1.114))
+                (IOPATH CLK O6 (0.444::0.553)(1.186::1.472))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.075::0.093))
+                (HOLD DI2 (posedge CLK) (0.076::0.094))
+                (SETUP DI1 (posedge CLK) (0.137::0.17))
+                (SETUP DI2 (posedge CLK) (0.14::0.173))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6SHFREG")
+        (INSTANCE SLICEM/B6LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK MC31 (0.286::0.356)(0.789::0.979))
+                (IOPATH CLK O6 (0.438::0.545)(1.176::1.458))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.07::0.087))
+                (HOLD DI2 (posedge CLK) (0.089::0.11))
+                (SETUP DI1 (posedge CLK) (0.126::0.156))
+                (SETUP DI2 (posedge CLK) (0.143::0.178))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6SHFREG")
+        (INSTANCE SLICEM/C6LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK MC31 (0.285::0.355)(0.784::0.972))
+                (IOPATH CLK O6 (0.436::0.543)(1.169::1.45))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.058::0.072))
+                (HOLD DI2 (posedge CLK) (0.062::0.077))
+                (SETUP DI1 (posedge CLK) (0.117::0.145))
+                (SETUP DI2 (posedge CLK) (0.116::0.144))
+        )
+    )
+    (CELL
+        (CELLTYPE "LUT_OR_MEM6SHFREG")
+        (INSTANCE SLICEM/D6LUT)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK MC31 (0.286::0.357)(0.788::0.978))
+                (IOPATH CLK O6 (0.438::0.545)(1.174::1.456))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DI1 (posedge CLK) (0.217::0.269))
+                (HOLD DI2 (posedge CLK) (0.091::0.112))
+                (SETUP DI1 (posedge CLK) (-0.04::-0.033))
+                (SETUP DI2 (posedge CLK) (0.133::0.165))
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_FF")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK Q (0.118::0.147)(0.292::0.362))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD CE (posedge CLK) (-0.007::-0.005))
+                (HOLD DIN (posedge CLK) (0.211::0.262))
+                (SETUP CE (posedge CLK) (0.088::0.109))
+                (SETUP DIN (posedge CLK) (-0.074::-0.06))
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_FF_QH")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SR Q (0.197::0.245)(0.489::0.606))
+            )
+        )
+        (TIMINGCHECK
+                (RECOVERY SR (posedge CLK) (0.314::0.389))
+                (REMOVAL SR (posedge CLK) (-0.292::-0.238))
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_FF_QL")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SR Q (0.247::0.308)(0.689::0.855))
+            )
+        )
+        (TIMINGCHECK
+                (RECOVERY SR (posedge CLK) (0.279::0.347))
+                (REMOVAL SR (posedge CLK) (-0.285::-0.232))
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_LAT")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CE Q (0.129::0.161)(0.415::0.514))
+                (IOPATH CLK Q (0.132::0.164)(0.378::0.469))
+                (IOPATH D Q (0.075::0.094)(0.214::0.265))
+            )
+        )
+        (TIMINGCHECK
+                (HOLD DIN (posedge CLK) (0.211::0.262))
+                (SETUP DIN (posedge CLK) (-0.078::-0.064))
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_LAT_LOGIC_AND")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH D Q (0.104::0.129)(0.282::0.35))
+                (IOPATH SR Q (0.161::0.201)(0.645::0.8))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_LAT_LOGIC_OR")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH D Q (0.104::0.129)(0.282::0.35))
+                (IOPATH SR Q (0.161::0.201)(0.645::0.8))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_LAT_QH")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SR Q (0.161::0.201)(0.493::0.611))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "REG_INIT_LAT_QL")
+        (INSTANCE SLICEM)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH SR Q (0.198::0.246)(0.645::0.8))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/A)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut a (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/A5FF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut a5ff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT ax a5ff (0.094::0.118)(0.163::0.202))
+                (INTERCONNECT ce a5ff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk a5ff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT sr a5ff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/A5FFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut a5ffl (0.03::0.037)(0.086::0.107))
+                (INTERCONNECT ax a5ffl (0.094::0.118)(0.163::0.202))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/A5LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ai a5lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT bi a5lut (0.08::0.1)(0.199::0.246))
+                (INTERCONNECT di a5lut (0.121::0.151)(0.288::0.358))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/A6LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ai a6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT ax a6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT bi a6lut (0.095::0.119)(0.238::0.295))
+                (INTERCONNECT di a6lut (0.136::0.17)(0.321::0.398))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/ACY0)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ax di0 (0.111::0.111)(0.111::0.111))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/AFF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut aff (0.026::0.032)(0.075::0.094))
+                (INTERCONNECT a6lut aff (0.039::0.048)(0.088::0.109))
+                (INTERCONNECT ax aff (0.1::0.125)(0.175::0.217))
+                (INTERCONNECT carry4_co0 aff (0.03::0.037)(0.074::0.092))
+                (INTERCONNECT carry4_o0 aff (0.025::0.031)(0.062::0.077))
+                (INTERCONNECT ce aff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk aff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT f7amux aff (0.025::0.031)(0.059::0.073))
+                (INTERCONNECT o5 aff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT o6 aff (0.029::0.036)(0.069::0.085))
+                (INTERCONNECT sr aff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/AFFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut affl (0.044::0.055)(0.1::0.124))
+                (INTERCONNECT ax affl (0.103::0.128)(0.181::0.225))
+                (INTERCONNECT carry4_co0 affl (0.039::0.049)(0.097::0.12))
+                (INTERCONNECT carry4_o0 affl (0.029::0.036)(0.07::0.087))
+                (INTERCONNECT f7amux affl (0.029::0.036)(0.068::0.084))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/AFFL1)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut affl1 (0.036::0.045)(0.097::0.12))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/AFFL2)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut affl2 (0.036::0.045)(0.097::0.12))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/AMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5ff amux (0.053::0.066)(0.138::0.171))
+                (INTERCONNECT a5lut amux (0.066::0.082)(0.164::0.204))
+                (INTERCONNECT a6lut amux (0.071::0.088)(0.166::0.206))
+                (INTERCONNECT carry4_co0 amux (0.079::0.099)(0.196::0.243))
+                (INTERCONNECT carry4_o0 amux (0.06::0.075)(0.138::0.171))
+                (INTERCONNECT f7amux amux (0.063::0.078)(0.14::0.173))
+                (INTERCONNECT o5 amux (0.063::0.078)(0.143::0.178))
+                (INTERCONNECT o6 amux (0.061::0.076)(0.147::0.182))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/AMUXL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut amuxl (0.07::0.087)(0.174::0.216))
+                (INTERCONNECT a6lut amuxl (0.075::0.093)(0.171::0.213))
+                (INTERCONNECT carry4_co0 amuxl (0.079::0.099)(0.196::0.243))
+                (INTERCONNECT carry4_o0 amuxl (0.06::0.075)(0.138::0.171))
+                (INTERCONNECT f7amux amuxl (0.063::0.078)(0.14::0.173))
+                (INTERCONNECT o5 amuxl (0.067::0.083)(0.153::0.19))
+                (INTERCONNECT o6 amuxl (0.065::0.081)(0.152::0.189))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/AQ)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT aff aq (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/B)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b6lut b (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT clk_aff b (0.049::0.061)(0.131::0.162))
+                (INTERCONNECT clk_bff b (0.049::0.061)(0.131::0.162))
+                (INTERCONNECT clk_cff b (0.049::0.061)(0.131::0.162))
+                (INTERCONNECT clk_clkinv b (0.049::0.061)(0.131::0.162))
+                (INTERCONNECT clk_dff b (0.049::0.061)(0.131::0.162))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/B5FF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5lut b5ff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT bx b5ff (0.101::0.126)(0.174::0.216))
+                (INTERCONNECT ce b5ff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk b5ff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT sr b5ff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/B5FFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5lut b5ffl (0.03::0.037)(0.087::0.108))
+                (INTERCONNECT bx b5ffl (0.101::0.126)(0.174::0.216))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/B5LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT bi b5lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT di b5lut (0.028::0.035)(0.053::0.065))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/B6LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT bi b6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT bx b6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT di b6lut (0.041::0.051)(0.083::0.102))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/BCY0)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT bx di1 (0.098::0.098)(0.098::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/BFF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5lut bff (0.026::0.032)(0.076::0.095))
+                (INTERCONNECT b6lut bff (0.038::0.047)(0.085::0.105))
+                (INTERCONNECT bx bff (0.107::0.133)(0.186::0.231))
+                (INTERCONNECT carry4_co1 bff (0.03::0.037)(0.074::0.092))
+                (INTERCONNECT carry4_o1 bff (0.025::0.031)(0.062::0.077))
+                (INTERCONNECT ce bff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk bff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT f8mux bff (0.025::0.031)(0.059::0.073))
+                (INTERCONNECT o5 bff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT o6 bff (0.029::0.036)(0.069::0.085))
+                (INTERCONNECT sr bff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/BFFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b6lut bffl (0.043::0.054)(0.097::0.12))
+                (INTERCONNECT bx bffl (0.109::0.136)(0.192::0.239))
+                (INTERCONNECT carry4_co1 bffl (0.039::0.049)(0.097::0.12))
+                (INTERCONNECT carry4_o1 bffl (0.029::0.036)(0.07::0.087))
+                (INTERCONNECT f8mux bffl (0.029::0.036)(0.068::0.084))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/BFFL1)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5lut bffl1 (0.036::0.045)(0.098::0.121))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/BFFL2)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5lut bffl2 (0.036::0.045)(0.098::0.121))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/BMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5ff bmux (0.054::0.068)(0.142::0.177))
+                (INTERCONNECT b5lut bmux (0.073::0.091)(0.181::0.224))
+                (INTERCONNECT b6lut bmux (0.077::0.095)(0.172::0.213))
+                (INTERCONNECT carry4_co1 bmux (0.071::0.088)(0.168::0.208))
+                (INTERCONNECT carry4_o1 bmux (0.063::0.079)(0.147::0.182))
+                (INTERCONNECT f8mux bmux (0.068::0.085)(0.157::0.195))
+                (INTERCONNECT o5 bmux (0.07::0.087)(0.159::0.197))
+                (INTERCONNECT o6 bmux (0.068::0.084)(0.156::0.193))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/BMUXL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT b5lut bmuxl (0.073::0.091)(0.181::0.224))
+                (INTERCONNECT b6lut bmuxl (0.077::0.095)(0.172::0.213))
+                (INTERCONNECT carry4_co1 bmuxl (0.071::0.088)(0.168::0.208))
+                (INTERCONNECT carry4_o1 bmuxl (0.063::0.079)(0.147::0.182))
+                (INTERCONNECT f8mux bmuxl (0.068::0.085)(0.157::0.195))
+                (INTERCONNECT o5 bmuxl (0.07::0.087)(0.159::0.197))
+                (INTERCONNECT o6 bmuxl (0.068::0.084)(0.156::0.193))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/BQ)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT bff bq (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/C)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c6lut c (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/C5FF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5lut c5ff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT ce c5ff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk c5ff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT cx c5ff (0.09::0.112)(0.161::0.199))
+                (INTERCONNECT sr c5ff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/C5FFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5lut c5ffl (0.031::0.038)(0.088::0.109))
+                (INTERCONNECT cx c5ffl (0.09::0.112)(0.161::0.199))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/C5LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ci c5lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT di c5lut (0.027::0.033)(0.051::0.063))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/C6LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ci c6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT cx c6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT di c6lut (0.043::0.053)(0.086::0.107))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/CARRY4)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a5lut carry4 (0.003::0.004)(0.021::0.026))
+                (INTERCONNECT a6lut carry4 (0.01::0.012)(0.019::0.024))
+                (INTERCONNECT ax carry4 (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT b5lut carry4 (0.003::0.004)(0.022::0.027))
+                (INTERCONNECT b6lut carry4 (0.009::0.011)(0.016::0.02))
+                (INTERCONNECT bx carry4 (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT c5lut carry4 (0.004::0.005)(0.023::0.028))
+                (INTERCONNECT c6lut carry4 (0.009::0.011)(0.018::0.022))
+                (INTERCONNECT cx carry4 (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT d5lut carry4 (0.004::0.005)(0.026::0.033))
+                (INTERCONNECT d6lut carry4 (0.009::0.011)(0.018::0.022))
+                (INTERCONNECT dx carry4 (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/CCY0)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT cx di2 (0.105::0.105)(0.105::0.105))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/CFF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5lut cff (0.027::0.033)(0.077::0.096))
+                (INTERCONNECT c6lut cff (0.038::0.047)(0.087::0.107))
+                (INTERCONNECT carry4_co2 cff (0.03::0.037)(0.074::0.092))
+                (INTERCONNECT carry4_o2 cff (0.025::0.031)(0.062::0.077))
+                (INTERCONNECT ce cff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk cff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT cx cff (0.096::0.12)(0.172::0.214))
+                (INTERCONNECT f7bmux cff (0.025::0.031)(0.059::0.073))
+                (INTERCONNECT o5 cff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT o6 cff (0.029::0.036)(0.069::0.085))
+                (INTERCONNECT sr cff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/CFFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c6lut cffl (0.043::0.054)(0.098::0.122))
+                (INTERCONNECT carry4_co2 cffl (0.039::0.049)(0.097::0.12))
+                (INTERCONNECT carry4_o2 cffl (0.029::0.036)(0.07::0.087))
+                (INTERCONNECT cx cffl (0.099::0.123)(0.179::0.222))
+                (INTERCONNECT f7bmux cffl (0.029::0.036)(0.068::0.084))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/CFFL1)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5lut cffl1 (0.037::0.046)(0.098::0.122))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/CFFL2)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5lut cffl2 (0.037::0.046)(0.098::0.122))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/CLKINV)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT clk clkinv (0.046::0.057)(0.126::0.156))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/CMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5ff cmux (0.053::0.066)(0.139::0.172))
+                (INTERCONNECT c5lut cmux (0.068::0.085)(0.167::0.207))
+                (INTERCONNECT c6lut cmux (0.07::0.087)(0.166::0.205))
+                (INTERCONNECT carry4_co2 cmux (0.065::0.081)(0.15::0.186))
+                (INTERCONNECT carry4_o2 cmux (0.063::0.079)(0.142::0.177))
+                (INTERCONNECT f7bmux cmux (0.063::0.078)(0.141::0.174))
+                (INTERCONNECT o5 cmux (0.064::0.08)(0.144::0.179))
+                (INTERCONNECT o6 cmux (0.061::0.076)(0.148::0.183))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/CMUXL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c5lut cmuxl (0.072::0.089)(0.179::0.222))
+                (INTERCONNECT c6lut cmuxl (0.075::0.093)(0.171::0.212))
+                (INTERCONNECT carry4_co2 cmuxl (0.065::0.081)(0.15::0.186))
+                (INTERCONNECT carry4_o2 cmuxl (0.063::0.079)(0.142::0.177))
+                (INTERCONNECT f7bmux cmuxl (0.063::0.078)(0.141::0.174))
+                (INTERCONNECT o5 cmuxl (0.068::0.084)(0.156::0.194))
+                (INTERCONNECT o6 cmuxl (0.066::0.082)(0.153::0.19))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/COUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT carry4_co3 cout (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/CQ)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT cff cq (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/D)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT d6lut d (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/D5FF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ce d5ff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk d5ff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT d5lut d5ff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT dx d5ff (0.09::0.112)(0.161::0.199))
+                (INTERCONNECT sr d5ff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/D5FFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT d5lut d5ffl (0.031::0.038)(0.091::0.113))
+                (INTERCONNECT dx d5ffl (0.09::0.112)(0.161::0.199))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/D5LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT di d5lut (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/D6LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT di d6lut (0.0::0.0)(0.0::0.0))
+                (INTERCONNECT dx d6lut (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/DCY0)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT dx di3 (0.091::0.091)(0.091::0.091))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/DFF)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut dff (0.028::0.034)(0.055::0.069))
+                (INTERCONNECT carry4_co3 dff (0.104::0.129)(0.271::0.336))
+                (INTERCONNECT carry4_o3 dff (0.025::0.031)(0.062::0.077))
+                (INTERCONNECT ce dff (0.041::0.051)(0.15::0.186))
+                (INTERCONNECT clk dff (0.046::0.057)(0.126::0.156))
+                (INTERCONNECT d5lut dff (0.027::0.033)(0.08::0.101))
+                (INTERCONNECT d6lut dff (0.038::0.047)(0.087::0.107))
+                (INTERCONNECT dx dff (0.096::0.12)(0.172::0.214))
+                (INTERCONNECT o5 dff (0.023::0.028)(0.054::0.068))
+                (INTERCONNECT o6 dff (0.029::0.036)(0.069::0.085))
+                (INTERCONNECT sr dff (0.031::0.038)(0.079::0.098))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/DFFL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut dffl (0.028::0.034)(0.055::0.069))
+                (INTERCONNECT carry4_co3 dffl (0.126::0.157)(0.323::0.401))
+                (INTERCONNECT carry4_o3 dffl (0.029::0.036)(0.07::0.087))
+                (INTERCONNECT d6lut dffl (0.043::0.054)(0.098::0.122))
+                (INTERCONNECT dx dffl (0.099::0.123)(0.179::0.222))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/DFFL1)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT d5lut dffl1 (0.037::0.046)(0.102::0.126))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/DFFL2)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT d5lut dffl2 (0.037::0.046)(0.102::0.126))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/DIFF)
+        (DELAY
+            (ABSOLUTE
+                (DEVICE a6lut_a5lut_diff (0.003::0.004)(0.021::0.026))
+                (DEVICE a6lut_int_diff (0.01::0.012)(0.019::0.024))
+                (DEVICE b6lut_b5lut_diff (0.003::0.004)(0.022::0.027))
+                (DEVICE b6lut_int_diff (0.009::0.011)(0.016::0.02))
+                (DEVICE c6lut_c5lut_diff (0.004::0.005)(0.023::0.028))
+                (DEVICE c6lut_int_diff (0.009::0.011)(0.018::0.022))
+                (DEVICE d6lut_d5lut_diff (0.004::0.005)(0.026::0.033))
+                (DEVICE d6lut_int_diff (0.009::0.011)(0.018::0.022))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/DMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut dmux (0.061::0.076)(0.14::0.173))
+                (INTERCONNECT carry4_co3 dmux (0.104::0.13)(0.242::0.3))
+                (INTERCONNECT carry4_o3 dmux (0.066::0.082)(0.148::0.183))
+                (INTERCONNECT d5ff dmux (0.053::0.066)(0.141::0.174))
+                (INTERCONNECT d5lut dmux (0.074::0.092)(0.186::0.231))
+                (INTERCONNECT d6lut dmux (0.077::0.095)(0.173::0.214))
+                (INTERCONNECT o5 dmux (0.07::0.087)(0.16::0.198))
+                (INTERCONNECT o6 dmux (0.068::0.084)(0.155::0.192))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/DMUXL)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut dmuxl (0.068::0.084)(0.15::0.186))
+                (INTERCONNECT carry4_co3 dmuxl (0.104::0.13)(0.242::0.3))
+                (INTERCONNECT carry4_o3 dmuxl (0.066::0.082)(0.148::0.183))
+                (INTERCONNECT d5lut dmuxl (0.074::0.092)(0.186::0.231))
+                (INTERCONNECT d6lut dmuxl (0.077::0.095)(0.173::0.214))
+                (INTERCONNECT o5 dmuxl (0.07::0.087)(0.16::0.198))
+                (INTERCONNECT o6 dmuxl (0.068::0.084)(0.155::0.192))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/DQ)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT dff dq (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/F7AMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT a6lut f7amux (0.01::0.012)(0.019::0.024))
+                (INTERCONNECT b6lut f7amux (0.009::0.011)(0.016::0.02))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/F7BMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT c6lut f7bmux (0.009::0.011)(0.018::0.022))
+                (INTERCONNECT d6lut f7bmux (0.009::0.011)(0.018::0.022))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/F8MUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT bx f8mux (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/LUT)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT ce lut (0.001::0.001)(0.004::0.005))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ROUTING_BEL")
+        (INSTANCE SLICEM/WEMUX)
+        (DELAY
+            (ABSOLUTE
+                (INTERCONNECT we wemux (0.0::0.0)(0.0::0.0))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "SELMUX2_1")
+        (INSTANCE SLICEM/F7AMUX)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH 0 OUT (0.053::0.067)(0.152::0.189))
+                (IOPATH 1 OUT (0.054::0.068)(0.153::0.19))
+                (IOPATH S0 OUT (0.09::0.112)(0.235::0.292))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "SELMUX2_1")
+        (INSTANCE SLICEM/F7BMUX)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH 0 OUT (0.064::0.08)(0.177::0.219))
+                (IOPATH 1 OUT (0.066::0.082)(0.181::0.225))
+                (IOPATH S0 OUT (0.096::0.12)(0.253::0.314))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "SELMUX2_1")
+        (INSTANCE SLICEM/F8MUX)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH 0 OUT (0.022::0.027)(0.079::0.098))
+                (IOPATH 1 OUT (0.019::0.024)(0.071::0.088))
+                (IOPATH S0 OUT (0.081::0.101)(0.228::0.283))
+            )
+        )
+    )
+)

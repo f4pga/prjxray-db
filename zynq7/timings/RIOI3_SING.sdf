@@ -173,6 +173,232 @@
         )
     )
     (CELL
+        (CELLTYPE "ISERDESE2")
+        (INSTANCE ILOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKDIV Q1 (0.177::0.204)(0.568::0.653))
+                (IOPATH CLKDIV Q2 (0.177::0.204)(0.568::0.653))
+                (IOPATH CLKDIV Q3 (0.177::0.204)(0.568::0.653))
+                (IOPATH CLKDIV Q4 (0.177::0.204)(0.568::0.653))
+                (IOPATH CLKDIV Q5 (0.177::0.204)(0.568::0.653))
+                (IOPATH CLKDIV Q6 (0.177::0.204)(0.568::0.653))
+                (IOPATH CLKDIV Q7 (0.177::0.204)(0.568::0.653))
+                (IOPATH CLKDIV Q8 (0.177::0.204)(0.568::0.653))
+                (IOPATH OFB O (0.125::0.144)(0.327::0.376))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_DATA_RATE_DDR")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD OFB (posedge CLK) (-0.064::-0.072))
+            (SETUP OFB (posedge CLK) (0.177::0.203))
+            (HOLD OFB (posedge CLKB) (-0.064::-0.072))
+            (SETUP OFB (posedge CLKB) (0.177::0.203))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_DATA_RATE_DDR_IOBDELAY_BOTH")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD DDLY (posedge CLK) (0.142::0.165))
+            (SETUP DDLY (posedge CLK) (-0.029::-0.034))
+            (HOLD DDLY (posedge CLKB) (0.142::0.165))
+            (SETUP DDLY (posedge CLKB) (-0.029::-0.034))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_DATA_RATE_DDR_IOBDELAY_IBUF")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD D (posedge CLK) (0.143::0.166))
+            (SETUP D (posedge CLK) (-0.030::-0.035))
+            (HOLD D (posedge CLKB) (0.143::0.166))
+            (SETUP D (posedge CLKB) (-0.030::-0.035))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_DATA_RATE_DDR_IOBDELAY_IFD")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD DDLY (posedge CLK) (0.142::0.165))
+            (SETUP DDLY (posedge CLK) (-0.029::-0.034))
+            (HOLD DDLY (posedge CLKB) (0.142::0.165))
+            (SETUP DDLY (posedge CLKB) (0.142::0.165))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_DATA_RATE_DDR_IOBDELAY_NONE")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD D (posedge CLK) (0.143::0.166))
+            (SETUP D (posedge CLK) (-0.030::-0.035))
+            (HOLD D (posedge CLKB) (0.143::0.166))
+            (SETUP D (posedge CLKB) (-0.030::-0.035))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_DATA_RATE_SDR")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD OFB (posedge CLK) (-0.064::-0.072))
+            (SETUP OFB (posedge CLK) (0.177::0.203))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_DATA_RATE_SDR_IOBDELAY_BOTH")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD DDLY (posedge CLK) (0.142::0.165))
+            (SETUP DDLY (posedge CLK) (-0.029::-0.034))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_DATA_RATE_SDR_IOBDELAY_IBUF")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD D (posedge CLK) (0.143::0.166))
+            (SETUP D (posedge CLK) (-0.030::-0.035))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_DATA_RATE_SDR_IOBDELAY_IFD")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD DDLY (posedge CLK) (0.142::0.165))
+            (SETUP DDLY (posedge CLK) (-0.029::-0.034))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_DATA_RATE_SDR_IOBDELAY_NONE")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD D (posedge CLK) (0.143::0.166))
+            (SETUP D (posedge CLK) (-0.030::-0.035))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_INTERFACE_TYPE_NETWORKING")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD BITSLIP (posedge CLKDIV) (0.147::0.169))
+            (SETUP BITSLIP (posedge CLKDIV) (0.017::0.019))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_INTERFACE_TYPE_OVERSAMPLE")
+        (INSTANCE ILOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK Q1 (0.187::0.215)(0.498::0.573))
+                (IOPATH CLK Q2 (0.187::0.215)(0.498::0.573))
+                (IOPATH CLK Q3 (0.187::0.215)(0.498::0.573))
+                (IOPATH CLK Q4 (0.187::0.215)(0.498::0.573))
+                (IOPATH CLK Q5 (0.187::0.215)(0.498::0.573))
+                (IOPATH CLK Q6 (0.187::0.215)(0.498::0.573))
+                (IOPATH CLK Q7 (0.187::0.215)(0.498::0.573))
+                (IOPATH CLK Q8 (0.187::0.215)(0.498::0.573))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_IOBDELAY_BOTH")
+        (INSTANCE ILOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DDLY O (0.047::0.055)(0.120::0.138))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_IOBDELAY_IBUF")
+        (INSTANCE ILOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DDLY O (0.047::0.055)(0.120::0.138))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_IOBDELAY_IFD")
+        (INSTANCE ILOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH D O (0.047::0.054)(0.112::0.129))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_IOBDELAY_NONE")
+        (INSTANCE ILOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH D O (0.047::0.054)(0.112::0.129))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_NUM_CE_1")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD CE1 (posedge CLK) (-0.065::-0.053))
+            (SETUP CE1 (posedge CLK) (0.419::0.713))
+            (HOLD CE1 (posedge CLKB) (-0.065::-0.053))
+            (SETUP CE1 (posedge CLKB) (0.419::0.713))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_NUM_CE_2")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD CE1 (posedge CLKDIV) (0.295::0.340))
+            (SETUP CE1 (posedge CLKDIV) (-0.101::-0.088))
+            (HOLD CE1 (posedge CLKDIVP) (0.115::0.132))
+            (SETUP CE1 (posedge CLKDIVP) (0.047::0.054))
+            (HOLD CE2 (posedge CLKDIV) (0.346::0.398))
+            (SETUP CE2 (posedge CLKDIV) (-0.128::-0.112))
+            (HOLD CE2 (posedge CLKDIVP) (0.128::0.147))
+            (SETUP CE2 (posedge CLKDIVP) (0.016::0.018))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_SRTYPE_SYNC")
+        (INSTANCE ILOGICE3)
+        (TIMINGCHECK
+            (HOLD RST (posedge CLKDIV) (-0.174::-0.152))
+            (SETUP RST (posedge CLKDIV) (0.450::0.517))
+            (HOLD RST (posedge CLKDIVP) (-0.272::-0.237))
+            (SETUP RST (posedge CLKDIVP) (0.667::0.767))
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2_TFB_USED_TRUE")
+        (INSTANCE ILOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH TFB O (0.142::0.164)(0.398::0.457))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "ISERDESE2DDR3_INTERFACE_TYPE_MEMORY")
+        (INSTANCE ILOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKDIVP Q1 (0.130::0.150)(0.370::0.425))
+                (IOPATH CLKDIVP Q2 (0.130::0.150)(0.370::0.425))
+                (IOPATH CLKDIVP Q3 (0.130::0.150)(0.370::0.425))
+                (IOPATH CLKDIVP Q4 (0.130::0.150)(0.370::0.425))
+                (IOPATH CLKDIVP Q5 (0.130::0.150)(0.370::0.425))
+                (IOPATH CLKDIVP Q6 (0.130::0.150)(0.370::0.425))
+                (IOPATH CLKDIVP Q7 (0.130::0.150)(0.370::0.425))
+                (IOPATH CLKDIVP Q8 (0.130::0.150)(0.370::0.425))
+            )
+        )
+    )
+    (CELL
         (CELLTYPE "SELMUX2_1")
         (INSTANCE ILOGICE3)
         (DELAY
@@ -358,6 +584,128 @@
             (ABSOLUTE
                 (IOPATH CLK Q (0.192::0.221)(0.480::0.552))
                 (IOPATH SR Q (0.328::0.377)(0.916::1.054))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "OSERDESE2")
+        (INSTANCE OLOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK OFB (0.177::0.204)(0.449::0.472))
+                (IOPATH CLK OQ (0.177::0.204)(0.449::0.472))
+                (IOPATH CLK TFB (0.192::0.221)(0.480::0.552))
+                (IOPATH CLK TQ (0.192::0.221)(0.480::0.552))
+            )
+        )
+        (TIMINGCHECK
+            (HOLD D1 (posedge CLKDIV) (-0.073::-0.063))
+            (SETUP D1 (posedge CLKDIV) (0.511::0.625))
+            (HOLD D2 (posedge CLKDIV) (-0.073::-0.063))
+            (SETUP D2 (posedge CLKDIV) (0.511::0.625))
+            (HOLD D3 (posedge CLKDIV) (-0.073::-0.063))
+            (SETUP D3 (posedge CLKDIV) (0.511::0.625))
+            (HOLD D4 (posedge CLKDIV) (-0.073::-0.063))
+            (SETUP D4 (posedge CLKDIV) (0.511::0.625))
+            (HOLD D5 (posedge CLKDIV) (-0.073::-0.063))
+            (SETUP D5 (posedge CLKDIV) (0.511::0.625))
+            (HOLD D6 (posedge CLKDIV) (-0.073::-0.063))
+            (SETUP D6 (posedge CLKDIV) (0.511::0.625))
+            (HOLD D7 (posedge CLKDIV) (-0.073::-0.063))
+            (SETUP D7 (posedge CLKDIV) (0.511::0.625))
+            (HOLD D8 (posedge CLKDIV) (-0.073::-0.063))
+            (SETUP D8 (posedge CLKDIV) (0.511::0.625))
+            (HOLD OCE (posedge CLK) (-0.059::-0.051))
+            (SETUP OCE (posedge CLK) (0.380::0.504))
+            (HOLD TCE (posedge CLK) (-0.068::-0.060))
+            (SETUP TCE (posedge CLK) (0.389::0.505))
+        )
+    )
+    (CELL
+        (CELLTYPE "OSERDESE2_DATA_RATE_TQ_BUF")
+        (INSTANCE OLOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH T1 TQ (0.350::0.403)(0.958::1.102))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "OSERDESE2_DATA_RATE_TQ_DDR_TRISTATE_WIDTH_1")
+        (INSTANCE OLOGICE3)
+        (TIMINGCHECK
+            (HOLD T1 (posedge CLK) (-0.302::-0.264))
+            (SETUP T1 (posedge CLK) (0.697::0.873))
+        )
+    )
+    (CELL
+        (CELLTYPE "OSERDESE2_DATA_RATE_TQ_DDR_TRISTATE_WIDTH_4")
+        (INSTANCE OLOGICE3)
+        (TIMINGCHECK
+            (HOLD T1 (posedge CLKDIV) (-0.185::-0.161))
+            (SETUP T1 (posedge CLKDIV) (0.334::0.385))
+            (HOLD T2 (posedge CLKDIV) (-0.185::-0.161))
+            (SETUP T2 (posedge CLKDIV) (0.334::0.385))
+            (HOLD T3 (posedge CLKDIV) (-0.185::-0.161))
+            (SETUP T3 (posedge CLKDIV) (0.334::0.385))
+            (HOLD T4 (posedge CLKDIV) (-0.185::-0.161))
+            (SETUP T4 (posedge CLKDIV) (0.334::0.385))
+        )
+    )
+    (CELL
+        (CELLTYPE "OSERDESE2_DATA_RATE_TQ_SDR_TRISTATE_WIDTH_1")
+        (INSTANCE OLOGICE3)
+        (TIMINGCHECK
+            (HOLD T1 (posedge CLK) (-0.302::-0.264))
+            (SETUP T1 (posedge CLK) (0.697::0.873))
+        )
+    )
+    (CELL
+        (CELLTYPE "OSERDESE2_DATA_RATE_TQ_SDR_TRISTATE_WIDTH_4")
+        (INSTANCE OLOGICE3)
+        (TIMINGCHECK
+            (HOLD T1 (posedge CLKDIV) (-0.185::-0.161))
+            (SETUP T1 (posedge CLKDIV) (0.334::0.385))
+            (HOLD T2 (posedge CLKDIV) (-0.185::-0.161))
+            (SETUP T2 (posedge CLKDIV) (0.334::0.385))
+            (HOLD T3 (posedge CLKDIV) (-0.185::-0.161))
+            (SETUP T3 (posedge CLKDIV) (0.334::0.385))
+            (HOLD T4 (posedge CLKDIV) (-0.185::-0.161))
+            (SETUP T4 (posedge CLKDIV) (0.334::0.385))
+        )
+    )
+    (CELL
+        (CELLTYPE "OSERDESE2_SELFHEAL_TRUE")
+        (INSTANCE OLOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKDIV IOCLKGLITCH (0.196::0.226)(0.493::0.567))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "OSERDESE2_SRTYPE_SYNC")
+        (INSTANCE OLOGICE3)
+        (TIMINGCHECK
+            (HOLD RST (posedge CLKDIV) (-0.004::-0.004))
+            (SETUP RST (posedge CLKDIV) (0.703::0.849))
+        )
+    )
+    (CELL
+        (CELLTYPE "OSERDESE2_TBYTE_CTL_TRUE")
+        (INSTANCE OLOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH TBYTEIN TQ (0.000::0.000)(0.000::0.000))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "OSERDESE2_TBYTE_SRC_TRUE")
+        (INSTANCE OLOGICE3)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH T1 TBYTEOUT (0.000::0.000)(0.000::0.000))
             )
         )
     )

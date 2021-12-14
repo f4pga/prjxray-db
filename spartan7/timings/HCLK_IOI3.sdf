@@ -1,0 +1,123 @@
+
+(DELAYFILE
+    (SDFVERSION "3.0")
+    (TIMESCALE 1ns)
+
+    (CELL
+        (CELLTYPE "BUFIO_DELAY_BYPASS_FALSE")
+        (INSTANCE BUFIO)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH I O (0.483::0.516)(1.431::1.532))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "BUFIO_DELAY_BYPASS_TRUE")
+        (INSTANCE BUFIO)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH I O (0.032::0.038)(0.294::0.400))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "BUFR_BUFR_DIVIDE_1")
+        (INSTANCE BUFR)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLR O (0.273::0.314)(0.942::1.084))
+                (IOPATH I O (0.270::0.431)(0.918::0.982))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "BUFR_BUFR_DIVIDE_2")
+        (INSTANCE BUFR)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLR O (0.273::0.314)(0.942::1.084))
+                (IOPATH I O (0.270::0.431)(0.918::0.982))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "BUFR_BUFR_DIVIDE_3")
+        (INSTANCE BUFR)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLR O (0.273::0.314)(0.942::1.084))
+                (IOPATH I O (0.270::0.431)(0.918::0.982))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "BUFR_BUFR_DIVIDE_4")
+        (INSTANCE BUFR)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLR O (0.273::0.314)(0.942::1.084))
+                (IOPATH I O (0.270::0.431)(0.918::0.982))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "BUFR_BUFR_DIVIDE_5")
+        (INSTANCE BUFR)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLR O (0.273::0.314)(0.942::1.084))
+                (IOPATH I O (0.270::0.431)(0.918::0.982))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "BUFR_BUFR_DIVIDE_6")
+        (INSTANCE BUFR)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLR O (0.273::0.314)(0.942::1.084))
+                (IOPATH I O (0.270::0.431)(0.918::0.982))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "BUFR_BUFR_DIVIDE_7")
+        (INSTANCE BUFR)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLR O (0.273::0.314)(0.942::1.084))
+                (IOPATH I O (0.270::0.431)(0.918::0.982))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "BUFR_BUFR_DIVIDE_8")
+        (INSTANCE BUFR)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLR O (0.273::0.314)(0.942::1.084))
+                (IOPATH I O (0.270::0.431)(0.918::0.982))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "BUFR_BUFR_DIVIDE_BYPASS")
+        (INSTANCE BUFR)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLR O (0.273::0.314)(0.942::1.084))
+                (IOPATH I O (0.092::0.254)(0.486::0.511))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "IDELAYCTRL")
+        (INSTANCE IDELAYCTRL)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH RST RDY (2569.982::2956.512)(3184.543::3663.504))
+            )
+        )
+    )
+)

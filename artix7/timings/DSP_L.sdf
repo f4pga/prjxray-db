@@ -1,0 +1,1865 @@
+
+(DELAYFILE
+    (SDFVERSION "3.0")
+    (TIMESCALE 1ns)
+
+    (CELL
+        (CELLTYPE "DSP48E1_ACASCREG_0_A_INPUT_CASCADE")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH ACIN ACOUT (0.132::0.185)(0.317::0.521))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ACASCREG_0_A_INPUT_DIRECT")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A ACOUT (0.219::0.303)(0.473::0.723))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ACASCREG_1_AREG_1")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK ACOUT (0.493::0.509)(0.612::0.864))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ACASCREG_2_AREG_2")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK ACOUT (0.493::0.509)(0.612::0.864))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_CASCADE_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH ACIN CARRYCASCOUT (0.328::2.181)(0.753::5.329))
+                (IOPATH ACIN CARRYOUT (0.313::2.046)(0.743::4.975))
+                (IOPATH ACIN MULTSIGNOUT (0.324::2.053)(0.731::4.958))
+                (IOPATH ACIN P (0.320::2.055)(0.754::4.998))
+                (IOPATH ACIN PATTERNBDETECT (0.360::2.252)(0.839::5.564))
+                (IOPATH ACIN PATTERNDETECT (0.360::2.252)(0.839::5.564))
+                (IOPATH ACIN PCOUT (0.341::2.139)(0.797::5.194))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_CASCADE_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH ACIN CARRYCASCOUT (0.565::2.181)(1.328::5.329))
+                (IOPATH ACIN CARRYOUT (0.550::2.046)(1.317::4.975))
+                (IOPATH ACIN MULTSIGNOUT (0.562::2.053)(1.307::4.958))
+                (IOPATH ACIN P (0.556::2.055)(1.329::4.998))
+                (IOPATH ACIN PATTERNBDETECT (0.598::2.252)(1.414::5.564))
+                (IOPATH ACIN PATTERNDETECT (0.598::2.252)(1.414::5.564))
+                (IOPATH ACIN PCOUT (0.579::2.139)(1.372::5.194))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_CASCADE_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-4.881::-0.401))
+            (SETUP ACIN (posedge CLK) (0.401::4.881))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_CASCADE_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-5.272::-0.471))
+            (SETUP ACIN (posedge CLK) (0.471::5.272))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_CASCADE_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-4.881::-0.977))
+            (SETUP ACIN (posedge CLK) (0.977::4.881))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_CASCADE_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-5.272::-1.047))
+            (SETUP ACIN (posedge CLK) (1.047::5.272))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_CASCADE_MREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-3.087::-0.232))
+            (SETUP ACIN (posedge CLK) (0.232::3.087))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_CASCADE_MREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-3.087::-0.232))
+            (SETUP ACIN (posedge CLK) (0.232::3.087))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_DIRECT_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A CARRYCASCOUT (0.414::2.298)(0.908::5.531))
+                (IOPATH A CARRYOUT (0.397::2.162)(0.900::5.177))
+                (IOPATH A MULTSIGNOUT (0.410::2.170)(0.887::5.159))
+                (IOPATH A P (0.404::2.173)(0.911::5.201))
+                (IOPATH A PATTERNBDETECT (0.445::2.368)(0.996::5.767))
+                (IOPATH A PATTERNDETECT (0.445::2.368)(0.996::5.767))
+                (IOPATH A PCOUT (0.426::2.256)(0.952::5.396))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_DIRECT_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A CARRYCASCOUT (0.653::2.298)(1.484::5.531))
+                (IOPATH A CARRYOUT (0.637::2.162)(1.474::5.177))
+                (IOPATH A MULTSIGNOUT (0.649::2.170)(1.462::5.159))
+                (IOPATH A P (0.643::2.173)(1.485::5.201))
+                (IOPATH A PATTERNBDETECT (0.685::2.368)(1.572::5.767))
+                (IOPATH A PATTERNDETECT (0.685::2.368)(1.572::5.767))
+                (IOPATH A PCOUT (0.666::2.256)(1.528::5.396))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_DIRECT_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-5.081::-0.558))
+            (SETUP A (posedge CLK) (0.558::5.081))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_DIRECT_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-5.474::-0.627))
+            (SETUP A (posedge CLK) (0.627::5.474))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_DIRECT_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-5.081::-1.134))
+            (SETUP A (posedge CLK) (1.134::5.081))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_DIRECT_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-5.474::-1.203))
+            (SETUP A (posedge CLK) (1.203::5.474))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_DIRECT_MREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-3.288::-0.388))
+            (SETUP A (posedge CLK) (0.388::3.288))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_0_A_INPUT_DIRECT_MREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-3.288::-0.388))
+            (SETUP A (posedge CLK) (0.388::3.288))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_1_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.498::2.359)(1.076::5.700))
+                (IOPATH CLK CARRYOUT (0.483::2.224)(1.066::5.346))
+                (IOPATH CLK MULTSIGNOUT (0.493::2.231)(1.055::5.329))
+                (IOPATH CLK P (0.490::2.234)(1.077::5.368))
+                (IOPATH CLK PATTERNBDETECT (0.530::2.429)(1.163::5.934))
+                (IOPATH CLK PATTERNDETECT (0.530::2.429)(1.163::5.934))
+                (IOPATH CLK PCOUT (0.511::2.317)(1.120::5.565))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_1_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.718::2.359)(1.563::5.700))
+                (IOPATH CLK CARRYOUT (0.703::2.224)(1.554::5.346))
+                (IOPATH CLK MULTSIGNOUT (0.713::2.231)(1.543::5.329))
+                (IOPATH CLK P (0.709::2.234)(1.566::5.368))
+                (IOPATH CLK PATTERNBDETECT (0.750::2.429)(1.650::5.934))
+                (IOPATH CLK PATTERNDETECT (0.750::2.429)(1.650::5.934))
+                (IOPATH CLK PCOUT (0.731::2.317)(1.609::5.565))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_2_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.498::2.359)(1.076::5.700))
+                (IOPATH CLK CARRYOUT (0.483::2.224)(1.066::5.346))
+                (IOPATH CLK MULTSIGNOUT (0.493::2.231)(1.055::5.329))
+                (IOPATH CLK P (0.490::2.234)(1.077::5.368))
+                (IOPATH CLK PATTERNBDETECT (0.530::2.429)(1.163::5.934))
+                (IOPATH CLK PATTERNDETECT (0.530::2.429)(1.163::5.934))
+                (IOPATH CLK PCOUT (0.511::2.317)(1.120::5.565))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_AREG_2_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.718::2.359)(1.563::5.700))
+                (IOPATH CLK CARRYOUT (0.703::2.224)(1.554::5.346))
+                (IOPATH CLK MULTSIGNOUT (0.713::2.231)(1.543::5.329))
+                (IOPATH CLK P (0.709::2.234)(1.566::5.368))
+                (IOPATH CLK PATTERNBDETECT (0.750::2.429)(1.650::5.934))
+                (IOPATH CLK PATTERNDETECT (0.750::2.429)(1.650::5.934))
+                (IOPATH CLK PCOUT (0.731::2.317)(1.609::5.565))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_DREG_0_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH D CARRYCASCOUT (0.596::2.268)(1.345::5.400))
+                (IOPATH D CARRYOUT (0.580::2.133)(1.334::5.046))
+                (IOPATH D MULTSIGNOUT (0.592::2.140)(1.323::5.029))
+                (IOPATH D P (0.587::2.142)(1.346::5.070))
+                (IOPATH D PATTERNBDETECT (0.628::2.339)(1.430::5.636))
+                (IOPATH D PATTERNDETECT (0.628::2.339)(1.430::5.636))
+                (IOPATH D PCOUT (0.580::2.133)(1.334::5.046))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_DREG_0_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH D CARRYCASCOUT (0.596::2.268)(1.345::5.400))
+                (IOPATH D CARRYOUT (0.580::2.133)(1.334::5.046))
+                (IOPATH D MULTSIGNOUT (0.592::2.140)(1.323::5.029))
+                (IOPATH D P (0.587::2.142)(1.346::5.070))
+                (IOPATH D PATTERNBDETECT (0.628::2.339)(1.430::5.636))
+                (IOPATH D PATTERNDETECT (0.628::2.339)(1.430::5.636))
+                (IOPATH D PCOUT (0.580::2.133)(1.334::5.046))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_DREG_0_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD D (posedge CLK) (-4.951::-0.994))
+            (SETUP D (posedge CLK) (0.994::4.951))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_DREG_0_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD D (posedge CLK) (-5.342::-1.063))
+            (SETUP D (posedge CLK) (1.063::5.342))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_DREG_0_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD D (posedge CLK) (-4.951::-0.994))
+            (SETUP D (posedge CLK) (0.994::4.951))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_DREG_0_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD D (posedge CLK) (-5.342::-1.063))
+            (SETUP D (posedge CLK) (1.063::5.342))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_DREG_0_MREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD D (posedge CLK) (-3.158::-0.249))
+            (SETUP D (posedge CLK) (0.249::3.158))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_DREG_0_MREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD D (posedge CLK) (-3.158::-0.249))
+            (SETUP D (posedge CLK) (0.249::3.158))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_INMODEREG_0_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH INMODE CARRYCASCOUT (0.589::2.331)(1.330::5.615))
+                (IOPATH INMODE CARRYOUT (0.573::2.195)(1.321::5.261))
+                (IOPATH INMODE MULTSIGNOUT (0.586::2.204)(1.309::5.243))
+                (IOPATH INMODE P (0.580::2.205)(1.332::5.283))
+                (IOPATH INMODE PATTERNBDETECT (0.621::2.401)(1.417::5.849))
+                (IOPATH INMODE PATTERNDETECT (0.621::2.401)(1.417::5.849))
+                (IOPATH INMODE PCOUT (0.602::2.289)(1.376::5.480))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_INMODEREG_0_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH INMODE CARRYCASCOUT (0.589::2.331)(1.330::5.615))
+                (IOPATH INMODE CARRYOUT (0.573::2.195)(1.321::5.261))
+                (IOPATH INMODE MULTSIGNOUT (0.586::2.204)(1.309::5.243))
+                (IOPATH INMODE P (0.580::2.205)(1.332::5.283))
+                (IOPATH INMODE PATTERNBDETECT (0.621::2.401)(1.417::5.849))
+                (IOPATH INMODE PATTERNDETECT (0.621::2.401)(1.417::5.849))
+                (IOPATH INMODE PCOUT (0.602::2.289)(1.376::5.480))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_INMODEREG_0_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-5.165::-0.980))
+            (SETUP INMODE (posedge CLK) (0.980::5.165))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_INMODEREG_0_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-5.557::-1.049))
+            (SETUP INMODE (posedge CLK) (1.049::5.557))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_INMODEREG_0_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-5.165::-0.980))
+            (SETUP INMODE (posedge CLK) (0.980::5.165))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_INMODEREG_0_MREG_0_PREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-5.557::-1.049))
+            (SETUP INMODE (posedge CLK) (1.049::5.557))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_INMODEREG_0_MREG_1_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-3.372::-0.236))
+            (SETUP INMODE (posedge CLK) (0.236::3.372))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_INMODEREG_0_MREG_1_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-3.372::-0.236))
+            (SETUP INMODE (posedge CLK) (0.236::3.372))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_INMODEREG_1_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.676::2.429)(1.489::5.801))
+                (IOPATH CLK CARRYOUT (0.660::2.293)(1.478::5.448))
+                (IOPATH CLK MULTSIGNOUT (0.672::2.303)(1.467::5.429))
+                (IOPATH CLK P (0.667::2.304)(1.490::5.470))
+                (IOPATH CLK PATTERNBDETECT (0.708::2.500)(1.574::6.035))
+                (IOPATH CLK PATTERNDETECT (0.708::2.500)(1.574::6.035))
+                (IOPATH CLK PCOUT (0.688::2.387)(1.533::5.666))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_0_INMODEREG_1_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.676::2.429)(1.489::5.801))
+                (IOPATH CLK CARRYOUT (0.660::2.293)(1.478::5.448))
+                (IOPATH CLK MULTSIGNOUT (0.672::2.303)(1.467::5.429))
+                (IOPATH CLK P (0.667::2.304)(1.490::5.470))
+                (IOPATH CLK PATTERNBDETECT (0.708::2.500)(1.574::6.035))
+                (IOPATH CLK PATTERNDETECT (0.708::2.500)(1.574::6.035))
+                (IOPATH CLK PCOUT (0.688::2.387)(1.533::5.666))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_1")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CEAD (posedge CLK) (-0.426::-0.038))
+            (SETUP CEAD (posedge CLK) (0.038::0.426))
+            (HOLD RSTD (posedge CLK) (-0.589::0.083))
+            (SETUP RSTD (posedge CLK) (-0.083::0.589))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_1_AREG_0_A_INPUT_CASCADE")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-1.555::-0.034))
+            (SETUP ACIN (posedge CLK) (0.034::1.555))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_1_AREG_0_A_INPUT_DIRECT")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-1.756::-0.191))
+            (SETUP A (posedge CLK) (0.191::1.756))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_1_DREG_0")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD D (posedge CLK) (-1.626::-0.051))
+            (SETUP D (posedge CLK) (0.051::1.626))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_1_INMODEREG_0")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-2.089::-0.036))
+            (SETUP INMODE (posedge CLK) (0.036::2.089))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_1_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.581::1.714)(1.277::4.014))
+                (IOPATH CLK CARRYOUT (0.565::1.580)(1.267::3.661))
+                (IOPATH CLK MULTSIGNOUT (0.578::1.587)(1.257::3.643))
+                (IOPATH CLK P (0.572::1.589)(1.279::3.684))
+                (IOPATH CLK PATTERNBDETECT (0.612::1.786)(1.364::4.249))
+                (IOPATH CLK PATTERNDETECT (0.612::1.786)(1.364::4.249))
+                (IOPATH CLK PCOUT (0.593::1.672)(1.322::3.879))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ADREG_1_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.581::1.714)(1.277::4.014))
+                (IOPATH CLK CARRYOUT (0.565::1.580)(1.267::3.661))
+                (IOPATH CLK MULTSIGNOUT (0.578::1.587)(1.257::3.643))
+                (IOPATH CLK P (0.572::1.589)(1.279::3.684))
+                (IOPATH CLK PATTERNBDETECT (0.612::1.786)(1.364::4.249))
+                (IOPATH CLK PATTERNDETECT (0.612::1.786)(1.364::4.249))
+                (IOPATH CLK PCOUT (0.593::1.672)(1.322::3.879))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ALUMODEREG_0_PREG_0")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH ALUMODE CARRYCASCOUT (0.417::1.051)(0.917::2.427))
+                (IOPATH ALUMODE CARRYOUT (0.401::0.916)(0.907::2.074))
+                (IOPATH ALUMODE MULTSIGNOUT (0.413::0.925)(0.895::2.055))
+                (IOPATH ALUMODE P (0.407::0.927)(0.918::2.098))
+                (IOPATH ALUMODE PATTERNBDETECT (0.395::1.038)(0.853::2.423))
+                (IOPATH ALUMODE PATTERNDETECT (0.395::1.038)(0.853::2.423))
+                (IOPATH ALUMODE PCOUT (0.429::1.010)(0.961::2.292))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ALUMODEREG_0_PREG_1_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ALUMODE (posedge CLK) (-1.978::-0.566))
+            (SETUP ALUMODE (posedge CLK) (0.566::1.978))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ALUMODEREG_0_PREG_1_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ALUMODE (posedge CLK) (-2.369::-0.635))
+            (SETUP ALUMODE (posedge CLK) (0.635::2.369))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ALUMODEREG_1")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ALUMODE (posedge CLK) (-0.246::0.208))
+            (SETUP ALUMODE (posedge CLK) (-0.208::0.246))
+            (HOLD CEALUMODE (posedge CLK) (-0.411::0.121))
+            (SETUP CEALUMODE (posedge CLK) (-0.121::0.411))
+            (HOLD RSTALUMODE (posedge CLK) (-0.411::0.074))
+            (SETUP RSTALUMODE (posedge CLK) (-0.074::0.411))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_ALUMODEREG_1_PREG_0")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.473::1.062)(1.036::2.385))
+                (IOPATH CLK CARRYOUT (0.458::0.926)(1.025::2.031))
+                (IOPATH CLK MULTSIGNOUT (0.470::0.934)(1.014::2.013))
+                (IOPATH CLK P (0.465::0.935)(1.037::2.054))
+                (IOPATH CLK PATTERNBDETECT (0.506::1.132)(1.121::2.620))
+                (IOPATH CLK PATTERNDETECT (0.506::1.132)(1.121::2.620))
+                (IOPATH CLK PCOUT (0.486::1.018)(1.080::2.251))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_CASCADE_MREG_0_PREG_0_USE_DPORT_FALSE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH ACIN CARRYCASCOUT (0.328::1.650)(0.753::3.969))
+                (IOPATH ACIN CARRYOUT (0.313::1.514)(0.743::3.615))
+                (IOPATH ACIN MULTSIGNOUT (0.324::1.523)(0.731::3.598))
+                (IOPATH ACIN P (0.320::1.526)(0.754::3.639))
+                (IOPATH ACIN PATTERNBDETECT (0.360::1.722)(0.839::4.205))
+                (IOPATH ACIN PATTERNDETECT (0.360::1.722)(0.839::4.205))
+                (IOPATH ACIN PCOUT (0.341::1.608)(0.797::3.833))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_CASCADE_MREG_0_PREG_0_USE_DPORT_FALSE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH ACIN CARRYCASCOUT (0.531::1.650)(1.233::3.969))
+                (IOPATH ACIN CARRYOUT (0.516::1.514)(1.223::3.615))
+                (IOPATH ACIN MULTSIGNOUT (0.527::1.523)(1.212::3.598))
+                (IOPATH ACIN P (0.521::1.526)(1.235::3.639))
+                (IOPATH ACIN PATTERNBDETECT (0.563::1.722)(1.320::4.205))
+                (IOPATH ACIN PATTERNDETECT (0.563::1.722)(1.320::4.205))
+                (IOPATH ACIN PCOUT (0.543::1.608)(1.278::3.833))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_CASCADE_MREG_0_PREG_1_USE_DPORT_FALSE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-3.520::-0.401))
+            (SETUP ACIN (posedge CLK) (0.401::3.520))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_CASCADE_MREG_0_PREG_1_USE_DPORT_FALSE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-3.912::-0.471))
+            (SETUP ACIN (posedge CLK) (0.471::3.912))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_CASCADE_MREG_0_PREG_1_USE_DPORT_FALSE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-3.520::-0.883))
+            (SETUP ACIN (posedge CLK) (0.883::3.520))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_CASCADE_MREG_0_PREG_1_USE_DPORT_FALSE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-3.912::-0.952))
+            (SETUP ACIN (posedge CLK) (0.952::3.912))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_CASCADE_MREG_1_USE_DPORT_FALSE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-1.727::-0.138))
+            (SETUP ACIN (posedge CLK) (0.138::1.727))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_CASCADE_MREG_1_USE_DPORT_FALSE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-1.727::-0.138))
+            (SETUP ACIN (posedge CLK) (0.138::1.727))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_CASCADE_PREG_0_USE_MULT_NONE")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH ACIN CARRYCASCOUT (0.328::0.881)(0.753::2.205))
+                (IOPATH ACIN CARRYOUT (0.313::0.745)(0.743::1.852))
+                (IOPATH ACIN MULTSIGNOUT (0.324::0.754)(0.731::1.834))
+                (IOPATH ACIN P (0.320::0.756)(0.754::1.874))
+                (IOPATH ACIN PATTERNBDETECT (0.360::0.953)(0.839::2.440))
+                (IOPATH ACIN PATTERNDETECT (0.360::0.953)(0.839::2.440))
+                (IOPATH ACIN PCOUT (0.341::0.838)(0.797::2.071))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_CASCADE_PREG_1_USE_MULT_NONE_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-1.755::-0.401))
+            (SETUP ACIN (posedge CLK) (0.401::1.755))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_CASCADE_PREG_1_USE_MULT_NONE_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-2.148::-0.471))
+            (SETUP ACIN (posedge CLK) (0.471::2.148))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_DIRECT_MREG_0_PREG_0_USE_DPORT_FALSE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A CARRYCASCOUT (0.414::1.767)(0.908::4.171))
+                (IOPATH A CARRYOUT (0.397::1.632)(0.900::3.818))
+                (IOPATH A MULTSIGNOUT (0.410::1.639)(0.887::3.799))
+                (IOPATH A P (0.404::1.642)(0.911::3.841))
+                (IOPATH A PATTERNBDETECT (0.445::1.839)(0.996::4.406))
+                (IOPATH A PATTERNDETECT (0.445::1.839)(0.996::4.406))
+                (IOPATH A PCOUT (0.426::1.725)(0.952::4.036))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_DIRECT_MREG_0_PREG_0_USE_DPORT_FALSE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A CARRYCASCOUT (0.618::1.767)(1.389::4.171))
+                (IOPATH A CARRYOUT (0.603::1.632)(1.380::3.818))
+                (IOPATH A MULTSIGNOUT (0.614::1.639)(1.368::3.799))
+                (IOPATH A P (0.609::1.642)(1.391::3.841))
+                (IOPATH A PATTERNBDETECT (0.650::1.839)(1.476::4.406))
+                (IOPATH A PATTERNDETECT (0.650::1.839)(1.476::4.406))
+                (IOPATH A PCOUT (0.631::1.725)(1.434::4.036))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_DIRECT_MREG_0_PREG_1_USE_DPORT_FALSE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-3.722::-0.558))
+            (SETUP A (posedge CLK) (0.558::3.722))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_DIRECT_MREG_0_PREG_1_USE_DPORT_FALSE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-4.114::-0.627))
+            (SETUP A (posedge CLK) (0.627::4.114))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_DIRECT_MREG_0_PREG_1_USE_DPORT_FALSE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-3.722::-1.040))
+            (SETUP A (posedge CLK) (1.040::3.722))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_DIRECT_MREG_0_PREG_1_USE_DPORT_FALSE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-4.114::-1.109))
+            (SETUP A (posedge CLK) (1.109::4.114))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_DIRECT_MREG_1_USE_DPORT_FALSE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-1.928::-0.294))
+            (SETUP A (posedge CLK) (0.294::1.928))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_DIRECT_MREG_1_USE_DPORT_FALSE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-1.928::-0.294))
+            (SETUP A (posedge CLK) (0.294::1.928))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_DIRECT_PREG_0_USE_MULT_NONE")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH A CARRYCASCOUT (0.414::0.997)(0.908::2.407))
+                (IOPATH A CARRYOUT (0.397::0.863)(0.900::2.053))
+                (IOPATH A MULTSIGNOUT (0.410::0.870)(0.887::2.036))
+                (IOPATH A P (0.404::0.873)(0.911::2.077))
+                (IOPATH A PATTERNBDETECT (0.445::1.069)(0.996::2.643))
+                (IOPATH A PATTERNDETECT (0.445::1.069)(0.996::2.643))
+                (IOPATH A PCOUT (0.426::0.956)(0.952::2.271))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_DIRECT_PREG_1_USE_MULT_NONE_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-1.958::-0.558))
+            (SETUP A (posedge CLK) (0.558::1.958))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_0_A_INPUT_DIRECT_PREG_1_USE_MULT_NONE_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-2.349::-0.627))
+            (SETUP A (posedge CLK) (0.627::2.349))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_1")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CEA1 (posedge CLK) (-0.497::0.035))
+            (SETUP CEA1 (posedge CLK) (-0.035::0.497))
+            (HOLD CEA2 (posedge CLK) (-0.497::0.035))
+            (SETUP CEA2 (posedge CLK) (-0.035::0.497))
+            (HOLD RSTA (posedge CLK) (-0.507::0.112))
+            (SETUP RSTA (posedge CLK) (-0.112::0.507))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_1_A_INPUT_CASCADE")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-0.319::0.139))
+            (SETUP ACIN (posedge CLK) (-0.139::0.319))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_1_A_INPUT_DIRECT")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-0.362::0.139))
+            (SETUP A (posedge CLK) (-0.139::0.362))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_1_MREG_0_PREG_0_USE_DPORT_FALSE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.498::1.828)(1.076::4.339))
+                (IOPATH CLK CARRYOUT (0.483::1.692)(1.066::3.986))
+                (IOPATH CLK MULTSIGNOUT (0.493::1.700)(1.055::3.969))
+                (IOPATH CLK P (0.490::1.702)(1.077::4.009))
+                (IOPATH CLK PATTERNBDETECT (0.530::1.898)(1.163::4.575))
+                (IOPATH CLK PATTERNDETECT (0.530::1.898)(1.163::4.575))
+                (IOPATH CLK PCOUT (0.511::1.786)(1.120::4.206))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_1_MREG_0_PREG_0_USE_DPORT_FALSE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.684::1.828)(1.469::4.339))
+                (IOPATH CLK CARRYOUT (0.667::1.692)(1.459::3.986))
+                (IOPATH CLK MULTSIGNOUT (0.680::1.700)(1.448::3.969))
+                (IOPATH CLK P (0.674::1.702)(1.471::4.009))
+                (IOPATH CLK PATTERNBDETECT (0.715::1.898)(1.556::4.575))
+                (IOPATH CLK PATTERNDETECT (0.715::1.898)(1.556::4.575))
+                (IOPATH CLK PCOUT (0.696::1.786)(1.513::4.206))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_1_PREG_0_USE_MULT_NONE")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.498::1.072)(1.076::2.545))
+                (IOPATH CLK CARRYOUT (0.483::0.936)(1.066::2.191))
+                (IOPATH CLK MULTSIGNOUT (0.493::0.945)(1.055::2.175))
+                (IOPATH CLK P (0.490::0.946)(1.077::2.215))
+                (IOPATH CLK PATTERNBDETECT (0.530::1.143)(1.163::2.781))
+                (IOPATH CLK PATTERNDETECT (0.530::1.143)(1.163::2.781))
+                (IOPATH CLK PCOUT (0.511::1.030)(1.120::2.411))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_2")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CEA1 (posedge CLK) (-0.497::0.035))
+            (SETUP CEA1 (posedge CLK) (-0.035::0.497))
+            (HOLD CEA2 (posedge CLK) (-0.497::0.035))
+            (SETUP CEA2 (posedge CLK) (-0.035::0.497))
+            (HOLD RSTA (posedge CLK) (-0.507::0.112))
+            (SETUP RSTA (posedge CLK) (-0.112::0.507))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_2_A_INPUT_CASCADE")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD ACIN (posedge CLK) (-0.319::0.139))
+            (SETUP ACIN (posedge CLK) (-0.139::0.319))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_2_A_INPUT_DIRECT")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD A (posedge CLK) (-0.362::0.139))
+            (SETUP A (posedge CLK) (-0.139::0.362))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_2_MREG_0_PREG_0_USE_DPORT_FALSE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.498::1.828)(1.076::4.339))
+                (IOPATH CLK CARRYOUT (0.483::1.692)(1.066::3.986))
+                (IOPATH CLK MULTSIGNOUT (0.493::1.700)(1.055::3.969))
+                (IOPATH CLK P (0.490::1.702)(1.077::4.009))
+                (IOPATH CLK PATTERNBDETECT (0.530::1.898)(1.163::4.575))
+                (IOPATH CLK PATTERNDETECT (0.530::1.898)(1.163::4.575))
+                (IOPATH CLK PCOUT (0.511::1.786)(1.120::4.206))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_2_MREG_0_PREG_0_USE_DPORT_FALSE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.684::1.828)(1.469::4.339))
+                (IOPATH CLK CARRYOUT (0.667::1.692)(1.459::3.986))
+                (IOPATH CLK MULTSIGNOUT (0.680::1.700)(1.448::3.969))
+                (IOPATH CLK P (0.674::1.702)(1.471::4.009))
+                (IOPATH CLK PATTERNBDETECT (0.715::1.898)(1.556::4.575))
+                (IOPATH CLK PATTERNDETECT (0.715::1.898)(1.556::4.575))
+                (IOPATH CLK PCOUT (0.696::1.786)(1.513::4.206))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_AREG_2_PREG_0_USE_MULT_NONE")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.498::1.072)(1.076::2.545))
+                (IOPATH CLK CARRYOUT (0.483::0.936)(1.066::2.191))
+                (IOPATH CLK MULTSIGNOUT (0.493::0.945)(1.055::2.175))
+                (IOPATH CLK P (0.490::0.946)(1.077::2.215))
+                (IOPATH CLK PATTERNBDETECT (0.530::1.143)(1.163::2.781))
+                (IOPATH CLK PATTERNDETECT (0.530::1.143)(1.163::2.781))
+                (IOPATH CLK PCOUT (0.511::1.030)(1.120::2.411))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BCASCREG_0_B_INPUT_CASCADE")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH BCIN BCOUT (0.146::0.180)(0.348::0.490))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BCASCREG_0_B_INPUT_DIRECT")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH B BCOUT (0.235::0.308)(0.515::0.735))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BCASCREG_1_BREG_1")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK BCOUT (0.505::0.516)(0.635::0.833))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BCASCREG_2_BREG_2")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK BCOUT (0.505::0.516)(0.635::0.833))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_CASCADE_MREG_0_PREG_0_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH BCIN CARRYCASCOUT (0.325::1.572)(0.749::3.741))
+                (IOPATH BCIN CARRYOUT (0.309::1.436)(0.738::3.387))
+                (IOPATH BCIN MULTSIGNOUT (0.322::1.445)(0.728::3.369))
+                (IOPATH BCIN P (0.316::1.447)(0.750::3.410))
+                (IOPATH BCIN PATTERNBDETECT (0.358::1.643)(0.835::3.976))
+                (IOPATH BCIN PATTERNDETECT (0.358::1.643)(0.835::3.976))
+                (IOPATH BCIN PCOUT (0.339::1.529)(0.793::3.606))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_CASCADE_MREG_0_PREG_0_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH BCIN CARRYCASCOUT (0.491::1.572)(1.143::3.741))
+                (IOPATH BCIN CARRYOUT (0.476::1.436)(1.134::3.387))
+                (IOPATH BCIN MULTSIGNOUT (0.487::1.445)(1.122::3.369))
+                (IOPATH BCIN P (0.481::1.447)(1.145::3.410))
+                (IOPATH BCIN PATTERNBDETECT (0.523::1.643)(1.230::3.976))
+                (IOPATH BCIN PATTERNDETECT (0.523::1.643)(1.230::3.976))
+                (IOPATH BCIN PCOUT (0.504::1.529)(1.188::3.606))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_CASCADE_MREG_0_PREG_1_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD BCIN (posedge CLK) (-3.290::-0.399))
+            (SETUP BCIN (posedge CLK) (0.399::3.290))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_CASCADE_MREG_0_PREG_1_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD BCIN (posedge CLK) (-3.684::-0.468))
+            (SETUP BCIN (posedge CLK) (0.468::3.684))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_CASCADE_MREG_0_PREG_1_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD BCIN (posedge CLK) (-3.290::-0.794))
+            (SETUP BCIN (posedge CLK) (0.794::3.290))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_CASCADE_MREG_0_PREG_1_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD BCIN (posedge CLK) (-3.684::-0.863))
+            (SETUP BCIN (posedge CLK) (0.863::3.684))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_CASCADE_MREG_1_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD BCIN (posedge CLK) (-1.498::-0.049))
+            (SETUP BCIN (posedge CLK) (0.049::1.498))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_CASCADE_MREG_1_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD BCIN (posedge CLK) (-1.498::-0.049))
+            (SETUP BCIN (posedge CLK) (0.049::1.498))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_CASCADE_PREG_0_USE_MULT_NONE")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH BCIN CARRYCASCOUT (0.325::0.864)(0.749::2.141))
+                (IOPATH BCIN CARRYOUT (0.309::0.728)(0.738::1.788))
+                (IOPATH BCIN MULTSIGNOUT (0.322::0.736)(0.728::1.771))
+                (IOPATH BCIN P (0.316::0.737)(0.750::1.812))
+                (IOPATH BCIN PATTERNBDETECT (0.358::0.934)(0.835::2.377))
+                (IOPATH BCIN PATTERNDETECT (0.358::0.934)(0.835::2.377))
+                (IOPATH BCIN PCOUT (0.339::0.821)(0.793::2.006))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_CASCADE_PREG_1_USE_MULT_NONE_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD BCIN (posedge CLK) (-1.692::-0.399))
+            (SETUP BCIN (posedge CLK) (0.399::1.692))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_CASCADE_PREG_1_USE_MULT_NONE_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD BCIN (posedge CLK) (-2.085::-0.468))
+            (SETUP BCIN (posedge CLK) (0.468::2.085))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_DIRECT_MREG_0_PREG_0_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH B CARRYCASCOUT (0.415::1.699)(0.914::3.986))
+                (IOPATH B CARRYOUT (0.400::1.564)(0.904::3.633))
+                (IOPATH B MULTSIGNOUT (0.411::1.572)(0.893::3.615))
+                (IOPATH B P (0.405::1.575)(0.915::3.656))
+                (IOPATH B PATTERNBDETECT (0.447::1.771)(1.000::4.221))
+                (IOPATH B PATTERNDETECT (0.447::1.771)(1.000::4.221))
+                (IOPATH B PCOUT (0.428::1.658)(0.958::3.851))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_DIRECT_MREG_0_PREG_0_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH B CARRYCASCOUT (0.580::1.699)(1.309::3.986))
+                (IOPATH B CARRYOUT (0.565::1.564)(1.299::3.633))
+                (IOPATH B MULTSIGNOUT (0.577::1.572)(1.288::3.615))
+                (IOPATH B P (0.571::1.575)(1.310::3.656))
+                (IOPATH B PATTERNBDETECT (0.612::1.771)(1.396::4.221))
+                (IOPATH B PATTERNDETECT (0.612::1.771)(1.396::4.221))
+                (IOPATH B PCOUT (0.593::1.658)(1.354::3.851))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_DIRECT_MREG_0_PREG_1_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD B (posedge CLK) (-3.536::-0.564))
+            (SETUP B (posedge CLK) (0.564::3.536))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_DIRECT_MREG_0_PREG_1_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD B (posedge CLK) (-3.929::-0.633))
+            (SETUP B (posedge CLK) (0.633::3.929))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_DIRECT_MREG_0_PREG_1_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD B (posedge CLK) (-3.536::-0.959))
+            (SETUP B (posedge CLK) (0.959::3.536))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_DIRECT_MREG_0_PREG_1_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD B (posedge CLK) (-3.929::-1.028))
+            (SETUP B (posedge CLK) (1.028::3.929))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_DIRECT_MREG_1_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD B (posedge CLK) (-1.743::-0.214))
+            (SETUP B (posedge CLK) (0.214::1.743))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_DIRECT_MREG_1_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD B (posedge CLK) (-1.743::-0.214))
+            (SETUP B (posedge CLK) (0.214::1.743))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_DIRECT_PREG_0_USE_MULT_NONE")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH B CARRYCASCOUT (0.415::0.991)(0.914::2.387))
+                (IOPATH B CARRYOUT (0.400::0.855)(0.904::2.033))
+                (IOPATH B MULTSIGNOUT (0.411::0.864)(0.893::2.017))
+                (IOPATH B P (0.405::0.865)(0.915::2.057))
+                (IOPATH B PATTERNBDETECT (0.447::1.062)(1.000::2.623))
+                (IOPATH B PATTERNDETECT (0.447::1.062)(1.000::2.623))
+                (IOPATH B PCOUT (0.428::0.948)(0.958::2.252))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_DIRECT_PREG_1_USE_MULT_NONE_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD B (posedge CLK) (-1.938::-0.564))
+            (SETUP B (posedge CLK) (0.564::1.938))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_0_B_INPUT_DIRECT_PREG_1_USE_MULT_NONE_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD B (posedge CLK) (-2.331::-0.633))
+            (SETUP B (posedge CLK) (0.633::2.331))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_1")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CEB1 (posedge CLK) (-0.514::0.102))
+            (SETUP CEB1 (posedge CLK) (-0.102::0.514))
+            (HOLD CEB2 (posedge CLK) (-0.514::0.102))
+            (SETUP CEB2 (posedge CLK) (-0.102::0.514))
+            (HOLD RSTB (posedge CLK) (-0.543::0.144))
+            (SETUP RSTB (posedge CLK) (-0.144::0.543))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_1_B_INPUT_CASCADE")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD BCIN (posedge CLK) (-0.352::0.178))
+            (SETUP BCIN (posedge CLK) (-0.178::0.352))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_1_B_INPUT_DIRECT")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD B (posedge CLK) (-0.450::0.178))
+            (SETUP B (posedge CLK) (-0.178::0.450))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_1_MREG_0_PREG_0_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.496::1.766)(1.068::4.143))
+                (IOPATH CLK CARRYOUT (0.481::1.630)(1.059::3.790))
+                (IOPATH CLK MULTSIGNOUT (0.492::1.638)(1.046::3.772))
+                (IOPATH CLK P (0.487::1.641)(1.070::3.813))
+                (IOPATH CLK PATTERNBDETECT (0.529::1.837)(1.156::4.378))
+                (IOPATH CLK PATTERNDETECT (0.529::1.837)(1.156::4.378))
+                (IOPATH CLK PCOUT (0.510::1.723)(1.114::4.008))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_1_MREG_0_PREG_0_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.639::1.766)(1.376::4.143))
+                (IOPATH CLK CARRYOUT (0.623::1.630)(1.366::3.790))
+                (IOPATH CLK MULTSIGNOUT (0.635::1.638)(1.355::3.772))
+                (IOPATH CLK P (0.630::1.641)(1.378::3.813))
+                (IOPATH CLK PATTERNBDETECT (0.671::1.837)(1.462::4.378))
+                (IOPATH CLK PATTERNDETECT (0.671::1.837)(1.462::4.378))
+                (IOPATH CLK PCOUT (0.651::1.723)(1.421::4.008))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_1_PREG_0_USE_MULT_NONE")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.496::1.062)(1.068::2.522))
+                (IOPATH CLK CARRYOUT (0.481::0.927)(1.059::2.168))
+                (IOPATH CLK MULTSIGNOUT (0.492::0.934)(1.046::2.150))
+                (IOPATH CLK P (0.487::0.936)(1.070::2.191))
+                (IOPATH CLK PATTERNBDETECT (0.529::1.133)(1.156::2.756))
+                (IOPATH CLK PATTERNDETECT (0.529::1.133)(1.156::2.756))
+                (IOPATH CLK PCOUT (0.510::1.020)(1.114::2.387))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_2")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CEB1 (posedge CLK) (-0.514::0.102))
+            (SETUP CEB1 (posedge CLK) (-0.102::0.514))
+            (HOLD CEB2 (posedge CLK) (-0.514::0.102))
+            (SETUP CEB2 (posedge CLK) (-0.102::0.514))
+            (HOLD RSTB (posedge CLK) (-0.543::0.144))
+            (SETUP RSTB (posedge CLK) (-0.144::0.543))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_2_B_INPUT_CASCADE")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD BCIN (posedge CLK) (-0.352::0.178))
+            (SETUP BCIN (posedge CLK) (-0.178::0.352))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_2_B_INPUT_DIRECT")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD B (posedge CLK) (-0.450::0.178))
+            (SETUP B (posedge CLK) (-0.178::0.450))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_2_MREG_0_PREG_0_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.496::1.766)(1.068::4.143))
+                (IOPATH CLK CARRYOUT (0.481::1.630)(1.059::3.790))
+                (IOPATH CLK MULTSIGNOUT (0.492::1.638)(1.046::3.772))
+                (IOPATH CLK P (0.487::1.641)(1.070::3.813))
+                (IOPATH CLK PATTERNBDETECT (0.529::1.837)(1.156::4.378))
+                (IOPATH CLK PATTERNDETECT (0.529::1.837)(1.156::4.378))
+                (IOPATH CLK PCOUT (0.510::1.723)(1.114::4.008))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_2_MREG_0_PREG_0_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.639::1.766)(1.376::4.143))
+                (IOPATH CLK CARRYOUT (0.623::1.630)(1.366::3.790))
+                (IOPATH CLK MULTSIGNOUT (0.635::1.638)(1.355::3.772))
+                (IOPATH CLK P (0.630::1.641)(1.378::3.813))
+                (IOPATH CLK PATTERNBDETECT (0.671::1.837)(1.462::4.378))
+                (IOPATH CLK PATTERNDETECT (0.671::1.837)(1.462::4.378))
+                (IOPATH CLK PCOUT (0.651::1.723)(1.421::4.008))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_BREG_2_PREG_0_USE_MULT_NONE")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.496::1.062)(1.068::2.522))
+                (IOPATH CLK CARRYOUT (0.481::0.927)(1.059::2.168))
+                (IOPATH CLK MULTSIGNOUT (0.492::0.934)(1.046::2.150))
+                (IOPATH CLK P (0.487::0.936)(1.070::2.191))
+                (IOPATH CLK PATTERNBDETECT (0.529::1.133)(1.156::2.756))
+                (IOPATH CLK PATTERNDETECT (0.529::1.133)(1.156::2.756))
+                (IOPATH CLK PCOUT (0.510::1.020)(1.114::2.387))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CARRYINREG_0_PREG_0")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CARRYIN CARRYCASCOUT (0.361::0.723)(0.830::1.746))
+                (IOPATH CARRYIN CARRYOUT (0.346::0.587)(0.820::1.393))
+                (IOPATH CARRYIN MULTSIGNOUT (0.358::0.595)(0.809::1.376))
+                (IOPATH CARRYIN P (0.352::0.596)(0.831::1.416))
+                (IOPATH CARRYIN PATTERNBDETECT (0.395::0.792)(0.917::1.982))
+                (IOPATH CARRYIN PATTERNDETECT (0.395::0.792)(0.917::1.982))
+                (IOPATH CARRYIN PCOUT (0.375::0.680)(0.875::1.613))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CARRYINREG_0_PREG_1_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CARRYIN (posedge CLK) (-1.298::-0.480))
+            (SETUP CARRYIN (posedge CLK) (0.480::1.298))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CARRYINREG_0_PREG_1_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CARRYIN (posedge CLK) (-1.690::-0.549))
+            (SETUP CARRYIN (posedge CLK) (0.549::1.690))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CARRYINREG_1")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CARRYIN (posedge CLK) (-0.299::0.151))
+            (SETUP CARRYIN (posedge CLK) (-0.151::0.299))
+            (HOLD CECARRYIN (posedge CLK) (-0.665::-0.049))
+            (SETUP CECARRYIN (posedge CLK) (0.049::0.665))
+            (HOLD RSTALLCARRYIN (posedge CLK) (-0.284::0.123))
+            (SETUP RSTALLCARRYIN (posedge CLK) (-0.123::0.284))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CARRYINREG_1_PREG_0")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.461::0.885)(1.032::2.094))
+                (IOPATH CLK CARRYOUT (0.445::0.749)(1.023::1.740))
+                (IOPATH CLK MULTSIGNOUT (0.458::0.757)(1.012::1.723))
+                (IOPATH CLK P (0.452::0.758)(1.034::1.764))
+                (IOPATH CLK PATTERNBDETECT (0.492::0.956)(1.119::2.330))
+                (IOPATH CLK PATTERNDETECT (0.492::0.956)(1.119::2.330))
+                (IOPATH CLK PCOUT (0.473::0.841)(1.077::1.958))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CARRYINSELREG_0_PREG_0")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CARRYINSEL CARRYCASCOUT (0.384::0.919)(0.856::2.241))
+                (IOPATH CARRYINSEL CARRYOUT (0.369::0.784)(0.846::1.888))
+                (IOPATH CARRYINSEL MULTSIGNOUT (0.379::0.791)(0.835::1.870))
+                (IOPATH CARRYINSEL P (0.375::0.794)(0.857::1.910))
+                (IOPATH CARRYINSEL PATTERNBDETECT (0.416::0.990)(0.943::2.476))
+                (IOPATH CARRYINSEL PATTERNDETECT (0.416::0.990)(0.943::2.476))
+                (IOPATH CARRYINSEL PCOUT (0.396::0.878)(0.900::2.106))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CARRYINSELREG_0_PREG_1_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CARRYINSEL (posedge CLK) (-1.793::-0.506))
+            (SETUP CARRYINSEL (posedge CLK) (0.506::1.793))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CARRYINSELREG_0_PREG_1_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CARRYINSEL (posedge CLK) (-2.184::-0.575))
+            (SETUP CARRYINSEL (posedge CLK) (0.575::2.184))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CARRYINSELREG_1")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CARRYINSEL (posedge CLK) (-0.208::0.174))
+            (SETUP CARRYINSEL (posedge CLK) (-0.174::0.208))
+            (HOLD CECTRL (posedge CLK) (-0.421::0.123))
+            (SETUP CECTRL (posedge CLK) (-0.123::0.421))
+            (HOLD RSTCTRL (posedge CLK) (-0.469::0.076))
+            (SETUP RSTCTRL (posedge CLK) (-0.076::0.469))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CARRYINSELREG_1_PREG_0")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.455::0.981)(1.012::2.257))
+                (IOPATH CLK CARRYOUT (0.440::0.844)(1.002::1.903))
+                (IOPATH CLK MULTSIGNOUT (0.452::0.853)(0.991::1.884))
+                (IOPATH CLK P (0.446::0.854)(1.014::1.927))
+                (IOPATH CLK PATTERNBDETECT (0.487::1.050)(1.099::2.493))
+                (IOPATH CLK PATTERNDETECT (0.487::1.050)(1.099::2.493))
+                (IOPATH CLK PCOUT (0.468::0.938)(1.057::2.122))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CREG_0_PREG_0")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH C CARRYCASCOUT (0.317::0.868)(0.705::2.150))
+                (IOPATH C CARRYOUT (0.302::0.732)(0.696::1.797))
+                (IOPATH C MULTSIGNOUT (0.314::0.742)(0.684::1.779))
+                (IOPATH C P (0.308::0.743)(0.707::1.820))
+                (IOPATH C PATTERNBDETECT (0.350::0.939)(0.792::2.386))
+                (IOPATH C PATTERNDETECT (0.350::0.939)(0.792::2.386))
+                (IOPATH C PCOUT (0.331::0.826)(0.750::2.016))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CREG_0_PREG_1_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD C (posedge CLK) (-1.701::-0.355))
+            (SETUP C (posedge CLK) (0.355::1.701))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CREG_0_PREG_1_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD C (posedge CLK) (-2.093::-0.424))
+            (SETUP C (posedge CLK) (0.424::2.093))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CREG_1")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD C (posedge CLK) (-0.233::0.210))
+            (SETUP C (posedge CLK) (-0.210::0.233))
+            (HOLD CEC (posedge CLK) (-0.414::0.124))
+            (SETUP CEC (posedge CLK) (-0.124::0.414))
+            (HOLD RSTC (posedge CLK) (-0.084::0.119))
+            (SETUP RSTC (posedge CLK) (-0.119::0.084))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_CREG_1_PREG_0")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.487::1.077)(1.080::2.621))
+                (IOPATH CLK CARRYOUT (0.472::0.941)(1.070::2.268))
+                (IOPATH CLK MULTSIGNOUT (0.484::0.950)(1.059::2.251))
+                (IOPATH CLK P (0.478::0.953)(1.082::2.291))
+                (IOPATH CLK PATTERNBDETECT (0.520::1.148)(1.166::2.857))
+                (IOPATH CLK PATTERNDETECT (0.520::1.148)(1.166::2.857))
+                (IOPATH CLK PCOUT (0.501::1.035)(1.125::2.488))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_DREG_1")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CED (posedge CLK) (-0.513::-0.054))
+            (SETUP CED (posedge CLK) (0.054::0.513))
+            (HOLD D (posedge CLK) (-0.413::0.265))
+            (SETUP D (posedge CLK) (-0.265::0.413))
+            (HOLD RSTD (posedge CLK) (-0.587::0.083))
+            (SETUP RSTD (posedge CLK) (-0.083::0.587))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_0_MREG_0_PREG_0_USE_DPORT_FALSE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH INMODE CARRYCASCOUT (0.606::1.800)(1.341::4.254))
+                (IOPATH INMODE CARRYOUT (0.591::1.665)(1.332::3.900))
+                (IOPATH INMODE MULTSIGNOUT (0.603::1.672)(1.320::3.883))
+                (IOPATH INMODE P (0.597::1.675)(1.343::3.923))
+                (IOPATH INMODE PATTERNBDETECT (0.639::1.871)(1.428::4.489))
+                (IOPATH INMODE PATTERNDETECT (0.639::1.871)(1.428::4.489))
+                (IOPATH INMODE PCOUT (0.619::1.759)(1.386::4.119))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_0_MREG_0_PREG_0_USE_DPORT_FALSE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH INMODE CARRYCASCOUT (0.606::1.800)(1.341::4.254))
+                (IOPATH INMODE CARRYOUT (0.591::1.665)(1.332::3.900))
+                (IOPATH INMODE MULTSIGNOUT (0.603::1.672)(1.320::3.883))
+                (IOPATH INMODE P (0.597::1.675)(1.343::3.923))
+                (IOPATH INMODE PATTERNBDETECT (0.639::1.871)(1.428::4.489))
+                (IOPATH INMODE PATTERNDETECT (0.639::1.871)(1.428::4.489))
+                (IOPATH INMODE PCOUT (0.619::1.759)(1.386::4.119))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_0_MREG_0_PREG_0_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH INMODE CARRYCASCOUT (0.592::1.719)(1.310::4.085))
+                (IOPATH INMODE CARRYOUT (0.577::1.583)(1.302::3.732))
+                (IOPATH INMODE MULTSIGNOUT (0.588::1.591)(1.289::3.715))
+                (IOPATH INMODE P (0.584::1.593)(1.313::3.755))
+                (IOPATH INMODE PATTERNBDETECT (0.624::1.789)(1.398::4.321))
+                (IOPATH INMODE PATTERNDETECT (0.624::1.789)(1.398::4.321))
+                (IOPATH INMODE PCOUT (0.605::1.676)(1.355::3.950))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_0_MREG_0_PREG_0_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH INMODE CARRYCASCOUT (0.592::1.719)(1.310::4.085))
+                (IOPATH INMODE CARRYOUT (0.577::1.583)(1.302::3.732))
+                (IOPATH INMODE MULTSIGNOUT (0.588::1.591)(1.289::3.715))
+                (IOPATH INMODE P (0.584::1.593)(1.313::3.755))
+                (IOPATH INMODE PATTERNBDETECT (0.624::1.789)(1.398::4.321))
+                (IOPATH INMODE PATTERNDETECT (0.624::1.789)(1.398::4.321))
+                (IOPATH INMODE PCOUT (0.605::1.676)(1.355::3.950))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_0_MREG_0_PREG_1_USE_DPORT_FALSE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-3.805::-0.991))
+            (SETUP INMODE (posedge CLK) (0.991::3.805))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_0_MREG_0_PREG_1_USE_DPORT_FALSE_USE_MULT_DYNAMIC_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-4.196::-1.061))
+            (SETUP INMODE (posedge CLK) (1.061::4.196))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_0_MREG_0_PREG_1_USE_DPORT_FALSE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-3.805::-0.991))
+            (SETUP INMODE (posedge CLK) (0.991::3.805))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_0_MREG_0_PREG_1_USE_DPORT_FALSE_USE_MULT_MULTIPLY_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-4.196::-1.061))
+            (SETUP INMODE (posedge CLK) (1.061::4.196))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_0_MREG_1_USE_DPORT_FALSE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-2.012::-0.245))
+            (SETUP INMODE (posedge CLK) (0.245::2.012))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_0_MREG_1_USE_DPORT_FALSE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD INMODE (posedge CLK) (-2.012::-0.245))
+            (SETUP INMODE (posedge CLK) (0.245::2.012))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_1")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CEINMODE (posedge CLK) (-0.603::0.205))
+            (SETUP CEINMODE (posedge CLK) (-0.205::0.603))
+            (HOLD INMODE (posedge CLK) (-0.449::0.186))
+            (SETUP INMODE (posedge CLK) (-0.186::0.449))
+            (HOLD RSTINMODE (posedge CLK) (-0.686::0.074))
+            (SETUP RSTINMODE (posedge CLK) (-0.074::0.686))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_1_MREG_0_PREG_0_USE_DPORT_FALSE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.687::1.898)(1.503::4.441))
+                (IOPATH CLK CARRYOUT (0.672::1.764)(1.493::4.088))
+                (IOPATH CLK MULTSIGNOUT (0.684::1.771)(1.481::4.070))
+                (IOPATH CLK P (0.679::1.773)(1.504::4.111))
+                (IOPATH CLK PATTERNBDETECT (0.719::1.970)(1.590::4.676))
+                (IOPATH CLK PATTERNDETECT (0.719::1.970)(1.590::4.676))
+                (IOPATH CLK PCOUT (0.700::1.856)(1.548::4.307))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_INMODEREG_1_MREG_0_PREG_0_USE_DPORT_FALSE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.687::1.898)(1.503::4.441))
+                (IOPATH CLK CARRYOUT (0.672::1.764)(1.493::4.088))
+                (IOPATH CLK MULTSIGNOUT (0.684::1.771)(1.481::4.070))
+                (IOPATH CLK P (0.679::1.773)(1.504::4.111))
+                (IOPATH CLK PATTERNBDETECT (0.719::1.970)(1.590::4.676))
+                (IOPATH CLK PATTERNDETECT (0.719::1.970)(1.590::4.676))
+                (IOPATH CLK PCOUT (0.700::1.856)(1.548::4.307))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_MREG_1")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CEM (posedge CLK) (-0.266::0.224))
+            (SETUP CEM (posedge CLK) (-0.224::0.266))
+            (HOLD RSTALLCARRYIN (posedge CLK) (-0.287::0.120))
+            (SETUP RSTALLCARRYIN (posedge CLK) (-0.120::0.287))
+            (HOLD RSTM (posedge CLK) (-0.270::0.274))
+            (SETUP RSTM (posedge CLK) (-0.274::0.270))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_MREG_1_PREG_0")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.473::1.045)(1.051::2.634))
+                (IOPATH CLK CARRYOUT (0.458::0.909)(1.043::2.282))
+                (IOPATH CLK MULTSIGNOUT (0.470::0.918)(1.030::2.263))
+                (IOPATH CLK P (0.465::0.919)(1.053::2.305))
+                (IOPATH CLK PATTERNBDETECT (0.505::1.116)(1.139::2.870))
+                (IOPATH CLK PATTERNDETECT (0.505::1.116)(1.139::2.870))
+                (IOPATH CLK PCOUT (0.486::1.003)(1.095::2.500))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_OPMODEREG_0_PREG_0")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH OPMODE CARRYCASCOUT (0.446::1.127)(0.991::2.657))
+                (IOPATH OPMODE CARRYOUT (0.432::0.993)(0.981::2.304))
+                (IOPATH OPMODE MULTSIGNOUT (0.443::1.000)(0.970::2.286))
+                (IOPATH OPMODE P (0.437::1.003)(0.993::2.326))
+                (IOPATH OPMODE PATTERNBDETECT (0.479::1.199)(1.077::2.892))
+                (IOPATH OPMODE PATTERNDETECT (0.479::1.199)(1.077::2.892))
+                (IOPATH OPMODE PCOUT (0.460::1.086)(1.036::2.522))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_OPMODEREG_0_PREG_1_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD OPMODE (posedge CLK) (-2.209::-0.640))
+            (SETUP OPMODE (posedge CLK) (0.640::2.209))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_OPMODEREG_0_PREG_1_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD OPMODE (posedge CLK) (-2.600::-0.710))
+            (SETUP OPMODE (posedge CLK) (0.710::2.600))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_OPMODEREG_1")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CECTRL (posedge CLK) (-0.421::0.123))
+            (SETUP CECTRL (posedge CLK) (-0.123::0.421))
+            (HOLD OPMODE (posedge CLK) (-0.449::0.223))
+            (SETUP OPMODE (posedge CLK) (-0.223::0.449))
+            (HOLD RSTCTRL (posedge CLK) (-0.469::0.076))
+            (SETUP RSTCTRL (posedge CLK) (-0.076::0.469))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_OPMODEREG_1_PREG_0")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.492::1.127)(1.093::2.562))
+                (IOPATH CLK CARRYOUT (0.477::0.991)(1.084::2.208))
+                (IOPATH CLK MULTSIGNOUT (0.489::1.000)(1.071::2.189))
+                (IOPATH CLK P (0.483::1.002)(1.095::2.231))
+                (IOPATH CLK PATTERNBDETECT (0.524::1.199)(1.181::2.796))
+                (IOPATH CLK PATTERNDETECT (0.524::1.199)(1.181::2.796))
+                (IOPATH CLK PCOUT (0.505::1.085)(1.139::2.426))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_PREG_0")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CARRYCASCIN CARRYCASCOUT (0.271::0.615)(0.605::1.478))
+                (IOPATH CARRYCASCIN CARRYOUT (0.255::0.479)(0.596::1.124))
+                (IOPATH CARRYCASCIN MULTSIGNOUT (0.267::0.487)(0.585::1.106))
+                (IOPATH CARRYCASCIN P (0.262::0.490)(0.607::1.147))
+                (IOPATH CARRYCASCIN PATTERNBDETECT (0.302::0.686)(0.692::1.712))
+                (IOPATH CARRYCASCIN PATTERNDETECT (0.302::0.686)(0.692::1.712))
+                (IOPATH CARRYCASCIN PCOUT (0.283::0.573)(0.650::1.343))
+                (IOPATH MULTSIGNIN CARRYCASCOUT (0.255::0.758)(0.565::1.848))
+                (IOPATH MULTSIGNIN CARRYOUT (0.239::0.622)(0.556::1.494))
+                (IOPATH MULTSIGNIN MULTSIGNOUT (0.252::0.631)(0.543::1.478))
+                (IOPATH MULTSIGNIN P (0.246::0.633)(0.567::1.518))
+                (IOPATH MULTSIGNIN PATTERNBDETECT (0.287::0.830)(0.653::2.084))
+                (IOPATH MULTSIGNIN PATTERNDETECT (0.287::0.830)(0.653::2.084))
+                (IOPATH MULTSIGNIN PCOUT (0.267::0.716)(0.611::1.713))
+                (IOPATH PCIN CARRYCASCOUT (0.255::0.758)(0.565::1.848))
+                (IOPATH PCIN CARRYOUT (0.239::0.622)(0.556::1.494))
+                (IOPATH PCIN MULTSIGNOUT (0.252::0.631)(0.543::1.478))
+                (IOPATH PCIN P (0.246::0.633)(0.567::1.518))
+                (IOPATH PCIN PATTERNBDETECT (0.287::0.830)(0.653::2.084))
+                (IOPATH PCIN PATTERNDETECT (0.287::0.830)(0.653::2.084))
+                (IOPATH PCIN PCOUT (0.267::0.716)(0.611::1.713))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_PREG_1")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.383::0.457)(0.437::0.688))
+                (IOPATH CLK CARRYOUT (0.126::0.182)(0.308::0.415))
+                (IOPATH CLK MULTSIGNOUT (0.356::0.434)(0.386::0.478))
+                (IOPATH CLK OVERFLOW (0.144::0.318)(0.319::0.700))
+                (IOPATH CLK P (0.126::0.192)(0.304::0.434))
+                (IOPATH CLK PATTERNBDETECT (0.132::0.302)(0.290::0.662))
+                (IOPATH CLK PATTERNDETECT (0.132::0.302)(0.290::0.662))
+                (IOPATH CLK PCOUT (0.400::0.434)(0.426::0.478))
+                (IOPATH CLK UNDERFLOW (0.136::0.233)(0.302::0.525))
+            )
+        )
+        (TIMINGCHECK
+            (HOLD CEP (posedge CLK) (-0.524::0.005))
+            (SETUP CEP (posedge CLK) (-0.005::0.524))
+            (HOLD RSTP (posedge CLK) (-0.347::0.006))
+            (SETUP RSTP (posedge CLK) (-0.006::0.347))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_PREG_1_USE_PATTERN_DETECT_NO_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CARRYCASCIN (posedge CLK) (-1.028::-0.256))
+            (SETUP CARRYCASCIN (posedge CLK) (0.256::1.028))
+            (HOLD MULTSIGNIN (posedge CLK) (-1.400::-0.215))
+            (SETUP MULTSIGNIN (posedge CLK) (0.215::1.400))
+            (HOLD PCIN (posedge CLK) (-1.400::-0.215))
+            (SETUP PCIN (posedge CLK) (0.215::1.400))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1_PREG_1_USE_PATTERN_DETECT_PATDET")
+        (INSTANCE DSP48E1)
+        (TIMINGCHECK
+            (HOLD CARRYCASCIN (posedge CLK) (-1.420::-0.325))
+            (SETUP CARRYCASCIN (posedge CLK) (0.325::1.420))
+            (HOLD MULTSIGNIN (posedge CLK) (-1.792::-0.285))
+            (SETUP MULTSIGNIN (posedge CLK) (0.285::1.792))
+            (HOLD PCIN (posedge CLK) (-1.792::-0.285))
+            (SETUP PCIN (posedge CLK) (0.285::1.792))
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1DREG_1_ADREG_0_DREG_0_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_DYNAMIC")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.705::2.375)(1.531::5.650))
+                (IOPATH CLK CARRYOUT (0.688::2.241)(1.522::5.297))
+                (IOPATH CLK MULTSIGNOUT (0.700::2.248)(1.510::5.279))
+                (IOPATH CLK P (0.696::2.251)(1.533::5.320))
+                (IOPATH CLK PATTERNBDETECT (0.736::2.447)(1.618::5.885))
+                (IOPATH CLK PATTERNDETECT (0.736::2.447)(1.618::5.885))
+                (IOPATH CLK PCOUT (0.717::2.334)(1.575::5.515))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "DSP48E1DREG_1_ADREG_0_DREG_0_MREG_0_PREG_0_USE_DPORT_TRUE_USE_MULT_MULTIPLY")
+        (INSTANCE DSP48E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLK CARRYCASCOUT (0.705::2.375)(1.531::5.650))
+                (IOPATH CLK CARRYOUT (0.688::2.241)(1.522::5.297))
+                (IOPATH CLK MULTSIGNOUT (0.700::2.248)(1.510::5.279))
+                (IOPATH CLK P (0.696::2.251)(1.533::5.320))
+                (IOPATH CLK PATTERNBDETECT (0.736::2.447)(1.618::5.885))
+                (IOPATH CLK PATTERNDETECT (0.736::2.447)(1.618::5.885))
+                (IOPATH CLK PCOUT (0.717::2.334)(1.575::5.515))
+            )
+        )
+    )
+)

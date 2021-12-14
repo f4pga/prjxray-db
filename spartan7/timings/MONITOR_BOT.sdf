@@ -1,0 +1,36 @@
+
+(DELAYFILE
+    (SDFVERSION "3.0")
+    (TIMESCALE 1ns)
+
+    (CELL
+        (CELLTYPE "XADC")
+        (INSTANCE XADC)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH DCLK ALM (0.289::0.307)(1.208::1.284))
+                (IOPATH DCLK BUSY (0.301::0.319)(1.218::1.294))
+                (IOPATH DCLK CHANNEL (0.281::0.299)(1.200::1.276))
+                (IOPATH DCLK DO (0.256::0.272)(1.142::1.214))
+                (IOPATH DCLK DRDY (0.256::0.272)(1.132::1.204))
+                (IOPATH DCLK EOC (0.379::0.403)(1.437::1.527))
+                (IOPATH DCLK EOS (0.288::0.306)(1.231::1.309))
+                (IOPATH DCLK JTAGBUSY (0.334::0.354)(1.331::1.415))
+                (IOPATH DCLK JTAGLOCKED (0.276::0.294)(1.190::1.264))
+                (IOPATH DCLK JTAGMODIFIED (0.273::0.289)(1.177::1.251))
+                (IOPATH DCLK MUXADDR (0.355::0.377)(1.404::1.492))
+                (IOPATH DCLK OT (0.301::0.319)(1.269::1.349))
+            )
+        )
+        (TIMINGCHECK
+            (HOLD DADDR (posedge DCLK) (-0.002::0.017))
+            (SETUP DADDR (posedge DCLK) (0.659::0.699))
+            (HOLD DEN (posedge DCLK) (-0.025::-0.013))
+            (SETUP DEN (posedge DCLK) (0.800::0.848))
+            (HOLD DI (posedge DCLK) (-0.009::0.010))
+            (SETUP DI (posedge DCLK) (0.610::0.648))
+            (HOLD DWE (posedge DCLK) (-0.022::-0.005))
+            (SETUP DWE (posedge DCLK) (0.531::0.565))
+        )
+    )
+)

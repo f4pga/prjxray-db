@@ -6,18 +6,6 @@
         "ADDRARDADDR1": {
             "direction": "IN"
         },
-        "ADDRARDADDR10": {
-            "direction": "IN"
-        },
-        "ADDRARDADDR11": {
-            "direction": "IN"
-        },
-        "ADDRARDADDR12": {
-            "direction": "IN"
-        },
-        "ADDRARDADDR13": {
-            "direction": "IN"
-        },
         "ADDRARDADDR2": {
             "direction": "IN"
         },
@@ -42,6 +30,18 @@
         "ADDRARDADDR9": {
             "direction": "IN"
         },
+        "ADDRARDADDR10": {
+            "direction": "IN"
+        },
+        "ADDRARDADDR11": {
+            "direction": "IN"
+        },
+        "ADDRARDADDR12": {
+            "direction": "IN"
+        },
+        "ADDRARDADDR13": {
+            "direction": "IN"
+        },
         "ADDRATIEHIGH0": {
             "direction": "IN"
         },
@@ -58,18 +58,6 @@
             "direction": "IN"
         },
         "ADDRBWRADDR1": {
-            "direction": "IN"
-        },
-        "ADDRBWRADDR10": {
-            "direction": "IN"
-        },
-        "ADDRBWRADDR11": {
-            "direction": "IN"
-        },
-        "ADDRBWRADDR12": {
-            "direction": "IN"
-        },
-        "ADDRBWRADDR13": {
             "direction": "IN"
         },
         "ADDRBWRADDR2": {
@@ -96,6 +84,18 @@
         "ADDRBWRADDR9": {
             "direction": "IN"
         },
+        "ADDRBWRADDR10": {
+            "direction": "IN"
+        },
+        "ADDRBWRADDR11": {
+            "direction": "IN"
+        },
+        "ADDRBWRADDR12": {
+            "direction": "IN"
+        },
+        "ADDRBWRADDR13": {
+            "direction": "IN"
+        },
         "ALMOSTEMPTY": {
             "direction": "OUT"
         },
@@ -106,24 +106,6 @@
             "direction": "IN"
         },
         "DIADI1": {
-            "direction": "IN"
-        },
-        "DIADI10": {
-            "direction": "IN"
-        },
-        "DIADI11": {
-            "direction": "IN"
-        },
-        "DIADI12": {
-            "direction": "IN"
-        },
-        "DIADI13": {
-            "direction": "IN"
-        },
-        "DIADI14": {
-            "direction": "IN"
-        },
-        "DIADI15": {
             "direction": "IN"
         },
         "DIADI2": {
@@ -150,28 +132,28 @@
         "DIADI9": {
             "direction": "IN"
         },
+        "DIADI10": {
+            "direction": "IN"
+        },
+        "DIADI11": {
+            "direction": "IN"
+        },
+        "DIADI12": {
+            "direction": "IN"
+        },
+        "DIADI13": {
+            "direction": "IN"
+        },
+        "DIADI14": {
+            "direction": "IN"
+        },
+        "DIADI15": {
+            "direction": "IN"
+        },
         "DIBDI0": {
             "direction": "IN"
         },
         "DIBDI1": {
-            "direction": "IN"
-        },
-        "DIBDI10": {
-            "direction": "IN"
-        },
-        "DIBDI11": {
-            "direction": "IN"
-        },
-        "DIBDI12": {
-            "direction": "IN"
-        },
-        "DIBDI13": {
-            "direction": "IN"
-        },
-        "DIBDI14": {
-            "direction": "IN"
-        },
-        "DIBDI15": {
             "direction": "IN"
         },
         "DIBDI2": {
@@ -198,6 +180,24 @@
         "DIBDI9": {
             "direction": "IN"
         },
+        "DIBDI10": {
+            "direction": "IN"
+        },
+        "DIBDI11": {
+            "direction": "IN"
+        },
+        "DIBDI12": {
+            "direction": "IN"
+        },
+        "DIBDI13": {
+            "direction": "IN"
+        },
+        "DIBDI14": {
+            "direction": "IN"
+        },
+        "DIBDI15": {
+            "direction": "IN"
+        },
         "DIPADIP0": {
             "direction": "IN"
         },
@@ -214,6 +214,30 @@
             "direction": "OUT"
         },
         "DO1": {
+            "direction": "OUT"
+        },
+        "DO2": {
+            "direction": "OUT"
+        },
+        "DO3": {
+            "direction": "OUT"
+        },
+        "DO4": {
+            "direction": "OUT"
+        },
+        "DO5": {
+            "direction": "OUT"
+        },
+        "DO6": {
+            "direction": "OUT"
+        },
+        "DO7": {
+            "direction": "OUT"
+        },
+        "DO8": {
+            "direction": "OUT"
+        },
+        "DO9": {
             "direction": "OUT"
         },
         "DO10": {
@@ -246,9 +270,6 @@
         "DO19": {
             "direction": "OUT"
         },
-        "DO2": {
-            "direction": "OUT"
-        },
         "DO20": {
             "direction": "OUT"
         },
@@ -279,31 +300,10 @@
         "DO29": {
             "direction": "OUT"
         },
-        "DO3": {
-            "direction": "OUT"
-        },
         "DO30": {
             "direction": "OUT"
         },
         "DO31": {
-            "direction": "OUT"
-        },
-        "DO4": {
-            "direction": "OUT"
-        },
-        "DO5": {
-            "direction": "OUT"
-        },
-        "DO6": {
-            "direction": "OUT"
-        },
-        "DO7": {
-            "direction": "OUT"
-        },
-        "DO8": {
-            "direction": "OUT"
-        },
-        "DO9": {
             "direction": "OUT"
         },
         "DOP0": {
@@ -333,12 +333,6 @@
         "RDCOUNT1": {
             "direction": "OUT"
         },
-        "RDCOUNT10": {
-            "direction": "OUT"
-        },
-        "RDCOUNT11": {
-            "direction": "OUT"
-        },
         "RDCOUNT2": {
             "direction": "OUT"
         },
@@ -361,6 +355,12 @@
             "direction": "OUT"
         },
         "RDCOUNT9": {
+            "direction": "OUT"
+        },
+        "RDCOUNT10": {
+            "direction": "OUT"
+        },
+        "RDCOUNT11": {
             "direction": "OUT"
         },
         "RDEN": {
@@ -438,12 +438,6 @@
         "WRCOUNT1": {
             "direction": "OUT"
         },
-        "WRCOUNT10": {
-            "direction": "OUT"
-        },
-        "WRCOUNT11": {
-            "direction": "OUT"
-        },
         "WRCOUNT2": {
             "direction": "OUT"
         },
@@ -466,6 +460,12 @@
             "direction": "OUT"
         },
         "WRCOUNT9": {
+            "direction": "OUT"
+        },
+        "WRCOUNT10": {
+            "direction": "OUT"
+        },
+        "WRCOUNT11": {
             "direction": "OUT"
         },
         "WREN": {

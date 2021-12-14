@@ -1,0 +1,342 @@
+
+(DELAYFILE
+    (SDFVERSION "3.0")
+    (TIMESCALE 1ns)
+
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD ADDRA15L (posedge CLKARDCLKU) (-0.515::0.357))
+            (SETUP ADDRA15L (posedge CLKARDCLKU) (-0.357::0.515))
+            (HOLD ADDRAU (posedge CLKARDCLKU) (-0.566::0.360))
+            (SETUP ADDRAU (posedge CLKARDCLKU) (-0.360::0.566))
+            (HOLD ADDRB15L (posedge CLKBWRCLKU) (-0.515::0.357))
+            (SETUP ADDRB15L (posedge CLKBWRCLKU) (-0.357::0.515))
+            (HOLD ADDRBU (posedge CLKBWRCLKU) (-0.566::0.360))
+            (SETUP ADDRBU (posedge CLKBWRCLKU) (-0.360::0.566))
+            (HOLD WEAU (posedge CLKARDCLKU) (-0.532::0.197))
+            (SETUP WEAU (posedge CLKARDCLKU) (-0.197::0.532))
+            (HOLD WEBU (posedge CLKBWRCLKU) (-0.532::0.197))
+            (SETUP WEBU (posedge CLKBWRCLKU) (-0.197::0.532))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1_DOA_REG_L_1")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD REGCEAL (posedge CLKARDCLKL) (-0.360::0.155))
+            (SETUP REGCEAL (posedge CLKARDCLKL) (-0.155::0.360))
+            (HOLD RSTREGAL (posedge CLKARDCLKL) (-0.342::0.067))
+            (SETUP RSTREGAL (posedge CLKARDCLKL) (-0.067::0.342))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1_DOA_REG_U_1")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD REGCEAL (posedge CLKARDCLKL) (-0.360::0.155))
+            (SETUP REGCEAL (posedge CLKARDCLKL) (-0.155::0.360))
+            (HOLD RSTREGAU (posedge CLKARDCLKU) (-0.342::0.067))
+            (SETUP RSTREGAU (posedge CLKARDCLKU) (-0.067::0.342))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1_DOB_REG_L_1_DOB_REG_U_1")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD REGCEBU (posedge REGCLKBU) (-0.360::0.155))
+            (SETUP REGCEBU (posedge REGCLKBU) (-0.155::0.360))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1_DOB_REG_U_1")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD REGCEBU (posedge CLKBWRCLKU) (-0.360::0.155))
+            (SETUP REGCEBU (posedge CLKBWRCLKU) (-0.155::0.360))
+            (HOLD RSTREGBU (posedge CLKBWRCLKU) (-0.342::0.067))
+            (SETUP RSTREGBU (posedge CLKBWRCLKU) (-0.067::0.342))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1_DOB_REG_U_1_IS18K_TRUE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH REGCLKBU DOBDOU (0.204::0.327)(0.468::0.882))
+                (IOPATH REGCLKBU DOPBDOPU (0.204::0.327)(0.468::0.882))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1_ISFIFO_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD ENARDENU (posedge CLKARDCLKU) (-0.443::0.227))
+            (SETUP ENARDENU (posedge CLKARDCLKU) (-0.227::0.443))
+            (HOLD ENBWRENU (posedge CLKBWRCLKU) (-0.443::0.227))
+            (SETUP ENBWRENU (posedge CLKBWRCLKU) (-0.227::0.443))
+            (HOLD RSTRAMAU (posedge CLKARDCLKU) (-0.359::0.453))
+            (SETUP RSTRAMAU (posedge CLKARDCLKU) (-0.453::0.359))
+            (HOLD RSTRAMBU (posedge CLKBWRCLKU) (-0.359::0.453))
+            (SETUP RSTRAMBU (posedge CLKBWRCLKU) (-0.453::0.359))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1_ISFIFO_TRUE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKARDCLKL ALMOSTEMPTY (0.256::0.290)(0.530::0.864))
+                (IOPATH CLKARDCLKL EMPTY (0.251::0.295)(0.521::0.875))
+                (IOPATH CLKARDCLKL RDCOUNT (0.318::0.407)(0.660::1.147))
+                (IOPATH CLKARDCLKL RDERR (0.269::0.313)(0.562::0.981))
+                (IOPATH CLKBWRCLKL ALMOSTFULL (0.268::0.313)(0.558::0.919))
+                (IOPATH CLKBWRCLKL FULL (0.266::0.313)(0.555::1.041))
+                (IOPATH CLKBWRCLKL WRCOUNT (0.340::0.395)(0.701::1.106))
+                (IOPATH CLKBWRCLKL WRERR (0.265::0.313)(0.549::0.914))
+                (IOPATH RSTRAMARSTL ALMOSTEMPTY (0.271::0.324)(0.552::0.963))
+                (IOPATH RSTRAMARSTL ALMOSTFULL (0.284::0.333)(0.585::0.990))
+                (IOPATH RSTRAMARSTL EMPTY (0.279::0.321)(0.575::0.960))
+                (IOPATH RSTRAMARSTL FULL (0.283::0.329)(0.586::0.983))
+                (IOPATH RSTRAMARSTL RDCOUNT (0.315::0.378)(0.637::1.093))
+                (IOPATH RSTRAMARSTL RDERR (0.292::0.338)(0.594::1.005))
+                (IOPATH RSTRAMARSTL WRCOUNT (0.322::0.378)(0.660::1.097))
+                (IOPATH RSTRAMARSTL WRERR (0.287::0.331)(0.587::0.982))
+            )
+        )
+        (TIMINGCHECK
+            (HOLD ENARDENL (posedge CLKARDCLKL) (-0.427::0.427))
+            (SETUP ENARDENL (posedge CLKARDCLKL) (-0.427::0.427))
+            (HOLD ENBWRENL (posedge CLKBWRCLKL) (-0.466::0.426))
+            (SETUP ENBWRENL (posedge CLKBWRCLKL) (-0.426::0.466))
+            (RECOVERY RSTRAMARSTL (posedge CLKARDCLKL) (0.957::2.368))
+            (REMOVAL RSTRAMARSTL (posedge CLKARDCLKL) (-2.368::-0.957))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_FIFO18_36_WRITE_MODE_L_NC_EN_ECC_READ_FALSE_EN_ECC_WRITE_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD DIADIL (posedge CLKBWRCLKL) (-0.737::0.667))
+            (SETUP DIADIL (posedge CLKBWRCLKL) (-0.667::0.737))
+            (HOLD DIPADIPL (posedge CLKBWRCLKL) (-0.737::0.667))
+            (SETUP DIPADIPL (posedge CLKBWRCLKL) (-0.667::0.737))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_FIFO18_WRITE_MODE_L_NC_EN_ECC_READ_FALSE_EN_ECC_WRITE_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD DIBDIL (posedge CLKBWRCLKL) (-0.737::0.667))
+            (SETUP DIBDIL (posedge CLKBWRCLKL) (-0.667::0.737))
+            (HOLD DIPBDIPL (posedge CLKBWRCLKL) (-0.737::0.667))
+            (SETUP DIPBDIPL (posedge CLKBWRCLKL) (-0.667::0.737))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_L_FIFO18_DOA_REG_L_0_EN_ECC_READ_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKARDCLKL DOADOL (0.585::1.098)(1.353::2.454))
+                (IOPATH CLKARDCLKL DOPADOPL (0.585::1.098)(1.353::2.454))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_L_FIFO18_DOA_REG_L_1_EN_ECC_READ_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKARDCLKL DOADOL (0.204::0.327)(0.468::0.882))
+                (IOPATH CLKARDCLKL DOPADOPL (0.204::0.327)(0.468::0.882))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_L_FIFO18_DOB_REG_L_0_EN_ECC_READ_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKARDCLKL DOBDOL (0.585::1.098)(1.353::2.454))
+                (IOPATH CLKARDCLKL DOPBDOPL (0.585::1.098)(1.353::2.454))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_L_FIFO18_DOB_REG_L_1_EN_ECC_READ_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKARDCLKL DOBDOL (0.204::0.327)(0.468::0.882))
+                (IOPATH CLKARDCLKL DOPBDOPL (0.204::0.327)(0.468::0.882))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_RAMB18SDP_U_WRITE_MODE_U_NC_EN_ECC_READ_FALSE_EN_ECC_WRITE_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD DIADIU (posedge CLKBWRCLKU) (-0.737::0.667))
+            (SETUP DIADIU (posedge CLKBWRCLKU) (-0.667::0.737))
+            (HOLD DIBDIU (posedge CLKBWRCLKU) (-0.737::0.667))
+            (SETUP DIBDIU (posedge CLKBWRCLKU) (-0.667::0.737))
+            (HOLD DIPADIPU (posedge CLKBWRCLKU) (-0.737::0.667))
+            (SETUP DIPADIPU (posedge CLKBWRCLKU) (-0.667::0.737))
+            (HOLD DIPBDIPU (posedge CLKBWRCLKU) (-0.737::0.667))
+            (SETUP DIPBDIPU (posedge CLKBWRCLKU) (-0.667::0.737))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_RAMB18SDP_U_WRITE_MODE_U_RF_EN_ECC_READ_FALSE_EN_ECC_WRITE_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD DIADIU (posedge CLKBWRCLKU) (-0.241::0.405))
+            (SETUP DIADIU (posedge CLKBWRCLKU) (-0.405::0.241))
+            (HOLD DIBDIU (posedge CLKBWRCLKU) (-0.241::0.405))
+            (SETUP DIBDIU (posedge CLKBWRCLKU) (-0.405::0.241))
+            (HOLD DIPADIPU (posedge CLKBWRCLKU) (-0.241::0.405))
+            (SETUP DIPADIPU (posedge CLKBWRCLKU) (-0.405::0.241))
+            (HOLD DIPBDIPU (posedge CLKBWRCLKU) (-0.241::0.405))
+            (SETUP DIPBDIPU (posedge CLKBWRCLKU) (-0.405::0.241))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_RAMB18SDP_U_WRITE_MODE_U_WF_EN_ECC_READ_FALSE_EN_ECC_WRITE_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD DIADIU (posedge CLKBWRCLKU) (-0.737::0.667))
+            (SETUP DIADIU (posedge CLKBWRCLKU) (-0.667::0.737))
+            (HOLD DIBDIU (posedge CLKBWRCLKU) (-0.737::0.667))
+            (SETUP DIBDIU (posedge CLKBWRCLKU) (-0.667::0.737))
+            (HOLD DIPADIPU (posedge CLKBWRCLKU) (-0.737::0.667))
+            (SETUP DIPADIPU (posedge CLKBWRCLKU) (-0.667::0.737))
+            (HOLD DIPBDIPU (posedge CLKBWRCLKU) (-0.737::0.667))
+            (SETUP DIPBDIPU (posedge CLKBWRCLKU) (-0.667::0.737))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_RAMB18TDP_U_WRITE_MODE_U_NC_EN_ECC_READ_FALSE_EN_ECC_WRITE_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD DIADIU (posedge CLKARDCLKU) (-0.737::0.667))
+            (SETUP DIADIU (posedge CLKARDCLKU) (-0.667::0.737))
+            (HOLD DIBDIU (posedge CLKBWRCLKU) (-0.737::0.667))
+            (SETUP DIBDIU (posedge CLKBWRCLKU) (-0.667::0.737))
+            (HOLD DIPADIPU (posedge CLKARDCLKU) (-0.737::0.667))
+            (SETUP DIPADIPU (posedge CLKARDCLKU) (-0.667::0.737))
+            (HOLD DIPBDIPU (posedge CLKBWRCLKU) (-0.737::0.667))
+            (SETUP DIPBDIPU (posedge CLKBWRCLKU) (-0.667::0.737))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_RAMB18TDP_U_WRITE_MODE_U_RF_EN_ECC_READ_FALSE_EN_ECC_WRITE_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD DIADIU (posedge CLKARDCLKU) (-0.241::0.405))
+            (SETUP DIADIU (posedge CLKARDCLKU) (-0.405::0.241))
+            (HOLD DIBDIU (posedge CLKBWRCLKU) (-0.241::0.405))
+            (SETUP DIBDIU (posedge CLKBWRCLKU) (-0.405::0.241))
+            (HOLD DIPADIPU (posedge CLKARDCLKU) (-0.241::0.405))
+            (SETUP DIPADIPU (posedge CLKARDCLKU) (-0.405::0.241))
+            (HOLD DIPBDIPU (posedge CLKBWRCLKU) (-0.241::0.405))
+            (SETUP DIPBDIPU (posedge CLKBWRCLKU) (-0.405::0.241))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_RAMB18TDP_U_WRITE_MODE_U_WF_EN_ECC_READ_FALSE_EN_ECC_WRITE_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (TIMINGCHECK
+            (HOLD DIADIU (posedge CLKARDCLKU) (-0.737::0.667))
+            (SETUP DIADIU (posedge CLKARDCLKU) (-0.667::0.737))
+            (HOLD DIBDIU (posedge CLKBWRCLKU) (-0.737::0.667))
+            (SETUP DIBDIU (posedge CLKBWRCLKU) (-0.667::0.737))
+            (HOLD DIPADIPU (posedge CLKARDCLKU) (-0.737::0.667))
+            (SETUP DIPADIPU (posedge CLKARDCLKU) (-0.667::0.737))
+            (HOLD DIPBDIPU (posedge CLKBWRCLKU) (-0.737::0.667))
+            (SETUP DIPBDIPU (posedge CLKBWRCLKU) (-0.667::0.737))
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_U_RAMB18SDP_U_DOA_REG_U_0_EN_ECC_READ_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKARDCLKU DOADOU (0.585::1.098)(1.353::2.454))
+                (IOPATH CLKARDCLKU DOPADOPU (0.585::1.098)(1.353::2.454))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_U_RAMB18SDP_U_DOA_REG_U_1_EN_ECC_READ_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKARDCLKU DOADOU (0.204::0.327)(0.468::0.882))
+                (IOPATH CLKARDCLKU DOPADOPU (0.204::0.327)(0.468::0.882))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_U_RAMB18SDP_U_DOB_REG_U_0_EN_ECC_READ_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKARDCLKU DOBDOU (0.585::1.098)(1.353::2.454))
+                (IOPATH CLKARDCLKU DOPBDOPU (0.585::1.098)(1.353::2.454))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_U_RAMB18SDP_U_DOB_REG_U_1_EN_ECC_READ_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKARDCLKU DOBDOU (0.204::0.327)(0.468::0.882))
+                (IOPATH CLKARDCLKU DOPBDOPU (0.204::0.327)(0.468::0.882))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_U_RAMB18TDP_U_DOA_REG_U_0_EN_ECC_READ_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKARDCLKU DOADOU (0.585::1.098)(1.353::2.454))
+                (IOPATH CLKARDCLKU DOPADOPU (0.585::1.098)(1.353::2.454))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_U_RAMB18TDP_U_DOA_REG_U_1_EN_ECC_READ_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKARDCLKU DOADOU (0.204::0.327)(0.468::0.882))
+                (IOPATH CLKARDCLKU DOPADOPU (0.204::0.327)(0.468::0.882))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_U_RAMB18TDP_U_DOB_REG_U_0_EN_ECC_READ_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKBWRCLKU DOBDOU (0.585::1.098)(1.353::2.454))
+                (IOPATH CLKBWRCLKU DOPBDOPU (0.585::1.098)(1.353::2.454))
+            )
+        )
+    )
+    (CELL
+        (CELLTYPE "RAMBFIFO36E1RAM_MODE_U_RAMB18TDP_U_DOB_REG_U_1_EN_ECC_READ_FALSE")
+        (INSTANCE RAMBFIFO36E1)
+        (DELAY
+            (ABSOLUTE
+                (IOPATH CLKBWRCLKU DOBDOU (0.204::0.327)(0.468::0.882))
+                (IOPATH CLKBWRCLKU DOPBDOPU (0.204::0.327)(0.468::0.882))
+            )
+        )
+    )
+)
