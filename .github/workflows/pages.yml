@@ -1,0 +1,42 @@
+name: Build GitHub Pages
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+
+#env:
+#  global:
+#   - GIT_COMMITTER_NAME="SymbiYosys Travis Bot"
+#   - GIT_COMMITTER_EMAIL="nobody@nowhere.com"
+
+jobs:
+
+  Build-GitHub-Pages:
+    runs-on: ubuntu-18.04
+    steps:
+
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Save SSH key
+      run: ./.github/scripts/save-key.sh
+      env:
+        GH_KEY: ${{ secrets.GH_KEY }}
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+        cache: 'pip'
+
+    - name: Install Python Dependencies
+      run: pip install -r ./.github/scripts/requirements.txt
+
+    - name: Generate HTML pages
+      run: ./.github/scripts/generate-html.sh
+
+    - name: Push to gh-pages branch
+      run: if [ -e ~/.ssh/agent.sh ]; then source ~/.ssh/agent.sh; ./.github/scripts/push-html.sh; fi

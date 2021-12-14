@@ -7,6 +7,9 @@ if [ ! -d html ]; then
 	exit 1
 fi
 
+export GIT_COMMITTER_NAME="SymbiFlow Travis Bot"
+export GIT_COMMITTER_EMAIL="nobody@nowhere.com"
+
 export GIT_AUTHOR_NAME="$(git log -1 --pretty=%an)"
 export GIT_AUTHOR_EMAIL="$(git log -1 --pretty=%ae)"
 
@@ -54,12 +57,12 @@ TMPDIR=$(mktemp -d)
 		git status
 		echo "--------------------------------------------"
 
-		if [ ! -z "$TRAVIS" ]; then
+		if [ ! -z "$GITHUB_WORKFLOW" ]; then
 			git commit -a \
-				-m "Travis build #$TRAVIS_BUILD_NUMBER of $CURRENT_REVISION" \
+				-m "GitHub Actions build #$GITHUB_RUN_NUMBER of $CURRENT_REVISION" \
 				-m "" \
-				-m "From https://github.com/$TRAVIS_REPO_SLUG/tree/$TRAVIS_COMMIT" \
-				-m "$TRAVIS_COMIT_MESSAGE"
+				-m "From https://github.com/$GITHUB_REPOSITORY/tree/$GITHUB_SHA" \
+				-m "$CURRENT_MESSAGE"
 		else
 			git commit -a \
 				-m "Manual build of $CURRENT_REVISION" \

@@ -43,7 +43,16 @@ fi
 # Output some information about the version of Project X-ray we are using.
 (
 	cd $TMPDIR/prjxray
+	# Add upstream if it doesn't exist
+	if git remote -v | grep -q SymbiFlow/prjxray; then
+		echo "Upstream repo already exists."
+	else
+		git remote add upstream https://github.com/SymbiFlow/prjxray.git
+		git fetch upstream
+	fi
+	# Make sure we have tags
 	git fetch --tags
+	# Reset to the right revision
 	git reset --hard $PRJXRAY_INFO_REVISION
 	echo
 	echo "Project X-Ray Revision $(git describe --long --tags --always)"
@@ -60,8 +69,10 @@ fi
 )
 
 # Generate the HTML for each device we have a settings file for.
-for SETTINGS in $TMPDIR/prjxray/settings/*.sh; do
+for SETTINGS in $(ls $TMPDIR/prjxray/settings/*.sh | grep '7.sh$'); do
 	DEVICE="$(basename $SETTINGS .sh)"
+
+	export PYTHONPATH=$PYTHONPATH:$TMPDIR/prjxray
 
 	echo
 	echo "Generating for $DEVICE"
@@ -95,7 +106,7 @@ for SETTINGS in $TMPDIR/prjxray/settings/*.sh; do
 
 done
 
-cp COPYING html/COPYING
+cp LICENSE html/LICENSE
 
 # Generate the index page from the Info.md file
 python3 -m markdown \
